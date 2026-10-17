@@ -32,6 +32,8 @@ const NODE_ART = {
   skyriggers: { src: "art/human-skyrigger.png", name: "Skyrigger" },
   openhearths: { src: "art/human-innkeeper.png", name: "Open Hearth Innkeeper" },
   waysidehealers: { src: "art/human-healer.png", name: "Wayside Healer" },
+  minstrels: { src: "art/human-minstrel.png", name: "Minstrel" },
+  marketeers: { src: "art/human-marketeer.png", name: "Marketeer" },
   teapamphlet: { src: "art/human-teapamphlet.png", name: "Tea & Pamphlet Warden" },
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
@@ -204,19 +206,30 @@ function characters(...path) {
   const own = [...trail].reverse().map((t) => NODE_ART[t.id]).find(Boolean);
   const party = PARTY.find((p) => p.people === gid);
   const node = trail.length ? trail[trail.length - 1] : group;
+  const ids0 = [gid, ...trail.map((t) => t.id)];
+  // art of every illustrated specialization under a node, with the path that opens it
+  const leafArt = (n, ids) => (n.subs || []).flatMap((s) => {
+    const p = [...ids, s.id];
+    return NODE_ART[s.id] ? [{ ...NODE_ART[s.id], path: p }] : leafArt(s, p);
+  });
   let figs;
   if (own) figs = [own];
-  else if (trail.length) {
-    const kids = (node.subs || []).map((s) => NODE_ART[s.id]).filter(Boolean);
-    figs = kids.length ? kids : party && !party.exactOnly ? [party] : [];
-  } else figs = party && party.src ? [party] : [];
+  else {
+    const below = leafArt(node, ids0);
+    if (below.length >= 2 || (below.length && trail.length)) figs = below;
+    else figs = party && party.src && !(party.exactOnly && trail.length) ? [party] : [];
+  }
   const caption = figs.length === 1 ? figs[0].name || node.name : node.name;
+  const figHtml = figs.map((f) => `
+      <${f.path ? "a" : "div"} class="fi" ${f.path ? `data-go="#/characters/${f.path.join("/")}"` : ""} data-name="${esc(f.name)}" title="${esc(f.name)}">
+        <img src="${f.src}" alt="${esc(f.name)}">
+      </${f.path ? "a" : "div"}>`).join("");
 
   return `${head}
   <div class="workspace" style="${gStyle(group)}">
     <aside class="chooser">${chooser}</aside>
-    <figure class="fig n${figs.length}">
-      ${figs.length ? figs.map((f) => `<img src="${f.src}" alt="${esc(f.name)}">`).join("") : `<div class="fig-ph">${ic(node.icon)}</div>`}
+    <figure class="fig n${figs.length} ${figs.length > 3 ? "grid" : ""}" style="--cols:${Math.min(4, figs.length)}">
+      ${figs.length ? figHtml : `<div class="fig-ph">${ic(node.icon)}</div>`}
       <figcaption>${esc(caption)}</figcaption>
     </figure>
     <div class="details-wrap">
