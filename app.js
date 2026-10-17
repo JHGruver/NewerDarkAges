@@ -34,6 +34,12 @@ const NODE_ART = {
   waysidehealers: { src: "art/human-healer.png", name: "Wayside Healer" },
   minstrels: { src: "art/human-minstrel.png", name: "Minstrel" },
   marketeers: { src: "art/human-marketeer.png", name: "Marketeer" },
+  rapierroses: { src: "art/vampire-roseblade.png", name: "Rose Blade Duelist" },
+  lanternfoxes: { src: "art/were-kitsune.png", name: "Lantern Fox" },
+  marshlamps: { src: "art/ghost-wanderer.png", name: "Talisman Wanderer" },
+  drumcorps: { src: "art/undead-drummer.png", name: "Drum Corps Skeleton" },
+  groveguardians: { src: "art/forest-dryad.png", name: "Grove Guardian" },
+  hedgewitches: { src: "art/witch-moon.png", name: "Moon Witch" },
   teapamphlet: { src: "art/human-teapamphlet.png", name: "Tea & Pamphlet Warden" },
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
@@ -204,31 +210,30 @@ function characters(...path) {
   // middle third: the character(s). A specialization shows its own art; a subclass shows its
   // specializations' art together; otherwise the people's character. Humans without art get the icon.
   const own = [...trail].reverse().map((t) => NODE_ART[t.id]).find(Boolean);
-  const party = PARTY.find((p) => p.people === gid);
   const node = trail.length ? trail[trail.length - 1] : group;
   const ids0 = [gid, ...trail.map((t) => t.id)];
-  // art of every illustrated specialization under a node, with the path that opens it
-  const leafArt = (n, ids) => (n.subs || []).flatMap((s) => {
+  // Every specialization under a node: its art when we have it, otherwise a placeholder icon.
+  // Each one is a link, so any character stays reachable from the middle third too.
+  const leaves = (n, ids) => (n.subs || []).flatMap((s) => {
     const p = [...ids, s.id];
-    return NODE_ART[s.id] ? [{ ...NODE_ART[s.id], path: p }] : leafArt(s, p);
+    if (NODE_ART[s.id]) return [{ ...NODE_ART[s.id], path: p, icon: s.icon }];
+    return s.subs && s.subs.length ? leaves(s, p) : [{ path: p, icon: s.icon, name: s.name, ph: true }];
   });
-  let figs;
-  if (own) figs = [own];
-  else {
-    const below = leafArt(node, ids0);
-    if (below.length >= 2 || (below.length && trail.length)) figs = below;
-    else figs = party && party.src && !(party.exactOnly && trail.length) ? [party] : [];
-  }
-  const caption = figs.length === 1 ? figs[0].name || node.name : node.name;
-  const figHtml = figs.map((f) => `
-      <${f.path ? "a" : "div"} class="fi" ${f.path ? `data-go="#/characters/${f.path.join("/")}"` : ""} data-name="${esc(f.name)}" title="${esc(f.name)}">
-        <img src="${f.src}" alt="${esc(f.name)}">
-      </${f.path ? "a" : "div"}>`).join("");
+  const figs = own ? [own] : leaves(node, ids0);
+  const cols = figs.length <= 3 ? figs.length : figs.length <= 8 ? 4 : figs.length <= 15 ? 5 : 6;
+  const caption = figs.length === 1 && figs[0].name ? figs[0].name : node.name;
+  const figHtml = figs.map((f) => {
+    const tag = f.path ? "a" : "div";
+    return `
+      <${tag} class="fi ${f.ph ? "ph" : ""}" ${f.path ? `data-go="#/characters/${f.path.join("/")}"` : ""} data-name="${esc(f.name)}" title="${esc(f.name)}">
+        ${f.ph ? `<span class="phs">${ic(f.icon)}<em class="lab">${esc(f.name)}</em></span>` : `<img src="${f.src}" alt="${esc(f.name)}">`}
+      </${tag}>`;
+  }).join("");
 
   return `${head}
   <div class="workspace" style="${gStyle(group)}">
     <aside class="chooser">${chooser}</aside>
-    <figure class="fig n${figs.length} ${figs.length > 3 ? "grid" : ""}" style="--cols:${Math.min(4, figs.length)}">
+    <figure class="fig n${figs.length} ${figs.length > 3 ? "grid" : ""} ${figs.length > 8 ? "dense" : ""}" style="--cols:${cols}">
       ${figs.length ? figHtml : `<div class="fig-ph">${ic(node.icon)}</div>`}
       <figcaption>${esc(caption)}</figcaption>
     </figure>
