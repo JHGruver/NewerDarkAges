@@ -30,6 +30,8 @@ const NODE_ART = {
   silverlanterns: { src: "art/human-silverlantern.png", name: "Silver Lantern Witch Hunter" },
   cogsmiths: { src: "art/human-cogsmith.png", name: "Cogsmith" },
   skyriggers: { src: "art/human-skyrigger.png", name: "Skyrigger" },
+  openhearths: { src: "art/human-innkeeper.png", name: "Open Hearth Innkeeper" },
+  waysidehealers: { src: "art/human-healer.png", name: "Wayside Healer" },
   teapamphlet: { src: "art/human-teapamphlet.png", name: "Tea & Pamphlet Warden" },
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
