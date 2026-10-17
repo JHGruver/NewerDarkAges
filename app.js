@@ -24,8 +24,6 @@ const PARTY = [
   { people: "forest", src: "art/forest-dryad.png", name: "Grove Guardian", path: "forest/greenwardens/groveguardians" },
   { people: "witch", src: "art/witch-moon.png", name: "Moon Witch", path: "witch/hedgewitches" },
 ];
-const NODE_ART = { wardens: 0, silverlanterns: 0, velvet: 1, rapierroses: 1, fox: 2, lanternfoxes: 2, wisplights: 3, marshlamps: 3, boneguard: 4, drumcorps: 4, greenwardens: 5, groveguardians: 5, hedgewitches: 6 };
-const artFor = (id) => (id in NODE_ART ? PARTY[NODE_ART[id]] : null);
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
 const stage = (gid) => `
@@ -86,61 +84,63 @@ function home() {
   </section>`;
 }
 
-function nodeCards(parent, group, pathIds, selId, label) {
-  const base = `#/characters/${[group.id, ...pathIds].join("/")}`;
-  return `
-  <h2 style="margin-top:28px">${esc(label)} <span class="muted" style="font-size:1rem;font-family:var(--mono);letter-spacing:.1em">· ${parent.subs.length} to choose from</span></h2>
-  <div class="sub-grid">
+// ---- Character select ----
+// No people chosen: selector + the seven-character line-up.
+// A people chosen: one-screen workspace. Chosen levels collapse into thin icon rails, the next level's
+// choices take the selector slot, the character stands beside it, and the details scroll sideways.
+const rail = (items, selId, base, tinted) => `
+  <nav class="rail">
+    ${items.map((i) => `
+      <button class="rbtn ${i.id === selId ? "sel" : ""}" ${tinted ? `style="${gStyle(i)}"` : ""} data-go="${base}/${i.id}" title="${esc(i.name)}">${ic(i.icon)}</button>`).join("")}
+  </nav>`;
+
+const picker = (parent, base, label) => `
+  <section class="picker ${parent.subs.length <= 4 ? "few" : ""}">
+    <div class="eyebrow">${esc(label)}</div>
     ${parent.subs.map((s) => `
-      <button class="scard ${s.id === selId ? "sel" : ""}" data-go="${base}/${s.id}">
-        <span class="ico">${ic(s.icon)}</span><span class="nm">${esc(s.name)}</span><span class="tg">${esc(s.tagline)}</span>
-        ${s.subs ? `<span class="tg" style="margin-top:4px;font-weight:600">${s.subs.length} ${esc(((group.levelNames || LEVEL_DEFAULT)[pathIds.length + 1] || "Variant").toLowerCase())}s inside →</span>` : ""}
+      <button class="pitem" data-go="${base}/${s.id}" title="${esc(s.tagline)}">
+        <span class="ico">${ic(s.icon)}</span>
+        <span class="txt"><span class="nm">${esc(s.name)}</span><span class="tg">${esc(s.tagline)}</span></span>
+        ${s.subs ? `<span class="go">${s.subs.length}</span>` : ""}
       </button>`).join("")}
-  </div>`;
-}
+  </section>`;
 
-function detail(node, group, trail) {
+const gearPills = (g) => g.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("");
+
+function detailBlocks(group, trail, names) {
+  const node = trail.length ? trail[trail.length - 1] : group;
   const crumbs = [group.name, ...trail.map((t) => t.name)];
-  return `
-  <article class="detail" id="detail" style="${gStyle(group)}">
-    <div class="detail-head">
-      <div class="big">${ic(node.icon)}</div>
-      <div>
-        <div class="eyebrow" style="color:#fffc">${crumbs.map(esc).join(" › ")}</div>
-        <h2>${esc(node.name)}</h2>
-        <p>${esc(node.tagline)}</p>
-      </div>
+  let h = `
+    <div class="blk blk-title">
+      <div class="eyebrow">${crumbs.map(esc).join(" › ")}</div>
+      <h2>${ic(node.icon)} ${esc(node.name)}</h2>
+      <p class="tagline">${esc(node.tagline)}</p>
     </div>
-    <div class="detail-body">
-      <div class="wide"><h4>Overview</h4><p>${esc(node.summary)}</p></div>
-      <div><h4>Background &amp; Lore</h4><p>${esc(node.lore)}</p></div>
-      ${artFor(node.id) ? `<div class="art-img"><img src="${artFor(node.id).src}" alt="${esc(node.name)}"></div>` : `<div class="art-ph"><div><strong>${ic(node.icon)}</strong>Character art goes here<br><em>${esc(node.look)}</em></div></div>`}
-      <div><h4>Strengths</h4>${list(node.strengths, "good")}</div>
-      <div><h4>Weaknesses</h4>${list(node.weaknesses, "bad")}</div>
-      <div><h4>Signature Abilities</h4>${list(node.abilities)}</div>
-      <div>
-        <h4>Starting Gear</h4><p>${node.gear.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("")}</p>
-        <h4>Art Direction</h4><p>${esc(node.look)}</p>
-      </div>
-    </div>
-  </article>`;
-}
-
-function extrasBlock(group) {
-  if (!group.extras) return "";
-  return group.extras.map((ex) => `
-  <section class="block" style="${gStyle(group)}">
-    <h2>${esc(ex.title)}</h2>
-    <div class="grid cols-2">${ex.items.map((it) => `
-      <div class="panel" style="border-left:8px solid var(--g)"><h3>${esc(it.name)}</h3><div>${esc(it.desc)}</div></div>`).join("")}
-    </div>
-  </section>`).join("");
+    <div class="blk"><h4>Overview</h4><p>${esc(node.summary)}</p></div>
+    <div class="blk"><h4>Background &amp; lore</h4><p>${esc(node.lore)}</p></div>`;
+  if (!trail.length) {
+    h += `
+    <div class="blk"><h4>Playstyle</h4><p>${esc(node.playstyle)}</p></div>
+    <div class="blk"><h4>Tendencies</h4><div class="bars">${Object.entries(node.traits).map(([k, v]) => `
+      <div class="bar"><span>${k}</span><span class="track"><span class="fill" style="width:${v * 20}%"></span></span></div>`).join("")}</div></div>`;
+    (node.extras || []).forEach((ex) => {
+      h += `<div class="blk blk-title"><div class="eyebrow">Rules</div><h3>${esc(ex.title)}</h3></div>`;
+      ex.items.forEach((it) => { h += `<div class="blk"><h4>${esc(it.name)}</h4><p>${esc(it.desc)}</p></div>`; });
+    });
+  } else {
+    h += `
+    <div class="blk"><h4>Strengths</h4>${list(node.strengths, "good")}</div>
+    <div class="blk"><h4>Weaknesses</h4>${list(node.weaknesses, "bad")}</div>
+    <div class="blk"><h4>Signature abilities</h4>${list(node.abilities)}</div>
+    <div class="blk"><h4>Starting gear</h4><p>${gearPills(node.gear)}</p><h4>What they look like</h4><p>${esc(node.look)}</p></div>`;
+    if (node.subs) h += `<div class="blk"><h4>Go deeper</h4><p>${node.subs.length} ${esc((names[trail.length] || "variant").toLowerCase())}s to choose from, listed on the left.</p></div>`;
+  }
+  return h;
 }
 
 function characters(...path) {
   const [gid, ...rest] = path;
   const group = GROUPS.find((g) => g.id === gid);
-  // Walk the tree following the path; stop at the first id that does not exist.
   const trail = [];
   let cur = group;
   for (const id of rest) {
@@ -149,66 +149,48 @@ function characters(...path) {
     trail.push(next); cur = next;
   }
   const names = group ? group.levelNames || LEVEL_DEFAULT : LEVEL_DEFAULT;
-
-  let html = `
+  const stepLabels = (group ? names.slice(0, 2) : ["Subclass", "Specialization"]);
+  const head = `
   <div class="page-head">
-  <div class="title"><div class="eyebrow">Character Select</div><h1>Who will you be?</h1></div>
-  <div class="steps">
-    <span class="step ${!group ? "on" : ""}">1 · Choose a people</span>
-    ${(group ? names.slice(0, 2) : ["Subclass", "Specialization"]).map((n, i) => `<span class="step ${group && trail.length === i ? "on" : ""}">${i + 2} · Choose a ${esc(n.toLowerCase())}</span>`).join("")}
-    <span class="step ${trail.length >= 1 ? "on" : ""}">Read the details</span>
-  </div>
-  </div>
-  `;
-  const totem = `
-  <aside class="totem" aria-label="Choose a people">
-    <div class="eyebrow">Peoples</div>
-    ${GROUPS.map((g) => `
-      <button class="tcard ${g.id === gid ? "sel" : ""}" data-people="${g.id}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">
-        <span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span>
-      </button>`).join("")}
-  </aside>`;
-  let body = "";
-  const wrap = () => `${html}<div class="select-layout">${totem}<div class="select-main">${stage(gid)}${body}</div></div>`;
-
-  if (!group) return (body = `<div class="empty">Pick a people on the left to see their paths.</div>`, wrap());
-
-  body += `
-  <div class="group-banner" style="${gStyle(group)}">
-    <div>
-      <div class="big">${ic(group.icon)}</div>
-      <h2>${esc(group.name)}</h2>
-      <p><strong>${esc(group.tagline)}</strong></p>
-      <p>${esc(group.summary)}</p>
-      <p class="muted">${esc(group.lore)}</p>
-      <p><span class="eyebrow">Playstyle</span><br>${esc(group.playstyle)}</p>
-    </div>
-    <div class="bars">
-      <div class="eyebrow">Group tendencies</div>
-      ${Object.entries(group.traits).map(([k, v]) => `
-        <div class="bar"><span>${k}</span><span class="track"><span class="fill" style="width:${v * 20}%"></span></span></div>`).join("")}
+    <div class="title"><div class="eyebrow">Character Select</div><h1>Who will you be?</h1></div>
+    <div class="steps">
+      <span class="step ${!group ? "on" : ""}">1 · Choose a people</span>
+      ${stepLabels.map((n, i) => `<span class="step ${group && trail.length === i ? "on" : ""}">${i + 2} · Choose a ${esc(n.toLowerCase())}</span>`).join("")}
+      <span class="step ${trail.length >= 1 ? "on" : ""}">Read the details</span>
     </div>
   </div>`;
 
-  // One row of cards per level already walked, so you can jump sideways at any depth.
-  let parent = group; const ids = [];
-  for (let d = 0; d <= trail.length; d++) {
-    if (!parent.subs) break;
-    const sel = trail[d] ? trail[d].id : null;
-    // Only show the next unselected row once, after the detail, if the chain ended on a node with children.
-    if (d < trail.length) body += nodeCards(parent, group, ids, sel, `${names[d] || "Variant"}`);
-    if (trail[d]) { ids.push(trail[d].id); parent = trail[d]; }
+  if (!group) {
+    const totem = `
+    <aside class="totem" aria-label="Choose a people">
+      <div class="eyebrow">Peoples</div>
+      ${GROUPS.map((g) => `
+        <button class="tcard" data-people="${g.id}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">
+          <span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span>
+        </button>`).join("")}
+    </aside>`;
+    return `${head}<div class="select-layout">${totem}<div class="select-main">${stage("")}<div class="empty">Pick a people on the left to see their paths.</div></div></div>`;
   }
-  if (!trail.length) body += nodeCards(group, group, [], null, names[0]);
 
-  if (trail.length) {
-    body += detail(trail[trail.length - 1], group, trail);
-    const last = trail[trail.length - 1];
-    if (last.subs) body += nodeCards(last, group, ids, null, `Choose a ${names[trail.length] || "variant"} within ${last.name}`);
-  }
-  if (!trail.length) body += extrasBlock(group);
-  else if (group.extras) body += `<p class="muted" style="margin-top:20px">Rules for this people are on the <a href="#/characters/${group.id}" style="text-decoration:underline">${esc(group.name)} overview</a>.</p>`;
-  return wrap();
+  // collapsed levels -> thin icon rails
+  let rails = rail(GROUPS, gid, "#/characters", true);
+  let parent = group; const ids = [gid];
+  trail.forEach((t) => { rails += rail(parent.subs, t.id, `#/characters/${ids.join("/")}`, false); ids.push(t.id); parent = t; });
+  const pick = parent.subs ? picker(parent, `#/characters/${ids.join("/")}`, names[trail.length] || "Variant") : "";
+  const art = PARTY.find((p) => p.people === gid);
+
+  return `${head}
+  <div class="workspace" style="${gStyle(group)}">
+    ${rails}${pick}
+    <figure class="fig">
+      ${art && art.src ? `<img src="${art.src}" alt="${esc(art.name)}">` : `<div class="fig-ph">${ic(group.icon)}</div>`}
+      <figcaption>${esc(art && art.name ? art.name : group.name)}</figcaption>
+    </figure>
+    <div class="details-wrap">
+      <section class="details" tabindex="0" aria-label="Details">${detailBlocks(group, trail, names)}</section>
+      <div class="scroll-hint">Scroll →</div>
+    </div>
+  </div>`;
 }
 
 function manual(nid) {
@@ -309,13 +291,14 @@ function render() {
   else html = home();
 
   app.innerHTML = html;
+  document.body.classList.toggle("fit", route === "characters" && !!rest[0] && !!GROUPS.find((g) => g.id === rest[0]));
   const key = route || "home";
   document.querySelectorAll("#nav a").forEach((n) => n.classList.toggle("active", n.dataset.route === key));
   // Tint the 3D rose window with the selected people's / NPC's color.
   const tintColor = route === "characters" && rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color
     : route === "manual" && rest[0] ? ((MANUAL.npcs.find((n) => n.id === rest[0]) || {}).color) : null;
   if (window.NDA3D) NDA3D.tint(tintColor || null);
-  const title = document.querySelector(".detail-head h2");
+  const title = document.querySelector(".detail-head h2, .blk-title h2");
   document.title = (title ? title.textContent + " · " : "") + "The Newer Dark Ages";
 
   const target = document.getElementById("detail");
@@ -333,6 +316,13 @@ const hot = (e, on) => {
   const st = document.querySelector(".stage");
   if (st) st.classList.toggle("has-hot", on);
 };
+// In the workspace the details scroll sideways: let the mouse wheel drive them.
+app.addEventListener("wheel", (e) => {
+  const d = e.target.closest(".details");
+  if (!d || d.scrollWidth <= d.clientWidth || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
+  e.preventDefault();
+  d.scrollLeft += e.deltaY;
+}, { passive: false });
 app.addEventListener("mouseover", (e) => hot(e, true));
 app.addEventListener("mouseout", (e) => hot(e, false));
 app.addEventListener("click", (e) => {
