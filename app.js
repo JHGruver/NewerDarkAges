@@ -96,21 +96,28 @@ function home() {
 // No people chosen: selector + the seven-character line-up.
 // A people chosen: one-screen workspace. Chosen levels collapse into thin icon rails, the next level's
 // choices take the selector slot, the character stands beside it, and the details scroll sideways.
-const rail = (items, selId, base, tinted) => `
-  <nav class="rail">
-    ${items.map((i) => `
-      <button class="rbtn ${i.id === selId ? "sel" : ""}" ${tinted ? `style="${gStyle(i)}"` : ""} data-go="${base}/${i.id}" title="${esc(i.name)}">${ic(i.icon)}</button>`).join("")}
-  </nav>`;
+// Left third: people as a row of icons, then one full-width button list per open level.
+// Every level stays open (selected button highlighted), so nothing ever collapses.
+const peopleRow = (gid) => `
+  <section class="c-people">
+    <div class="eyebrow">People</div>
+    <div class="prow">
+      ${GROUPS.map((g) => `
+        <button class="pbtn ${g.id === gid ? "sel" : ""}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">${ic(g.icon)}</button>`).join("")}
+    </div>
+  </section>`;
 
-const picker = (parent, base, label) => `
-  <section class="picker ${parent.subs.length <= 4 ? "few" : ""}">
+const levelList = (parent, selId, base, label) => `
+  <section class="c-level" style="flex-grow:${parent.subs.length}">
     <div class="eyebrow">${esc(label)}</div>
-    ${parent.subs.map((s) => `
-      <button class="pitem" data-go="${base}/${s.id}" title="${esc(s.tagline)}">
-        <span class="ico">${ic(s.icon)}</span>
-        <span class="txt"><span class="nm">${esc(s.name)}</span><span class="tg">${esc(s.tagline)}</span></span>
-        ${s.subs ? `<span class="go">${s.subs.length}</span>` : ""}
-      </button>`).join("")}
+    <div class="clist">
+      ${parent.subs.map((s) => `
+        <button class="pitem ${s.id === selId ? "sel" : ""}" data-go="${base}/${s.id}" title="${esc(s.tagline)}">
+          <span class="ico">${ic(s.icon)}</span>
+          <span class="nm">${esc(s.name)}</span>
+          ${s.subs ? `<span class="go">${s.subs.length}</span>` : ""}
+        </button>`).join("")}
+    </div>
   </section>`;
 
 const gearPills = (g) => g.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("");
@@ -180,23 +187,35 @@ function characters(...path) {
     return `${head}<div class="select-layout">${totem}<div class="select-main">${stage("")}<div class="empty">Pick a people on the left to see their paths.</div></div></div>`;
   }
 
-  // collapsed levels -> thin icon rails
-  let rails = rail(GROUPS, gid, "#/characters", true);
+  // left third: people row + a full-width list for every open level
+  let chooser = peopleRow(gid);
   let parent = group; const ids = [gid];
-  trail.forEach((t) => { rails += rail(parent.subs, t.id, `#/characters/${ids.join("/")}`, false); ids.push(t.id); parent = t; });
-  const pick = parent.subs ? picker(parent, `#/characters/${ids.join("/")}`, names[trail.length] || "Variant") : "";
+  for (let d = 0; parent && parent.subs; d++) {
+    const sel = trail[d];
+    chooser += levelList(parent, sel && sel.id, `#/characters/${ids.join("/")}`, names[d] || "Variant");
+    if (!sel) break;
+    ids.push(sel.id); parent = sel;
+  }
+
+  // middle third: the character(s). A specialization shows its own art; a subclass shows its
+  // specializations' art together; otherwise the people's character. Humans without art get the icon.
   const own = [...trail].reverse().map((t) => NODE_ART[t.id]).find(Boolean);
   const party = PARTY.find((p) => p.people === gid);
-  // Humans only show art for the exact specialization that has it; the rest get the icon.
-  const art = own || (party && party.exactOnly && trail.length ? null : party);
-  const figIcon = (trail.length ? trail[trail.length - 1] : group).icon;
+  const node = trail.length ? trail[trail.length - 1] : group;
+  let figs;
+  if (own) figs = [own];
+  else if (trail.length) {
+    const kids = (node.subs || []).map((s) => NODE_ART[s.id]).filter(Boolean);
+    figs = kids.length ? kids : party && !party.exactOnly ? [party] : [];
+  } else figs = party && party.src ? [party] : [];
+  const caption = figs.length === 1 ? figs[0].name || node.name : node.name;
 
   return `${head}
   <div class="workspace" style="${gStyle(group)}">
-    ${rails}${pick}
-    <figure class="fig">
-      ${art && art.src ? `<img src="${art.src}" alt="${esc(art.name)}">` : `<div class="fig-ph">${ic(figIcon)}</div>`}
-      <figcaption>${esc(art && art.name ? art.name : (trail.length ? trail[trail.length - 1] : group).name)}</figcaption>
+    <aside class="chooser">${chooser}</aside>
+    <figure class="fig n${figs.length}">
+      ${figs.length ? figs.map((f) => `<img src="${f.src}" alt="${esc(f.name)}">`).join("") : `<div class="fig-ph">${ic(node.icon)}</div>`}
+      <figcaption>${esc(caption)}</figcaption>
     </figure>
     <div class="details-wrap">
       <section class="details" tabindex="0" aria-label="Details">${detailBlocks(group, trail, names)}</section>
