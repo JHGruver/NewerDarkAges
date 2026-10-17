@@ -169,7 +169,7 @@ function characters(...path) {
       </button>`).join("")}
   </aside>`;
   let body = "";
-  const wrap = () => `${html}${stage(gid)}<div class="select-layout">${totem}<div class="select-main">${body}</div></div>`;
+  const wrap = () => `${html}<div class="select-layout">${totem}<div class="select-main">${stage(gid)}${body}</div></div>`;
 
   if (!group) return (body = `<div class="empty">Pick a people on the left to see their paths.</div>`, wrap());
 
