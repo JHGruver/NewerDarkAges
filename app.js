@@ -17,19 +17,29 @@ const LEVEL_DEFAULT = ["Subclass", "Specialization", "Variant"];
 // Real character art. Keyed by node id so it shows on the matching detail panel.
 const PARTY = [
   { people: "human", src: "art/human-warden.png", name: "Lantern Warden", path: "human/wardens/silverlanterns" },
-  { people: "were", src: "art/were-kitsune.png", name: "Lantern Fox", path: "were/fox/lanternfoxes" },
   { people: "vampire", src: "art/vampire-roseblade.png", name: "Rose Blade Duelist", path: "vampire/velvet/rapierroses" },
+  { people: "were", src: "art/were-kitsune.png", name: "Lantern Fox", path: "were/fox/lanternfoxes" },
+  { people: "ghost", src: null },    // drop art into /art and set src to fill a slot
+  { people: "undead", src: null },
+  { people: "forest", src: null },
+  { people: "witch", src: null },
 ];
-const NODE_ART = { wardens: 0, silverlanterns: 0, fox: 1, lanternfoxes: 1, velvet: 2, rapierroses: 2 };
+const NODE_ART = { wardens: 0, silverlanterns: 0, velvet: 1, rapierroses: 1, fox: 2, lanternfoxes: 2 };
 const artFor = (id) => (id in NODE_ART ? PARTY[NODE_ART[id]] : null);
+const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
 const stage = (gid) => `
-  <div class="stage" ${gid ? `data-sel="${gid}"` : ""}>
-    ${PARTY.map((p) => `
-      <a class="figure" data-people="${p.people}" href="#/characters/${p.path}" title="${esc(p.name)}">
-        <img src="${p.src}" alt="${esc(p.name)}" loading="eager">
-        <span class="cap">${esc(p.name)}</span>
-      </a>`).join("")}
+  <div class="stage" ${gid ? `data-sel="${gid}"` : ""} style="--n:${PARTY.length}">
+    ${PARTY.map((p) => {
+      const g = groupOf(p.people);
+      const cls = `figure ${p.src ? "" : "vacant"} ${p.people === gid ? "is-sel" : ""}`;
+      const label = p.name || `${g.name}: art coming`;
+      return `
+      <a class="${cls}" data-people="${p.people}" style="${gStyle(g)}" href="#/characters/${p.path || p.people}" title="${esc(label)}">
+        ${p.src ? `<img src="${p.src}" alt="${esc(p.name)}">` : `<span class="slot">${ic(g.icon)}<em>${esc(g.name)}</em></span>`}
+        <span class="cap">${esc(label)}</span>
+      </a>`;
+    }).join("")}
   </div>`;
 
 /* ---------- views ---------- */
@@ -141,12 +151,13 @@ function characters(...path) {
   const names = group ? group.levelNames || LEVEL_DEFAULT : LEVEL_DEFAULT;
 
   let html = `
-  <div class="eyebrow">Character Select</div>
-  <h1 style="font-size:2.4rem">Who will you be?</h1>
+  <div class="page-head">
+  <div class="title"><div class="eyebrow">Character Select</div><h1>Who will you be?</h1></div>
   <div class="steps">
     <span class="step ${!group ? "on" : ""}">1 · Choose a people</span>
     ${(group ? names.slice(0, 2) : ["Subclass", "Specialization"]).map((n, i) => `<span class="step ${group && trail.length === i ? "on" : ""}">${i + 2} · Choose a ${esc(n.toLowerCase())}</span>`).join("")}
     <span class="step ${trail.length >= 1 ? "on" : ""}">Read the details</span>
+  </div>
   </div>
   `;
   const totem = `
@@ -158,7 +169,7 @@ function characters(...path) {
       </button>`).join("")}
   </aside>`;
   let body = "";
-  const wrap = () => `${html}<div class="select-layout">${totem}<div class="select-main">${stage(gid)}${body}</div></div>`;
+  const wrap = () => `${html}${stage(gid)}<div class="select-layout">${totem}<div class="select-main">${body}</div></div>`;
 
   if (!group) return (body = `<div class="empty">Pick a people on the left to see their paths.</div>`, wrap());
 
@@ -314,6 +325,16 @@ function render() {
 }
 render.first = true;
 
+// Hovering a figure or its people button zooms the matching figure (class toggle keeps CSS generic).
+const hot = (e, on) => {
+  const el = e.target.closest("[data-people]");
+  if (!el) return;
+  document.querySelectorAll(`.figure[data-people="${el.dataset.people}"]`).forEach((f) => f.classList.toggle("hot", on));
+  const st = document.querySelector(".stage");
+  if (st) st.classList.toggle("has-hot", on);
+};
+app.addEventListener("mouseover", (e) => hot(e, true));
+app.addEventListener("mouseout", (e) => hot(e, false));
 app.addEventListener("click", (e) => {
   const go = e.target.closest("[data-go]");
   if (go) location.hash = go.dataset.go;
