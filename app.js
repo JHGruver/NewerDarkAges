@@ -28,6 +28,8 @@ const PARTY = [
 // otherwise the people's own character from PARTY is shown.
 const NODE_ART = {
   silverlanterns: { src: "art/human-silverlantern.png", name: "Silver Lantern Witch Hunter" },
+  cogsmiths: { src: "art/human-cogsmith.png", name: "Cogsmith" },
+  skyriggers: { src: "art/human-skyrigger.png", name: "Skyrigger" },
   teapamphlet: { src: "art/human-teapamphlet.png", name: "Tea & Pamphlet Warden" },
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
