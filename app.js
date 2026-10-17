@@ -19,12 +19,12 @@ const PARTY = [
   { people: "human", src: "art/human-warden.png", name: "Lantern Warden", path: "human/wardens/silverlanterns" },
   { people: "vampire", src: "art/vampire-roseblade.png", name: "Rose Blade Duelist", path: "vampire/velvet/rapierroses" },
   { people: "were", src: "art/were-kitsune.png", name: "Lantern Fox", path: "were/fox/lanternfoxes" },
-  { people: "ghost", src: null },    // drop art into /art and set src to fill a slot
-  { people: "undead", src: null },
+  { people: "ghost", src: "art/ghost-wanderer.png", name: "Talisman Wanderer", path: "ghost/wisplights/marshlamps" },    // drop art into /art and set src to fill a slot
+  { people: "undead", src: "art/undead-drummer.png", name: "Drum Corps Skeleton", path: "undead/boneguard/drumcorps" },
   { people: "forest", src: null },
   { people: "witch", src: null },
 ];
-const NODE_ART = { wardens: 0, silverlanterns: 0, velvet: 1, rapierroses: 1, fox: 2, lanternfoxes: 2 };
+const NODE_ART = { wardens: 0, silverlanterns: 0, velvet: 1, rapierroses: 1, fox: 2, lanternfoxes: 2, wisplights: 3, marshlamps: 3, boneguard: 4, drumcorps: 4 };
 const artFor = (id) => (id in NODE_ART ? PARTY[NODE_ART[id]] : null);
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
