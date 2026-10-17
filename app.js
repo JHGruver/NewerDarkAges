@@ -24,6 +24,11 @@ const PARTY = [
   { people: "forest", src: "art/forest-dryad.png", name: "Grove Guardian", path: "forest/greenwardens/groveguardians" },
   { people: "witch", src: "art/witch-moon.png", name: "Moon Witch", path: "witch/hedgewitches" },
 ];
+// Art for a specific subclass/specialization (by node id). The deepest match on the chosen path wins;
+// otherwise the people's own character from PARTY is shown.
+const NODE_ART = {
+  silverlanterns: { src: "art/human-silverlantern.png", name: "Silver Lantern Witch Hunter" },
+};
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
 const stage = (gid) => `
@@ -177,7 +182,7 @@ function characters(...path) {
   let parent = group; const ids = [gid];
   trail.forEach((t) => { rails += rail(parent.subs, t.id, `#/characters/${ids.join("/")}`, false); ids.push(t.id); parent = t; });
   const pick = parent.subs ? picker(parent, `#/characters/${ids.join("/")}`, names[trail.length] || "Variant") : "";
-  const art = PARTY.find((p) => p.people === gid);
+  const art = [...trail].reverse().map((t) => NODE_ART[t.id]).find(Boolean) || PARTY.find((p) => p.people === gid);
 
   return `${head}
   <div class="workspace" style="${gStyle(group)}">
