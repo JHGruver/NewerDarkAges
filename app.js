@@ -14,6 +14,24 @@ const countLeaves = (n) => (n.subs && n.subs.length ? n.subs.reduce((t, s) => t 
 const countAll = (n) => (n.subs || []).reduce((t, s) => t + 1 + countAll(s), 0);
 const LEVEL_DEFAULT = ["Subclass", "Specialization", "Variant"];
 
+// Real character art. Keyed by node id so it shows on the matching detail panel.
+const PARTY = [
+  { people: "human", src: "art/human-warden.png", name: "Lantern Warden", path: "human/wardens/silverlanterns" },
+  { people: "were", src: "art/were-kitsune.png", name: "Lantern Fox", path: "were/fox/lanternfoxes" },
+  { people: "vampire", src: "art/vampire-roseblade.png", name: "Rose Blade Duelist", path: "vampire/velvet/rapierroses" },
+];
+const NODE_ART = { wardens: 0, silverlanterns: 0, fox: 1, lanternfoxes: 1, velvet: 2, rapierroses: 2 };
+const artFor = (id) => (id in NODE_ART ? PARTY[NODE_ART[id]] : null);
+
+const stage = (gid) => `
+  <div class="stage" ${gid ? `data-sel="${gid}"` : ""}>
+    ${PARTY.map((p) => `
+      <a class="figure" data-people="${p.people}" href="#/characters/${p.path}" title="${esc(p.name)}">
+        <img src="${p.src}" alt="${esc(p.name)}" loading="eager">
+        <span class="cap">${esc(p.name)}</span>
+      </a>`).join("")}
+  </div>`;
+
 /* ---------- views ---------- */
 function home() {
   const total = GROUPS.reduce((t, g) => t + countAll(g), 0);
@@ -86,7 +104,7 @@ function detail(node, group, trail) {
     <div class="detail-body">
       <div class="wide"><h4>Overview</h4><p>${esc(node.summary)}</p></div>
       <div><h4>Background &amp; Lore</h4><p>${esc(node.lore)}</p></div>
-      <div class="art-ph"><div><strong>${ic(node.icon)}</strong>Character art goes here<br><em>${esc(node.look)}</em></div></div>
+      ${artFor(node.id) ? `<div class="art-img"><img src="${artFor(node.id).src}" alt="${esc(node.name)}"></div>` : `<div class="art-ph"><div><strong>${ic(node.icon)}</strong>Character art goes here<br><em>${esc(node.look)}</em></div></div>`}
       <div><h4>Strengths</h4>${list(node.strengths, "good")}</div>
       <div><h4>Weaknesses</h4>${list(node.weaknesses, "bad")}</div>
       <div><h4>Signature Abilities</h4>${list(node.abilities)}</div>
@@ -135,12 +153,12 @@ function characters(...path) {
   <aside class="totem" aria-label="Choose a people">
     <div class="eyebrow">Peoples</div>
     ${GROUPS.map((g) => `
-      <button class="tcard ${g.id === gid ? "sel" : ""}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">
+      <button class="tcard ${g.id === gid ? "sel" : ""}" data-people="${g.id}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">
         <span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span>
       </button>`).join("")}
   </aside>`;
   let body = "";
-  const wrap = () => `${html}<div class="select-layout">${totem}<div class="select-main">${body}</div></div>`;
+  const wrap = () => `${html}<div class="select-layout">${totem}<div class="select-main">${stage(gid)}${body}</div></div>`;
 
   if (!group) return (body = `<div class="empty">Pick a people on the left to see their paths.</div>`, wrap());
 
