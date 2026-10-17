@@ -437,3 +437,8 @@ a.fi:hover { z-index: 6; transform: scale(1.28) translateY(-3%); }
 a.fi:hover img { filter: drop-shadow(0 0 14px rgba(214, 178, 94, .7)) drop-shadow(0 10px 12px rgba(0, 0, 0, .8)); }
 a.fi::after { content: attr(data-name); position: absolute; left: 50%; bottom: 0; transform: translate(-50%, 6px); opacity: 0; white-space: nowrap; padding: 2px 8px; background: var(--gold); color: #0b0c0f; border: 2px solid #000; font-family: var(--mono); font-size: .56rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; transition: opacity .2s, transform .2s; pointer-events: none; }
 a.fi:hover::after { opacity: 1; transform: translate(-50%, 0); }
+/* crowd of 4+: characters overlap a little so they read bigger */
+.fig.grid { grid-auto-rows: min-content; align-content: center; gap: 0; padding: 0 0 22px; }
+.fig.grid .fi { height: auto; aspect-ratio: 3 / 4; overflow: visible; }
+.fig.grid .fi img { width: 140%; max-width: none; height: auto; max-height: none; }
+.fig.grid .fi:nth-child(-n+4) { z-index: 1; } .fig.grid .fi:nth-child(n+5) { z-index: 2; }
