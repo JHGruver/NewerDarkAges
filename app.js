@@ -16,7 +16,7 @@ const LEVEL_DEFAULT = ["Subclass", "Specialization", "Variant"];
 
 // Real character art. Keyed by node id so it shows on the matching detail panel.
 const PARTY = [
-  { people: "human", src: "art/human-warden.png", name: "Lantern Warden", path: "human/wardens/silverlanterns" },
+  { people: "human", src: "art/human-silverlantern.png", name: "Silver Lantern Witch Hunter", path: "human/wardens/silverlanterns", exactOnly: true },
   { people: "vampire", src: "art/vampire-roseblade.png", name: "Rose Blade Duelist", path: "vampire/velvet/rapierroses" },
   { people: "were", src: "art/were-kitsune.png", name: "Lantern Fox", path: "were/fox/lanternfoxes" },
   { people: "ghost", src: "art/ghost-wanderer.png", name: "Talisman Wanderer", path: "ghost/wisplights/marshlamps" },    // drop art into /art and set src to fill a slot
@@ -185,14 +185,18 @@ function characters(...path) {
   let parent = group; const ids = [gid];
   trail.forEach((t) => { rails += rail(parent.subs, t.id, `#/characters/${ids.join("/")}`, false); ids.push(t.id); parent = t; });
   const pick = parent.subs ? picker(parent, `#/characters/${ids.join("/")}`, names[trail.length] || "Variant") : "";
-  const art = [...trail].reverse().map((t) => NODE_ART[t.id]).find(Boolean) || PARTY.find((p) => p.people === gid);
+  const own = [...trail].reverse().map((t) => NODE_ART[t.id]).find(Boolean);
+  const party = PARTY.find((p) => p.people === gid);
+  // Humans only show art for the exact specialization that has it; the rest get the icon.
+  const art = own || (party && party.exactOnly && trail.length ? null : party);
+  const figIcon = (trail.length ? trail[trail.length - 1] : group).icon;
 
   return `${head}
   <div class="workspace" style="${gStyle(group)}">
     ${rails}${pick}
     <figure class="fig">
-      ${art && art.src ? `<img src="${art.src}" alt="${esc(art.name)}">` : `<div class="fig-ph">${ic(group.icon)}</div>`}
-      <figcaption>${esc(art && art.name ? art.name : group.name)}</figcaption>
+      ${art && art.src ? `<img src="${art.src}" alt="${esc(art.name)}">` : `<div class="fig-ph">${ic(figIcon)}</div>`}
+      <figcaption>${esc(art && art.name ? art.name : (trail.length ? trail[trail.length - 1] : group).name)}</figcaption>
     </figure>
     <div class="details-wrap">
       <section class="details" tabindex="0" aria-label="Details">${detailBlocks(group, trail, names)}</section>
