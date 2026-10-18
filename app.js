@@ -37,6 +37,8 @@ const NODE_ART = {
   rapierroses: { src: "art/vampire-rapierroses.png", name: "Rose Blade Duelist" },
   ledgerlords: { src: "art/vampire-ledgerlords.png", name: "Ledgerlord" },
   chalkhands: { src: "art/vampire-chalkhands.png", name: "Chalkhand" },
+  whisperers: { src: "art/vampire-whisperers.png", name: "Whisperer" },
+  cellarcooks: { src: "art/vampire-cellarcooks.png", name: "Cellar Cook" },
   ratkings: { src: "art/vampire-ratkings.png", name: "Rat Queen" },
   lanternfoxes: { src: "art/were-kitsune.png", name: "Lantern Fox" },
   marshlamps: { src: "art/ghost-wanderer.png", name: "Talisman Wanderer" },
