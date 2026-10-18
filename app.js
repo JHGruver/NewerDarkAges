@@ -420,6 +420,14 @@ function render() {
 }
 render.first = true;
 
+// Gallery mode: hide every UI element and leave only the character and its scene. Any click, Esc or navigation returns.
+const closeView = () => document.body.classList.remove("viewing");
+document.addEventListener("click", (e) => {
+  if (!document.body.classList.contains("viewing")) return;
+  e.preventDefault(); e.stopPropagation(); closeView();
+}, true);
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeView(); });
+window.addEventListener("hashchange", closeView);
 app.addEventListener("click", (e) => {
   const f = e.target.closest("[data-filter]");
   if (f) { const id = f.dataset.filter || null; setFilter(id === galleryFilter ? null : id); render(); return; }
