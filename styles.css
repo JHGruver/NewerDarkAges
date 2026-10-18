@@ -609,3 +609,6 @@ body.viewing::after { content: "Click anywhere to return"; position: fixed; left
 .gmix { display: grid; gap: 18px 16px; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr)); }
 .gmix .gcard2 { animation: rise .4s both; }
 .filter { gap: 6px; padding: 9px 6px; } .filter .nm { font-size: .6rem; letter-spacing: .04em; } .filter .ct { padding: 0 4px; font-size: .56rem; } .filter .ico { font-size: 1.05rem; }
+/* keep the title readable over light scenes */
+body.has-bg .page-head .titlerow { padding: 6px 16px 6px 6px; background: rgba(10, 11, 14, .72); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
+body.has-bg .page-head h1, body.has-bg .page-head .eyebrow { text-shadow: none; }
