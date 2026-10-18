@@ -130,20 +130,22 @@ function home() {
 // No people chosen: selector + the seven-character line-up.
 // A people chosen: one-screen workspace. Chosen levels collapse into thin icon rails, the next level's
 // choices take the selector slot, the character stands beside it, and the details scroll sideways.
+// Section header with its step number and current choice, e.g. "2 · Clan = House Velvet".
+const hdr = (n, label, val) => `${n} · ${esc(label)} = <b class="${val ? "set" : "unset"}">${val ? esc(val) : "choose…"}</b>`;
 // Left third: people as a row of icons, then one full-width button list per open level.
 // Every level stays open (selected button highlighted), so nothing ever collapses.
-const peopleRow = (gid) => `
+const peopleRow = (gid) => { const g0 = GROUPS.find((g) => g.id === gid); return `
   <section class="c-people">
-    <div class="eyebrow">People</div>
+    <div class="eyebrow">${hdr(1, "People", g0 && g0.name)}</div>
     <div class="prow">
       ${GROUPS.map((g) => `
         <button class="pbtn ${g.id === gid ? "sel" : ""}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">${ic(g.icon)}</button>`).join("")}
     </div>
-  </section>`;
+  </section>`; };
 
-const levelList = (parent, selId, base, label) => `
+const levelList = (parent, selId, base, label, num, selName) => `
   <section class="c-level" style="flex-grow:${parent.subs.length}">
-    <div class="eyebrow">${esc(label)}</div>
+    <div class="eyebrow">${hdr(num, label, selName)}</div>
     <div class="clist">
       ${parent.subs.map((s) => `
         <button class="pitem ${s.id === selId ? "sel" : ""}" data-go="${base}/${s.id}" title="${esc(s.tagline)}">
@@ -226,7 +228,7 @@ function characters(...path) {
   let parent = group; const ids = [gid];
   for (let d = 0; parent && parent.subs; d++) {
     const sel = trail[d];
-    chooser += levelList(parent, sel && sel.id, `#/characters/${ids.join("/")}`, names[d] || "Variant");
+    chooser += levelList(parent, sel && sel.id, `#/characters/${ids.join("/")}`, names[d] || "Variant", d + 2, sel && sel.name);
     if (!sel) break;
     ids.push(sel.id); parent = sel;
   }
