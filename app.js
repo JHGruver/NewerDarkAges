@@ -235,6 +235,7 @@ function characters(...path) {
   });
   const figs = own ? [own] : leaves(node, ids0);
   const cols = figs.length <= 3 ? figs.length : figs.length <= 8 ? 4 : figs.length <= 15 ? 5 : 6;
+  const canView = figs.length > 0 && figs.length <= 3 && figs.some((f) => !f.ph);
   const caption = figs.length === 1 && figs[0].name ? figs[0].name : node.name;
   const figHtml = figs.map((f) => {
     const tag = f.path ? "a" : "div";
@@ -250,6 +251,7 @@ function characters(...path) {
     <figure class="fig n${figs.length} ${figs.length > 3 ? "grid" : ""} ${figs.length > 8 ? "dense" : ""}" style="--cols:${cols}">
       ${figs.length ? figHtml : `<div class="fig-ph">${ic(node.icon)}</div>`}
       <figcaption>${esc(caption)}</figcaption>
+      ${canView ? `<button class="view-btn" data-view title="View the artwork full screen">${ic("maximize")}<span>View art</span></button>` : ""}
     </figure>
     <div class="details-wrap">
       <section class="details" tabindex="0" aria-label="Details">${detailBlocks(group, trail, names)}</section>
@@ -398,7 +400,16 @@ app.addEventListener("wheel", (e) => {
 }, { passive: false });
 app.addEventListener("mouseover", (e) => hot(e, true));
 app.addEventListener("mouseout", (e) => hot(e, false));
+// Gallery mode: hide every UI element and leave only the character and its scene. Any click, Esc or navigation returns.
+const closeView = () => document.body.classList.remove("viewing");
+document.addEventListener("click", (e) => {
+  if (!document.body.classList.contains("viewing")) return;
+  e.preventDefault(); e.stopPropagation(); closeView();
+}, true);
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeView(); });
+window.addEventListener("hashchange", closeView);
 app.addEventListener("click", (e) => {
+  if (e.target.closest("[data-view]")) { document.body.classList.add("viewing"); return; }
   const go = e.target.closest("[data-go]");
   if (go) location.hash = go.dataset.go;
 });
