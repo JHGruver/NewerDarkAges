@@ -40,6 +40,7 @@ const NODE_ART = {
   whisperers: { src: "art/vampire-whisperers.png", name: "Whisperer" },
   cellarcooks: { src: "art/vampire-cellarcooks.png", name: "Cellar Cook" },
   mushroomfarmers: { src: "art/undead-mushroomfarmers.png", name: "Mushroom Farmer" },
+  stargazers: { src: "art/witch-stargazers.png", name: "Star Gazer" },
   ratkings: { src: "art/vampire-ratkings.png", name: "Rat Queen" },
   lanternfoxes: { src: "art/were-kitsune.png", name: "Lantern Fox" },
   marshlamps: { src: "art/ghost-wanderer.png", name: "Talisman Wanderer" },
@@ -51,6 +52,7 @@ const NODE_ART = {
 // Full-screen backgrounds, shown behind the glass flower ONLY while that exact specialization is selected.
 const NODE_BG = {
   mushroomfarmers: "art/bg/undead-mushroomfarmers.jpg",
+  stargazers: "art/bg/witch-stargazers.jpg",
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
