@@ -608,3 +608,4 @@ body.viewing::after { content: "Click anywhere to return"; position: fixed; left
 /* everyone: one amorphous mixed crowd, no headers */
 .gmix { display: grid; gap: 18px 16px; grid-template-columns: repeat(auto-fill, minmax(148px, 1fr)); }
 .gmix .gcard2 { animation: rise .4s both; }
+.filter { gap: 6px; padding: 9px 6px; } .filter .nm { font-size: .6rem; letter-spacing: .04em; } .filter .ct { padding: 0 4px; font-size: .56rem; } .filter .ico { font-size: 1.05rem; }
