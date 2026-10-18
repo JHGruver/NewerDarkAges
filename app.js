@@ -14,18 +14,8 @@ const countLeaves = (n) => (n.subs && n.subs.length ? n.subs.reduce((t, s) => t 
 const countAll = (n) => (n.subs || []).reduce((t, s) => t + 1 + countAll(s), 0);
 const LEVEL_DEFAULT = ["Subclass", "Specialization", "Variant"];
 
-// Real character art. Keyed by node id so it shows on the matching detail panel.
-const PARTY = [
-  { people: "human", src: "art/human-silverlantern.png", name: "Silver Lantern Witch Hunter", path: "human/wardens/silverlanterns", exactOnly: true },
-  { people: "vampire", src: "art/vampire-rapierroses.png", name: "Rose Blade Duelist", path: "vampire/velvet/rapierroses" },
-  { people: "were", src: "art/were-kitsune.png", name: "Lantern Fox", path: "were/fox/lanternfoxes" },
-  { people: "ghost", src: "art/ghost-wanderer.png", name: "Talisman Wanderer", path: "ghost/wisplights/marshlamps" },    // drop art into /art and set src to fill a slot
-  { people: "undead", src: "art/undead-drummer.png", name: "Drum Corps Skeleton", path: "undead/boneguard/drumcorps" },
-  { people: "forest", src: "art/forest-dryad.png", name: "Grove Guardian", path: "forest/greenwardens/groveguardians" },
-  { people: "witch", src: "art/witch-moon.png", name: "Moon Witch", path: "witch/hedgewitches" },
-];
 // Art for a specific subclass/specialization (by node id). The deepest match on the chosen path wins;
-// otherwise the people's own character from PARTY is shown.
+// otherwise the specializations under it are shown.
 const NODE_ART = {
   silverlanterns: { src: "art/human-silverlantern.png", name: "Silver Lantern Witch Hunter" },
   cogsmiths: { src: "art/human-cogsmith.png", name: "Cogsmith" },
@@ -76,20 +66,6 @@ const NODE_BG = {
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
-const stage = (gid) => `
-  <div class="stage" ${gid ? `data-sel="${gid}"` : ""} style="--n:${PARTY.length}">
-    ${PARTY.map((p) => {
-      const g = groupOf(p.people);
-      const cls = `figure ${p.src ? "" : "vacant"} ${p.people === gid ? "is-sel" : ""}`;
-      const label = p.name || `${g.name}: art coming`;
-      return `
-      <a class="${cls}" data-people="${p.people}" style="${gStyle(g)}" href="#/characters/${p.path || p.people}" title="${esc(label)}">
-        ${p.src ? `<img src="${p.src}" alt="${esc(p.name)}">` : `<span class="slot">${ic(g.icon)}<em>${esc(g.name)}</em></span>`}
-        <span class="cap">${esc(label)}</span>
-      </a>`;
-    }).join("")}
-  </div>`;
-
 /* ---------- views ---------- */
 function home() {
   const total = GROUPS.reduce((t, g) => t + countAll(g), 0);
@@ -138,32 +114,6 @@ function home() {
 // No people chosen: selector + the seven-character line-up.
 // A people chosen: one-screen workspace. Chosen levels collapse into thin icon rails, the next level's
 // choices take the selector slot, the character stands beside it, and the details scroll sideways.
-// Section header with its step number and current choice, e.g. "2 · Clan = House Velvet".
-const hdr = (n, label, val) => `${n} · ${esc(label)} = <b class="${val ? "set" : "unset"}">${val ? esc(val) : "choose…"}</b>`;
-// Left third: people as a row of icons, then one full-width button list per open level.
-// Every level stays open (selected button highlighted), so nothing ever collapses.
-const peopleRow = (gid) => { const g0 = GROUPS.find((g) => g.id === gid); return `
-  <section class="c-people">
-    <div class="eyebrow">${hdr(1, "People", g0 && g0.name)}</div>
-    <div class="prow">
-      ${GROUPS.map((g) => `
-        <button class="pbtn ${g.id === gid ? "sel" : ""}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">${ic(g.icon)}</button>`).join("")}
-    </div>
-  </section>`; };
-
-const levelList = (parent, selId, base, label, num, selName) => `
-  <section class="c-level" style="flex-grow:${parent.subs.length}">
-    <div class="eyebrow">${hdr(num, label, selName)}</div>
-    <div class="clist">
-      ${parent.subs.map((s) => `
-        <button class="pitem ${s.id === selId ? "sel" : ""}" data-go="${base}/${s.id}" title="${esc(s.tagline)}">
-          <span class="ico">${ic(s.icon)}</span>
-          <span class="nm">${esc(s.name)}</span>
-          ${s.subs ? `<span class="go">${s.subs.length}</span>` : ""}
-        </button>`).join("")}
-    </div>
-  </section>`;
-
 const gearPills = (g) => g.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("");
 
 function detailBlocks(group, trail, names) {
@@ -197,9 +147,82 @@ function detailBlocks(group, trail, names) {
   return h;
 }
 
+// ---- Character select: gallery (top level) + details view, working in tandem ----
+const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", witch: "Witch" };
+let galleryFilter = null;
+try { galleryFilter = sessionStorage.getItem("nda-filter") || null; } catch {}
+const setFilter = (id) => { galleryFilter = id; try { id ? sessionStorage.setItem("nda-filter", id) : sessionStorage.removeItem("nda-filter"); } catch {} };
+
+// every selectable character: people > subclass > specialization
+const allCharacters = () => GROUPS.flatMap((g) => g.subs.flatMap((s) => (s.subs || [s]).map((l) => ({ g, s, l, path: l === s ? [g.id, s.id] : [g.id, s.id, l.id] }))));
+
+function gallery() {
+  const chars = allCharacters();
+  const shown = galleryFilter ? GROUPS.filter((g) => g.id === galleryFilter) : GROUPS;
+  const fg = GROUPS.find((g) => g.id === galleryFilter);
+  const filters = GROUPS.map((g) => `
+      <button class="filter ${g.id === galleryFilter ? "sel" : ""}" style="${gStyle(g)}" data-filter="${g.id}" aria-pressed="${g.id === galleryFilter}">
+        <span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span><span class="ct">${chars.filter((c) => c.g === g).length}</span>
+      </button>`).join("");
+  const card = (c) => {
+    const art = NODE_ART[c.l.id];
+    return `
+        <a class="gcard2 ${art ? "" : "ph"}" style="${gStyle(c.g)}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
+          <span class="frame">${art ? `<img src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : `<span class="phi">${ic(c.l.icon)}</span>`}</span>
+          <span class="cn">${esc(c.l.name)}</span>
+          <span class="cs">${esc(c.s.name)}</span>
+        </a>`;
+  };
+  const sections = shown.map((g) => `
+    <section class="gsec" style="${gStyle(g)}">
+      <header class="ghead"><span class="gi">${ic(g.icon)}</span><div><h2>${esc(g.name)}</h2><p>${esc(g.tagline)}</p></div><span class="gcount">${chars.filter((c) => c.g === g).length} characters</span></header>
+      <div class="gsubs">${g.subs.map((s) => `
+      <div class="gsub">
+        <h3><span class="sub-ico">${ic(s.icon)}</span>${esc(s.name)}</h3>
+        <div class="ggrid" style="--n:${chars.filter((c) => c.s === s).length}">${chars.filter((c) => c.s === s).map(card).join("")}</div>
+      </div>`).join("")}</div>
+    </section>`).join("");
+  return `
+  <div class="page-head gal-head">
+    <div class="title"><div class="eyebrow">Character Select</div><h1>Choose your character</h1></div>
+    <div class="gal-note">${galleryFilter ? `Showing ${esc(fg.name)} · <button class="linkbtn" data-filter="">show everyone</button>` : `${chars.length} characters across ${GROUPS.length} peoples · filter by people`}</div>
+  </div>
+  <div class="filters" role="group" aria-label="Filter by people">${filters}</div>
+  ${sections}`;
+}
+
+// the connected tree in the left third: people tabs, then subclasses; the chosen one expands into its specializations
+function chooserTree(group, trail, names) {
+  const base = `#/characters/${group.id}`;
+  const tabs = GROUPS.map((g) => `
+      <button class="tab ${g.id === group.id ? "sel" : ""}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">
+        <span class="ico">${ic(g.icon)}</span><span class="nm">${SHORT[g.id]}</span>
+      </button>`).join("");
+  const [s1, s2] = trail;
+  const rows = group.subs.map((s) => {
+    const open = s1 && s1.id === s.id;
+    const kids = open && s.subs ? `
+          <div class="tlabel sub">${esc(names[1] || "Variant")} <i>in ${esc(s.name)}</i></div>
+          <ul class="tl l2">${s.subs.map((k) => `
+            <li class="tn leaf"><button class="trow ${s2 && s2.id === k.id ? "sel" : ""}" data-go="${base}/${s.id}/${k.id}"><span class="ico">${ic(k.icon)}</span><span class="nm">${esc(k.name)}</span></button></li>`).join("")}
+          </ul>` : "";
+    return `
+        <li class="tn ${open ? "open" : ""}">
+          <button class="trow ${open ? "sel" : ""}" data-go="${base}/${s.id}" aria-expanded="${open}"><span class="ico">${ic(s.icon)}</span><span class="nm">${esc(s.name)}</span><span class="chev">${s.subs ? ic(open ? "chevron-down" : "chevron-right") : ""}</span></button>${kids}
+        </li>`;
+  }).join("");
+  return `
+    <div class="tabs">${tabs}</div>
+    <div class="tree" role="navigation" aria-label="${esc(group.name)} choices">
+      <div class="tlabel">${esc(names[0] || "Subclass")} <i>${esc(group.name)}</i></div>
+      <ul class="tl l1">${rows}</ul>
+    </div>`;
+}
+
 function characters(...path) {
   const [gid, ...rest] = path;
   const group = GROUPS.find((g) => g.id === gid);
+  if (!group) return gallery();
   const trail = [];
   let cur = group;
   for (const id of rest) {
@@ -207,39 +230,20 @@ function characters(...path) {
     if (!next) break;
     trail.push(next); cur = next;
   }
-  const names = group ? group.levelNames || LEVEL_DEFAULT : LEVEL_DEFAULT;
-  const stepLabels = (group ? names.slice(0, 2) : ["Subclass", "Specialization"]);
+  const names = group.levelNames || LEVEL_DEFAULT;
   const head = `
   <div class="page-head">
-    <div class="title"><div class="eyebrow">Character Select</div><h1>Who will you be?</h1></div>
+    <div class="titlerow">
+      <a class="back-btn" href="#/characters" title="Back to all characters">${ic("arrow-left")}<span>All characters</span></a>
+      <div class="title"><div class="eyebrow">Character details</div><h1>${esc(group.name)}${trail.length ? ` <span class="crumb">› ${esc(trail[trail.length - 1].name)}</span>` : ""}</h1></div>
+    </div>
     <div class="steps">
-      <span class="step ${!group ? "on" : ""}">1 · Choose a people</span>
-      ${stepLabels.map((n, i) => `<span class="step ${group && trail.length === i ? "on" : ""}">${i + 2} · Choose a ${esc(n.toLowerCase())}</span>`).join("")}
-      <span class="step ${trail.length >= 1 ? "on" : ""}">Read the details</span>
+      <span class="step">1 · ${esc(group.name)}</span>
+      <span class="step ${trail.length === 0 ? "on" : ""}">2 · ${esc(names[0])}${trail[0] ? ` = ${esc(trail[0].name)}` : ""}</span>
+      <span class="step ${trail.length === 1 ? "on" : ""}">3 · ${esc(names[1])}${trail[1] ? ` = ${esc(trail[1].name)}` : ""}</span>
     </div>
   </div>`;
-
-  if (!group) {
-    const totem = `
-    <aside class="totem" aria-label="Choose a people">
-      <div class="eyebrow">Peoples</div>
-      ${GROUPS.map((g) => `
-        <button class="tcard" data-people="${g.id}" style="${gStyle(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}">
-          <span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span>
-        </button>`).join("")}
-    </aside>`;
-    return `${head}<div class="select-layout">${totem}<div class="select-main">${stage("")}<div class="empty">Pick a people on the left to see their paths.</div></div></div>`;
-  }
-
-  // left third: people row + a full-width list for every open level
-  let chooser = peopleRow(gid);
-  let parent = group; const ids = [gid];
-  for (let d = 0; parent && parent.subs; d++) {
-    const sel = trail[d];
-    chooser += levelList(parent, sel && sel.id, `#/characters/${ids.join("/")}`, names[d] || "Variant", d + 2, sel && sel.name);
-    if (!sel) break;
-    ids.push(sel.id); parent = sel;
-  }
+  const chooser = chooserTree(group, trail, names);
 
   // middle third: the character(s). A specialization shows its own art; a subclass shows its
   // specializations' art together; otherwise the people's character. Humans without art get the icon.
@@ -382,7 +386,7 @@ function render() {
   const key = route || "home";
   document.querySelectorAll("#nav a").forEach((n) => n.classList.toggle("active", n.dataset.route === key));
   // Tint the 3D rose window with the selected people's / NPC's color.
-  const tintColor = route === "characters" && rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color
+  const tintColor = route === "characters" && !rest[0] ? ((GROUPS.find((g) => g.id === galleryFilter) || {}).color) : route === "characters" && rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color
     : route === "manual" && rest[0] ? ((MANUAL.npcs.find((n) => n.id === rest[0]) || {}).color) : null;
   if (window.NDA3D) NDA3D.tint(tintColor || null);
   // background layer: only when the selected (deepest) node has its own scene
@@ -403,32 +407,9 @@ function render() {
 }
 render.first = true;
 
-// Hovering a figure or its people button zooms the matching figure (class toggle keeps CSS generic).
-const hot = (e, on) => {
-  const el = e.target.closest("[data-people]");
-  if (!el) return;
-  document.querySelectorAll(`.figure[data-people="${el.dataset.people}"]`).forEach((f) => f.classList.toggle("hot", on));
-  const st = document.querySelector(".stage");
-  if (st) st.classList.toggle("has-hot", on);
-};
-// In the workspace the details scroll sideways: let the mouse wheel drive them.
-app.addEventListener("wheel", (e) => {
-  const d = e.target.closest(".details");
-  if (!d || d.scrollWidth <= d.clientWidth || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
-  e.preventDefault();
-  d.scrollLeft += e.deltaY;
-}, { passive: false });
-app.addEventListener("mouseover", (e) => hot(e, true));
-app.addEventListener("mouseout", (e) => hot(e, false));
-// Gallery mode: hide every UI element and leave only the character and its scene. Any click, Esc or navigation returns.
-const closeView = () => document.body.classList.remove("viewing");
-document.addEventListener("click", (e) => {
-  if (!document.body.classList.contains("viewing")) return;
-  e.preventDefault(); e.stopPropagation(); closeView();
-}, true);
-document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeView(); });
-window.addEventListener("hashchange", closeView);
 app.addEventListener("click", (e) => {
+  const f = e.target.closest("[data-filter]");
+  if (f) { const id = f.dataset.filter || null; setFilter(id === galleryFilter ? null : id); render(); return; }
   if (e.target.closest("[data-view]")) { document.body.classList.add("viewing"); return; }
   const go = e.target.closest("[data-go]");
   if (go) location.hash = go.dataset.go;
