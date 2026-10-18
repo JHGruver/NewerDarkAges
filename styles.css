@@ -612,9 +612,11 @@ body.viewing::after { content: "Click anywhere to return"; position: fixed; left
 /* keep the title readable over light scenes */
 body.has-bg .page-head .titlerow { padding: 6px 16px 6px 6px; background: rgba(10, 11, 14, .72); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 body.has-bg .page-head h1, body.has-bg .page-head .eyebrow { text-shadow: none; }
-/* three characters share the column: let them stand larger, overlapping slightly */
-.fig.n3 { padding: 0 2%; }
-.fig.n3 .fi { flex: 1 1 0; }
-.fig.n3 .fi img { transform: scale(1.55); transform-origin: 50% 100%; }
+/* three characters share the column: larger, but each keeps its own space */
+.fig.n3 { padding: 0 1%; gap: 0; }
+.fig.n3 .fi { flex: 1 1 0; margin-left: 0 !important; }
+.fig.n3 .fi img { transform-origin: 50% 100%; }
+.fig.n3 .fi:nth-child(1) img { transform: translateX(-12%) scale(1.22); }
 .fig.n3 .fi:nth-child(2) { z-index: 2; }
-.fig.n3 .fi:nth-child(2) img { transform: scale(1.7); }
+.fig.n3 .fi:nth-child(2) img { transform: scale(1.3); }
+.fig.n3 .fi:nth-child(3) img { transform: translateX(12%) scale(1.22); }
