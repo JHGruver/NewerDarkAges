@@ -17,7 +17,7 @@ const LEVEL_DEFAULT = ["Subclass", "Specialization", "Variant"];
 // Real character art. Keyed by node id so it shows on the matching detail panel.
 const PARTY = [
   { people: "human", src: "art/human-silverlantern.png", name: "Silver Lantern Witch Hunter", path: "human/wardens/silverlanterns", exactOnly: true },
-  { people: "vampire", src: "art/vampire-roseblade.png", name: "Rose Blade Duelist", path: "vampire/velvet/rapierroses" },
+  { people: "vampire", src: "art/vampire-rapierroses.png", name: "Rose Blade Duelist", path: "vampire/velvet/rapierroses" },
   { people: "were", src: "art/were-kitsune.png", name: "Lantern Fox", path: "were/fox/lanternfoxes" },
   { people: "ghost", src: "art/ghost-wanderer.png", name: "Talisman Wanderer", path: "ghost/wisplights/marshlamps" },    // drop art into /art and set src to fill a slot
   { people: "undead", src: "art/undead-drummer.png", name: "Drum Corps Skeleton", path: "undead/boneguard/drumcorps" },
@@ -34,7 +34,10 @@ const NODE_ART = {
   waysidehealers: { src: "art/human-healer.png", name: "Wayside Healer" },
   minstrels: { src: "art/human-minstrel.png", name: "Minstrel" },
   marketeers: { src: "art/human-marketeer.png", name: "Marketeer" },
-  rapierroses: { src: "art/vampire-roseblade.png", name: "Rose Blade Duelist" },
+  rapierroses: { src: "art/vampire-rapierroses.png", name: "Rose Blade Duelist" },
+  ledgerlords: { src: "art/vampire-ledgerlords.png", name: "Ledgerlord" },
+  chalkhands: { src: "art/vampire-chalkhands.png", name: "Chalkhand" },
+  ratkings: { src: "art/vampire-ratkings.png", name: "Rat Queen" },
   lanternfoxes: { src: "art/were-kitsune.png", name: "Lantern Fox" },
   marshlamps: { src: "art/ghost-wanderer.png", name: "Talisman Wanderer" },
   drumcorps: { src: "art/undead-drummer.png", name: "Drum Corps Skeleton" },
