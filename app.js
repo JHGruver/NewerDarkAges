@@ -48,6 +48,10 @@ const NODE_ART = {
   hedgewitches: { src: "art/witch-moon.png", name: "Moon Witch" },
   teapamphlet: { src: "art/human-teapamphlet.png", name: "Tea & Pamphlet Warden" },
 };
+// Full-screen backgrounds, shown behind the glass flower ONLY while that exact specialization is selected.
+const NODE_BG = {
+  mushroomfarmers: "art/bg/undead-mushroomfarmers.jpg",
+};
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
 const stage = (gid) => `
@@ -355,6 +359,14 @@ function render() {
   const tintColor = route === "characters" && rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color
     : route === "manual" && rest[0] ? ((MANUAL.npcs.find((n) => n.id === rest[0]) || {}).color) : null;
   if (window.NDA3D) NDA3D.tint(tintColor || null);
+  // background layer: only when the selected (deepest) node has its own scene
+  const bgSrc = route === "characters" && rest.length > 1 ? NODE_BG[rest[rest.length - 1]] : null;
+  const bgEl = document.getElementById("bg");
+  if (bgEl) {
+    if (bgSrc) bgEl.style.backgroundImage = `url("${bgSrc}")`;
+    bgEl.classList.toggle("on", !!bgSrc);
+  }
+  document.body.classList.toggle("has-bg", !!bgSrc);
   const title = document.querySelector(".detail-head h2, .blk-title h2");
   document.title = (title ? title.textContent + " · " : "") + "The Newer Dark Ages";
 
