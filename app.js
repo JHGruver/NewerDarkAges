@@ -41,6 +41,7 @@ const NODE_ART = {
   cellarcooks: { src: "art/vampire-cellarcooks.png", name: "Cellar Cook" },
   mushroomfarmers: { src: "art/undead-mushroomfarmers.png", name: "Mushroom Farmer" },
   stargazers: { src: "art/witch-stargazers.png", name: "Star Gazer" },
+  ledgerliches: { src: "art/undead-ledgerliches.png", name: "Ledger Lich" },
   ratkings: { src: "art/vampire-ratkings.png", name: "Rat Queen" },
   lanternfoxes: { src: "art/were-kitsune.png", name: "Lantern Fox" },
   marshlamps: { src: "art/ghost-wanderer.png", name: "Talisman Wanderer" },
@@ -53,6 +54,7 @@ const NODE_ART = {
 const NODE_BG = {
   mushroomfarmers: "art/bg/undead-mushroomfarmers.jpg",
   stargazers: "art/bg/witch-stargazers.jpg",
+  ledgerliches: "art/bg/undead-ledgerliches.jpg",
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
 
