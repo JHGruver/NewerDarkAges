@@ -458,5 +458,5 @@ a.fi.ph::after { display: none; }
 .fig.n2, .fig.n3 { gap: 12px; padding: 0 6%; }
 /* dense grids (9+ tiles): art sits in its tile like the placeholders, just a touch larger */
 .fig.dense .fi { justify-content: center; }
-.fig.dense .fi img { width: 100%; max-width: 100%; transform: scale(1.22); transform-origin: 50% 100%; }
+.fig.dense .fi img { width: 100%; max-width: 100%; transform: scale(1.08); transform-origin: 50% 100%; }
 .fig.dense a.fi:hover { transform: scale(1.2) translateY(-3%); }
