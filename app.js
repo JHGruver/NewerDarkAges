@@ -44,6 +44,7 @@ const NODE_ART = {
   ledgerliches: { src: "art/undead-ledgerliches.png", name: "Ledger Lich" },
   snapjaw: { src: "art/were-snapjaw.png", name: "Snapjaw Skipper" },
   jarhermits: { src: "art/undead-jarhermits.png", name: "Jar Hermit" },
+  kelpkeepers: { src: "art/were-kelpkeepers.png", name: "Kelp Keeper" },
   ratkings: { src: "art/vampire-ratkings.png", name: "Rat Queen" },
   lanternfoxes: { src: "art/were-kitsune.png", name: "Lantern Fox" },
   marshlamps: { src: "art/ghost-wanderer.png", name: "Talisman Wanderer" },
@@ -58,6 +59,7 @@ const NODE_BG = {
   stargazers: "art/bg/witch-stargazers.jpg",
   ledgerliches: "art/bg/undead-ledgerliches.jpg",
   snapjaw: "art/bg/were-snapjaw.jpg",
+  kelpkeepers: "art/bg/were-kelpkeepers.jpg",
   jarhermits: "art/bg/undead-jarhermits.jpg",
 };
 const groupOf = (id) => GROUPS.find((g) => g.id === id);
