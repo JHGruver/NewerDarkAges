@@ -156,6 +156,16 @@ const setFilter = (id) => { galleryFilter = id; try { id ? sessionStorage.setIte
 // every selectable character: people > subclass > specialization
 const allCharacters = () => GROUPS.flatMap((g) => g.subs.flatMap((s) => (s.subs || [s]).map((l) => ({ g, s, l, path: l === s ? [g.id, s.id] : [g.id, s.id, l.id] }))));
 
+// One random order per page load, so "everyone" is a mixed crowd that stays put while you browse.
+let mixOrder = null;
+const mixed = (chars) => {
+  if (!mixOrder) {
+    mixOrder = chars.map((c) => c.l.id);
+    for (let i = mixOrder.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [mixOrder[i], mixOrder[j]] = [mixOrder[j], mixOrder[i]]; }
+  }
+  return [...chars].sort((x, y) => mixOrder.indexOf(x.l.id) - mixOrder.indexOf(y.l.id));
+};
+
 function gallery() {
   const chars = allCharacters();
   const shown = galleryFilter ? GROUPS.filter((g) => g.id === galleryFilter) : GROUPS;
@@ -170,10 +180,11 @@ function gallery() {
         <a class="gcard2 ${art ? "" : "ph"}" style="${gStyle(c.g)}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
           <span class="frame">${art ? `<img src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : `<span class="phi">${ic(c.l.icon)}</span>`}</span>
           <span class="cn">${esc(c.l.name)}</span>
-          <span class="cs">${esc(c.s.name)}</span>
+          <span class="cs">${galleryFilter ? esc(c.s.name) : `${esc(SHORT[c.g.id])} · ${esc(c.s.name)}`}</span>
         </a>`;
   };
-  const sections = shown.map((g) => `
+  const mix = `<div class="gmix">${mixed(chars).map(card).join("")}</div>`;
+  const sections = !galleryFilter ? mix : shown.map((g) => `
     <section class="gsec" style="${gStyle(g)}">
       <header class="ghead"><span class="gi">${ic(g.icon)}</span><div><h2>${esc(g.name)}</h2><p>${esc(g.tagline)}</p></div><span class="gcount">${chars.filter((c) => c.g === g).length} characters</span></header>
       <div class="gsubs">${g.subs.map((s) => `
