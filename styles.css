@@ -612,11 +612,10 @@ body.viewing::after { content: "Click anywhere to return"; position: fixed; left
 /* keep the title readable over light scenes */
 body.has-bg .page-head .titlerow { padding: 6px 16px 6px 6px; background: rgba(10, 11, 14, .72); border: 1px solid var(--line); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); }
 body.has-bg .page-head h1, body.has-bg .page-head .eyebrow { text-shadow: none; }
-/* three characters share the column: larger, but each keeps its own space */
-.fig.n3 { padding: 0 1%; gap: 0; }
-.fig.n3 .fi { flex: 1 1 0; margin-left: 0 !important; }
-.fig.n3 .fi img { transform-origin: 50% 100%; }
-.fig.n3 .fi:nth-child(1) img { transform: translateX(-12%) scale(1.22); }
+/* three characters share the column: each keeps its own third; art is sized to fit its slot */
+.fig.n3 { padding: 0 1%; gap: 0; align-items: flex-end; }
+.fig.n3 .fi { flex: 1 1 0; min-width: 0; margin-left: 0 !important; overflow: visible; }
+.fig.n3 .fi img { width: 100%; max-width: 100%; height: auto; max-height: 100%; object-fit: contain; object-position: bottom; transform: none; }
 .fig.n3 .fi:nth-child(2) { z-index: 2; }
-.fig.n3 .fi:nth-child(2) img { transform: scale(1.3); }
-.fig.n3 .fi:nth-child(3) img { transform: translateX(12%) scale(1.22); }
+.fig.n3 .fi:nth-child(2) img { transform: scale(1.12); transform-origin: 50% 100%; }
+.fig.n3 .fi.ph .phs { width: 92%; height: auto; aspect-ratio: 3 / 4; margin-bottom: 0; }
