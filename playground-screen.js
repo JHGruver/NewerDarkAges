@@ -2,7 +2,8 @@
 // Uses the same markup/classes as the real details view so styles.css styles it; playground-variants.css restyles it.
 (function () {
   const q = new URLSearchParams(location.search);
-  const S = +q.get("s") || 1, T = +q.get("t") || 1;
+  const CY = q.get("v") === "cyber";
+  const S = CY ? 3 : +q.get("s") || 1, T = CY ? 3 : +q.get("t") || 1;
   const { char, themes } = PG;
 
   // merge Vampire/Were files into GROUPS, like the real app
@@ -19,8 +20,8 @@
   const sub = group.subs.find((s) => s.id === sid);
   const leaf = sub.subs.find((s) => s.id === lid);
   const names = group.levelNames;
-  const copy = T === 1 ? null : PG.copy[T];
-  const cellId = `s${S}t${T}`;
+  const copy = CY ? PG.copy.cyber : T === 1 ? null : PG.copy[T];
+  const cellId = CY ? "cyber" : `s${S}t${T}`;
   const artFile = `art/playground/${char.id}-${cellId}-character.png`;
   const bgFile = `art/playground/${char.id}-${cellId}-background.jpg`;
 
@@ -79,11 +80,11 @@
   // dedicated art if the file exists; otherwise the current art + a CSS treatment and an "art needed" tag
   const probe = (src) => new Promise((res) => { const i = new Image(); i.onload = () => res(true); i.onerror = () => res(false); i.src = src; });
   Promise.all([probe(artFile), probe(bgFile)]).then(([hasArt, hasBg]) => {
-    const isBase = S === 1 && T === 1;
+    const isBase = !CY && S === 1 && T === 1;
     const art = hasArt ? artFile : char.baseArt;
     const bg = hasBg ? bgFile : char.baseBg;
-    document.body.className = `fit has-bg st-${S} t-${T} ${isBase || hasArt ? "" : "fb-art"} ${isBase || hasBg ? "" : "fb-bg"}`;
-    document.body.style.setProperty("--acc", group.color);
+    document.body.className = `fit has-bg st-${S} t-${T} ${CY ? "cy" : ""} ${isBase || hasArt ? "" : "fb-art"} ${isBase || hasBg ? "" : "fb-bg"}`;
+    document.body.style.setProperty("--acc", CY ? PG.cyber.accent : group.color);
     document.getElementById("bg").style.backgroundImage = `url("${bg}")`;
     document.getElementById("bg").classList.add("on");
     const missing = [!isBase && !hasArt && "character", !isBase && !hasBg && "background"].filter(Boolean);
@@ -91,7 +92,7 @@
     <div class="page-head">
       <div class="titlerow">
         <a class="back-btn">${ic("arrow-left")}<span>All characters</span></a>
-        <div class="title"><div class="eyebrow">${esc(themes[T].eyebrow)}</div><h1>${esc(group.name)} <span class="crumb">› ${esc(leaf.name)}</span></h1></div>
+        <div class="title"><div class="eyebrow">${esc(CY ? PG.cyber.eyebrow : themes[T].eyebrow)}</div><h1>${esc(group.name)} <span class="crumb">› ${esc(leaf.name)}</span></h1></div>
       </div>
       <div class="steps">
         <span class="step">1 · ${esc(group.name)}</span>

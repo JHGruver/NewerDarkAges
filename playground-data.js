@@ -6,6 +6,7 @@
 // Until a file exists, the cell falls back to the current Moonrunners art with a CSS treatment and shows an "art needed" tag.
 window.PG = {
   char: { id: "owlwings", path: ["vampire", "briarwild", "owlwings"], baseArt: "art/vampire-owlwings.png", baseBg: "art/bg/vampire-owlwings.jpg", name: "Owlwing Watcher" },
+  cyber: { name: "Neon scavenger", note: "Neo-retro cyberpunk, post-collapse gadgets lived with like the dark ages. Sin City ink with three accent colors: cyan, magenta, amber.", eyebrow: "Signal file", accent: "#19e6ff" },
   styles: {
     1: { name: "Default", note: "The look we have now: gold, glass, painted fantasy." },
     2: { name: "More childish", note: "Bubbly, bright, sticker-style. Big shapes, soft corners." },
@@ -18,6 +19,16 @@ window.PG = {
   },
   // Theme 2 and 3 copy for Owlwing Watch (theme 1 comes from the real data files).
   copy: {
+    cyber: {
+      tagline: "Scavenge. Signal. Strike.",
+      summary: "Night scout of the Ash Spires after the Collapse. Owlwing Watchers wire dead machines into the old ways: radios for war-horns, lanterns for hearths, salvage for armor. They map the ruins from the rooftops and strike once.",
+      lore: "The old world fell and the Long Table kept its manners. Owlwings climb the dead pylon lines, read the signal-fires on the radio masts and trade in the one thing that still works: knowing what is coming. A Watcher never fights twice from the same perch.",
+      strengths: ["Silent flight and night vision", "Reads radio and signal-fire traffic", "Heavy ambush damage from above"],
+      exposed: ["Fragile when pinned down", "Salvaged gear can fail at a bad moment"],
+      techniques: ["Talon Dive: swoop from above for heavy damage", "Dead Channel: jam an enemy's signals and calls", "Spark Lantern: blind a target with a burst of salvaged light"],
+      loadout: [["Primary", "Curved talon-blade with antenna hilt"], ["Sidearm", "Throwing talons with vacuum-tube charges"], ["Gadget", "Hand-crank radio and copper cable"], ["Armor", "Feathered cloak with scrap-metal plates"]],
+      stats: { Attack: 4, Guard: 2, Mobility: 5, Control: 4 },
+    },
     2: {
       tagline: "Silent flight, silent judgment. Loud opinions, in private.",
       summary: "Briar Wilds who patrol the night as owls and carry the Long Table's secrets by wing. The Watch sees every rooftop meeting and keeps its mouth shut, which is the only reason anyone lets them live.",

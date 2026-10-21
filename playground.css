@@ -29,3 +29,11 @@ main { padding: 22px 28px 60px; }
 .stagewrap iframe { width: 1400px; height: 780px; border: 0; transform-origin: 0 0; position: absolute; top: 0; left: 0; }
 .close { position: fixed; top: 12px; right: 14px; z-index: 60; font-family: "JetBrains Mono", monospace; font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; padding: 8px 14px; color: #000; background: var(--gold); border: 2px solid #000; cursor: pointer; }
 @media (max-width: 900px) { .matrix { grid-template-columns: 90px repeat(3, minmax(0, 1fr)); gap: 10px; } .colh span, .rowh span { display: none; } }
+
+.special { display: flex; align-items: center; gap: 12px; padding: 10px 18px 10px 14px; cursor: pointer; font-family: "JetBrains Mono", monospace; color: #e8fbff; text-align: left;
+  background: linear-gradient(135deg, rgba(25, 230, 255, .18), rgba(255, 43, 214, .14)); border: 2px solid #19e6ff; box-shadow: 0 0 0 1px #000, 4px 4px 0 #ff2bd6, 0 0 22px rgba(25, 230, 255, .45); transition: transform .12s, box-shadow .12s; }
+.special:hover { transform: translate(-2px, -2px); box-shadow: 0 0 0 1px #000, 6px 6px 0 #ff2bd6, 0 0 32px rgba(25, 230, 255, .7); }
+.special b { display: block; font-family: "Cinzel", serif; letter-spacing: .1em; text-transform: uppercase; font-size: .95rem; color: #19e6ff; text-shadow: 0 0 10px rgba(25, 230, 255, .8); }
+.special i { display: block; font-style: normal; font-size: .6rem; letter-spacing: .16em; text-transform: uppercase; color: #ffb000; }
+.special .dot { width: 12px; height: 12px; border-radius: 50%; background: #19e6ff; box-shadow: 0 0 12px #19e6ff, 0 0 24px #19e6ff; animation: pulse 1.8s ease-in-out infinite; }
+@keyframes pulse { 50% { opacity: .35; } }

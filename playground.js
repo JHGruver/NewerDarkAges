@@ -21,18 +21,20 @@ function sizeCells() {
 }
 new ResizeObserver(sizeCells).observe(matrix); sizeCells();
 
-function open(s, t) {
+function open(s, t, v) {
   const W = innerWidth - 40, H = innerHeight - 40, k = Math.min(W / 1400, H / 780);
   stagewrap.style.width = `${1400 * k}px`; stagewrap.style.height = `${780 * k}px`;
-  stagewrap.innerHTML = `<iframe src="${url(s, t)}" style="transform:scale(${k})"></iframe>`;
+  stagewrap.innerHTML = `<iframe src="${v ? "playground-screen.html?v=" + v : url(s, t)}" style="transform:scale(${k})"></iframe>`;
   overlay.hidden = false;
 }
 const close = () => { overlay.hidden = true; stagewrap.innerHTML = ""; };
 matrix.addEventListener("click", (e) => { const c = e.target.closest(".cell"); if (c) open(+c.dataset.s, +c.dataset.t); });
 matrix.addEventListener("keydown", (e) => { if ((e.key === "Enter" || e.key === " ") && e.target.classList.contains("cell")) { e.preventDefault(); open(+e.target.dataset.s, +e.target.dataset.t); } });
-document.getElementById("close").onclick = close;
+document.getElementById("cyber").onclick = () => { history.replaceState(null, "", "#cyber"); open(0, 0, "cyber"); };
+if (location.hash === "#cyber") open(0, 0, "cyber");
+document.getElementById("close").onclick = () => { if (location.hash === "#cyber") history.replaceState(null, "", location.pathname); close(); };
 overlay.addEventListener("click", (e) => { if (e.target === overlay) close(); });
-addEventListener("keydown", (e) => { if (e.key === "Escape") close(); });
+addEventListener("keydown", (e) => { if (e.key === "Escape") { if (location.hash === "#cyber") history.replaceState(null, "", location.pathname); close(); } });
 
 // legend: the art each cell can use
 const rows = [];
