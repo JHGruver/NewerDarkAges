@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Newer Dark Ages · Version 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="bg" aria-hidden="true"></div>
+<header class="topbar">
+  <a class="brand" href="#/"><span id="brand-ic"></span> <span>The Newer Dark Ages <small style="opacity:.6;font-size:.6em;letter-spacing:.2em">V1</small></span></a>
+  <nav id="nav">
+    <a href="#/" data-route="home">World</a>
+    <a href="#/characters" data-route="characters">Character Select</a>
+    <a href="#/manual" data-route="manual">Monster Manual</a>
+    <a href="#/roadmap" data-route="roadmap">Roadmap</a>
+    <a href="#/art" data-route="art">Art Direction</a>
+    <a href="../index.html">← Current site</a>
+  </nav>
+</header>
+<main id="app"></main>
+<footer class="foot">The Newer Dark Ages · Version 1 (gold &amp; glass, painted fantasy) · archived</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="scene.js"></script>
+<script src="../icons.js"></script>
+<script src="data.js"></script>
+<script src="data-vampire.js"></script>
+<script src="data-were.js"></script>
+<script src="data-more.js"></script>
+<script src="data-manual.js"></script>
+<script>document.getElementById("brand-ic").innerHTML = ic("cloud-fog");</script>
+<script src="app.js"></script>
+</body>
+</html>
