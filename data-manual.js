@@ -39,7 +39,7 @@ window.MANUAL = {
       title: "Eldest of the Drowned Highway, Keeper of the Moot Treaty", role: "Ally / Mentor", location: "Hollowmoss Bayou, Pylon Coast", level: "Ancient",
       quote: "Sit, dear. The story is long, the tea is hot, and the moral will arrive eventually.",
       overview: "The oldest Were-kin alive and the keeper of the Moot's founding treaty. She can recall every promise ever made on the Kin's behalf, and she holds them all to it.",
-      appearance: "An enormous mossy alligator-kin in a lace shawl over riveted armor. A straw hat sits on her snout; spectacles hang from a chain.",
+      appearance: "An enormous mossy crocodile-kin in a lace shawl over riveted armor. A straw hat sits on her snout; spectacles hang from a chain.",
       personality: "Slow, patient, warm and shockingly sharp. She never raises her voice. She does not need to.",
       backstory: "She spoke first at the first Moot. She has outlived four wars and watched the Static creep across the bayou, and has been preparing the Kin for what it brings.",
       secrets: ["The Moot Treaty has a hidden clause that unites the Kin against the Static.", "She is training a Static-fighter in secret.", "She is tired. She would like to rest. She will not."],

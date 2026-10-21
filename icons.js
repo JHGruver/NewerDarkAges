@@ -2,6 +2,13 @@
 // witch hat and other fantasy props are hand-drawn in the same 24px round-stroke style.
 // Use ic("wolf") to get an inline <svg>; it inherits the surrounding text color and size.
 window.ICONS = {
+"raccoon": "<path d=\"M3 3l5 3h8l5-3v10c0 5-4 8-9 8s-9-3-9-8z\"/><path d=\"M4.5 10.5h5l1.5 2.5M19.5 10.5h-5L13 13\"/><path d=\"M8.5 12h.01M15.5 12h.01M12 15.5v.01\"/>",
+"capybara": "<path d=\"M2 15c0-4 3-7 8-7h6c4 0 6 2 6 5v2c0 2-1 3-3 3H5c-2 0-3-1-3-3z\"/><path d=\"M8 8l1-3h3l1 3\"/><path d=\"M17.5 12h.01M21 13.5h-2\"/>",
+"axolotl": "<ellipse cx=\"12\" cy=\"13\" rx=\"6\" ry=\"5\"/><path d=\"M6.5 10 2 8M6 12H1.5M6.5 14 2 16M17.5 10 22 8M18 12h4.5M17.5 14 22 16\"/><path d=\"M10 12h.01M14 12h.01M10.5 15c1 1 2 1 3 0\"/>",
+"octopus": "<path d=\"M5 12a7 7 0 0 1 14 0v1H5z\"/><path d=\"M6 13c0 4-2 5-3 8M10 13c0 3-1 5-2 8M14 13c0 3 1 5 2 8M18 13c0 4 2 5 3 8\"/><path d=\"M9.5 10h.01M14.5 10h.01\"/>",
+"shrimp": "<path d=\"M4 13c0-4 4-7 9-7 3 0 5 1 6 3l-3 1c-1-1-2-1-3-1-3 0-5 2-5 4s1 3 3 3l-1 3c-4 0-6-2-6-5z\"/><path d=\"M19 9l2-3M19 9l3 1M8 10 5 7\"/><path d=\"M12 11h.01M10 19v2M13 19v2\"/>",
+"moth": "<path d=\"M12 7v12\"/><path d=\"M12 9C9 3 3 4 3 9c0 3 3 5 9 4\"/><path d=\"M12 9c3-6 9-5 9 0 0 3-3 5-9 4\"/><path d=\"M12 13c-4 0-7 3-5 6 2 2 4-1 5-3M12 13c4 0 7 3 5 6-2 2-4-1-5-3\"/><path d=\"M10 5 8 2M14 5l2-3\"/>",
+"pangolin": "<path d=\"M2 14c0-4 4-7 9-7 5 0 9 3 10 7 0 2-2 3-4 3H6c-2 0-4-1-4-3z\"/><path d=\"M6 11l2 2 2-2 2 2 2-2 2 2 2-2M5 14l2 2 2-2 2 2 2-2 2 2\"/><path d=\"M2 14l-1 1\"/><path d=\"M4.5 13h.01\"/>",
 "bolt": "<path d=\"M13 2 4 14h7l-1 8 9-12h-7z\"/>",
 "sword": "<path d=\"M14.5 17.5 3 6V3h3l11.5 11.5\"/><path d=\"m13 19 6-6\"/><path d=\"m16 16 4 4\"/><path d=\"m19 21 2-2\"/>",
 "shield": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/>",

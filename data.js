@@ -54,12 +54,12 @@ window.PHASES = [
     id: "p1", name: "Phase 1: The Project Website (V2)", status: "in-progress",
     summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu.",
     tasks: [
-      "New world, peoples, subclasses and specializations (78 characters, 8 in 10 combat)",
+      "New world, peoples, subclasses and specializations (90 characters, 8 in 10 combat)",
       "Four-color system: people color + character trio for every character",
       "Character select gallery and details view in the new theme",
       "Hamburger menu with archived versions",
       "Generate the 7 core characters and 7 core backgrounds",
-      "Generate all 78 characters and their backgrounds",
+      "Generate all 90 characters and their backgrounds",
       "Balance and stat sheet for each specialization",
     ],
   },
@@ -71,7 +71,7 @@ window.PHASES = [
   {
     id: "p3", name: "Phase 3: Board Game (Physical + Digital)", status: "planned",
     summary: "Every player can be any specialization. Boxes hold a subset; the full box holds all of them.",
-    tasks: ["Core rules and turn structure", "Specialization decks", "Balance across all 78", "Box set plan", "Digital prototype", "Physical prototype and playtests", "Pricing and manufacturing plan"],
+    tasks: ["Core rules and turn structure", "Specialization decks", "Balance across all 90", "Box set plan", "Digital prototype", "Physical prototype and playtests", "Pricing and manufacturing plan"],
   },
   {
     id: "p4", name: "Phase 4: The MMO", status: "planned",
