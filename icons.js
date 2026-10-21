@@ -2,6 +2,16 @@
 // witch hat and other fantasy props are hand-drawn in the same 24px round-stroke style.
 // Use ic("wolf") to get an inline <svg>; it inherits the surrounding text color and size.
 window.ICONS = {
+"bolt": "<path d=\"M13 2 4 14h7l-1 8 9-12h-7z\"/>",
+"sword": "<path d=\"M14.5 17.5 3 6V3h3l11.5 11.5\"/><path d=\"m13 19 6-6\"/><path d=\"m16 16 4 4\"/><path d=\"m19 21 2-2\"/>",
+"shield": "<path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/>",
+"crosshair": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M22 12h-4M6 12H2M12 6V2M12 22v-4\"/>",
+"radio": "<path d=\"m4.9 16.1 14.2-8.2\"/><rect x=\"3\" y=\"9\" width=\"18\" height=\"12\" rx=\"2\"/><circle cx=\"8\" cy=\"15\" r=\"2\"/><path d=\"M14 14h4M14 17h4\"/>",
+"cassette": "<rect x=\"2\" y=\"5\" width=\"20\" height=\"14\" rx=\"2\"/><circle cx=\"8\" cy=\"11\" r=\"2\"/><circle cx=\"16\" cy=\"11\" r=\"2\"/><path d=\"M7 16h10\"/>",
+"medic": "<path d=\"M9 3h6v6h6v6h-6v6H9v-6H3V9h6z\"/>",
+"menu": "<path d=\"M4 6h16M4 12h16M4 18h16\"/>",
+"close": "<path d=\"M18 6 6 18M6 6l12 12\"/>",
+"antenna": "<path d=\"M12 12v10\"/><circle cx=\"12\" cy=\"9\" r=\"2\"/><path d=\"M7.8 4.8a6 6 0 0 0 0 8.4M16.2 4.8a6 6 0 0 1 0 8.4\"/>",
 "chevron-down": "<path d=\"m6 9 6 6 6-6\"/>",
 "chevron-right": "<path d=\"m9 18 6-6-6-6\"/>",
 "arrow-left": "<path d=\"m12 19-7-7 7-7\"/><path d=\"M19 12H5\"/>",

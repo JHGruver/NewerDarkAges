@@ -5,32 +5,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Newer Dark Ages</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600&family=Monoton&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div id="bg" aria-hidden="true"></div>
 <header class="topbar">
-  <a class="brand" href="#/"><span id="brand-ic"></span> <span>The Newer Dark Ages</span></a>
+  <button class="burger" id="burger" aria-label="Menu: previous versions" aria-expanded="false"><span id="burger-ic"></span></button>
+  <a class="brand" href="#/"><span class="bolt" id="brand-ic"></span><span>The Newer Dark Ages</span></a>
   <nav id="nav">
     <a href="#/" data-route="home">World</a>
-    <a href="#/characters" data-route="characters">Character Select</a>
+    <a href="#/characters" data-route="characters">Characters</a>
     <a href="#/manual" data-route="manual">Monster Manual</a>
     <a href="#/roadmap" data-route="roadmap">Roadmap</a>
     <a href="#/art" data-route="art">Art Direction</a>
   </nav>
 </header>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head"><div class="eyebrow">Archive</div><h2>Previous versions</h2><p class="muted">Everything we have built so far, kept as it was.</p></div>
+  <ul class="vlist">
+    <li><a href="v1/index.html#/characters"><b>Version 1 · Gold &amp; Glass</b><span>The first build: painted-fantasy world, stained-glass UI, 3D rose window and the full illustrated cast.</span></a></li>
+    <li><a href="v1/index.html#/manual"><b>Version 1 · Monster Manual</b><span>The original NPC entries from the painted-fantasy world.</span></a></li>
+    <li><a href="v1/index.html#/"><b>Version 1 · World</b><span>The Murkmoor lore, regions and story.</span></a></li>
+    <li><a href="playground.html"><b>Playground · Style × Theme matrix</b><span>Nine takes on one character screen: three styles by three themes.</span></a></li>
+    <li><a href="playground.html#cyber"><b>Playground · Neon Scavenger</b><span>The cyberpunk dark-age test that led to this version.</span></a></li>
+  </ul>
+  <div class="drawer-foot muted">Current: Version 2 · Neon Scavenger</div>
+</aside>
+<div class="scrim" id="scrim"></div>
 <main id="app"></main>
-<footer class="foot">The Newer Dark Ages · Project hub · Draft lore, everything is editable in the <code>data-*.js</code> files</footer>
+<footer class="foot">The Newer Dark Ages · Version 2 · Draft lore, editable in the <code>data-*.js</code> files</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
 <script src="scene.js"></script>
 <script src="icons.js"></script>
 <script src="data.js"></script>
-<script src="data-vampire.js"></script>
-<script src="data-were.js"></script>
-<script src="data-more.js"></script>
+<script src="data-peoples-1.js"></script>
+<script src="data-peoples-2.js"></script>
+<script src="data-peoples-3.js"></script>
 <script src="data-manual.js"></script>
-<script>document.getElementById("brand-ic").innerHTML = ic("cloud-fog");</script>
 <script src="app.js"></script>
 </body>
 </html>
