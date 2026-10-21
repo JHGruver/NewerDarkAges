@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Playground · The Newer Dark Ages</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="playground.css">
+</head>
+<body>
+<header class="bar">
+  <div><div class="eyebrow">Playground</div><h1>Style × Theme matrix</h1></div>
+  <p class="sub">One character-select screen, nine ways. Columns change the <b>visual style</b>, rows change the <b>theme</b> of the content. Click any cell to open it full size, Esc to close.</p>
+</header>
+<main>
+  <div class="matrix" id="matrix"></div>
+  <section class="legend" id="legend"></section>
+</main>
+<div class="overlay" id="overlay" hidden><button class="close" id="close">Close · Esc</button><div class="stagewrap" id="stagewrap"></div></div>
+<script src="playground-data.js"></script>
+<script src="playground.js"></script>
+</body>
+</html>

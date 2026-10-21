@@ -429,6 +429,11 @@ function art() {
   <div class="eyebrow">Style guide</div>
   <h1 style="font-size:2.4rem">Art Direction</h1>
   <p class="muted">Samurai Jack energy: painterly watercolor worlds, bold cartoon characters. Adorable, but grounded: real animals, real anatomy, then a dash of cute.</p>
+  <a class="panel pg-link" href="playground.html" style="display:block;text-decoration:none;margin:0 0 22px;border-left:8px solid var(--gold)">
+    <div class="eyebrow">Experiment</div>
+    <h3 style="margin:4px 0 6px">Open the style × theme playground →</h3>
+    <div class="muted">Compare one character-select screen across a 3×3 matrix: three visual styles (default, childish, adult noir) by three themes (default, mature but fun, adult combat). Same character in all nine.</div>
+  </a>
   <div class="grid cols-2">${ART.pillars.map((p) => `<div class="panel"><h3>${esc(p.title)}</h3><div>${esc(p.text)}</div></div>`).join("")}</div>
   <section class="block"><h2>Ground rules</h2><div class="panel">${list(ART.rules)}</div></section>
   <section class="block"><h2>Group color codes</h2>

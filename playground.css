@@ -1,0 +1,31 @@
+:root { --bg: #0b0c0f; --ink: #eceae4; --soft: #9d9d99; --gold: #d6b25e; --line: rgba(255, 255, 255, .16); }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Inter", system-ui, sans-serif; line-height: 1.5; }
+.bar { display: flex; flex-wrap: wrap; gap: 8px 32px; align-items: flex-end; justify-content: space-between; padding: 22px 28px 14px; border-bottom: 2px solid var(--gold); background: #0f1014; }
+.eyebrow { font-family: "JetBrains Mono", monospace; font-size: .66rem; letter-spacing: .22em; text-transform: uppercase; color: var(--gold); }
+h1 { margin: 2px 0 0; font-family: "Cinzel", serif; font-size: 1.7rem; letter-spacing: .08em; text-transform: uppercase; }
+.sub { margin: 0; max-width: 62ch; color: var(--soft); font-size: .92rem; } .sub b { color: var(--ink); }
+main { padding: 22px 28px 60px; }
+.matrix { display: grid; grid-template-columns: 150px repeat(3, minmax(0, 1fr)); gap: 18px 18px; align-items: start; }
+.colh, .rowh { font-family: "JetBrains Mono", monospace; }
+.colh { padding: 0 2px 2px; border-bottom: 1px solid var(--line); }
+.colh b, .rowh b { display: block; font-family: "Cinzel", serif; font-size: 1rem; letter-spacing: .06em; text-transform: uppercase; color: var(--ink); }
+.colh span, .rowh span { display: block; font-size: .68rem; color: var(--soft); line-height: 1.35; margin-top: 2px; letter-spacing: .02em; }
+.colh i, .rowh i { font-style: normal; font-size: .6rem; letter-spacing: .2em; text-transform: uppercase; color: var(--gold); }
+.rowh { padding: 8px 12px 0 0; align-self: start; border-right: 1px solid var(--line); height: 100%; }
+.cell { position: relative; border: 2px solid var(--line); background: #000; overflow: hidden; cursor: zoom-in; transition: border-color .15s, transform .15s; }
+.cell:hover { border-color: var(--gold); transform: translateY(-3px); }
+.cell .frame { position: absolute; top: 0; left: 0; width: 1400px; height: 780px; transform-origin: 0 0; pointer-events: none; }
+.cell iframe { width: 1400px; height: 780px; border: 0; display: block; background: #000; }
+.cell .tag { position: absolute; z-index: 2; left: 6px; bottom: 6px; padding: 1px 7px; font-family: "JetBrains Mono", monospace; font-size: .58rem; letter-spacing: .12em; text-transform: uppercase; color: #000; background: var(--gold); }
+.cell .tag.base { background: #fff; }
+.legend { margin-top: 36px; border-top: 1px solid var(--line); padding-top: 18px; color: var(--soft); font-size: .85rem; max-width: 90ch; }
+.legend h2 { font-family: "Cinzel", serif; letter-spacing: .06em; text-transform: uppercase; font-size: 1rem; color: var(--ink); margin: 0 0 6px; }
+.legend code { font-family: "JetBrains Mono", monospace; font-size: .78rem; background: #1a1c21; padding: 1px 6px; border: 1px solid var(--line); color: var(--ink); }
+.legend ul { padding-left: 18px; } .legend li { margin: 3px 0; }
+.overlay { position: fixed; inset: 0; z-index: 50; background: rgba(0, 0, 0, .94); display: grid; place-items: center; }
+.overlay[hidden] { display: none; }
+.stagewrap { position: relative; overflow: hidden; border: 2px solid var(--gold); }
+.stagewrap iframe { width: 1400px; height: 780px; border: 0; transform-origin: 0 0; position: absolute; top: 0; left: 0; }
+.close { position: fixed; top: 12px; right: 14px; z-index: 60; font-family: "JetBrains Mono", monospace; font-size: .7rem; letter-spacing: .14em; text-transform: uppercase; padding: 8px 14px; color: #000; background: var(--gold); border: 2px solid #000; cursor: pointer; }
+@media (max-width: 900px) { .matrix { grid-template-columns: 90px repeat(3, minmax(0, 1fr)); gap: 10px; } .colh span, .rowh span { display: none; } }
