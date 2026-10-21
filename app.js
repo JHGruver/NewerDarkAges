@@ -5,7 +5,7 @@ const { WORLD, STORY, PHASES, ART, MANUAL, PEOPLE_COLORS } = window;
 const GROUPS = GROUP_ORDER.map((id) => GROUP_DEFS[id]);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const list = (items, cls = "") => `<ul class="${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
-const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", witch: "Witch" };
+const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", witch: "Witch", eldritch: "Eldritch" };
 const LEVEL_DEFAULT = ["Subclass", "Specialization"];
 
 document.getElementById("brand-ic").innerHTML = ic("bolt");
@@ -39,6 +39,7 @@ const BG_SCENE = {
   undead: "a buried bunker vault and ash trench: steel blast doors, sandbag walls, a long corridor of lockers, dust-lit ventilation shafts",
   forest: "a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist",
   witch: "a leaning radio-tower observatory: tangled antennas, glowing circuit-board runes, shelves of binders, towering storm clouds",
+  eldritch: "a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls",
 };
 const CHAR_STYLE = "Samurai Jack-style 2D cel animation: flat geometric shapes, bold angular silhouette, clean uniform dark outlines, two tones per material, no gradients, no glow, no texture. Sin City ink: heavy black shapes and stark white highlights. Glam-gothic 1980s post-apocalypse design in the spirit of David Bowie's Batman: cape or long coat, salvaged gadgets, bold angular accessories.";
 const charPrompt = (g, s, l) => {
@@ -71,7 +72,7 @@ function home() {
   <section class="block"><h2>The look</h2>
     <div class="grid cols-2">${WORLD.tone.map((t) => `<div class="panel">${esc(t)}</div>`).join("")}</div></section>
 
-  <section class="block"><h2>The Seven Peoples <span class="muted sub">· ${total} characters</span></h2>
+  <section class="block"><h2>The ${GROUPS.length === 8 ? "Eight" : GROUPS.length} Peoples <span class="muted sub">· ${total} characters</span></h2>
     <div class="grid cols-3">${GROUPS.map((g) => `
       <a class="panel people-card" style="${pv(g)}" href="#/characters/${g.id}">
         <span class="swatch" style="background:${g.color}"></span>
