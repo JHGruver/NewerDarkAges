@@ -28,6 +28,11 @@ const NODE_ART = {
   owlwings: { src: "art/v2/vampire-owlwings.png", bg: "art/v2/vampire-owlwings-bg.jpg", name: "Owlwing Watcher" },
 };
 
+const metaOf = (l) => CHAR_META[l.id] || { type: l.role === "support" ? "support" : "fighter", physique: "", size: "medium", move: "grounded" };
+const minis = (g, l) => {
+  const ty = TYPES[metaOf(l).type];
+  return `<span class="minis" aria-hidden="true"><b class="mt p" title="${esc(g.name)}">${PEOPLE_LETTER[g.id]}</b><b class="mt t" title="${esc(ty.name)}: ${esc(ty.desc)}">${ty.letter}</b><b class="mt r" title="${l.role === "combat" ? "Combat" : "Support / social"}">${l.role === "combat" ? "C" : "S"}</b></span>`;
+};
 const allCharacters = () => GROUPS.flatMap((g) => g.subs.flatMap((s) => s.subs.map((l) => ({ g, s, l, path: [g.id, s.id, l.id] }))));
 
 // the poster: people color as the ground, the character trio as shapes. Used wherever art is missing.
@@ -90,7 +95,7 @@ function gcard(c, i = 0) {
   const art = NODE_ART[c.l.id];
   return `
     <a class="gc ${art ? "done" : "pending"}" style="${cv(c.g, c.l)};--i:${i}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
-      <span class="gframe">${art ? `<img data-vt="${c.l.id}" src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l, "", c.l.id)}<em class="role ${c.l.role}">${c.l.role}</em></span>
+      <span class="gframe">${art ? `<img data-vt="${c.l.id}" src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l, "", c.l.id)}${minis(c.g, c.l)}</span>
       <span class="gtrio"><i style="background:${c.g.color}"></i><i style="background:${c.l.pal[0]}"></i><i style="background:${c.l.pal[1]}"></i><i style="background:${c.l.pal[2]}"></i></span>
       <span class="cn">${esc(c.l.name)}</span>
       <span class="cs">${galleryFilter ? esc(c.s.name) : `${esc(SHORT[c.g.id])} · ${esc(c.s.name)}`}</span>
@@ -157,6 +162,18 @@ function chooserTree(group, trail, names) {
     </div>`;
 }
 
+const profile = (g, l) => {
+  const m = metaOf(l), ty = TYPES[m.type];
+  return `<div class="profile">
+    <div class="ptype"><span class="mt t big">${ty.letter}</span><div><b>${esc(ty.name)}</b><small>${esc(ty.desc)}</small></div></div>
+    <dl class="attrs">
+      <div><dt>People</dt><dd><span class="mt p">${PEOPLE_LETTER[g.id]}</span>${esc(g.name)}</dd></div>
+      <div><dt>Role</dt><dd><span class="mt r">${l.role === "combat" ? "C" : "S"}</span>${l.role === "combat" ? "Combat" : "Support / social"}</dd></div>
+      <div><dt>Physique</dt><dd>${esc(m.physique)}</dd></div>
+      <div><dt>Size</dt><dd>${esc(SIZES[m.size])}</dd></div>
+      <div><dt>Mobility</dt><dd>${esc(MOVES[m.move])}</dd></div>
+    </dl></div>`;
+};
 const swatchRow = (g, l) => {
   const items = [["People", g.color], ["Main", l.pal[0]], ["Secondary", l.pal[1]], ["Pop", l.pal[2]]];
   return `<div class="swatches">${items.map(([n, c]) => `<div class="sw2"><i style="background:${c}"></i><b>${n}</b><code>${c}</code></div>`).join("")}</div>`;
@@ -186,12 +203,14 @@ function detailBlocks(group, trail, names) {
     const key = leaf.id; const sub = trail[0];
     promptStore[key + "-c"] = charPrompt(group, sub, leaf); promptStore[key + "-b"] = bgPrompt(group, sub, leaf);
     h += `
+    <div class="blk"><h4>Class profile</h4>${profile(group, leaf)}</div>
     <div class="blk"><h4>Strengths</h4>${list(leaf.strengths, "good")}</div>
     <div class="blk"><h4>Weaknesses</h4>${list(leaf.weaknesses, "bad")}</div>
     <div class="blk"><h4>Signature abilities</h4>${list(leaf.abilities)}</div>
     <div class="blk"><h4>Starting gear</h4><p>${leaf.gear.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("")}</p><h4>What they look like</h4><p>${esc(leaf.look)}</p>${window.ART_SPEC && ART_SPEC[leaf.id] ? `<h4>Scene props (background only)</h4><p class="muted">${esc(ART_SPEC[leaf.id].p)}</p>` : ""}</div>
     <div class="blk"><h4>Four-color palette</h4>${swatchRow(group, leaf)}<p class="muted">The people color is the background; the trio belongs to this character (about 60 / 30 / 10).</p></div>
     <div class="blk prompts"><h4>Art prompts</h4>
+      ${(() => { const f = PROMPTS.lint(group, sub, leaf); return f.length ? `<p class="sjfail">Samurai Jack check: ${f.length} issue${f.length > 1 ? "s" : ""}: ${esc(f.join("; "))}</p>` : `<p class="sjpass">${ic("star")} Samurai Jack check passed</p>`; })()}
       <details><summary>Character prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-c"])}</textarea><button class="copy" data-copy="${key}-c">Copy</button></details>
       <details><summary>Background prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-b"])}</textarea><button class="copy" data-copy="${key}-b">Copy</button></details>
     </div>`;
@@ -312,6 +331,17 @@ function art() {
   <a class="panel pg-link" href="playground.html"><div class="eyebrow">Experiment</div><h3>Open the style × theme playground →</h3><div class="muted">The nine-way comparison that led to this direction, plus the Neon Scavenger test. Also reachable from the menu.</div></a>
   <div class="grid cols-2">${ART.pillars.map((p) => `<div class="panel"><h3>${esc(p.title)}</h3><div>${esc(p.text)}</div></div>`).join("")}</div>
   <section class="block"><h2>Ground rules</h2><div class="panel">${list(ART.rules)}</div></section>
+  <section class="block"><h2>Samurai Jack Test</h2>
+    <div class="grid cols-2">
+      <div class="panel"><h3>Review every generated character against this</h3>${list(PROMPTS.SJ_TEST.replace(/^SAMURAI JACK TEST \(the image must pass all of these\): /, "").replace(/\.$/, "").split(/ \(\d\) /).map((x) => x.replace(/^\(\d\) /, "").replace(/;\s*$/, "").replace(/;$/, "")).filter(Boolean))}</div>
+      <div class="panel"><h3>Prompt quality check</h3>${(() => { const all = allCharacters(); const bad = all.map((c) => [c, PROMPTS.lint(c.g, c.s, c.l)]).filter(([, f]) => f.length); return bad.length ? `<p><b>${all.length - bad.length} of ${all.length}</b> prompts pass.</p>${list(bad.slice(0, 12).map(([c, f]) => `${c.l.name}: ${f.join("; ")}`))}` : `<p class="sjpass big">${ic("star")} <b>${all.length} of ${all.length}</b> character prompts pass.</p><p class="muted">Each prompt is checked for 14 required elements: the Samurai Jack style, flat shapes, bold angular silhouette, clean outlines, no gradients or soft shading, the thumbnail and flat-regions tests, full-body framing, a three-color palette, transparency, wearable gear only, the type pose and the physique, plus banned words, large props and an outfit-length limit.</p>`; })()}</div>
+    </div></section>
+
+  <section class="block"><h2>Character types</h2>
+    <p class="muted" style="max-width:72ch">Every character has one type. The tile badges read: people letter, type letter, role letter (C combat, S support).</p>
+    <div class="types">${Object.entries(TYPES).map(([k, t]) => `<div class="panel typecard"><span class="mt t big">${t.letter}</span><div><b>${esc(t.name)}</b><small>${esc(t.desc)}</small><em>${allCharacters().filter((c) => metaOf(c.l).type === k).length} characters</em></div></div>`).join("")}</div>
+    <div class="legend-row">${GROUPS.map((g) => `<span class="pill"><span class="mt p">${PEOPLE_LETTER[g.id]}</span>${esc(g.name)}</span>`).join("")}</div></section>
+
   <section class="block"><h2>People colors</h2>
     <div class="palette">${GROUPS.map((g) => `<div class="sw"><i style="background:${g.color}"></i>${ic(g.icon)} ${esc(g.name)}<br><b>${PEOPLE_COLORS[g.id].name}</b> <code>${g.color}</code></div>`).join("")}</div></section>
   <section class="block"><h2>Palette atlas <span class="muted sub">· ${all.length} characters</span></h2>

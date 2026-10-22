@@ -11,23 +11,53 @@ window.PROMPTS = (function () {
     witch: "a leaning radio-tower observatory: tangled antennas, glowing circuit-board runes, shelves of binders, towering storm clouds",
     eldritch: "a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls",
   };
-  const STYLE = "Samurai Jack-style 2D cel animation: flat geometric shapes, bold angular silhouette, clean uniform dark outlines, two tones per material, no gradients, no glow, no texture. Sin City ink: heavy black shapes and stark white highlights. Glam-gothic 1980s post-apocalypse design in the spirit of David Bowie's Batman: cape or long coat, salvaged gadgets, bold angular accessories.";
+  const STYLE = "Samurai Jack-style 2D cel animation, in the manner of Genndy Tartakovsky: flat geometric shapes, bold angular silhouette, clean uniform dark outlines of even weight, two flat tones per material (one light, one shadow), large simple color areas, strong negative space, no gradients, no soft shading, no texture noise, no realistic anatomy. Any glow or light is drawn as a flat bright shape. Sin City ink accents: heavy solid black shapes and stark white highlights. Glam-gothic 1980s post-apocalypse design in the spirit of David Bowie's Batman: cape or long coat, salvaged gadgets, bold angular accessories.";
+  const SJ_TEST = "SAMURAI JACK TEST (the image must pass all of these): (1) the silhouette reads instantly even as a tiny thumbnail; (2) every color region is flat, with at most two tones; (3) line weight is clean and consistent; (4) shapes are simple, angular and graphic, not busy; (5) only the three accent colors plus black, white and grey are used; (6) the pose has one strong, clear line of action; (7) nothing looks painterly, photographic, 3D or like soft anime shading.";
   const spec = (l) => (window.ART_SPEC && ART_SPEC[l.id]) || { w: `${l.look} Gear: ${l.gear}.`, p: "" };
 
+  const meta = (l) => (window.CHAR_META && CHAR_META[l.id]) || { type: l.role === "support" ? "support" : "fighter", physique: "average build", size: "medium", move: "grounded" };
   const char = (g, s, l) => {
-    const [a, b, c] = l.pal; const sp = spec(l);
-    const pose = l.role === "combat" ? "a dynamic combat stance mid-action, weapons held in the hands" : "a calm, confident support stance, actively using the held gear";
-    return `${l.name}: a ${l.role} character, ${g.name} › ${s.name}. Body and outfit: ${sp.w}. Pose: ${pose}, head turned toward the viewer.
+    const [a, b, c] = l.pal; const sp = spec(l); const m = meta(l); const ty = (window.TYPES && TYPES[m.type]) || { name: m.type, pose: "a dynamic stance", desc: "" };
+    return `${l.name}: a ${m.type} (${ty.desc.toLowerCase().replace(/\.$/, "")}), ${l.role} character, ${g.name} › ${s.name}.
+
+BODY: ${m.physique} build, ${m.size} size (${window.SIZE_DESC ? SIZE_DESC[m.size] : m.size}), ${m.move === "vehicle" ? "vehicle-bound in play (the vehicle itself is never shown in this image)" : m.move + " mover"}. Outfit and gear: ${sp.w}.
+
+POSE: ${ty.pose}. Head turned toward the viewer. The pose must say "${m.type}" at a glance.
 
 FRAMING (strict): FULL BODY, head to toe. Every part of the figure is visible: the whole head, both hands, both feet or legs, any tail, wings, tentacles and the full length of every weapon. NOTHING is cropped or cut off at any edge. Center the figure with a clear margin of empty space around all sides.
 
 WEARABLE AND HAND-HELD ONLY: show only what the character wears or holds in their hands. NO vehicles, mounts, turrets, buildings, towers, machines, furniture or other large objects. No ground, floor, shadow or scenery: all of that belongs to a separate background image.
 
-${STYLE}
+STYLE: ${STYLE}
+
+${SJ_TEST}
 
 Color rule: exactly three accent colors on top of black, white and grey. MAIN ${a} (about 60% of the colored area), SECONDARY ${b} (about 30%), POP ${c} (about 10%). No other colors. Do not use ${g.color} on the character; it is reserved for the background.
 
-Mature, adult combat tone. 3:4 portrait, transparent PNG background, no text. No nudity, no gore, no blood.`;
+Mature, adult tone. 3:4 portrait, transparent PNG background, no text. No nudity, no gore, no blood.`;
+  };
+
+  // Prompt quality check: does this character prompt carry everything a Samurai Jack-style render needs?
+  const lint = (g, s, l) => {
+    const t = char(g, s, l); const m = meta(l); const sp = spec(l); const fails = [];
+    const need = [
+      ["names the Samurai Jack style", /Samurai Jack-style 2D cel animation/], ["asks for flat geometric shapes", /flat geometric shapes/], ["asks for a bold angular silhouette", /bold angular silhouette/],
+      ["asks for clean uniform outlines", /clean uniform dark outlines/], ["forbids gradients", /no gradients/], ["forbids soft shading and texture", /no soft shading, no texture noise/],
+      ["includes the thumbnail silhouette test", /reads instantly even as a tiny thumbnail/], ["includes the flat-regions test", /every color region is flat/],
+      ["asks for a full-body, uncropped figure", /FULL BODY, head to toe/], ["limits the palette to three accents", /exactly three accent colors/],
+      ["asks for a transparent background", /transparent PNG background/], ["wearable and hand-held gear only", /WEARABLE AND HAND-HELD ONLY/],
+      ["states the character type pose", new RegExp(m.type)], ["states the physique and size", new RegExp(m.physique.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))],
+    ];
+    need.forEach(([label, rx]) => { if (!rx.test(t)) fails.push("missing: " + label); });
+    [l.pal[0], l.pal[1], l.pal[2]].forEach((h, i) => { if (!t.includes(h)) fails.push("missing trio color " + (i + 1)); });
+    if (new Set(l.pal.map((x) => x.toLowerCase())).size !== 3) fails.push("trio colors are not distinct");
+    const banned = /\b(realistic|photo|photographic|painterly|watercolor|3d|render(ed)?|airbrush(ed)?|volumetric|lens flare|particles?|bokeh|hyper-?detailed|intricate)\b/i;
+    const own = `${sp.w} ${m.physique}`;
+    if (banned.test(own)) fails.push("character text contains a non-Samurai-Jack word: " + own.match(banned)[0]);
+    if (/\b(vehicle|car|truck|coupe|motorcycle|turret|tower|throne|boat|barge|mower)\b/i.test(sp.w.replace(/\b(boat hook|tower shield)\b/gi, ""))) fails.push("character text contains a large prop");
+    if (sp.w.split(/\s+/).length > 70) fails.push("outfit is too busy (over 70 words); Samurai Jack designs stay simple");
+    if (t.length > 3600) fails.push("prompt is too long for reliable generation");
+    return fails;
   };
 
   // how each people's color should wash the whole scene
@@ -60,5 +90,5 @@ Place at least two accents on the foreground props on the right and left, and re
 
 No characters, creatures, figures or silhouettes of people or animals, no bodies, no blood, and no text or lettering anywhere.`;
   };
-  return { char, bg };
+  return { char, bg, lint, meta, SJ_TEST };
 })();
