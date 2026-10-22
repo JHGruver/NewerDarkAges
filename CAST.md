@@ -49,6 +49,7 @@ Generated from the site data. 126 characters across 8 peoples, 42 subclasses.
 | Subclass | Interceptors |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/human-interceptors.png` and `art/v2/human-interceptors-bg.jpg` |
 | Colors | main #d00000, secondary #f8f9fa, pop #ffba08 |
 
 **Background**
@@ -93,6 +94,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Outriders |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #3a86ff, secondary #ff006e, pop #fff7c7 |
 
 **Background**
@@ -137,6 +139,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Fuel Zealots |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #06d6a0, secondary #e63946, pop #2e2200 |
 
 **Background**
@@ -184,6 +187,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Joystick Duelists |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #9d4edd, secondary #f4e846, pop #00f5d4 |
 
 **Background**
@@ -228,6 +232,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Pinball Gunners |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #ff5d8f, secondary #00bbf9, pop #fff7c7 |
 
 **Background**
@@ -272,6 +277,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Token Brokers |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #f8e777, secondary #06d6a0, pop #282956 |
 
 **Background**
@@ -319,6 +325,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Static Jammers |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #11b98a, secondary #ff006e, pop #fff7c7 |
 
 **Background**
@@ -363,6 +370,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Skyline DJs |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #fed6ad, secondary #7b2cbf, pop #a2cd9e |
 
 **Background**
@@ -407,6 +415,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Late-Night Hosts |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #b5ec69, secondary #8338ec, pop #2e2200 |
 
 **Background**
@@ -454,6 +463,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Riot Marshals |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #118ab2, secondary #ef476f, pop #eef6ff |
 
 **Background**
@@ -498,6 +508,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Escalator Lancers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #b1690f, secondary #4361ee, pop #fff2cf |
 
 **Background**
@@ -542,6 +553,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Concierge Diplomats |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #2a9d8f, secondary #d1ce70, pop #264653 |
 
 **Background**
@@ -603,6 +615,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Razor Dandies |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #ad0c2a, secondary #fee7bb, pop #7d99ca |
 
 **Background**
@@ -647,6 +660,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Mirror-Ball Executioners |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #e5383b, secondary #ffd60a, pop #eef6ff |
 
 **Background**
@@ -691,6 +705,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Velvet Chaperones |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #7b2cbf, secondary #ffd166, pop #fff4df |
 
 **Background**
@@ -738,6 +753,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Strobe Duelists |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #f72585, secondary #4cc9f0, pop #fff3b0 |
 
 **Background**
@@ -782,6 +798,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Bassline Brawlers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #6403a2, secondary #06d6a0, pop #ffbe0b |
 
 **Background**
@@ -826,6 +843,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | VIP Hosts |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #ff6d5f, secondary #ffd166, pop #2b2957 |
 
 **Background**
@@ -873,6 +891,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Owlwing Watch |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/vampire-owlwings.png` and `art/v2/vampire-owlwings-bg.jpg` |
 | Colors | main #19e6ff, secondary #ff2bd6, pop #ffb000 |
 
 **Background**
@@ -917,6 +936,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Gargoyle Sentries |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8bb9e5, secondary #ff4d6d, pop #023054 |
 
 **Background**
@@ -961,6 +981,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Antenna Wraiths |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #33bede, secondary #f72585, pop #ffd60a |
 
 **Background**
@@ -1008,6 +1029,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Masked Assassins |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #c71856, secondary #dbe8ac, pop #320b50 |
 
 **Background**
@@ -1052,6 +1074,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Thorn Poisoners |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #b34907, secondary #80ed99, pop #320b50 |
 
 **Background**
@@ -1096,6 +1119,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Spotlight Understudies |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #eb25b4, secondary #8ecae6, pop #fff7c7 |
 
 **Background**
@@ -1147,7 +1171,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | lean and long-limbed; medium size; mobility: agile |
-| Ethnicity + nationality | N/A (wolf-kin) |
+| Ethnicity + nationality | wolf-kin (not human: no ethnicity or nationality) |
 | Wardrobe | lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt |
 | Accessories | Hunting axe, throwing hatchets, pack-scarf, signal horn |
 | Pose | mid-leap, axe swinging toward the viewer |
@@ -1157,6 +1181,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Moonrunners |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/were-moonrunners.png` and `art/v2/were-moonrunners-bg.jpg` |
 | Colors | main #e9ecef, secondary #264653, pop #e9c46a |
 
 **Background**
@@ -1172,7 +1197,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Moonrunners, male character (N/A (wolf-kin)). Body: lean and long-limbed, medium size, agile. Expression: snarling grin. Pose: mid-leap, axe swinging toward the viewer. Wardrobe and carried gear (wearable or hand-held only): lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt. Palette: main #e9ecef (about 60%), secondary #264653 (about 30%), pop #e9c46a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Wolf-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Moonrunners, male character (a wolf-kin). Body: lean and long-limbed, medium size, agile. Expression: snarling grin. Pose: mid-leap, axe swinging toward the viewer. Wardrobe and carried gear (wearable or hand-held only): lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt. Palette: main #e9ecef (about 60%), secondary #264653 (about 30%), pop #e9c46a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Wolf-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1191,7 +1216,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | pale and rangy; medium size; mobility: grounded |
-| Ethnicity + nationality | N/A (wolf-kin) |
+| Ethnicity + nationality | wolf-kin (not human: no ethnicity or nationality) |
 | Wardrobe | pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt |
 | Accessories | Long rifle, white fur mantle, goggles, ice picks |
 | Pose | crouched in a snowdrift, rifle leveled |
@@ -1201,6 +1226,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Frostfang Wanderers |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #add6fe, secondary #4ea8de, pop #1d3557 |
 
 **Background**
@@ -1216,7 +1242,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Frostfang Wanderers, female character (N/A (wolf-kin)). Body: pale and rangy, medium size, grounded. Expression: calm, steady stare. Pose: crouched in a snowdrift, rifle leveled. Wardrobe and carried gear (wearable or hand-held only): pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt. Palette: main #add6fe (about 60%), secondary #4ea8de (about 30%), pop #1d3557 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Wolf-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Frostfang Wanderers, female character (a wolf-kin). Body: pale and rangy, medium size, grounded. Expression: calm, steady stare. Pose: crouched in a snowdrift, rifle leveled. Wardrobe and carried gear (wearable or hand-held only): pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt. Palette: main #add6fe (about 60%), secondary #4ea8de (about 30%), pop #1d3557 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Wolf-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1235,7 +1261,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | shaggy and sturdy; medium size; mobility: grounded |
-| Ethnicity + nationality | N/A (wolf-kin) |
+| Ethnicity + nationality | wolf-kin (not human: no ethnicity or nationality) |
 | Wardrobe | shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back |
 | Accessories | Collar-radio, tow harness, flare gun, med pack |
 | Pose | dragging a wounded ally with one arm, flare gun raised in the other |
@@ -1245,6 +1271,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Hearth Hounds |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #f2c458, secondary #118ab2, pop #fff7c7 |
 
 **Background**
@@ -1260,7 +1287,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Hearth Hounds, female character (N/A (wolf-kin)). Body: shaggy and sturdy, medium size, grounded. Expression: gentle, determined. Pose: dragging a wounded ally with one arm, flare gun raised in the other. Wardrobe and carried gear (wearable or hand-held only): shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back. Palette: main #f2c458 (about 60%), secondary #118ab2 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Wolf-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Hearth Hounds, female character (a wolf-kin). Body: shaggy and sturdy, medium size, grounded. Expression: gentle, determined. Pose: dragging a wounded ally with one arm, flare gun raised in the other. Wardrobe and carried gear (wearable or hand-held only): shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back. Palette: main #f2c458 (about 60%), secondary #118ab2 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Wolf-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1282,7 +1309,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | small and wiry; small size; mobility: agile |
-| Ethnicity + nationality | N/A (raccoon-kin) |
+| Ethnicity + nationality | raccoon-kin (not human: no ethnicity or nationality) |
 | Wardrobe | masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt |
 | Accessories | Crowbar, smoke bombs, lockpick roll, striped mask |
 | Pose | crouched over a safe with a crowbar levering it open |
@@ -1292,6 +1319,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Mask Bandits |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #dea013, secondary #7d99ca, pop #282956 |
 
 **Background**
@@ -1307,7 +1335,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Mask Bandits, female character (N/A (raccoon-kin)). Body: small and wiry, small size, agile. Expression: mischievous grin. Pose: crouched over a safe with a crowbar levering it open. Wardrobe and carried gear (wearable or hand-held only): masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt. Palette: main #dea013 (about 60%), secondary #7d99ca (about 30%), pop #282956 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Raccoon-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Mask Bandits, female character (a raccoon-kin). Body: small and wiry, small size, agile. Expression: mischievous grin. Pose: crouched over a safe with a crowbar levering it open. Wardrobe and carried gear (wearable or hand-held only): masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt. Palette: main #dea013 (about 60%), secondary #7d99ca (about 30%), pop #282956 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Raccoon-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1326,7 +1354,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | small and stocky; small size; mobility: grounded |
-| Ethnicity + nationality | N/A (raccoon-kin) |
+| Ethnicity + nationality | raccoon-kin (not human: no ethnicity or nationality) |
 | Wardrobe | raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand |
 | Accessories | Scrap turret, tool bandolier, soldering torch, goggles |
 | Pose | twisting a screwdriver into a wired gadget, torch in the other paw |
@@ -1336,6 +1364,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Gizmo Tinkers |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #44f1b9, secondary #ee8613, pop #221c48 |
 
 **Background**
@@ -1351,7 +1380,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Gizmo Tinkers, male character (N/A (raccoon-kin)). Body: small and stocky, small size, grounded. Expression: absorbed, tongue between teeth. Pose: twisting a screwdriver into a wired gadget, torch in the other paw. Wardrobe and carried gear (wearable or hand-held only): raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand. Palette: main #44f1b9 (about 60%), secondary #ee8613 (about 30%), pop #221c48 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Were-Creature people (Raccoon-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Gizmo Tinkers, male character (a raccoon-kin). Body: small and stocky, small size, grounded. Expression: absorbed, tongue between teeth. Pose: twisting a screwdriver into a wired gadget, torch in the other paw. Wardrobe and carried gear (wearable or hand-held only): raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand. Palette: main #44f1b9 (about 60%), secondary #ee8613 (about 30%), pop #221c48 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Were-Creature people (Raccoon-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1370,7 +1399,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Nonbinary |
 | Physique | padded and stocky; small size; mobility: grounded |
-| Ethnicity + nationality | N/A (raccoon-kin) |
+| Ethnicity + nationality | raccoon-kin (not human: no ethnicity or nationality) |
 | Wardrobe | raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys |
 | Accessories | Shaped charges, bolt cutters, skeleton keys, padded vest |
 | Pose | slapping a shaped charge on a door, bolt cutters on the belt |
@@ -1380,6 +1409,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Vault Lockbreakers |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #fd9794, secondary #a8dadc, pop #1d3557 |
 
 **Background**
@@ -1395,7 +1425,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Vault Lockbreakers, nonbinary character (N/A (raccoon-kin)). Body: padded and stocky, small size, grounded. Expression: gleeful, eyes wide. Pose: slapping a shaped charge on a door, bolt cutters on the belt. Wardrobe and carried gear (wearable or hand-held only): raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys. Palette: main #fd9794 (about 60%), secondary #a8dadc (about 30%), pop #1d3557 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Raccoon-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Vault Lockbreakers, nonbinary character (a raccoon-kin). Body: padded and stocky, small size, grounded. Expression: gleeful, eyes wide. Pose: slapping a shaped charge on a door, bolt cutters on the belt. Wardrobe and carried gear (wearable or hand-held only): raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys. Palette: main #fd9794 (about 60%), secondary #a8dadc (about 30%), pop #1d3557 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Raccoon-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1417,7 +1447,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | broad and armored; large size; mobility: aquatic |
-| Ethnicity + nationality | N/A (crocodile-kin) |
+| Ethnicity + nationality | crocodile-kin (not human: no ethnicity or nationality) |
 | Wardrobe | broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm |
 | Accessories | Boat hook, nest-armor, signal bell, egg basket |
 | Pose | boat hook raised, nest basket cradled on the other arm |
@@ -1427,6 +1457,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Mire Matriarchs |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #7cb518, secondary #3a0ca3, pop #ffe8d7 |
 
 **Background**
@@ -1442,7 +1473,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Mire Matriarchs, female character (N/A (crocodile-kin)). Body: broad and armored, large size, aquatic. Expression: stern, protective glare. Pose: boat hook raised, nest basket cradled on the other arm. Wardrobe and carried gear (wearable or hand-held only): broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm. Palette: main #7cb518 (about 60%), secondary #3a0ca3 (about 30%), pop #ffe8d7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Crocodile-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Mire Matriarchs, female character (a crocodile-kin). Body: broad and armored, large size, aquatic. Expression: stern, protective glare. Pose: boat hook raised, nest basket cradled on the other arm. Wardrobe and carried gear (wearable or hand-held only): broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm. Palette: main #7cb518 (about 60%), secondary #3a0ca3 (about 30%), pop #ffe8d7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Crocodile-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1461,7 +1492,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | lean and scarred; large size; mobility: aquatic |
-| Ethnicity + nationality | N/A (crocodile-kin) |
+| Ethnicity + nationality | crocodile-kin (not human: no ethnicity or nationality) |
 | Wardrobe | smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other |
 | Accessories | Boat hook, scrap cutlass, captain's hat, lantern pole |
 | Pose | one foot up on a crate, cutlass over the shoulder, lantern pole raised |
@@ -1471,6 +1502,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Snapjaw Riverjackers |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #67cdc1, secondary #ffbf69, pop #1b263b |
 
 **Background**
@@ -1486,7 +1518,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Snapjaw Riverjackers, male character (N/A (crocodile-kin)). Body: lean and scarred, large size, aquatic. Expression: smug, tooth-baring grin. Pose: one foot up on a crate, cutlass over the shoulder, lantern pole raised. Wardrobe and carried gear (wearable or hand-held only): smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other. Palette: main #67cdc1 (about 60%), secondary #ffbf69 (about 30%), pop #1b263b (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Crocodile-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Snapjaw Riverjackers, male character (a crocodile-kin). Body: lean and scarred, large size, aquatic. Expression: smug, tooth-baring grin. Pose: one foot up on a crate, cutlass over the shoulder, lantern pole raised. Wardrobe and carried gear (wearable or hand-held only): smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other. Palette: main #67cdc1 (about 60%), secondary #ffbf69 (about 30%), pop #1b263b (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Crocodile-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1505,7 +1537,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | ancient and broad; large size; mobility: grounded |
-| Ethnicity + nationality | N/A (crocodile-kin) |
+| Ethnicity + nationality | crocodile-kin (not human: no ethnicity or nationality) |
 | Wardrobe | ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt |
 | Accessories | Heavy staff, mossy cloak, scroll of treaties, stone bracers |
 | Pose | seated upright with the staff planted, one eye cracking open |
@@ -1515,6 +1547,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Slow-Strike Sages |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #a7c957, secondary #6d597a, pop #fee7ab |
 
 **Background**
@@ -1530,7 +1563,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Slow-Strike Sages, male character (N/A (crocodile-kin)). Body: ancient and broad, large size, grounded. Expression: half-lidded, patient. Pose: seated upright with the staff planted, one eye cracking open. Wardrobe and carried gear (wearable or hand-held only): ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt. Palette: main #a7c957 (about 60%), secondary #6d597a (about 30%), pop #fee7ab (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Crocodile-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Slow-Strike Sages, male character (a crocodile-kin). Body: ancient and broad, large size, grounded. Expression: half-lidded, patient. Pose: seated upright with the staff planted, one eye cracking open. Wardrobe and carried gear (wearable or hand-held only): ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt. Palette: main #a7c957 (about 60%), secondary #6d597a (about 30%), pop #fee7ab (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Crocodile-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1552,7 +1585,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | round and soft; medium size; mobility: aquatic |
-| Ethnicity + nationality | N/A (capybara-kin) |
+| Ethnicity + nationality | capybara-kin (not human: no ethnicity or nationality) |
 | Wardrobe | round capybara-kin in a towel-wrap robe, a steaming kettle in one hand and a bundle of herbs in the other, a flask at the hip |
 | Accessories | Steam kettle, herb bundle, bath towel, spring-water flask |
 | Pose | pouring steam from a kettle, one paw open in welcome |
@@ -1562,6 +1595,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Hot-Spring Healers |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #bcfec8, secondary #ffadad, pop #c9c588 |
 
 **Background**
@@ -1577,7 +1611,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Hot-Spring Healers, female character (N/A (capybara-kin)). Body: round and soft, medium size, aquatic. Expression: soft, serene smile. Pose: pouring steam from a kettle, one paw open in welcome. Wardrobe and carried gear (wearable or hand-held only): round capybara-kin in a towel-wrap robe, a steaming kettle in one hand and a bundle of herbs in the other, a flask at the hip. Palette: main #bcfec8 (about 60%), secondary #ffadad (about 30%), pop #c9c588 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Hot-Spring Healers, female character (a capybara-kin). Body: round and soft, medium size, aquatic. Expression: soft, serene smile. Pose: pouring steam from a kettle, one paw open in welcome. Wardrobe and carried gear (wearable or hand-held only): round capybara-kin in a towel-wrap robe, a steaming kettle in one hand and a bundle of herbs in the other, a flask at the hip. Palette: main #bcfec8 (about 60%), secondary #ffadad (about 30%), pop #c9c588 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1596,7 +1630,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | round and calm; medium size; mobility: grounded |
-| Ethnicity + nationality | N/A (capybara-kin) |
+| Ethnicity + nationality | capybara-kin (not human: no ethnicity or nationality) |
 | Wardrobe | calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt |
 | Accessories | Reed mat, treaty scroll, gavel, tea set |
 | Pose | holding a treaty scroll and a teapot out in offer |
@@ -1606,6 +1640,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Reed-Lodge Diplomats |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #abdbd0, secondary #e86c65, pop #264653 |
 
 **Background**
@@ -1621,7 +1656,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Reed-Lodge Diplomats, male character (N/A (capybara-kin)). Body: round and calm, medium size, grounded. Expression: calm, untroubled. Pose: holding a treaty scroll and a teapot out in offer. Wardrobe and carried gear (wearable or hand-held only): calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt. Palette: main #abdbd0 (about 60%), secondary #e86c65 (about 30%), pop #264653 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Reed-Lodge Diplomats, male character (a capybara-kin). Body: round and calm, medium size, grounded. Expression: calm, untroubled. Pose: holding a treaty scroll and a teapot out in offer. Wardrobe and carried gear (wearable or hand-held only): calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt. Palette: main #abdbd0 (about 60%), secondary #e86c65 (about 30%), pop #264653 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1640,7 +1675,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | broad and heavy-set; large size; mobility: grounded |
-| Ethnicity + nationality | N/A (capybara-kin) |
+| Ethnicity + nationality | capybara-kin (not human: no ethnicity or nationality) |
 | Wardrobe | broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand |
 | Accessories | Tower shield, sledge, scaffolding rig, hard hat |
 | Pose | planted behind a slab shield, sledge resting on one shoulder |
@@ -1650,6 +1685,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Dam Wardens |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #b0970b, secondary #3d5a80, pop #d8fdff |
 
 **Background**
@@ -1665,7 +1701,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Dam Wardens, male character (N/A (capybara-kin)). Body: broad and heavy-set, large size, grounded. Expression: stolid, unbothered. Pose: planted behind a slab shield, sledge resting on one shoulder. Wardrobe and carried gear (wearable or hand-held only): broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand. Palette: main #b0970b (about 60%), secondary #3d5a80 (about 30%), pop #d8fdff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Dam Wardens, male character (a capybara-kin). Body: broad and heavy-set, large size, grounded. Expression: stolid, unbothered. Pose: planted behind a slab shield, sledge resting on one shoulder. Wardrobe and carried gear (wearable or hand-held only): broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand. Palette: main #b0970b (about 60%), secondary #3d5a80 (about 30%), pop #d8fdff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1687,7 +1723,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Nonbinary |
 | Physique | slim with feathery gills; medium size; mobility: aquatic |
-| Ethnicity + nationality | N/A (axolotl-kin) |
+| Ethnicity + nationality | axolotl-kin (not human: no ethnicity or nationality) |
 | Wardrobe | smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other |
 | Accessories | Med satchel, glow-gel flask, bandage reel, field lamp |
 | Pose | kneeling with a glowing hand over a wound, satchel open |
@@ -1697,6 +1733,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Regrowth Medics |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #f790c3, secondary #4cc9f0, pop #fff0d1 |
 
 **Background**
@@ -1712,7 +1749,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Regrowth Medics, nonbinary character (N/A (axolotl-kin)). Body: slim with feathery gills, medium size, aquatic. Expression: bright, reassuring smile. Pose: kneeling with a glowing hand over a wound, satchel open. Wardrobe and carried gear (wearable or hand-held only): smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other. Palette: main #f790c3 (about 60%), secondary #4cc9f0 (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Axolotl-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Regrowth Medics, nonbinary character (a axolotl-kin). Body: slim with feathery gills, medium size, aquatic. Expression: bright, reassuring smile. Pose: kneeling with a glowing hand over a wound, satchel open. Wardrobe and carried gear (wearable or hand-held only): smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other. Palette: main #f790c3 (about 60%), secondary #4cc9f0 (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Axolotl-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1731,7 +1768,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | slim and wet-suited; medium size; mobility: aquatic |
-| Ethnicity + nationality | N/A (axolotl-kin) |
+| Ethnicity + nationality | axolotl-kin (not human: no ethnicity or nationality) |
 | Wardrobe | axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands |
 | Accessories | Storm staff, wet-suit coat, battery pack, goggles |
 | Pose | staff raised overhead as lightning arcs between the gills |
@@ -1741,6 +1778,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Gillstorm Casters |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #13a6c7, secondary #ff5d8f, pop #2e2200 |
 
 **Background**
@@ -1756,7 +1794,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Gillstorm Casters, female character (N/A (axolotl-kin)). Body: slim and wet-suited, medium size, aquatic. Expression: intense, gills flared. Pose: staff raised overhead as lightning arcs between the gills. Wardrobe and carried gear (wearable or hand-held only): axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands. Palette: main #13a6c7 (about 60%), secondary #ff5d8f (about 30%), pop #2e2200 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Were-Creature people (Axolotl-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Gillstorm Casters, female character (a axolotl-kin). Body: slim and wet-suited, medium size, aquatic. Expression: intense, gills flared. Pose: staff raised overhead as lightning arcs between the gills. Wardrobe and carried gear (wearable or hand-held only): axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands. Palette: main #13a6c7 (about 60%), secondary #ff5d8f (about 30%), pop #2e2200 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Were-Creature people (Axolotl-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1775,7 +1813,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | wide-faced and low-slung; medium size; mobility: aquatic |
-| Ethnicity + nationality | N/A (axolotl-kin) |
+| Ethnicity + nationality | axolotl-kin (not human: no ethnicity or nationality) |
 | Wardrobe | wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands |
 | Accessories | Hooked spear, glow-lure, mud-cloak, wading boots |
 | Pose | low in a crouch, hooked spear lowered with the lure-tips glowing |
@@ -1785,6 +1823,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Mudglow Lurkers |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #5a20c7, secondary #b5e48c, pop #e4ffda |
 
 **Background**
@@ -1800,7 +1839,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Mudglow Lurkers, male character (N/A (axolotl-kin)). Body: wide-faced and low-slung, medium size, aquatic. Expression: wide, unblinking stare. Pose: low in a crouch, hooked spear lowered with the lure-tips glowing. Wardrobe and carried gear (wearable or hand-held only): wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands. Palette: main #5a20c7 (about 60%), secondary #b5e48c (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Axolotl-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Mudglow Lurkers, male character (a axolotl-kin). Body: wide-faced and low-slung, medium size, aquatic. Expression: wide, unblinking stare. Pose: low in a crouch, hooked spear lowered with the lure-tips glowing. Wardrobe and carried gear (wearable or hand-held only): wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands. Palette: main #5a20c7 (about 60%), secondary #b5e48c (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Axolotl-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1822,7 +1861,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | slender and feathered; medium size; mobility: flying |
-| Ethnicity + nationality | N/A (raven-kin) |
+| Ethnicity + nationality | raven-kin (not human: no ethnicity or nationality) |
 | Wardrobe | slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares |
 | Accessories | Crystal-ball lens, feather staff, star-sewn cloak, signal flares |
 | Pose | orb held aloft in one hand, crescent staff pointed in the other |
@@ -1832,6 +1871,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Gloamwing Oracles |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #3a0ca3, secondary #f9c74f, pop #90e0ef |
 
 **Background**
@@ -1847,7 +1887,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Gloamwing Oracles, female character (N/A (raven-kin)). Body: slender and feathered, medium size, flying. Expression: mysterious, knowing. Pose: orb held aloft in one hand, crescent staff pointed in the other. Wardrobe and carried gear (wearable or hand-held only): slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares. Palette: main #3a0ca3 (about 60%), secondary #f9c74f (about 30%), pop #90e0ef (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Were-Creature people (Raven-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Gloamwing Oracles, female character (a raven-kin). Body: slender and feathered, medium size, flying. Expression: mysterious, knowing. Pose: orb held aloft in one hand, crescent staff pointed in the other. Wardrobe and carried gear (wearable or hand-held only): slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares. Palette: main #3a0ca3 (about 60%), secondary #f9c74f (about 30%), pop #90e0ef (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Were-Creature people (Raven-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1866,7 +1906,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Nonbinary |
 | Physique | small and quick; small size; mobility: flying |
-| Ethnicity + nationality | N/A (magpie-kin) |
+| Ethnicity + nationality | magpie-kin (not human: no ethnicity or nationality) |
 | Wardrobe | magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch |
 | Accessories | Twin hook-blades, relic bag, magnifying goggles, gem pouch |
 | Pose | hooking a gem with one blade, bag swinging from the shoulder |
@@ -1876,6 +1916,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Salvage Magpies |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #aafdff, secondary #1d3557, pop #f54852 |
 
 **Background**
@@ -1891,7 +1932,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Salvage Magpies, nonbinary character (N/A (magpie-kin)). Body: small and quick, small size, flying. Expression: greedy delight. Pose: hooking a gem with one blade, bag swinging from the shoulder. Wardrobe and carried gear (wearable or hand-held only): magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch. Palette: main #aafdff (about 60%), secondary #1d3557 (about 30%), pop #f54852 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Raven-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Salvage Magpies, nonbinary character (a magpie-kin). Body: small and quick, small size, flying. Expression: greedy delight. Pose: hooking a gem with one blade, bag swinging from the shoulder. Wardrobe and carried gear (wearable or hand-held only): magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch. Palette: main #aafdff (about 60%), secondary #1d3557 (about 30%), pop #f54852 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Raven-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1910,7 +1951,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | lean and feathered; medium size; mobility: flying |
-| Ethnicity + nationality | N/A (raven-kin) |
+| Ethnicity + nationality | raven-kin (not human: no ethnicity or nationality) |
 | Wardrobe | raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip |
 | Accessories | Talon-blades, feather mantle, black-iron beak mask, grudge ledger |
 | Pose | diving forward with talon-blades out, crows streaming behind |
@@ -1920,6 +1961,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Murder Vanguard |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #282956, secondary #ef233c, pop #def6ff |
 
 **Background**
@@ -1935,7 +1977,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Murder Vanguard, male character (N/A (raven-kin)). Body: lean and feathered, medium size, flying. Expression: cold, beaked glare. Pose: diving forward with talon-blades out, crows streaming behind. Wardrobe and carried gear (wearable or hand-held only): raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip. Palette: main #282956 (about 60%), secondary #ef233c (about 30%), pop #def6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Raven-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Murder Vanguard, male character (a raven-kin). Body: lean and feathered, medium size, flying. Expression: cold, beaked glare. Pose: diving forward with talon-blades out, crows streaming behind. Wardrobe and carried gear (wearable or hand-held only): raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip. Palette: main #282956 (about 60%), secondary #ef233c (about 30%), pop #def6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Raven-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -1957,7 +1999,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | round and fluffy; medium size; mobility: flying |
-| Ethnicity + nationality | N/A (owl-kin) |
+| Ethnicity + nationality | owl-kin (not human: no ethnicity or nationality) |
 | Wardrobe | fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt |
 | Accessories | Talon-blades, spectacles, scroll case, wing-cloak |
 | Pose | diving with talon-blades extended and wings half-spread |
@@ -1967,6 +2009,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Hushwing Strikers |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #7aa1ce, secondary #5f0f40, pop #f78f0a |
 
 **Background**
@@ -1982,7 +2025,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Hushwing Strikers, female character (N/A (owl-kin)). Body: round and fluffy, medium size, flying. Expression: grave, unblinking. Pose: diving with talon-blades extended and wings half-spread. Wardrobe and carried gear (wearable or hand-held only): fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt. Palette: main #7aa1ce (about 60%), secondary #5f0f40 (about 30%), pop #f78f0a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Owl-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Hushwing Strikers, female character (a owl-kin). Body: round and fluffy, medium size, flying. Expression: grave, unblinking. Pose: diving with talon-blades extended and wings half-spread. Wardrobe and carried gear (wearable or hand-held only): fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt. Palette: main #7aa1ce (about 60%), secondary #5f0f40 (about 30%), pop #f78f0a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Were-Creature people (Owl-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2001,7 +2044,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | compact with huge eyes; medium size; mobility: flying |
-| Ethnicity + nationality | N/A (owl-kin) |
+| Ethnicity + nationality | owl-kin (not human: no ethnicity or nationality) |
 | Wardrobe | owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands |
 | Accessories | Long rifle with thermal scope, night-goggles, ghillie cloak |
 | Pose | perched with the rifle braced across a raised knee |
@@ -2011,6 +2054,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Night-Eye Snipers |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #fff5bc, secondary #3c096c, pop #c6e2fe |
 
 **Background**
@@ -2026,7 +2070,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Night-Eye Snipers, male character (N/A (owl-kin)). Body: compact with huge eyes, medium size, flying. Expression: steady, enormous-eyed focus. Pose: perched with the rifle braced across a raised knee. Wardrobe and carried gear (wearable or hand-held only): owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands. Palette: main #fff5bc (about 60%), secondary #3c096c (about 30%), pop #c6e2fe (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Owl-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Night-Eye Snipers, male character (a owl-kin). Body: compact with huge eyes, medium size, flying. Expression: steady, enormous-eyed focus. Pose: perched with the rifle braced across a raised knee. Wardrobe and carried gear (wearable or hand-held only): owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands. Palette: main #fff5bc (about 60%), secondary #3c096c (about 30%), pop #c6e2fe (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Owl-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2045,7 +2089,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | round and sturdy; medium size; mobility: grounded |
-| Ethnicity + nationality | N/A (owl-kin) |
+| Ethnicity + nationality | owl-kin (not human: no ethnicity or nationality) |
 | Wardrobe | round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder |
 | Accessories | Halberd, signal lamp, alarm horn, reinforced helm |
 | Pose | standing at a post, halberd upright, head swivelled over the shoulder |
@@ -2055,6 +2099,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Rotating Watch |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #7091a1, secondary #f28c16, pop #023047 |
 
 **Background**
@@ -2070,7 +2115,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Rotating Watch, male character (N/A (owl-kin)). Body: round and sturdy, medium size, grounded. Expression: alert, head turned right around. Pose: standing at a post, halberd upright, head swivelled over the shoulder. Wardrobe and carried gear (wearable or hand-held only): round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder. Palette: main #7091a1 (about 60%), secondary #f28c16 (about 30%), pop #023047 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Owl-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Rotating Watch, male character (a owl-kin). Body: round and sturdy, medium size, grounded. Expression: alert, head turned right around. Pose: standing at a post, halberd upright, head swivelled over the shoulder. Wardrobe and carried gear (wearable or hand-held only): round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder. Palette: main #7091a1 (about 60%), secondary #f28c16 (about 30%), pop #023047 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Owl-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2092,7 +2137,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | slim and tentacled; medium size; mobility: agile |
-| Ethnicity + nationality | N/A (octopus-kin) |
+| Ethnicity + nationality | octopus-kin (not human: no ethnicity or nationality) |
 | Wardrobe | octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt |
 | Accessories | Ink-bomb pouch, suction-grip gloves, silenced pistol, camo cloak |
 | Pose | slipping sideways with the silenced pistol raised, tentacles curling |
@@ -2102,6 +2147,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Ink Spies |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #9518a2, secondary #06d6a0, pop #002645 |
 
 **Background**
@@ -2117,7 +2163,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Ink Spies, female character (N/A (octopus-kin)). Body: slim and tentacled, medium size, agile. Expression: coolly amused. Pose: slipping sideways with the silenced pistol raised, tentacles curling. Wardrobe and carried gear (wearable or hand-held only): octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt. Palette: main #9518a2 (about 60%), secondary #06d6a0 (about 30%), pop #002645 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Octopus-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Ink Spies, female character (a octopus-kin). Body: slim and tentacled, medium size, agile. Expression: coolly amused. Pose: slipping sideways with the silenced pistol raised, tentacles curling. Wardrobe and carried gear (wearable or hand-held only): octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt. Palette: main #9518a2 (about 60%), secondary #06d6a0 (about 30%), pop #002645 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Octopus-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2136,7 +2182,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | many-limbed and busy; medium size; mobility: grounded |
-| Ethnicity + nationality | N/A (octopus-kin) |
+| Ethnicity + nationality | octopus-kin (not human: no ethnicity or nationality) |
 | Wardrobe | octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver |
 | Accessories | Multi-tool harness, welder, scrap turret, goggles |
 | Pose | working on several tools at once with a limb for each |
@@ -2146,6 +2192,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Tentacle Engineers |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #fda96c, secondary #00b4d8, pop #282956 |
 
 **Background**
@@ -2161,7 +2208,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Tentacle Engineers, male character (N/A (octopus-kin)). Body: many-limbed and busy, medium size, grounded. Expression: frazzled, delighted focus. Pose: working on several tools at once with a limb for each. Wardrobe and carried gear (wearable or hand-held only): octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver. Palette: main #fda96c (about 60%), secondary #00b4d8 (about 30%), pop #282956 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Were-Creature people (Octopus-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Tentacle Engineers, male character (a octopus-kin). Body: many-limbed and busy, medium size, grounded. Expression: frazzled, delighted focus. Pose: working on several tools at once with a limb for each. Wardrobe and carried gear (wearable or hand-held only): octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver. Palette: main #fda96c (about 60%), secondary #00b4d8 (about 30%), pop #282956 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Were-Creature people (Octopus-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2180,7 +2227,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Nonbinary |
 | Physique | robed and tentacled; medium size; mobility: aquatic |
-| Ethnicity + nationality | N/A (octopus-kin) |
+| Ethnicity + nationality | octopus-kin (not human: no ethnicity or nationality) |
 | Wardrobe | octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt |
 | Accessories | Sodden tome, ink wand, diving-bell helm, scroll case |
 | Pose | reading from an open tome while spectral limbs coil around |
@@ -2190,6 +2237,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Abyssal Scholars |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #270077, secondary #e0aaff, pop #1c2337 |
 
 **Background**
@@ -2205,7 +2253,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Abyssal Scholars, nonbinary character (N/A (octopus-kin)). Body: robed and tentacled, medium size, aquatic. Expression: serene, eyes half-shut. Pose: reading from an open tome while spectral limbs coil around. Wardrobe and carried gear (wearable or hand-held only): octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt. Palette: main #270077 (about 60%), secondary #e0aaff (about 30%), pop #1c2337 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Were-Creature people (Octopus-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Abyssal Scholars, nonbinary character (a octopus-kin). Body: robed and tentacled, medium size, aquatic. Expression: serene, eyes half-shut. Pose: reading from an open tome while spectral limbs coil around. Wardrobe and carried gear (wearable or hand-held only): octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt. Palette: main #270077 (about 60%), secondary #e0aaff (about 30%), pop #1c2337 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Were-Creature people (Octopus-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2227,7 +2275,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | armored and compact; medium size; mobility: aquatic |
-| Ethnicity + nationality | N/A (mantis shrimp-kin) |
+| Ethnicity + nationality | mantis shrimp-kin (not human: no ethnicity or nationality) |
 | Wardrobe | armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak |
 | Accessories | Club-claws, plated carapace, striking gauntlets, reef-cloak |
 | Pose | one club-claw cocked back, the other braced forward |
@@ -2237,6 +2285,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Punch-Claw Duelists |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #ca148b, secondary #ffd60a, pop #023e8a |
 
 **Background**
@@ -2252,7 +2301,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Punch-Claw Duelists, male character (N/A (mantis shrimp-kin)). Body: armored and compact, medium size, aquatic. Expression: taut, predatory. Pose: one club-claw cocked back, the other braced forward. Wardrobe and carried gear (wearable or hand-held only): armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak. Palette: main #ca148b (about 60%), secondary #ffd60a (about 30%), pop #023e8a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Mantis Shrimp-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Punch-Claw Duelists, male character (a mantis shrimp-kin). Body: armored and compact, medium size, aquatic. Expression: taut, predatory. Pose: one club-claw cocked back, the other braced forward. Wardrobe and carried gear (wearable or hand-held only): armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak. Palette: main #ca148b (about 60%), secondary #ffd60a (about 30%), pop #023e8a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Mantis Shrimp-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2271,7 +2320,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | armored with stalked eyes; medium size; mobility: aquatic |
-| Ethnicity + nationality | N/A (mantis shrimp-kin) |
+| Ethnicity + nationality | mantis shrimp-kin (not human: no ethnicity or nationality) |
 | Wardrobe | mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak |
 | Accessories | Prism rifle, multi-lens goggles, color-coded ammo, reef-cloak |
 | Pose | braced firing stance with a prism rifle |
@@ -2281,6 +2330,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Prism Gunners |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #4dfff2, secondary #f15bb5, pop #9b5de5 |
 
 **Background**
@@ -2296,7 +2346,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Prism Gunners, female character (N/A (mantis shrimp-kin)). Body: armored with stalked eyes, medium size, aquatic. Expression: fiercely focused, stalk-eyes aimed in different directions. Pose: braced firing stance with a prism rifle. Wardrobe and carried gear (wearable or hand-held only): mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak. Palette: main #4dfff2 (about 60%), secondary #f15bb5 (about 30%), pop #9b5de5 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Mantis Shrimp-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Prism Gunners, female character (a mantis shrimp-kin). Body: armored with stalked eyes, medium size, aquatic. Expression: fiercely focused, stalk-eyes aimed in different directions. Pose: braced firing stance with a prism rifle. Wardrobe and carried gear (wearable or hand-held only): mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak. Palette: main #4dfff2 (about 60%), secondary #f15bb5 (about 30%), pop #9b5de5 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Mantis Shrimp-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2315,7 +2365,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | heavily armored; large size; mobility: aquatic |
-| Ethnicity + nationality | N/A (mantis shrimp-kin) |
+| Ethnicity + nationality | mantis shrimp-kin (not human: no ethnicity or nationality) |
 | Wardrobe | heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand |
 | Accessories | Shell shield, plated carapace, short club-claws, helmet |
 | Pose | crouched behind a ridged shield, short claw ready |
@@ -2325,6 +2375,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Reef Shell-Guard |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #e95cbf, secondary #118ab2, pop #ffd166 |
 
 **Background**
@@ -2340,7 +2391,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Reef Shell-Guard, male character (N/A (mantis shrimp-kin)). Body: heavily armored, large size, aquatic. Expression: grim, unmoved. Pose: crouched behind a ridged shield, short claw ready. Wardrobe and carried gear (wearable or hand-held only): heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand. Palette: main #e95cbf (about 60%), secondary #118ab2 (about 30%), pop #ffd166 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Mantis Shrimp-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Reef Shell-Guard, male character (a mantis shrimp-kin). Body: heavily armored, large size, aquatic. Expression: grim, unmoved. Pose: crouched behind a ridged shield, short claw ready. Wardrobe and carried gear (wearable or hand-held only): heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand. Palette: main #e95cbf (about 60%), secondary #118ab2 (about 30%), pop #ffd166 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Mantis Shrimp-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2362,7 +2413,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | slim and winged; medium size; mobility: flying |
-| Ethnicity + nationality | N/A (moth-kin) |
+| Ethnicity + nationality | moth-kin (not human: no ethnicity or nationality) |
 | Wardrobe | moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt |
 | Accessories | Flare launcher, lantern staff, ash-dusted robes, signal mirror |
 | Pose | lantern staff raised, flare launcher cocked on the hip |
@@ -2372,6 +2423,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Lantern Cultists |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #d7ce04, secondary #cc0b38, pop #410f1f |
 
 **Background**
@@ -2387,7 +2439,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Lantern Cultists, female character (N/A (moth-kin)). Body: slim and winged, medium size, flying. Expression: rapt, glowing devotion. Pose: lantern staff raised, flare launcher cocked on the hip. Wardrobe and carried gear (wearable or hand-held only): moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt. Palette: main #d7ce04 (about 60%), secondary #cc0b38 (about 30%), pop #410f1f (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Moth-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Lantern Cultists, female character (a moth-kin). Body: slim and winged, medium size, flying. Expression: rapt, glowing devotion. Pose: lantern staff raised, flare launcher cocked on the hip. Wardrobe and carried gear (wearable or hand-held only): moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt. Palette: main #d7ce04 (about 60%), secondary #cc0b38 (about 30%), pop #410f1f (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Were-Creature people (Moth-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2406,7 +2458,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Nonbinary |
 | Physique | delicate and winged; medium size; mobility: flying |
-| Ethnicity + nationality | N/A (moth-kin) |
+| Ethnicity + nationality | moth-kin (not human: no ethnicity or nationality) |
 | Wardrobe | moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt |
 | Accessories | Dust-satchel, feather duster staff, scale-powder pots, shawl |
 | Pose | shaking glowing dust from a feather duster over an ally |
@@ -2416,6 +2468,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Dreamdust Weavers |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #b668f9, secondary #ffc8dd, pop #2e0d52 |
 
 **Background**
@@ -2431,7 +2484,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Dreamdust Weavers, nonbinary character (N/A (moth-kin)). Body: delicate and winged, medium size, flying. Expression: drowsy, dreamy smile. Pose: shaking glowing dust from a feather duster over an ally. Wardrobe and carried gear (wearable or hand-held only): moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt. Palette: main #b668f9 (about 60%), secondary #ffc8dd (about 30%), pop #2e0d52 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Were-Creature people (Moth-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Dreamdust Weavers, nonbinary character (a moth-kin). Body: delicate and winged, medium size, flying. Expression: drowsy, dreamy smile. Pose: shaking glowing dust from a feather duster over an ally. Wardrobe and carried gear (wearable or hand-held only): moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt. Palette: main #b668f9 (about 60%), secondary #ffc8dd (about 30%), pop #2e0d52 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Were-Creature people (Moth-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2450,7 +2503,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | slim and winged; medium size; mobility: climbing |
-| Ethnicity + nationality | N/A (moth-kin) |
+| Ethnicity + nationality | moth-kin (not human: no ethnicity or nationality) |
 | Wardrobe | moth-kin in a radio headset and a harness with an antenna pack, climbing gear on the belt, a signal rod held in both hands |
 | Accessories | Signal rod, radio headset, antenna pack, climbing harness |
 | Pose | climbing stance, signal rod pointed outward |
@@ -2460,6 +2513,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Signal-Tower Wardens |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #30a8f5, secondary #f72585, pop #4a4e69 |
 
 **Background**
@@ -2475,7 +2529,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Signal-Tower Wardens, male character (N/A (moth-kin)). Body: slim and winged, medium size, climbing. Expression: alert, antennae twitching. Pose: climbing stance, signal rod pointed outward. Wardrobe and carried gear (wearable or hand-held only): moth-kin in a radio headset and a harness with an antenna pack, climbing gear on the belt, a signal rod held in both hands. Palette: main #30a8f5 (about 60%), secondary #f72585 (about 30%), pop #4a4e69 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Were-Creature people (Moth-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Signal-Tower Wardens, male character (a moth-kin). Body: slim and winged, medium size, climbing. Expression: alert, antennae twitching. Pose: climbing stance, signal rod pointed outward. Wardrobe and carried gear (wearable or hand-held only): moth-kin in a radio headset and a harness with an antenna pack, climbing gear on the belt, a signal rod held in both hands. Palette: main #30a8f5 (about 60%), secondary #f72585 (about 30%), pop #4a4e69 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Were-Creature people (Moth-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2497,7 +2551,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | armored in overlapping plates; large size; mobility: grounded |
-| Ethnicity + nationality | N/A (pangolin-kin) |
+| Ethnicity + nationality | pangolin-kin (not human: no ethnicity or nationality) |
 | Wardrobe | pangolin-kin in layered salvage-plate armor with overlapping scales, a tower shield on one arm and a hand-forged mace in the other |
 | Accessories | Layered plate armor, tower shield, hand-forged mace, shoulder plates |
 | Pose | planted wide behind a tower shield, mace raised |
@@ -2507,6 +2561,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Plate-Wall Bulwarks |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #febab2, secondary #4a4e69, pop #fdce53 |
 
 **Background**
@@ -2522,7 +2577,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Plate-Wall Bulwarks, female character (N/A (pangolin-kin)). Body: armored in overlapping plates, large size, grounded. Expression: unshakable, jaw set. Pose: planted wide behind a tower shield, mace raised. Wardrobe and carried gear (wearable or hand-held only): pangolin-kin in layered salvage-plate armor with overlapping scales, a tower shield on one arm and a hand-forged mace in the other. Palette: main #febab2 (about 60%), secondary #4a4e69 (about 30%), pop #fdce53 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Pangolin-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Plate-Wall Bulwarks, female character (a pangolin-kin). Body: armored in overlapping plates, large size, grounded. Expression: unshakable, jaw set. Pose: planted wide behind a tower shield, mace raised. Wardrobe and carried gear (wearable or hand-held only): pangolin-kin in layered salvage-plate armor with overlapping scales, a tower shield on one arm and a hand-forged mace in the other. Palette: main #febab2 (about 60%), secondary #4a4e69 (about 30%), pop #fdce53 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Were-Creature people (Pangolin-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2541,7 +2596,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | stocky with huge claws; medium size; mobility: burrowing |
-| Ethnicity + nationality | N/A (pangolin-kin) |
+| Ethnicity + nationality | pangolin-kin (not human: no ethnicity or nationality) |
 | Wardrobe | pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks |
 | Accessories | Digging claws, mining helmet, shaft-lamp, dynamite belt |
 | Pose | bursting up through the ground with both claws out |
@@ -2551,6 +2606,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Tunnel Diggers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #663502, secondary #f4a261, pop #264653 |
 
 **Background**
@@ -2566,7 +2622,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Tunnel Diggers, male character (N/A (pangolin-kin)). Body: stocky with huge claws, medium size, burrowing. Expression: gritty, determined. Pose: bursting up through the ground with both claws out. Wardrobe and carried gear (wearable or hand-held only): pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks. Palette: main #663502 (about 60%), secondary #f4a261 (about 30%), pop #264653 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Pangolin-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Tunnel Diggers, male character (a pangolin-kin). Body: stocky with huge claws, medium size, burrowing. Expression: gritty, determined. Pose: bursting up through the ground with both claws out. Wardrobe and carried gear (wearable or hand-held only): pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks. Palette: main #663502 (about 60%), secondary #f4a261 (about 30%), pop #264653 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Pangolin-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2585,7 +2641,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Male |
 | Physique | armored and round; medium size; mobility: grounded |
-| Ethnicity + nationality | N/A (pangolin-kin) |
+| Ethnicity + nationality | pangolin-kin (not human: no ethnicity or nationality) |
 | Wardrobe | pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll |
 | Accessories | Spiked plates, rolling harness, charge helm, goggles |
 | Pose | half curled forward, about to roll |
@@ -2595,6 +2651,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Curl-Ball Rollers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #e5f102, secondary #fd4d50, pop #3a0ca3 |
 
 **Background**
@@ -2610,7 +2667,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Curl-Ball Rollers, male character (N/A (pangolin-kin)). Body: armored and round, medium size, grounded. Expression: wild-eyed thrill. Pose: half curled forward, about to roll. Wardrobe and carried gear (wearable or hand-held only): pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll. Palette: main #e5f102 (about 60%), secondary #fd4d50 (about 30%), pop #3a0ca3 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Pangolin-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Curl-Ball Rollers, male character (a pangolin-kin). Body: armored and round, medium size, grounded. Expression: wild-eyed thrill. Pose: half curled forward, about to roll. Wardrobe and carried gear (wearable or hand-held only): pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll. Palette: main #e5f102 (about 60%), secondary #fd4d50 (about 30%), pop #3a0ca3 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Were-Creature people (Pangolin-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2632,7 +2689,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | many-limbed and slender; medium size; mobility: climbing |
-| Ethnicity + nationality | N/A (spider-kin) |
+| Ethnicity + nationality | spider-kin (not human: no ethnicity or nationality) |
 | Wardrobe | many-limbed spider-kin in a silk-and-wire coat, a spinneret gauntlet, a spool of razor-wire at the belt, hook knives in two hands |
 | Accessories | Spool of razor-wire, spinneret gauntlet, silk shawl, hook knives |
 | Pose | pulling taut threads of wire with all four hands |
@@ -2642,6 +2699,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Loomweavers |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #e0aaff, secondary #06d6a0, pop #201c49 |
 
 **Background**
@@ -2657,7 +2715,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Loomweavers, female character (N/A (spider-kin)). Body: many-limbed and slender, medium size, climbing. Expression: serene, intent. Pose: pulling taut threads of wire with all four hands. Wardrobe and carried gear (wearable or hand-held only): many-limbed spider-kin in a silk-and-wire coat, a spinneret gauntlet, a spool of razor-wire at the belt, hook knives in two hands. Palette: main #e0aaff (about 60%), secondary #06d6a0 (about 30%), pop #201c49 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Were-Creature people (Spider-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Loomweavers, female character (a spider-kin). Body: many-limbed and slender, medium size, climbing. Expression: serene, intent. Pose: pulling taut threads of wire with all four hands. Wardrobe and carried gear (wearable or hand-held only): many-limbed spider-kin in a silk-and-wire coat, a spinneret gauntlet, a spool of razor-wire at the belt, hook knives in two hands. Palette: main #e0aaff (about 60%), secondary #06d6a0 (about 30%), pop #201c49 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Were-Creature people (Spider-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2676,7 +2734,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Nonbinary |
 | Physique | slim and agile; small size; mobility: climbing |
-| Ethnicity + nationality | N/A (spider-kin) |
+| Ethnicity + nationality | spider-kin (not human: no ethnicity or nationality) |
 | Wardrobe | upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb |
 | Accessories | Courier bag, signal spool, hand-crank radio, tiny cap |
 | Pose | hanging upside-down from a thread, letter in one limb |
@@ -2686,6 +2744,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Silkroad Messengers |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #dc8495, secondary #4ecdc4, pop #fff3b0 |
 
 **Background**
@@ -2701,7 +2760,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Silkroad Messengers, nonbinary character (N/A (spider-kin)). Body: slim and agile, small size, climbing. Expression: cheerful and brisk. Pose: hanging upside-down from a thread, letter in one limb. Wardrobe and carried gear (wearable or hand-held only): upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb. Palette: main #dc8495 (about 60%), secondary #4ecdc4 (about 30%), pop #fff3b0 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Spider-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Silkroad Messengers, nonbinary character (a spider-kin). Body: slim and agile, small size, climbing. Expression: cheerful and brisk. Pose: hanging upside-down from a thread, letter in one limb. Wardrobe and carried gear (wearable or hand-held only): upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb. Palette: main #dc8495 (about 60%), secondary #4ecdc4 (about 30%), pop #fff3b0 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Spider-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2720,7 +2779,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 |---|---|
 | Gender | Female |
 | Physique | tiny and acrobatic; tiny size; mobility: agile |
-| Ethnicity + nationality | N/A (jumping spider-kin) |
+| Ethnicity + nationality | jumping spider-kin (not human: no ethnicity or nationality) |
 | Wardrobe | tiny jumping-spider-kin in a tiny cape and jump-boots, a hooked blade in each of two hands, a dewdrop-shaped buckler |
 | Accessories | Twin hooked blades, jump-boots, dewdrop buckler, tiny cape |
 | Pose | mid-leap with both blades flashing |
@@ -2730,6 +2789,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Dewdrop Dancers |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #fe73e6, secondary #90e0ef, pop #fff1e6 |
 
 **Background**
@@ -2745,7 +2805,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Dewdrop Dancers, female character (N/A (jumping spider-kin)). Body: tiny and acrobatic, tiny size, agile. Expression: mischievous glee. Pose: mid-leap with both blades flashing. Wardrobe and carried gear (wearable or hand-held only): tiny jumping-spider-kin in a tiny cape and jump-boots, a hooked blade in each of two hands, a dewdrop-shaped buckler. Palette: main #fe73e6 (about 60%), secondary #90e0ef (about 30%), pop #fff1e6 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Spider-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Dewdrop Dancers, female character (a jumping spider-kin). Body: tiny and acrobatic, tiny size, agile. Expression: mischievous glee. Pose: mid-leap with both blades flashing. Wardrobe and carried gear (wearable or hand-held only): tiny jumping-spider-kin in a tiny cape and jump-boots, a hooked blade in each of two hands, a dewdrop-shaped buckler. Palette: main #fe73e6 (about 60%), secondary #90e0ef (about 30%), pop #fff1e6 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Were-Creature people (Spider-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -2791,6 +2851,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Static Wraiths |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/ghost-staticwraiths.png` and `art/v2/ghost-staticwraiths-bg.jpg` |
 | Colors | main #076982, secondary #f72585, pop #fff5da |
 
 **Background**
@@ -2835,6 +2896,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Test-Pattern Seers |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #ce8106, secondary #3a86ff, pop #e63946 |
 
 **Background**
@@ -2879,6 +2941,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Emergency Broadcasters |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #f67604, secondary #e4ffda, pop #023e8a |
 
 **Background**
@@ -2926,6 +2989,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Rust-Wraith Possessors |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #df9062, secondary #c2f4f6, pop #002645 |
 
 **Background**
@@ -2970,6 +3034,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Cabinet Spirits |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #795ef1, secondary #00f5d4, pop #ffd166 |
 
 **Background**
@@ -3014,6 +3079,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Circuit Seers |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #48d763, secondary #e63946, pop #e4ffda |
 
 **Background**
@@ -3061,6 +3127,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Last-Dance Revelers |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #d24a78, secondary #ffd60a, pop #3a0ca3 |
 
 **Background**
@@ -3105,6 +3172,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Wake-Wardens |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #878d71, secondary #ffb703, pop #023047 |
 
 **Background**
@@ -3149,6 +3217,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Redial Wraiths |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #6878a6, secondary #fb8500, pop #1d3557 |
 
 **Background**
@@ -3196,6 +3265,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Highway Banshees |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #c4635a, secondary #e4ffda, pop #4979a0 |
 
 **Background**
@@ -3240,6 +3310,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Billboard Haunts |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #96830b, secondary #ff006e, pop #3a86ff |
 
 **Background**
@@ -3284,6 +3355,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Hospice Haunts |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #a08bc1, secondary #ffafcc, pop #eef6ff |
 
 **Background**
@@ -3345,6 +3417,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Riot-Line Bonebreakers |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/undead-bonebreakers.png` and `art/v2/undead-bonebreakers-bg.jpg` |
 | Colors | main #88080a, secondary #fae4a8, pop #faa307 |
 
 **Background**
@@ -3389,6 +3462,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Rattle-Cannon Gunners |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8f5600, secondary #fae4a8, pop #410f1f |
 
 **Background**
@@ -3433,6 +3507,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Drum-Major Stewards |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #a84a52, secondary #ffd60a, pop #221c48 |
 
 **Background**
@@ -3480,6 +3555,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Demolition Crews |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #64fe71, secondary #002645, pop #e63946 |
 
 **Background**
@@ -3524,6 +3600,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Wrecking-Ball Lumberers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #6d940e, secondary #7d99ca, pop #282956 |
 
 **Background**
@@ -3568,6 +3645,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Shop Stewards |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #139b5e, secondary #ef476f, pop #002645 |
 
 **Background**
@@ -3615,6 +3693,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Soul Notaries |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #6f4a9a, secondary #ffba08, pop #271948 |
 
 **Background**
@@ -3659,6 +3738,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Phylactery Auditors |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #00807f, secondary #3c096c, pop #ff9e00 |
 
 **Background**
@@ -3703,6 +3783,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Contract Reapers |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #c746b9, secondary #e4ffda, pop #1d3557 |
 
 **Background**
@@ -3750,6 +3831,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Sarcophagus Lancers |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #6f6704, secondary #006d77, pop #221c48 |
 
 **Background**
@@ -3794,6 +3876,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Gold-Mask Duelists |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #c66d97, secondary #d4a017, pop #0b6e4f |
 
 **Background**
@@ -3838,6 +3921,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Embalmer Alchemists |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #33ab1c, secondary #06d6a0, pop #282956 |
 
 **Background**
@@ -3899,6 +3983,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Lawnmower Knights |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8bae63, secondary #ff5d8f, pop #fff7c7 |
 
 **Background**
@@ -3943,6 +4028,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Sprinkler Sprites |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #65b2ac, secondary #ffd166, pop #2ee3ac |
 
 **Background**
@@ -3987,6 +4073,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | HOA Mediators |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #a5d39a, secondary #ffadad, pop #264653 |
 
 **Background**
@@ -4034,6 +4121,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Rootlink Warlocks |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/forest-rootlinkwarlocks.png` and `art/v2/forest-rootlinkwarlocks-bg.jpg` |
 | Colors | main #2d4700, secondary #4cc9f0, pop #e4ffda |
 
 **Background**
@@ -4078,6 +4166,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Moss-Plate Wardens |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #b8b07c, secondary #bc4749, pop #fee7ab |
 
 **Background**
@@ -4122,6 +4211,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Greenhouse Healers |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #f9c9e9, secondary #a7c957, pop #3d405b |
 
 **Background**
@@ -4169,6 +4259,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Sump Sappers |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #9ca2fa, secondary #ff9e00, pop #282956 |
 
 **Background**
@@ -4213,6 +4304,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Boiler-Room Brawlers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8b3701, secondary #7d99ca, pop #264653 |
 
 **Background**
@@ -4257,6 +4349,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Toll Brokers |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #b3907c, secondary #ffb703, pop #f3f1b3 |
 
 **Background**
@@ -4304,6 +4397,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Doorbell Ambushers |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #d78dfc, secondary #d62828, pop #221c48 |
 
 **Background**
@@ -4348,6 +4442,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Pantry Poisoners |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8fe00f, secondary #2ec4b6, pop #fff7c7 |
 
 **Background**
@@ -4392,6 +4487,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Block-Watch Sentries |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #cf82c6, secondary #3bceac, pop #540d6e |
 
 **Background**
@@ -4453,6 +4549,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Tidecall Priests |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #a35085, secondary #fff0d1, pop #9d4edd |
 
 **Background**
@@ -4497,6 +4594,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Coralbone Sentinels |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #803c49, secondary #389d83, pop #e4ffda |
 
 **Background**
@@ -4541,6 +4639,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Pearl-Eyed Oracles |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #caa2ab, secondary #d00000, pop #3a0ca3 |
 
 **Background**
@@ -4588,6 +4687,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Braincase Surgeons |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #9066a9, secondary #f8961e, pop #2e0d52 |
 
 **Background**
@@ -4632,6 +4732,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Etherwing Navigators |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/eldritch-etherwing.png` and `art/v2/eldritch-etherwing-bg.jpg` |
 | Colors | main #1b6eda, secondary #ffbe0b, pop #7209b7 |
 
 **Background**
@@ -4676,6 +4777,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Signal-Hive Engineers |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #a30364, secondary #06d6a0, pop #ffd60a |
 
 **Background**
@@ -4723,6 +4825,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Many-Maw Devourers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #62000f, secondary #e4ffda, pop #1d3557 |
 
 **Background**
@@ -4767,6 +4870,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Mimic-Flesh Infiltrators |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #07c621, secondary #ff595e, pop #2e2200 |
 
 **Background**
@@ -4811,6 +4915,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Memory-Mass Archivists |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8b3b7b, secondary #41d1c3, pop #3d405b |
 
 **Background**
@@ -4858,6 +4963,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Starstone Architects |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #3b2b00, secondary #06d6a0, pop #2896bf |
 
 **Background**
@@ -4902,6 +5008,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Fossil-Script Historians |
 | Type | Enchanter |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #635ebe, secondary #264653, pop #e76f51 |
 
 **Background**
@@ -4946,6 +5053,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Wingfold Wardens |
 | Type | Tank |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #db09fb, secondary #8338ec, pop #fff1e6 |
 
 **Background**
@@ -4993,6 +5101,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Dream-Snatchers |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #862ef4, secondary #e0aaff, pop #ff6d00 |
 
 **Background**
@@ -5037,6 +5146,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Voidwing Scouts |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #810070, secondary #4cc9f0, pop #2e2200 |
 
 **Background**
@@ -5081,6 +5191,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Nightmare Shepherds |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #4e52e2, secondary #8ecae6, pop #3a0ca3 |
 
 **Background**
@@ -5128,6 +5239,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Corner-Stalkers |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #622367, secondary #00f5d4, pop #002645 |
 
 **Background**
@@ -5172,6 +5284,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Time-Scent Trackers |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #a7777e, secondary #7b2cbf, pop #201c49 |
 
 **Background**
@@ -5216,6 +5329,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Fracture-Jaw Reapers |
 | Type | Bruiser |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #5b013d, secondary #def6ff, pop #242a57 |
 
 **Background**
@@ -5277,6 +5391,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Signal Savants |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Done: `art/v2/witch-dialturners.png` and `art/v2/witch-dialturners-bg.jpg` |
 | Colors | main #5a844c, secondary #f72585, pop #ffd60a |
 
 **Background**
@@ -5321,6 +5436,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Circuit Arcanists |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8283f7, secondary #ff5d8f, pop #fff7c7 |
 
 **Background**
@@ -5365,6 +5481,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Sticky Wizards |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #0de609, secondary #ffd23f, pop #ff6b9d |
 
 **Background**
@@ -5380,13 +5497,13 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Sticky Wizards, male Sticky Wizard (created by Mike Mears): a lanky, hatless male wizard in his thirties with messy hair and a playful, capable manner, and at his feet a small round frog wearing the wizard hat (Dutch-Indonesian heritage, Dutch (the wizard); frog (the companion)). Body: tall and lanky, medium size, agile. Expression: cheerful, wide-eyed confidence; the frog looks smug under the hat. Pose: leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand. Wardrobe and carried gear (wearable or hand-held only): lanky bareheaded human wizard in a patched laboratory robe, messy hair, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Wizard), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of the Sticky Wizard: a lanky, hatless male wizard in his thirties (Dutch-Indonesian heritage) with messy hair, a cheerful wide-eyed grin and a patched laboratory robe, a bandolier of goo jars across his chest, leaning mid-stride into a sling-staff shot of glowing goo. His head is bare: the wizard wears NO hat. At his boots stands a small, round, green frog wearing a floppy oversized pointed wizard hat that is far too big for it, one hand holding the hat on, looking up proudly and smug. Both the wizard and the frog are fully visible head to toe, neither is cropped, with clear margin around the pair. Only worn and hand-held items: no vehicles, furniture, scenery, floor, cast shadow or text. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%), plus black, white and grey. Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise, heavy solid black shapes with stark white highlights. A blaster (combat) of the Magic people, Wizard class, mature dark-age tone, playful but capable. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Sticky Wizards (Magic), with no people, creatures or figures and no text. Midground: a flooded alchemy basement with bubbling goo vats, dripping pipes. Foreground: glued-down furniture and shelves of jars, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #0de609 for the biggest glowing sources and surfaces, secondary #ffd23f for medium panels, banners and lights, pop #ff6b9d for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. A flooded alchemy basement with no people, creatures or figures and no text: bubbling goo vats and dripping pipes in the midground, glued-down furniture, shelves of jars and stacked crates in the foreground, a flooded stone floor reflecting light, a broken substation glow through a high window. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, floor and walls. Accents about 20%: main #0de609 (slime-green) for the biggest glowing sources and surfaces such as goo vats and lamp glow and their reflections, secondary #ffd23f for medium panels, banners and lights, pop #ff6b9d for small sparks, glints and bubbles. Composition: horizon at one-third height, a moon upper-left through a ceiling breach, empty open space in the lower center for two standing characters, props pushed to the left and right edges. 16:9 landscape.
 ```
 
 
@@ -5412,6 +5529,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Spore Coven |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #d0e2a3, secondary #2f6f4f, pop #ffb4a2 |
 
 **Background**
@@ -5456,6 +5574,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Scraphex Witches |
 | Type | Controller |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #b703ec, secondary #00b4d8, pop #e4ffda |
 
 **Background**
@@ -5500,6 +5619,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Thornblood Coven |
 | Type | Support |
 | Combat or support | Support |
+| Art status | Not yet generated |
 | Colors | main #0d5faf, secondary #f4a261, pop #fff7c7 |
 
 **Background**
@@ -5547,6 +5667,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Voidbound |
 | Type | Blaster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #065255, secondary #6a4c93, pop #caf9ff |
 
 **Background**
@@ -5591,6 +5712,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Bloodwire Apostates |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #b368c9, secondary #7b47cf, pop #fff1e6 |
 
 **Background**
@@ -5635,6 +5757,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Mirror Oathbreakers |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #00343e, secondary #0077b6, pop #f72585 |
 
 **Background**
@@ -5682,6 +5805,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Chronofractures |
 | Type | Fighter |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #8c606f, secondary #fff3b0, pop #d00000 |
 
 **Background**
@@ -5726,6 +5850,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Mindweavers |
 | Type | Caster |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #fe6eb5, secondary #fee440, pop #d8fdff |
 
 **Background**
@@ -5770,6 +5895,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Fluxborn |
 | Type | Assassin |
 | Combat or support | Combat |
+| Art status | Not yet generated |
 | Colors | main #fffe64, secondary #ff4d6d, pop #fff0d1 |
 
 **Background**
