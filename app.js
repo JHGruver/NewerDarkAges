@@ -46,14 +46,15 @@ const promptStore = {};
 function home() {
   const total = allCharacters().length;
   return `
-  <div class="hero">
-    <div class="eyebrow">A monster mashup · ${esc(WORLD.mantra)}</div>
+  <div class="hero hero-min">
+    <div class="eyebrow">${esc(WORLD.mantra)}</div>
     <h1 class="mono-title">${esc(WORLD.title)}</h1>
-    <p>${esc(WORLD.pitch)}</p>
+    <p class="lede">Seven peoples and one strange eighth, fighting over what the Last Broadcast left behind.</p>
     <a class="btn" href="#/characters">Choose your character →</a>
-    <a class="btn ghost" href="#/manual">Monster Manual</a>
-    <a class="btn ghost" href="#/art">Art direction</a>
   </div>
+
+  <section class="block"><h2>The world</h2>
+    <div class="panel"><p style="margin:0;max-width:78ch">${esc(WORLD.pitch)}</p></div></section>
 
   <section class="block"><h2>The look</h2>
     <div class="grid cols-2">${WORLD.tone.map((t) => `<div class="panel">${esc(t)}</div>`).join("")}</div></section>
