@@ -446,3 +446,9 @@ body.viewing #vn { display: block; }
 .vn-strip button:hover { opacity: 1; border-color: rgba(255, 255, 255, .5); transform: translateY(-2px); } .vn-strip button:hover span { opacity: 1; }
 .vn-strip button.on { opacity: 1; border-color: #fff; }
 body.viewing::after { content: "Click anywhere to return · arrow keys to browse"; }
+
+/* neutral role tags: quiet frosted labels instead of pink / cyan accents */
+.role, .role.combat, .role.support { background: rgba(255, 255, 255, .14); color: rgba(255, 255, 255, .88); border: 1px solid rgba(255, 255, 255, .2); backdrop-filter: blur(10px); font-weight: 500; letter-spacing: .06em; box-shadow: none; }
+.role.support { background: rgba(255, 255, 255, .06); color: rgba(255, 255, 255, .7); border-style: dashed; }
+.gframe .role { background: rgba(10, 10, 15, .6); }
+.gc.pending .role { background: rgba(255, 255, 255, .06); color: rgba(255, 255, 255, .35); border-color: rgba(255, 255, 255, .1); }
