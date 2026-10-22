@@ -5520,9 +5520,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Gender | Female |
 | Physique | stout and round; medium size; mobility: grounded |
 | Ethnicity + nationality | Black American heritage, American (Georgia) |
-| Wardrobe | stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm |
-| Accessories | Spore-jar basket, fungus-wrapped cane, mushroom-cap shawl, poultice pouch |
-| Pose | cane planted, one hand raised over glowing spore jars |
+| Wardrobe | stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm; at her feet a large pet snail with a spiral shell carrying a small glowing mushroom, looking up at her |
+| Accessories | Spore-jar basket, fungus-wrapped cane, mushroom-cap shawl, poultice pouch, a pet snail with a glowing mushroom on its shell |
+| Pose | cane planted, one hand raised over glowing spore jars, the pet snail inching along beside her foot |
 | Facial expression | tender, knowing |
 | People | Magic |
 | Class | Witch |
@@ -5545,13 +5545,13 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Spore Coven, female elderly Black woman in her seventies, gray locs under a mushroom shawl (Black American heritage, American (Georgia)). Body: stout and round, medium size, grounded. Expression: tender, knowing. Pose: cane planted, one hand raised over glowing spore jars. Wardrobe and carried gear (wearable or hand-held only): stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witch), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of the Spore Coven's cultivator: a stout elderly Black woman in her seventies (Black American heritage, from Georgia) with gray locs, a tender knowing expression and a patchwork shawl dotted with mushroom caps, leaning on a fungus-wrapped cane planted beside her, one hand raised over a basket of glowing spore jars on her other arm and a poultice pouch at her belt. At her feet, a large pet snail with a spiral shell carries a small glowing mushroom on its back and looks up at her fondly. Both the woman and the snail are fully visible head to toe, neither is cropped, with clear margin around the pair. Only worn and hand-held items: no vehicles, furniture, scenery, floor, cast shadow or text. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%), plus black, white and grey. Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise, heavy solid black shapes with stark white highlights. A support (healer) of the Magic people, Witch class, mature dark-age tone, warm but formidable. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Spore Coven (Magic), with no people, creatures or figures and no text. Midground: a factory floor furred with glowing mycelium, a long table of growing trays. Foreground: a hanging rack of mushroom caps and old machine hulks, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #d0e2a3 for the biggest glowing sources and surfaces, secondary #2f6f4f for medium panels, banners and lights, pop #ffb4a2 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. An abandoned factory floor furred with glowing mycelium, with no people, creatures or figures and no text: a long table of growing trays and a hanging rack of mushroom caps in the midground, old machine hulks overgrown with fungus and ivy at the edges, clusters of bioluminescent caps in the foreground, a damp concrete floor reflecting light, a breach in the roof showing the moon. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, floor and walls. Accents about 20%: main #d0e2a3 (pale spore-green) for the biggest glowing sources and surfaces such as mushroom caps, lamp glow and their reflections, secondary #2f6f4f for medium panels, banners, leaves and cables, pop #ffb4a2 for small sparks, glints and spore motes. Composition: horizon at one-third height, a moon upper-left, empty open space in the lower center for two characters, props pushed to the left and right edges. 16:9 landscape.
 ```
 
 ### Scraphex Witches  `scraphexwitches`
