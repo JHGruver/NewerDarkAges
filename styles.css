@@ -425,3 +425,24 @@ body.viewing::after { border-radius: 999px; font-family: var(--head); letter-spa
 .gc.pending .poster { border: 0; }
 .gc.pending:hover .poster { filter: grayscale(.8) brightness(.5) contrast(.85); }
 .hero-fig .poster { filter: grayscale(1) brightness(.32) contrast(.8); }
+
+
+/* ===== art viewer navigation: side arrows + a tiny dot strip that expands into a small carousel ===== */
+#vn { display: none; }
+body.viewing #vn { display: block; }
+.vn-arrow { position: fixed; z-index: 80; top: 50%; transform: translateY(-50%); width: 40px; height: 76px; display: grid; place-items: center; font-size: 1.4rem; color: #fff; cursor: pointer;
+  background: rgba(10, 10, 15, .45); border: 1px solid rgba(255, 255, 255, .14); backdrop-filter: blur(12px); opacity: .5; transition: opacity .2s, background .2s, box-shadow .2s, width .2s; }
+.vn-arrow.prev { left: 0; border-left: 0; } .vn-arrow.next { right: 0; border-right: 0; }
+.vn-arrow:hover { opacity: 1; width: 48px; background: rgba(255, 255, 255, .14); box-shadow: 0 0 24px rgba(111, 233, 255, .25); } .vn-arrow .i { stroke-width: 2.2; }
+.vn-dock { position: fixed; z-index: 80; left: 50%; bottom: 10px; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; padding: 6px 12px; max-width: 92vw; background: rgba(10, 10, 15, .35); border: 1px solid rgba(255, 255, 255, .1); backdrop-filter: blur(12px); transition: background .2s, border-color .2s; }
+.vn-dock:hover { background: rgba(10, 10, 15, .7); border-color: rgba(255, 255, 255, .22); }
+.vn-dots { display: flex; gap: 6px; align-items: center; height: 10px; }
+.vn-dots i { width: 5px; height: 5px; background: rgba(255, 255, 255, .35); transition: background .2s; } .vn-dots i.on { background: #fff; width: 14px; }
+.vn-strip { display: flex; gap: 6px; max-height: 0; opacity: 0; overflow: hidden; transition: max-height .25s ease, opacity .2s ease, margin .25s ease; }
+.vn-dock:hover .vn-strip { max-height: 84px; opacity: 1; margin-top: 8px; padding-bottom: 2px; overflow-x: auto; scrollbar-width: none; }
+.vn-strip button { position: relative; flex: none; width: 44px; height: 58px; padding: 0; cursor: pointer; background: #0c0c10; border: 1px solid rgba(255, 255, 255, .15); opacity: .6; transition: opacity .15s, border-color .15s, transform .15s; overflow: hidden; }
+.vn-strip button img { width: 100%; height: 100%; object-fit: cover; object-position: top; display: block; }
+.vn-strip button span { position: absolute; left: 0; right: 0; bottom: 0; padding: 1px 2px; font: 600 .42rem/1.1 var(--head); text-align: center; color: #fff; background: rgba(0, 0, 0, .65); opacity: 0; transition: opacity .15s; }
+.vn-strip button:hover { opacity: 1; border-color: rgba(255, 255, 255, .5); transform: translateY(-2px); } .vn-strip button:hover span { opacity: 1; }
+.vn-strip button.on { opacity: 1; border-color: #fff; }
+body.viewing::after { content: "Click anywhere to return · arrow keys to browse"; }

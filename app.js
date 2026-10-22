@@ -355,10 +355,52 @@ burger.addEventListener("click", () => (drawer.classList.contains("open") ? clos
 scrim.addEventListener("click", closeDrawer);
 
 /* ---------- gallery mode: hide the UI and show only the art ---------- */
-const closeView = () => document.body.classList.remove("viewing");
-document.addEventListener("click", (e) => { if (!document.body.classList.contains("viewing")) return; e.preventDefault(); e.stopPropagation(); closeView(); }, true);
-document.addEventListener("keydown", (e) => { if (e.key === "Escape") { closeView(); closeDrawer(); } });
-window.addEventListener("hashchange", () => { closeView(); render(); });
+/* ---------- art-only viewing ---------- */
+// While viewing, arrows and a small dot strip let you move between every character that has finished art.
+const vn = document.createElement("div"); vn.id = "vn"; document.body.appendChild(vn);
+const viewList = () => allCharacters().filter((c) => NODE_ART[c.l.id]);
+const viewIndex = (list) => list.findIndex((c) => c.l.id === (location.hash.split("/")[4] || ""));
+function buildViewer() {
+  const list = viewList(); const cur = viewIndex(list);
+  if (list.length < 2 || cur < 0) { vn.innerHTML = ""; return; }
+  vn.innerHTML = `
+    <button class="vn-arrow prev" data-vstep="-1" aria-label="Previous character">${ic("chevron-left")}</button>
+    <button class="vn-arrow next" data-vstep="1" aria-label="Next character">${ic("chevron-right")}</button>
+    <div class="vn-dock" aria-label="Characters with finished art">
+      <div class="vn-dots">${list.map((c, i) => `<i class="${i === cur ? "on" : ""}"></i>`).join("")}</div>
+      <div class="vn-strip">${list.map((c, i) => `<button class="${i === cur ? "on" : ""}" data-vgo="${c.path.join("/")}" title="${esc(c.l.name)}"><img src="${NODE_ART[c.l.id].src}" alt="${esc(c.l.name)}"><span>${esc(c.l.name)}</span></button>`).join("")}</div>
+    </div>`;
+}
+let keepView = false;
+function viewStep(d) {
+  const list = viewList(); const cur = viewIndex(list);
+  if (list.length < 2 || cur < 0) return;
+  goView(list[(cur + d + list.length) % list.length].path.join("/"));
+}
+function goView(path) { keepView = true; location.hash = `#/characters/${path}`; }
+const closeView = () => { document.body.classList.remove("viewing"); keepView = false; };
+const openView = () => { buildViewer(); document.body.classList.add("viewing"); };
+document.addEventListener("click", (e) => {
+  if (!document.body.classList.contains("viewing")) return;
+  const ctl = e.target.closest("#vn");
+  if (ctl) {
+    e.preventDefault(); e.stopPropagation();
+    const st = e.target.closest("[data-vstep]"), go = e.target.closest("[data-vgo]");
+    if (st) viewStep(+st.dataset.vstep); else if (go) goView(go.dataset.vgo);
+    return;
+  }
+  e.preventDefault(); e.stopPropagation(); closeView();
+}, true);
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape") { closeView(); closeDrawer(); }
+  else if (document.body.classList.contains("viewing") && (e.key === "ArrowRight" || e.key === "ArrowLeft")) { e.preventDefault(); viewStep(e.key === "ArrowRight" ? 1 : -1); }
+});
+window.addEventListener("hashchange", () => {
+  const stay = keepView; keepView = false;
+  if (!stay) document.body.classList.remove("viewing");
+  render();
+  if (stay) { buildViewer(); document.body.classList.add("viewing"); }
+});
 
 app.addEventListener("click", (e) => {
   const f = e.target.closest("[data-filter]");
@@ -369,7 +411,7 @@ app.addEventListener("click", (e) => {
   if (st) { statusFilter = st.dataset.status || null; saveFilters(); render(); return; }
   const cp = e.target.closest("[data-copy]");
   if (cp) { const txt = promptStore[cp.dataset.copy]; (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => { cp.textContent = "Copied"; setTimeout(() => (cp.textContent = "Copy"), 1400); }).catch(() => { const ta = cp.parentElement.querySelector("textarea"); ta.select(); }); return; }
-  if (e.target.closest("[data-view]")) { document.body.classList.add("viewing"); return; }
+  if (e.target.closest("[data-view]")) { openView(); return; }
   const go = e.target.closest("[data-go]");
   if (go) location.hash = go.dataset.go;
 });
