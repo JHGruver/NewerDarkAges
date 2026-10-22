@@ -31,8 +31,8 @@ const NODE_ART = {
 const allCharacters = () => GROUPS.flatMap((g) => g.subs.flatMap((s) => s.subs.map((l) => ({ g, s, l, path: [g.id, s.id, l.id] }))));
 
 // the poster: people color as the ground, the character trio as shapes. Used wherever art is missing.
-const poster = (g, l, extra = "") => `
-  <span class="poster ${extra}" style="${cv(g, l)}">
+const poster = (g, l, extra = "", vt = "") => `
+  <span class="poster ${extra}" ${vt ? `data-vt="${vt}"` : ""} style="${cv(g, l)}">
     <i class="pz disc"></i><i class="pz band"></i><i class="pz bolt"></i>
     <span class="pico">${ic(l.icon)}</span>
   </span>`;
@@ -72,7 +72,7 @@ function home() {
     <div class="grid cols-2">${STORY.map((s, i) => `<div class="panel"><h3>${i + 1}. ${esc(s.title)}</h3><div class="muted">${esc(s.text)}</div></div>`).join("")}</div></section>
 
   <section class="block"><h2>The Land</h2>
-    <div class="grid cols-2">${WORLD.regions.map((r) => `<div class="panel"><h3>${ic(r.icon)} ${esc(r.name)}</h3><div class="muted">${esc(r.text)}</div></div>`).join("")}</div></section>`;
+    <div class="grid regions">${WORLD.regions.map((r) => `<div class="panel"><h3>${ic(r.icon)} ${esc(r.name)}</h3><div class="muted">${esc(r.text)}</div></div>`).join("")}</div></section>`;
 }
 
 /* ----- character gallery (top level) ----- */
@@ -85,11 +85,11 @@ const mixed = (chars) => {
   return [...chars].sort((x, y) => mixOrder.indexOf(x.l.id) - mixOrder.indexOf(y.l.id));
 };
 
-function gcard(c) {
+function gcard(c, i = 0) {
   const art = NODE_ART[c.l.id];
   return `
-    <a class="gc ${art ? "done" : "pending"}" style="${cv(c.g, c.l)}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
-      <span class="gframe">${art ? `<img src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l)}<em class="role ${c.l.role}">${c.l.role}</em></span>
+    <a class="gc ${art ? "done" : "pending"}" style="${cv(c.g, c.l)};--i:${i}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
+      <span class="gframe">${art ? `<img data-vt="${c.l.id}" src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l, "", c.l.id)}<em class="role ${c.l.role}">${c.l.role}</em></span>
       <span class="gtrio"><i style="background:${c.g.color}"></i><i style="background:${c.l.pal[0]}"></i><i style="background:${c.l.pal[1]}"></i><i style="background:${c.l.pal[2]}"></i></span>
       <span class="cn">${esc(c.l.name)}</span>
       <span class="cs">${galleryFilter ? esc(c.s.name) : `${esc(SHORT[c.g.id])} · ${esc(c.s.name)}`}</span>
@@ -116,11 +116,11 @@ function gallery() {
   const emptyMsg = `<div class="empty">No characters match these filters. <button class="linkbtn" data-status="any">Show any status</button></div>`;
   let body;
   if (!shown.length) body = emptyMsg;
-  else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map(gcard).join("")}</div>`;
+  else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map((c, i) => gcard(c, i)).join("")}</div>`;
   else body = `
     <section class="gsec" style="${pv(fg)}">
       <header class="ghead"><span class="gi">${ic(fg.icon)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} characters</span></header>
-      <div class="gsubs">${fg.subs.map((s) => { const cs = shown.filter((c) => c.s === s); return cs.length ? `<div class="gsub"><h3><span class="sub-ico">${ic(s.icon)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map(gcard).join("")}</div></div>` : ""; }).join("")}</div>
+      <div class="gsubs">${fg.subs.map((s) => { const cs = shown.filter((c) => c.s === s); return cs.length ? `<div class="gsub"><h3><span class="sub-ico">${ic(s.icon)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map((c, i) => gcard(c, i)).join("")}</div></div>` : ""; }).join("")}</div>
     </section>`;
   const combat = all.filter((c) => c.l.role === "combat").length;
   return `
@@ -232,7 +232,7 @@ function characters(...path) {
         ${figs.map((f) => { const a = NODE_ART[f.id]; return `<a class="mp ${a ? "done" : "pending"}" style="${cv(group, f)}" data-go="#/characters/${f.path.join("/")}" title="${esc(f.name)}">${a ? `<img src="${a.src}" alt="${esc(f.name)}">` : poster(group, f)}<b>${esc(f.name)}</b></a>`; }).join("")}
       </div>` : "";
   const stage = leaf
-    ? `<div class="hero-fig">${art ? `<img src="${art.src}" alt="${esc(art.name)}">` : poster(group, leaf, "big")}</div>
+    ? `<div class="hero-fig">${art ? `<img data-vt="${leaf.id}" src="${art.src}" alt="${esc(art.name)}">` : poster(group, leaf, "big", leaf.id)}</div>
        ${art ? `<button class="view-btn" data-view title="View the artwork full screen">${ic("maximize")}<span>View art</span></button>` : ""}
        <div class="trio-bar"><i style="background:${group.color}"></i><i style="background:${leaf.pal[0]}"></i><i style="background:${leaf.pal[1]}"></i><i style="background:${leaf.pal[2]}"></i></div>`
     : miniGrid;
@@ -333,15 +333,13 @@ function render() {
   app.innerHTML = html;
   const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
   document.body.classList.toggle("fit", !!inChars);
-  document.querySelectorAll("#nav a").forEach((n) => n.classList.toggle("active", n.dataset.route === (route || "home")));
+  document.querySelectorAll("#nav a, .mnav a").forEach((n) => n.classList.toggle("active", n.dataset.route === (route || "home")));
   const tint = route === "characters" ? (rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color : (GROUPS.find((g) => g.id === galleryFilter) || {}).color) : null;
   if (window.NDA3D) NDA3D.tint(tint || null);
   // scene background only for a character that has its own scene
   const leafId = route === "characters" && rest.length === 3 ? rest[2] : null;
   const bgSrc = leafId && NODE_ART[leafId] ? NODE_ART[leafId].bg : null;
-  const bgEl = document.getElementById("bg");
-  if (bgSrc) bgEl.style.backgroundImage = `url("${bgSrc}")`;
-  bgEl.classList.toggle("on", !!bgSrc);
+  setScene(bgSrc);
   document.body.classList.toggle("has-bg", !!bgSrc);
   const t = document.querySelector(".blk-title h2, .detail-head h2");
   document.title = (t ? t.textContent.trim() + " · " : "") + "The Newer Dark Ages";
@@ -352,6 +350,42 @@ function render() {
   closeDrawer();
 }
 render.first = true;
+
+/* ---------- scene backgrounds: two stacked layers crossfade ---------- */
+const bgA = document.getElementById("bg"); const bgB = bgA.cloneNode(); bgB.id = "bg2"; bgA.after(bgB);
+let bgActive = null, bgSrcNow = null;
+function setScene(src) {
+  if (src === bgSrcNow) return;
+  bgSrcNow = src;
+  const next = bgActive === bgA ? bgB : bgA;
+  if (src) {
+    next.style.backgroundImage = `url("${src}")`;
+    next.classList.remove("on"); void next.offsetWidth; next.classList.add("on");
+    if (bgActive) bgActive.classList.remove("on");
+    bgActive = next;
+  } else if (bgActive) { bgActive.classList.remove("on"); bgActive = null; }
+}
+
+/* ---------- page transitions (View Transitions API, with graceful fallback) ---------- */
+const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+const canVT = () => !!document.startViewTransition && !reduceMotion();
+const leafOf = (h) => { const p = h.split("/"); return p[1] === "characters" && p.length >= 5 ? p[4] : null; };
+let lastHash = location.hash;
+function transition(fn, id) {
+  if (!canVT()) { fn(); return; }
+  const old = id && document.querySelector(`[data-vt="${id}"]`);
+  if (old) old.style.viewTransitionName = "hero";
+  const t = document.startViewTransition(() => { fn(); const nu = id && document.querySelector(`[data-vt="${id}"]`); if (nu) nu.style.viewTransitionName = "hero"; });
+  t.finished.finally(() => document.querySelectorAll("[data-vt]").forEach((e) => (e.style.viewTransitionName = "")));
+}
+
+/* ---------- viewer: swipe on touch screens ---------- */
+let tsx = null;
+document.addEventListener("touchstart", (e) => { if (document.body.classList.contains("viewing") && !e.target.closest("#vn")) tsx = e.touches[0].clientX; else tsx = null; }, { passive: true });
+document.addEventListener("touchend", (e) => {
+  if (tsx === null) return; const dx = e.changedTouches[0].clientX - tsx; tsx = null;
+  if (Math.abs(dx) > 50) { viewStep(dx < 0 ? 1 : -1); e.preventDefault(); }
+}, { passive: false });
 
 /* ---------- hamburger drawer ---------- */
 const drawer = document.getElementById("drawer"), scrim = document.getElementById("scrim"), burger = document.getElementById("burger");
@@ -393,6 +427,7 @@ document.addEventListener("click", (e) => {
     e.preventDefault(); e.stopPropagation();
     const st = e.target.closest("[data-vstep]"), go = e.target.closest("[data-vgo]");
     if (st) viewStep(+st.dataset.vstep); else if (go) goView(go.dataset.vgo);
+    else if (e.target.closest(".vn-dock")) e.target.closest(".vn-dock").classList.toggle("open");
     return;
   }
   e.preventDefault(); e.stopPropagation(); closeView();
@@ -404,18 +439,26 @@ document.addEventListener("keydown", (e) => {
 });
 window.addEventListener("hashchange", () => {
   const stay = keepView; keepView = false;
-  if (!stay) document.body.classList.remove("viewing");
-  render();
-  if (stay) { buildViewer(); document.body.classList.add("viewing"); }
+  const prev = lastHash; lastHash = location.hash;
+  const run = () => {
+    if (!stay) document.body.classList.remove("viewing");
+    render();
+    if (stay) { buildViewer(); document.body.classList.add("viewing"); }
+  };
+  if (stay) { run(); return; }
+  const pl = leafOf(prev), nl = leafOf(location.hash);
+  // the character image travels between the gallery tile and the details page
+  const morph = pl === nl ? pl : (!pl || !nl) ? (pl || nl) : null;
+  transition(run, morph);
 });
 
 app.addEventListener("click", (e) => {
   const f = e.target.closest("[data-filter]");
-  if (f) { const id = f.dataset.filter || null; galleryFilter = id === galleryFilter ? null : id; saveFilters(); render(); return; }
+  if (f) { const id = f.dataset.filter || null; galleryFilter = id === galleryFilter ? null : id; saveFilters(); transition(render); return; }
   const r = e.target.closest("[data-role]");
-  if (r) { roleFilter = r.dataset.role || null; saveFilters(); render(); return; }
+  if (r) { roleFilter = r.dataset.role || null; saveFilters(); transition(render); return; }
   const st = e.target.closest("[data-status]");
-  if (st) { statusFilter = st.dataset.status || "any"; saveFilters(); render(); return; }
+  if (st) { statusFilter = st.dataset.status || "any"; saveFilters(); transition(render); return; }
   const cp = e.target.closest("[data-copy]");
   if (cp) { const txt = promptStore[cp.dataset.copy]; (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => { cp.textContent = "Copied"; setTimeout(() => (cp.textContent = "Copy"), 1400); }).catch(() => { const ta = cp.parentElement.querySelector("textarea"); ta.select(); }); return; }
   if (e.target.closest("[data-view]")) { openView(); return; }
