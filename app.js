@@ -126,19 +126,26 @@ function gallery() {
   else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map((c, i) => gcard(c, i)).join("")}</div>`;
   else body = `
     <section class="gsec" style="${pv(fg)}">
-      <header class="ghead"><span class="gi">${ic(fg.icon)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} characters</span></header>
+      <header class="ghead"><span class="gi">${ic(fg.icon)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} character${shown.length === 1 ? "" : "s"}</span></header>
       <div class="gsubs">${fg.subs.map((s, si) => { const cs = shown.filter((c) => c.s === s); const hd = s.cls && (si === 0 || fg.subs[si - 1].cls !== s.cls) ? `<div class="gclass"><b>${esc(s.cls.name)}</b><span>${esc(s.cls.role)} · ${esc(s.cls.rule)}</span></div>` : ""; return cs.length ? `${hd}<div class="gsub"><h3><span class="sub-ico">${ic(s.icon)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map((c, i) => gcard(c, i)).join("")}</div></div>` : ""; }).join("")}</div>
     </section>`;
   const combat = all.filter((c) => c.l.role === "combat").length;
   return `
   <div class="page-head gal-head">
     <div class="title"><div class="eyebrow">Character select</div><h1>Choose your character</h1></div>
-    <div class="gal-note">${galleryFilter ? `Showing ${esc(fg.name)} · <button class="linkbtn" data-filter="">show everyone</button>` : `${all.length} characters · ${combat} combat, ${all.length - combat} support · ${doneCount} completed`}</div>
+    <div class="gal-right">${viewSwitch("vertical")}<div class="gal-note">${galleryFilter ? `Showing ${esc(fg.name)} · <button class="linkbtn" data-filter="">show everyone</button>` : `${all.length} characters · ${combat} combat, ${all.length - combat} support · ${doneCount} completed`}</div></div>
   </div>
   <div class="filters" role="group" aria-label="Filter by people">${filters}</div>
   ${roles}
   ${body}`;
 }
+
+/* ----- view switch: vertical display (gallery) <-> horizontal view (details) ----- */
+let lastDetails = null; try { lastDetails = sessionStorage.getItem("nda3-last") || null; } catch {}
+const viewSwitch = (active) => `<div class="vswitch" role="group" aria-label="Switch display">
+  <button class="${active === "vertical" ? "on" : ""}" data-vmode="vertical" aria-pressed="${active === "vertical"}">${ic("view-vertical")}<span>Vertical display</span></button>
+  <button class="${active === "horizontal" ? "on" : ""}" data-vmode="horizontal" aria-pressed="${active === "horizontal"}">${ic("view-horizontal")}<span>Horizontal view</span></button>
+</div>`;
 
 /* ----- details view ----- */
 function chooserTree(group, trail, names) {
@@ -229,6 +236,7 @@ function characters(...path) {
   const trail = []; let cur = group;
   for (const id of rest) { const next = cur && cur.subs && cur.subs.find((s) => s.id === id); if (!next) break; trail.push(next); cur = next; }
   const names = group.levelNames || LEVEL_DEFAULT;
+  lastDetails = location.hash; try { sessionStorage.setItem("nda3-last", lastDetails); } catch {}
   const head = `
   <div class="page-head">
     <div class="titlerow">
@@ -236,6 +244,7 @@ function characters(...path) {
       <div class="title"><div class="eyebrow">Character details</div><h1>${esc(group.name)}${trail.length ? ` <span class="crumb">› ${trail[0].cls ? esc(trail[0].cls.name) + " › " : ""}${esc(trail[trail.length - 1].name)}</span>` : ""}</h1></div>
     </div>
     <div class="steps">
+      ${viewSwitch("horizontal")}
       <span class="step">1 · ${esc(group.name)}</span>
       <span class="step ${trail.length === 0 ? "on" : ""}">2 · ${esc(names[0])}${trail[0] ? ` = ${trail[0].cls ? esc(trail[0].cls.name) + " › " : ""}${esc(trail[0].name)}` : ""}</span>
       <span class="step ${trail.length === 1 ? "on" : ""}">3 · ${esc(names[1])}${trail[1] ? ` = ${esc(trail[1].name)}` : ""}</span>
@@ -506,6 +515,13 @@ window.addEventListener("hashchange", () => {
 app.addEventListener("click", (e) => {
   const f = e.target.closest("[data-filter]");
   if (f) { const id = f.dataset.filter || null; galleryFilter = id === galleryFilter ? null : id; saveFilters(); transition(render); return; }
+  const vm = e.target.closest("[data-vmode]");
+  if (vm) {
+    const hp = location.hash.split("/");
+    if (vm.dataset.vmode === "vertical") { if (hp[1] === "characters" && hp[2]) { galleryFilter = hp[2]; saveFilters(); } location.hash = "#/characters"; }
+    else { const keep = lastDetails && (!galleryFilter || lastDetails.split("/")[2] === galleryFilter); location.hash = keep ? lastDetails : `#/characters/${galleryFilter || GROUPS[0].id}`; }
+    return;
+  }
   const r = e.target.closest("[data-role]");
   if (r) { roleFilter = r.dataset.role || null; saveFilters(); transition(render); return; }
   const st = e.target.closest("[data-status]");

@@ -2,6 +2,8 @@
 // witch hat and other fantasy props are hand-drawn in the same 24px round-stroke style.
 // Use ic("wolf") to get an inline <svg>; it inherits the surrounding text color and size.
 window.ICONS = {
+"view-vertical": "<rect x=\"3\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"3\" width=\"4\" height=\"8\" /><rect x=\"3\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"13\" width=\"4\" height=\"8\" />",
+"view-horizontal": "<rect x=\"3\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"10\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"17\" y=\"4\" width=\"4\" height=\"16\" />",
 "heart": "<path d=\"M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6-8 11-8 11z\"/>",
 "frog": "<path d=\"M5 12a3 3 0 1 1 3-4h8a3 3 0 1 1 3 4c0 5-3 8-7 8s-7-3-7-8z\"/><circle cx=\"8\" cy=\"8\" r=\".6\"/><circle cx=\"16\" cy=\"8\" r=\".6\"/><path d=\"M8 14c2 2 6 2 8 0\"/>",
 "clock": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2\"/>",
