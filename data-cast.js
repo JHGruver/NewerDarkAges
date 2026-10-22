@@ -109,7 +109,7 @@ window.CAST = {
   /* ---------------- MAGIC ---------------- */
   signalsavants: C("Female", "Black American heritage, American", "poised, razor-sharp focus", "radio staff held up, dial gauntlet thrust forward crackling"),
   circuitarcanists: C("Male", "Mexican heritage, Mexican", "cocky, sparking grin", "full lunge, coil-rapier extended with a discharge arc"),
-  stickywizards: C("Male", "N/A (frog person, Sticky Wizard)", "cheerful, wide-eyed confidence", "leaning into a sling-shot of goo, hat flopping"),
+  stickywizards: C("Male", "Dutch-Indonesian heritage, Dutch (the wizard); frog (the companion)", "cheerful, wide-eyed confidence; the frog looks smug under the hat", "leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand"),
   sporecoven: C("Female", "Black American heritage, American (Georgia)", "tender, knowing", "cane planted, one hand raised over glowing spore jars"),
   scraphexwitches: C("Female", "Lebanese heritage, Lebanese", "smoldering, lips moving in a murmur", "antenna wand pointing out, radio held against the hip"),
   thornbloodcoven: C("Male", "West African heritage, Senegalese", "warm, reassuring", "grinding herbs in a mortar, cane tucked under the arm"),

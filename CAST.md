@@ -5354,12 +5354,12 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | small and round; small size; mobility: agile |
-| Ethnicity + nationality | N/A (frog person, Sticky Wizard) |
-| Wardrobe | small round frog wizard in an oversized floppy pointed hat, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot, wide eyes and a confident grin |
-| Accessories | Oversized wizard hat, sling-staff, goo-jar bandolier, alchemy satchel |
-| Pose | leaning into a sling-shot of goo, hat flopping |
-| Facial expression | cheerful, wide-eyed confidence |
+| Physique | tall and lanky; medium size; mobility: agile |
+| Ethnicity + nationality | Dutch-Indonesian heritage, Dutch (the wizard); frog (the companion) |
+| Wardrobe | lanky bareheaded human wizard in a patched laboratory robe, messy hair, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly |
+| Accessories | Sling-staff, goo-jar bandolier, alchemy satchel, a frog companion wearing the wizard hat |
+| Pose | leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand |
+| Facial expression | cheerful, wide-eyed confidence; the frog looks smug under the hat |
 | People | Magic |
 | Class | Wizard |
 | Subclass | Sticky Wizards |
@@ -5380,7 +5380,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Sticky Wizards, male Sticky Wizard (created by Mike Mears): a small, round, expressive frog person with an oversized hat and a playful, capable manner (N/A (frog person, Sticky Wizard)). Body: small and round, small size, agile. Expression: cheerful, wide-eyed confidence. Pose: leaning into a sling-shot of goo, hat flopping. Wardrobe and carried gear (wearable or hand-held only): small round frog wizard in an oversized floppy pointed hat, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot, wide eyes and a confident grin. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Wizard), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Sticky Wizards, male Sticky Wizard (created by Mike Mears): a lanky, hatless male wizard in his thirties with messy hair and a playful, capable manner, and at his feet a small round frog wearing the wizard hat (Dutch-Indonesian heritage, Dutch (the wizard); frog (the companion)). Body: tall and lanky, medium size, agile. Expression: cheerful, wide-eyed confidence; the frog looks smug under the hat. Pose: leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand. Wardrobe and carried gear (wearable or hand-held only): lanky bareheaded human wizard in a patched laboratory robe, messy hair, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Wizard), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
