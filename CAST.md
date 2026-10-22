@@ -2,7 +2,7 @@
 
 Generated from the site data. 126 characters across 8 peoples, 42 subclasses.
 
-**Gender split:** Male 62, Female 49, Nonbinary 15. **Combat/support:** 101/25.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25.
 
 ## How to use the prompts
 
@@ -5517,19 +5517,19 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 
 | Field | Value |
 |---|---|
-| Gender | Female |
-| Physique | stout and round; medium size; mobility: grounded |
-| Ethnicity + nationality | Black American heritage, American (Georgia) |
-| Wardrobe | stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm; at her feet a large pet snail with a spiral shell carrying a small glowing mushroom, looking up at her |
-| Accessories | Spore-jar basket, fungus-wrapped cane, mushroom-cap shawl, poultice pouch, a pet snail with a glowing mushroom on its shell |
-| Pose | cane planted, one hand raised over glowing spore jars, the pet snail inching along beside her foot |
-| Facial expression | tender, knowing |
+| Gender | Male |
+| Physique | tall and sturdy; medium size; mobility: grounded |
+| Ethnicity + nationality | Mixed Jamaican and Irish heritage, Jamaican |
+| Wardrobe | tall sturdy man with red dreadlocks and a beard, a leaf-and-mushroom shawl, a vine-wrapped cane in one hand, a basket of glowing spore jars at the hip and the other hand conjuring pink spore smoke; at his feet a large pet snail with a spiral shell, a tiny white chef hat, a glowing mushroom and a spatula on its shell |
+| Accessories | Spore-jar basket, fungus-wrapped cane, mushroom-cap shawl, poultice pouch, a pet snail chef with a glowing mushroom on its shell, a chef hat and a spatula |
+| Pose | leaning on the vine-wrapped cane, one hand conjuring pink spore smoke, the chef-hat snail beside his boot |
+| Facial expression | warm, easy, knowing smile |
 | People | Magic |
 | Class | Witch |
 | Subclass | Spore Coven |
 | Type | Support |
 | Combat or support | Support |
-| Art status | Not yet generated |
+| Art status | Done: `art/v2/magic-sporecoven.png` and `art/v2/magic-sporecoven-bg.jpg` |
 | Colors | main #d0e2a3, secondary #2f6f4f, pop #ffb4a2 |
 
 **Background**
@@ -5545,7 +5545,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of the Spore Coven's cultivator: a stout elderly Black woman in her seventies (Black American heritage, from Georgia) with gray locs, a tender knowing expression and a patchwork shawl dotted with mushroom caps, leaning on a fungus-wrapped cane planted beside her, one hand raised over a basket of glowing spore jars on her other arm and a poultice pouch at her belt. At her feet, a large pet snail with a spiral shell carries a small glowing mushroom on its back and looks up at her fondly. Both the woman and the snail are fully visible head to toe, neither is cropped, with clear margin around the pair. Only worn and hand-held items: no vehicles, furniture, scenery, floor, cast shadow or text. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%), plus black, white and grey. Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise, heavy solid black shapes with stark white highlights. A support (healer) of the Magic people, Witch class, mature dark-age tone, warm but formidable. 3:4 portrait, transparent background.
+Full-body character illustration of the Spore Coven's cultivator: a tall, sturdy, bearded man in his forties (mixed Jamaican and Irish heritage) with long red dreadlocks threaded with mushrooms and leaves, a warm easy smile and a leaf-and-mushroom shawl, leaning on a vine-wrapped cane, a basket of glowing spore jars at his hip, one hand conjuring pink spore smoke. At his feet, a large pet snail chef with a spiral shell wears a tiny white chef's hat and carries a glowing mushroom and a spatula on its shell, looking up at him fondly. Both the man and the snail are fully visible head to toe, neither is cropped, with clear margin around the pair. Only worn and hand-held items: no vehicles, furniture, scenery, floor, cast shadow or text. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%), plus black, white and grey. Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise, heavy solid black shapes with stark white highlights. A support (healer) of the Magic people, Witch class, mature dark-age tone, warm but formidable. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**

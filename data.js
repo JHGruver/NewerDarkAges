@@ -73,7 +73,7 @@ window.PHASES = [
       K("deploy", "GitHub Pages deploy from main", true),
       K("core", "Generate the core characters and backgrounds (done: one per people, plus the Sticky Wizard)", true),
       K("manual", "Monster Manual NPCs reassigned to the new peoples", true),
-      K("allart", "Generate all 126 characters and their backgrounds (9 of 126 done)"),
+      K("allart", "Generate all 126 characters and their backgrounds (10 of 126 done)"),
       K("siteart", "Generate the non-character site art (SITE-ASSETS.md, 67 assets: logo, crests, banners, textures, UI) and wire it in"),
       K("pipeline", "Script the image generation from CAST.md (API, transparent PNG, auto-resize)"),
       K("sticky", "Sticky Wizard credit review with Mike Mears (art is in)"),
