@@ -31,29 +31,8 @@ const poster = (g, l, extra = "") => `
   </span>`;
 
 /* ---------- art prompts (generated for every character) ---------- */
-const BG_SCENE = {
-  human: "a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners",
-  vampire: "a gutted skyscraper rooftop at night: a chandelier wired to car batteries, a dead neon sign, gothic antenna spires, a distant ruined skyline, rain",
-  were: "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
-  ghost: "a dead broadcast station: racks of dark CRT monitors, cables drooping like willow branches, one flickering test-pattern screen, drifting fog",
-  undead: "a buried bunker vault and ash trench: steel blast doors, sandbag walls, a long corridor of lockers, dust-lit ventilation shafts",
-  forest: "a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist",
-  witch: "a leaning radio-tower observatory: tangled antennas, glowing circuit-board runes, shelves of binders, towering storm clouds",
-  eldritch: "a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls",
-};
-const CHAR_STYLE = "Samurai Jack-style 2D cel animation: flat geometric shapes, bold angular silhouette, clean uniform dark outlines, two tones per material, no gradients, no glow, no texture. Sin City ink: heavy black shapes and stark white highlights. Glam-gothic 1980s post-apocalypse design in the spirit of David Bowie's Batman: cape or long coat, salvaged gadgets, bold angular accessories.";
-const charPrompt = (g, s, l) => {
-  const [a, b, c] = l.pal;
-  const pose = l.role === "combat" ? "a dynamic combat stance mid-action with the weapon clearly visible" : "a calm, confident support stance actively using their gear";
-  return `${l.name}, a ${l.role} character: ${g.name} › ${s.name}. ${l.look} Signature gear: ${l.gear}. Pose: ${pose}, full body, head turned toward the viewer.\n\n${CHAR_STYLE}\n\nColor rule: exactly three accent colors on top of black, white and grey. MAIN ${a} (about 60% of the colored area), SECONDARY ${b} (about 30%), POP ${c} (about 10%). No other colors. Do not use ${g.color} on the character; it is reserved for the background.\n\nMature, adult combat tone. Full body, 3:4 portrait, transparent PNG background, no floor or shadow, no text. No nudity, no gore, no blood.`;
-};
-const bgPrompt = (g, s, l) => {
-  const [a, b, c] = l.pal;
-  const dom = g.id === "vampire"
-    ? `The people color is BLACK: make the whole scene overwhelmingly ink-black with deep greys, and let the three accent colors carry all the color.`
-    : `The people color ${g.color} (${PEOPLE_COLORS[g.id].name}) is the DOMINANT color: use it for the light sources, signs and key surfaces, about 70% of the colored area.`;
-  return `Charcoal and ink painting on toned paper, 16:9 landscape, heavy smudged charcoal, white chalk highlights, rain and haze, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Scene: ${BG_SCENE[g.id]}. Composition: horizon at one-third height, a large moon upper-left, a stone-and-scrap platform lower-right, a misty ruined valley receding to the left, and open empty space in the center-lower area for the character.\n\nColor rule: greyscale painting with four colors. ${dom} Plus three small accent lights in ${a}, ${b} and ${c}, about 30% of the colored area combined, echoing the character ${l.name}.\n\nNo characters, creatures, figures or silhouettes of people or animals, no bodies, no blood, and no text or lettering anywhere.`;
-};
+const charPrompt = (g, s, l) => PROMPTS.char(g, s, l);
+const bgPrompt = (g, s, l) => PROMPTS.bg(g, s, l);
 const promptStore = {};
 
 /* ---------- views ---------- */
@@ -196,7 +175,7 @@ function detailBlocks(group, trail, names) {
     <div class="blk"><h4>Strengths</h4>${list(leaf.strengths, "good")}</div>
     <div class="blk"><h4>Weaknesses</h4>${list(leaf.weaknesses, "bad")}</div>
     <div class="blk"><h4>Signature abilities</h4>${list(leaf.abilities)}</div>
-    <div class="blk"><h4>Starting gear</h4><p>${leaf.gear.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("")}</p><h4>What they look like</h4><p>${esc(leaf.look)}</p></div>
+    <div class="blk"><h4>Starting gear</h4><p>${leaf.gear.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("")}</p><h4>What they look like</h4><p>${esc(leaf.look)}</p>${window.ART_SPEC && ART_SPEC[leaf.id] ? `<h4>Scene props (background only)</h4><p class="muted">${esc(ART_SPEC[leaf.id].p)}</p>` : ""}</div>
     <div class="blk"><h4>Four-color palette</h4>${swatchRow(group, leaf)}<p class="muted">The people color is the background; the trio belongs to this character (about 60 / 30 / 10).</p></div>
     <div class="blk prompts"><h4>Art prompts</h4>
       <details><summary>Character prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-c"])}</textarea><button class="copy" data-copy="${key}-c">Copy</button></details>
