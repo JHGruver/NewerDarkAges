@@ -74,9 +74,9 @@ function home() {
 }
 
 /* ----- character gallery (top level) ----- */
-let galleryFilter = null, roleFilter = null, statusFilter = null;
-try { galleryFilter = sessionStorage.getItem("nda2-filter") || null; roleFilter = sessionStorage.getItem("nda2-role") || null; statusFilter = sessionStorage.getItem("nda2-status") || null; } catch {}
-const saveFilters = () => { try { galleryFilter ? sessionStorage.setItem("nda2-filter", galleryFilter) : sessionStorage.removeItem("nda2-filter"); roleFilter ? sessionStorage.setItem("nda2-role", roleFilter) : sessionStorage.removeItem("nda2-role"); statusFilter ? sessionStorage.setItem("nda2-status", statusFilter) : sessionStorage.removeItem("nda2-status"); } catch {} };
+let galleryFilter = null, roleFilter = null, statusFilter = "complete"; // default view: everyone, finished characters only
+try { galleryFilter = sessionStorage.getItem("nda2-filter") || null; roleFilter = sessionStorage.getItem("nda2-role") || null; statusFilter = sessionStorage.getItem("nda2-status") || "complete"; } catch {}
+const saveFilters = () => { try { galleryFilter ? sessionStorage.setItem("nda2-filter", galleryFilter) : sessionStorage.removeItem("nda2-filter"); roleFilter ? sessionStorage.setItem("nda2-role", roleFilter) : sessionStorage.removeItem("nda2-role"); sessionStorage.setItem("nda2-status", statusFilter || "complete"); } catch {} };
 let mixOrder = null;
 const mixed = (chars) => {
   if (!mixOrder) { mixOrder = allCharacters().map((c) => c.l.id); for (let i = mixOrder.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [mixOrder[i], mixOrder[j]] = [mixOrder[j], mixOrder[i]]; } }
@@ -97,7 +97,7 @@ function gcard(c) {
 function gallery() {
   const all = allCharacters();
   const isDone = (c) => !!NODE_ART[c.l.id];
-  const chars = all.filter((c) => (!roleFilter || c.l.role === roleFilter) && (!statusFilter || (statusFilter === "complete" ? isDone(c) : !isDone(c))));
+  const chars = all.filter((c) => (!roleFilter || c.l.role === roleFilter) && (!statusFilter || statusFilter === "any" || (statusFilter === "complete" ? isDone(c) : !isDone(c))));
   const doneCount = all.filter(isDone).length;
   const fg = GROUPS.find((g) => g.id === galleryFilter);
   const counts = (g) => all.filter((c) => c.g === g).length;
@@ -108,10 +108,10 @@ function gallery() {
   const roles = `<div class="roles" role="group" aria-label="Filter by role and status">
       ${[[null, "All"], ["combat", "Combat"], ["support", "Support"]].map(([r, n]) => `<button class="rf ${roleFilter === r ? "sel" : ""}" data-role="${r || ""}">${n}</button>`).join("")}
       <span class="rsep"></span>
-      ${[[null, "Any status"], ["complete", `Completed · ${doneCount}`], ["pending", `In progress · ${all.length - doneCount}`]].map(([s, n]) => `<button class="rf st ${statusFilter === s ? "sel" : ""}" data-status="${s || ""}">${n}</button>`).join("")}
+      ${[["any", "Any status"], ["complete", `Completed · ${doneCount}`], ["pending", `In progress · ${all.length - doneCount}`]].map(([s, n]) => `<button class="rf st ${statusFilter === s ? "sel" : ""}" data-status="${s}">${n}</button>`).join("")}
     </div>`;
   const shown = galleryFilter ? chars.filter((c) => c.g.id === galleryFilter) : chars;
-  const emptyMsg = `<div class="empty">No characters match these filters. <button class="linkbtn" data-status="">Clear status</button></div>`;
+  const emptyMsg = `<div class="empty">No characters match these filters. <button class="linkbtn" data-status="any">Show any status</button></div>`;
   let body;
   if (!shown.length) body = emptyMsg;
   else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map(gcard).join("")}</div>`;
@@ -412,7 +412,7 @@ app.addEventListener("click", (e) => {
   const r = e.target.closest("[data-role]");
   if (r) { roleFilter = r.dataset.role || null; saveFilters(); render(); return; }
   const st = e.target.closest("[data-status]");
-  if (st) { statusFilter = st.dataset.status || null; saveFilters(); render(); return; }
+  if (st) { statusFilter = st.dataset.status || "any"; saveFilters(); render(); return; }
   const cp = e.target.closest("[data-copy]");
   if (cp) { const txt = promptStore[cp.dataset.copy]; (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => { cp.textContent = "Copied"; setTimeout(() => (cp.textContent = "Copy"), 1400); }).catch(() => { const ta = cp.parentElement.querySelector("textarea"); ta.select(); }); return; }
   if (e.target.closest("[data-view]")) { openView(); return; }
