@@ -807,3 +807,7 @@ main > h1.pg + p { margin-bottom: 22px; }
   .filter .ct { position: absolute; top: 5px; right: 6px; }
 }
 @media (min-width: 821px) and (max-width: 1100px) { .filter .nm { font-size: .7rem; } }
+/* breathing room between the color frame and the name on hover */
+.gc.done .gframe::after { bottom: -6px; padding-bottom: 6px; }
+.gc.done .cn, .gc.done .cs { transition: filter .3s, transform .35s var(--ease); }
+.gc.done:hover .cn, .gc.done:hover .cs { transform: translateY(6px); }
