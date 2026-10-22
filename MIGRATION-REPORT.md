@@ -1,6 +1,7 @@
 # Magic Peoples Migration and Validation Report
 
 ## Result
+- **Update:** the four are now one people, **Magic** (Violet), with four traditions as tags on its 12 subclasses. The roster is 8 peoples, 50 subclasses, 150 characters.
 - **4 peoples** (Wizard, Witch, Warlock, Mage) x **3 subclasses** x **3 specializations** = **36 characters**, all live in `data-magic.js`.
 - Whole roster: 11 peoples, 50 subclasses, 150 characters, 120 combat / 30 support (80.0%).
 - Rule encoded in each people's text: Wizards study power, Witches cultivate it, Warlocks bargain for it, Mages embody it.

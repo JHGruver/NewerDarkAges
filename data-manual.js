@@ -80,7 +80,7 @@ window.MANUAL = {
       loot: "A dented ladle, a key to the cellar, the Crooked Lantern's recipe book",
     },
     {
-      id: "marvella", name: "Marvella the Magnificent", icon: "tophat", group: "mage", pal: ["#ff4d8d", "#ffd60a", "#00e5ff"],
+      id: "marvella", name: "Marvella the Magnificent", icon: "tophat", group: "magic", pal: ["#ff4d8d", "#ffd60a", "#00e5ff"],
       title: "Ringmistress of the Midnight Menagerie", role: "Wildcard", location: "Wherever the caravan stops", level: "Charming (and a little unwise)",
       quote: "Ladies, gentlemen, and things in between! Please ignore the dragon.",
       overview: "A traveling conjurer whose caravan carries a troupe of wonders. Her shows bring joy to every town, and a few too many accidents.",

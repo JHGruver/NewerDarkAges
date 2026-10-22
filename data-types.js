@@ -13,7 +13,7 @@ window.TYPES = {
   support:    { name: "Support",    letter: "S", desc: "Heals, shields and rescues allies.",              pose: "an open calm posture with one hand offering aid, the medical or utility kit clearly visible" },
   enchanter:  { name: "Enchanter",  letter: "E", desc: "Buffs allies, weakens enemies, bends morale.",    pose: "raised hands presenting a talisman, instrument or charm, ornamental accessories catching the pose" },
 };
-window.PEOPLE_LETTER = { human: "H", vampire: "V", were: "W", ghost: "G", undead: "U", forest: "F", eldritch: "E", wizard: "Z", witch: "C", warlock: "R", mage: "M" };
+window.PEOPLE_LETTER = { human: "H", vampire: "V", were: "W", ghost: "G", undead: "U", forest: "F", eldritch: "E", magic: "M" };
 window.SIZES = { tiny: "Tiny", small: "Small", medium: "Medium", large: "Large", huge: "Huge" };
 window.SIZE_DESC = { tiny: "about knee-high next to a human", small: "child-sized next to a human", medium: "human-sized", large: "head and shoulders taller than a human", huge: "twice the height of a human" };
 window.MOVES = { grounded: "Grounded", agile: "Agile", flying: "Flying", aquatic: "Aquatic", burrowing: "Burrowing", climbing: "Climbing", phasing: "Phasing", vehicle: "Vehicle" };

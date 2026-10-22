@@ -62,8 +62,31 @@
     star: () => new T.BufferGeometry().setFromPoints([...starPts, starPts[0]]),
     triangle: () => new T.BufferGeometry().setFromPoints([new T.Vector3(0, 1.6, 0), new T.Vector3(1.5, -1, 0), new T.Vector3(-1.5, -1, 0), new T.Vector3(0, 1.6, 0)]),
     bolt: () => edge,
+    crescent: () => { const p = []; for (let i = 0; i <= 16; i++) { const a = -1.9 + (i / 16) * 3.8; p.push(new T.Vector3(Math.cos(a) * 1.5, Math.sin(a) * 1.5, 0)); } for (let i = 16; i >= 0; i--) { const a = -1.9 + (i / 16) * 3.8; p.push(new T.Vector3(Math.cos(a) * 1.1 + 0.55, Math.sin(a) * 1.1, 0)); } return new T.BufferGeometry().setFromPoints(p); },
+    bat: () => new T.BufferGeometry().setFromPoints([[0, 0.5], [0.4, 1], [0.6, 0.4], [1.6, 0.9], [1.3, 0], [1.9, -0.5], [0.9, -0.4], [0.4, -1], [0, -0.5], [-0.4, -1], [-0.9, -0.4], [-1.9, -0.5], [-1.3, 0], [-1.6, 0.9], [-0.6, 0.4], [-0.4, 1], [0, 0.5]].map(([x, y]) => new T.Vector3(x, y, 0))),
+    leaf: () => { const p = []; for (let i = 0; i <= 12; i++) { const a = (i / 12) * Math.PI; p.push(new T.Vector3(Math.sin(a) * 0.9, -1.5 + (i / 12) * 3, 0)); } for (let i = 12; i >= 0; i--) { const a = (i / 12) * Math.PI; p.push(new T.Vector3(-Math.sin(a) * 0.9, -1.5 + (i / 12) * 3, 0)); } p.push(new T.Vector3(0, -2.1, 0)); return new T.BufferGeometry().setFromPoints(p); },
+    eye: () => { const p = []; for (let i = 0; i <= 20; i++) { const x = -1.8 + (i / 20) * 3.6; p.push(new T.Vector3(x, 0.9 * (1 - (x / 1.8) ** 2), 0)); } for (let i = 20; i >= 0; i--) { const x = -1.8 + (i / 20) * 3.6; p.push(new T.Vector3(x, -0.9 * (1 - (x / 1.8) ** 2), 0)); } for (let i = 0; i <= 14; i++) { const a = (i / 14) * 6.283; p.push(new T.Vector3(Math.cos(a) * 0.4, Math.sin(a) * 0.4, 0)); } return new T.BufferGeometry().setFromPoints(p); },
+    spiral: () => { const p = []; for (let i = 0; i <= 50; i++) { const a = i * 0.28, r = 0.1 + i * 0.03; p.push(new T.Vector3(Math.cos(a) * r * 1.4, Math.sin(a) * r * 1.4, 0)); } return new T.BufferGeometry().setFromPoints(p); },
+    hourglass: () => new T.BufferGeometry().setFromPoints([[-1, 1.6], [1, 1.6], [-1, -1.6], [1, -1.6], [-1, 1.6]].map(([x, y]) => new T.Vector3(x, y, 0))),
+    cross: () => new T.BufferGeometry().setFromPoints([[-0.4, 1.6], [0.4, 1.6], [0.4, 0.6], [1.2, 0.6], [1.2, -0.2], [0.4, -0.2], [0.4, -1.6], [-0.4, -1.6], [-0.4, -0.2], [-1.2, -0.2], [-1.2, 0.6], [-0.4, 0.6], [-0.4, 1.6]].map(([x, y]) => new T.Vector3(x, y, 0))),
+    pentagram: () => { const p = []; for (let i = 0; i <= 5; i++) { const a = (i * 2 / 5) * Math.PI * 2 - Math.PI / 2; p.push(new T.Vector3(Math.cos(a) * 1.5, Math.sin(a) * 1.5, 0)); } return new T.BufferGeometry().setFromPoints(p); },
+    screen: () => new T.BufferGeometry().setFromPoints([[-1.6, 1.1], [1.6, 1.1], [1.6, -1.1], [-1.6, -1.1], [-1.6, 1.1], [-1.2, 0.7], [1.2, 0.7], [1.2, -0.7], [-1.2, -0.7], [-1.2, 0.7]].map(([x, y]) => new T.Vector3(x, y, 0))),
+    flip: () => new T.BufferGeometry().setFromPoints([new T.Vector3(0, -1.6, 0), new T.Vector3(1.5, 1, 0), new T.Vector3(-1.5, 1, 0), new T.Vector3(0, -1.6, 0)]),
   };
-  const kinds = [...Object.keys(mk), ...Object.keys(flatShapes)];
+  mk.coffin = () => new T.BoxGeometry(1.2, 2.8, 1);
+  mk.fang = () => new T.ConeGeometry(0.7, 2.6, 3);
+  mk.hat = () => new T.ConeGeometry(1.3, 2.8, 6);
+  const PEOPLE_SHAPES = {
+    human: ["ring", "cube", "triangle", "bolt", "pyramid"],
+    vampire: ["fang", "crescent", "bat", "diamond"],
+    were: ["fang", "crescent", "tetra", "triangle", "bolt"],
+    ghost: ["screen", "dome", "ring", "diamond"],
+    undead: ["cross", "coffin", "tetra", "dome"],
+    forest: ["leaf", "pyramid", "dome", "star"],
+    eldritch: ["eye", "spiral", "ring", "diamond"],
+    magic: ["star", "hat", "hourglass", "pentagram", "crescent", "eye", "spiral", "ring", "bolt"],
+  };
+  let kinds = [...Object.keys(mk), ...Object.keys(flatShapes)];
   const palette = [0xff5fb0, 0x6fe9ff, 0xffd60a, 0xffffff];
   const icons = []; let hovering = false, hoverCol = new T.Color(0xffffff), spawnT = 0, speed = 3, speedGoal = 3, gridZ = 0, lastT = 0;
   function spawnIcon() {
@@ -97,8 +120,9 @@
   }
 
   window.NDA3D = {
-    hover(hex) {
+    hover(hex, people) {
       if (reduce) return;
+      kinds = PEOPLE_SHAPES[people] || [...Object.keys(mk), ...Object.keys(flatShapes)];
       if (hex) { hoverCol.set(hex); hovering = true; speedGoal = 17; } else { hovering = false; speedGoal = 3; }
     },
     tint(hex) { if (hex) { target.set(hex); goal = 1; } else { target.copy(BASE); goal = 0; } },

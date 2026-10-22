@@ -8,10 +8,7 @@ window.PROMPTS = (function () {
     ghost: "a dead broadcast station: racks of dark CRT monitors, cables drooping like willow branches, one flickering test-pattern screen, drifting fog",
     undead: "a buried bunker vault and ash trench: steel blast doors, sandbag walls, a long corridor of lockers, dust-lit ventilation shafts",
     forest: "a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist",
-    wizard: "a leaning radio-tower observatory and workshop: tangled antennas, glowing circuit-board runes, shelves of binders and instruments, blackboards of equations, towering storm clouds",
-    witch: "a reclaimed factory floor furred with mushrooms and ivy: hanging herb bundles, jars of spores, dead radios on shelves, weathered charm strings, damp low mist",
-    warlock: "a ritual ruin at the edge of the void: a chalk circle on cracked concrete, chains, mirrored glass and dead screens, a rift of darkness in the sky, jagged black spires",
-    mage: "a broken substation and plaza where the grid died: fallen pylons, humming transformers, a cracked clock tower, arcs of stray lightning, bare open space",
+    magic: "a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow",
     eldritch: "a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls",
   };
   const STYLE = "Samurai Jack-style 2D cel animation, in the manner of Genndy Tartakovsky: extremely simplified geometry, flat geometric shapes, bold angular silhouette, minimal, clean contour lines of even weight, two flat tones per material (one light, one shadow), large simple color areas, strong negative space, no gradients, no soft shading, no texture noise, no realistic anatomy. Any glow or light is drawn as a flat bright shape. Sin City ink accents: heavy solid black shapes and stark white highlights. Glam-gothic 1980s post-apocalypse design in the spirit of David Bowie's Batman: cape or long coat, salvaged gadgets, bold angular accessories.";
@@ -71,10 +68,7 @@ Mature, adult tone. 3:4 portrait PNG with genuine alpha transparency: no backgro
     ghost: "pale ICE BLUE: frosty blue sky, blue-white fog, cold cyan-blue light on every surface",
     undead: "BONE and ash grey: warm pale grey-beige sky, dusty bone-colored haze and light",
     forest: "deep MOSS GREEN: green-tinted sky and mist, mossy green light and shadows on everything",
-    wizard: "rich VIOLET: purple sky, violet haze, violet-tinted light and shadows on everything",
-    witch: "deep ROSE: rose-pink sky, rosy haze, rose-tinted light and shadows on everything",
-    warlock: "deep OXBLOOD RED: blood-red sky, red haze, crimson-tinted light and shadows on everything",
-    mage: "vivid COBALT BLUE: cobalt sky, blue haze, blue-tinted light and shadows on everything",
+    magic: "rich VIOLET: purple sky, violet haze, violet-tinted light and shadows on everything",
     eldritch: "deep ABYSS TEAL: teal-green sky, teal fog, dark teal light and shadows on everything",
   };
   const bg = (g, s, l) => {

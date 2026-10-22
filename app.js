@@ -6,7 +6,7 @@ const GROUPS = GROUP_ORDER.map((id) => GROUP_DEFS[id]);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const list = (items, cls = "") => `<ul class="${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
 const NUMW = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"];
-const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", eldritch: "Eldritch", wizard: "Wizard", witch: "Witch", warlock: "Warlock", mage: "Mage" };
+const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", eldritch: "Eldritch", magic: "Magic" };
 const LEVEL_DEFAULT = ["Subclass", "Specialization"];
 
 document.getElementById("brand-ic").innerHTML = ic("bolt");
@@ -421,15 +421,16 @@ document.addEventListener("touchend", (e) => {
 }, { passive: false });
 
 /* ---------- gallery hover: 80s icons ride out of the horizon sun along the grid ---------- */
+let hoverOff = 0;
 app.addEventListener("mouseover", (e) => {
   const t = e.target.closest && e.target.closest(".gc"); if (!t || !window.NDA3D) return;
   if (e.relatedTarget && t.contains(e.relatedTarget)) return;
-  NDA3D.hover(getComputedStyle(t).getPropertyValue("--c1").trim() || "#ffffff"); document.body.classList.add("tile-hover");
+  clearTimeout(hoverOff); NDA3D.hover(getComputedStyle(t).getPropertyValue("--c1").trim() || "#ffffff", (t.getAttribute("href") || "").split("/")[2]); document.body.classList.add("tile-hover");
 });
 app.addEventListener("mouseout", (e) => {
   const t = e.target.closest && e.target.closest(".gc"); if (!t || !window.NDA3D) return;
   if (e.relatedTarget && t.contains(e.relatedTarget)) return;
-  NDA3D.hover(null); document.body.classList.remove("tile-hover");
+  clearTimeout(hoverOff); hoverOff = setTimeout(() => { NDA3D.hover(null); document.body.classList.remove("tile-hover"); }, 140);
 });
 
 /* ---------- hamburger drawer ---------- */
@@ -447,8 +448,11 @@ const viewList = () => allCharacters().filter((c) => NODE_ART[c.l.id]);
 const viewIndex = (list) => list.findIndex((c) => c.l.id === (location.hash.split("/")[4] || ""));
 function buildViewer() {
   const list = viewList(); const cur = viewIndex(list);
-  if (list.length < 2 || cur < 0) { vn.innerHTML = ""; return; }
-  vn.innerHTML = `
+  const [pg, ps, pl] = location.hash.split("/").slice(2);
+  const me = allCharacters().find((c) => c.g.id === pg && c.s.id === ps && c.l.id === pl);
+  const plaque = me ? `<div class="vn-plaque" style="${cv(me.g, me.l)}"><span class="pq-ico">${ic(me.g.icon)}</span><div class="pq-txt"><b class="pq-name">${esc(me.l.name)}</b><span class="pq-path">${esc(me.g.name)}${me.s.tradition ? " · " + esc(me.s.tradition) : ""} <i>›</i> ${esc(me.s.name)} <i>›</i> ${esc(me.l.name)}</span></div><span class="pq-pips"><i></i><i></i><i></i></span></div>` : "";
+  if (list.length < 2 || cur < 0) { vn.innerHTML = plaque; return; }
+  vn.innerHTML = plaque + `
     <button class="vn-arrow prev" data-vstep="-1" aria-label="Previous character">${ic("chevron-left")}</button>
     <button class="vn-arrow next" data-vstep="1" aria-label="Next character">${ic("chevron-right")}</button>
     <div class="vn-dock" aria-label="Characters with finished art">

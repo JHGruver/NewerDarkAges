@@ -488,3 +488,26 @@ Object.assign(ART_SPEC, {
   arcflashstrikers: { w: "wiry person in a short insulated cape, both hands crackling with lightning, a line of scorched sparks trailing behind, no weapons", p: "a thunderstorm rooftop with a lightning-rod forest, scorched concrete, a cracked water tank and arcing cables" },
   resonancebreakers: { w: "stocky middle-aged woman in a plain tunic and heavy boots with tuning-fork braces on both forearms, mouth open on a sustained note, shockwave rings spreading", p: "a half-shattered cathedral of glass with cracked stained windows, hanging chandeliers, vibrating dust and a toppled organ" },
 });
+
+/* ============================================================== MAGIC (one people, four traditions) */
+(function () {
+  const T = ["wizard", "witch", "warlock", "mage"], names = { wizard: "Wizards", witch: "Witches", warlock: "Warlocks", mage: "Mages" };
+  const subs = [], extras = [];
+  T.forEach((t) => {
+    const g = GROUP_DEFS[t];
+    g.subs.forEach((sc) => { sc.tradition = names[t]; sc.tagline = names[t] + " · " + sc.tagline; subs.push(sc); });
+    (g.extras || []).forEach((e) => extras.push(e));
+    delete GROUP_DEFS[t]; delete PEOPLE_COLORS[t];
+  });
+  PEOPLE_COLORS.magic = { color: "#6b3fa6", color2: "#b79ae0", name: "Violet" };
+  GROUP_DEFS.magic = {
+    id: "magic", name: "Magic", icon: "crystal-ball", color: "#6b3fa6", color2: "#b79ae0",
+    levelNames: ["School", "Discipline"],
+    tagline: "Four ways to hold power.",
+    summary: "One people, four traditions. Wizards study power, Witches cultivate power, Warlocks bargain for power and Mages embody power. Each tradition has three schools and each school three disciplines.",
+    lore: "When the Last Broadcast went out, the world's magic came loose. Some people measured it, some grew it, some made deals with it and some were simply born carrying it. They fight each other over it, and they all fear the things it brought back.",
+    traits: { Power: 5, Resilience: 2, Mystery: 5, Social: 2, Versatility: 5 },
+    playstyle: "Spell-driven play. Pick a tradition for how you get power: study (Wizard), cultivation (Witch), a bargain (Warlock) or your own body (Mage).",
+    extras, subs,
+  };
+})();
