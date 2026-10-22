@@ -484,3 +484,29 @@ body.viewing::after { content: "Click anywhere to return · arrow keys to browse
   50% { filter: drop-shadow(0 0 26px color-mix(in srgb, var(--c1) 95%, transparent)) drop-shadow(0 8px 12px rgba(0, 0, 0, .55)); }
 }
 @media (prefers-reduced-motion: reduce) { .gc.done:hover .gframe, .gc.done:hover .gframe::before, .gc.done:hover .gframe img { animation: none !important; } }
+
+/* ===== hover v2: the tile stays put; the character steps forward out of it; the four colors frame it ===== */
+.gc { position: relative; isolation: isolate; }
+.gc > * { position: relative; z-index: 1; }
+.gc.done:hover, .gc:hover { transform: none; }
+.gc.done .gframe { overflow: visible; }
+.gc.done .gframe::before { inset: 0; }
+.gc.done .gframe img { transform-origin: 50% 100%; position: relative; z-index: 3; }
+.gc.done:hover .gframe img { transform: scale(1.1); }
+.gc.done:hover .gframe { z-index: 2; }
+.gc.done:hover { z-index: 5; }
+/* color frame: sits behind the tile, rises above it, widens past its sides and runs down behind the name */
+.gc.done::before {
+  content: ""; position: absolute; z-index: 0; left: -9px; right: -9px; top: -12px; bottom: -8px; pointer-events: none;
+  background: linear-gradient(90deg, var(--p) 0 25%, var(--c1) 25% 50%, var(--c2) 50% 75%, var(--c3) 75% 100%);
+  opacity: 0; transform: scaleY(.92); transform-origin: 50% 100%; transition: opacity .35s ease, transform .35s cubic-bezier(.2, .8, .2, 1);
+  box-shadow: 0 14px 36px rgba(0, 0, 0, .5);
+}
+.gc.done:hover::before { opacity: 1; transform: none; }
+.gc.done .gtrio { transition: opacity .3s; } .gc.done:hover .gtrio { opacity: 0; }
+/* text must stay readable on top of the colors */
+.gc.done .cn, .gc.done .cs { transition: text-shadow .3s; }
+.gc.done:hover .cn { text-shadow: 0 1px 3px #000, 0 0 8px rgba(0, 0, 0, .95), 0 2px 12px rgba(0, 0, 0, .9); color: #fff; }
+.gc.done:hover .cs { text-shadow: 0 1px 3px #000, 0 0 6px rgba(0, 0, 0, .95); color: rgba(255, 255, 255, .85); }
+.gc.done:hover .cn { text-shadow: 0 0 2px #000, 0 1px 3px #000, 0 0 10px rgba(0, 0, 0, 1), 0 2px 14px rgba(0, 0, 0, .95); font-weight: 700; }
+.gc.done:hover .cs { text-shadow: 0 0 2px #000, 0 1px 3px #000, 0 0 8px rgba(0, 0, 0, 1); color: #fff; }
