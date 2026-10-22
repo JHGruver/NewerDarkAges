@@ -401,3 +401,27 @@ body.viewing::after { border-radius: 999px; font-family: var(--head); letter-spa
 /* ===== square everything: no rounded corners anywhere in the interface ===== */
 *, *::before, *::after, ::-webkit-scrollbar, ::-webkit-scrollbar-thumb, ::-webkit-scrollbar-track { border-radius: 0 !important; }
 .pz.disc { border-radius: 50% !important; } /* the disc is poster artwork (the sun), not an interface corner */
+
+
+/* ===== unfinished art: dull, muted, easy to ignore ===== */
+.poster { filter: grayscale(1) brightness(.46) contrast(.8); transition: filter .25s; }
+.gc.pending .gframe { box-shadow: none; border-color: rgba(255, 255, 255, .06); }
+.gc.pending .gtrio { opacity: .22; filter: grayscale(.6); }
+.gc.pending .cn { color: rgba(255, 255, 255, .42); }
+.gc.pending .cs { color: rgba(255, 255, 255, .26); }
+.gc.pending .role { opacity: .35; filter: grayscale(1); }
+.gc.pending:hover .poster { filter: grayscale(.8) brightness(.62) contrast(.85); }
+.gc.pending:hover .gframe { box-shadow: none; border-color: rgba(255, 255, 255, .18); }
+.gc.pending:hover { transform: translateY(-2px); }
+.gc.done .gframe { border-color: rgba(255, 255, 255, .28); }
+.mp.pending b { color: rgba(255, 255, 255, .4); } .mp.pending .poster { box-shadow: none; }
+.mp.pending:hover .poster { filter: grayscale(.8) brightness(.62) contrast(.85); box-shadow: none; }
+.hero-fig .poster { filter: grayscale(1) brightness(.4) contrast(.8); box-shadow: none; }
+.trio-bar { opacity: .9; }
+.roles { flex-wrap: wrap; align-items: center; } .rsep { width: 1px; align-self: stretch; margin: 2px 8px; background: var(--edge); }
+.rf.st.sel { background: rgba(255, 255, 255, .18); }
+.gc.pending .gframe { background: #16161b; border-color: rgba(255, 255, 255, .05); }
+.poster { filter: grayscale(1) brightness(.34) contrast(.8); }
+.gc.pending .poster { border: 0; }
+.gc.pending:hover .poster { filter: grayscale(.8) brightness(.5) contrast(.85); }
+.hero-fig .poster { filter: grayscale(1) brightness(.32) contrast(.8); }

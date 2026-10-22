@@ -70,9 +70,9 @@ function home() {
 }
 
 /* ----- character gallery (top level) ----- */
-let galleryFilter = null, roleFilter = null;
-try { galleryFilter = sessionStorage.getItem("nda2-filter") || null; roleFilter = sessionStorage.getItem("nda2-role") || null; } catch {}
-const saveFilters = () => { try { galleryFilter ? sessionStorage.setItem("nda2-filter", galleryFilter) : sessionStorage.removeItem("nda2-filter"); roleFilter ? sessionStorage.setItem("nda2-role", roleFilter) : sessionStorage.removeItem("nda2-role"); } catch {} };
+let galleryFilter = null, roleFilter = null, statusFilter = null;
+try { galleryFilter = sessionStorage.getItem("nda2-filter") || null; roleFilter = sessionStorage.getItem("nda2-role") || null; statusFilter = sessionStorage.getItem("nda2-status") || null; } catch {}
+const saveFilters = () => { try { galleryFilter ? sessionStorage.setItem("nda2-filter", galleryFilter) : sessionStorage.removeItem("nda2-filter"); roleFilter ? sessionStorage.setItem("nda2-role", roleFilter) : sessionStorage.removeItem("nda2-role"); statusFilter ? sessionStorage.setItem("nda2-status", statusFilter) : sessionStorage.removeItem("nda2-status"); } catch {} };
 let mixOrder = null;
 const mixed = (chars) => {
   if (!mixOrder) { mixOrder = allCharacters().map((c) => c.l.id); for (let i = mixOrder.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [mixOrder[i], mixOrder[j]] = [mixOrder[j], mixOrder[i]]; } }
@@ -82,7 +82,7 @@ const mixed = (chars) => {
 function gcard(c) {
   const art = NODE_ART[c.l.id];
   return `
-    <a class="gc" style="${cv(c.g, c.l)}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
+    <a class="gc ${art ? "done" : "pending"}" style="${cv(c.g, c.l)}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
       <span class="gframe">${art ? `<img src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l)}<em class="role ${c.l.role}">${c.l.role}</em></span>
       <span class="gtrio"><i style="background:${c.g.color}"></i><i style="background:${c.l.pal[0]}"></i><i style="background:${c.l.pal[1]}"></i><i style="background:${c.l.pal[2]}"></i></span>
       <span class="cn">${esc(c.l.name)}</span>
@@ -92,19 +92,25 @@ function gcard(c) {
 
 function gallery() {
   const all = allCharacters();
-  const chars = all.filter((c) => !roleFilter || c.l.role === roleFilter);
+  const isDone = (c) => !!NODE_ART[c.l.id];
+  const chars = all.filter((c) => (!roleFilter || c.l.role === roleFilter) && (!statusFilter || (statusFilter === "complete" ? isDone(c) : !isDone(c))));
+  const doneCount = all.filter(isDone).length;
   const fg = GROUPS.find((g) => g.id === galleryFilter);
   const counts = (g) => all.filter((c) => c.g === g).length;
   const filters = GROUPS.map((g) => `
     <button class="filter ${g.id === galleryFilter ? "sel" : ""}" style="${pv(g)}" data-filter="${g.id}" aria-pressed="${g.id === galleryFilter}">
       <i class="chip" style="background:${g.color}"></i><span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span><span class="ct">${counts(g)}</span>
     </button>`).join("");
-  const roles = `<div class="roles" role="group" aria-label="Filter by role">
+  const roles = `<div class="roles" role="group" aria-label="Filter by role and status">
       ${[[null, "All"], ["combat", "Combat"], ["support", "Support"]].map(([r, n]) => `<button class="rf ${roleFilter === r ? "sel" : ""}" data-role="${r || ""}">${n}</button>`).join("")}
+      <span class="rsep"></span>
+      ${[[null, "Any status"], ["complete", `Completed · ${doneCount}`], ["pending", `In progress · ${all.length - doneCount}`]].map(([s, n]) => `<button class="rf st ${statusFilter === s ? "sel" : ""}" data-status="${s || ""}">${n}</button>`).join("")}
     </div>`;
   const shown = galleryFilter ? chars.filter((c) => c.g.id === galleryFilter) : chars;
+  const emptyMsg = `<div class="empty">No characters match these filters. <button class="linkbtn" data-status="">Clear status</button></div>`;
   let body;
-  if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map(gcard).join("")}</div>`;
+  if (!shown.length) body = emptyMsg;
+  else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map(gcard).join("")}</div>`;
   else body = `
     <section class="gsec" style="${pv(fg)}">
       <header class="ghead"><span class="gi">${ic(fg.icon)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} characters</span></header>
@@ -114,7 +120,7 @@ function gallery() {
   return `
   <div class="page-head gal-head">
     <div class="title"><div class="eyebrow">Character select</div><h1>Choose your character</h1></div>
-    <div class="gal-note">${galleryFilter ? `Showing ${esc(fg.name)} · <button class="linkbtn" data-filter="">show everyone</button>` : `${all.length} characters · ${combat} combat, ${all.length - combat} support · filter by people`}</div>
+    <div class="gal-note">${galleryFilter ? `Showing ${esc(fg.name)} · <button class="linkbtn" data-filter="">show everyone</button>` : `${all.length} characters · ${combat} combat, ${all.length - combat} support · ${doneCount} completed`}</div>
   </div>
   <div class="filters" role="group" aria-label="Filter by people">${filters}</div>
   ${roles}
@@ -217,7 +223,7 @@ function characters(...path) {
   const gstyle = leaf ? cv(group, leaf) : pv(group);
   const miniGrid = figs.length ? `
       <div class="minigrid ${figs.length > 9 ? "dense" : ""}" style="--cols:${figs.length <= 4 ? 2 : figs.length <= 9 ? 3 : figs.length <= 16 ? 4 : figs.length <= 30 ? 5 : 6}">
-        ${figs.map((f) => { const a = NODE_ART[f.id]; return `<a class="mp" style="${cv(group, f)}" data-go="#/characters/${f.path.join("/")}" title="${esc(f.name)}">${a ? `<img src="${a.src}" alt="${esc(f.name)}">` : poster(group, f)}<b>${esc(f.name)}</b></a>`; }).join("")}
+        ${figs.map((f) => { const a = NODE_ART[f.id]; return `<a class="mp ${a ? "done" : "pending"}" style="${cv(group, f)}" data-go="#/characters/${f.path.join("/")}" title="${esc(f.name)}">${a ? `<img src="${a.src}" alt="${esc(f.name)}">` : poster(group, f)}<b>${esc(f.name)}</b></a>`; }).join("")}
       </div>` : "";
   const stage = leaf
     ? `<div class="hero-fig">${art ? `<img src="${art.src}" alt="${esc(art.name)}">` : poster(group, leaf, "big")}</div>
@@ -359,6 +365,8 @@ app.addEventListener("click", (e) => {
   if (f) { const id = f.dataset.filter || null; galleryFilter = id === galleryFilter ? null : id; saveFilters(); render(); return; }
   const r = e.target.closest("[data-role]");
   if (r) { roleFilter = r.dataset.role || null; saveFilters(); render(); return; }
+  const st = e.target.closest("[data-status]");
+  if (st) { statusFilter = st.dataset.status || null; saveFilters(); render(); return; }
   const cp = e.target.closest("[data-copy]");
   if (cp) { const txt = promptStore[cp.dataset.copy]; (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => { cp.textContent = "Copied"; setTimeout(() => (cp.textContent = "Copy"), 1400); }).catch(() => { const ta = cp.parentElement.querySelector("textarea"); ta.select(); }); return; }
   if (e.target.closest("[data-view]")) { document.body.classList.add("viewing"); return; }
