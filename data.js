@@ -53,34 +53,50 @@ window.PEOPLE_COLORS = {
   mage:    { color: "#2f62d6", color2: "#9db8f2", name: "Cobalt" },
 };
 
+const K = (id, t, done) => ({ id, t, done: !!done });
 window.PHASES = [
   {
     id: "p1", name: "Phase 1: The Project Website (V2)", status: "in-progress",
-    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu.",
+    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 14 of 22 tasks are done; the rest is mostly art generation and balance.",
     tasks: [
-      "New world, peoples, subclasses and specializations (108 characters, 8 in 10 combat)",
-      "Four-color system: people color + character trio for every character",
-      "Character select gallery and details view in the new theme",
-      "Hamburger menu with archived versions",
-      "Generate the 7 core characters and 7 core backgrounds",
-      "Generate all 108 characters and their backgrounds",
-      "Balance and stat sheet for each specialization",
+      K("world", "New world, peoples, subclasses and specializations (8 peoples, 50 subclasses, 150 characters, 8 in 10 combat)", true),
+      K("magic", "Magic restructure: Wizard, Witch, Warlock and Mage as one Magic people (36 specializations, Sticky Wizard included)", true),
+      K("fourcolor", "Four-color system: people color + a unique trio for every character (color audit done)", true),
+      K("types", "Character types (9), attributes (physique, size, mobility) and combat/support tile badges", true),
+      K("gallery", "Character select gallery and details view in the new theme (filters, completed filter, tabs)", true),
+      K("viewer", "Art-only view with carousel, swipe, zoom and the character plaque", true),
+      K("menu", "Hamburger menu with archived versions", true),
+      K("motion", "Motion pass: shared-element morph, hover states, silky mouse-leave, 80s hover shapes per people", true),
+      K("responsive", "Mobile and tablet responsive pass", true),
+      K("prompts", "Prompt system: character + background prompts with the Samurai Jack lint (14 checks)", true),
+      K("cast", "Cast bible (CAST.md): every character's attributes plus DALL·E prompts", true),
+      K("deploy", "GitHub Pages deploy from main", true),
+      K("core", "Generate the core characters and backgrounds (8 done: one per people)", true),
+      K("manual", "Monster Manual NPCs reassigned to the new peoples", true),
+      K("allart", "Generate all 150 characters and their backgrounds (8 of 150 done)"),
+      K("pipeline", "Script the image generation from CAST.md (API, transparent PNG, auto-resize)"),
+      K("sticky", "Sticky Wizard (Slime-Sling Alchemists): art and credit review with Mike Mears"),
+      K("stats", "Balance and stat sheet for each specialization"),
+      K("lore", "Consolidate the lore bible (moved up from Phase 4; the comics need it first)"),
+      K("a11y", "Accessibility pass: keyboard focus, contrast, reduced motion and screen-reader labels"),
+      K("share", "Custom domain and share/OG preview image"),
+      K("notes", "Refresh V2-NOTES.md and the core prompt file for 8 peoples and 150 characters"),
     ],
   },
   {
     id: "p2", name: "Phase 2: Comics", status: "planned",
     summary: "A comic for each people and each subclass: black ink, spot color, glam-noir panels.",
-    tasks: ["Comic style guide (ink, spot color, lettering)", "7 people intro comics", "Subclass comics", "Crossover: the Second Signal", "Publish inside the site"],
+    tasks: [K("c-style", "Comic style guide (ink, spot color, lettering)"), K("c-intro", "8 people intro comics"), K("c-sub", "Subclass comics (50)"), K("c-magic", "Magic tradition shorts: study, cultivate, bargain, embody"), K("c-cross", "Crossover: the Second Signal"), K("c-pub", "Publish inside the site")],
   },
   {
     id: "p3", name: "Phase 3: Board Game (Physical + Digital)", status: "planned",
     summary: "Every player can be any specialization. Boxes hold a subset; the full box holds all of them.",
-    tasks: ["Core rules and turn structure", "Specialization decks", "Balance across all 108", "Box set plan", "Digital prototype", "Physical prototype and playtests", "Pricing and manufacturing plan"],
+    tasks: [K("b-rules", "Core rules and turn structure"), K("b-decks", "Specialization decks"), K("b-bal", "Balance across all 150 (builds on the Phase 1 stat sheets)"), K("b-roles", "Combat and support role rules (the 8/2 split)"), K("b-box", "Box set plan"), K("b-dig", "Digital prototype"), K("b-phys", "Physical prototype and playtests"), K("b-price", "Pricing and manufacturing plan")],
   },
   {
     id: "p4", name: "Phase 4: The MMO", status: "planned",
     summary: "Use everything built so far to design the persistent world.",
-    tasks: ["Consolidate the lore bible", "Port abilities into MMO systems", "World map and zones", "Tech stack and cost research", "Vertical slice plan"],
+    tasks: [K("m-port", "Port abilities into MMO systems"), K("m-map", "World map and zones"), K("m-tech", "Tech stack and cost research"), K("m-prog", "Progression, resources and magic systems (Corruption, Resonance, Charge)"), K("m-slice", "Vertical slice plan")],
   },
 ];
 

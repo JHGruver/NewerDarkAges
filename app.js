@@ -307,7 +307,8 @@ function manual(nid) {
 }
 
 /* ----- roadmap ----- */
-const STORE = "nda2-roadmap";
+const STORE = "nda3-roadmap"; // tasks: {id, t, done?}; done seeds the box until the viewer ticks or unticks it
+const taskOn = (checks, p, k) => (checks[`${p.id}:${k.id}`] !== undefined ? checks[`${p.id}:${k.id}`] : !!k.done);
 function loadChecks() { try { return JSON.parse(localStorage.getItem(STORE)) || {}; } catch { return {}; } }
 function saveChecks(c) { try { localStorage.setItem(STORE, JSON.stringify(c)); } catch {} }
 function roadmap() {
@@ -316,10 +317,10 @@ function roadmap() {
   <div class="eyebrow">Project plan</div><h1 class="pg">Roadmap</h1>
   <p class="muted">Tick off tasks to track progress (saved in this browser). Edit phases in <code>data.js</code>.</p>
   ${PHASES.map((p) => {
-    const done = p.tasks.filter((_, i) => checks[`${p.id}:${i}`]).length; const pct = Math.round((done / p.tasks.length) * 100);
+    const done = p.tasks.filter((k) => taskOn(checks, p, k)).length; const pct = Math.round((done / p.tasks.length) * 100);
     return `<div class="panel phase"><div class="phase-head"><h3>${esc(p.name)}</h3><span class="status ${p.status}">${p.status.replace("-", " ")}</span></div>
       <p class="muted">${esc(p.summary)}</p><div class="progress"><i style="width:${pct}%"></i></div><div class="muted small">${done}/${p.tasks.length} done</div>
-      ${p.tasks.map((t, i) => `<label class="task ${checks[`${p.id}:${i}`] ? "done" : ""}"><input type="checkbox" data-task="${p.id}:${i}" ${checks[`${p.id}:${i}`] ? "checked" : ""}><span>${esc(t)}</span></label>`).join("")}</div>`;
+      ${p.tasks.map((k) => `<label class="task ${taskOn(checks, p, k) ? "done" : ""}"><input type="checkbox" data-task="${p.id}:${k.id}" ${taskOn(checks, p, k) ? "checked" : ""}><span>${esc(k.t)}</span></label>`).join("")}</div>`;
   }).join("")}`;
 }
 
