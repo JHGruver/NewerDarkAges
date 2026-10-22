@@ -50,7 +50,13 @@ Scene props for ${l.name}: ${sp.p}. These are the large things this character co
 
 Composition: horizon at one-third height, a large moon upper-left, a misty ruined valley receding to the left, and open empty space in the center-lower area where the character will be placed. Keep the props to the right, left and background so the center stays clear.
 
-COLOR (most important): this is a ${PEOPLE_COLORS[g.id].name.toUpperCase()}-WASHED painting, like a monochrome duotone. The ENTIRE image is washed in the people color ${g.color}: ${WASH[g.id]}. About 75% of the image is this one hue in light-to-dark tones (sky, fog, ground, walls, reflections, light). ${dark ? "Because this people's color is black, the scene is overwhelmingly black with only thin grey ink highlights." : "Pure black and white are used only for ink linework, deep shadows and small highlights, about 20%."} The character's accent colors ${a}, ${b} and ${c} appear ONLY as a few small accent lights or details, no more than about 5% of the image combined, echoing ${l.name}. Do NOT make the scene mostly grey, and do NOT make it mostly the accent colors.
+COLOR (most important): a ${PEOPLE_COLORS[g.id].name.toUpperCase()}-WASHED painting. The people color ${g.color} washes the scene (${WASH[g.id]}), about 65% of the image, in light-to-dark tones across sky, fog, ground, walls and haze. ${dark ? "Because this people's color is black, the base is near-black with thin grey ink highlights." : "Black and white are for ink linework, deep shadows and small highlights, about 15%."}
+
+TRIO ACCENTS (clearly visible, about 20% of the image combined, never tiny): the character's three colors must be unmistakable and spread across the scene as light and objects, not buried in the wash:
+- MAIN ${a} (about half of the accents): the biggest accent. Use it for the largest glowing sources and surfaces: a big sign, banner, large lamp glow or lit window band, and its reflections on the wet ground.
+- SECONDARY ${b}: several medium elements in the midground: painted panels, a flag, a barrel or crate, a smaller light, a cable or stripe.
+- POP ${c}: a handful of small bright sparks: tiny lights, flames, glints, rivets or a thin strip, spread across the scene.
+Place at least two accents on the foreground props on the right and left, and reflect them on the ground. The scene should read as the people color with the trio clearly pushing through it. Do NOT make the scene mostly grey, and do NOT let the accents disappear into the wash.
 
 No characters, creatures, figures or silhouettes of people or animals, no bodies, no blood, and no text or lettering anywhere.`;
   };
