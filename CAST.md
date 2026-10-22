@@ -5481,7 +5481,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Subclass | Sticky Wizards |
 | Type | Blaster |
 | Combat or support | Combat |
-| Art status | Not yet generated |
+| Art status | Done: `art/v2/magic-stickywizards.png` and `art/v2/magic-stickywizards-bg.jpg` |
 | Colors | main #0de609, secondary #ffd23f, pop #ff6b9d |
 
 **Background**
