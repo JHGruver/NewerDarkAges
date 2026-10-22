@@ -18,6 +18,14 @@ Generated from the site data. 150 characters across 8 peoples, 50 subclasses.
 # Human  
 *People color: Gold #d9a521 (accent #f3d98b)*
 
+**Tagline:** No fangs, no fur. Just chrome, nerve and a very loud stereo.  
+**Summary:** Short-lived, stubborn and inventive. Humans have no innate powers, so they win with style, speed and salvaged tech. They rebuilt out of whatever the old world left: parking structures, arcades, radio stations and shopping malls, and every settlement has its own flag, its own slang and its own very specific way of killing you.  
+**Level names:** Faction › Crew  
+**Classes:** Roadwar Convoys, Arcade Clans, Pirate Radio, Mall Republic  
+**Characters:** 12 (3 support)  
+**Background setting:** a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners  
+**Background wash:** Gold #d9a521, about 65% of every background  
+
 
 ## Human › Roadwar Convoys
 
@@ -564,6 +572,14 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 # Vampire  
 *People color: Black #16161c (accent #8a8a99)*
 
+**Tagline:** Glam, patient and very hard to kill.  
+**Summary:** Immortal, impeccably dressed and perfectly at home in the dark. Vampires have ruled the Static Spires since before the Last Broadcast, and the Dim suits them: nothing hides a predator like a flickering streetlight. They are stylish, theatrical and dangerous, with a taste for capes, chrome and performance.  
+**Level names:** Court › Coterie  
+**Classes:** Chrome Court, Neon Nocturnes, Night Watch, Coterie of Masks  
+**Characters:** 12 (2 support)  
+**Background setting:** a gutted skyscraper rooftop at night: a chandelier wired to car batteries, a dead neon sign, gothic antenna spires, a distant ruined skyline, rain  
+**Background wash:** Black #16161c, about 65% of every background  
+
 
 ## Vampire › Chrome Court
 
@@ -1109,6 +1125,14 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 
 # Were-Creature  
 *People color: Rust #b4532a (accent #e8a07e)*
+
+**Tagline:** Two hearts, one war-band.  
+**Summary:** People who share their skin with an animal: wolf, raccoon, crocodile, octopus, moth and more. In person form they look like hard, weathered survivors with one telling trait. In beast form they are real animals, scaled up and carrying the scars of every fight. The Kin are the Dim's most varied fighters and its most loyal friends.  
+**Level names:** Animal Kind › Lodge  
+**Classes:** Wolf-kin, Raccoon-kin, Crocodile-kin, Capybara-kin, Axolotl-kin, Raven-kin, Owl-kin, Octopus-kin, Mantis Shrimp-kin, Moth-kin, Pangolin-kin, Spider-kin  
+**Characters:** 36 (7 support)  
+**Background setting:** a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles  
+**Background wash:** Rust #b4532a, about 65% of every background  
 
 
 ## Were-Creature › Wolf-kin
@@ -2736,6 +2760,14 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 # Ghost  
 *People color: Ice #8fcfe0 (accent #d6f1f7)*
 
+**Tagline:** Dead, signal-bound and not done.  
+**Summary:** Spirits who stayed behind and moved into the old world's machines. Ghosts ride cables, screens and speakers, pass through walls and haunt places with a signal that never fades. Frail in the physical world, they are lethal wherever tech and memory meet.  
+**Level names:** Haunt › Circle  
+**Classes:** Dead Air, Hollow Machines, The Last Call, The Lingerers  
+**Characters:** 12 (3 support)  
+**Background setting:** a dead broadcast station: racks of dark CRT monitors, cables drooping like willow branches, one flickering test-pattern screen, drifting fog  
+**Background wash:** Ice #8fcfe0, about 65% of every background  
+
 
 ## Ghost › Dead Air
 
@@ -3281,6 +3313,14 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 
 # Undead  
 *People color: Bone #bdb7a4 (accent #e8e4d6)*
+
+**Tagline:** Not dead. Just on a very long shift.  
+**Summary:** The risen, the preserved and the reanimated. Skeletons, zombies, liches and mummies make up the Dim's tireless labor force and its deadliest heavy infantry. They endure, they come back and they do not stop.  
+**Level names:** Order › Detail  
+**Classes:** Dead Zone Legion, Risen Labor Union, Lich Bureaucracy, Reach Court  
+**Characters:** 12 (2 support)  
+**Background setting:** a buried bunker vault and ash trench: steel blast doors, sandbag walls, a long corridor of lockers, dust-lit ventilation shafts  
+**Background wash:** Bone #bdb7a4, about 65% of every background  
 
 
 ## Undead › Dead Zone Legion
@@ -3828,6 +3868,14 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 # Forest Spirit  
 *People color: Moss #3f7d45 (accent #9fd2a1)*
 
+**Tagline:** The woods have opinions. They also have weapons.  
+**Summary:** Faeries, gnomes, dryads and hobs: the old folk of the Overgrowth, now armed with whatever the suburbs left behind. They are tied to the land, the forest and its roots, and they hold the drowned neighborhoods where the wild took back the world.  
+**Level names:** Court › Clan  
+**Classes:** Cul-de-Sac Court, Root-Server Dryads, Basement Gnomes, Hob Neighbors  
+**Characters:** 12 (3 support)  
+**Background setting:** a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist  
+**Background wash:** Moss #3f7d45, about 65% of every background  
+
 
 ## Forest Spirit › Cul-de-Sac Court
 
@@ -4373,6 +4421,14 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 
 # Eldritch  
 *People color: Abyss #0b7a75 (accent #6fd6cf)*
+
+**Tagline:** Not from here. Not from now. Armed anyway.  
+**Summary:** The things that were here before the Last Broadcast, or came through it. Deep Ones, Mi-Go, Shoggoths, Elder Things, Nightgaunts and the Hounds of Tindalos are the strangest peoples of the Dim, and each looks nothing like the others. They do not understand the humans' war, but they understand salvage, signals and doors, and every one of them has found a use for the old world's machines.  
+**Level names:** Species › Order  
+**Classes:** Deep Ones, Mi-Go, Shoggoths, Elder Things, Nightgaunts, Hounds of Tindalos  
+**Characters:** 18 (3 support)  
+**Background setting:** a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls  
+**Background wash:** Abyss #0b7a75, about 65% of every background  
 
 
 ## Eldritch › Deep Ones
@@ -5189,6 +5245,14 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 
 # Magic  
 *People color: Violet #6b3fa6 (accent #b79ae0)*
+
+**Tagline:** Four ways to hold power.  
+**Summary:** One people, four traditions. Wizards study power, Witches cultivate power, Warlocks bargain for power and Mages embody power. Each tradition has three schools and each school three disciplines.  
+**Level names:** School › Discipline  
+**Classes:** Signal Savants, Circuit Arcanists, Sticky Wizards, Spore Coven, Scraphex Witches, Thornblood Coven, Voidbound, Bloodwire Apostates, Mirror Oathbreakers, Chronofractures, Mindweavers, Fluxborn  
+**Characters:** 36 (7 support)  
+**Background setting:** a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow  
+**Background wash:** Violet #6b3fa6, about 65% of every background  
 
 
 ## Magic › Signal Savants
