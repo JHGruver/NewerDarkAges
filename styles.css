@@ -746,3 +746,12 @@ main > h1.pg + p { margin-bottom: 22px; }
   .topbar .cta:active { transform: scale(.96); }
 }
 @media (max-width: 360px) { .topbar .cta { padding: 8px 10px; font-size: .72rem; } }
+
+/* phones: icon-only people filters in one compact row */
+@media (max-width: 820px) {
+  .filters { grid-template-columns: repeat(8, minmax(0, 1fr)); gap: 5px; margin-bottom: 10px; }
+  .filter { padding: 11px 0 9px; justify-content: center; min-height: 46px; }
+  .filter .nm, .filter .ct { display: none; }
+  .filter .ico { font-size: 1.25rem; margin: 0; }
+  .filter .chip { height: 3px; }
+}

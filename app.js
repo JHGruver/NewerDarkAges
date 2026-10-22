@@ -105,7 +105,7 @@ function gallery() {
   const fg = GROUPS.find((g) => g.id === galleryFilter);
   const counts = (g) => all.filter((c) => c.g === g).length;
   const filters = GROUPS.map((g) => `
-    <button class="filter ${g.id === galleryFilter ? "sel" : ""}" style="${pv(g)}" data-filter="${g.id}" aria-pressed="${g.id === galleryFilter}">
+    <button class="filter ${g.id === galleryFilter ? "sel" : ""}" style="${pv(g)}" data-filter="${g.id}" aria-pressed="${g.id === galleryFilter}" title="${esc(g.name)} (${counts(g)})" aria-label="${esc(g.name)}">
       <i class="chip" style="background:${g.color}"></i><span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span><span class="ct">${counts(g)}</span>
     </button>`).join("");
   const roles = `<div class="roles" role="group" aria-label="Filter by role and status">
