@@ -510,3 +510,28 @@ body.viewing::after { content: "Click anywhere to return · arrow keys to browse
 .gc.done:hover .cs { text-shadow: 0 1px 3px #000, 0 0 6px rgba(0, 0, 0, .95); color: rgba(255, 255, 255, .85); }
 .gc.done:hover .cn { text-shadow: 0 0 2px #000, 0 1px 3px #000, 0 0 10px rgba(0, 0, 0, 1), 0 2px 14px rgba(0, 0, 0, .95); font-weight: 700; }
 .gc.done:hover .cs { text-shadow: 0 0 2px #000, 0 1px 3px #000, 0 0 8px rgba(0, 0, 0, 1); color: #fff; }
+
+
+/* ===== details page: the whole tile is the "view art" target, with the same hover as the gallery ===== */
+.fig.has-art { cursor: zoom-in; overflow: visible; isolation: isolate; outline: none; }
+.fig.has-art::before { clip-path: inset(0); }
+.fig.has-art:focus-visible { box-shadow: 0 0 0 2px #fff; }
+.fig.has-art .hero-fig img { transform-origin: 50% 100%; transition: transform .5s cubic-bezier(.2, .8, .2, 1), filter .5s; position: relative; z-index: 3; }
+.fig.has-art:hover .hero-fig img { transform: scale(1.07); animation: imgPulse 3.6s ease-in-out infinite; }
+.fig.has-art:hover { z-index: 4; animation: figPulse 3.6s ease-in-out infinite; }
+@keyframes figPulse {
+  0%, 100% { box-shadow: 0 12px 40px rgba(0, 0, 0, .45), inset 0 0 40px color-mix(in srgb, var(--c1) 10%, transparent), inset 0 1px 0 rgba(255, 255, 255, .07); }
+  50% { box-shadow: 0 12px 40px rgba(0, 0, 0, .45), inset 0 0 90px color-mix(in srgb, var(--c1) 32%, transparent), inset 0 1px 0 rgba(255, 255, 255, .07); }
+}
+/* four-color frame: a ring behind the tile that rises above it, widens past the sides and runs below */
+.fig.has-art::after {
+  content: ""; position: absolute; z-index: -1; left: -9px; right: -9px; top: -12px; bottom: -14px; padding: 12px 9px 14px 9px; pointer-events: none;
+  background: linear-gradient(90deg, var(--p) 0 25%, var(--c1) 25% 50%, var(--c2) 50% 75%, var(--c3) 75% 100%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor; mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  opacity: 0; transform: scaleY(.94); transform-origin: 50% 100%; transition: opacity .35s ease, transform .35s cubic-bezier(.2, .8, .2, 1);
+}
+.fig.has-art:hover::after { opacity: 1; transform: none; }
+.fig.has-art .trio-bar { transition: opacity .3s; } .fig.has-art:hover .trio-bar { opacity: 0; }
+.fig.has-art .view-btn { display: none; }
+@media (prefers-reduced-motion: reduce) { .fig.has-art:hover, .fig.has-art:hover .hero-fig img { animation: none !important; } }
+body.viewing .fig.has-art::after { display: none; } body.viewing .fig.has-art { cursor: zoom-out; }

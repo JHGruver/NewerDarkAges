@@ -239,7 +239,7 @@ function characters(...path) {
   return `${head}
   <div class="workspace" style="${gstyle}">
     <aside class="chooser">${chooser}</aside>
-    <figure class="fig ${leaf ? "single" : "multi"}">
+    <figure class="fig ${leaf ? "single" : "multi"} ${art ? "has-art" : ""}" ${art ? 'data-view tabindex="0" role="button" aria-label="View the artwork full screen"' : ""}>
       ${stage}
       <figcaption>${esc(leaf ? (art ? art.name : leaf.name) : node.name)}</figcaption>
     </figure>
@@ -398,6 +398,7 @@ document.addEventListener("click", (e) => {
   e.preventDefault(); e.stopPropagation(); closeView();
 }, true);
 document.addEventListener("keydown", (e) => {
+  if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches(".fig.has-art")) { e.preventDefault(); openView(); return; }
   if (e.key === "Escape") { closeView(); closeDrawer(); }
   else if (document.body.classList.contains("viewing") && (e.key === "ArrowRight" || e.key === "ArrowLeft")) { e.preventDefault(); viewStep(e.key === "ArrowRight" ? 1 : -1); }
 });
