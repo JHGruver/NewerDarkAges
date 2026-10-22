@@ -21,7 +21,7 @@ Generated from the site data. 150 characters across 8 peoples, 50 subclasses.
 **Tagline:** No fangs, no fur. Just chrome, nerve and a very loud stereo.  
 **Summary:** Short-lived, stubborn and inventive. Humans have no innate powers, so they win with style, speed and salvaged tech. They rebuilt out of whatever the old world left: parking structures, arcades, radio stations and shopping malls, and every settlement has its own flag, its own slang and its own very specific way of killing you.  
 **Level names:** Faction › Crew  
-**Classes:** Roadwar Convoys, Arcade Clans, Pirate Radio, Mall Republic  
+**Subclasses:** Roadwar Convoys, Arcade Clans, Pirate Radio, Mall Republic  
 **Characters:** 12 (3 support)  
 **Background setting:** a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners  
 **Background wash:** Gold #d9a521, about 65% of every background  
@@ -575,7 +575,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Glam, patient and very hard to kill.  
 **Summary:** Immortal, impeccably dressed and perfectly at home in the dark. Vampires have ruled the Static Spires since before the Last Broadcast, and the Dim suits them: nothing hides a predator like a flickering streetlight. They are stylish, theatrical and dangerous, with a taste for capes, chrome and performance.  
 **Level names:** Court › Coterie  
-**Classes:** Chrome Court, Neon Nocturnes, Night Watch, Coterie of Masks  
+**Subclasses:** Chrome Court, Neon Nocturnes, Night Watch, Coterie of Masks  
 **Characters:** 12 (2 support)  
 **Background setting:** a gutted skyscraper rooftop at night: a chandelier wired to car batteries, a dead neon sign, gothic antenna spires, a distant ruined skyline, rain  
 **Background wash:** Black #16161c, about 65% of every background  
@@ -1129,7 +1129,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Two hearts, one war-band.  
 **Summary:** People who share their skin with an animal: wolf, raccoon, crocodile, octopus, moth and more. In person form they look like hard, weathered survivors with one telling trait. In beast form they are real animals, scaled up and carrying the scars of every fight. The Kin are the Dim's most varied fighters and its most loyal friends.  
 **Level names:** Animal Kind › Lodge  
-**Classes:** Wolf-kin, Raccoon-kin, Crocodile-kin, Capybara-kin, Axolotl-kin, Raven-kin, Owl-kin, Octopus-kin, Mantis Shrimp-kin, Moth-kin, Pangolin-kin, Spider-kin  
+**Subclasses:** Wolf-kin, Raccoon-kin, Crocodile-kin, Capybara-kin, Axolotl-kin, Raven-kin, Owl-kin, Octopus-kin, Mantis Shrimp-kin, Moth-kin, Pangolin-kin, Spider-kin  
 **Characters:** 36 (7 support)  
 **Background setting:** a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles  
 **Background wash:** Rust #b4532a, about 65% of every background  
@@ -2763,7 +2763,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Dead, signal-bound and not done.  
 **Summary:** Spirits who stayed behind and moved into the old world's machines. Ghosts ride cables, screens and speakers, pass through walls and haunt places with a signal that never fades. Frail in the physical world, they are lethal wherever tech and memory meet.  
 **Level names:** Haunt › Circle  
-**Classes:** Dead Air, Hollow Machines, The Last Call, The Lingerers  
+**Subclasses:** Dead Air, Hollow Machines, The Last Call, The Lingerers  
 **Characters:** 12 (3 support)  
 **Background setting:** a dead broadcast station: racks of dark CRT monitors, cables drooping like willow branches, one flickering test-pattern screen, drifting fog  
 **Background wash:** Ice #8fcfe0, about 65% of every background  
@@ -3317,7 +3317,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Not dead. Just on a very long shift.  
 **Summary:** The risen, the preserved and the reanimated. Skeletons, zombies, liches and mummies make up the Dim's tireless labor force and its deadliest heavy infantry. They endure, they come back and they do not stop.  
 **Level names:** Order › Detail  
-**Classes:** Dead Zone Legion, Risen Labor Union, Lich Bureaucracy, Reach Court  
+**Subclasses:** Dead Zone Legion, Risen Labor Union, Lich Bureaucracy, Reach Court  
 **Characters:** 12 (2 support)  
 **Background setting:** a buried bunker vault and ash trench: steel blast doors, sandbag walls, a long corridor of lockers, dust-lit ventilation shafts  
 **Background wash:** Bone #bdb7a4, about 65% of every background  
@@ -3871,7 +3871,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** The woods have opinions. They also have weapons.  
 **Summary:** Faeries, gnomes, dryads and hobs: the old folk of the Overgrowth, now armed with whatever the suburbs left behind. They are tied to the land, the forest and its roots, and they hold the drowned neighborhoods where the wild took back the world.  
 **Level names:** Court › Clan  
-**Classes:** Cul-de-Sac Court, Root-Server Dryads, Basement Gnomes, Hob Neighbors  
+**Subclasses:** Cul-de-Sac Court, Root-Server Dryads, Basement Gnomes, Hob Neighbors  
 **Characters:** 12 (3 support)  
 **Background setting:** a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist  
 **Background wash:** Moss #3f7d45, about 65% of every background  
@@ -4425,7 +4425,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Not from here. Not from now. Armed anyway.  
 **Summary:** The things that were here before the Last Broadcast, or came through it. Deep Ones, Mi-Go, Shoggoths, Elder Things, Nightgaunts and the Hounds of Tindalos are the strangest peoples of the Dim, and each looks nothing like the others. They do not understand the humans' war, but they understand salvage, signals and doors, and every one of them has found a use for the old world's machines.  
 **Level names:** Species › Order  
-**Classes:** Deep Ones, Mi-Go, Shoggoths, Elder Things, Nightgaunts, Hounds of Tindalos  
+**Subclasses:** Deep Ones, Mi-Go, Shoggoths, Elder Things, Nightgaunts, Hounds of Tindalos  
 **Characters:** 18 (3 support)  
 **Background setting:** a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls  
 **Background wash:** Abyss #0b7a75, about 65% of every background  
@@ -5247,9 +5247,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 *People color: Violet #6b3fa6 (accent #b79ae0)*
 
 **Tagline:** Four ways to hold power.  
-**Summary:** One people, four traditions. Wizards study power, Witches cultivate power, Warlocks bargain for power and Mages embody power. Each tradition has three schools and each school three disciplines.  
-**Level names:** School › Discipline  
-**Classes:** Signal Savants, Circuit Arcanists, Sticky Wizards, Spore Coven, Scraphex Witches, Thornblood Coven, Voidbound, Bloodwire Apostates, Mirror Oathbreakers, Chronofractures, Mindweavers, Fluxborn  
+**Summary:** One people, four classes: Wizard (the academic scientist), Witch (the naturalist ritualist), Warlock (the dangerous renegade) and Mage (the living conduit). Each class has three subclasses and each subclass three specializations.  
+**Level names:** Subclass › Specialization  
+**Classes:** Wizard (The Academic Scientist): Signal Savants, Circuit Arcanists, Sticky Wizards; Witch (The Naturalist Ritualist): Spore Coven, Scraphex Witches, Thornblood Coven; Warlock (The Dangerous Renegade): Voidbound, Bloodwire Apostates, Mirror Oathbreakers; Mage (The Living Conduit): Chronofractures, Mindweavers, Fluxborn  
 **Characters:** 36 (7 support)  
 **Background setting:** a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow  
 **Background wash:** Violet #6b3fa6, about 65% of every background  
@@ -5272,9 +5272,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Radio staff, dial gauntlet, antenna hat, shortwave charm |
 | Pose | radio staff held up, dial gauntlet thrust forward crackling |
 | Facial expression | poised, razor-sharp focus |
-| People | Magic (Wizards) |
-| Class | Signal Savants |
-| Subclass | Frequency Interceptors |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Signal Savants — Radio-frequency magic, broadcasting, and interference. |
+| Specialization | Frequency Interceptors |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #5a844c, secondary #f72585, pop #ffd60a |
@@ -5292,7 +5293,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Frequency Interceptors, female woman in her forties, dark-skinned, with long white braids (Black American heritage, American). Body: tall and elegant, medium size, grounded. Expression: poised, razor-sharp focus. Pose: radio staff held up, dial gauntlet thrust forward crackling. Wardrobe and carried gear (wearable or hand-held only): wizard in a structured green coat and an antenna-crowned hat, a radio-shaped staff in one hand and a gold-ringed dial gauntlet on the other forearm, a shortwave charm necklace. Palette: main #5a844c (about 60%), secondary #f72585 (about 30%), pop #ffd60a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizards, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Frequency Interceptors, female woman in her forties, dark-skinned, with long white braids (Black American heritage, American). Body: tall and elegant, medium size, grounded. Expression: poised, razor-sharp focus. Pose: radio staff held up, dial gauntlet thrust forward crackling. Wardrobe and carried gear (wearable or hand-held only): wizard in a structured green coat and an antenna-crowned hat, a radio-shaped staff in one hand and a gold-ringed dial gauntlet on the other forearm, a shortwave charm necklace. Palette: main #5a844c (about 60%), secondary #f72585 (about 30%), pop #ffd60a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizard, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5316,9 +5317,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Parabolic ear-horn, amplifier pack, signal slate, long coat |
 | Pose | ear-horn raised to the sky, slate and chalk in the other hand |
 | Facial expression | delighted, lecturing eyebrows |
-| People | Magic (Wizards) |
-| Class | Signal Savants |
-| Subclass | Broadcast Theorists |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Signal Savants — Radio-frequency magic, broadcasting, and interference. |
+| Specialization | Broadcast Theorists |
 | Type | Enchanter |
 | Combat or support | Support |
 | Colors | main #356e1d, secondary #2a9d8f, pop #fff3c4 |
@@ -5336,7 +5338,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Broadcast Theorists, male man in his sixties of South Asian-inspired features, silver mustache (South Asian-inspired heritage, Indian). Body: broad-shouldered and slightly stooped, medium size, grounded. Expression: delighted, lecturing eyebrows. Pose: ear-horn raised to the sky, slate and chalk in the other hand. Wardrobe and carried gear (wearable or hand-held only): wizard in a long structured coat with a parabolic ear-horn raised overhead, a boxy amplifier pack on the back, a slate and chalk in the other hand. Palette: main #356e1d (about 60%), secondary #2a9d8f (about 30%), pop #fff3c4 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Wizards, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Broadcast Theorists, male man in his sixties of South Asian-inspired features, silver mustache (South Asian-inspired heritage, Indian). Body: broad-shouldered and slightly stooped, medium size, grounded. Expression: delighted, lecturing eyebrows. Pose: ear-horn raised to the sky, slate and chalk in the other hand. Wardrobe and carried gear (wearable or hand-held only): wizard in a long structured coat with a parabolic ear-horn raised overhead, a boxy amplifier pack on the back, a slate and chalk in the other hand. Palette: main #356e1d (about 60%), secondary #2a9d8f (about 30%), pop #fff3c4 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Wizard, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5360,9 +5362,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Studio headphones, decoder wheel, spectrum lens, notebook |
 | Pose | turning the decoder wheel with one hand, lens at the eye |
 | Facial expression | intent, squinting through the lens |
-| People | Magic (Wizards) |
-| Class | Signal Savants |
-| Subclass | Deadband Decoders |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Signal Savants — Radio-frequency magic, broadcasting, and interference. |
+| Specialization | Deadband Decoders |
 | Type | Support |
 | Combat or support | Support |
 | Colors | main #208a1d, secondary #ffd166, pop #ebffc0 |
@@ -5380,7 +5383,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Deadband Decoders, nonbinary nonbinary young adult of East Asian-inspired features, short bleached hair (East Asian-inspired heritage, Japanese). Body: lithe and narrow, medium size, agile. Expression: intent, squinting through the lens. Pose: turning the decoder wheel with one hand, lens at the eye. Wardrobe and carried gear (wearable or hand-held only): wizard in a cropped structured jacket and big studio headphones, a brass decoder wheel in one hand and a spectrum lens held to one eye, a notebook at the belt. Palette: main #208a1d (about 60%), secondary #ffd166 (about 30%), pop #ebffc0 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Wizards, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Deadband Decoders, nonbinary nonbinary young adult of East Asian-inspired features, short bleached hair (East Asian-inspired heritage, Japanese). Body: lithe and narrow, medium size, agile. Expression: intent, squinting through the lens. Pose: turning the decoder wheel with one hand, lens at the eye. Wardrobe and carried gear (wearable or hand-held only): wizard in a cropped structured jacket and big studio headphones, a brass decoder wheel in one hand and a spectrum lens held to one eye, a notebook at the belt. Palette: main #208a1d (about 60%), secondary #ffd166 (about 30%), pop #ebffc0 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Wizard, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5407,9 +5410,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Runeplate pauldrons, tablet gauntlet, etching stylus, wrench |
 | Pose | planted wide with the tablet gauntlet raised, stylus glowing |
 | Facial expression | stern, craftsperson's frown |
-| People | Magic (Wizards) |
-| Class | Circuit Arcanists |
-| Subclass | Runeplate Engineers |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Circuit Arcanists — Magical engineering, enchanted circuits, and technological spellcraft. |
+| Specialization | Runeplate Engineers |
 | Type | Tank |
 | Combat or support | Combat |
 | Colors | main #f14fea, secondary #3a86ff, pop #e4ffda |
@@ -5427,7 +5431,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Runeplate Engineers, female woman in her fifties of Polynesian-inspired features, strong arms (Polynesian-inspired heritage, Tongan). Body: broad and heavily built, large size, grounded. Expression: stern, craftsperson's frown. Pose: planted wide with the tablet gauntlet raised, stylus glowing. Wardrobe and carried gear (wearable or hand-held only): wizard in layered armor etched with circuit lines, runeplate pauldrons, a tablet gauntlet on one forearm and a stylus in the other hand. Palette: main #f14fea (about 60%), secondary #3a86ff (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Wizards, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Runeplate Engineers, female woman in her fifties of Polynesian-inspired features, strong arms (Polynesian-inspired heritage, Tongan). Body: broad and heavily built, large size, grounded. Expression: stern, craftsperson's frown. Pose: planted wide with the tablet gauntlet raised, stylus glowing. Wardrobe and carried gear (wearable or hand-held only): wizard in layered armor etched with circuit lines, runeplate pauldrons, a tablet gauntlet on one forearm and a stylus in the other hand. Palette: main #f14fea (about 60%), secondary #3a86ff (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Wizard, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5451,9 +5455,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Coil-hilt rapier, capacitor bracers, insulated gloves, short coat |
 | Pose | full lunge, coil-rapier extended with a discharge arc |
 | Facial expression | cocky, sparking grin |
-| People | Magic (Wizards) |
-| Class | Circuit Arcanists |
-| Subclass | Capacitor Duelists |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Circuit Arcanists — Magical engineering, enchanted circuits, and technological spellcraft. |
+| Specialization | Capacitor Duelists |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #8283f7, secondary #ff5d8f, pop #fff7c7 |
@@ -5471,7 +5476,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Capacitor Duelists, male young man in his twenties of Mexican-inspired features, sharp sideburns (Mexican heritage, Mexican). Body: lean and quick, medium size, agile. Expression: cocky, sparking grin. Pose: full lunge, coil-rapier extended with a discharge arc. Wardrobe and carried gear (wearable or hand-held only): wizard in a sharp short coat, a coil-hilt rapier in one hand, capacitor bracers on both wrists, insulated gloves. Palette: main #8283f7 (about 60%), secondary #ff5d8f (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Wizards, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Capacitor Duelists, male young man in his twenties of Mexican-inspired features, sharp sideburns (Mexican heritage, Mexican). Body: lean and quick, medium size, agile. Expression: cocky, sparking grin. Pose: full lunge, coil-rapier extended with a discharge arc. Wardrobe and carried gear (wearable or hand-held only): wizard in a sharp short coat, a coil-hilt rapier in one hand, capacitor bracers on both wrists, insulated gloves. Palette: main #8283f7 (about 60%), secondary #ff5d8f (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Wizard, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5495,9 +5500,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Drafting compass, circuit-tile satchel, chalk, structured long coat |
 | Pose | drawing a chalk circuit in the air with a compass, satchel open |
 | Facial expression | calm, calculating |
-| People | Magic (Wizards) |
-| Class | Circuit Arcanists |
-| Subclass | Logic-Gate Architects |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Circuit Arcanists — Magical engineering, enchanted circuits, and technological spellcraft. |
+| Specialization | Logic-Gate Architects |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #505e39, secondary #ff7b00, pop #eef6ff |
@@ -5515,7 +5521,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Logic-Gate Architects, female elderly woman in her late sixties of Scandinavian-inspired features, cropped silver hair (Scandinavian heritage, Norwegian). Body: tall and angular, large size, grounded. Expression: calm, calculating. Pose: drawing a chalk circuit in the air with a compass, satchel open. Wardrobe and carried gear (wearable or hand-held only): wizard in a long structured coat covered in chalk diagrams, a drafting compass in one hand and an open satchel of circuit tiles at the hip. Palette: main #505e39 (about 60%), secondary #ff7b00 (about 30%), pop #eef6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizards, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Logic-Gate Architects, female elderly woman in her late sixties of Scandinavian-inspired features, cropped silver hair (Scandinavian heritage, Norwegian). Body: tall and angular, large size, grounded. Expression: calm, calculating. Pose: drawing a chalk circuit in the air with a compass, satchel open. Wardrobe and carried gear (wearable or hand-held only): wizard in a long structured coat covered in chalk diagrams, a drafting compass in one hand and an open satchel of circuit tiles at the hip. Palette: main #505e39 (about 60%), secondary #ff7b00 (about 30%), pop #eef6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizard, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5542,9 +5548,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Oversized wizard hat, sling-staff, goo-jar bandolier, alchemy satchel |
 | Pose | leaning into a sling-shot of goo, hat flopping |
 | Facial expression | cheerful, wide-eyed confidence |
-| People | Magic (Wizards) |
-| Class | Sticky Wizards |
-| Subclass | Slime-Sling Alchemists |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Sticky Wizards — Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard. |
+| Specialization | Slime-Sling Alchemists |
 | Type | Blaster |
 | Combat or support | Combat |
 | Colors | main #0de609, secondary #ffd23f, pop #ff6b9d |
@@ -5562,7 +5569,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Slime-Sling Alchemists, male Sticky Wizard (created by Mike Mears): a small, round, expressive frog person with an oversized hat and a playful, capable manner (N/A (frog person, Sticky Wizard)). Body: small and round, small size, agile. Expression: cheerful, wide-eyed confidence. Pose: leaning into a sling-shot of goo, hat flopping. Wardrobe and carried gear (wearable or hand-held only): small round frog wizard in an oversized floppy pointed hat, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot, wide eyes and a confident grin. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Wizards, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Slime-Sling Alchemists, male Sticky Wizard (created by Mike Mears): a small, round, expressive frog person with an oversized hat and a playful, capable manner (N/A (frog person, Sticky Wizard)). Body: small and round, small size, agile. Expression: cheerful, wide-eyed confidence. Pose: leaning into a sling-shot of goo, hat flopping. Wardrobe and carried gear (wearable or hand-held only): small round frog wizard in an oversized floppy pointed hat, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot, wide eyes and a confident grin. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Wizard, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5586,9 +5593,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Tweed coat, bouncy rubber cane, elbow patches, round spectacles |
 | Pose | swinging a rubber cane in a bouncing arc |
 | Facial expression | stern and amused behind round spectacles |
-| People | Magic (Wizards) |
-| Class | Sticky Wizards |
-| Subclass | Ricochet Professors |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Sticky Wizards — Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard. |
+| Specialization | Ricochet Professors |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #056f57, secondary #2ec4b6, pop #fff0d1 |
@@ -5606,7 +5614,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Ricochet Professors, female older female toad professor in a tweed coat (N/A (toad person)). Body: stout and padded, medium size, agile. Expression: stern and amused behind round spectacles. Pose: swinging a rubber cane in a bouncing arc. Wardrobe and carried gear (wearable or hand-held only): stout toad wizard in a patched tweed coat and round spectacles, a bright rubber cane in one hand mid-swing, chalk dust on the sleeves. Palette: main #056f57 (about 60%), secondary #2ec4b6 (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Wizards, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Ricochet Professors, female older female toad professor in a tweed coat (N/A (toad person)). Body: stout and padded, medium size, agile. Expression: stern and amused behind round spectacles. Pose: swinging a rubber cane in a bouncing arc. Wardrobe and carried gear (wearable or hand-held only): stout toad wizard in a patched tweed coat and round spectacles, a bright rubber cane in one hand mid-swing, chalk dust on the sleeves. Palette: main #056f57 (about 60%), secondary #2ec4b6 (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Wizard, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5630,9 +5638,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Glyph stamps, gel pot, goggles, lab apron |
 | Pose | stamping a glowing glyph onto the floor with one hand |
 | Facial expression | eager, goggles pushed up |
-| People | Magic (Wizards) |
-| Class | Sticky Wizards |
-| Subclass | Goo-Glyph Researchers |
+| People | Magic › Wizard |
+| Class | Wizard (The Academic Scientist) |
+| Subclass | Sticky Wizards — Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard. |
+| Specialization | Goo-Glyph Researchers |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #db5b0a, secondary #ffbe0b, pop #fff5da |
@@ -5650,7 +5659,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Goo-Glyph Researchers, nonbinary young gender-neutral salamander researcher (N/A (salamander person)). Body: slim and nimble, small size, climbing. Expression: eager, goggles pushed up. Pose: stamping a glowing glyph onto the floor with one hand. Wardrobe and carried gear (wearable or hand-held only): slim salamander wizard in goggles and a rolled-sleeve lab apron, a rune stamp in one hand and a pot of gel in the other. Palette: main #db5b0a (about 60%), secondary #ffbe0b (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizards, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Goo-Glyph Researchers, nonbinary young gender-neutral salamander researcher (N/A (salamander person)). Body: slim and nimble, small size, climbing. Expression: eager, goggles pushed up. Pose: stamping a glowing glyph onto the floor with one hand. Wardrobe and carried gear (wearable or hand-held only): slim salamander wizard in goggles and a rolled-sleeve lab apron, a rune stamp in one hand and a pot of gel in the other. Palette: main #db5b0a (about 60%), secondary #ffbe0b (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizard, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5677,9 +5686,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Spore-jar basket, fungus-wrapped cane, mushroom-cap shawl, poultice pouch |
 | Pose | cane planted, one hand raised over glowing spore jars |
 | Facial expression | tender, knowing |
-| People | Magic (Witches) |
-| Class | Spore Coven |
-| Subclass | Mycelium Mothers |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Spore Coven — Fungal magic, spores, poisons, and regeneration. |
+| Specialization | Mycelium Mothers |
 | Type | Support |
 | Combat or support | Support |
 | Colors | main #d0e2a3, secondary #2f6f4f, pop #ffb4a2 |
@@ -5697,7 +5707,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Mycelium Mothers, female elderly Black woman in her seventies, gray locs under a mushroom shawl (Black American heritage, American (Georgia)). Body: stout and round, medium size, grounded. Expression: tender, knowing. Pose: cane planted, one hand raised over glowing spore jars. Wardrobe and carried gear (wearable or hand-held only): stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witches, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Mycelium Mothers, female elderly Black woman in her seventies, gray locs under a mushroom shawl (Black American heritage, American (Georgia)). Body: stout and round, medium size, grounded. Expression: tender, knowing. Pose: cane planted, one hand raised over glowing spore jars. Wardrobe and carried gear (wearable or hand-held only): stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witch, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5721,9 +5731,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Flask bandolier, ladle, cap-brim hat, thick apron |
 | Pose | mid-throw with a green flask, ladle on the hip |
 | Facial expression | cheerfully wicked grin |
-| People | Magic (Witches) |
-| Class | Spore Coven |
-| Subclass | Blightbrewers |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Spore Coven — Fungal magic, spores, poisons, and regeneration. |
+| Specialization | Blightbrewers |
 | Type | Blaster |
 | Combat or support | Combat |
 | Colors | main #5989d4, secondary #3d405b, pop #ffe66d |
@@ -5741,7 +5752,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Blightbrewers, male man in his thirties of Indonesian-inspired features, a wide mushroom-cap hat (Indonesian heritage, Indonesian). Body: lean and wiry, medium size, grounded. Expression: cheerfully wicked grin. Pose: mid-throw with a green flask, ladle on the hip. Wardrobe and carried gear (wearable or hand-held only): lean man in a mushroom-cap hat and a thick stained apron, a bandolier of green flasks across the chest, a ladle clipped to the belt, mid-throw. Palette: main #5989d4 (about 60%), secondary #3d405b (about 30%), pop #ffe66d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Witches, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Blightbrewers, male man in his thirties of Indonesian-inspired features, a wide mushroom-cap hat (Indonesian heritage, Indonesian). Body: lean and wiry, medium size, grounded. Expression: cheerfully wicked grin. Pose: mid-throw with a green flask, ladle on the hip. Wardrobe and carried gear (wearable or hand-held only): lean man in a mushroom-cap hat and a thick stained apron, a bandolier of green flasks across the chest, a ladle clipped to the belt, mid-throw. Palette: main #5989d4 (about 60%), secondary #3d405b (about 30%), pop #ffe66d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Witch, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5765,9 +5776,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Spore-gourd censer, hook-knife, fungus-fringed cloak, familiar basket |
 | Pose | crouched with the censer streaming fog, hook-knife low |
 | Facial expression | alert, partly hidden by mist |
-| People | Magic (Witches) |
-| Class | Spore Coven |
-| Subclass | Sporeveil Shepherds |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Spore Coven — Fungal magic, spores, poisons, and regeneration. |
+| Specialization | Sporeveil Shepherds |
 | Type | Assassin |
 | Combat or support | Combat |
 | Colors | main #134e7d, secondary #f4d35e, pop #1f1d49 |
@@ -5785,7 +5797,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Sporeveil Shepherds, female young woman in her twenties of Brazilian-inspired features, curly hair (Brazilian heritage, Brazilian). Body: slim and light-footed, medium size, agile. Expression: alert, partly hidden by mist. Pose: crouched with the censer streaming fog, hook-knife low. Wardrobe and carried gear (wearable or hand-held only): young woman in a fungus-fringed cloak and wrapped boots, a spore-gourd censer trailing mist in one hand and a hook-knife in the other. Palette: main #134e7d (about 60%), secondary #f4d35e (about 30%), pop #1f1d49 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Witches, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Sporeveil Shepherds, female young woman in her twenties of Brazilian-inspired features, curly hair (Brazilian heritage, Brazilian). Body: slim and light-footed, medium size, agile. Expression: alert, partly hidden by mist. Pose: crouched with the censer streaming fog, hook-knife low. Wardrobe and carried gear (wearable or hand-held only): young woman in a fungus-fringed cloak and wrapped boots, a spore-gourd censer trailing mist in one hand and a hook-knife in the other. Palette: main #134e7d (about 60%), secondary #f4d35e (about 30%), pop #1f1d49 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Witch, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5812,9 +5824,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Hex radio, antenna wand, curse cassettes, shawl |
 | Pose | antenna wand pointing out, radio held against the hip |
 | Facial expression | smoldering, lips moving in a murmur |
-| People | Magic (Witches) |
-| Class | Scraphex Witches |
-| Subclass | Dial-Hexers |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Scraphex Witches — Haunted electronics, cursed relics, and sympathetic magic. |
+| Specialization | Dial-Hexers |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #b703ec, secondary #00b4d8, pop #e4ffda |
@@ -5832,7 +5845,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Dial-Hexers, female woman in her mid-thirties of Lebanese-inspired features, dark headscarf (Lebanese heritage, Lebanese). Body: average and shawled, medium size, grounded. Expression: smoldering, lips moving in a murmur. Pose: antenna wand pointing out, radio held against the hip. Wardrobe and carried gear (wearable or hand-held only): woman in a layered shawl and headscarf, a bent antenna wand in one hand and a battered hex radio on a strap, curse tapes tucked in a bandolier. Palette: main #b703ec (about 60%), secondary #00b4d8 (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Witches, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Dial-Hexers, female woman in her mid-thirties of Lebanese-inspired features, dark headscarf (Lebanese heritage, Lebanese). Body: average and shawled, medium size, grounded. Expression: smoldering, lips moving in a murmur. Pose: antenna wand pointing out, radio held against the hip. Wardrobe and carried gear (wearable or hand-held only): woman in a layered shawl and headscarf, a bent antenna wand in one hand and a battered hex radio on a strap, curse tapes tucked in a bandolier. Palette: main #b703ec (about 60%), secondary #00b4d8 (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Witch, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5856,9 +5869,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Stitched effigies, pin pouch, soldering needle, charm string |
 | Pose | holding a stitched effigy up and a needle poised |
 | Facial expression | weathered, knowing smile |
-| People | Magic (Witches) |
-| Class | Scraphex Witches |
-| Subclass | Effigy Tinkerers |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Scraphex Witches — Haunted electronics, cursed relics, and sympathetic magic. |
+| Specialization | Effigy Tinkerers |
 | Type | Caster |
 | Combat or support | Combat |
 | Colors | main #6a2936, secondary #264653, pop #e9c46a |
@@ -5876,7 +5890,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Effigy Tinkerers, nonbinary nonbinary elder of Inuit-inspired features, weathered face (Inuit heritage, Canadian (Nunavut)). Body: stocky and gnarled, medium size, grounded. Expression: weathered, knowing smile. Pose: holding a stitched effigy up and a needle poised. Wardrobe and carried gear (wearable or hand-held only): androgynous elder in a patched coat hung with small dolls and charms, a stitched effigy held up in one hand and a soldering needle in the other. Palette: main #6a2936 (about 60%), secondary #264653 (about 30%), pop #e9c46a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Witches, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Effigy Tinkerers, nonbinary nonbinary elder of Inuit-inspired features, weathered face (Inuit heritage, Canadian (Nunavut)). Body: stocky and gnarled, medium size, grounded. Expression: weathered, knowing smile. Pose: holding a stitched effigy up and a needle poised. Wardrobe and carried gear (wearable or hand-held only): androgynous elder in a patched coat hung with small dolls and charms, a stitched effigy held up in one hand and a soldering needle in the other. Palette: main #6a2936 (about 60%), secondary #264653 (about 30%), pop #e9c46a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Witch, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5900,9 +5914,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Tuning-fork charm, copper-wire bracelet, cable cloak, pocket radio |
 | Pose | coaxing static from a radio with one raised finger |
 | Facial expression | playful, eyes bright |
-| People | Magic (Witches) |
-| Class | Scraphex Witches |
-| Subclass | Static Charmers |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Scraphex Witches — Haunted electronics, cursed relics, and sympathetic magic. |
+| Specialization | Static Charmers |
 | Type | Assassin |
 | Combat or support | Combat |
 | Colors | main #ccbdde, secondary #ffb703, pop #3a0ca3 |
@@ -5920,7 +5935,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Static Charmers, nonbinary slim person in their twenties of mixed heritage, a shaved head with a long braid (Mixed Pacific and African heritage, New Zealander). Body: slim and loose-limbed, medium size, agile. Expression: playful, eyes bright. Pose: coaxing static from a radio with one raised finger. Wardrobe and carried gear (wearable or hand-held only): slim person in a cable-fringed cloak, a copper-wire bracelet, one hand coaxing static from a handheld radio and a tuning-fork charm in the other. Palette: main #ccbdde (about 60%), secondary #ffb703 (about 30%), pop #3a0ca3 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Witches, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Static Charmers, nonbinary slim person in their twenties of mixed heritage, a shaved head with a long braid (Mixed Pacific and African heritage, New Zealander). Body: slim and loose-limbed, medium size, agile. Expression: playful, eyes bright. Pose: coaxing static from a radio with one raised finger. Wardrobe and carried gear (wearable or hand-held only): slim person in a cable-fringed cloak, a copper-wire bracelet, one hand coaxing static from a handheld radio and a tuning-fork charm in the other. Palette: main #ccbdde (about 60%), secondary #ffb703 (about 30%), pop #3a0ca3 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Witch, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5947,9 +5962,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Thorn-wrapped staff, bark armor plates, seed pouch, hooded cloak |
 | Pose | staff planted as brambles surge from the ground |
 | Facial expression | grim, weather-beaten calm |
-| People | Magic (Witches) |
-| Class | Thornblood Coven |
-| Subclass | Briarbinders |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Thornblood Coven — Plant magic, ancestral spirits, healing, and binding. |
+| Specialization | Briarbinders |
 | Type | Tank |
 | Combat or support | Combat |
 | Colors | main #053715, secondary #f2cc8f, pop #bb4c2a |
@@ -5967,7 +5983,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Briarbinders, female woman in her fifties of Irish-inspired features, red-gray hair (Irish heritage, Irish). Body: broad and weathered, large size, grounded. Expression: grim, weather-beaten calm. Pose: staff planted as brambles surge from the ground. Wardrobe and carried gear (wearable or hand-held only): broad weathered woman in a hooded cloak and bark armor plates, a thorn-wrapped staff planted in front of her, a seed pouch at the belt. Palette: main #053715 (about 60%), secondary #f2cc8f (about 30%), pop #bb4c2a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Witches, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Briarbinders, female woman in her fifties of Irish-inspired features, red-gray hair (Irish heritage, Irish). Body: broad and weathered, large size, grounded. Expression: grim, weather-beaten calm. Pose: staff planted as brambles surge from the ground. Wardrobe and carried gear (wearable or hand-held only): broad weathered woman in a hooded cloak and bark armor plates, a thorn-wrapped staff planted in front of her, a seed pouch at the belt. Palette: main #053715 (about 60%), secondary #f2cc8f (about 30%), pop #bb4c2a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Witch, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -5991,9 +6007,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Herb satchel, mortar and pestle, root-carved cane, woven sash |
 | Pose | grinding herbs in a mortar, cane tucked under the arm |
 | Facial expression | warm, reassuring |
-| People | Magic (Witches) |
-| Class | Thornblood Coven |
-| Subclass | Rootblood Healers |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Thornblood Coven — Plant magic, ancestral spirits, healing, and binding. |
+| Specialization | Rootblood Healers |
 | Type | Support |
 | Combat or support | Support |
 | Colors | main #0d5faf, secondary #f4a261, pop #fff7c7 |
@@ -6011,7 +6028,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Rootblood Healers, male man in his forties of West African-inspired features, close-cropped beard (West African heritage, Senegalese). Body: warm and sturdy, medium size, grounded. Expression: warm, reassuring. Pose: grinding herbs in a mortar, cane tucked under the arm. Wardrobe and carried gear (wearable or hand-held only): warm man in a long herb-stained coat and a woven sash, a mortar and pestle in one hand and a root-carved cane in the other, a herb satchel at the hip. Palette: main #0d5faf (about 60%), secondary #f4a261 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witches, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Rootblood Healers, male man in his forties of West African-inspired features, close-cropped beard (West African heritage, Senegalese). Body: warm and sturdy, medium size, grounded. Expression: warm, reassuring. Pose: grinding herbs in a mortar, cane tucked under the arm. Wardrobe and carried gear (wearable or hand-held only): warm man in a long herb-stained coat and a woven sash, a mortar and pestle in one hand and a root-carved cane in the other, a herb satchel at the hip. Palette: main #0d5faf (about 60%), secondary #f4a261 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witch, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6035,9 +6052,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Carved ancestor staff, bone charms, sprig crown, long woven robe |
 | Pose | both hands on the carved staff, charms swaying |
 | Facial expression | serene, eyes closed in prayer |
-| People | Magic (Witches) |
-| Class | Thornblood Coven |
-| Subclass | Ancestor-Grove Keepers |
+| People | Magic › Witch |
+| Class | Witch (The Naturalist Ritualist) |
+| Subclass | Thornblood Coven — Plant magic, ancestral spirits, healing, and binding. |
+| Specialization | Ancestor-Grove Keepers |
 | Type | Enchanter |
 | Combat or support | Support |
 | Colors | main #d7c5a2, secondary #1b4332, pop #fff7c7 |
@@ -6055,7 +6073,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Ancestor-Grove Keepers, female elderly woman in her eighties of Maori-inspired features, wise and serene (Maori heritage, New Zealander). Body: frail and upright, medium size, grounded. Expression: serene, eyes closed in prayer. Pose: both hands on the carved staff, charms swaying. Wardrobe and carried gear (wearable or hand-held only): elderly woman in a long woven robe and a sprig crown, a carved ancestor staff held in both hands, bone charms at the belt. Palette: main #d7c5a2 (about 60%), secondary #1b4332 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Witches, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Ancestor-Grove Keepers, female elderly woman in her eighties of Maori-inspired features, wise and serene (Maori heritage, New Zealander). Body: frail and upright, medium size, grounded. Expression: serene, eyes closed in prayer. Pose: both hands on the carved staff, charms swaying. Wardrobe and carried gear (wearable or hand-held only): elderly woman in a long woven robe and a sprig crown, a carved ancestor staff held in both hands, bone charms at the belt. Palette: main #d7c5a2 (about 60%), secondary #1b4332 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Witch, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6082,9 +6100,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Offering bowl, void-marked gauntlet, ritual-scar mantle, jagged crown |
 | Pose | kneeling to cast, one palm glowing, offering bowl held out |
 | Facial expression | hollow, reverent smile |
-| People | Magic (Warlocks) |
-| Class | Voidbound |
-| Subclass | Abyssal Petitioners |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Voidbound — Eldritch patrons, dimensional magic, and cosmic corruption. |
+| Specialization | Abyssal Petitioners |
 | Type | Blaster |
 | Combat or support | Combat |
 | Colors | main #065255, secondary #6a4c93, pop #caf9ff |
@@ -6102,7 +6121,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Abyssal Petitioners, male young man in his twenties of Greek-inspired features, shaven head (Greek heritage, Greek). Body: gaunt and tall, medium size, grounded. Expression: hollow, reverent smile. Pose: kneeling to cast, one palm glowing, offering bowl held out. Wardrobe and carried gear (wearable or hand-held only): young man in a jagged mantle and asymmetric armor, a ritual mark glowing on one open palm and a small offering bowl in the other, a thin crown of black spikes. Palette: main #065255 (about 60%), secondary #6a4c93 (about 30%), pop #caf9ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Warlocks, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Abyssal Petitioners, male young man in his twenties of Greek-inspired features, shaven head (Greek heritage, Greek). Body: gaunt and tall, medium size, grounded. Expression: hollow, reverent smile. Pose: kneeling to cast, one palm glowing, offering bowl held out. Wardrobe and carried gear (wearable or hand-held only): young man in a jagged mantle and asymmetric armor, a ritual mark glowing on one open palm and a small offering bowl in the other, a thin crown of black spikes. Palette: main #065255 (about 60%), secondary #6a4c93 (about 30%), pop #caf9ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Warlock, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6126,9 +6145,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Black star-chart scroll, omen bell, void cloak, ritual mask |
 | Pose | ringing the omen bell with the scroll unrolled behind |
 | Facial expression | distant, mournful |
-| People | Magic (Warlocks) |
-| Class | Voidbound |
-| Subclass | Starless Heralds |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Voidbound — Eldritch patrons, dimensional magic, and cosmic corruption. |
+| Specialization | Starless Heralds |
 | Type | Caster |
 | Combat or support | Combat |
 | Colors | main #bc07bf, secondary #3d348b, pop #ddeeff |
@@ -6146,7 +6166,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Starless Heralds, female woman in her thirties of Ethiopian-inspired features, very tall (Ethiopian heritage, Ethiopian). Body: thin and willowy, large size, grounded. Expression: distant, mournful. Pose: ringing the omen bell with the scroll unrolled behind. Wardrobe and carried gear (wearable or hand-held only): tall thin woman in a drifting black cloak and a mask etched with star charts, an omen bell in one hand and a long scroll unrolled in the other. Palette: main #bc07bf (about 60%), secondary #3d348b (about 30%), pop #ddeeff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Warlocks, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Starless Heralds, female woman in her thirties of Ethiopian-inspired features, very tall (Ethiopian heritage, Ethiopian). Body: thin and willowy, large size, grounded. Expression: distant, mournful. Pose: ringing the omen bell with the scroll unrolled behind. Wardrobe and carried gear (wearable or hand-held only): tall thin woman in a drifting black cloak and a mask etched with star charts, an omen bell in one hand and a long scroll unrolled in the other. Palette: main #bc07bf (about 60%), secondary #3d348b (about 30%), pop #ddeeff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Warlock, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6170,9 +6190,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Tether rod, rift-lantern, ritual-chain belt, scar-marked cloak |
 | Pose | holding the tether rod forward as a cord of light pulls taut |
 | Facial expression | heavy-lidded, strained |
-| People | Magic (Warlocks) |
-| Class | Voidbound |
-| Subclass | Rift-Tethered Summoners |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Voidbound — Eldritch patrons, dimensional magic, and cosmic corruption. |
+| Specialization | Rift-Tethered Summoners |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #836e49, secondary #b2f7ef, pop #7209b7 |
@@ -6190,7 +6211,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Rift-Tethered Summoners, male older man in his sixties of Filipino-inspired features, heavy build (Filipino heritage, Filipino). Body: heavyset and imposing, large size, grounded. Expression: heavy-lidded, strained. Pose: holding the tether rod forward as a cord of light pulls taut. Wardrobe and carried gear (wearable or hand-held only): heavyset man in a scar-marked cloak and a chain belt, a glowing tether rod in one hand and a rift lantern in the other. Palette: main #836e49 (about 60%), secondary #b2f7ef (about 30%), pop #7209b7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Warlocks, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Rift-Tethered Summoners, male older man in his sixties of Filipino-inspired features, heavy build (Filipino heritage, Filipino). Body: heavyset and imposing, large size, grounded. Expression: heavy-lidded, strained. Pose: holding the tether rod forward as a cord of light pulls taut. Wardrobe and carried gear (wearable or hand-held only): heavyset man in a scar-marked cloak and a chain belt, a glowing tether rod in one hand and a rift lantern in the other. Palette: main #836e49 (about 60%), secondary #b2f7ef (about 30%), pop #7209b7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Warlock, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6217,9 +6238,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Heart-monitor harness, wired gauntlets, jagged shoulder plate, cable-wrapped fists |
 | Pose | boxing stance, wired gauntlets raised |
 | Facial expression | wild, wide-eyed |
-| People | Magic (Warlocks) |
-| Class | Bloodwire Apostates |
-| Subclass | Pulse-Sacrificers |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Bloodwire Apostates — Blood-powered technology, life-force sacrifice, and overload magic. |
+| Specialization | Pulse-Sacrificers |
 | Type | Bruiser |
 | Combat or support | Combat |
 | Colors | main #46202b, secondary #247ba0, pop #fff5da |
@@ -6237,7 +6259,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Pulse-Sacrificers, female woman in her thirties of Samoan-inspired features, broad shoulders (Samoan heritage, Samoan). Body: broad and muscular, large size, grounded. Expression: wild, wide-eyed. Pose: boxing stance, wired gauntlets raised. Wardrobe and carried gear (wearable or hand-held only): broad woman in a jagged shoulder plate and a chest heart-monitor harness, wired gauntlets raised, a cable running from one wrist. Palette: main #46202b (about 60%), secondary #247ba0 (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Magic people (Warlocks, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Pulse-Sacrificers, female woman in her thirties of Samoan-inspired features, broad shoulders (Samoan heritage, Samoan). Body: broad and muscular, large size, grounded. Expression: wild, wide-eyed. Pose: boxing stance, wired gauntlets raised. Wardrobe and carried gear (wearable or hand-held only): broad woman in a jagged shoulder plate and a chest heart-monitor harness, wired gauntlets raised, a cable running from one wrist. Palette: main #46202b (about 60%), secondary #247ba0 (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Magic people (Warlock, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6261,9 +6283,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Vein-lit twin blades, wired arm sleeves, thorn plates, glowing circuit tattoos |
 | Pose | crossed blades mid-slash with circuits blazing |
 | Facial expression | feral, sinewy grin |
-| People | Magic (Warlocks) |
-| Class | Bloodwire Apostates |
-| Subclass | Vein-Circuit Reavers |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Bloodwire Apostates — Blood-powered technology, life-force sacrifice, and overload magic. |
+| Specialization | Vein-Circuit Reavers |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #b368c9, secondary #7b47cf, pop #fff1e6 |
@@ -6281,7 +6304,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Vein-Circuit Reavers, male man in his twenties of Vietnamese-inspired features, circuit tattoos (Vietnamese heritage, Vietnamese). Body: lean and sinewy, medium size, agile. Expression: feral, sinewy grin. Pose: crossed blades mid-slash with circuits blazing. Wardrobe and carried gear (wearable or hand-held only): lean man with glowing circuit tattoos along both arms, a bladed capacitor in each hand mid-slash, thorn plates on the shoulders. Palette: main #b368c9 (about 60%), secondary #7b47cf (about 30%), pop #fff1e6 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Warlocks, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Vein-Circuit Reavers, male man in his twenties of Vietnamese-inspired features, circuit tattoos (Vietnamese heritage, Vietnamese). Body: lean and sinewy, medium size, agile. Expression: feral, sinewy grin. Pose: crossed blades mid-slash with circuits blazing. Wardrobe and carried gear (wearable or hand-held only): lean man with glowing circuit tattoos along both arms, a bladed capacitor in each hand mid-slash, thorn plates on the shoulders. Palette: main #b368c9 (about 60%), secondary #7b47cf (about 30%), pop #fff1e6 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Warlock, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6305,9 +6328,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Reactor backpack, cable-wrapped arms, lead-lined vest, final-words tape |
 | Pose | both arms thrown wide as cables arc |
 | Facial expression | ecstatic, frightening grin |
-| People | Magic (Warlocks) |
-| Class | Bloodwire Apostates |
-| Subclass | Overload Martyrs |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Bloodwire Apostates — Blood-powered technology, life-force sacrifice, and overload magic. |
+| Specialization | Overload Martyrs |
 | Type | Blaster |
 | Combat or support | Combat |
 | Colors | main #4a3a5c, secondary #43aa8b, pop #277da1 |
@@ -6325,7 +6349,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Overload Martyrs, female older woman in her sixties of Cuban-inspired features, wild gray hair (Cuban heritage, Cuban). Body: wiry and fierce, medium size, grounded. Expression: ecstatic, frightening grin. Pose: both arms thrown wide as cables arc. Wardrobe and carried gear (wearable or hand-held only): wiry older woman wearing a heavy reactor backpack and a lead-lined vest, both arms thrown wide with cables sparking, a small tape deck at the chest. Palette: main #4a3a5c (about 60%), secondary #43aa8b (about 30%), pop #277da1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Warlocks, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Overload Martyrs, female older woman in her sixties of Cuban-inspired features, wild gray hair (Cuban heritage, Cuban). Body: wiry and fierce, medium size, grounded. Expression: ecstatic, frightening grin. Pose: both arms thrown wide as cables arc. Wardrobe and carried gear (wearable or hand-held only): wiry older woman wearing a heavy reactor backpack and a lead-lined vest, both arms thrown wide with cables sparking, a small tape deck at the chest. Palette: main #4a3a5c (about 60%), secondary #43aa8b (about 30%), pop #277da1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Warlock, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6352,9 +6376,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Mirror-shard daggers, reflective half-mask, glass-panel coat, silver gloves |
 | Pose | stepping out of a reflection, dagger low |
 | Facial expression | impassive, only the eyes visible |
-| People | Magic (Warlocks) |
-| Class | Mirror Oathbreakers |
-| Subclass | Glasswalk Assassins |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Mirror Oathbreakers — Reflection magic, duplicates, and deceptive illusions. |
+| Specialization | Glasswalk Assassins |
 | Type | Assassin |
 | Combat or support | Combat |
 | Colors | main #00343e, secondary #0077b6, pop #f72585 |
@@ -6372,7 +6397,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Glasswalk Assassins, male man in his thirties of Persian-inspired features, a mirrored half-mask (Persian heritage, Iranian). Body: slim and quick, medium size, phasing. Expression: impassive, only the eyes visible. Pose: stepping out of a reflection, dagger low. Wardrobe and carried gear (wearable or hand-held only): slim man in a coat of mirrored glass panels and a reflective half-mask, a mirror-shard dagger in each hand, caught mid-step. Palette: main #00343e (about 60%), secondary #0077b6 (about 30%), pop #f72585 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Warlocks, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Glasswalk Assassins, male man in his thirties of Persian-inspired features, a mirrored half-mask (Persian heritage, Iranian). Body: slim and quick, medium size, phasing. Expression: impassive, only the eyes visible. Pose: stepping out of a reflection, dagger low. Wardrobe and carried gear (wearable or hand-held only): slim man in a coat of mirrored glass panels and a reflective half-mask, a mirror-shard dagger in each hand, caught mid-step. Palette: main #00343e (about 60%), secondary #0077b6 (about 30%), pop #f72585 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Warlock, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6396,9 +6421,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Cracked-glass sword, shard crown, split-colored coat, silver rings |
 | Pose | sword raised in one hand, other hand splayed as copies echo |
 | Facial expression | calm, mirrored smirk |
-| People | Magic (Warlocks) |
-| Class | Mirror Oathbreakers |
-| Subclass | Shardbound Doppelgangers |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Mirror Oathbreakers — Reflection magic, duplicates, and deceptive illusions. |
+| Specialization | Shardbound Doppelgangers |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #4c5788, secondary #ffd166, pop #3a86ff |
@@ -6416,7 +6442,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Shardbound Doppelgangers, nonbinary androgynous adult of ambiguous heritage, split-colored hair (Ambiguous mixed heritage). Body: androgynous and balanced, medium size, agile. Expression: calm, mirrored smirk. Pose: sword raised in one hand, other hand splayed as copies echo. Wardrobe and carried gear (wearable or hand-held only): androgynous fighter in a coat split in two colors with a crown of mirror shards, a cracked-glass sword raised, silver rings. Palette: main #4c5788 (about 60%), secondary #ffd166 (about 30%), pop #3a86ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Warlocks, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Shardbound Doppelgangers, nonbinary androgynous adult of ambiguous heritage, split-colored hair (Ambiguous mixed heritage). Body: androgynous and balanced, medium size, agile. Expression: calm, mirrored smirk. Pose: sword raised in one hand, other hand splayed as copies echo. Wardrobe and carried gear (wearable or hand-held only): androgynous fighter in a coat split in two colors with a crown of mirror shards, a cracked-glass sword raised, silver rings. Palette: main #4c5788 (about 60%), secondary #ffd166 (about 30%), pop #3a86ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Warlock, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6440,9 +6466,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Hand mirror, veil of mirrored beads, long robe, prophecy deck |
 | Pose | holding a hand mirror at arm's length, cards fanned |
 | Facial expression | grave, half-veiled knowing |
-| People | Magic (Warlocks) |
-| Class | Mirror Oathbreakers |
-| Subclass | Looking-Glass Prophets |
+| People | Magic › Warlock |
+| Class | Warlock (The Dangerous Renegade) |
+| Subclass | Mirror Oathbreakers — Reflection magic, duplicates, and deceptive illusions. |
+| Specialization | Looking-Glass Prophets |
 | Type | Enchanter |
 | Combat or support | Support |
 | Colors | main #450261, secondary #ffd6a5, pop #00b4d8 |
@@ -6460,7 +6487,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Looking-Glass Prophets, female older woman in her sixties of Turkish-inspired features, a veil of mirrored beads (Turkish heritage, Turkish). Body: poised and upright, medium size, grounded. Expression: grave, half-veiled knowing. Pose: holding a hand mirror at arm's length, cards fanned. Wardrobe and carried gear (wearable or hand-held only): poised older woman in a long robe and a veil of mirrored beads, a hand mirror held at arm's length and a deck of prophecy cards in the other hand. Palette: main #450261 (about 60%), secondary #ffd6a5 (about 30%), pop #00b4d8 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Warlocks, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Looking-Glass Prophets, female older woman in her sixties of Turkish-inspired features, a veil of mirrored beads (Turkish heritage, Turkish). Body: poised and upright, medium size, grounded. Expression: grave, half-veiled knowing. Pose: holding a hand mirror at arm's length, cards fanned. Wardrobe and carried gear (wearable or hand-held only): poised older woman in a long robe and a veil of mirrored beads, a hand mirror held at arm's length and a deck of prophecy cards in the other hand. Palette: main #450261 (about 60%), secondary #ffd6a5 (about 30%), pop #00b4d8 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Warlock, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6487,9 +6514,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Pocket watch, narrow blade, scuffed jacket, glowing second-hand charm |
 | Pose | leaning out of a dodge with a ghost-copy a step behind |
 | Facial expression | restless, half-smiling |
-| People | Magic (Mages) |
-| Class | Chronofractures |
-| Subclass | Second-Slip Duelists |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Chronofractures — Time manipulation, rewinds, and temporal displacement. |
+| Specialization | Second-Slip Duelists |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #8c606f, secondary #fff3b0, pop #d00000 |
@@ -6507,7 +6535,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Second-Slip Duelists, male young man in his twenties of Nigerian-inspired features, close-cropped hair (Nigerian heritage, Nigerian). Body: lean and restless, medium size, agile. Expression: restless, half-smiling. Pose: leaning out of a dodge with a ghost-copy a step behind. Wardrobe and carried gear (wearable or hand-held only): lean young man in a scuffed jacket mid-dodge, a narrow blade drawn, a pocket watch swinging on a chain. Palette: main #8c606f (about 60%), secondary #fff3b0 (about 30%), pop #d00000 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Mages, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Second-Slip Duelists, male young man in his twenties of Nigerian-inspired features, close-cropped hair (Nigerian heritage, Nigerian). Body: lean and restless, medium size, agile. Expression: restless, half-smiling. Pose: leaning out of a dodge with a ghost-copy a step behind. Wardrobe and carried gear (wearable or hand-held only): lean young man in a scuffed jacket mid-dodge, a narrow blade drawn, a pocket watch swinging on a chain. Palette: main #8c606f (about 60%), secondary #fff3b0 (about 30%), pop #d00000 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Mage, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6531,9 +6559,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Running wraps, light-up trainers, slipstream scarf, athletic jacket |
 | Pose | full sprint with afterimages trailing behind |
 | Facial expression | exhilarated, hair streaming |
-| People | Magic (Mages) |
-| Class | Chronofractures |
-| Subclass | Afterimage Runners |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Chronofractures — Time manipulation, rewinds, and temporal displacement. |
+| Specialization | Afterimage Runners |
 | Type | Assassin |
 | Combat or support | Combat |
 | Colors | main #860145, secondary #ffd23f, pop #fff7c7 |
@@ -6551,7 +6580,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Afterimage Runners, female woman in her twenties of Kenyan-inspired features, a streaming scarf (Kenyan heritage, Kenyan). Body: athletic and long-limbed, medium size, agile. Expression: exhilarated, hair streaming. Pose: full sprint with afterimages trailing behind. Wardrobe and carried gear (wearable or hand-held only): athletic woman in an open athletic jacket and a streaming scarf, in a full sprint, running wraps on the hands, no weapons. Palette: main #860145 (about 60%), secondary #ffd23f (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Mages, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Afterimage Runners, female woman in her twenties of Kenyan-inspired features, a streaming scarf (Kenyan heritage, Kenyan). Body: athletic and long-limbed, medium size, agile. Expression: exhilarated, hair streaming. Pose: full sprint with afterimages trailing behind. Wardrobe and carried gear (wearable or hand-held only): athletic woman in an open athletic jacket and a streaming scarf, in a full sprint, running wraps on the hands, no weapons. Palette: main #860145 (about 60%), secondary #ffd23f (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Mage, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6575,9 +6604,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Stopped clock, hourglass staff, layered robe, sash of clock-hands |
 | Pose | one palm out in a halt, hourglass staff upright |
 | Facial expression | serene, deep-set calm |
-| People | Magic (Mages) |
-| Class | Chronofractures |
-| Subclass | Paradox Wardens |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Chronofractures — Time manipulation, rewinds, and temporal displacement. |
+| Specialization | Paradox Wardens |
 | Type | Support |
 | Combat or support | Support |
 | Colors | main #000491, secondary #e63946, pop #6f9dc7 |
@@ -6595,7 +6625,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Paradox Wardens, male elderly man in his seventies of Chinese-inspired features, white beard (Chinese heritage, Chinese). Body: tall and calm, medium size, grounded. Expression: serene, deep-set calm. Pose: one palm out in a halt, hourglass staff upright. Wardrobe and carried gear (wearable or hand-held only): calm elderly man in a layered robe and a sash of clock hands, an hourglass staff in one hand and a stopped clock raised in the other. Palette: main #000491 (about 60%), secondary #e63946 (about 30%), pop #6f9dc7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Mages, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Paradox Wardens, male elderly man in his seventies of Chinese-inspired features, white beard (Chinese heritage, Chinese). Body: tall and calm, medium size, grounded. Expression: serene, deep-set calm. Pose: one palm out in a halt, hourglass staff upright. Wardrobe and carried gear (wearable or hand-held only): calm elderly man in a layered robe and a sash of clock hands, an hourglass staff in one hand and a stopped clock raised in the other. Palette: main #000491 (about 60%), secondary #e63946 (about 30%), pop #6f9dc7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Mage, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6622,9 +6652,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Wrapped fists, plain headband, floating-blade focus, simple robe |
 | Pose | one hand extended with three thought-blades floating |
 | Facial expression | composed, eyes shut |
-| People | Magic (Mages) |
-| Class | Mindweavers |
-| Subclass | Thoughtblade Adepts |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Mindweavers — Psychic magic, telekinesis, and mental manipulation. |
+| Specialization | Thoughtblade Adepts |
 | Type | Caster |
 | Combat or support | Combat |
 | Colors | main #fe6eb5, secondary #fee440, pop #d8fdff |
@@ -6642,7 +6673,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Thoughtblade Adepts, male man in his thirties of Japanese-inspired features, a plain headband (Japanese heritage, Japanese). Body: slender and composed, medium size, grounded. Expression: composed, eyes shut. Pose: one hand extended with three thought-blades floating. Wardrobe and carried gear (wearable or hand-held only): slender man in a plain wrapped robe and a headband, one hand outstretched with a few thought-blades hovering near it, eyes shut. Palette: main #fe6eb5 (about 60%), secondary #fee440 (about 30%), pop #d8fdff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Mages, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Thoughtblade Adepts, male man in his thirties of Japanese-inspired features, a plain headband (Japanese heritage, Japanese). Body: slender and composed, medium size, grounded. Expression: composed, eyes shut. Pose: one hand extended with three thought-blades floating. Wardrobe and carried gear (wearable or hand-held only): slender man in a plain wrapped robe and a headband, one hand outstretched with a few thought-blades hovering near it, eyes shut. Palette: main #fe6eb5 (about 60%), secondary #fee440 (about 30%), pop #d8fdff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Mage, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6666,9 +6697,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Cracked monocle, memory locket, long coat, soft gloves |
 | Pose | unthreading a spool in the air with splayed fingers |
 | Facial expression | arch, faintly amused |
-| People | Magic (Mages) |
-| Class | Mindweavers |
-| Subclass | Memorybreakers |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Mindweavers — Psychic magic, telekinesis, and mental manipulation. |
+| Specialization | Memorybreakers |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #ff8c42, secondary #8338ec, pop #fcf6bd |
@@ -6686,7 +6718,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Memorybreakers, female older woman in her sixties of French-inspired features, a monocle (French heritage, French). Body: elegant and slim, medium size, grounded. Expression: arch, faintly amused. Pose: unthreading a spool in the air with splayed fingers. Wardrobe and carried gear (wearable or hand-held only): elegant older woman in a long coat and soft gloves, a cracked monocle over one eye, one hand raised with fingers spread as if unthreading a spool. Palette: main #ff8c42 (about 60%), secondary #8338ec (about 30%), pop #fcf6bd (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Mages, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Memorybreakers, female older woman in her sixties of French-inspired features, a monocle (French heritage, French). Body: elegant and slim, medium size, grounded. Expression: arch, faintly amused. Pose: unthreading a spool in the air with splayed fingers. Wardrobe and carried gear (wearable or hand-held only): elegant older woman in a long coat and soft gloves, a cracked monocle over one eye, one hand raised with fingers spread as if unthreading a spool. Palette: main #ff8c42 (about 60%), secondary #8338ec (about 30%), pop #fcf6bd (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Mage, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6710,9 +6742,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Plain armored coat, shield-hand glove, braced boots, rope belt |
 | Pose | palm out front pushing back the air, stance wide |
 | Facial expression | stubborn, jaw set |
-| People | Magic (Mages) |
-| Class | Mindweavers |
-| Subclass | Willfield Guardians |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Mindweavers — Psychic magic, telekinesis, and mental manipulation. |
+| Specialization | Willfield Guardians |
 | Type | Tank |
 | Combat or support | Combat |
 | Colors | main #f9d634, secondary #ef476f, pop #eef6ff |
@@ -6730,7 +6763,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Willfield Guardians, female woman in her forties of Mongolian-inspired features, braced stance (Mongolian heritage, Mongolian). Body: broad and powerful, large size, grounded. Expression: stubborn, jaw set. Pose: palm out front pushing back the air, stance wide. Wardrobe and carried gear (wearable or hand-held only): broad powerful woman in a plain armored coat and a rope belt, one gloved palm held out in front of her, feet braced wide. Palette: main #f9d634 (about 60%), secondary #ef476f (about 30%), pop #eef6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Mages, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Willfield Guardians, female woman in her forties of Mongolian-inspired features, braced stance (Mongolian heritage, Mongolian). Body: broad and powerful, large size, grounded. Expression: stubborn, jaw set. Pose: palm out front pushing back the air, stance wide. Wardrobe and carried gear (wearable or hand-held only): broad powerful woman in a plain armored coat and a rope belt, one gloved palm held out in front of her, feet braced wide. Palette: main #f9d634 (about 60%), secondary #ef476f (about 30%), pop #eef6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Mage, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6757,9 +6790,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Plain vest, heat-sink gloves, wired belt, minimal boots |
 | Pose | braced with both fists up as sparks run off the shoulders |
 | Facial expression | calm, bright-eyed |
-| People | Magic (Mages) |
-| Class | Fluxborn |
-| Subclass | Capacitor Hearts |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Fluxborn — Energy absorption, magical discharge, and resonance. |
+| Specialization | Capacitor Hearts |
 | Type | Tank |
 | Combat or support | Combat |
 | Colors | main #e26b50, secondary #ffd166, pop #fff5da |
@@ -6777,7 +6811,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Capacitor Hearts, male young man in his twenties of Haitian-inspired features, glowing chest circuits (Haitian heritage, Haitian). Body: burly and bare-armed, large size, grounded. Expression: calm, bright-eyed. Pose: braced with both fists up as sparks run off the shoulders. Wardrobe and carried gear (wearable or hand-held only): burly bare-armed young man in an open vest with a glowing circuit pattern across the chest and forearms, braced mid-block with both fists raised. Palette: main #e26b50 (about 60%), secondary #ffd166 (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Mages, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Capacitor Hearts, male young man in his twenties of Haitian-inspired features, glowing chest circuits (Haitian heritage, Haitian). Body: burly and bare-armed, large size, grounded. Expression: calm, bright-eyed. Pose: braced with both fists up as sparks run off the shoulders. Wardrobe and carried gear (wearable or hand-held only): burly bare-armed young man in an open vest with a glowing circuit pattern across the chest and forearms, braced mid-block with both fists raised. Palette: main #e26b50 (about 60%), secondary #ffd166 (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Mage, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6801,9 +6835,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Insulated shoulder cape, sparkgap gloves, plain boots, wrapped knuckles |
 | Pose | mid-dash with lightning crackling in both hands |
 | Facial expression | wild, laughing |
-| People | Magic (Mages) |
-| Class | Fluxborn |
-| Subclass | Arcflash Strikers |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Fluxborn — Energy absorption, magical discharge, and resonance. |
+| Specialization | Arcflash Strikers |
 | Type | Assassin |
 | Combat or support | Combat |
 | Colors | main #fffe64, secondary #ff4d6d, pop #fff0d1 |
@@ -6821,7 +6856,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Arcflash Strikers, nonbinary wiry person in their twenties of Peruvian-inspired features, short cropped hair (Peruvian heritage, Peruvian). Body: wiry and androgynous, medium size, agile. Expression: wild, laughing. Pose: mid-dash with lightning crackling in both hands. Wardrobe and carried gear (wearable or hand-held only): wiry person in a short insulated cape, both hands crackling with lightning, a line of scorched sparks trailing behind, no weapons. Palette: main #fffe64 (about 60%), secondary #ff4d6d (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Mages, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Arcflash Strikers, nonbinary wiry person in their twenties of Peruvian-inspired features, short cropped hair (Peruvian heritage, Peruvian). Body: wiry and androgynous, medium size, agile. Expression: wild, laughing. Pose: mid-dash with lightning crackling in both hands. Wardrobe and carried gear (wearable or hand-held only): wiry person in a short insulated cape, both hands crackling with lightning, a line of scorched sparks trailing behind, no weapons. Palette: main #fffe64 (about 60%), secondary #ff4d6d (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Mage, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
@@ -6845,9 +6880,10 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Tuning-fork forearm braces, earplug lanyard, plain tunic, heavy boots |
 | Pose | arms out with tuning-fork braces as shockwave rings spread |
 | Facial expression | mouth open on a sustained note |
-| People | Magic (Mages) |
-| Class | Fluxborn |
-| Subclass | Resonance Breakers |
+| People | Magic › Mage |
+| Class | Mage (The Living Conduit) |
+| Subclass | Fluxborn — Energy absorption, magical discharge, and resonance. |
+| Specialization | Resonance Breakers |
 | Type | Blaster |
 | Combat or support | Combat |
 | Colors | main #402f7d, secondary #ffbe0b, pop #e4ffda |
@@ -6865,7 +6901,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Resonance Breakers, female woman in her forties of Korean-inspired features, strong jaw (Korean heritage, South Korean). Body: stocky and thick-set, medium size, grounded. Expression: mouth open on a sustained note. Pose: arms out with tuning-fork braces as shockwave rings spread. Wardrobe and carried gear (wearable or hand-held only): stocky middle-aged woman in a plain tunic and heavy boots with tuning-fork braces on both forearms, mouth open on a sustained note, shockwave rings spreading. Palette: main #402f7d (about 60%), secondary #ffbe0b (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Mages, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Resonance Breakers, female woman in her forties of Korean-inspired features, strong jaw (Korean heritage, South Korean). Body: stocky and thick-set, medium size, grounded. Expression: mouth open on a sustained note. Pose: arms out with tuning-fork braces as shockwave rings spread. Wardrobe and carried gear (wearable or hand-held only): stocky middle-aged woman in a plain tunic and heavy boots with tuning-fork braces on both forearms, mouth open on a sustained note, shockwave rings spreading. Palette: main #402f7d (about 60%), secondary #ffbe0b (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Mage, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**

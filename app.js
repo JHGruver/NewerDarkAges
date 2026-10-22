@@ -127,7 +127,7 @@ function gallery() {
   else body = `
     <section class="gsec" style="${pv(fg)}">
       <header class="ghead"><span class="gi">${ic(fg.icon)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} characters</span></header>
-      <div class="gsubs">${fg.subs.map((s) => { const cs = shown.filter((c) => c.s === s); return cs.length ? `<div class="gsub"><h3><span class="sub-ico">${ic(s.icon)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map((c, i) => gcard(c, i)).join("")}</div></div>` : ""; }).join("")}</div>
+      <div class="gsubs">${fg.subs.map((s, si) => { const cs = shown.filter((c) => c.s === s); const hd = s.cls && (si === 0 || fg.subs[si - 1].cls !== s.cls) ? `<div class="gclass"><b>${esc(s.cls.name)}</b><span>${esc(s.cls.role)} · ${esc(s.cls.rule)}</span></div>` : ""; return cs.length ? `${hd}<div class="gsub"><h3><span class="sub-ico">${ic(s.icon)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map((c, i) => gcard(c, i)).join("")}</div></div>` : ""; }).join("")}</div>
     </section>`;
   const combat = all.filter((c) => c.l.role === "combat").length;
   return `
@@ -152,7 +152,8 @@ function chooserTree(group, trail, names) {
         <div class="tlabel sub">${esc(names[1])} <i>in ${esc(s.name)}</i></div>
         <ul class="tl l2">${s.subs.map((k) => `
           <li class="tn leaf"><button class="trow ${s2 && s2.id === k.id ? "sel" : ""}" style="--c1:${k.pal[0]}" data-go="${base}/${s.id}/${k.id}"><span class="ico">${ic(k.icon)}</span><span class="nm">${esc(k.name)}</span><em class="role ${k.role}">${k.role === "support" ? "S" : "C"}</em></button></li>`).join("")}</ul>` : "";
-    return `
+    const si = group.subs.indexOf(s), ch = s.cls && (si === 0 || group.subs[si - 1].cls !== s.cls) ? `<li class="tclass"><b>${esc(s.cls.name)}</b><span>${esc(s.cls.role)}</span></li>` : "";
+    return `${ch}
       <li class="tn ${open ? "open" : ""}"><button class="trow ${open ? "sel" : ""}" data-go="${base}/${s.id}" aria-expanded="${open}"><span class="ico">${ic(s.icon)}</span><span class="nm">${esc(s.name)}</span><span class="chev">${ic(open ? "chevron-down" : "chevron-right")}</span></button>${kids}</li>`;
   }).join("");
   return `
@@ -232,11 +233,11 @@ function characters(...path) {
   <div class="page-head">
     <div class="titlerow">
       <a class="back-btn" href="#/characters" title="Back to all characters">${ic("arrow-left")}<span>All characters</span></a>
-      <div class="title"><div class="eyebrow">Character details</div><h1>${esc(group.name)}${trail.length ? ` <span class="crumb">› ${esc(trail[trail.length - 1].name)}</span>` : ""}</h1></div>
+      <div class="title"><div class="eyebrow">Character details</div><h1>${esc(group.name)}${trail.length ? ` <span class="crumb">› ${trail[0].cls ? esc(trail[0].cls.name) + " › " : ""}${esc(trail[trail.length - 1].name)}</span>` : ""}</h1></div>
     </div>
     <div class="steps">
       <span class="step">1 · ${esc(group.name)}</span>
-      <span class="step ${trail.length === 0 ? "on" : ""}">2 · ${esc(names[0])}${trail[0] ? ` = ${esc(trail[0].name)}` : ""}</span>
+      <span class="step ${trail.length === 0 ? "on" : ""}">2 · ${esc(names[0])}${trail[0] ? ` = ${trail[0].cls ? esc(trail[0].cls.name) + " › " : ""}${esc(trail[0].name)}` : ""}</span>
       <span class="step ${trail.length === 1 ? "on" : ""}">3 · ${esc(names[1])}${trail[1] ? ` = ${esc(trail[1].name)}` : ""}</span>
     </div>
   </div>`;
@@ -451,7 +452,7 @@ function buildViewer() {
   const list = viewList(); const cur = viewIndex(list);
   const [pg, ps, pl] = location.hash.split("/").slice(2);
   const me = allCharacters().find((c) => c.g.id === pg && c.s.id === ps && c.l.id === pl);
-  const plaque = me ? `<div class="vn-plaque" style="${cv(me.g, me.l)}"><span class="pq-ico">${ic(me.g.icon)}</span><div class="pq-txt"><b class="pq-name">${esc(me.l.name)}</b><span class="pq-path">${esc(me.g.name)}${me.s.tradition ? " · " + esc(me.s.tradition) : ""} <i>›</i> ${esc(me.s.name)} <i>›</i> ${esc(me.l.name)}</span></div><span class="pq-pips"><i></i><i></i><i></i></span></div>` : "";
+  const plaque = me ? `<div class="vn-plaque" style="${cv(me.g, me.l)}"><span class="pq-ico">${ic(me.g.icon)}</span><div class="pq-txt"><b class="pq-name">${esc(me.l.name)}</b><span class="pq-path">${esc(me.g.name)}${me.s.cls ? " <i>›</i> " + esc(me.s.cls.name) : ""} <i>›</i> ${esc(me.s.name)} <i>›</i> ${esc(me.l.name)}</span></div><span class="pq-pips"><i></i><i></i><i></i></span></div>` : "";
   if (list.length < 2 || cur < 0) { vn.innerHTML = plaque; return; }
   vn.innerHTML = plaque + `
     <button class="vn-arrow prev" data-vstep="-1" aria-label="Previous character">${ic("chevron-left")}</button>

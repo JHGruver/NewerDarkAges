@@ -492,19 +492,39 @@ Object.assign(ART_SPEC, {
 /* ============================================================== MAGIC (one people, four traditions) */
 (function () {
   const T = ["wizard", "witch", "warlock", "mage"], names = { wizard: "Wizards", witch: "Witches", warlock: "Warlocks", mage: "Mages" };
+  const CLS = {
+    wizard: { id: "wizard", name: "Wizard", role: "The Academic Scientist", rule: "Wizards study power.", icon: "telescope" },
+    witch: { id: "witch", name: "Witch", role: "The Naturalist Ritualist", rule: "Witches cultivate power.", icon: "moon-star" },
+    warlock: { id: "warlock", name: "Warlock", role: "The Dangerous Renegade", rule: "Warlocks bargain for power.", icon: "flame" },
+    mage: { id: "mage", name: "Mage", role: "The Living Conduit", rule: "Mages embody power.", icon: "sparkles" },
+  };
+  const DEF = {
+    signalsavants: "Radio-frequency magic, broadcasting, and interference.",
+    circuitarcanists: "Magical engineering, enchanted circuits, and technological spellcraft.",
+    stickywizards: "Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard.",
+    sporecoven: "Fungal magic, spores, poisons, and regeneration.",
+    scraphexwitches: "Haunted electronics, cursed relics, and sympathetic magic.",
+    thornbloodcoven: "Plant magic, ancestral spirits, healing, and binding.",
+    voidbound: "Eldritch patrons, dimensional magic, and cosmic corruption.",
+    bloodwireapostates: "Blood-powered technology, life-force sacrifice, and overload magic.",
+    mirroroathbreakers: "Reflection magic, duplicates, and deceptive illusions.",
+    chronofractures: "Time manipulation, rewinds, and temporal displacement.",
+    mindweavers: "Psychic magic, telekinesis, and mental manipulation.",
+    fluxborn: "Energy absorption, magical discharge, and resonance.",
+  };
   const subs = [], extras = [];
   T.forEach((t) => {
     const g = GROUP_DEFS[t];
-    g.subs.forEach((sc) => { sc.tradition = names[t]; sc.tagline = names[t] + " · " + sc.tagline; subs.push(sc); });
+    g.subs.forEach((sc) => { sc.tradition = names[t]; sc.cls = CLS[t]; sc.tagline = DEF[sc.id] || sc.tagline; subs.push(sc); });
     (g.extras || []).forEach((e) => extras.push(e));
     delete GROUP_DEFS[t]; delete PEOPLE_COLORS[t];
   });
   PEOPLE_COLORS.magic = { color: "#6b3fa6", color2: "#b79ae0", name: "Violet" };
   GROUP_DEFS.magic = {
     id: "magic", name: "Magic", icon: "crystal-ball", color: "#6b3fa6", color2: "#b79ae0",
-    levelNames: ["School", "Discipline"],
+    levelNames: ["Subclass", "Specialization"], classes: Object.values(CLS),
     tagline: "Four ways to hold power.",
-    summary: "One people, four traditions. Wizards study power, Witches cultivate power, Warlocks bargain for power and Mages embody power. Each tradition has three schools and each school three disciplines.",
+    summary: "One people, four classes: Wizard (the academic scientist), Witch (the naturalist ritualist), Warlock (the dangerous renegade) and Mage (the living conduit). Each class has three subclasses and each subclass three specializations.",
     lore: "When the Last Broadcast went out, the world's magic came loose. Some people measured it, some grew it, some made deals with it and some were simply born carrying it. They fight each other over it, and they all fear the things it brought back.",
     traits: { Power: 5, Resilience: 2, Mystery: 5, Social: 2, Versatility: 5 },
     playstyle: "Spell-driven play. Pick a tradition for how you get power: study (Wizard), cultivation (Witch), a bargain (Warlock) or your own body (Mage).",
