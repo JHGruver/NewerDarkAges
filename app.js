@@ -18,6 +18,7 @@ const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};-
 
 /* ---------- art we have so far (everything else is a generated placeholder poster) ---------- */
 const NODE_ART = {
+  bonebreakers: { src: "art/v2/undead-bonebreakers.png", bg: "art/v2/undead-bonebreakers-bg.jpg", name: "Riot-Line Bonebreaker" },
   staticwraiths: { src: "art/v2/ghost-staticwraiths.png", bg: "art/v2/ghost-staticwraiths-bg.jpg", name: "Static Wraith" },
   moonrunners: { src: "art/v2/were-moonrunners.png", bg: "art/v2/were-moonrunners-bg.jpg", name: "Moonrunner" },
   interceptors: { src: "art/v2/human-interceptors.png", bg: "art/v2/human-interceptors-bg.jpg", name: "Interceptor" },
