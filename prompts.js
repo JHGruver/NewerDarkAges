@@ -8,11 +8,14 @@ window.PROMPTS = (function () {
     ghost: "a dead broadcast station: racks of dark CRT monitors, cables drooping like willow branches, one flickering test-pattern screen, drifting fog",
     undead: "a buried bunker vault and ash trench: steel blast doors, sandbag walls, a long corridor of lockers, dust-lit ventilation shafts",
     forest: "a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist",
-    witch: "a leaning radio-tower observatory: tangled antennas, glowing circuit-board runes, shelves of binders, towering storm clouds",
+    wizard: "a leaning radio-tower observatory and workshop: tangled antennas, glowing circuit-board runes, shelves of binders and instruments, blackboards of equations, towering storm clouds",
+    witch: "a reclaimed factory floor furred with mushrooms and ivy: hanging herb bundles, jars of spores, dead radios on shelves, weathered charm strings, damp low mist",
+    warlock: "a ritual ruin at the edge of the void: a chalk circle on cracked concrete, chains, mirrored glass and dead screens, a rift of darkness in the sky, jagged black spires",
+    mage: "a broken substation and plaza where the grid died: fallen pylons, humming transformers, a cracked clock tower, arcs of stray lightning, bare open space",
     eldritch: "a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls",
   };
-  const STYLE = "Samurai Jack-style 2D cel animation, in the manner of Genndy Tartakovsky: flat geometric shapes, bold angular silhouette, clean uniform dark outlines of even weight, two flat tones per material (one light, one shadow), large simple color areas, strong negative space, no gradients, no soft shading, no texture noise, no realistic anatomy. Any glow or light is drawn as a flat bright shape. Sin City ink accents: heavy solid black shapes and stark white highlights. Glam-gothic 1980s post-apocalypse design in the spirit of David Bowie's Batman: cape or long coat, salvaged gadgets, bold angular accessories.";
-  const SJ_TEST = "SAMURAI JACK TEST (the image must pass all of these): (1) the silhouette reads instantly even as a tiny thumbnail; (2) every color region is flat, with at most two tones; (3) line weight is clean and consistent; (4) shapes are simple, angular and graphic, not busy; (5) only the three accent colors plus black, white and grey are used; (6) the pose has one strong, clear line of action; (7) nothing looks painterly, photographic, 3D or like soft anime shading.";
+  const STYLE = "Samurai Jack-style 2D cel animation, in the manner of Genndy Tartakovsky: extremely simplified geometry, flat geometric shapes, bold angular silhouette, minimal, clean contour lines of even weight, two flat tones per material (one light, one shadow), large simple color areas, strong negative space, no gradients, no soft shading, no texture noise, no realistic anatomy. Any glow or light is drawn as a flat bright shape. Sin City ink accents: heavy solid black shapes and stark white highlights. Glam-gothic 1980s post-apocalypse design in the spirit of David Bowie's Batman: cape or long coat, salvaged gadgets, bold angular accessories.";
+  const SJ_TEST = "SAMURAI JACK TEST (the image must pass all of these): (1) the silhouette reads instantly even as a tiny thumbnail; (2) every color region is flat, with at most two tones; (3) contour lines are minimal, clean and consistent; (4) shapes are simple, angular and graphic, not busy; (5) only the three accent colors plus black, white and grey are used; (6) the pose has one strong, clear line of action; (7) nothing looks painterly, photographic, 3D or like soft anime shading.";
   const spec = (l) => (window.ART_SPEC && ART_SPEC[l.id]) || { w: `${l.look} Gear: ${l.gear}.`, p: "" };
 
   const meta = (l) => (window.CHAR_META && CHAR_META[l.id]) || { type: l.role === "support" ? "support" : "fighter", physique: "average build", size: "medium", move: "grounded" };
@@ -20,7 +23,7 @@ window.PROMPTS = (function () {
     const [a, b, c] = l.pal; const sp = spec(l); const m = meta(l); const ty = (window.TYPES && TYPES[m.type]) || { name: m.type, pose: "a dynamic stance", desc: "" };
     return `${l.name}: a ${m.type} (${ty.desc.toLowerCase().replace(/\.$/, "")}), ${l.role} character, ${g.name} › ${s.name}.
 
-BODY: ${m.physique} build, ${m.size} size (${window.SIZE_DESC ? SIZE_DESC[m.size] : m.size}), ${m.move === "vehicle" ? "vehicle-bound in play (the vehicle itself is never shown in this image)" : m.move + " mover"}. Outfit and gear: ${sp.w}.
+${m.who ? `IDENTITY: ${m.who}.\n\n` : ""}BODY: ${m.physique} build, ${m.size} size (${window.SIZE_DESC ? SIZE_DESC[m.size] : m.size}), ${m.move === "vehicle" ? "vehicle-bound in play (the vehicle itself is never shown in this image)" : m.move + " mover"}. Outfit and gear: ${sp.w}.
 
 POSE: ${ty.pose}. Head turned toward the viewer. The pose must say "${m.type}" at a glance.
 
@@ -34,7 +37,7 @@ ${SJ_TEST}
 
 Color rule: exactly three accent colors on top of black, white and grey. MAIN ${a} (about 60% of the colored area), SECONDARY ${b} (about 30%), POP ${c} (about 10%). No other colors. Do not use ${g.color} on the character; it is reserved for the background.
 
-Mature, adult tone. 3:4 portrait, transparent PNG background, no text. No nudity, no gore, no blood.`;
+Mature, adult tone. 3:4 portrait PNG with genuine alpha transparency: no background, no checkerboard pattern, no floor, no shadow, no text. No nudity, no gore, no blood.`;
   };
 
   // Prompt quality check: does this character prompt carry everything a Samurai Jack-style render needs?
@@ -42,10 +45,10 @@ Mature, adult tone. 3:4 portrait, transparent PNG background, no text. No nudity
     const t = char(g, s, l); const m = meta(l); const sp = spec(l); const fails = [];
     const need = [
       ["names the Samurai Jack style", /Samurai Jack-style 2D cel animation/], ["asks for flat geometric shapes", /flat geometric shapes/], ["asks for a bold angular silhouette", /bold angular silhouette/],
-      ["asks for clean uniform outlines", /clean uniform dark outlines/], ["forbids gradients", /no gradients/], ["forbids soft shading and texture", /no soft shading, no texture noise/],
+      ["asks for minimal clean contour lines", /minimal, clean contour lines/], ["forbids gradients", /no gradients/], ["forbids soft shading and texture", /no soft shading, no texture noise/],
       ["includes the thumbnail silhouette test", /reads instantly even as a tiny thumbnail/], ["includes the flat-regions test", /every color region is flat/],
       ["asks for a full-body, uncropped figure", /FULL BODY, head to toe/], ["limits the palette to three accents", /exactly three accent colors/],
-      ["asks for a transparent background", /transparent PNG background/], ["wearable and hand-held gear only", /WEARABLE AND HAND-HELD ONLY/],
+      ["asks for genuine alpha transparency", /genuine alpha transparency/], ["wearable and hand-held gear only", /WEARABLE AND HAND-HELD ONLY/],
       ["states the character type pose", new RegExp(m.type)], ["states the physique and size", new RegExp(m.physique.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"))],
     ];
     need.forEach(([label, rx]) => { if (!rx.test(t)) fails.push("missing: " + label); });
@@ -68,7 +71,10 @@ Mature, adult tone. 3:4 portrait, transparent PNG background, no text. No nudity
     ghost: "pale ICE BLUE: frosty blue sky, blue-white fog, cold cyan-blue light on every surface",
     undead: "BONE and ash grey: warm pale grey-beige sky, dusty bone-colored haze and light",
     forest: "deep MOSS GREEN: green-tinted sky and mist, mossy green light and shadows on everything",
-    witch: "rich VIOLET: purple sky, violet haze, violet-tinted light and shadows on everything",
+    wizard: "rich VIOLET: purple sky, violet haze, violet-tinted light and shadows on everything",
+    witch: "deep ROSE: rose-pink sky, rosy haze, rose-tinted light and shadows on everything",
+    warlock: "deep OXBLOOD RED: blood-red sky, red haze, crimson-tinted light and shadows on everything",
+    mage: "vivid COBALT BLUE: cobalt sky, blue haze, blue-tinted light and shadows on everything",
     eldritch: "deep ABYSS TEAL: teal-green sky, teal fog, dark teal light and shadows on everything",
   };
   const bg = (g, s, l) => {
@@ -90,5 +96,5 @@ Place at least two accents on the foreground props on the right and left, and re
 
 No characters, creatures, figures or silhouettes of people or animals, no bodies, no blood, and no text or lettering anywhere.`;
   };
-  return { char, bg, lint, meta, SJ_TEST };
+  return { char, bg, lint, meta, SJ_TEST, scene: BG_SCENE };
 })();

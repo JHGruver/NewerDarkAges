@@ -8,14 +8,14 @@ window.L = (id, name, icon, role, tagline, summary, lore, strengths, weaknesses,
   ({ id, name, icon, role, tagline, summary, lore, strengths, weaknesses, abilities, gear, look, pal });
 // Mid-level builder: a subclass with its own leaves
 window.M = (id, name, icon, tagline, summary, lore, subs) => ({ id, name, icon, tagline, summary, lore, subs });
-window.GROUP_ORDER = ["human", "vampire", "were", "ghost", "undead", "forest", "witch", "eldritch"];
+window.GROUP_ORDER = ["human", "vampire", "were", "ghost", "undead", "forest", "eldritch", "wizard", "witch", "warlock", "mage"];
 window.GROUP_DEFS = window.GROUP_DEFS || {};
 
 window.WORLD = {
   title: "The Newer Dark Ages",
   mantra: "David Bowie's Batman",
   pitch:
-    "In 1986 the Last Broadcast went out across every dial, and then the grid went dark. Nobody agrees what came next. What is certain is that the cities lie in ruin, the sky flickers and the rain never quite stops. Decades on, the survivors live like it is the Dark Ages: keeps and guilds, oaths and blood-feuds, hand-forged steel. Only the old world's relics (cassettes, CRT monitors, hand-crank radios, neon tube, copper cable) are now sacred tools, holy weapons and the best loot in the land. Eight peoples fight over what is left, in a world that looks like a glam-rock noir comic: black ink, spotlights, chrome, and one blazing color at a time.",
+    "In 1986 the Last Broadcast went out across every dial, and then the grid went dark. Nobody agrees what came next. What is certain is that the cities lie in ruin, the sky flickers and the rain never quite stops. Decades on, the survivors live like it is the Dark Ages: keeps and guilds, oaths and blood-feuds, hand-forged steel. Only the old world's relics (cassettes, CRT monitors, hand-crank radios, neon tube, copper cable) are now sacred tools, holy weapons and the best loot in the land. Eleven peoples fight over what is left, in a world that looks like a glam-rock noir comic: black ink, spotlights, chrome, and one blazing color at a time.",
   tone: [
     "Sin City ink: blacks, whites and greys, with color as a weapon, never wallpaper.",
     "David Bowie's Batman: glam, gadgets, spotlights and gothic rooftops. Dangerous, stylish, theatrical.",
@@ -46,8 +46,11 @@ window.PEOPLE_COLORS = {
   ghost:   { color: "#8fcfe0", color2: "#d6f1f7", name: "Ice" },
   undead:  { color: "#bdb7a4", color2: "#e8e4d6", name: "Bone" },
   forest:  { color: "#3f7d45", color2: "#9fd2a1", name: "Moss" },
-  witch:   { color: "#6b3fa6", color2: "#b79ae0", name: "Violet" },
   eldritch: { color: "#0b7a75", color2: "#6fd6cf", name: "Abyss" },
+  wizard:  { color: "#6b3fa6", color2: "#b79ae0", name: "Violet" },
+  witch:   { color: "#b83a7a", color2: "#e8a4c4", name: "Rose" },
+  warlock: { color: "#9b1c2c", color2: "#e08a96", name: "Oxblood" },
+  mage:    { color: "#2f62d6", color2: "#9db8f2", name: "Cobalt" },
 };
 
 window.PHASES = [

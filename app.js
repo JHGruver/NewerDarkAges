@@ -5,7 +5,8 @@ const { WORLD, STORY, PHASES, ART, MANUAL, PEOPLE_COLORS } = window;
 const GROUPS = GROUP_ORDER.map((id) => GROUP_DEFS[id]);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const list = (items, cls = "") => `<ul class="${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
-const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", witch: "Witch", eldritch: "Eldritch" };
+const NUMW = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"];
+const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", eldritch: "Eldritch", wizard: "Wizard", witch: "Witch", warlock: "Warlock", mage: "Mage" };
 const LEVEL_DEFAULT = ["Subclass", "Specialization"];
 
 document.getElementById("brand-ic").innerHTML = ic("bolt");
@@ -19,7 +20,7 @@ const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};-
 /* ---------- art we have so far (everything else is a generated placeholder poster) ---------- */
 const NODE_ART = {
   etherwing: { src: "art/v2/eldritch-etherwing.png", bg: "art/v2/eldritch-etherwing-bg.jpg", name: "Etherwing Navigator" },
-  dialturners: { src: "art/v2/witch-dialturners.png", bg: "art/v2/witch-dialturners-bg.jpg", name: "Dial-Turner" },
+  frequencyinterceptors: { src: "art/v2/witch-dialturners.png", bg: "art/v2/witch-dialturners-bg.jpg", name: "Frequency Interceptor" },
   rootlinkwarlocks: { src: "art/v2/forest-rootlinkwarlocks.png", bg: "art/v2/forest-rootlinkwarlocks-bg.jpg", name: "Rootlink Warlock" },
   bonebreakers: { src: "art/v2/undead-bonebreakers.png", bg: "art/v2/undead-bonebreakers-bg.jpg", name: "Riot-Line Bonebreaker" },
   staticwraiths: { src: "art/v2/ghost-staticwraiths.png", bg: "art/v2/ghost-staticwraiths-bg.jpg", name: "Static Wraith" },
@@ -54,7 +55,7 @@ function home() {
   <div class="hero hero-min">
     <div class="eyebrow">${esc(WORLD.mantra)}</div>
     <h1 class="mono-title">${esc(WORLD.title)}</h1>
-    <p class="lede">Seven peoples and one strange eighth, fighting over what the Last Broadcast left behind.</p>
+    <p class="lede">${NUMW[GROUPS.length]} peoples fighting over what the Last Broadcast left behind.</p>
     <a class="btn" href="#/characters">Choose your character →</a>
   </div>
 
@@ -64,7 +65,7 @@ function home() {
   <section class="block"><h2>The look</h2>
     <div class="grid cols-2">${WORLD.tone.map((t) => `<div class="panel">${esc(t)}</div>`).join("")}</div></section>
 
-  <section class="block"><h2>The ${GROUPS.length === 8 ? "Eight" : GROUPS.length} Peoples <span class="muted sub">· ${total} characters</span></h2>
+  <section class="block"><h2>The ${NUMW[GROUPS.length] || GROUPS.length} Peoples <span class="muted sub">· ${total} characters</span></h2>
     <div class="grid cols-3">${GROUPS.map((g) => `
       <a class="panel people-card" style="${pv(g)}" href="#/characters/${g.id}">
         <span class="swatch" style="background:${g.color}"></span>
@@ -418,6 +419,18 @@ document.addEventListener("touchend", (e) => {
   if (tsx === null) return; const dx = e.changedTouches[0].clientX - tsx; tsx = null;
   if (Math.abs(dx) > 50) { viewStep(dx < 0 ? 1 : -1); e.preventDefault(); }
 }, { passive: false });
+
+/* ---------- gallery hover: 80s icons ride out of the horizon sun along the grid ---------- */
+app.addEventListener("mouseover", (e) => {
+  const t = e.target.closest && e.target.closest(".gc"); if (!t || !window.NDA3D) return;
+  if (e.relatedTarget && t.contains(e.relatedTarget)) return;
+  NDA3D.hover(getComputedStyle(t).getPropertyValue("--c1").trim() || "#ffffff"); document.body.classList.add("tile-hover");
+});
+app.addEventListener("mouseout", (e) => {
+  const t = e.target.closest && e.target.closest(".gc"); if (!t || !window.NDA3D) return;
+  if (e.relatedTarget && t.contains(e.relatedTarget)) return;
+  NDA3D.hover(null); document.body.classList.remove("tile-hover");
+});
 
 /* ---------- hamburger drawer ---------- */
 const drawer = document.getElementById("drawer"), scrim = document.getElementById("scrim"), burger = document.getElementById("burger");

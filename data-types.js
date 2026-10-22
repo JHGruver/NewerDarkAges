@@ -13,7 +13,7 @@ window.TYPES = {
   support:    { name: "Support",    letter: "S", desc: "Heals, shields and rescues allies.",              pose: "an open calm posture with one hand offering aid, the medical or utility kit clearly visible" },
   enchanter:  { name: "Enchanter",  letter: "E", desc: "Buffs allies, weakens enemies, bends morale.",    pose: "raised hands presenting a talisman, instrument or charm, ornamental accessories catching the pose" },
 };
-window.PEOPLE_LETTER = { human: "H", vampire: "V", were: "W", ghost: "G", undead: "U", forest: "F", witch: "M", eldritch: "E" };
+window.PEOPLE_LETTER = { human: "H", vampire: "V", were: "W", ghost: "G", undead: "U", forest: "F", eldritch: "E", wizard: "Z", witch: "C", warlock: "R", mage: "M" };
 window.SIZES = { tiny: "Tiny", small: "Small", medium: "Medium", large: "Large", huge: "Huge" };
 window.SIZE_DESC = { tiny: "about knee-high next to a human", small: "child-sized next to a human", medium: "human-sized", large: "head and shoulders taller than a human", huge: "twice the height of a human" };
 window.MOVES = { grounded: "Grounded", agile: "Agile", flying: "Flying", aquatic: "Aquatic", burrowing: "Burrowing", climbing: "Climbing", phasing: "Phasing", vehicle: "Vehicle" };
@@ -124,18 +124,6 @@ window.CHAR_META = {
   pantrypoisoners: T("controller", "tiny and aproned", "tiny", "agile"),
   blockwatch: T("fighter", "tiny and alert", "tiny", "grounded"),
   // witch / wizard
-  dialturners: T("caster", "tall and elegant", "medium", "grounded"),
-  frequencyhexers: T("controller", "slim and headphoned", "medium", "grounded"),
-  latenightcallers2: T("enchanter", "soft-spoken and shawled", "medium", "grounded"),
-  solderwitches: T("controller", "compact and goggled", "medium", "grounded"),
-  capacitorhexers: T("blaster", "slim and crackling", "medium", "grounded"),
-  breadboardbrewers: T("blaster", "round and aproned", "medium", "grounded"),
-  stormcallers: T("caster", "tall and lean", "medium", "grounded"),
-  dishoracles: T("blaster", "slim and robed", "medium", "grounded"),
-  lightningrods: T("fighter", "lean and elegant", "medium", "agile"),
-  trickmirrors: T("assassin", "slim and flashy", "medium", "agile"),
-  menagerie: T("controller", "big-voiced and broad", "medium", "grounded"),
-  spiritboard: T("support", "calm and shawled", "medium", "grounded"),
   // eldritch
   tidecallpriests: T("support", "hunched and amphibious", "large", "aquatic"),
   coralbone: T("tank", "broad and squat, reef-armored", "large", "aquatic"),

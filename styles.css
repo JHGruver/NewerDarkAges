@@ -811,3 +811,15 @@ main > h1.pg + p { margin-bottom: 22px; }
 .gc.done .gframe::after { bottom: -6px; padding-bottom: 6px; }
 .gc.done .cn, .gc.done .cs { transition: filter .3s, transform .35s var(--ease); }
 .gc.done:hover .cn, .gc.done:hover .cs { transform: translateY(6px); }
+
+/* eleven peoples: tab rows and filters */
+.tabs { grid-template-columns: repeat(6, 1fr); }
+.tab .nm { font-size: .5rem; }
+@media (min-width: 821px) { .filters { grid-template-columns: repeat(11, minmax(0, 1fr)); gap: 6px; } .filter { padding: 10px 2px 9px; } .filter .nm { font-size: .68rem; } .filter .ct { top: 3px; right: 3px; } }
+@media (min-width: 821px) and (max-width: 1100px) { .filters { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+@media (max-width: 820px) { .filters { grid-template-columns: repeat(6, minmax(0, 1fr)); } .tabs { grid-template-columns: repeat(4, 1fr); } }
+
+/* the synth world wakes up while a tile is hovered */
+body.tile-hover #scene { opacity: .95; }
+#scene { transition: opacity .6s var(--ease); }
+body.tile-hover::before { opacity: .45; } body::before { transition: opacity .6s; }

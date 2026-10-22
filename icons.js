@@ -2,6 +2,14 @@
 // witch hat and other fantasy props are hand-drawn in the same 24px round-stroke style.
 // Use ic("wolf") to get an inline <svg>; it inherits the surrounding text color and size.
 window.ICONS = {
+"heart": "<path d=\"M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6-8 11-8 11z\"/>",
+"frog": "<path d=\"M5 12a3 3 0 1 1 3-4h8a3 3 0 1 1 3 4c0 5-3 8-7 8s-7-3-7-8z\"/><circle cx=\"8\" cy=\"8\" r=\".6\"/><circle cx=\"16\" cy=\"8\" r=\".6\"/><path d=\"M8 14c2 2 6 2 8 0\"/>",
+"clock": "<circle cx=\"12\" cy=\"12\" r=\"9\"/><path d=\"M12 7v5l3 2\"/>",
+"hourglass": "<path d=\"M6 3h12M6 21h12M7 3c0 5 5 6 5 9s-5 4-5 9M17 3c0 5-5 6-5 9s5 4 5 9\"/>",
+"brain": "<path d=\"M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 5 3 3 0 0 0 2 5 3 3 0 0 0 6 1V5a3 3 0 0 0-3-1z\"/><path d=\"M15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 5 3 3 0 0 1-2 5 3 3 0 0 1-6 1\"/>",
+"battery": "<rect x=\"2\" y=\"7\" width=\"16\" height=\"10\" rx=\"2\"/><path d=\"M22 11v2M10 9l-2 3h4l-2 3\"/>",
+"orbit": "<circle cx=\"12\" cy=\"12\" r=\"2\"/><ellipse cx=\"12\" cy=\"12\" rx=\"10\" ry=\"4\" transform=\"rotate(45 12 12)\"/><ellipse cx=\"12\" cy=\"12\" rx=\"10\" ry=\"4\" transform=\"rotate(-45 12 12)\"/>",
+"flask": "<path d=\"M9 3h6M10 3v6L5 19a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-10V3M8 15h8\"/>",
 "chevron-left": "<path d=\"m15 18-6-6 6-6\"/>",
 "car": "<path d=\"M3 16l2-7h14l2 7v3h-3v-2H6v2H3z\"/><path d=\"M7 13h.01M17 13h.01M6 9l1-3h10l1 3\"/>",
 "joystick": "<circle cx=\"12\" cy=\"6\" r=\"3\"/><path d=\"M12 9v6\"/><rect x=\"4\" y=\"15\" width=\"16\" height=\"6\" rx=\"2\"/><path d=\"M8 18h.01M16 18h.01\"/>",
