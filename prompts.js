@@ -30,18 +30,27 @@ Color rule: exactly three accent colors on top of black, white and grey. MAIN ${
 Mature, adult combat tone. 3:4 portrait, transparent PNG background, no text. No nudity, no gore, no blood.`;
   };
 
+  // how each people's color should wash the whole scene
+  const WASH = {
+    human: "warm GOLD and amber: golden sky, gold-lit fog, gold light pooling on wet ground, gold-toned haze over everything",
+    vampire: "deep INK BLACK: near-black sky, ground and architecture in layered blacks and charcoal, only a few thin grey highlights",
+    were: "burnt RUST and copper orange: rust-tinted sky, orange-brown haze, copper light on the ground",
+    ghost: "pale ICE BLUE: frosty blue sky, blue-white fog, cold cyan-blue light on every surface",
+    undead: "BONE and ash grey: warm pale grey-beige sky, dusty bone-colored haze and light",
+    forest: "deep MOSS GREEN: green-tinted sky and mist, mossy green light and shadows on everything",
+    witch: "rich VIOLET: purple sky, violet haze, violet-tinted light and shadows on everything",
+    eldritch: "deep ABYSS TEAL: teal-green sky, teal fog, dark teal light and shadows on everything",
+  };
   const bg = (g, s, l) => {
     const [a, b, c] = l.pal; const sp = spec(l);
-    const dom = g.id === "vampire"
-      ? "The people color is BLACK: make the whole scene overwhelmingly ink-black with deep greys, and let the three accent colors carry all the color."
-      : `The people color ${g.color} is the DOMINANT color: use it for the light sources, signs and key surfaces, about 70% of the colored area.`;
-    return `Charcoal and ink painting on toned paper, 16:9 landscape, heavy smudged charcoal, white chalk highlights, rain and haze, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Setting: ${BG_SCENE[g.id]}.
+    const dark = g.id === "vampire";
+    return `Charcoal and ink painting on toned paper, 16:9 landscape, heavy smudged charcoal, ink linework, rain and haze, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Setting: ${BG_SCENE[g.id]}.
 
 Scene props for ${l.name}: ${sp.p}. These are the large things this character could never wear or carry, so they live in the environment: show them clearly as set dressing in the midground and the lower-right platform, tied to the setting, with nobody using or holding them.
 
 Composition: horizon at one-third height, a large moon upper-left, a misty ruined valley receding to the left, and open empty space in the center-lower area where the character will be placed. Keep the props to the right, left and background so the center stays clear.
 
-Color rule: greyscale painting with four colors. ${dom} Plus three small accent lights in ${a}, ${b} and ${c}, about 30% of the colored area combined, echoing ${l.name}.
+COLOR (most important): this is a ${PEOPLE_COLORS[g.id].name.toUpperCase()}-WASHED painting, like a monochrome duotone. The ENTIRE image is washed in the people color ${g.color}: ${WASH[g.id]}. About 75% of the image is this one hue in light-to-dark tones (sky, fog, ground, walls, reflections, light). ${dark ? "Because this people's color is black, the scene is overwhelmingly black with only thin grey ink highlights." : "Pure black and white are used only for ink linework, deep shadows and small highlights, about 20%."} The character's accent colors ${a}, ${b} and ${c} appear ONLY as a few small accent lights or details, no more than about 5% of the image combined, echoing ${l.name}. Do NOT make the scene mostly grey, and do NOT make it mostly the accent colors.
 
 No characters, creatures, figures or silhouettes of people or animals, no bodies, no blood, and no text or lettering anywhere.`;
   };
