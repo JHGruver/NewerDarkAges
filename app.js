@@ -334,6 +334,7 @@ function render() {
   app.innerHTML = html;
   const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
   document.body.classList.toggle("fit", !!inChars);
+  document.body.dataset.page = route === "characters" && !inChars ? "gallery" : (route || "home");
   document.querySelectorAll("#nav a, .mnav a").forEach((n) => n.classList.toggle("active", n.dataset.route === (route || "home")));
   const tint = route === "characters" ? (rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color : (GROUPS.find((g) => g.id === galleryFilter) || {}).color) : null;
   if (window.NDA3D) NDA3D.tint(tint || null);

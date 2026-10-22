@@ -755,3 +755,9 @@ main > h1.pg + p { margin-bottom: 22px; }
   .filter .ico { font-size: 1.25rem; margin: 0; }
   .filter .chip { height: 3px; }
 }
+
+/* the character-select page is already the destination: no header CTA there on phones */
+@media (max-width: 820px) {
+  body[data-page="gallery"] .topbar .cta { display: none; }
+  body[data-page="gallery"] .brand span:last-child { display: inline; }
+}
