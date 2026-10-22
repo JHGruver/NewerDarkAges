@@ -18,6 +18,7 @@ const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};-
 
 /* ---------- art we have so far (everything else is a generated placeholder poster) ---------- */
 const NODE_ART = {
+  etherwing: { src: "art/v2/eldritch-etherwing.png", bg: "art/v2/eldritch-etherwing-bg.jpg", name: "Etherwing Navigator" },
   dialturners: { src: "art/v2/witch-dialturners.png", bg: "art/v2/witch-dialturners-bg.jpg", name: "Dial-Turner" },
   rootlinkwarlocks: { src: "art/v2/forest-rootlinkwarlocks.png", bg: "art/v2/forest-rootlinkwarlocks-bg.jpg", name: "Rootlink Warlock" },
   bonebreakers: { src: "art/v2/undead-bonebreakers.png", bg: "art/v2/undead-bonebreakers-bg.jpg", name: "Riot-Line Bonebreaker" },
