@@ -1,8 +1,8 @@
 # The Newer Dark Ages — Cast Bible
 
-Generated from the site data. 150 characters across 8 peoples, 50 subclasses.
+Generated from the site data. 126 characters across 8 peoples, 42 subclasses.
 
-**Gender split:** Male 67, Female 63, Nonbinary 20. **Combat/support:** 120/30.
+**Gender split:** Male 62, Female 49, Nonbinary 15. **Combat/support:** 101/25.
 
 ## How to use the prompts
 
@@ -21,7 +21,7 @@ Generated from the site data. 150 characters across 8 peoples, 50 subclasses.
 **Tagline:** No fangs, no fur. Just chrome, nerve and a very loud stereo.  
 **Summary:** Short-lived, stubborn and inventive. Humans have no innate powers, so they win with style, speed and salvaged tech. They rebuilt out of whatever the old world left: parking structures, arcades, radio stations and shopping malls, and every settlement has its own flag, its own slang and its own very specific way of killing you.  
 **Level names:** Faction › Crew  
-**Subclasses:** Roadwar Convoys, Arcade Clans, Pirate Radio, Mall Republic  
+**Classes:** Roadwar Convoys (Interceptors, Outriders, Fuel Zealots); Arcade Clans (Joystick Duelists, Pinball Gunners, Token Brokers); Pirate Radio (Static Jammers, Skyline DJs, Late-Night Hosts); Mall Republic (Riot Marshals, Escalator Lancers, Concierge Diplomats)  
 **Characters:** 12 (3 support)  
 **Background setting:** a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners  
 **Background wash:** Gold #d9a521, about 65% of every background  
@@ -575,7 +575,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Glam, patient and very hard to kill.  
 **Summary:** Immortal, impeccably dressed and perfectly at home in the dark. Vampires have ruled the Static Spires since before the Last Broadcast, and the Dim suits them: nothing hides a predator like a flickering streetlight. They are stylish, theatrical and dangerous, with a taste for capes, chrome and performance.  
 **Level names:** Court › Coterie  
-**Subclasses:** Chrome Court, Neon Nocturnes, Night Watch, Coterie of Masks  
+**Classes:** Chrome Court (Razor Dandies, Mirror-Ball Executioners, Velvet Chaperones); Neon Nocturnes (Strobe Duelists, Bassline Brawlers, VIP Hosts); Night Watch (Owlwing Watch, Gargoyle Sentries, Antenna Wraiths); Coterie of Masks (Masked Assassins, Thorn Poisoners, Spotlight Understudies)  
 **Characters:** 12 (2 support)  
 **Background setting:** a gutted skyscraper rooftop at night: a chandelier wired to car batteries, a dead neon sign, gothic antenna spires, a distant ruined skyline, rain  
 **Background wash:** Black #16161c, about 65% of every background  
@@ -1129,7 +1129,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Two hearts, one war-band.  
 **Summary:** People who share their skin with an animal: wolf, raccoon, crocodile, octopus, moth and more. In person form they look like hard, weathered survivors with one telling trait. In beast form they are real animals, scaled up and carrying the scars of every fight. The Kin are the Dim's most varied fighters and its most loyal friends.  
 **Level names:** Animal Kind › Lodge  
-**Subclasses:** Wolf-kin, Raccoon-kin, Crocodile-kin, Capybara-kin, Axolotl-kin, Raven-kin, Owl-kin, Octopus-kin, Mantis Shrimp-kin, Moth-kin, Pangolin-kin, Spider-kin  
+**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Axolotl-kin (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers); Raven-kin (Gloamwing Oracles, Salvage Magpies, Murder Vanguard); Owl-kin (Hushwing Strikers, Night-Eye Snipers, Rotating Watch); Octopus-kin (Ink Spies, Tentacle Engineers, Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers)  
 **Characters:** 36 (7 support)  
 **Background setting:** a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles  
 **Background wash:** Rust #b4532a, about 65% of every background  
@@ -2763,7 +2763,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Dead, signal-bound and not done.  
 **Summary:** Spirits who stayed behind and moved into the old world's machines. Ghosts ride cables, screens and speakers, pass through walls and haunt places with a signal that never fades. Frail in the physical world, they are lethal wherever tech and memory meet.  
 **Level names:** Haunt › Circle  
-**Subclasses:** Dead Air, Hollow Machines, The Last Call, The Lingerers  
+**Classes:** Dead Air (Static Wraiths, Test-Pattern Seers, Emergency Broadcasters); Hollow Machines (Rust-Wraith Possessors, Cabinet Spirits, Circuit Seers); The Last Call (Last-Dance Revelers, Wake-Wardens, Redial Wraiths); The Lingerers (Highway Banshees, Billboard Haunts, Hospice Haunts)  
 **Characters:** 12 (3 support)  
 **Background setting:** a dead broadcast station: racks of dark CRT monitors, cables drooping like willow branches, one flickering test-pattern screen, drifting fog  
 **Background wash:** Ice #8fcfe0, about 65% of every background  
@@ -3317,7 +3317,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Not dead. Just on a very long shift.  
 **Summary:** The risen, the preserved and the reanimated. Skeletons, zombies, liches and mummies make up the Dim's tireless labor force and its deadliest heavy infantry. They endure, they come back and they do not stop.  
 **Level names:** Order › Detail  
-**Subclasses:** Dead Zone Legion, Risen Labor Union, Lich Bureaucracy, Reach Court  
+**Classes:** Dead Zone Legion (Riot-Line Bonebreakers, Rattle-Cannon Gunners, Drum-Major Stewards); Risen Labor Union (Demolition Crews, Wrecking-Ball Lumberers, Shop Stewards); Lich Bureaucracy (Soul Notaries, Phylactery Auditors, Contract Reapers); Reach Court (Sarcophagus Lancers, Gold-Mask Duelists, Embalmer Alchemists)  
 **Characters:** 12 (2 support)  
 **Background setting:** a buried bunker vault and ash trench: steel blast doors, sandbag walls, a long corridor of lockers, dust-lit ventilation shafts  
 **Background wash:** Bone #bdb7a4, about 65% of every background  
@@ -3871,7 +3871,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** The woods have opinions. They also have weapons.  
 **Summary:** Faeries, gnomes, dryads and hobs: the old folk of the Overgrowth, now armed with whatever the suburbs left behind. They are tied to the land, the forest and its roots, and they hold the drowned neighborhoods where the wild took back the world.  
 **Level names:** Court › Clan  
-**Subclasses:** Cul-de-Sac Court, Root-Server Dryads, Basement Gnomes, Hob Neighbors  
+**Classes:** Cul-de-Sac Court (Lawnmower Knights, Sprinkler Sprites, HOA Mediators); Root-Server Dryads (Rootlink Warlocks, Moss-Plate Wardens, Greenhouse Healers); Basement Gnomes (Sump Sappers, Boiler-Room Brawlers, Toll Brokers); Hob Neighbors (Doorbell Ambushers, Pantry Poisoners, Block-Watch Sentries)  
 **Characters:** 12 (3 support)  
 **Background setting:** a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist  
 **Background wash:** Moss #3f7d45, about 65% of every background  
@@ -4425,7 +4425,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **Tagline:** Not from here. Not from now. Armed anyway.  
 **Summary:** The things that were here before the Last Broadcast, or came through it. Deep Ones, Mi-Go, Shoggoths, Elder Things, Nightgaunts and the Hounds of Tindalos are the strangest peoples of the Dim, and each looks nothing like the others. They do not understand the humans' war, but they understand salvage, signals and doors, and every one of them has found a use for the old world's machines.  
 **Level names:** Species › Order  
-**Subclasses:** Deep Ones, Mi-Go, Shoggoths, Elder Things, Nightgaunts, Hounds of Tindalos  
+**Classes:** Deep Ones (Tidecall Priests, Coralbone Sentinels, Pearl-Eyed Oracles); Mi-Go (Braincase Surgeons, Etherwing Navigators, Signal-Hive Engineers); Shoggoths (Many-Maw Devourers, Mimic-Flesh Infiltrators, Memory-Mass Archivists); Elder Things (Starstone Architects, Fossil-Script Historians, Wingfold Wardens); Nightgaunts (Dream-Snatchers, Voidwing Scouts, Nightmare Shepherds); Hounds of Tindalos (Corner-Stalkers, Time-Scent Trackers, Fracture-Jaw Reapers)  
 **Characters:** 18 (3 support)  
 **Background setting:** a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls  
 **Background wash:** Abyss #0b7a75, about 65% of every background  
@@ -5247,19 +5247,19 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 *People color: Violet #6b3fa6 (accent #b79ae0)*
 
 **Tagline:** Four ways to hold power.  
-**Summary:** One people, four classes: Wizard (the academic scientist), Witch (the naturalist ritualist), Warlock (the dangerous renegade) and Mage (the living conduit). Each class has three subclasses and each subclass three specializations.  
-**Level names:** Subclass › Specialization  
-**Classes:** Wizard (The Academic Scientist): Signal Savants, Circuit Arcanists, Sticky Wizards; Witch (The Naturalist Ritualist): Spore Coven, Scraphex Witches, Thornblood Coven; Warlock (The Dangerous Renegade): Voidbound, Bloodwire Apostates, Mirror Oathbreakers; Mage (The Living Conduit): Chronofractures, Mindweavers, Fluxborn  
-**Characters:** 36 (7 support)  
+**Summary:** One people, four classes: Wizard (the academic scientist), Witch (the naturalist ritualist), Warlock (the dangerous renegade) and Mage (the living conduit). Each class has three subclasses, and each subclass is a playable character.  
+**Level names:** Class › Subclass  
+**Classes:** Wizard (Signal Savants, Circuit Arcanists, Sticky Wizards); Witch (Spore Coven, Scraphex Witches, Thornblood Coven); Warlock (Voidbound, Bloodwire Apostates, Mirror Oathbreakers); Mage (Chronofractures, Mindweavers, Fluxborn)  
+**Characters:** 12 (2 support)  
 **Background setting:** a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow  
 **Background wash:** Violet #6b3fa6, about 65% of every background  
 
 
-## Magic › Signal Savants
+## Magic › Wizard
 
-### Frequency Interceptors  `frequencyinterceptors`
+### Signal Savants  `signalsavants`
 
-*Find the frequency.*
+*Radio-frequency magic, broadcasting, and interference.*
 
 **Character**
 
@@ -5272,10 +5272,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Radio staff, dial gauntlet, antenna hat, shortwave charm |
 | Pose | radio staff held up, dial gauntlet thrust forward crackling |
 | Facial expression | poised, razor-sharp focus |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Signal Savants — Radio-frequency magic, broadcasting, and interference. |
-| Specialization | Frequency Interceptors |
+| People | Magic |
+| Class | Wizard |
+| Subclass | Signal Savants |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #5a844c, secondary #f72585, pop #ffd60a |
@@ -5293,156 +5292,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Frequency Interceptors, female woman in her forties, dark-skinned, with long white braids (Black American heritage, American). Body: tall and elegant, medium size, grounded. Expression: poised, razor-sharp focus. Pose: radio staff held up, dial gauntlet thrust forward crackling. Wardrobe and carried gear (wearable or hand-held only): wizard in a structured green coat and an antenna-crowned hat, a radio-shaped staff in one hand and a gold-ringed dial gauntlet on the other forearm, a shortwave charm necklace. Palette: main #5a844c (about 60%), secondary #f72585 (about 30%), pop #ffd60a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizard, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Signal Savants, female woman in her forties, dark-skinned, with long white braids (Black American heritage, American). Body: tall and elegant, medium size, grounded. Expression: poised, razor-sharp focus. Pose: radio staff held up, dial gauntlet thrust forward crackling. Wardrobe and carried gear (wearable or hand-held only): wizard in a structured green coat and an antenna-crowned hat, a radio-shaped staff in one hand and a gold-ringed dial gauntlet on the other forearm, a shortwave charm necklace. Palette: main #5a844c (about 60%), secondary #f72585 (about 30%), pop #ffd60a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizard), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Frequency Interceptors (Magic), with no people, creatures or figures and no text. Midground: a radio station room with a huge shortwave set with glowing dials, a mixing desk. Foreground: an antenna array outside the window, a wall of tubes, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #5a844c for the biggest glowing sources and surfaces, secondary #f72585 for medium panels, banners and lights, pop #ffd60a for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Signal Savants (Magic), with no people, creatures or figures and no text. Midground: a radio station room with a huge shortwave set with glowing dials, a mixing desk. Foreground: an antenna array outside the window, a wall of tubes, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #5a844c for the biggest glowing sources and surfaces, secondary #f72585 for medium panels, banners and lights, pop #ffd60a for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Broadcast Theorists  `broadcasttheorists`
+### Circuit Arcanists  `circuitarcanists`
 
-*Louder is a theory.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Male |
-| Physique | broad-shouldered and slightly stooped; medium size; mobility: grounded |
-| Ethnicity + nationality | South Asian-inspired heritage, Indian |
-| Wardrobe | wizard in a long structured coat with a parabolic ear-horn raised overhead, a boxy amplifier pack on the back, a slate and chalk in the other hand |
-| Accessories | Parabolic ear-horn, amplifier pack, signal slate, long coat |
-| Pose | ear-horn raised to the sky, slate and chalk in the other hand |
-| Facial expression | delighted, lecturing eyebrows |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Signal Savants — Radio-frequency magic, broadcasting, and interference. |
-| Specialization | Broadcast Theorists |
-| Type | Enchanter |
-| Combat or support | Support |
-| Colors | main #356e1d, secondary #2a9d8f, pop #fff3c4 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #356e1d / #2a9d8f / #fff3c4 (about 20%) |
-| Midground | a rooftop broadcast array with a giant parabolic dish, a transmitter tower |
-| Foreground | a field of cables and a signal shed |
-| Character-relevant items | a rooftop broadcast array with a giant parabolic dish, a transmitter tower, a field of cables and a signal shed |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Broadcast Theorists, male man in his sixties of South Asian-inspired features, silver mustache (South Asian-inspired heritage, Indian). Body: broad-shouldered and slightly stooped, medium size, grounded. Expression: delighted, lecturing eyebrows. Pose: ear-horn raised to the sky, slate and chalk in the other hand. Wardrobe and carried gear (wearable or hand-held only): wizard in a long structured coat with a parabolic ear-horn raised overhead, a boxy amplifier pack on the back, a slate and chalk in the other hand. Palette: main #356e1d (about 60%), secondary #2a9d8f (about 30%), pop #fff3c4 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Wizard, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Broadcast Theorists (Magic), with no people, creatures or figures and no text. Midground: a rooftop broadcast array with a giant parabolic dish, a transmitter tower. Foreground: a field of cables and a signal shed, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #356e1d for the biggest glowing sources and surfaces, secondary #2a9d8f for medium panels, banners and lights, pop #fff3c4 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Deadband Decoders  `deadbanddecoders`
-
-*Nothing hides in the noise.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Nonbinary |
-| Physique | lithe and narrow; medium size; mobility: agile |
-| Ethnicity + nationality | East Asian-inspired heritage, Japanese |
-| Wardrobe | wizard in a cropped structured jacket and big studio headphones, a brass decoder wheel in one hand and a spectrum lens held to one eye, a notebook at the belt |
-| Accessories | Studio headphones, decoder wheel, spectrum lens, notebook |
-| Pose | turning the decoder wheel with one hand, lens at the eye |
-| Facial expression | intent, squinting through the lens |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Signal Savants — Radio-frequency magic, broadcasting, and interference. |
-| Specialization | Deadband Decoders |
-| Type | Support |
-| Combat or support | Support |
-| Colors | main #208a1d, secondary #ffd166, pop #ebffc0 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #208a1d / #ffd166 / #ebffc0 (about 20%) |
-| Midground | a dim monitoring room with a wall of oscilloscopes, a rack of radio receivers |
-| Foreground | a spectrum display and a tangle of antenna cables |
-| Character-relevant items | a dim monitoring room with a wall of oscilloscopes, a rack of radio receivers, a spectrum display and a tangle of antenna cables |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Deadband Decoders, nonbinary nonbinary young adult of East Asian-inspired features, short bleached hair (East Asian-inspired heritage, Japanese). Body: lithe and narrow, medium size, agile. Expression: intent, squinting through the lens. Pose: turning the decoder wheel with one hand, lens at the eye. Wardrobe and carried gear (wearable or hand-held only): wizard in a cropped structured jacket and big studio headphones, a brass decoder wheel in one hand and a spectrum lens held to one eye, a notebook at the belt. Palette: main #208a1d (about 60%), secondary #ffd166 (about 30%), pop #ebffc0 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Wizard, Signal Savants), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Deadband Decoders (Magic), with no people, creatures or figures and no text. Midground: a dim monitoring room with a wall of oscilloscopes, a rack of radio receivers. Foreground: a spectrum display and a tangle of antenna cables, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #208a1d for the biggest glowing sources and surfaces, secondary #ffd166 for medium panels, banners and lights, pop #ebffc0 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Circuit Arcanists
-
-### Runeplate Engineers  `runeplateengineers`
-
-*Wards, but with tolerances.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | broad and heavily built; large size; mobility: grounded |
-| Ethnicity + nationality | Polynesian-inspired heritage, Tongan |
-| Wardrobe | wizard in layered armor etched with circuit lines, runeplate pauldrons, a tablet gauntlet on one forearm and a stylus in the other hand |
-| Accessories | Runeplate pauldrons, tablet gauntlet, etching stylus, wrench |
-| Pose | planted wide with the tablet gauntlet raised, stylus glowing |
-| Facial expression | stern, craftsperson's frown |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Circuit Arcanists — Magical engineering, enchanted circuits, and technological spellcraft. |
-| Specialization | Runeplate Engineers |
-| Type | Tank |
-| Combat or support | Combat |
-| Colors | main #f14fea, secondary #3a86ff, pop #e4ffda |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #f14fea / #3a86ff / #e4ffda (about 20%) |
-| Midground | an armorer's forge with an anvil, racks of rune-etched plate |
-| Foreground | a circuit-etching bench and a stack of copper ingots |
-| Character-relevant items | an armorer's forge with an anvil, racks of rune-etched plate, a circuit-etching bench and a stack of copper ingots |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Runeplate Engineers, female woman in her fifties of Polynesian-inspired features, strong arms (Polynesian-inspired heritage, Tongan). Body: broad and heavily built, large size, grounded. Expression: stern, craftsperson's frown. Pose: planted wide with the tablet gauntlet raised, stylus glowing. Wardrobe and carried gear (wearable or hand-held only): wizard in layered armor etched with circuit lines, runeplate pauldrons, a tablet gauntlet on one forearm and a stylus in the other hand. Palette: main #f14fea (about 60%), secondary #3a86ff (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Wizard, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Runeplate Engineers (Magic), with no people, creatures or figures and no text. Midground: an armorer's forge with an anvil, racks of rune-etched plate. Foreground: a circuit-etching bench and a stack of copper ingots, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #f14fea for the biggest glowing sources and surfaces, secondary #3a86ff for medium panels, banners and lights, pop #e4ffda for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Capacitor Duelists  `capacitorduelists`
-
-*Store it. Spend it all.*
+*Magical engineering, enchanted circuits, and technological spellcraft.*
 
 **Character**
 
@@ -5455,10 +5316,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Coil-hilt rapier, capacitor bracers, insulated gloves, short coat |
 | Pose | full lunge, coil-rapier extended with a discharge arc |
 | Facial expression | cocky, sparking grin |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Circuit Arcanists — Magical engineering, enchanted circuits, and technological spellcraft. |
-| Specialization | Capacitor Duelists |
+| People | Magic |
+| Class | Wizard |
+| Subclass | Circuit Arcanists |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #8283f7, secondary #ff5d8f, pop #fff7c7 |
@@ -5476,66 +5336,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Capacitor Duelists, male young man in his twenties of Mexican-inspired features, sharp sideburns (Mexican heritage, Mexican). Body: lean and quick, medium size, agile. Expression: cocky, sparking grin. Pose: full lunge, coil-rapier extended with a discharge arc. Wardrobe and carried gear (wearable or hand-held only): wizard in a sharp short coat, a coil-hilt rapier in one hand, capacitor bracers on both wrists, insulated gloves. Palette: main #8283f7 (about 60%), secondary #ff5d8f (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Wizard, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Circuit Arcanists, male young man in his twenties of Mexican-inspired features, sharp sideburns (Mexican heritage, Mexican). Body: lean and quick, medium size, agile. Expression: cocky, sparking grin. Pose: full lunge, coil-rapier extended with a discharge arc. Wardrobe and carried gear (wearable or hand-held only): wizard in a sharp short coat, a coil-hilt rapier in one hand, capacitor bracers on both wrists, insulated gloves. Palette: main #8283f7 (about 60%), secondary #ff5d8f (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Wizard), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Capacitor Duelists (Magic), with no people, creatures or figures and no text. Midground: a duel ring on a rooftop with a bank of tall capacitors. Foreground: a coil tower arcing lightning and rubber safety mats, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #8283f7 for the biggest glowing sources and surfaces, secondary #ff5d8f for medium panels, banners and lights, pop #fff7c7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Circuit Arcanists (Magic), with no people, creatures or figures and no text. Midground: a duel ring on a rooftop with a bank of tall capacitors. Foreground: a coil tower arcing lightning and rubber safety mats, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #8283f7 for the biggest glowing sources and surfaces, secondary #ff5d8f for medium panels, banners and lights, pop #fff7c7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Logic-Gate Architects  `logicgatearchitects`
+### Sticky Wizards  `stickywizards`
 
-*If this, then that. Then that.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | tall and angular; large size; mobility: grounded |
-| Ethnicity + nationality | Scandinavian heritage, Norwegian |
-| Wardrobe | wizard in a long structured coat covered in chalk diagrams, a drafting compass in one hand and an open satchel of circuit tiles at the hip |
-| Accessories | Drafting compass, circuit-tile satchel, chalk, structured long coat |
-| Pose | drawing a chalk circuit in the air with a compass, satchel open |
-| Facial expression | calm, calculating |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Circuit Arcanists — Magical engineering, enchanted circuits, and technological spellcraft. |
-| Specialization | Logic-Gate Architects |
-| Type | Controller |
-| Combat or support | Combat |
-| Colors | main #505e39, secondary #ff7b00, pop #eef6ff |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #505e39 / #ff7b00 / #eef6ff (about 20%) |
-| Midground | a tiled courtyard laid out as a giant circuit board with raised gate-shaped walls |
-| Foreground | glowing logic traces and a chalk-marked floor |
-| Character-relevant items | a tiled courtyard laid out as a giant circuit board with raised gate-shaped walls, glowing logic traces and a chalk-marked floor |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Logic-Gate Architects, female elderly woman in her late sixties of Scandinavian-inspired features, cropped silver hair (Scandinavian heritage, Norwegian). Body: tall and angular, large size, grounded. Expression: calm, calculating. Pose: drawing a chalk circuit in the air with a compass, satchel open. Wardrobe and carried gear (wearable or hand-held only): wizard in a long structured coat covered in chalk diagrams, a drafting compass in one hand and an open satchel of circuit tiles at the hip. Palette: main #505e39 (about 60%), secondary #ff7b00 (about 30%), pop #eef6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizard, Circuit Arcanists), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Logic-Gate Architects (Magic), with no people, creatures or figures and no text. Midground: a tiled courtyard laid out as a giant circuit board with raised gate-shaped walls. Foreground: glowing logic traces and a chalk-marked floor, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #505e39 for the biggest glowing sources and surfaces, secondary #ff7b00 for medium panels, banners and lights, pop #eef6ff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Sticky Wizards
-
-### Slime-Sling Alchemists  `slimeslingalchemists`
-
-*Stick around.*
+*Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard.*
 
 **Character**
 
@@ -5548,10 +5360,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Oversized wizard hat, sling-staff, goo-jar bandolier, alchemy satchel |
 | Pose | leaning into a sling-shot of goo, hat flopping |
 | Facial expression | cheerful, wide-eyed confidence |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Sticky Wizards — Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard. |
-| Specialization | Slime-Sling Alchemists |
+| People | Magic |
+| Class | Wizard |
+| Subclass | Sticky Wizards |
 | Type | Blaster |
 | Combat or support | Combat |
 | Colors | main #0de609, secondary #ffd23f, pop #ff6b9d |
@@ -5569,111 +5380,21 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Slime-Sling Alchemists, male Sticky Wizard (created by Mike Mears): a small, round, expressive frog person with an oversized hat and a playful, capable manner (N/A (frog person, Sticky Wizard)). Body: small and round, small size, agile. Expression: cheerful, wide-eyed confidence. Pose: leaning into a sling-shot of goo, hat flopping. Wardrobe and carried gear (wearable or hand-held only): small round frog wizard in an oversized floppy pointed hat, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot, wide eyes and a confident grin. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Wizard, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Sticky Wizards, male Sticky Wizard (created by Mike Mears): a small, round, expressive frog person with an oversized hat and a playful, capable manner (N/A (frog person, Sticky Wizard)). Body: small and round, small size, agile. Expression: cheerful, wide-eyed confidence. Pose: leaning into a sling-shot of goo, hat flopping. Wardrobe and carried gear (wearable or hand-held only): small round frog wizard in an oversized floppy pointed hat, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot, wide eyes and a confident grin. Palette: main #0de609 (about 60%), secondary #ffd23f (about 30%), pop #ff6b9d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Wizard), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Slime-Sling Alchemists (Magic), with no people, creatures or figures and no text. Midground: a flooded alchemy basement with bubbling goo vats, dripping pipes. Foreground: glued-down furniture and shelves of jars, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #0de609 for the biggest glowing sources and surfaces, secondary #ffd23f for medium panels, banners and lights, pop #ff6b9d for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Ricochet Professors  `ricochetprofessors`
-
-*Please do bounce off the walls.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | stout and padded; medium size; mobility: agile |
-| Ethnicity + nationality | N/A (toad person) |
-| Wardrobe | stout toad wizard in a patched tweed coat and round spectacles, a bright rubber cane in one hand mid-swing, chalk dust on the sleeves |
-| Accessories | Tweed coat, bouncy rubber cane, elbow patches, round spectacles |
-| Pose | swinging a rubber cane in a bouncing arc |
-| Facial expression | stern and amused behind round spectacles |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Sticky Wizards — Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard. |
-| Specialization | Ricochet Professors |
-| Type | Fighter |
-| Combat or support | Combat |
-| Colors | main #056f57, secondary #2ec4b6, pop #fff0d1 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #056f57 / #2ec4b6 / #fff0d1 (about 20%) |
-| Midground | a squash court lecture hall with scuff-marked walls, a chalkboard of angles |
-| Foreground | rubber balls and a bench of students' coats |
-| Character-relevant items | a squash court lecture hall with scuff-marked walls, a chalkboard of angles, rubber balls and a bench of students' coats |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Ricochet Professors, female older female toad professor in a tweed coat (N/A (toad person)). Body: stout and padded, medium size, agile. Expression: stern and amused behind round spectacles. Pose: swinging a rubber cane in a bouncing arc. Wardrobe and carried gear (wearable or hand-held only): stout toad wizard in a patched tweed coat and round spectacles, a bright rubber cane in one hand mid-swing, chalk dust on the sleeves. Palette: main #056f57 (about 60%), secondary #2ec4b6 (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Wizard, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Ricochet Professors (Magic), with no people, creatures or figures and no text. Midground: a squash court lecture hall with scuff-marked walls, a chalkboard of angles. Foreground: rubber balls and a bench of students' coats, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #056f57 for the biggest glowing sources and surfaces, secondary #2ec4b6 for medium panels, banners and lights, pop #fff0d1 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Goo-Glyph Researchers  `googlyphresearchers`
-
-*Peer-reviewed, and slightly damp.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Nonbinary |
-| Physique | slim and nimble; small size; mobility: climbing |
-| Ethnicity + nationality | N/A (salamander person) |
-| Wardrobe | slim salamander wizard in goggles and a rolled-sleeve lab apron, a rune stamp in one hand and a pot of gel in the other |
-| Accessories | Glyph stamps, gel pot, goggles, lab apron |
-| Pose | stamping a glowing glyph onto the floor with one hand |
-| Facial expression | eager, goggles pushed up |
-| People | Magic › Wizard |
-| Class | Wizard (The Academic Scientist) |
-| Subclass | Sticky Wizards — Adhesive alchemy, enchanted slime, and bouncing magic. Includes Mike Mears' Sticky Wizard. |
-| Specialization | Goo-Glyph Researchers |
-| Type | Controller |
-| Combat or support | Combat |
-| Colors | main #db5b0a, secondary #ffbe0b, pop #fff5da |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #db5b0a / #ffbe0b / #fff5da (about 20%) |
-| Midground | a damp research lab with glyph-covered floor tiles, gel-filled tanks |
-| Foreground | a stamp rack and a sticky-wall specimen board |
-| Character-relevant items | a damp research lab with glyph-covered floor tiles, gel-filled tanks, a stamp rack and a sticky-wall specimen board |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Goo-Glyph Researchers, nonbinary young gender-neutral salamander researcher (N/A (salamander person)). Body: slim and nimble, small size, climbing. Expression: eager, goggles pushed up. Pose: stamping a glowing glyph onto the floor with one hand. Wardrobe and carried gear (wearable or hand-held only): slim salamander wizard in goggles and a rolled-sleeve lab apron, a rune stamp in one hand and a pot of gel in the other. Palette: main #db5b0a (about 60%), secondary #ffbe0b (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Wizard, Sticky Wizards), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Goo-Glyph Researchers (Magic), with no people, creatures or figures and no text. Midground: a damp research lab with glyph-covered floor tiles, gel-filled tanks. Foreground: a stamp rack and a sticky-wall specimen board, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #db5b0a for the biggest glowing sources and surfaces, secondary #ffbe0b for medium panels, banners and lights, pop #fff5da for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Sticky Wizards (Magic), with no people, creatures or figures and no text. Midground: a flooded alchemy basement with bubbling goo vats, dripping pipes. Foreground: glued-down furniture and shelves of jars, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #0de609 for the biggest glowing sources and surfaces, secondary #ffd23f for medium panels, banners and lights, pop #ff6b9d for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
 
-## Magic › Spore Coven
+## Magic › Witch
 
-### Mycelium Mothers  `myceliummothers`
+### Spore Coven  `sporecoven`
 
-*The network remembers every one of us.*
+*Fungal magic, spores, poisons, and regeneration.*
 
 **Character**
 
@@ -5686,10 +5407,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Spore-jar basket, fungus-wrapped cane, mushroom-cap shawl, poultice pouch |
 | Pose | cane planted, one hand raised over glowing spore jars |
 | Facial expression | tender, knowing |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Spore Coven — Fungal magic, spores, poisons, and regeneration. |
-| Specialization | Mycelium Mothers |
+| People | Magic |
+| Class | Witch |
+| Subclass | Spore Coven |
 | Type | Support |
 | Combat or support | Support |
 | Colors | main #d0e2a3, secondary #2f6f4f, pop #ffb4a2 |
@@ -5707,111 +5427,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Mycelium Mothers, female elderly Black woman in her seventies, gray locs under a mushroom shawl (Black American heritage, American (Georgia)). Body: stout and round, medium size, grounded. Expression: tender, knowing. Pose: cane planted, one hand raised over glowing spore jars. Wardrobe and carried gear (wearable or hand-held only): stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witch, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Spore Coven, female elderly Black woman in her seventies, gray locs under a mushroom shawl (Black American heritage, American (Georgia)). Body: stout and round, medium size, grounded. Expression: tender, knowing. Pose: cane planted, one hand raised over glowing spore jars. Wardrobe and carried gear (wearable or hand-held only): stout elderly woman in a patchwork shawl dotted with mushroom caps, a fungus-wrapped cane in one hand and a basket of glowing spore jars on the other arm. Palette: main #d0e2a3 (about 60%), secondary #2f6f4f (about 30%), pop #ffb4a2 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witch), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Mycelium Mothers (Magic), with no people, creatures or figures and no text. Midground: a factory floor furred with glowing mycelium, a long table of growing trays. Foreground: a hanging rack of mushroom caps and old machine hulks, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #d0e2a3 for the biggest glowing sources and surfaces, secondary #2f6f4f for medium panels, banners and lights, pop #ffb4a2 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Spore Coven (Magic), with no people, creatures or figures and no text. Midground: a factory floor furred with glowing mycelium, a long table of growing trays. Foreground: a hanging rack of mushroom caps and old machine hulks, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #d0e2a3 for the biggest glowing sources and surfaces, secondary #2f6f4f for medium panels, banners and lights, pop #ffb4a2 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Blightbrewers  `blightbrewers`
+### Scraphex Witches  `scraphexwitches`
 
-*A little rot goes a long way.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Male |
-| Physique | lean and wiry; medium size; mobility: grounded |
-| Ethnicity + nationality | Indonesian heritage, Indonesian |
-| Wardrobe | lean man in a mushroom-cap hat and a thick stained apron, a bandolier of green flasks across the chest, a ladle clipped to the belt, mid-throw |
-| Accessories | Flask bandolier, ladle, cap-brim hat, thick apron |
-| Pose | mid-throw with a green flask, ladle on the hip |
-| Facial expression | cheerfully wicked grin |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Spore Coven — Fungal magic, spores, poisons, and regeneration. |
-| Specialization | Blightbrewers |
-| Type | Blaster |
-| Combat or support | Combat |
-| Colors | main #5989d4, secondary #3d405b, pop #ffe66d |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #5989d4 / #3d405b / #ffe66d (about 20%) |
-| Midground | a dead brewery with dented fermentation tanks, bubbling vats |
-| Foreground | rows of labeled flasks and a loading dock |
-| Character-relevant items | a dead brewery with dented fermentation tanks, bubbling vats, rows of labeled flasks and a loading dock |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Blightbrewers, male man in his thirties of Indonesian-inspired features, a wide mushroom-cap hat (Indonesian heritage, Indonesian). Body: lean and wiry, medium size, grounded. Expression: cheerfully wicked grin. Pose: mid-throw with a green flask, ladle on the hip. Wardrobe and carried gear (wearable or hand-held only): lean man in a mushroom-cap hat and a thick stained apron, a bandolier of green flasks across the chest, a ladle clipped to the belt, mid-throw. Palette: main #5989d4 (about 60%), secondary #3d405b (about 30%), pop #ffe66d (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Witch, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Blightbrewers (Magic), with no people, creatures or figures and no text. Midground: a dead brewery with dented fermentation tanks, bubbling vats. Foreground: rows of labeled flasks and a loading dock, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #5989d4 for the biggest glowing sources and surfaces, secondary #3d405b for medium panels, banners and lights, pop #ffe66d for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Sporeveil Shepherds  `sporeveilshepherds`
-
-*The mist is on our side.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | slim and light-footed; medium size; mobility: agile |
-| Ethnicity + nationality | Brazilian heritage, Brazilian |
-| Wardrobe | young woman in a fungus-fringed cloak and wrapped boots, a spore-gourd censer trailing mist in one hand and a hook-knife in the other |
-| Accessories | Spore-gourd censer, hook-knife, fungus-fringed cloak, familiar basket |
-| Pose | crouched with the censer streaming fog, hook-knife low |
-| Facial expression | alert, partly hidden by mist |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Spore Coven — Fungal magic, spores, poisons, and regeneration. |
-| Specialization | Sporeveil Shepherds |
-| Type | Assassin |
-| Combat or support | Combat |
-| Colors | main #134e7d, secondary #f4d35e, pop #1f1d49 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #134e7d / #f4d35e / #1f1d49 (about 20%) |
-| Midground | a misty mushroom grove in a flooded parking garage, hanging fungal curtains |
-| Foreground | glowing caps on concrete pillars and drifting spores |
-| Character-relevant items | a misty mushroom grove in a flooded parking garage, hanging fungal curtains, glowing caps on concrete pillars and drifting spores |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Sporeveil Shepherds, female young woman in her twenties of Brazilian-inspired features, curly hair (Brazilian heritage, Brazilian). Body: slim and light-footed, medium size, agile. Expression: alert, partly hidden by mist. Pose: crouched with the censer streaming fog, hook-knife low. Wardrobe and carried gear (wearable or hand-held only): young woman in a fungus-fringed cloak and wrapped boots, a spore-gourd censer trailing mist in one hand and a hook-knife in the other. Palette: main #134e7d (about 60%), secondary #f4d35e (about 30%), pop #1f1d49 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Witch, Spore Coven), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Sporeveil Shepherds (Magic), with no people, creatures or figures and no text. Midground: a misty mushroom grove in a flooded parking garage, hanging fungal curtains. Foreground: glowing caps on concrete pillars and drifting spores, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #134e7d for the biggest glowing sources and surfaces, secondary #f4d35e for medium panels, banners and lights, pop #1f1d49 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Scraphex Witches
-
-### Dial-Hexers  `dialhexers`
-
-*Please hold. The curse is connecting.*
+*Haunted electronics, cursed relics, and sympathetic magic.*
 
 **Character**
 
@@ -5824,10 +5451,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Hex radio, antenna wand, curse cassettes, shawl |
 | Pose | antenna wand pointing out, radio held against the hip |
 | Facial expression | smoldering, lips moving in a murmur |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Scraphex Witches — Haunted electronics, cursed relics, and sympathetic magic. |
-| Specialization | Dial-Hexers |
+| People | Magic |
+| Class | Witch |
+| Subclass | Scraphex Witches |
 | Type | Controller |
 | Combat or support | Combat |
 | Colors | main #b703ec, secondary #00b4d8, pop #e4ffda |
@@ -5845,156 +5471,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Dial-Hexers, female woman in her mid-thirties of Lebanese-inspired features, dark headscarf (Lebanese heritage, Lebanese). Body: average and shawled, medium size, grounded. Expression: smoldering, lips moving in a murmur. Pose: antenna wand pointing out, radio held against the hip. Wardrobe and carried gear (wearable or hand-held only): woman in a layered shawl and headscarf, a bent antenna wand in one hand and a battered hex radio on a strap, curse tapes tucked in a bandolier. Palette: main #b703ec (about 60%), secondary #00b4d8 (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Witch, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Scraphex Witches, female woman in her mid-thirties of Lebanese-inspired features, dark headscarf (Lebanese heritage, Lebanese). Body: average and shawled, medium size, grounded. Expression: smoldering, lips moving in a murmur. Pose: antenna wand pointing out, radio held against the hip. Wardrobe and carried gear (wearable or hand-held only): woman in a layered shawl and headscarf, a bent antenna wand in one hand and a battered hex radio on a strap, curse tapes tucked in a bandolier. Palette: main #b703ec (about 60%), secondary #00b4d8 (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Witch), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Dial-Hexers (Magic), with no people, creatures or figures and no text. Midground: a cluttered radio shack with a wall of dead radios on shelves, a hex-tuned dial board. Foreground: a table of curse tapes and a window of antennas, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #b703ec for the biggest glowing sources and surfaces, secondary #00b4d8 for medium panels, banners and lights, pop #e4ffda for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Scraphex Witches (Magic), with no people, creatures or figures and no text. Midground: a cluttered radio shack with a wall of dead radios on shelves, a hex-tuned dial board. Foreground: a table of curse tapes and a window of antennas, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #b703ec for the biggest glowing sources and surfaces, secondary #00b4d8 for medium panels, banners and lights, pop #e4ffda for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Effigy Tinkerers  `effigytinkerers`
+### Thornblood Coven  `thornbloodcoven`
 
-*Whatever happens to the doll happens to you.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Nonbinary |
-| Physique | stocky and gnarled; medium size; mobility: grounded |
-| Ethnicity + nationality | Inuit heritage, Canadian (Nunavut) |
-| Wardrobe | androgynous elder in a patched coat hung with small dolls and charms, a stitched effigy held up in one hand and a soldering needle in the other |
-| Accessories | Stitched effigies, pin pouch, soldering needle, charm string |
-| Pose | holding a stitched effigy up and a needle poised |
-| Facial expression | weathered, knowing smile |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Scraphex Witches — Haunted electronics, cursed relics, and sympathetic magic. |
-| Specialization | Effigy Tinkerers |
-| Type | Caster |
-| Combat or support | Combat |
-| Colors | main #6a2936, secondary #264653, pop #e9c46a |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #6a2936 / #264653 / #e9c46a (about 20%) |
-| Midground | a dollmaker's workshop with shelves of half-wired dolls, a soldering bench |
-| Foreground | jars of buttons and a sewing machine |
-| Character-relevant items | a dollmaker's workshop with shelves of half-wired dolls, a soldering bench, jars of buttons and a sewing machine |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Effigy Tinkerers, nonbinary nonbinary elder of Inuit-inspired features, weathered face (Inuit heritage, Canadian (Nunavut)). Body: stocky and gnarled, medium size, grounded. Expression: weathered, knowing smile. Pose: holding a stitched effigy up and a needle poised. Wardrobe and carried gear (wearable or hand-held only): androgynous elder in a patched coat hung with small dolls and charms, a stitched effigy held up in one hand and a soldering needle in the other. Palette: main #6a2936 (about 60%), secondary #264653 (about 30%), pop #e9c46a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Witch, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Effigy Tinkerers (Magic), with no people, creatures or figures and no text. Midground: a dollmaker's workshop with shelves of half-wired dolls, a soldering bench. Foreground: jars of buttons and a sewing machine, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #6a2936 for the biggest glowing sources and surfaces, secondary #264653 for medium panels, banners and lights, pop #e9c46a for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Static Charmers  `staticcharmers`
-
-*Haunted frequencies, handled.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Nonbinary |
-| Physique | slim and loose-limbed; medium size; mobility: agile |
-| Ethnicity + nationality | Mixed Pacific and African heritage, New Zealander |
-| Wardrobe | slim person in a cable-fringed cloak, a copper-wire bracelet, one hand coaxing static from a handheld radio and a tuning-fork charm in the other |
-| Accessories | Tuning-fork charm, copper-wire bracelet, cable cloak, pocket radio |
-| Pose | coaxing static from a radio with one raised finger |
-| Facial expression | playful, eyes bright |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Scraphex Witches — Haunted electronics, cursed relics, and sympathetic magic. |
-| Specialization | Static Charmers |
-| Type | Assassin |
-| Combat or support | Combat |
-| Colors | main #ccbdde, secondary #ffb703, pop #3a0ca3 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #ccbdde / #ffb703 / #3a0ca3 (about 20%) |
-| Midground | a junkyard of dead televisions and appliances stacked in walls, tangled cables |
-| Foreground | a flickering screen and a rusted fridge |
-| Character-relevant items | a junkyard of dead televisions and appliances stacked in walls, tangled cables, a flickering screen and a rusted fridge |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Static Charmers, nonbinary slim person in their twenties of mixed heritage, a shaved head with a long braid (Mixed Pacific and African heritage, New Zealander). Body: slim and loose-limbed, medium size, agile. Expression: playful, eyes bright. Pose: coaxing static from a radio with one raised finger. Wardrobe and carried gear (wearable or hand-held only): slim person in a cable-fringed cloak, a copper-wire bracelet, one hand coaxing static from a handheld radio and a tuning-fork charm in the other. Palette: main #ccbdde (about 60%), secondary #ffb703 (about 30%), pop #3a0ca3 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Witch, Scraphex Witches), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Static Charmers (Magic), with no people, creatures or figures and no text. Midground: a junkyard of dead televisions and appliances stacked in walls, tangled cables. Foreground: a flickering screen and a rusted fridge, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #ccbdde for the biggest glowing sources and surfaces, secondary #ffb703 for medium panels, banners and lights, pop #3a0ca3 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Thornblood Coven
-
-### Briarbinders  `briarbinders`
-
-*Come closer. The hedge insists.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | broad and weathered; large size; mobility: grounded |
-| Ethnicity + nationality | Irish heritage, Irish |
-| Wardrobe | broad weathered woman in a hooded cloak and bark armor plates, a thorn-wrapped staff planted in front of her, a seed pouch at the belt |
-| Accessories | Thorn-wrapped staff, bark armor plates, seed pouch, hooded cloak |
-| Pose | staff planted as brambles surge from the ground |
-| Facial expression | grim, weather-beaten calm |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Thornblood Coven — Plant magic, ancestral spirits, healing, and binding. |
-| Specialization | Briarbinders |
-| Type | Tank |
-| Combat or support | Combat |
-| Colors | main #053715, secondary #f2cc8f, pop #bb4c2a |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #053715 / #f2cc8f / #bb4c2a (about 20%) |
-| Midground | a reclaimed grove with a hedge-lined road, a thorn-covered archway |
-| Foreground | a half-buried car and tangled briars |
-| Character-relevant items | a reclaimed grove with a hedge-lined road, a thorn-covered archway, a half-buried car and tangled briars |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Briarbinders, female woman in her fifties of Irish-inspired features, red-gray hair (Irish heritage, Irish). Body: broad and weathered, large size, grounded. Expression: grim, weather-beaten calm. Pose: staff planted as brambles surge from the ground. Wardrobe and carried gear (wearable or hand-held only): broad weathered woman in a hooded cloak and bark armor plates, a thorn-wrapped staff planted in front of her, a seed pouch at the belt. Palette: main #053715 (about 60%), secondary #f2cc8f (about 30%), pop #bb4c2a (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Witch, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Briarbinders (Magic), with no people, creatures or figures and no text. Midground: a reclaimed grove with a hedge-lined road, a thorn-covered archway. Foreground: a half-buried car and tangled briars, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #053715 for the biggest glowing sources and surfaces, secondary #f2cc8f for medium panels, banners and lights, pop #bb4c2a for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Rootblood Healers  `rootbloodhealers`
-
-*Medicine is a family recipe.*
+*Plant magic, ancestral spirits, healing, and binding.*
 
 **Character**
 
@@ -6007,10 +5495,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Herb satchel, mortar and pestle, root-carved cane, woven sash |
 | Pose | grinding herbs in a mortar, cane tucked under the arm |
 | Facial expression | warm, reassuring |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Thornblood Coven — Plant magic, ancestral spirits, healing, and binding. |
-| Specialization | Rootblood Healers |
+| People | Magic |
+| Class | Witch |
+| Subclass | Thornblood Coven |
 | Type | Support |
 | Combat or support | Support |
 | Colors | main #0d5faf, secondary #f4a261, pop #fff7c7 |
@@ -6028,66 +5515,21 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Rootblood Healers, male man in his forties of West African-inspired features, close-cropped beard (West African heritage, Senegalese). Body: warm and sturdy, medium size, grounded. Expression: warm, reassuring. Pose: grinding herbs in a mortar, cane tucked under the arm. Wardrobe and carried gear (wearable or hand-held only): warm man in a long herb-stained coat and a woven sash, a mortar and pestle in one hand and a root-carved cane in the other, a herb satchel at the hip. Palette: main #0d5faf (about 60%), secondary #f4a261 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witch, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Thornblood Coven, male man in his forties of West African-inspired features, close-cropped beard (West African heritage, Senegalese). Body: warm and sturdy, medium size, grounded. Expression: warm, reassuring. Pose: grinding herbs in a mortar, cane tucked under the arm. Wardrobe and carried gear (wearable or hand-held only): warm man in a long herb-stained coat and a woven sash, a mortar and pestle in one hand and a root-carved cane in the other, a herb satchel at the hip. Palette: main #0d5faf (about 60%), secondary #f4a261 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Witch), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Rootblood Healers (Magic), with no people, creatures or figures and no text. Midground: a root-cellar clinic with hanging herb bundles, a long wooden table of poultices. Foreground: a boiling kettle and shelves of tonic jars, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #0d5faf for the biggest glowing sources and surfaces, secondary #f4a261 for medium panels, banners and lights, pop #fff7c7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Ancestor-Grove Keepers  `ancestorgrovekeepers`
-
-*Our dead are in the trees.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | frail and upright; medium size; mobility: grounded |
-| Ethnicity + nationality | Maori heritage, New Zealander |
-| Wardrobe | elderly woman in a long woven robe and a sprig crown, a carved ancestor staff held in both hands, bone charms at the belt |
-| Accessories | Carved ancestor staff, bone charms, sprig crown, long woven robe |
-| Pose | both hands on the carved staff, charms swaying |
-| Facial expression | serene, eyes closed in prayer |
-| People | Magic › Witch |
-| Class | Witch (The Naturalist Ritualist) |
-| Subclass | Thornblood Coven — Plant magic, ancestral spirits, healing, and binding. |
-| Specialization | Ancestor-Grove Keepers |
-| Type | Enchanter |
-| Combat or support | Support |
-| Colors | main #d7c5a2, secondary #1b4332, pop #fff7c7 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #d7c5a2 / #1b4332 / #fff7c7 (about 20%) |
-| Midground | a sacred grove with a huge carved ancestor tree, rows of name-carved stones |
-| Foreground | hanging charms and drifting leaves |
-| Character-relevant items | a sacred grove with a huge carved ancestor tree, rows of name-carved stones, hanging charms and drifting leaves |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Ancestor-Grove Keepers, female elderly woman in her eighties of Maori-inspired features, wise and serene (Maori heritage, New Zealander). Body: frail and upright, medium size, grounded. Expression: serene, eyes closed in prayer. Pose: both hands on the carved staff, charms swaying. Wardrobe and carried gear (wearable or hand-held only): elderly woman in a long woven robe and a sprig crown, a carved ancestor staff held in both hands, bone charms at the belt. Palette: main #d7c5a2 (about 60%), secondary #1b4332 (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Witch, Thornblood Coven), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Ancestor-Grove Keepers (Magic), with no people, creatures or figures and no text. Midground: a sacred grove with a huge carved ancestor tree, rows of name-carved stones. Foreground: hanging charms and drifting leaves, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #d7c5a2 for the biggest glowing sources and surfaces, secondary #1b4332 for medium panels, banners and lights, pop #fff7c7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Thornblood Coven (Magic), with no people, creatures or figures and no text. Midground: a root-cellar clinic with hanging herb bundles, a long wooden table of poultices. Foreground: a boiling kettle and shelves of tonic jars, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #0d5faf for the biggest glowing sources and surfaces, secondary #f4a261 for medium panels, banners and lights, pop #fff7c7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
 
-## Magic › Voidbound
+## Magic › Warlock
 
-### Abyssal Petitioners  `abyssalpetitioners`
+### Voidbound  `voidbound`
 
-*Please accept our offering.*
+*Eldritch patrons, dimensional magic, and cosmic corruption.*
 
 **Character**
 
@@ -6100,10 +5542,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Offering bowl, void-marked gauntlet, ritual-scar mantle, jagged crown |
 | Pose | kneeling to cast, one palm glowing, offering bowl held out |
 | Facial expression | hollow, reverent smile |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Voidbound — Eldritch patrons, dimensional magic, and cosmic corruption. |
-| Specialization | Abyssal Petitioners |
+| People | Magic |
+| Class | Warlock |
+| Subclass | Voidbound |
 | Type | Blaster |
 | Combat or support | Combat |
 | Colors | main #065255, secondary #6a4c93, pop #caf9ff |
@@ -6121,156 +5562,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Abyssal Petitioners, male young man in his twenties of Greek-inspired features, shaven head (Greek heritage, Greek). Body: gaunt and tall, medium size, grounded. Expression: hollow, reverent smile. Pose: kneeling to cast, one palm glowing, offering bowl held out. Wardrobe and carried gear (wearable or hand-held only): young man in a jagged mantle and asymmetric armor, a ritual mark glowing on one open palm and a small offering bowl in the other, a thin crown of black spikes. Palette: main #065255 (about 60%), secondary #6a4c93 (about 30%), pop #caf9ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Warlock, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Voidbound, male young man in his twenties of Greek-inspired features, shaven head (Greek heritage, Greek). Body: gaunt and tall, medium size, grounded. Expression: hollow, reverent smile. Pose: kneeling to cast, one palm glowing, offering bowl held out. Wardrobe and carried gear (wearable or hand-held only): young man in a jagged mantle and asymmetric armor, a ritual mark glowing on one open palm and a small offering bowl in the other, a thin crown of black spikes. Palette: main #065255 (about 60%), secondary #6a4c93 (about 30%), pop #caf9ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Warlock), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Abyssal Petitioners (Magic), with no people, creatures or figures and no text. Midground: a ritual chamber with a floating black void-portal, an altar of offering bowls. Foreground: chalk-circle floor and hanging chains, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #065255 for the biggest glowing sources and surfaces, secondary #6a4c93 for medium panels, banners and lights, pop #caf9ff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Voidbound (Magic), with no people, creatures or figures and no text. Midground: a ritual chamber with a floating black void-portal, an altar of offering bowls. Foreground: chalk-circle floor and hanging chains, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #065255 for the biggest glowing sources and surfaces, secondary #6a4c93 for medium panels, banners and lights, pop #caf9ff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Starless Heralds  `starlessheralds`
+### Bloodwire Apostates  `bloodwireapostates`
 
-*A sky with no stars is also an omen.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | thin and willowy; large size; mobility: grounded |
-| Ethnicity + nationality | Ethiopian heritage, Ethiopian |
-| Wardrobe | tall thin woman in a drifting black cloak and a mask etched with star charts, an omen bell in one hand and a long scroll unrolled in the other |
-| Accessories | Black star-chart scroll, omen bell, void cloak, ritual mask |
-| Pose | ringing the omen bell with the scroll unrolled behind |
-| Facial expression | distant, mournful |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Voidbound — Eldritch patrons, dimensional magic, and cosmic corruption. |
-| Specialization | Starless Heralds |
-| Type | Caster |
-| Combat or support | Combat |
-| Colors | main #bc07bf, secondary #3d348b, pop #ddeeff |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #bc07bf / #3d348b / #ddeeff (about 20%) |
-| Midground | an observatory ruin with an empty starless sky, a dead telescope |
-| Foreground | a toppled star-map table and a tolling bell tower |
-| Character-relevant items | an observatory ruin with an empty starless sky, a dead telescope, a toppled star-map table and a tolling bell tower |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Starless Heralds, female woman in her thirties of Ethiopian-inspired features, very tall (Ethiopian heritage, Ethiopian). Body: thin and willowy, large size, grounded. Expression: distant, mournful. Pose: ringing the omen bell with the scroll unrolled behind. Wardrobe and carried gear (wearable or hand-held only): tall thin woman in a drifting black cloak and a mask etched with star charts, an omen bell in one hand and a long scroll unrolled in the other. Palette: main #bc07bf (about 60%), secondary #3d348b (about 30%), pop #ddeeff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Warlock, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Starless Heralds (Magic), with no people, creatures or figures and no text. Midground: an observatory ruin with an empty starless sky, a dead telescope. Foreground: a toppled star-map table and a tolling bell tower, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #bc07bf for the biggest glowing sources and surfaces, secondary #3d348b for medium panels, banners and lights, pop #ddeeff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Rift-Tethered Summoners  `riftetheredsummoners`
-
-*I borrowed them. Do not look at them.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Male |
-| Physique | heavyset and imposing; large size; mobility: grounded |
-| Ethnicity + nationality | Filipino heritage, Filipino |
-| Wardrobe | heavyset man in a scar-marked cloak and a chain belt, a glowing tether rod in one hand and a rift lantern in the other |
-| Accessories | Tether rod, rift-lantern, ritual-chain belt, scar-marked cloak |
-| Pose | holding the tether rod forward as a cord of light pulls taut |
-| Facial expression | heavy-lidded, strained |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Voidbound — Eldritch patrons, dimensional magic, and cosmic corruption. |
-| Specialization | Rift-Tethered Summoners |
-| Type | Controller |
-| Combat or support | Combat |
-| Colors | main #836e49, secondary #b2f7ef, pop #7209b7 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #836e49 / #b2f7ef / #7209b7 (about 20%) |
-| Midground | a ritual yard with a glowing rift hovering above a summoning circle, a chain fence |
-| Foreground | a brazier and stacked offering crates |
-| Character-relevant items | a ritual yard with a glowing rift hovering above a summoning circle, a chain fence, a brazier and stacked offering crates |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Rift-Tethered Summoners, male older man in his sixties of Filipino-inspired features, heavy build (Filipino heritage, Filipino). Body: heavyset and imposing, large size, grounded. Expression: heavy-lidded, strained. Pose: holding the tether rod forward as a cord of light pulls taut. Wardrobe and carried gear (wearable or hand-held only): heavyset man in a scar-marked cloak and a chain belt, a glowing tether rod in one hand and a rift lantern in the other. Palette: main #836e49 (about 60%), secondary #b2f7ef (about 30%), pop #7209b7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Warlock, Voidbound), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Rift-Tethered Summoners (Magic), with no people, creatures or figures and no text. Midground: a ritual yard with a glowing rift hovering above a summoning circle, a chain fence. Foreground: a brazier and stacked offering crates, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #836e49 for the biggest glowing sources and surfaces, secondary #b2f7ef for medium panels, banners and lights, pop #7209b7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Bloodwire Apostates
-
-### Pulse-Sacrificers  `pulsesacrificers`
-
-*Every heartbeat is a bullet.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | broad and muscular; large size; mobility: grounded |
-| Ethnicity + nationality | Samoan heritage, Samoan |
-| Wardrobe | broad woman in a jagged shoulder plate and a chest heart-monitor harness, wired gauntlets raised, a cable running from one wrist |
-| Accessories | Heart-monitor harness, wired gauntlets, jagged shoulder plate, cable-wrapped fists |
-| Pose | boxing stance, wired gauntlets raised |
-| Facial expression | wild, wide-eyed |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Bloodwire Apostates — Blood-powered technology, life-force sacrifice, and overload magic. |
-| Specialization | Pulse-Sacrificers |
-| Type | Bruiser |
-| Combat or support | Combat |
-| Colors | main #46202b, secondary #247ba0, pop #fff5da |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #46202b / #247ba0 / #fff5da (about 20%) |
-| Midground | a boxing gym ruin with a ring, a wall of vital-sign monitors |
-| Foreground | a heavy bag and a flickering generator |
-| Character-relevant items | a boxing gym ruin with a ring, a wall of vital-sign monitors, a heavy bag and a flickering generator |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Pulse-Sacrificers, female woman in her thirties of Samoan-inspired features, broad shoulders (Samoan heritage, Samoan). Body: broad and muscular, large size, grounded. Expression: wild, wide-eyed. Pose: boxing stance, wired gauntlets raised. Wardrobe and carried gear (wearable or hand-held only): broad woman in a jagged shoulder plate and a chest heart-monitor harness, wired gauntlets raised, a cable running from one wrist. Palette: main #46202b (about 60%), secondary #247ba0 (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A bruiser (combat) from the Magic people (Warlock, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Pulse-Sacrificers (Magic), with no people, creatures or figures and no text. Midground: a boxing gym ruin with a ring, a wall of vital-sign monitors. Foreground: a heavy bag and a flickering generator, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #46202b for the biggest glowing sources and surfaces, secondary #247ba0 for medium panels, banners and lights, pop #fff5da for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Vein-Circuit Reavers  `veincircuitreavers`
-
-*Blood is a perfectly good conductor.*
+*Blood-powered technology, life-force sacrifice, and overload magic.*
 
 **Character**
 
@@ -6283,10 +5586,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Vein-lit twin blades, wired arm sleeves, thorn plates, glowing circuit tattoos |
 | Pose | crossed blades mid-slash with circuits blazing |
 | Facial expression | feral, sinewy grin |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Bloodwire Apostates — Blood-powered technology, life-force sacrifice, and overload magic. |
-| Specialization | Vein-Circuit Reavers |
+| People | Magic |
+| Class | Warlock |
+| Subclass | Bloodwire Apostates |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #b368c9, secondary #7b47cf, pop #fff1e6 |
@@ -6304,66 +5606,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Vein-Circuit Reavers, male man in his twenties of Vietnamese-inspired features, circuit tattoos (Vietnamese heritage, Vietnamese). Body: lean and sinewy, medium size, agile. Expression: feral, sinewy grin. Pose: crossed blades mid-slash with circuits blazing. Wardrobe and carried gear (wearable or hand-held only): lean man with glowing circuit tattoos along both arms, a bladed capacitor in each hand mid-slash, thorn plates on the shoulders. Palette: main #b368c9 (about 60%), secondary #7b47cf (about 30%), pop #fff1e6 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Warlock, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Bloodwire Apostates, male man in his twenties of Vietnamese-inspired features, circuit tattoos (Vietnamese heritage, Vietnamese). Body: lean and sinewy, medium size, agile. Expression: feral, sinewy grin. Pose: crossed blades mid-slash with circuits blazing. Wardrobe and carried gear (wearable or hand-held only): lean man with glowing circuit tattoos along both arms, a bladed capacitor in each hand mid-slash, thorn plates on the shoulders. Palette: main #b368c9 (about 60%), secondary #7b47cf (about 30%), pop #fff1e6 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Warlock), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Vein-Circuit Reavers (Magic), with no people, creatures or figures and no text. Midground: a dead power substation with a humming transformer, cable trenches. Foreground: a generator hall and warning signs, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #b368c9 for the biggest glowing sources and surfaces, secondary #7b47cf for medium panels, banners and lights, pop #fff1e6 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Bloodwire Apostates (Magic), with no people, creatures or figures and no text. Midground: a dead power substation with a humming transformer, cable trenches. Foreground: a generator hall and warning signs, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #b368c9 for the biggest glowing sources and surfaces, secondary #7b47cf for medium panels, banners and lights, pop #fff1e6 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Overload Martyrs  `overloadmartyrs`
+### Mirror Oathbreakers  `mirroroathbreakers`
 
-*Stand clear.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | wiry and fierce; medium size; mobility: grounded |
-| Ethnicity + nationality | Cuban heritage, Cuban |
-| Wardrobe | wiry older woman wearing a heavy reactor backpack and a lead-lined vest, both arms thrown wide with cables sparking, a small tape deck at the chest |
-| Accessories | Reactor backpack, cable-wrapped arms, lead-lined vest, final-words tape |
-| Pose | both arms thrown wide as cables arc |
-| Facial expression | ecstatic, frightening grin |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Bloodwire Apostates — Blood-powered technology, life-force sacrifice, and overload magic. |
-| Specialization | Overload Martyrs |
-| Type | Blaster |
-| Combat or support | Combat |
-| Colors | main #4a3a5c, secondary #43aa8b, pop #277da1 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #4a3a5c / #43aa8b / #277da1 (about 20%) |
-| Midground | a cracked reactor hall with a glowing containment core, warning lights |
-| Foreground | scorched walls and a collapsed catwalk |
-| Character-relevant items | a cracked reactor hall with a glowing containment core, warning lights, scorched walls and a collapsed catwalk |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Overload Martyrs, female older woman in her sixties of Cuban-inspired features, wild gray hair (Cuban heritage, Cuban). Body: wiry and fierce, medium size, grounded. Expression: ecstatic, frightening grin. Pose: both arms thrown wide as cables arc. Wardrobe and carried gear (wearable or hand-held only): wiry older woman wearing a heavy reactor backpack and a lead-lined vest, both arms thrown wide with cables sparking, a small tape deck at the chest. Palette: main #4a3a5c (about 60%), secondary #43aa8b (about 30%), pop #277da1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Warlock, Bloodwire Apostates), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Overload Martyrs (Magic), with no people, creatures or figures and no text. Midground: a cracked reactor hall with a glowing containment core, warning lights. Foreground: scorched walls and a collapsed catwalk, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #4a3a5c for the biggest glowing sources and surfaces, secondary #43aa8b for medium panels, banners and lights, pop #277da1 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Mirror Oathbreakers
-
-### Glasswalk Assassins  `glasswalkassassins`
-
-*I'll be right behind you. I'm in the window.*
+*Reflection magic, duplicates, and deceptive illusions.*
 
 **Character**
 
@@ -6376,10 +5630,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Mirror-shard daggers, reflective half-mask, glass-panel coat, silver gloves |
 | Pose | stepping out of a reflection, dagger low |
 | Facial expression | impassive, only the eyes visible |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Mirror Oathbreakers — Reflection magic, duplicates, and deceptive illusions. |
-| Specialization | Glasswalk Assassins |
+| People | Magic |
+| Class | Warlock |
+| Subclass | Mirror Oathbreakers |
 | Type | Assassin |
 | Combat or support | Combat |
 | Colors | main #00343e, secondary #0077b6, pop #f72585 |
@@ -6397,111 +5650,21 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Glasswalk Assassins, male man in his thirties of Persian-inspired features, a mirrored half-mask (Persian heritage, Iranian). Body: slim and quick, medium size, phasing. Expression: impassive, only the eyes visible. Pose: stepping out of a reflection, dagger low. Wardrobe and carried gear (wearable or hand-held only): slim man in a coat of mirrored glass panels and a reflective half-mask, a mirror-shard dagger in each hand, caught mid-step. Palette: main #00343e (about 60%), secondary #0077b6 (about 30%), pop #f72585 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Warlock, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Mirror Oathbreakers, male man in his thirties of Persian-inspired features, a mirrored half-mask (Persian heritage, Iranian). Body: slim and quick, medium size, phasing. Expression: impassive, only the eyes visible. Pose: stepping out of a reflection, dagger low. Wardrobe and carried gear (wearable or hand-held only): slim man in a coat of mirrored glass panels and a reflective half-mask, a mirror-shard dagger in each hand, caught mid-step. Palette: main #00343e (about 60%), secondary #0077b6 (about 30%), pop #f72585 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Warlock), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Glasswalk Assassins (Magic), with no people, creatures or figures and no text. Midground: a hall of broken mirrors and dead screens, a shattered storefront window. Foreground: a mirror-lined corridor and glass shards on the floor, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #00343e for the biggest glowing sources and surfaces, secondary #0077b6 for medium panels, banners and lights, pop #f72585 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Shardbound Doppelgangers  `shardbounddoppelgangers`
-
-*Which of us is the real me?*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Nonbinary |
-| Physique | androgynous and balanced; medium size; mobility: agile |
-| Ethnicity + nationality | Ambiguous mixed heritage |
-| Wardrobe | androgynous fighter in a coat split in two colors with a crown of mirror shards, a cracked-glass sword raised, silver rings |
-| Accessories | Cracked-glass sword, shard crown, split-colored coat, silver rings |
-| Pose | sword raised in one hand, other hand splayed as copies echo |
-| Facial expression | calm, mirrored smirk |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Mirror Oathbreakers — Reflection magic, duplicates, and deceptive illusions. |
-| Specialization | Shardbound Doppelgangers |
-| Type | Fighter |
-| Combat or support | Combat |
-| Colors | main #4c5788, secondary #ffd166, pop #3a86ff |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #4c5788 / #ffd166 / #3a86ff (about 20%) |
-| Midground | a funhouse hall of fractured mirrors with a cracked glass floor |
-| Foreground | a mirror maze wall and a smashed vanity |
-| Character-relevant items | a funhouse hall of fractured mirrors with a cracked glass floor, a mirror maze wall and a smashed vanity |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Shardbound Doppelgangers, nonbinary androgynous adult of ambiguous heritage, split-colored hair (Ambiguous mixed heritage). Body: androgynous and balanced, medium size, agile. Expression: calm, mirrored smirk. Pose: sword raised in one hand, other hand splayed as copies echo. Wardrobe and carried gear (wearable or hand-held only): androgynous fighter in a coat split in two colors with a crown of mirror shards, a cracked-glass sword raised, silver rings. Palette: main #4c5788 (about 60%), secondary #ffd166 (about 30%), pop #3a86ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Warlock, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Shardbound Doppelgangers (Magic), with no people, creatures or figures and no text. Midground: a funhouse hall of fractured mirrors with a cracked glass floor. Foreground: a mirror maze wall and a smashed vanity, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #4c5788 for the biggest glowing sources and surfaces, secondary #ffd166 for medium panels, banners and lights, pop #3a86ff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Looking-Glass Prophets  `lookingglassprophets`
-
-*I saw how this ends. Reversed.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | poised and upright; medium size; mobility: grounded |
-| Ethnicity + nationality | Turkish heritage, Turkish |
-| Wardrobe | poised older woman in a long robe and a veil of mirrored beads, a hand mirror held at arm's length and a deck of prophecy cards in the other hand |
-| Accessories | Hand mirror, veil of mirrored beads, long robe, prophecy deck |
-| Pose | holding a hand mirror at arm's length, cards fanned |
-| Facial expression | grave, half-veiled knowing |
-| People | Magic › Warlock |
-| Class | Warlock (The Dangerous Renegade) |
-| Subclass | Mirror Oathbreakers — Reflection magic, duplicates, and deceptive illusions. |
-| Specialization | Looking-Glass Prophets |
-| Type | Enchanter |
-| Combat or support | Support |
-| Colors | main #450261, secondary #ffd6a5, pop #00b4d8 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #450261 / #ffd6a5 / #00b4d8 (about 20%) |
-| Midground | a fortune-teller's parlor with a huge gilded mirror, a crystal-less table |
-| Foreground | beaded curtains and a dead television altar |
-| Character-relevant items | a fortune-teller's parlor with a huge gilded mirror, a crystal-less table, beaded curtains and a dead television altar |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Looking-Glass Prophets, female older woman in her sixties of Turkish-inspired features, a veil of mirrored beads (Turkish heritage, Turkish). Body: poised and upright, medium size, grounded. Expression: grave, half-veiled knowing. Pose: holding a hand mirror at arm's length, cards fanned. Wardrobe and carried gear (wearable or hand-held only): poised older woman in a long robe and a veil of mirrored beads, a hand mirror held at arm's length and a deck of prophecy cards in the other hand. Palette: main #450261 (about 60%), secondary #ffd6a5 (about 30%), pop #00b4d8 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A enchanter (support) from the Magic people (Warlock, Mirror Oathbreakers), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Looking-Glass Prophets (Magic), with no people, creatures or figures and no text. Midground: a fortune-teller's parlor with a huge gilded mirror, a crystal-less table. Foreground: beaded curtains and a dead television altar, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #450261 for the biggest glowing sources and surfaces, secondary #ffd6a5 for medium panels, banners and lights, pop #00b4d8 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Mirror Oathbreakers (Magic), with no people, creatures or figures and no text. Midground: a hall of broken mirrors and dead screens, a shattered storefront window. Foreground: a mirror-lined corridor and glass shards on the floor, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #00343e for the biggest glowing sources and surfaces, secondary #0077b6 for medium panels, banners and lights, pop #f72585 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
 
-## Magic › Chronofractures
+## Magic › Mage
 
-### Second-Slip Duelists  `secondslipduelists`
+### Chronofractures  `chronofractures`
 
-*Let's try that again.*
+*Time manipulation, rewinds, and temporal displacement.*
 
 **Character**
 
@@ -6514,10 +5677,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Pocket watch, narrow blade, scuffed jacket, glowing second-hand charm |
 | Pose | leaning out of a dodge with a ghost-copy a step behind |
 | Facial expression | restless, half-smiling |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Chronofractures — Time manipulation, rewinds, and temporal displacement. |
-| Specialization | Second-Slip Duelists |
+| People | Magic |
+| Class | Mage |
+| Subclass | Chronofractures |
 | Type | Fighter |
 | Combat or support | Combat |
 | Colors | main #8c606f, secondary #fff3b0, pop #d00000 |
@@ -6535,111 +5697,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Second-Slip Duelists, male young man in his twenties of Nigerian-inspired features, close-cropped hair (Nigerian heritage, Nigerian). Body: lean and restless, medium size, agile. Expression: restless, half-smiling. Pose: leaning out of a dodge with a ghost-copy a step behind. Wardrobe and carried gear (wearable or hand-held only): lean young man in a scuffed jacket mid-dodge, a narrow blade drawn, a pocket watch swinging on a chain. Palette: main #8c606f (about 60%), secondary #fff3b0 (about 30%), pop #d00000 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Mage, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Chronofractures, male young man in his twenties of Nigerian-inspired features, close-cropped hair (Nigerian heritage, Nigerian). Body: lean and restless, medium size, agile. Expression: restless, half-smiling. Pose: leaning out of a dodge with a ghost-copy a step behind. Wardrobe and carried gear (wearable or hand-held only): lean young man in a scuffed jacket mid-dodge, a narrow blade drawn, a pocket watch swinging on a chain. Palette: main #8c606f (about 60%), secondary #fff3b0 (about 30%), pop #d00000 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A fighter (combat) from the Magic people (Mage), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Second-Slip Duelists (Magic), with no people, creatures or figures and no text. Midground: a stopped-clock plaza with a giant frozen clock tower. Foreground: a fountain of suspended droplets and a rain-slick street, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #8c606f for the biggest glowing sources and surfaces, secondary #fff3b0 for medium panels, banners and lights, pop #d00000 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Chronofractures (Magic), with no people, creatures or figures and no text. Midground: a stopped-clock plaza with a giant frozen clock tower. Foreground: a fountain of suspended droplets and a rain-slick street, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #8c606f for the biggest glowing sources and surfaces, secondary #fff3b0 for medium panels, banners and lights, pop #d00000 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Afterimage Runners  `afterimagerunners`
+### Mindweavers  `mindweavers`
 
-*I was already there.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | athletic and long-limbed; medium size; mobility: agile |
-| Ethnicity + nationality | Kenyan heritage, Kenyan |
-| Wardrobe | athletic woman in an open athletic jacket and a streaming scarf, in a full sprint, running wraps on the hands, no weapons |
-| Accessories | Running wraps, light-up trainers, slipstream scarf, athletic jacket |
-| Pose | full sprint with afterimages trailing behind |
-| Facial expression | exhilarated, hair streaming |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Chronofractures — Time manipulation, rewinds, and temporal displacement. |
-| Specialization | Afterimage Runners |
-| Type | Assassin |
-| Combat or support | Combat |
-| Colors | main #860145, secondary #ffd23f, pop #fff7c7 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #860145 / #ffd23f / #fff7c7 (about 20%) |
-| Midground | a long ruined track and field stadium with starting blocks, a scoreboard |
-| Foreground | floodlights and blurred stripes of light |
-| Character-relevant items | a long ruined track and field stadium with starting blocks, a scoreboard, floodlights and blurred stripes of light |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Afterimage Runners, female woman in her twenties of Kenyan-inspired features, a streaming scarf (Kenyan heritage, Kenyan). Body: athletic and long-limbed, medium size, agile. Expression: exhilarated, hair streaming. Pose: full sprint with afterimages trailing behind. Wardrobe and carried gear (wearable or hand-held only): athletic woman in an open athletic jacket and a streaming scarf, in a full sprint, running wraps on the hands, no weapons. Palette: main #860145 (about 60%), secondary #ffd23f (about 30%), pop #fff7c7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Mage, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Afterimage Runners (Magic), with no people, creatures or figures and no text. Midground: a long ruined track and field stadium with starting blocks, a scoreboard. Foreground: floodlights and blurred stripes of light, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #860145 for the biggest glowing sources and surfaces, secondary #ffd23f for medium panels, banners and lights, pop #fff7c7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Paradox Wardens  `paradoxwardens`
-
-*Nobody gets hurt in this moment.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Male |
-| Physique | tall and calm; medium size; mobility: grounded |
-| Ethnicity + nationality | Chinese heritage, Chinese |
-| Wardrobe | calm elderly man in a layered robe and a sash of clock hands, an hourglass staff in one hand and a stopped clock raised in the other |
-| Accessories | Stopped clock, hourglass staff, layered robe, sash of clock-hands |
-| Pose | one palm out in a halt, hourglass staff upright |
-| Facial expression | serene, deep-set calm |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Chronofractures — Time manipulation, rewinds, and temporal displacement. |
-| Specialization | Paradox Wardens |
-| Type | Support |
-| Combat or support | Support |
-| Colors | main #000491, secondary #e63946, pop #6f9dc7 |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #000491 / #e63946 / #6f9dc7 (about 20%) |
-| Midground | a clockwork vault with huge frozen gears, a wall of stopped clocks |
-| Foreground | a floating hourglass and drifting suspended dust |
-| Character-relevant items | a clockwork vault with huge frozen gears, a wall of stopped clocks, a floating hourglass and drifting suspended dust |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Paradox Wardens, male elderly man in his seventies of Chinese-inspired features, white beard (Chinese heritage, Chinese). Body: tall and calm, medium size, grounded. Expression: serene, deep-set calm. Pose: one palm out in a halt, hourglass staff upright. Wardrobe and carried gear (wearable or hand-held only): calm elderly man in a layered robe and a sash of clock hands, an hourglass staff in one hand and a stopped clock raised in the other. Palette: main #000491 (about 60%), secondary #e63946 (about 30%), pop #6f9dc7 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Magic people (Mage, Chronofractures), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Paradox Wardens (Magic), with no people, creatures or figures and no text. Midground: a clockwork vault with huge frozen gears, a wall of stopped clocks. Foreground: a floating hourglass and drifting suspended dust, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #000491 for the biggest glowing sources and surfaces, secondary #e63946 for medium panels, banners and lights, pop #6f9dc7 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Mindweavers
-
-### Thoughtblade Adepts  `thoughtbladeadepts`
-
-*A thought is sharp enough.*
+*Psychic magic, telekinesis, and mental manipulation.*
 
 **Character**
 
@@ -6652,10 +5721,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Wrapped fists, plain headband, floating-blade focus, simple robe |
 | Pose | one hand extended with three thought-blades floating |
 | Facial expression | composed, eyes shut |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Mindweavers — Psychic magic, telekinesis, and mental manipulation. |
-| Specialization | Thoughtblade Adepts |
+| People | Magic |
+| Class | Mage |
+| Subclass | Mindweavers |
 | Type | Caster |
 | Combat or support | Combat |
 | Colors | main #fe6eb5, secondary #fee440, pop #d8fdff |
@@ -6673,156 +5741,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Thoughtblade Adepts, male man in his thirties of Japanese-inspired features, a plain headband (Japanese heritage, Japanese). Body: slender and composed, medium size, grounded. Expression: composed, eyes shut. Pose: one hand extended with three thought-blades floating. Wardrobe and carried gear (wearable or hand-held only): slender man in a plain wrapped robe and a headband, one hand outstretched with a few thought-blades hovering near it, eyes shut. Palette: main #fe6eb5 (about 60%), secondary #fee440 (about 30%), pop #d8fdff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Mage, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Mindweavers, male man in his thirties of Japanese-inspired features, a plain headband (Japanese heritage, Japanese). Body: slender and composed, medium size, grounded. Expression: composed, eyes shut. Pose: one hand extended with three thought-blades floating. Wardrobe and carried gear (wearable or hand-held only): slender man in a plain wrapped robe and a headband, one hand outstretched with a few thought-blades hovering near it, eyes shut. Palette: main #fe6eb5 (about 60%), secondary #fee440 (about 30%), pop #d8fdff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A caster (combat) from the Magic people (Mage), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Thoughtblade Adepts (Magic), with no people, creatures or figures and no text. Midground: a bare stone dojo with paper screens, a rack of practice weapons. Foreground: a quiet pond and a single hanging lantern, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #fe6eb5 for the biggest glowing sources and surfaces, secondary #fee440 for medium panels, banners and lights, pop #d8fdff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Mindweavers (Magic), with no people, creatures or figures and no text. Midground: a bare stone dojo with paper screens, a rack of practice weapons. Foreground: a quiet pond and a single hanging lantern, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #fe6eb5 for the biggest glowing sources and surfaces, secondary #fee440 for medium panels, banners and lights, pop #d8fdff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```
 
-### Memorybreakers  `memorybreakers`
+### Fluxborn  `fluxborn`
 
-*Forget I said that.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | elegant and slim; medium size; mobility: grounded |
-| Ethnicity + nationality | French heritage, French |
-| Wardrobe | elegant older woman in a long coat and soft gloves, a cracked monocle over one eye, one hand raised with fingers spread as if unthreading a spool |
-| Accessories | Cracked monocle, memory locket, long coat, soft gloves |
-| Pose | unthreading a spool in the air with splayed fingers |
-| Facial expression | arch, faintly amused |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Mindweavers — Psychic magic, telekinesis, and mental manipulation. |
-| Specialization | Memorybreakers |
-| Type | Controller |
-| Combat or support | Combat |
-| Colors | main #ff8c42, secondary #8338ec, pop #fcf6bd |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #ff8c42 / #8338ec / #fcf6bd (about 20%) |
-| Midground | an archive of dusty photo albums and film reels, a projector throwing blank frames |
-| Foreground | a wall of framed faces with the glass cracked |
-| Character-relevant items | an archive of dusty photo albums and film reels, a projector throwing blank frames, a wall of framed faces with the glass cracked |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Memorybreakers, female older woman in her sixties of French-inspired features, a monocle (French heritage, French). Body: elegant and slim, medium size, grounded. Expression: arch, faintly amused. Pose: unthreading a spool in the air with splayed fingers. Wardrobe and carried gear (wearable or hand-held only): elegant older woman in a long coat and soft gloves, a cracked monocle over one eye, one hand raised with fingers spread as if unthreading a spool. Palette: main #ff8c42 (about 60%), secondary #8338ec (about 30%), pop #fcf6bd (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A controller (combat) from the Magic people (Mage, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Memorybreakers (Magic), with no people, creatures or figures and no text. Midground: an archive of dusty photo albums and film reels, a projector throwing blank frames. Foreground: a wall of framed faces with the glass cracked, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #ff8c42 for the biggest glowing sources and surfaces, secondary #8338ec for medium panels, banners and lights, pop #fcf6bd for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Willfield Guardians  `willfieldguardians`
-
-*You will not pass. Because I decided.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | broad and powerful; large size; mobility: grounded |
-| Ethnicity + nationality | Mongolian heritage, Mongolian |
-| Wardrobe | broad powerful woman in a plain armored coat and a rope belt, one gloved palm held out in front of her, feet braced wide |
-| Accessories | Plain armored coat, shield-hand glove, braced boots, rope belt |
-| Pose | palm out front pushing back the air, stance wide |
-| Facial expression | stubborn, jaw set |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Mindweavers — Psychic magic, telekinesis, and mental manipulation. |
-| Specialization | Willfield Guardians |
-| Type | Tank |
-| Combat or support | Combat |
-| Colors | main #f9d634, secondary #ef476f, pop #eef6ff |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #f9d634 / #ef476f / #eef6ff (about 20%) |
-| Midground | a narrow stone gate in a canyon with fallen rubble, a rope bridge |
-| Foreground | a collapsed barricade and a dust-filled corridor |
-| Character-relevant items | a narrow stone gate in a canyon with fallen rubble, a rope bridge, a collapsed barricade and a dust-filled corridor |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Willfield Guardians, female woman in her forties of Mongolian-inspired features, braced stance (Mongolian heritage, Mongolian). Body: broad and powerful, large size, grounded. Expression: stubborn, jaw set. Pose: palm out front pushing back the air, stance wide. Wardrobe and carried gear (wearable or hand-held only): broad powerful woman in a plain armored coat and a rope belt, one gloved palm held out in front of her, feet braced wide. Palette: main #f9d634 (about 60%), secondary #ef476f (about 30%), pop #eef6ff (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Mage, Mindweavers), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Willfield Guardians (Magic), with no people, creatures or figures and no text. Midground: a narrow stone gate in a canyon with fallen rubble, a rope bridge. Foreground: a collapsed barricade and a dust-filled corridor, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #f9d634 for the biggest glowing sources and surfaces, secondary #ef476f for medium panels, banners and lights, pop #eef6ff for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-
-## Magic › Fluxborn
-
-### Capacitor Hearts  `capacitorhearts`
-
-*Hit me. I'll remember it.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Male |
-| Physique | burly and bare-armed; large size; mobility: grounded |
-| Ethnicity + nationality | Haitian heritage, Haitian |
-| Wardrobe | burly bare-armed young man in an open vest with a glowing circuit pattern across the chest and forearms, braced mid-block with both fists raised |
-| Accessories | Plain vest, heat-sink gloves, wired belt, minimal boots |
-| Pose | braced with both fists up as sparks run off the shoulders |
-| Facial expression | calm, bright-eyed |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Fluxborn — Energy absorption, magical discharge, and resonance. |
-| Specialization | Capacitor Hearts |
-| Type | Tank |
-| Combat or support | Combat |
-| Colors | main #e26b50, secondary #ffd166, pop #fff5da |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #e26b50 / #ffd166 / #fff5da (about 20%) |
-| Midground | a broken wind-turbine farm with a dead substation, fallen power lines |
-| Foreground | a rusted pylon and a tangle of cables |
-| Character-relevant items | a broken wind-turbine farm with a dead substation, fallen power lines, a rusted pylon and a tangle of cables |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Capacitor Hearts, male young man in his twenties of Haitian-inspired features, glowing chest circuits (Haitian heritage, Haitian). Body: burly and bare-armed, large size, grounded. Expression: calm, bright-eyed. Pose: braced with both fists up as sparks run off the shoulders. Wardrobe and carried gear (wearable or hand-held only): burly bare-armed young man in an open vest with a glowing circuit pattern across the chest and forearms, braced mid-block with both fists raised. Palette: main #e26b50 (about 60%), secondary #ffd166 (about 30%), pop #fff5da (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A tank (combat) from the Magic people (Mage, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Capacitor Hearts (Magic), with no people, creatures or figures and no text. Midground: a broken wind-turbine farm with a dead substation, fallen power lines. Foreground: a rusted pylon and a tangle of cables, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #e26b50 for the biggest glowing sources and surfaces, secondary #ffd166 for medium panels, banners and lights, pop #fff5da for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Arcflash Strikers  `arcflashstrikers`
-
-*Blink and it is already over.*
+*Energy absorption, magical discharge, and resonance.*
 
 **Character**
 
@@ -6835,10 +5765,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Accessories | Insulated shoulder cape, sparkgap gloves, plain boots, wrapped knuckles |
 | Pose | mid-dash with lightning crackling in both hands |
 | Facial expression | wild, laughing |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Fluxborn — Energy absorption, magical discharge, and resonance. |
-| Specialization | Arcflash Strikers |
+| People | Magic |
+| Class | Mage |
+| Subclass | Fluxborn |
 | Type | Assassin |
 | Combat or support | Combat |
 | Colors | main #fffe64, secondary #ff4d6d, pop #fff0d1 |
@@ -6856,56 +5785,11 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Arcflash Strikers, nonbinary wiry person in their twenties of Peruvian-inspired features, short cropped hair (Peruvian heritage, Peruvian). Body: wiry and androgynous, medium size, agile. Expression: wild, laughing. Pose: mid-dash with lightning crackling in both hands. Wardrobe and carried gear (wearable or hand-held only): wiry person in a short insulated cape, both hands crackling with lightning, a line of scorched sparks trailing behind, no weapons. Palette: main #fffe64 (about 60%), secondary #ff4d6d (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Mage, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Fluxborn, nonbinary wiry person in their twenties of Peruvian-inspired features, short cropped hair (Peruvian heritage, Peruvian). Body: wiry and androgynous, medium size, agile. Expression: wild, laughing. Pose: mid-dash with lightning crackling in both hands. Wardrobe and carried gear (wearable or hand-held only): wiry person in a short insulated cape, both hands crackling with lightning, a line of scorched sparks trailing behind, no weapons. Palette: main #fffe64 (about 60%), secondary #ff4d6d (about 30%), pop #fff0d1 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A assassin (combat) from the Magic people (Mage), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**
 
 ```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Arcflash Strikers (Magic), with no people, creatures or figures and no text. Midground: a thunderstorm rooftop with a lightning-rod forest, scorched concrete. Foreground: a cracked water tank and arcing cables, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #fffe64 for the biggest glowing sources and surfaces, secondary #ff4d6d for medium panels, banners and lights, pop #fff0d1 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
-```
-
-### Resonance Breakers  `resonancebreakers`
-
-*I hum a note that ends buildings.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | stocky and thick-set; medium size; mobility: grounded |
-| Ethnicity + nationality | Korean heritage, South Korean |
-| Wardrobe | stocky middle-aged woman in a plain tunic and heavy boots with tuning-fork braces on both forearms, mouth open on a sustained note, shockwave rings spreading |
-| Accessories | Tuning-fork forearm braces, earplug lanyard, plain tunic, heavy boots |
-| Pose | arms out with tuning-fork braces as shockwave rings spread |
-| Facial expression | mouth open on a sustained note |
-| People | Magic › Mage |
-| Class | Mage (The Living Conduit) |
-| Subclass | Fluxborn — Energy absorption, magical discharge, and resonance. |
-| Specialization | Resonance Breakers |
-| Type | Blaster |
-| Combat or support | Combat |
-| Colors | main #402f7d, secondary #ffbe0b, pop #e4ffda |
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
-| Colors | wash #6b3fa6 (about 65%); accents #402f7d / #ffbe0b / #e4ffda (about 20%) |
-| Midground | a half-shattered cathedral of glass with cracked stained windows, hanging chandeliers |
-| Foreground | vibrating dust and a toppled organ |
-| Character-relevant items | a half-shattered cathedral of glass with cracked stained windows, hanging chandeliers, vibrating dust and a toppled organ |
-
-**DALL·E character prompt**
-
-```text
-Full-body character illustration of Resonance Breakers, female woman in her forties of Korean-inspired features, strong jaw (Korean heritage, South Korean). Body: stocky and thick-set, medium size, grounded. Expression: mouth open on a sustained note. Pose: arms out with tuning-fork braces as shockwave rings spread. Wardrobe and carried gear (wearable or hand-held only): stocky middle-aged woman in a plain tunic and heavy boots with tuning-fork braces on both forearms, mouth open on a sustained note, shockwave rings spreading. Palette: main #402f7d (about 60%), secondary #ffbe0b (about 30%), pop #e4ffda (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A blaster (combat) from the Magic people (Mage, Fluxborn), mature dark-age tone. 3:4 portrait, transparent background.
-```
-
-**DALL·E background prompt**
-
-```text
-Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Resonance Breakers (Magic), with no people, creatures or figures and no text. Midground: a half-shattered cathedral of glass with cracked stained windows, hanging chandeliers. Foreground: vibrating dust and a toppled organ, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #402f7d for the biggest glowing sources and surfaces, secondary #ffbe0b for medium panels, banners and lights, pop #e4ffda for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
+Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood. Empty environment for Fluxborn (Magic), with no people, creatures or figures and no text. Midground: a thunderstorm rooftop with a lightning-rod forest, scorched concrete. Foreground: a cracked water tank and arcing cables, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a VIOLET-washed painting; the people color #6b3fa6 washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main #fffe64 for the biggest glowing sources and surfaces, secondary #ff4d6d for medium panels, banners and lights, pop #fff0d1 for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.
 ```

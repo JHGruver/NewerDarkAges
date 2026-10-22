@@ -886,15 +886,6 @@ body.tile-hover::before { opacity: .45; } body::before { transition: opacity .6s
 .btn:active, .back-btn:active, .rf:active, .filter:active, .trow:active, .tab:active { transition-duration: .1s; }
 @media (prefers-reduced-motion: reduce) { .gc.done .cn, .gc.done .cs, .gc.done .gframe::before { animation: none !important; } }
 
-/* Magic: class headers (Wizard, Witch, Warlock, Mage) above their three subclasses */
-.gclass { flex: 1 0 100%; display: flex; align-items: baseline; gap: 12px; padding: 6px 0 2px; border-bottom: 1px solid color-mix(in srgb, var(--p2) 45%, transparent); margin-top: 8px; }
-.gclass:first-child { margin-top: 0; }
-.gclass b { font-family: var(--head); font-size: 1.05rem; letter-spacing: .1em; text-transform: uppercase; color: #fff; }
-.gclass span { font-family: var(--mono); font-size: .58rem; letter-spacing: .14em; text-transform: uppercase; color: var(--soft); }
-.tl .tclass { display: flex; flex-direction: column; gap: 1px; padding: 8px 4px 3px; border-bottom: 1px solid color-mix(in srgb, var(--p2) 40%, transparent); list-style: none; }
-.tl .tclass b { font-family: var(--head); font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: #fff; }
-.tl .tclass span { font-family: var(--mono); font-size: .5rem; letter-spacing: .14em; text-transform: uppercase; color: var(--soft); }
-
 /* view switch: vertical display (gallery) / horizontal view (details) */
 .gal-right { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
 .vswitch { display: inline-flex; border: 1px solid var(--edge); background: rgba(10, 10, 15, .55); backdrop-filter: blur(10px); flex: none; }
