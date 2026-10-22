@@ -57,7 +57,7 @@ const K = (id, t, done) => ({ id, t, done: !!done });
 window.PHASES = [
   {
     id: "p1", name: "Phase 1: The Project Website (V2)", status: "in-progress",
-    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 14 of 22 tasks are done; the rest is mostly art generation and balance.",
+    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 14 of 23 tasks are done; the rest is mostly art generation and balance.",
     tasks: [
       K("world", "New world, peoples, subclasses and specializations (8 peoples, 126 characters, 8 in 10 combat)", true),
       K("magic", "Magic people: four classes (Wizard, Witch, Warlock, Mage) with 12 subclass characters, Sticky Wizard included", true),
@@ -74,6 +74,7 @@ window.PHASES = [
       K("core", "Generate the core characters and backgrounds (8 done: one per people)", true),
       K("manual", "Monster Manual NPCs reassigned to the new peoples", true),
       K("allart", "Generate all 126 characters and their backgrounds (8 of 126 done)"),
+      K("siteart", "Generate the non-character site art (SITE-ASSETS.md, 67 assets: logo, crests, banners, textures, UI) and wire it in"),
       K("pipeline", "Script the image generation from CAST.md (API, transparent PNG, auto-resize)"),
       K("sticky", "Sticky Wizard (Slime-Sling Alchemists): art and credit review with Mike Mears"),
       K("stats", "Balance and stat sheet for each specialization"),
