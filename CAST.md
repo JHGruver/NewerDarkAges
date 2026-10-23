@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 12.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 11.
 
 ## Art direction in one screen
 
@@ -58,7 +58,7 @@ Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 chara
 | Pop color (10%) | #ffba08: the eyes, the Armored coupe and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
 | Art status | Done: `art/v2/human-interceptors.png` and `art/v2/human-interceptors-bg.jpg` |
-| Last vet | PASSED, overall 9/10 (attempt 1); A bold, highly readable design that matches the approved style and stands out, but could be simplified further for animation efficiency. |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -1828,7 +1828,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Pop color (10%) | #e9c46a: the eyes, the Hunting axe and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
 | Art status | Done: `art/v2/were-moonrunners.png` and `art/v2/were-moonrunners-bg.jpg` |
-| Last vet | NEEDS WORK, overall 10/10 (attempt 1); A highly successful, on-model portrait that matches the approved style and quality, with a dynamic pose and clear, readable design. |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -7776,8 +7776,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #e9c46a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #06d6a0: the eyes, the Starstone mallet and one small magical detail |
 | Natural base tones | Species skin and anatomy may use simplified, flat, muted neutral base tones. |
-| Art status | Done: `art/v2/eldritch-starstone.png` and `art/v2/eldritch-starstone-bg.jpg` |
-| Last vet | PASSED, overall 9/10 (attempt 1); A striking, distinctive design that fits the approved style and roster, with only minor tweaks needed for maximum clarity and polish. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 

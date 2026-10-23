@@ -613,87 +613,7 @@
    ],
    "charPrompt": "Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Interceptors, male being, character (Irish-Scottish heritage, Scottish), apparent age mid 40s.\nDESIGN FOR SILHOUETTE FIRST: wide fighting stance with the crowbar swung back over one shoulder; the Armored coupe and the ram-bar break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.\nBODY: wiry and hard-jawed, medium size, vehicle. POSE: wide fighting stance with the crowbar swung back over one shoulder. EXPRESSION: fierce, jaw set, one eyebrow cocked, stylized and expressive.\nWARDROBE AND HELD GEAR (worn or hand-held only): hard-jawed human driver in a spiked black leather jacket, driving gloves, goggles pushed up on the forehead and boots, one hand gripping a heavy tire-iron, the other fist wrapped in a spiked knuckle-duster.\nCOLOR (exact hex values, flat fills): main #d00000 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f8f9fa about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffba08 about 10%, used on the eyes, the Armored coupe and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).\nREQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.\nFORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.\nSOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.\nSAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.\nCOMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Human people, mature dark-age tone, no nudity, no gore.",
    "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Interceptors with no people, creatures, figures, silhouettes or text. Midground: an armored coupe with a spiked ram-bar and one glowing amber headlight parked at the lower-right, stacks of spare tires. Foreground: a fuel drum, a hand-painted convoy banner, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #d00000 for the biggest glowing sources and surfaces, secondary #f8f9fa for medium panels, banners and lights, pop #ffba08 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
-   "vet": {
-    "kind": "portrait",
-    "passed": true,
-    "overall": 9,
-    "style_match": 10,
-    "design_quality": 9,
-    "silhouette": 10,
-    "hard": [],
-    "jackFail": [],
-    "forbidden": [],
-    "sheet_issues": [],
-    "palette": {
-     "ok": true,
-     "note": "Main red (#d00000) is dominant in the coat and accents, secondary white (#f8f9fa) is used for highlights and undershirt, pop yellow (#ffba08) appears on goggles, knuckle-duster, and buckles. Black, white, and grey are used for base tones. No stray saturated colors."
-    },
-    "fixes": [
-     "Reduce the number of small metallic details and chains to further simplify the design for animation.",
-     "Clarify the jawline and facial structure to emphasize the 'hard-jawed' description.",
-     "Consider slightly exaggerating the fighting stance or crowbar swing for even more dynamic negative space."
-    ],
-    "summary": "A bold, highly readable design that matches the approved style and stands out, but could be simplified further for animation efficiency.",
-    "pixels": {
-     "size": [
-      825,
-      1100
-     ],
-     "transparent_share": 0.545,
-     "semi_alpha_share": 0.013,
-     "bbox_margin_pct": {
-      "left": 0.6,
-      "right": 0.8,
-      "top": 0.6,
-      "bottom": 0.4
-     },
-     "border_contact": 0,
-     "touches_edge": false,
-     "fill_ratio": 0.452,
-     "silhouette_pieces": 1,
-     "colors_for_95pct": 53,
-     "distinct_colors": 540,
-     "soft_gradient_share": 0.275,
-     "flat_share": 0.438,
-     "palette_coverage": {
-      "main": 0.185,
-      "secondary": 0.062,
-      "pop": 0.006
-     },
-     "foreign_saturated_share": 0,
-     "thumbnail_fill": 0.453
-    },
-    "jack": [
-     {
-      "q": 1,
-      "pass": true,
-      "note": "The silhouette is highly recognizable and distinct, with strong negative space around the arms, legs, and crowbar."
-     },
-     {
-      "q": 2,
-      "pass": true,
-      "note": "The character is constructed from large, flat, geometric shapes that would animate cleanly."
-     },
-     {
-      "q": 3,
-      "pass": true,
-      "note": "The design remains readable at thumbnail size, with clear pose and weapon."
-     },
-     {
-      "q": 4,
-      "pass": true,
-      "note": "Colors are flat, intentionally separated, and there are no gradients or painterly effects."
-     },
-     {
-      "q": 5,
-      "pass": true,
-      "note": "The character is distinctive due to exaggerated shapes, pose, and bold accessories, not surface detail."
-     }
-    ],
-    "attempt": 1,
-    "at": "2026-10-23T06:02:03.516Z",
-    "note": "vet-only"
-   }
+   "vet": null
   },
   {
    "nda": "002",
@@ -2163,87 +2083,7 @@
    ],
    "charPrompt": "Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Moonrunners, male being, character (wolf-kin (not human)), apparent age early 20s.\nDESIGN FOR SILHOUETTE FIRST: mid-leap, axe swinging toward the viewer; the Hunting axe and the throwing hatchets break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.\nBODY: lean and long-limbed, medium size, agile. POSE: mid-leap, axe swinging toward the viewer. EXPRESSION: snarling grin, stylized and expressive.\nWARDROBE AND HELD GEAR (worn or hand-held only): lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt.\nCOLOR (exact hex values, flat fills): main #e9ecef about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #264653 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e9c46a about 10%, used on the eyes, the Hunting axe and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).\nREQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.\nFORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.\nSOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.\nSAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.\nCOMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.",
    "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Moonrunners with no people, creatures, figures, silhouettes or text. Midground: a scrapyard war-den of rusted buses, a campfire barrel, a tire-wall palisade. Foreground: a painted war totem, a tall signal pole, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #e9ecef for the biggest glowing sources and surfaces, secondary #264653 for medium panels, banners and lights, pop #e9c46a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
-   "vet": {
-    "kind": "portrait",
-    "passed": false,
-    "overall": 10,
-    "style_match": 10,
-    "design_quality": 9,
-    "silhouette": 10,
-    "hard": [
-     "the figure touches or is cropped by the canvas edge"
-    ],
-    "jackFail": [],
-    "forbidden": [],
-    "sheet_issues": [],
-    "palette": {
-     "ok": true,
-     "note": "Main #e9ecef (fur, highlights), secondary #264653 (cloak, scarf), pop #e9c46a (axe, horn, buckles), plus black, white, and grey for base tones; no stray saturated colors."
-    },
-    "fixes": [
-     "Consider pushing the negative space between the axe and the body slightly more for even stronger weapon readability.",
-     "Slightly exaggerate the snarl or facial expression for maximum expressiveness if possible."
-    ],
-    "summary": "A highly successful, on-model portrait that matches the approved style and quality, with a dynamic pose and clear, readable design.",
-    "pixels": {
-     "size": [
-      825,
-      1100
-     ],
-     "transparent_share": 0.448,
-     "semi_alpha_share": 0.0149,
-     "bbox_margin_pct": {
-      "left": 0.2,
-      "right": 0,
-      "top": 0.1,
-      "bottom": 0
-     },
-     "touches_edge": true,
-     "fill_ratio": 0.538,
-     "silhouette_pieces": 1,
-     "colors_for_95pct": 59,
-     "distinct_colors": 460,
-     "soft_gradient_share": 0.29,
-     "flat_share": 0.426,
-     "palette_coverage": {
-      "main": 0.144,
-      "secondary": 0.196,
-      "pop": 0.009
-     },
-     "foreign_saturated_share": 0,
-     "thumbnail_fill": 0.552
-    },
-    "jack": [
-     {
-      "q": 1,
-      "pass": true,
-      "note": "The silhouette is strong, angular, and easily readable as a wolf-kin with a raised axe and dynamic pose."
-     },
-     {
-      "q": 2,
-      "pass": true,
-      "note": "The character is constructed from large, flat, geometric shapes with minimal contour lines, suitable for animation."
-     },
-     {
-      "q": 3,
-      "pass": true,
-      "note": "The design remains readable at thumbnail size; the pose, weapon, and key accessories are still identifiable."
-     },
-     {
-      "q": 4,
-      "pass": true,
-      "note": "Colors are flat, intentionally separated, and there are no gradients or painterly effects."
-     },
-     {
-      "q": 5,
-      "pass": true,
-      "note": "The character is distinctive through silhouette, pose, and exaggerated features, not surface detail."
-     }
-    ],
-    "attempt": 1,
-    "at": "2026-10-23T06:00:44.789Z",
-    "note": "vet-only"
-   }
+   "vet": null
   },
   {
    "nda": "026",
@@ -7178,10 +7018,7 @@
    "midground": "a field of tessellated starstone pillars, a half-built geometric tower",
    "foreground": "a surveying tripod, glowing prism pillars",
    "bgItems": "a field of tessellated starstone pillars, a half-built geometric tower, a surveying tripod, glowing prism pillars",
-   "art": {
-    "src": "art/v2/eldritch-starstone.png",
-    "bg": "art/v2/eldritch-starstone-bg.jpg"
-   },
+   "art": null,
    "look": "Barrel-bodied star-headed being with five radiating limbs holding a glowing prism, geometric stone pillars rising behind.",
    "summary": "Ancient builders who deploy geometric structures mid-battle. Starstone Architects raise walls, prisms and pylons that cut and trap enemies.",
    "lore": "Every structure is drawn from a fivefold plan older than language. The stones hum when they are right.",
@@ -7202,89 +7039,7 @@
    ],
    "charPrompt": "Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Starstone Architects, male being, an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 30s.\nDESIGN FOR SILHOUETTE FIRST: raising a starstone mallet, rod in another limb; the Starstone mallet and the surveying rod break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.\nBODY: barrel-bodied with five limbs, large size, grounded. POSE: raising a starstone mallet, rod in another limb. EXPRESSION: calm, five-pointed head tilted, stylized and expressive.\nWARDROBE AND HELD GEAR (worn or hand-held only): barrel-bodied star-headed Elder Thing with five radiating limbs holding a starstone mallet and a surveying rod, wing-clamps folded at the back.\nCOLOR (exact hex values, flat fills): main #8e44ad about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e9c46a about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, used on the eyes, the Starstone mallet and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).\nREQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.\nFORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.\nSOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.\nSAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.\nCOMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.",
    "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Starstone Architects with no people, creatures, figures, silhouettes or text. Midground: a field of tessellated starstone pillars, a half-built geometric tower. Foreground: a surveying tripod, glowing prism pillars, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #8e44ad for the biggest glowing sources and surfaces, secondary #e9c46a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
-   "vet": {
-    "kind": "portrait",
-    "passed": true,
-    "overall": 9,
-    "style_match": 9,
-    "design_quality": 9,
-    "silhouette": 10,
-    "hard": [],
-    "jackFail": [],
-    "forbidden": [],
-    "sheet_issues": [],
-    "palette": {
-     "ok": true,
-     "note": "Main #8e44ad (purple) dominates the body and limbs; secondary #e9c46a (gold) is used for belts, trim, and weapon details; pop #06d6a0 (cyan) is present in the gems and highlights; no stray saturated colors detected."
-    },
-    "fixes": [
-     "Increase the angular exaggeration of the torso ridges for even stronger geometric clarity.",
-     "Slightly simplify or clarify the belt and pouch area to avoid minor visual clutter.",
-     "Consider adding a touch more stark white highlight on the limbs or wings for extra pop, matching the reference's highlight intensity."
-    ],
-    "summary": "A striking, distinctive design that fits the approved style and roster, with only minor tweaks needed for maximum clarity and polish.",
-    "pixels": {
-     "size": [
-      733,
-      1100
-     ],
-     "transparent_share": 0.625,
-     "semi_alpha_share": 0.014,
-     "bbox_margin_pct": {
-      "left": 3.7,
-      "right": 4.2,
-      "top": 2.1,
-      "bottom": 3.6
-     },
-     "border_contact": 0,
-     "touches_edge": false,
-     "fill_ratio": 0.415,
-     "silhouette_pieces": 1,
-     "colors_for_95pct": 159,
-     "distinct_colors": 964,
-     "soft_gradient_share": 0.29,
-     "flat_share": 0.384,
-     "palette_coverage": {
-      "main": 0.068,
-      "secondary": 0.035,
-      "pop": 0.001
-     },
-     "foreign_saturated_share": 0.136,
-     "thumbnail_fill": 0.374
-    },
-    "jack": [
-     {
-      "q": 1,
-      "pass": true,
-      "note": "The silhouette is highly recognizable due to the unique star-shaped head, raised mallet, and five-limbed stance."
-     },
-     {
-      "q": 2,
-      "pass": true,
-      "note": "The character is constructed from large, simple geometric shapes that would animate well with minimal pieces."
-     },
-     {
-      "q": 3,
-      "pass": true,
-      "note": "The design remains readable at thumbnail size; the head, limbs, and props are clear."
-     },
-     {
-      "q": 4,
-      "pass": true,
-      "note": "Colors are flat, with strong separation between purple, gold, and cyan elements."
-     },
-     {
-      "q": 5,
-      "pass": true,
-      "note": "The character is distinctive through silhouette, pose, and head shape, not surface detail."
-     }
-    ],
-    "attempt": 1,
-    "accepted_attempt": 1,
-    "model": "gpt-image-1.5",
-    "quality": "medium",
-    "at": "2026-10-23T06:02:34.068Z"
-   }
+   "vet": null
   },
   {
    "nda": "107",
