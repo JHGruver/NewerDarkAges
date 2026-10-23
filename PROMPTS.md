@@ -164,15 +164,15 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ### Token Brokers
 
-*Support · Enchanter · colors #f8e777 / #06d6a0 / #282956 · background wash #d9a521*
+*Support · Enchanter · colors #f8e777 / #06d6a0 / #282956 · background wash #d9a521 · art already made*
 
 **Character prompt**
 
 ```text
 Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Token Brokers, male being, character (Lebanese heritage, Brazilian), apparent age late 50s.
-DESIGN FOR SILHOUETTE FIRST: flipping a coin with one hand, ledger tucked under the other arm; the Token bandolier and the calculator-gauntlet break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
-BODY: sharp and slight, medium size, grounded. POSE: flipping a coin with one hand, ledger tucked under the other arm. EXPRESSION: sly knowing smirk, stylized and expressive.
-WARDROBE AND HELD GEAR (worn or hand-held only): sharp human broker in a satin jacket with a bandolier of glowing tokens, a calculator-gauntlet on one forearm and a leather ledger under the other arm, one coin flipping in the hand.
+DESIGN FOR SILHOUETTE FIRST: standing in a relaxed contrapposto, flipping a coin with one raised hand, the ledger tucked under the other arm; the Token bandolier and the calculator-gauntlet break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
+BODY: sharp, lean and well-dressed, medium size, grounded. POSE: standing in a relaxed contrapposto, flipping a coin with one raised hand, the ledger tucked under the other arm. EXPRESSION: sly knowing smirk, stylized and expressive.
+WARDROBE AND HELD GEAR (worn or hand-held only): sharp, grey-bearded broker in his fifties with a waxed mustache and a streak of white in black hair, a long yellow coat with teal trim over a cream shirt, a teal sash, a bandolier of star-stamped gold tokens across the chest, a calculator-gauntlet on one forearm and a thick leather ledger under that arm, black pantaloons and buckled boots, one coin flipping in the raised hand.
 COLOR (exact hex values, flat fills): main #f8e777 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, used on the eyes, the Token bandolier and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.

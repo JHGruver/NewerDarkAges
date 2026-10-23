@@ -27,7 +27,7 @@ window.CHAR_META = {
   fuelpriests: T("blaster", "stocky, bearded and robed", "medium", "grounded"),
   joystick: T("fighter", "lean and precise", "medium", "agile"),
   pinball: T("blaster", "rangy and loose-limbed", "medium", "agile"),
-  tokenbrokers: T("enchanter", "sharp and slight", "medium", "grounded"),
+  tokenbrokers: T("enchanter", "sharp, lean and well-dressed", "medium", "grounded"),
   jammers: T("controller", "average build under a heavy pack", "medium", "grounded"),
   snipercaster: T("blaster", "lean marksman", "medium", "climbing"),
   latenightcallers: T("enchanter", "soft and relaxed", "medium", "grounded"),
