@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 18.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 19.
 
 ## Art direction in one screen
 
@@ -5899,7 +5899,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | regal and slim, a straight spine, a long gold-masked neck; medium size; mobility: agile |
 | Ethnicity + nationality | In life: Egyptian heritage, Egyptian |
 | Identity | female human |
-| Wardrobe | regal mummy in a golden mask and trailing wraps, a gilded scimitar in one hand and a bandage whip in the other |
+| Wardrobe | regal mummy duelist in a gold crested mask with a black headdress, a magenta tunic-dress with gold trim, a gold collar and sash, white bandage-wrapped arms and legs, pointed gold shoes, a curved teal scimitar raised in one hand and a long trailing bandage whip looping from the other |
 | Accessories | Gilded scimitar; gold mask; bandage whip |
 | Pose | balanced on one leg in a salute with the scimitar, the bandage whip trailing |
 | Facial expression | regal, unreadable |
@@ -5914,8 +5914,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #d4a017: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #0b6e4f: the eyes, the Gilded scimitar and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/undead-goldmaskduelists.png` and `art/v2/undead-goldmaskduelists-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -5940,7 +5940,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
 CHARACTER: Gold-Mask Duelists, female human (In life: Egyptian heritage, Egyptian), apparent age late 50s. regal and slim, a straight spine, a long gold-masked neck, medium size. Pose: balanced on one leg in a salute with the scimitar, the bandage whip trailing. Expression: regal, unreadable, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Gilded scimitar. SECOND ITEM, kept plain: gold mask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: regal mummy in a golden mask and trailing wraps, a gilded scimitar in one hand and a bandage whip in the other.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Gilded scimitar. SECOND ITEM, kept plain: gold mask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: regal mummy duelist in a gold crested mask with a black headdress, a magenta tunic-dress with gold trim, a gold collar and sash, white bandage-wrapped arms and legs, pointed gold shoes, a curved teal scimitar raised in one hand and a long trailing bandage whip looping from the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #c66d97 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #d4a017 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #0b6e4f about 10%, on the eyes, the Gilded scimitar and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
