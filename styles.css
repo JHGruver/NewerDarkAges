@@ -1118,3 +1118,28 @@ body[data-page="home"] .foot { display: none; }
   .three figcaption b { font-size: .8rem; letter-spacing: 0; } .three figcaption span { font-size: .5rem; letter-spacing: .12em; }
   .candle span { font-size: .42rem; letter-spacing: 0; } .candles { gap: 2px; }
 }
+
+/* ===== boot sequence: tune the dial to 88.1 while the art loads ===== */
+html.booting, html.booting body { overflow: hidden; }
+#boot { position: fixed; inset: 0; z-index: 300; background: #050507; display: grid; place-items: center; transition: opacity .8s ease, visibility .8s; }
+#boot.out { opacity: 0; visibility: hidden; pointer-events: none; }
+#bootstatic { position: absolute; inset: 0; width: 100%; height: 100%; image-rendering: pixelated; opacity: .5; mix-blend-mode: screen; transition: opacity .6s; }
+#boot.locked #bootstatic { opacity: .32; }
+#boot::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, transparent 35%, rgba(0, 0, 0, .8) 100%), repeating-linear-gradient(0deg, rgba(0, 0, 0, .22) 0 1px, transparent 1px 3px); }
+.boot-core { position: relative; z-index: 2; display: flex; flex-direction: column; align-items: center; gap: 18px; padding: 28px 36px; background: rgba(5, 5, 7, .72); border: 1px solid rgba(255, 255, 255, .14); backdrop-filter: blur(6px); min-width: min(440px, 86vw); }
+.boot-label, .boot-status { font-family: var(--mono); font-size: .66rem; letter-spacing: .34em; text-transform: uppercase; color: var(--soft); }
+.boot-status { color: var(--hot, #ff5fb0); min-height: 1em; } #boot.locked .boot-status { color: #ff4b4b; animation: lockBlink .3s steps(2) 3; }
+@keyframes lockBlink { 50% { opacity: .2; } }
+.boot-freq { display: flex; align-items: baseline; gap: 8px; font-family: var(--mono); } .boot-freq b { font-size: clamp(3rem, 12vw, 5.5rem); line-height: 1; color: #fff; text-shadow: 0 0 28px rgba(255, 95, 176, .7); font-variant-numeric: tabular-nums; letter-spacing: .02em; } .boot-freq small { color: var(--soft); font-size: .9rem; letter-spacing: .2em; }
+.boot-scale { position: relative; width: 100%; height: 22px; background: repeating-linear-gradient(90deg, rgba(255, 255, 255, .5) 0 1px, transparent 1px 4%), linear-gradient(rgba(255, 255, 255, .18), rgba(255, 255, 255, .18)) 0 70% / 100% 1px no-repeat; }
+.boot-scale i { position: absolute; top: -6px; left: 100%; width: 2px; height: 34px; margin-left: -1px; background: var(--hot, #ff5fb0); box-shadow: 0 0 14px var(--hot, #ff5fb0); }
+.boot-bars { display: flex; align-items: flex-end; gap: 4px; height: 26px; } .boot-bars i { width: 8px; height: calc(6px + var(--i) * 2.4px); background: rgba(255, 255, 255, .15); transition: background-color .2s; } .boot-bars i.on { background: var(--hot, #ff5fb0); box-shadow: 0 0 8px var(--hot, #ff5fb0); }
+.boot-skip { position: absolute; right: 18px; bottom: 18px; z-index: 3; background: transparent; border: 1px solid rgba(255, 255, 255, .25); color: var(--soft); font-family: var(--mono); font-size: .6rem; letter-spacing: .2em; text-transform: uppercase; padding: 7px 14px; cursor: pointer; transition: color .3s, border-color .3s; } .boot-skip:hover { color: #fff; border-color: #fff; }
+/* scroll hint intensifies when the viewer waits */
+.sg-hint { transition: opacity .6s ease, color .6s ease, transform .6s var(--ease); }
+.sg-hint.alert { color: #fff; transform: scale(1.35); letter-spacing: .34em; text-shadow: 0 0 18px var(--hot, #ff5fb0); animation: hintPulse .7s ease-in-out infinite; opacity: 1 !important; }
+.sg-hint.alert i { height: 70px; width: 2px; background: linear-gradient(var(--hot, #ff5fb0), transparent); animation-duration: .9s; box-shadow: 0 0 14px var(--hot, #ff5fb0); }
+@keyframes hintPulse { 50% { text-shadow: 0 0 34px var(--hot, #ff5fb0), 0 0 6px #fff; transform: scale(1.5); } }
+.tour-pill { position: fixed; left: 50%; bottom: 20px; z-index: 60; transform: translate(-50%, 20px); opacity: 0; display: flex; align-items: center; gap: 10px; padding: 8px 16px; background: rgba(8, 8, 11, .8); border: 1px solid var(--edge); backdrop-filter: blur(10px); font-family: var(--mono); font-size: .6rem; letter-spacing: .18em; text-transform: uppercase; color: #fff; transition: opacity .5s ease, transform .5s var(--ease); pointer-events: none; }
+.tour-pill.on { opacity: 1; transform: translate(-50%, 0); } .tour-pill span { color: var(--soft); } .tour-pill i { width: 8px; height: 8px; background: var(--hot, #ff5fb0); box-shadow: 0 0 10px var(--hot, #ff5fb0); animation: lockBlink 1.2s steps(2) infinite; }
+@media (max-width: 820px) { .tour-pill { bottom: 62px; } .tour-pill span { display: none; } }

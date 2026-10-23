@@ -49,6 +49,9 @@
     return "";
   }
 
+  // The boot sequence plays once per visit; the guided tour plays whenever the story is opened at the top.
+  const needBoot = () => { try { return !sessionStorage.getItem("nda-booted") && !matchMedia("(prefers-reduced-motion: reduce)").matches; } catch { return false; } };
+
   window.storyHome = function () {
     const { esc } = H();
     const ch = LORE.story.map((s, i) => `
@@ -61,7 +64,13 @@
         </div>
       </section>`).join("");
     const ticks = LORE.story.map((s, i) => `<button class="tick" data-go="ch-${s.id}" style="--y:${(i / (LORE.story.length - 1)) * 100}%" aria-label="${esc(s.kicker)}"><span>${esc(s.kicker)}</span></button>`).join("");
+    const boot = needBoot();
     return `<div class="story" id="story">
+      ${boot ? `<div id="boot" role="status" aria-live="polite"><canvas id="bootstatic" aria-hidden="true"></canvas><div class="boot-core">
+        <div class="boot-label">Acquiring signal</div><div class="boot-freq"><b id="bootfreq">108.0</b><small>FM</small></div>
+        <div class="boot-scale" aria-hidden="true"><i id="bootneedle"></i></div>
+        <div class="boot-bars" aria-hidden="true">${Array.from({ length: 9 }, (_, i) => `<i style="--i:${i}"></i>`).join("")}</div>
+        <div class="boot-status" id="bootstatus">Tuning</div></div><button class="boot-skip" id="bootskip">Skip</button></div>` : ""}
       <canvas id="static" aria-hidden="true"></canvas>
       <aside class="dial" aria-label="Story dial">
         <div class="readout"><b id="freq">88.1</b><small>FM</small></div>
@@ -145,7 +154,91 @@
       raf = requestAnimationFrame(frame);
     }
     root.addEventListener("click", (e) => { const t = e.target.closest("[data-go]"); if (t) { const el = document.getElementById(t.dataset.go); if (el) window.scrollTo({ top: el.offsetTop + root.offsetTop + 2, behavior: reduce ? "auto" : "smooth" }); } });
+
+    // ---------------------------------------------------------------- boot: tune the dial to 88.1 while the art loads
+    const bootEl = document.getElementById("boot");
+    let tourArmed = !bootEl;
+    const tourListeners = [];
+    function runBoot() {
+      const bf = document.getElementById("bootfreq"), bn = document.getElementById("bootneedle"), bs = document.getElementById("bootstatus");
+      const bars = [...bootEl.querySelectorAll(".boot-bars i")], bc = document.getElementById("bootstatic"), bx = bc.getContext("2d"); bc.width = 200; bc.height = 112;
+      document.documentElement.classList.add("booting"); window.scrollTo(0, 0);
+      const { NODE_ART } = H();
+      const urls = [...new Set([...Object.values(BG).map((b) => `${A}${b}.jpg`), ...["interceptors", "owlwings", "moonrunners", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing"].flatMap((c) => [NODE_ART[c].src, NODE_ART[c].bg]), `${A}logo-wordmark.png`])];
+      let loaded = 0; const done = () => { loaded++; };
+      urls.forEach((u) => { const im = new Image(); im.onload = im.onerror = done; im.src = u; });
+      const t0 = performance.now(), MIN = 2600; let finished = false, lockAt = 0, prog = 0;
+      const finish = () => {
+        if (finished) return; finished = true;
+        try { sessionStorage.setItem("nda-booted", "1"); } catch {}
+        bootEl.classList.add("out"); document.documentElement.classList.remove("booting");
+        setTimeout(() => { bootEl.remove(); startTour(); }, 900);
+      };
+      document.getElementById("bootskip").addEventListener("click", () => { lockAt = lockAt || performance.now(); finish(); });
+      (function tick(now) {
+        if (!bootEl.isConnected || finished) return;
+        const real = loaded / urls.length, t = Math.min(1, (now - t0) / MIN);
+        const target = Math.min(real, t); prog += (target - prog) * 0.12;
+        const e = prog * prog * (3 - 2 * prog);
+        const jitter = prog < 0.97 ? Math.sin(now / 55) * (1 - prog) * 2.2 : 0;
+        const f = 108 - (108 - 88.1) * e + jitter;
+        bf.textContent = Math.max(87.5, Math.min(108, f)).toFixed(1);
+        bn.style.left = (100 - ((f - 88.1) / (108 - 88.1)) * 100).toFixed(1) + "%";
+        bars.forEach((b, i) => b.classList.toggle("on", prog > (i + 1) / 10));
+        const img = bx.createImageData(200, 112), px = img.data, k = 255 * (0.35 + 0.65 * (1 - prog));
+        for (let i = 0; i < px.length; i += 4) { const v = (Math.random() * k) | 0; px[i] = px[i + 1] = px[i + 2] = v; px[i + 3] = 255; }
+        bx.putImageData(img, 0, 0);
+        if (prog > 0.985 && !lockAt) { lockAt = now; bf.textContent = "88.1"; bs.textContent = "Signal lost"; bootEl.classList.add("locked"); }
+        if (lockAt && now - lockAt > 650) { finish(); return; }
+        requestAnimationFrame(tick);
+      })(performance.now());
+    }
+
+    // ---------------------------------------------------------------- guided tour: nudge after 2s, autoscroll after 4s, then 5s per chapter
+    const hint = root.querySelector(".sg-hint");
+    let tourState = "off", tourTimers = [], tourRaf = 0, tourPill = null, programmatic = false;
+    const spanOf = (i) => { const c = chaps[i]; return { start: c.offsetTop + root.offsetTop, span: Math.max(1, c.offsetHeight - innerHeight) }; };
+    const stopTour = () => {
+      if (tourState === "off") return; tourState = "off";
+      tourTimers.forEach(clearTimeout); tourTimers = []; cancelAnimationFrame(tourRaf); programmatic = false;
+      if (hint) hint.classList.remove("alert"); if (tourPill) { tourPill.classList.remove("on"); const p = tourPill; setTimeout(() => p.remove(), 500); tourPill = null; }
+    };
+    const animateTo = (from, to, ms, ease, onDone) => {
+      const t0 = performance.now(); programmatic = true;
+      const step = (now) => {
+        if (tourState === "off") return;
+        const k = Math.min(1, (now - t0) / ms), e = ease ? (k < 0.5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2) : k;
+        window.scrollTo({ top: from + (to - from) * e, behavior: "instant" });
+        if (k < 1) tourRaf = requestAnimationFrame(step); else { programmatic = false; onDone && onDone(); }
+      };
+      tourRaf = requestAnimationFrame(step);
+    };
+    const playChapter = (i) => {
+      if (tourState === "off") return;
+      const last = chaps.length - 1, { start, span } = spanOf(i);
+      animateTo(scrollY, start + span * 0.3, i === 1 ? 1500 : 1100, true, () => {
+        if (tourState === "off") return;
+        if (i >= last) { stopTour(); return; }
+        // hold: drift slowly through the chapter so its scrubbed animation plays out over five seconds
+        animateTo(start + span * 0.3, start + span * 0.97, 5000, false, () => playChapter(i + 1));
+      });
+    };
+    function startTour() {
+      tourArmed = true;
+      if (reduce || scrollY > 40) return;
+      tourState = "wait";
+      tourTimers.push(setTimeout(() => { if (hint) hint.classList.add("alert"); }, 2000));
+      tourTimers.push(setTimeout(() => {
+        tourState = "run"; if (hint) hint.classList.remove("alert");
+        tourPill = document.createElement("div"); tourPill.className = "tour-pill"; tourPill.innerHTML = "<i></i>Guided tour <span>scroll or tap to take over</span>"; document.body.appendChild(tourPill); requestAnimationFrame(() => tourPill && tourPill.classList.add("on"));
+        playChapter(1);
+      }, 4000));
+    }
+    const userTook = (e) => { if (tourState === "off") return; if (e.type === "scroll" && programmatic) return; stopTour(); };
+    ["wheel", "touchstart", "keydown", "mousedown", "scroll"].forEach((ev) => { window.addEventListener(ev, userTook, { passive: true }); tourListeners.push(ev); });
+    if (bootEl) runBoot(); else startTour();
     frame();
-    return () => { running = false; cancelAnimationFrame(raf); if (ac) ac.close(); delete document.body.dataset.chapter; if (window.NDA3D) NDA3D.tint(null); };
+    return () => {
+      stopTour(); tourListeners.forEach((ev) => window.removeEventListener(ev, userTook)); document.documentElement.classList.remove("booting"); running = false; cancelAnimationFrame(raf); if (ac) ac.close(); delete document.body.dataset.chapter; if (window.NDA3D) NDA3D.tint(null); };
   };
 })();
