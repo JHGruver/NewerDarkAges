@@ -1,42 +1,109 @@
-// Rebuilds CAST.md (the cast bible with DALL·E prompts) from the site data. Run: node tools/build-cast.cjs
-const {leaves}=require('./load.cjs');
-const ROOT=require('path').join(__dirname,'..')+'/';
-require(ROOT+'data-cast.js');
-const fs=require('fs');
-const appSrc=fs.readFileSync(ROOT+'app.js','utf8');
-const ART={};[...appSrc.matchAll(/^  (\w+): \{ src: "([^"]+)", bg: "([^"]+)"/gm)].forEach(m=>ART[m[1]]={src:m[2],bg:m[3]});
-const herit=e=>{let m=/^N\/A \((.*)\)$/.exec(e);return m?'a '+m[1]:e};
-const SPORE=fs.readFileSync(ROOT+'SPORE-COVEN-PROMPTS.md','utf8').match(/```text\n([\s\S]*?)\n```/g).slice(0,2).map(x=>x.replace(/```text\n|\n```/g,''));
-const STICKY=fs.readFileSync(ROOT+'STICKY-WIZARD-PROMPTS.md','utf8').match(/```text\n([\s\S]*?)\n```/g).map(x=>x.replace(/```text\n|\n```/g,''));const A=leaves();
-const cap=s=>s[0].toUpperCase()+s.slice(1);
-const STYLE="Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise";
-const split=p=>p.split(/,\s*(?![^()]*\))/).map(x=>x.trim());
-const BG_STYLE="Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood";
-const out=[];
-const gc={};A.forEach(x=>{const c=CAST[x.l.id].gender;gc[c]=(gc[c]||0)+1});
-out.push(`# The Newer Dark Ages — Cast Bible\n\nGenerated from the site data. ${A.length} characters across ${GROUP_ORDER.length} peoples, ${A.reduce((n,x,i,a)=>n+(a[i-1]&&a[i-1].s===x.s?0:1),0)} subclasses.\n\n**Gender split:** ${Object.entries(gc).map(([k,v])=>k+" "+v).join(", ")}. **Combat/support:** ${A.filter(x=>x.l.role==="combat").length}/${A.filter(x=>x.l.role==="support").length}.\n\n## How to use the prompts\n\n- **Character prompts** ask for a single full-body figure, 3:4 portrait, transparent background. Use **gpt-image** (1024x1536) with \`background: "transparent"\` and output PNG for true alpha. DALL·E 3 (1024x1792) cannot output alpha: generate on a flat pure-white or pure-green backdrop and cut it out.\n- **Background prompts** are 16:9 (1536x1024 gpt-image, 1792x1024 DALL·E 3), contain no figures, and leave the lower center empty for the character.\n- Each prompt is self-contained and kept under 4000 characters (DALL·E limit). The four-color system: the people color washes the background; the character trio drives the character and the scene accents.\n- Hierarchy: People › Class › Subclass. Accessories list the full kit from the character sheet; anything too big to wear or carry (vehicles, turrets, stages) is drawn only in the background prompt.\n- Colors are hex values; paste them as written.\n`);
-let lastG="",lastS="";
-const issues=[];
-A.forEach(({gid,g,s,l})=>{
-  const c=CAST[l.id],m=CHAR_META[l.id],sp=ART_SPEC[l.id],t=TYPES[m.type],pc=PEOPLE_COLORS[gid];
-  if(g.id!==lastG){out.push(`\n---\n\n# ${g.name}  \n*People color: ${pc.name} ${g.color} (accent ${g.color2})*\n\n**Tagline:** ${g.tagline}  \n**Summary:** ${g.summary}  \n**Level names:** ${(g.levelNames||[]).join(" › ")||"n/a"}  \n**Classes:** ${g.subs.map(x=>x.name+" ("+x.subs.map(y=>y.name).join(", ")+")").join("; ")}  \n**Characters:** ${g.subs.reduce((n,x)=>n+x.subs.length,0)} (${g.subs.reduce((n,x)=>n+x.subs.filter(y=>y.role==="support").length,0)} support)  \n**Background setting:** ${PROMPTS.scene[gid]}  \n**Background wash:** ${pc.name} ${g.color}, about 65% of every background  \n`);lastG=g.id;lastS=""}
-  if(s.name!==lastS){out.push(`\n## ${g.name} › ${s.name}\n`);lastS=s.name}
-  const who=m.who?m.who:"";
-  const [a,b,d]=l.pal;
-  const ps=split(sp.p);const mid=ps.slice(0,Math.ceil(ps.length/2)).join(", "),fore=ps.slice(Math.ceil(ps.length/2)).join(", ")||ps[ps.length-1];
-  
-  let charPrompt=`Full-body character illustration of ${l.name}, ${who ? who : c.gender.toLowerCase() + " character"} (${herit(c.ethnicity)}). Body: ${m.physique}, ${m.size} size, ${m.move}. Expression: ${c.expression}. Pose: ${c.pose}. Wardrobe and carried gear (wearable or hand-held only): ${sp.w}. Palette: main ${a} (about 60%), secondary ${b} (about 30%), pop ${d} (about 10%). ${STYLE}. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A ${t.name.toLowerCase()} (${l.role}) from the ${g.name} people (${s.name}), mature dark-age tone. 3:4 portrait, transparent background.`;
-  let bgPrompt=`${BG_STYLE}. Empty environment for ${l.name} (${g.name}), with no people, creatures or figures and no text. Midground: ${mid}. Foreground: ${fore}, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand. Color: a ${pc.name.toUpperCase()}-washed painting; the people color ${g.color} washes about 65% of the image across sky, fog, ground and walls. Accents about 20%: main ${a} for the biggest glowing sources and surfaces, secondary ${b} for medium panels, banners and lights, pop ${d} for small sparks and glints. Composition: horizon at one-third height, moon upper-left, empty open space in the lower center for a standing character, props pushed to the left and right edges. 16:9 landscape.`;
-  if(l.id==="stickywizards"){charPrompt=STICKY[0];bgPrompt=STICKY[1]}
-  if(l.id==="sporecoven"){charPrompt=SPORE[0];bgPrompt=SPORE[1]}
-  if(charPrompt.length>3900||bgPrompt.length>3900)issues.push(l.id+" too long");
-  out.push(`### ${l.name}  \`${l.id}\`\n`);
-  out.push(`*${l.tagline}*\n`);
-  out.push(`**Character**\n\n| Field | Value |\n|---|---|\n| Gender | ${c.gender} |\n| Physique | ${m.physique}; ${m.size} size; mobility: ${m.move} |\n| Ethnicity + nationality | ${c.ethnicity.startsWith("N/A (")?herit(c.ethnicity).replace(/^a /,"")+" (not human: no ethnicity or nationality)":c.ethnicity} |\n| Wardrobe | ${sp.w} |\n| Accessories | ${Array.isArray(l.gear)?l.gear.join("; "):l.gear} |\n| Pose | ${c.pose} |\n| Facial expression | ${c.expression} |\n| People | ${g.name} |\n| Class | ${s.name} |\n| Subclass | ${l.name} |\n| Type | ${t.name} |\n| Combat or support | ${cap(l.role)} |\n| Art status | ${ART[l.id]?"Done: `"+ART[l.id].src+"` and `"+ART[l.id].bg+"`":"Not yet generated"} |\n| Colors | main ${a}, secondary ${b}, pop ${d} |\n`);
-  out.push(`**Background**\n\n| Field | Value |\n|---|---|\n| Background | ${BG_SCENE_TXT(gid)} |\n| Colors | wash ${g.color} (about 65%); accents ${a} / ${b} / ${d} (about 20%) |\n| Midground | ${mid} |\n| Foreground | ${fore} |\n| Character-relevant items | ${sp.p} |\n`);
-  out.push(`**DALL·E character prompt**\n\n\`\`\`text\n${charPrompt}\n\`\`\`\n`);
-  out.push(`**DALL·E background prompt**\n\n\`\`\`text\n${bgPrompt}\n\`\`\`\n`);
+// Rebuilds the cast bible from the site data and ART-DIRECTION: CAST.md (readable), CAST.json (data) and CAST.xlsx (spreadsheet).
+// Run: node tools/build-cast.cjs
+const { leaves } = require("./load.cjs");
+const ROOT = require("path").join(__dirname, "..") + "/";
+const fs = require("fs");
+require(ROOT + "data-cast.js");
+const AD = JSON.parse(fs.readFileSync(ROOT + "art-direction.json", "utf8"));
+const appSrc = fs.readFileSync(ROOT + "app.js", "utf8");
+const ART = {}; [...appSrc.matchAll(/^  (\w+): \{ src: "([^"]+)", bg: "([^"]+)"/gm)].forEach((m) => (ART[m[1]] = { src: m[2], bg: m[3] }));
+const blocks = (f) => (fs.existsSync(ROOT + f) ? [...fs.readFileSync(ROOT + f, "utf8").matchAll(/```text\n([\s\S]*?)\n```/g)].map((m) => m[1]) : []);
+const OVERRIDE = { stickywizards: blocks("STICKY-WIZARD-PROMPTS.md"), sporecoven: blocks("SPORE-COVEN-PROMPTS.md") };
+const herit = (e) => { const m = /^N\/A \((.*)\)$/.exec(e); return m ? "a " + m[1] : e; };
+const split = (p) => p.split(/,\s*(?![^()]*\))/).map((x) => x.trim()).filter(Boolean);
+const cap = (s) => s[0].toUpperCase() + s.slice(1);
+const A = leaves();
+const AGES = ["early 20s", "late 20s", "early 30s", "mid 30s", "late 30s", "early 40s", "mid 40s", "late 40s", "early 50s", "late 50s", "mid 60s", "early 70s"];
+const DECADE = { twenties: "mid 20s", thirties: "mid 30s", forties: "mid 40s", fifties: "mid 50s", sixties: "mid 60s", seventies: "early 70s", eighties: "late 70s" };
+function ageOf(id, name, who) {
+  const m = /in (?:his|her|their) (\w+ties)/.exec(who || ""); if (m && DECADE[m[1]]) return DECADE[m[1]];
+  if (/elderly|ancient|old /.test(who || "")) return "early 70s";
+  if (/Matriarch|Sage|Elder|Notar|Auditor|Historian|Archivist|Oracle/i.test(name)) return "mid 60s";
+  if (/Understudy|Dewdrop|Sprite|Imp|Rascal|Runner|Striker|Lurker/i.test(name)) return "early 20s";
+  let h = 0; for (const ch of id) h = (h * 31 + ch.charCodeAt(0)) >>> 0; return AGES[h % AGES.length];
+}
+const LORE_ = (() => { try { const ctx = { window: {} }; ctx.window = ctx; require("vm").createContext(ctx); for (const f of ["data-lore"]) require("vm").runInContext(fs.readFileSync(ROOT + f + ".js", "utf8"), ctx); return ctx.LORE; } catch { return null; } })();
+// what each Eldritch species looks like, so the prompt never has to guess
+const SPECIES_LOOK = { "Elder Thing": "an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings", "Mi-Go": "an alien fungoid-insectoid technologist: a segmented pinkish-grey body, a bulbous ridged head covered in short antenna tendrils instead of a face, four thin arms and a pair of large membranous wings", "Shoggoth": "a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself", "Deep One": "an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest", "Nightgaunt": "a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings", "Hound of Tindalos": "an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes" };
+
+/* ---------- prompt builders (shared rules from art-direction.json) ---------- */
+function charPrompt(r) {
+  return `Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: ${r.name}, ${r.identity} (${herit(r.ethnicity)}), apparent age ${r.age}.
+DESIGN FOR SILHOUETTE FIRST: ${r.silhouette}. Shape language: ${r.shape}.
+BODY: ${r.physique}, ${r.size} size, ${r.mobility}. POSE: ${r.pose}. EXPRESSION: ${r.expression}, stylized and expressive.
+WARDROBE AND HELD GEAR (worn or hand-held only): ${r.wardrobe}.
+COLOR (exact hex values, flat fills): main ${r.main} about 60%, used on ${r.mainUse}; secondary ${r.secondary} about 30%, used on ${r.secondaryUse}; pop ${r.pop} about 10%, used on ${r.popUse}. Black, white and neutral grey are also allowed. ${r.baseTones} No other saturated colors. Do not use ${r.peopleColor} on the character (it is reserved for the background).
+REQUIRED STYLE: ${AD.required.join("; ")}.
+FORBIDDEN: ${AD.forbidden.join("; ")}.
+SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
+COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A ${r.type} (${r.role.toLowerCase()}) of the ${r.people} people, mature dark-age tone, no nudity, no gore.`;
+}
+function bgPrompt(r) {
+  return `Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: ${r.scene}. An empty environment for ${r.name} with no people, creatures, figures, silhouettes or text. Midground: ${r.midground}. Foreground: ${r.foreground}, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a ${r.peopleColorName.toUpperCase()}-washed painting. The people color ${r.peopleColor} washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main ${r.main} for the biggest glowing sources and surfaces, secondary ${r.secondary} for medium panels, banners and lights, pop ${r.pop} for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.`;
+}
+
+/* ---------- one row per character ---------- */
+const rows = A.map(({ gid, g, s, l }, idx) => {
+  const c = CAST[l.id], m = CHAR_META[l.id], sp = ART_SPEC[l.id], t = TYPES[m.type], pc = PEOPLE_COLORS[gid];
+  const [a, b, d] = l.pal, gear = split(Array.isArray(l.gear) ? l.gear.join(", ") : l.gear);
+  const ps = split(sp.p), half = Math.ceil(ps.length / 2), nonHuman = c.ethnicity.startsWith("N/A (");
+  const r = {
+    nda: String(idx + 1).padStart(3, "0"), age: ageOf(l.id, l.name, m.who), id: l.id, name: l.name, tagline: l.tagline, people: g.name, peopleId: gid, cls: s.name, subclass: l.name, role: cap(l.role), type: t.name, typeKey: m.type,
+    gender: c.gender, ethnicity: nonHuman ? herit(c.ethnicity).replace(/^a /, "") + " (not human)" : c.ethnicity, identity: m.who ? m.who : c.gender.toLowerCase() + " " + (Object.keys(SPECIES_LOOK).find((k) => c.ethnicity.includes(k)) ? SPECIES_LOOK[Object.keys(SPECIES_LOOK).find((k) => c.ethnicity.includes(k))] : "character"),
+    physique: m.physique, size: m.size, mobility: m.move, expression: c.expression, pose: c.pose, wardrobe: sp.w, accessories: gear.join("; "),
+    shape: AD.shape[m.type], silhouette: `${c.pose}; the ${gear[0] || "signature gear"}${gear[1] ? " and the " + gear[1] : ""} break the outline so it reads instantly as a black shape`,
+    main: a, secondary: b, pop: d, mainUse: "the largest garment, armor, fur-marking or body areas", secondaryUse: "trim, sash, straps, secondary garment pieces and held gear", popUse: `the eyes, the ${gear[0] || "signature item"} and one small magical detail`,
+    baseTones: Object.keys(SPECIES_LOOK).find((k) => c.ethnicity.includes(k)) ? "Species skin and anatomy may use simplified, flat, muted neutral base tones." : nonHuman ? "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted." : "Natural skin tones are allowed but must be simplified, flat and muted.",
+    peopleColor: g.color, peopleColorName: pc.name, scene: PROMPTS.scene[gid], midground: ps.slice(0, half).join(", "), foreground: ps.slice(half).join(", ") || ps[ps.length - 1], bgItems: sp.p,
+    art: ART[l.id] ? { src: ART[l.id].src, bg: ART[l.id].bg } : null,
+    look: l.look, summary: l.summary, lore: l.lore, abilities: (l.abilities || []).join("\n"), strengths: (l.strengths || []).join("; "), weaknesses: (l.weaknesses || []).join("; "),
+    companion: /companion|pet |familiar|assistant at her|at (?:his|her|their) feet/i.test(sp.w) ? sp.w.match(/(?:a|an) [^;,]*(?:companion|pet|familiar|assistant)[^;,]*|at (?:his|her|their) feet [^;]*/i)?.[0] || "yes" : "",
+    lorePlace: LORE_ && LORE_.placements[gid] ? LORE_.placements[gid].place + ": " + (LORE_.placements[gid].subs[s.id] || "") : "",
+    nameOnSheet: l.name, fileChar: `art/v2/${gid}-${l.id}.png`, fileBg: `art/v2/${gid}-${l.id}-bg.jpg`,
+  };
+  r.jack = [
+    `Black-fill test: the silhouette must still read as ${r.silhouette.split(";")[0]}.`,
+    `Few large shapes: ${r.shape}; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).`,
+    `Thumbnail test: the ${gear[0] || "signature gear"} and the pose must be visible at 64 px.`,
+    `Flat colors: ${a} / ${b} / ${d} as separate flat shapes divided by black line; no gradients or glow.`,
+    `Distinctive without detail: identifiable by ${gear.slice(0, 2).join(" and ") || "its pose"} and the ${t.name.toLowerCase()} shape language.`,
+  ];
+  r.charPrompt = (OVERRIDE[l.id] && OVERRIDE[l.id][0]) || charPrompt(r);
+  r.bgPrompt = (OVERRIDE[l.id] && OVERRIDE[l.id][1]) || bgPrompt(r);
+  const vp = ROOT + "art/v2/" + (ART[l.id] ? ART[l.id].src.split("/").pop().replace(".png", "") : "none") + ".vet.json";
+  r.vet = fs.existsSync(vp) ? JSON.parse(fs.readFileSync(vp, "utf8")) : null;
+  return r;
 });
-function BG_SCENE_TXT(gid){return PROMPTS.scene[gid]}
-fs.writeFileSync(ROOT+'CAST.md',out.join("\n"));
-console.log("written",out.join("\n").length,"issues",issues);
+const issues = rows.filter((r) => r.charPrompt.length > 3950 || r.bgPrompt.length > 3950).map((r) => r.id + " prompt too long");
+
+/* ---------- CAST.json ---------- */
+fs.writeFileSync(ROOT + "CAST.json", JSON.stringify({ artDirection: AD, lore: LORE_ ? { logline: LORE_.logline, cast: LORE_.cast, placements: LORE_.placements, threads: LORE_.threads } : null, peoples: GROUP_ORDER.map((id) => ({ id, name: GROUP_DEFS[id].name, color: PEOPLE_COLORS[id].color, colorName: PEOPLE_COLORS[id].name, scene: PROMPTS.scene[id], tagline: GROUP_DEFS[id].tagline })), characters: rows }, null, 1));
+
+/* ---------- CAST.md ---------- */
+const o = [];
+const gc = {}; rows.forEach((r) => (gc[r.gender] = (gc[r.gender] || 0) + 1));
+o.push(`# The Newer Dark Ages: Cast Bible\n\nGenerated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). ${rows.length} characters across ${GROUP_ORDER.length} peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.\n\n**Gender split:** ${Object.entries(gc).map(([k, v]) => k + " " + v).join(", ")}. **Combat/support:** ${rows.filter((r) => r.role === "Combat").length}/${rows.filter((r) => r.role === "Support").length}. **With final art:** ${rows.filter((r) => r.art).length}.\n`);
+o.push(`## Art direction in one screen\n\n**Core principle: design for silhouette first, character second, detail last.** Samurai Jack flat geometry + Sin City heavy blacks + 1980s glam-gothic + salvaged retro-cyberpunk + classic fantasy.\n\n- **Required:** ${AD.required.join("; ")}.\n- **Forbidden:** ${AD.forbidden.join("; ")}.\n- **Colors:** exactly three accents per character: main about 60%, secondary about 30%, pop about 10%, plus black, white and grey. Exact hex, flat fills. The People background color is never a character color.\n- **The Samurai Jack check (every portrait must pass all five):** ${AD.jackCheck.map((q, i) => `(${i + 1}) ${q}`).join(" ")}\n\n## How to use the prompts\n\n- Characters: gpt-image-1.5, 1024x1536, transparent PNG. Backgrounds: gpt-image-2, 1536x1024. \`node tools/generate-character.mjs <id>\` does both, attaches the approved characters as style references, self-vets every attempt and retries.\n- Each prompt is self-contained and under 4000 characters. Hierarchy: People › Class › Subclass.\n`);
+let lastP = "", lastC = "";
+rows.forEach((r) => {
+  const g = GROUP_DEFS[r.peopleId];
+  if (r.peopleId !== lastP) { lastP = r.peopleId; lastC = ""; o.push(`\n---\n\n# ${g.name}\n*People color: ${r.peopleColorName} ${r.peopleColor}. Background setting: ${r.scene}.*\n\n**Tagline:** ${g.tagline}  \n**Classes:** ${g.subs.map((x) => x.name + " (" + x.subs.map((y) => y.name).join(", ") + ")").join("; ")}\n`); }
+  if (r.cls !== lastC) { lastC = r.cls; o.push(`\n## ${r.people} › ${r.cls}\n`); }
+  const v = r.vet ? `${r.vet.passed ? "PASSED" : "NEEDS WORK"}, overall ${r.vet.overall}/10 (attempt ${r.vet.attempt}); ${r.vet.summary}` : r.art ? "Final art accepted (made before the vetting pipeline)" : "Not yet generated";
+  o.push(`### ${r.name}  \`${r.id}\`\n\n*${r.tagline}*\n`);
+  o.push(`**Character**\n\n| Field | Value |\n|---|---|\n| Gender | ${r.gender} |\n| Physique | ${r.physique}; ${r.size} size; mobility: ${r.mobility} |\n| Ethnicity + nationality | ${r.ethnicity} |\n| Identity | ${r.identity} |\n| Wardrobe | ${r.wardrobe} |\n| Accessories | ${r.accessories} |\n| Pose | ${r.pose} |\n| Facial expression | ${r.expression} |\n| People | ${r.people} |\n| Class | ${r.cls} |\n| Subclass | ${r.subclass} |\n| Type | ${r.type} |\n| Combat or support | ${r.role} |\n| Silhouette hook | ${r.silhouette} |\n| Shape language | ${r.shape} |\n| Main color (60%) | ${r.main}: ${r.mainUse} |\n| Secondary color (30%) | ${r.secondary}: ${r.secondaryUse} |\n| Pop color (10%) | ${r.pop}: ${r.popUse} |\n| Natural base tones | ${r.baseTones} |\n| Art status | ${r.art ? "Done: \`" + r.art.src + "\` and \`" + r.art.bg + "\`" : "Not yet generated"} |\n| Last vet | ${v} |\n`);
+  o.push(`**Samurai Jack check (targets for this character)**\n\n${r.jack.map((x, i) => `${i + 1}. ${x}`).join("\n")}\n`);
+  o.push(`**Background**\n\n| Field | Value |\n|---|---|\n| Background | ${r.scene} |\n| Colors | wash ${r.peopleColor} (about 65%); accents ${r.main} / ${r.secondary} / ${r.pop} (about 20%) |\n| Midground | ${r.midground} |\n| Foreground | ${r.foreground} |\n| Character-relevant items | ${r.bgItems} |\n`);
+  o.push(`**Character prompt**\n\n\`\`\`text\n${r.charPrompt}\n\`\`\`\n`);
+  o.push(`**Background prompt**\n\n\`\`\`text\n${r.bgPrompt}\n\`\`\`\n`);
+});
+fs.writeFileSync(ROOT + "CAST.md", o.join("\n"));
+console.log("CAST.md + CAST.json written;", rows.length, "characters; issues:", issues);
+
+/* ---------- CAST.xlsx (needs the project venv: tools/.venv) ---------- */
+const py = ROOT + "tools/.venv/bin/python";
+if (fs.existsSync(py)) require("child_process").execFileSync(py, [ROOT + "tools/build-cast-xlsx.py"], { stdio: "inherit" });
+else console.log("(skipped CAST.xlsx: create the venv with: python3 -m venv tools/.venv && tools/.venv/bin/pip install openpyxl pillow numpy scipy)");

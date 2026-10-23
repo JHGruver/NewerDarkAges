@@ -26,3 +26,21 @@
 - **Variations worth trying:** (1) as written, (2) swap "melancholy but cool" for "tense and mysterious" for the story pages, (3) "darker, slower, 72 BPM, more pads and fewer drums" for the Lore page.
 - **Optional extra, 5 to 8 seconds:** "an old analog radio tuning sweep: static, a rising whistle, a click, and a warm hum settling onto a station" for the moment the static becomes the music.
 - **File format:** MP3, 192 kbps or higher, stereo. Drop it in `audio/` and tell me the filenames.
+
+---
+
+## Follow-up prompts (second tracks)
+
+The first track ("Last Game Before Dawn") is the main theme. These three are optional extras. Save them as `audio/story.mp3`, `audio/lore.mp3` and `audio/tuning.mp3` and tell me, and I'll wire them in.
+
+### A. Story track (tense and mysterious, for the scrolling home story)
+
+> Instrumental dark ambient synthwave with a slow pulsing beat, 72 BPM, D minor. Cold analog pads, a distant detuned synth drone, a sparse repeating four-note arpeggio on a glassy FM bell, a heartbeat-like sub kick, brushed noise hi-hats, tape hiss and radio static texture, faint far-away shortwave whispers of tuning and morse-like blips (no words). A sense of a lost broadcast across a ruined world: tense, mysterious, slowly building over 2 minutes, never loud. Ends the way it begins so it loops. No vocals.
+
+### B. Lore page track (calm and reflective)
+
+> Instrumental slow 1980s electronic ambient with soft modern beats, 70 BPM, A minor. Warm Juno-style pads, a gentle Rhodes-like electric piano, a slow melodic bell motif, soft brushed snare and a very light kick, vinyl crackle and rain, a quiet sense of history and loss, like reading old documents by candlelight in a dead radio station. Quiet, spacious, loopable, no vocals.
+
+### C. Tuning sweep (5 to 8 seconds, a sound effect)
+
+> An old analog radio tuning sweep: bursts of static, a rising and falling whistle as the dial turns, a soft click, then a warm hum settling onto a clear station with a faint swell of synth pads. Short, 6 seconds, no voices, no music beat.

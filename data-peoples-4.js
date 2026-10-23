@@ -108,7 +108,7 @@ GROUP_DEFS.eldritch = {
           ["Raise geometric barriers and traps", "Strong terrain control"], ["Slow to build", "Stationary when casting"],
           ["Star Prism: erect a beam-splitting pillar", "Fivefold Wall: raise a barricade", "Tessellate: lock enemies in a geometric cage"],
           "Starstone mallet, surveying rod, tessellation tablets, wing-clamps",
-          "Barrel-bodied star-headed being with five radiating limbs holding a glowing prism, geometric stone pillars rising behind.", ["#3b2b00", "#06d6a0", "#2896bf"]),
+          "Barrel-bodied star-headed being with five radiating limbs holding a glowing prism, geometric stone pillars rising behind.", ["#8e44ad", "#e9c46a", "#06d6a0"]),
         L("fossilscript", "Fossil-Script Historians", "scroll-text", "support", "It's all written down. In rock.",
           "Archaeologists who read the old world's strata. Fossil-Script Historians reveal weaknesses, recover lost abilities and teach allies forgotten techniques.",
           "They carry a brush, a chisel and the patience to read a mountain.",
