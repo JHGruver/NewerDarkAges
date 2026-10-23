@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 36.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 37.
 
 ## Art direction in one screen
 
@@ -4329,7 +4329,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | translucent and lean; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Haitian heritage, Haitian |
 | Identity | male human |
-| Wardrobe | pale translucent ghost wrapped in a cloak of TV static, crackling gauntlets with antenna blades on the forearms, a cable trailing as a tail |
+| Wardrobe | angular ghost assassin in a ragged teal hooded cloak torn into glitch-block shapes with magenta trim and lightning marks, a white bird-skull mask with a black head-wrap, a magenta bow sash, magenta-and-black gauntlets with long cream antenna blades on each forearm, a black power-cable tail ending in a plug, magenta-trimmed boots |
 | Accessories | Antenna blades; static cloak; crackling gauntlets; cable tail |
 | Pose | mid-lunge with blade-claws crossed, cable tail trailing |
 | Facial expression | blank, hollow mask-face |
@@ -4370,7 +4370,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
 CHARACTER: Static Wraiths, male human (In life: Haitian heritage, Haitian), apparent age mid 60s. translucent and lean, medium size. Pose: mid-lunge with blade-claws crossed, cable tail trailing. Expression: blank, hollow mask-face, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Antenna blades. SECOND ITEM, kept plain: static cloak. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pale translucent ghost wrapped in a cloak of TV static, crackling gauntlets with antenna blades on the forearms, a cable trailing as a tail.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Antenna blades. SECOND ITEM, kept plain: static cloak. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: angular ghost assassin in a ragged teal hooded cloak torn into glitch-block shapes with magenta trim and lightning marks, a white bird-skull mask with a black head-wrap, a magenta bow sash, magenta-and-black gauntlets with long cream antenna blades on each forearm, a black power-cable tail ending in a plug, magenta-trimmed boots.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #076982 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff5da about 10%, on the eyes, the Antenna blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
@@ -4399,7 +4399,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | very tall and striped like a lighthouse, a flat head, a broadcast-bar cape; large size; mobility: phasing |
 | Ethnicity + nationality | In life: Welsh heritage, Welsh |
 | Identity | nonbinary human |
-| Wardrobe | tall ghost with a striped color-bar face and a TV-tube visor, a prism lens in one hand, a small color-bar shield on the other arm, an antenna on the head |
+| Wardrobe | tall, thin ghost seer with a color-bar striped face and glowing red eyes under a wide conical hat topped with an antenna, an orange long coat with blue trim and a flowing color-bar cape, a belt tag of color bars, blue boots, a large color-bar TV-test-card shield on one arm and a faceted prism held up in the other hand beaming a rainbow ray |
 | Accessories | Prism lens; color-bar shield; broadcast antenna; TV-head visor |
 | Pose | gliding forward with the color-bar shield square in front and a prism lens raised in the other hand |
 | Facial expression | serene, striped face unmoving |
@@ -4414,8 +4414,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #3a86ff: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #e63946: the eyes, the Prism lens and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/ghost-testpattern.png` and `art/v2/ghost-testpattern-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -4440,7 +4440,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
 CHARACTER: Test-Pattern Seers, nonbinary human (In life: Welsh heritage, Welsh), apparent age mid 60s. very tall and striped like a lighthouse, a flat head, a broadcast-bar cape, large size. Pose: gliding forward with the color-bar shield square in front and a prism lens raised in the other hand. Expression: serene, striped face unmoving, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prism lens. SECOND ITEM, kept plain: color-bar shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall ghost with a striped color-bar face and a TV-tube visor, a prism lens in one hand, a small color-bar shield on the other arm, an antenna on the head.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prism lens. SECOND ITEM, kept plain: color-bar shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall, thin ghost seer with a color-bar striped face and glowing red eyes under a wide conical hat topped with an antenna, an orange long coat with blue trim and a flowing color-bar cape, a belt tag of color bars, blue boots, a large color-bar TV-test-card shield on one arm and a faceted prism held up in the other hand beaming a rainbow ray.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ce8106 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3a86ff about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e63946 about 10%, on the eyes, the Prism lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.

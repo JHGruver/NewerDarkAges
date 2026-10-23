@@ -73,7 +73,7 @@ window.PHASES = [
       K("deploy", "GitHub Pages deploy from main", true),
       K("core", "Generate the core characters and backgrounds (done: one per people, plus the Sticky Wizard)", true),
       K("manual", "Monster Manual NPCs reassigned to the new peoples", true),
-      K("allart", "Generate all 126 characters and their backgrounds (36 of 126 done)"),
+      K("allart", "Generate all 126 characters and their backgrounds (37 of 126 done)"),
       K("siteart", "Site art, part 1 (done): logo, wordmark, 8 crests, 4 Magic sigils, 9 type icons, textures, UI frames, placeholder tile. Part 2 (todo): banners, region plates, story panels, share image, world map", true),
       K("siteart2", "Site art, part 2: painted scenes from SITE-ASSETS.md (hero, regions, banners, story, map, headers) and wire them in"),
       K("pipeline", "Script the image generation from CAST.md (API, transparent PNG, auto-resize)"),
