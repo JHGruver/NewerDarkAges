@@ -85,7 +85,7 @@ window.CAST = {
   rattlecannon: C("Female", "In life: Ghanaian heritage, Ghanaian", "grinning, jaw unhinged", "crouched on one knee firing a forearm cannon in a spray of bone"),
   drummajor: C("Male", "In life: Cuban heritage, Cuban", "proud, plumed grin", "high-stepping in a march with the baton raised over a war-drum on a strap"),
   demolition: C("Male", "In life: Polish heritage, Polish-American", "slack, steady stare", "wound up for a full swing, the torso twisted back and the sledgehammer behind"),
-  wreckinglumber: C("Male", "In life: Samoan heritage, Samoan", "vacant, patient", "spinning a chained wrecking ball in a wide arc"),
+  wreckinglumber: C("Male", "In life: Samoan heritage, Samoan", "stoic, heavy-lidded stare", "wide planted stance, one huge arm swinging the chained wrecking ball in a big loop overhead"),
   shopstewards: C("Female", "In life: Italian-American heritage, American", "wry, bureaucratic smirk", "leaning an elbow on a planted picket sign, the clipboard held to the chest, a hip thrown out"),
   soulnotaries: C("Male", "In life: Egyptian heritage, Egyptian", "pursed, fussy", "slamming a huge stamp down on a glowing contract in a great overhead arc"),
   phylacteryauditors: C("Female", "In life: Chinese heritage, Chinese", "suspicious squint", "peering through a soul-lens at an unseen jar with the body twisted, a crowbar resting over one shoulder"),
