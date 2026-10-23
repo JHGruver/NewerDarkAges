@@ -942,8 +942,6 @@ body.viewing #vn::before { content: ""; position: fixed; inset: 0; z-index: 60; 
 .hero-min::before { content: ""; position: absolute; right: 0; top: 0; width: 38%; height: 70%; background: url("art/site/tex-halftone.png") 100% 0 / 260px; opacity: .1; mask-image: linear-gradient(225deg, #000, transparent 70%); -webkit-mask-image: linear-gradient(225deg, #000, transparent 70%); pointer-events: none; }
 .hero-min::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px; background: url("art/site/tex-synth-grid.png") 50% 100% / 760px auto no-repeat; opacity: .85; pointer-events: none; }
 .hero-min > * { position: relative; z-index: 1; }
-/* section divider */
-.block + .block::before { content: ""; display: block; height: 30px; max-width: 560px; margin: 0 auto 22px; background: url("art/site/divider.png") center / contain no-repeat; opacity: .85; }
 /* plaque frame */
 .vn-plaque { background: url("art/site/plaque-frame.png") center / 100% 100% no-repeat, rgba(8, 8, 11, .6); border: 0; padding: 20px 38px 20px 30px; box-shadow: none; }
 /* unfinished characters share one muted placeholder painting */
