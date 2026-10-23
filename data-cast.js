@@ -75,7 +75,7 @@ window.CAST = {
   cabinetspirits: C("Male", "In life: Japanese heritage, Japanese", "blank pixel grin on a screen-face", "marching stiffly while firing a stream of sprites from both pixel gauntlets"),
   hardwaresurgeons: C("Female", "In life: Indian heritage, Indian", "curious, tilted head", "leaning far forward over a device with the probe extended, jumper cables trailing from the back"),
   lastdance: C("Female", "In life: Argentine heritage, Argentine", "dreamy, lost in the music", "caught mid grand jete with the party blade swept overhead"),
-  wakewardens: C("Male", "In life: Irish heritage, Irish", "gentle, heavy-lidded", "kneeling in a hush with the candle lantern held low, the funeral bell ringing at the hip"),
+  wakewardens: C("Male", "In life: Irish heritage, Irish", "sorrowful, heavy-lidded", "walking slowly with the head bowed, the candle lantern held low in one hand and the funeral bell hanging from the other"),
   redialwraiths: C("Female", "In life: Korean heritage, South Korean", "tense, repeating stare", "cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand"),
   highwaybanshees: C("Female", "Navajo heritage, American", "mouth open mid-wail, head thrown back", "leaning back with the head thrown up in a wail, one arm out holding the lantern, the other raising a flare high"),
   billboardhaunts: C("Male", "In life: American advertising-era smile", "fixed, painted grin", "towering with the neon-tube arms spread wide"),
