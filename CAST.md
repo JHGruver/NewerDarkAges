@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 33.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 34.
 
 ## Art direction in one screen
 
@@ -4612,27 +4612,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | blocky and square, a monitor head, a cube torso, stiff limbs; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Japanese heritage, Japanese |
 | Identity | male human |
-| Wardrobe | ghost with a CRT monitor for a head and pixelated limbs, joystick staff in one hand, a score-ribbon across the chest, pixel-block gauntlets |
+| Wardrobe | ghost with a purple CRT monitor head showing a gold pixel smiley and two teal antenna ears, a purple long coat with teal trim, a teal bandolier strap with a belt buckle, black cables looping from the back, a joystick staff slung on the back, huge purple pixel-block gauntlets blasting streams of gold pixels from both fists, purple-and-teal boots |
 | Accessories | Pixel gauntlets; joystick staff; CRT-head; score-ribbon |
-| Pose | marching stiffly while firing a stream of sprites from both pixel gauntlets |
+| Pose | wide stance, both pixel gauntlets thrust out to the sides firing streams of gold pixels, the joystick staff slung behind |
 | Facial expression | blank pixel grin on a screen-face |
 | People | Ghost |
 | Class | Hollow Machines |
 | Subclass | Cabinet Spirits |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | marching stiffly while firing a stream of sprites from both pixel gauntlets; the Pixel gauntlets and the joystick staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide stance, both pixel gauntlets thrust out to the sides firing streams of gold pixels, the joystick staff slung behind; the Pixel gauntlets and the joystick staff break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #795ef1: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #00f5d4: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ffd166: the eyes, the Pixel gauntlets and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/ghost-cabinetspirits.png` and `art/v2/ghost-cabinetspirits-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as marching stiffly while firing a stream of sprites from both pixel gauntlets.
+1. Black-fill test: the silhouette must still read as wide stance, both pixel gauntlets thrust out to the sides firing streams of gold pixels, the joystick staff slung behind.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Pixel gauntlets and the pose must be visible at 64 px.
 4. Flat colors: #795ef1 / #00f5d4 / #ffd166 as separate flat shapes divided by black line; no gradients or glow.
@@ -4652,8 +4652,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Cabinet Spirits, male human (In life: Japanese heritage, Japanese), apparent age early 30s. blocky and square, a monitor head, a cube torso, stiff limbs, medium size. Pose: marching stiffly while firing a stream of sprites from both pixel gauntlets. Expression: blank pixel grin on a screen-face, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pixel gauntlets. SECOND ITEM, kept plain: joystick staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ghost with a CRT monitor for a head and pixelated limbs, joystick staff in one hand, a score-ribbon across the chest, pixel-block gauntlets.
+CHARACTER: Cabinet Spirits, male human (In life: Japanese heritage, Japanese), apparent age early 30s. blocky and square, a monitor head, a cube torso, stiff limbs, medium size. Pose: wide stance, both pixel gauntlets thrust out to the sides firing streams of gold pixels, the joystick staff slung behind. Expression: blank pixel grin on a screen-face, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pixel gauntlets. SECOND ITEM, kept plain: joystick staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ghost with a purple CRT monitor head showing a gold pixel smiley and two teal antenna ears, a purple long coat with teal trim, a teal bandolier strap with a belt buckle, black cables looping from the back, a joystick staff slung on the back, huge purple pixel-block gauntlets blasting streams of gold pixels from both fists, purple-and-teal boots.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #795ef1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00f5d4 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd166 about 10%, on the eyes, the Pixel gauntlets and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
