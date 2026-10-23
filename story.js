@@ -75,6 +75,7 @@
       <aside class="dial" aria-label="Story dial">
         <div class="readout"><b id="freq">88.1</b><small>FM</small></div>
         <div class="track">${ticks}<i class="needle" id="needle"></i></div>
+        <button class="snd replay" id="replay" title="Replay the intro">${H().ic("rotate")}<span>Replay intro</span></button>
         <button class="snd" id="snd" aria-pressed="false" title="Static sound">${H().ic("radio")}<span>Sound off</span></button>
       </aside>
       <a class="skip" href="#/characters">Skip to characters →</a>
@@ -92,7 +93,7 @@
     const lights = [...root.querySelectorAll(".city-lights i")];
     const candleEls = [...root.querySelectorAll(".candle")];
     const canvas = document.getElementById("static"), cx = canvas.getContext("2d"); canvas.width = 220; canvas.height = 124;
-    let burst = 0, current = -1, raf = 0, running = true;
+    let burst = 0, current = -1, raf = 0, running = true; const sp = []; let needleY = 0;
     const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
 
     // ---- optional static sound (Web Audio), off until the viewer turns it on ----
@@ -106,6 +107,10 @@
       const f = ac.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 2400; f.Q.value = 0.6;
       gain = ac.createGain(); gain.gain.value = 0; src.connect(f); f.connect(gain); gain.connect(ac.destination); src.start();
     };
+    document.getElementById("replay").addEventListener("click", () => {
+      try { sessionStorage.removeItem("nda-booted"); } catch {}
+      window.scrollTo({ top: 0, behavior: "instant" }); window.dispatchEvent(new Event("nda:replay"));
+    });
     snd.addEventListener("click", () => {
       const on = snd.getAttribute("aria-pressed") !== "true";
       snd.setAttribute("aria-pressed", on); snd.querySelector("span").textContent = on ? "Sound on" : "Sound off";
@@ -119,26 +124,31 @@
       chaps.forEach((c, i) => {
         const r = c.getBoundingClientRect(), span = r.height - vh;
         const p = clamp(-r.top / Math.max(1, span));
-        c.style.setProperty("--p", reduce ? 1 : p.toFixed(4));
+        // values glide toward their targets, so wheel clicks and touch flicks never look steppy
+        const enter = r.top > 0 ? clamp(1 - r.top / vh) : 1, exit = r.bottom < vh ? clamp(r.bottom / vh) : 1, vis = Math.min(enter, exit);
+        const sm = (sp[i] = sp[i] || { p, vis });
+        sm.p += (p - sm.p) * 0.14; sm.vis += (vis - sm.vis) * 0.2;
+        c.style.setProperty("--p", reduce ? 1 : sm.p.toFixed(4));
+        c.style.setProperty("--vis", reduce ? 1 : sm.vis.toFixed(3));
         c.classList.toggle("in", r.top < vh * 0.9 && r.bottom > vh * 0.1);
         const d = Math.abs(r.top + r.height / 2 - vh / 2) ;
         if (r.top < vh * 0.55 && r.bottom > vh * 0.45 && d < bestD) { bestD = d; bestI = i; }
       });
       // overall dial position
       const docMax = root.scrollHeight - vh, tp = clamp((scrollY - root.offsetTop) / Math.max(1, docMax));
-      needle.style.setProperty("--y", (tp * 100).toFixed(2) + "%");
+      needleY += (tp - needleY) * 0.18; needle.style.setProperty("--y", (needleY * 100).toFixed(2) + "%");
       freqEl.textContent = (FREQ0 + tp * (FREQ1 - FREQ0)).toFixed(1);
       // static bursts near chapter boundaries
       const nearEdge = chaps.reduce((m, c) => { const r = c.getBoundingClientRect(); return Math.min(m, Math.abs(r.top) / vh, Math.abs(r.bottom - vh) / vh); }, 9);
       const lastEdge = bestI === chaps.length - 1;
-      const target = (bestI === 0 ? 0.2 * (1 - chaps[0].style.getPropertyValue("--p")) + 0.04 : 0.03) + (nearEdge < 0.3 && !lastEdge ? (0.3 - nearEdge) * 1.1 : 0);
+      const target = (bestI === 0 ? 0.2 * (1 - chaps[0].style.getPropertyValue("--p")) + 0.04 : 0.03) + (nearEdge < 0.3 && !lastEdge ? (0.3 - nearEdge) * 0.5 : 0);
       burst += (target - burst) * 0.18;
       if (!reduce) {
         const img = cx.createImageData(220, 124), px = img.data;
         for (let i = 0; i < px.length; i += 4) { const v = (Math.random() * 255) | 0; px[i] = px[i + 1] = px[i + 2] = v; px[i + 3] = 255; }
         cx.putImageData(img, 0, 0);
       }
-      canvas.style.opacity = clamp(burst, 0, 0.7).toFixed(3);
+      canvas.style.opacity = clamp(burst, 0, 0.55).toFixed(3);
       if (gain) gain.gain.value = snd.getAttribute("aria-pressed") === "true" ? clamp(burst * 0.12, 0, 0.09) : 0;
       // chapter-specific scrubbing
       const byId = (id) => root.querySelector(`.c-${id}`), pOf = (id) => parseFloat(byId(id).style.getPropertyValue("--p")) || 0;

@@ -510,6 +510,7 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") { closeView(); closeDrawer(); }
   else if (document.body.classList.contains("viewing") && (e.key === "ArrowRight" || e.key === "ArrowLeft")) { e.preventDefault(); viewStep(e.key === "ArrowRight" ? 1 : -1); }
 });
+window.addEventListener("nda:replay", () => render());
 window.addEventListener("hashchange", () => {
   const stay = keepView; keepView = false;
   const prev = lastHash; lastHash = location.hash;

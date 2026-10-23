@@ -2,6 +2,7 @@
 // witch hat and other fantasy props are hand-drawn in the same 24px round-stroke style.
 // Use ic("wolf") to get an inline <svg>; it inherits the surrounding text color and size.
 window.ICONS = {
+"rotate": "<path d=\"M3 12a9 9 0 1 0 3-6.7\"/><path d=\"M3 4v5h5\"/>",
 "view-vertical": "<rect x=\"3\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"3\" width=\"4\" height=\"8\" /><rect x=\"3\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"13\" width=\"4\" height=\"8\" />",
 "view-horizontal": "<rect x=\"3\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"10\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"17\" y=\"4\" width=\"4\" height=\"16\" />",
 "heart": "<path d=\"M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6-8 11-8 11z\"/>",
