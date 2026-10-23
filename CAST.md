@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 25.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 26.
 
 ## Art direction in one screen
 
@@ -5330,27 +5330,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | tall and skeletal, a high shako hat, a long straight back; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Cuban heritage, Cuban |
 | Identity | male human |
-| Wardrobe | grinning skeleton drum-major in a plumed helm, a baton in one hand, a banner pole in the other, a war-drum strapped to the front |
+| Wardrobe | tall grinning skeletal drum-major with red eyes, a tall crimson shako hat with a huge gold plume, a crimson marching coat with gold epaulettes and button rows, crimson trousers, gold-trimmed boots, a navy-and-gold war-drum strapped to the front, a drumstick in one hand and a baton raised in the other |
 | Accessories | War-drum; baton; plumed helm; banner |
-| Pose | high-stepping in a march with the baton raised over a war-drum on a strap |
+| Pose | high-stepping mid-march, the drum on the hip, one stick beating and the baton raised high |
 | Facial expression | proud, plumed grin |
 | People | Undead |
 | Class | Dead Zone Legion |
 | Subclass | Drum-Major Stewards |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | high-stepping in a march with the baton raised over a war-drum on a strap; the War-drum and the baton break the outline so it reads instantly as a black shape |
+| Silhouette hook | high-stepping mid-march, the drum on the hip, one stick beating and the baton raised high; the War-drum and the baton break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #a84a52: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd60a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #221c48: the eyes, the War-drum and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/undead-drummajor.png` and `art/v2/undead-drummajor-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as high-stepping in a march with the baton raised over a war-drum on a strap.
+1. Black-fill test: the silhouette must still read as high-stepping mid-march, the drum on the hip, one stick beating and the baton raised high.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the War-drum and the pose must be visible at 64 px.
 4. Flat colors: #a84a52 / #ffd60a / #221c48 as separate flat shapes divided by black line; no gradients or glow.
@@ -5370,8 +5370,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Drum-Major Stewards, male human (In life: Cuban heritage, Cuban), apparent age early 70s. tall and skeletal, a high shako hat, a long straight back, medium size. Pose: high-stepping in a march with the baton raised over a war-drum on a strap. Expression: proud, plumed grin, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: War-drum. SECOND ITEM, kept plain: baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: grinning skeleton drum-major in a plumed helm, a baton in one hand, a banner pole in the other, a war-drum strapped to the front.
+CHARACTER: Drum-Major Stewards, male human (In life: Cuban heritage, Cuban), apparent age early 70s. tall and skeletal, a high shako hat, a long straight back, medium size. Pose: high-stepping mid-march, the drum on the hip, one stick beating and the baton raised high. Expression: proud, plumed grin, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: War-drum. SECOND ITEM, kept plain: baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall grinning skeletal drum-major with red eyes, a tall crimson shako hat with a huge gold plume, a crimson marching coat with gold epaulettes and button rows, crimson trousers, gold-trimmed boots, a navy-and-gold war-drum strapped to the front, a drumstick in one hand and a baton raised in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a84a52 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, on the eyes, the War-drum and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
