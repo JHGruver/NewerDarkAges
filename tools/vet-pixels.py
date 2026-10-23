@@ -25,8 +25,12 @@ edge = np.concatenate([alpha[0, :], alpha[-1, :], alpha[:, 0], alpha[:, -1]]) > 
 out["border_contact"] = round(float(edge.mean()), 4)       # share of the canvas border covered by the figure
 out["touches_edge"] = bool(edge.mean() > 0.012)
 out["fill_ratio"] = round(float(opaque.sum() / max(1, (x1 - x0 + 1) * (y1 - y0 + 1))), 3)   # how much of the bounding box the silhouette fills
-lab_, ncomp = ndi.label(alpha > 10); sizes = ndi.sum(alpha > 10, lab_, range(1, ncomp + 1)) if ncomp else []
-out["silhouette_pieces"] = int((np.array(sizes) > 0.003 * W * H).sum()) if ncomp else 0
+mask = alpha > 10
+merged = ndi.binary_dilation(mask, iterations=max(3, W // 150))                      # bridge hairline gaps (wings, staffs, tendrils)
+lab_, ncomp = ndi.label(merged); sizes = ndi.sum(merged, lab_, range(1, ncomp + 1)) if ncomp else []
+out["silhouette_pieces"] = int((np.array(sizes) > 0.004 * W * H).sum()) if ncomp else 0
+filled = ndi.binary_fill_holes(merged); out["hole_share"] = round(float((filled & ~mask).sum() / max(1, filled.sum())), 3)   # transparent holes / chunks missing inside the figure
+out["coverage"] = round(float(mask.mean()), 3)
 rgb = a[:, :, :3][opaque].astype(float)
 if len(rgb) < 100: print(json.dumps({**out, "error": "almost no opaque pixels"})); sys.exit(0)
 # flatness: how many 4-bit colours cover 95% of the figure (flat cel art is low; painterly or shaded art is high)

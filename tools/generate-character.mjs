@@ -2,7 +2,7 @@
 // Generates ONE character (portrait + background) with a SELF-VETTING loop, and wires it into the site locally (nothing is committed).
 //   node tools/generate-character.mjs <id>                  generate, vet, retry (up to 3 portrait tries, 2 background tries), keep the best
 //   node tools/generate-character.mjs <id> --vet-only       just vet the art already on disk
-//   flags: --char-only --bg-only --force --quality high --tries N --no-refs --dry
+//   flags: --char-only --bg-only --force --quality high --tries N --no-refs --suffix v2 --dry
 //   node tools/generate-character.mjs --list [people]       characters without art
 // Prompts come from CAST.json (rebuild with node tools/build-cast.cjs). New portraits get the approved characters as STYLE REFERENCES.
 // Every attempt is scored by a vision model against the Samurai Jack check + color rules + the character sheet, and by pixel checks
@@ -25,7 +25,8 @@ const id = args.find((a) => !a.startsWith("--") && !["--quality", "--tries"].inc
 const e = rows.find((r) => r.id === id);
 if (!e) { console.error(id ? `Unknown character id "${id}". Try --list.` : "Give a character id (or --list)."); process.exit(1); }
 const quality = val("--quality") || "medium", tries = +(val("--tries") || 3);
-const base = `art/v2/${e.peopleId}-${e.id}`, charPath = join(root, base + ".png"), bgPath = join(root, base + "-bg.jpg");
+const suffix = val("--suffix") ? "-" + val("--suffix") : "";   // --suffix v2 writes a comparison copy next to the approved art and registers nothing
+const base = `art/v2/${e.peopleId}-${e.id}${suffix}`, charPath = join(root, base + ".png"), bgPath = join(root, base + "-bg.jpg");
 console.log(`${e.name} (${e.people} › ${e.cls}, ${e.role})  ->  ${base}.png / -bg.jpg\nmodels: portrait ${M_CHAR}, background ${M_BG}, vision ${M_VET}; quality ${quality}`);
 if (has("--dry")) { console.log("\nCHARACTER PROMPT\n" + e.charPrompt + "\n\nBACKGROUND PROMPT\n" + e.bgPrompt); process.exit(0); }
 if (!KEY) { console.error("No OPENAI_API_KEY (see .env)."); process.exit(1); }
@@ -80,7 +81,9 @@ async function vetPortrait(path) {
   const hard = [];
   if (px.transparent_share < 0.15) hard.push("no real transparency (the background is baked in)");
   if (px.touches_edge) hard.push("the figure touches or is cropped by the canvas edge");
-  if (px.silhouette_pieces > 3) hard.push(`silhouette is fragmented into ${px.silhouette_pieces} pieces`);
+  if (px.silhouette_pieces > 2) hard.push(`silhouette is fragmented into ${px.silhouette_pieces} separate pieces`);
+  if (px.hole_share > 0.22) hard.push(`${Math.round(px.hole_share * 100)}% of the figure is missing (transparent holes inside the body)`);
+  if (px.coverage < 0.25) hard.push(`the figure covers only ${Math.round(px.coverage * 100)}% of the canvas (too small or mostly missing)`);
   if ((px.foreign_saturated_share || 0) > 0.15) hard.push(`${Math.round(px.foreign_saturated_share * 100)}% of the figure uses saturated colors outside the assigned palette`);
   const rubric = `Review image 1 (the NEW portrait on grey) for the character below. Image 2 is its pure-black silhouette (check 1). Image 3 is an 80px thumbnail enlarged (check 3). Images 4-6 are APPROVED reference characters: the new portrait must match their rendering style and quality level, not their designs.
 
@@ -89,11 +92,11 @@ REQUIRED STYLE: ${AD.required.join("; ")}.
 FORBIDDEN: ${AD.forbidden.join("; ")}.
 SAMURAI JACK CHECK (answer each honestly): ${AD.jackCheck.map((q, i) => `${i + 1}. ${q}`).join(" ")}
 
-Return JSON: {"jack":[{"q":1,"pass":true|false,"note":"..."},...5 items],"forbidden_found":["..."],"palette":{"ok":true|false,"note":"which assigned colors are visible and where, and any stray saturated colors"},"matches_sheet":true|false,"sheet_issues":["wrong or missing details"],"style_match":0-10,"design_quality":0-10,"silhouette":0-10,"overall":0-10,"fixes":["specific changes that would fix the problems, phrased as drawing instructions"],"summary":"one honest sentence"}.
+Return JSON: {"jack":[{"q":1,"pass":true|false,"note":"..."},...5 items],"forbidden_found":["..."],"palette":{"ok":true|false,"note":"which assigned colors are visible and where, and any stray saturated colors"},"complete_figure":true|false (false if any body part is missing, faded, fragmented or detached; look at the silhouette image for holes),"matches_sheet":true|false,"sheet_issues":["wrong or missing details"],"style_match":0-10,"design_quality":0-10,"silhouette":0-10,"overall":0-10,"fixes":["specific changes that would fix the problems, phrased as drawing instructions"],"summary":"one honest sentence"}.
 Be strict: style_match 8+ only if it genuinely looks like it belongs in the same animated series as the references. Generic, blobby, muddy, low-contrast or dull designs score low. A design that is flat but uninteresting fails check 5.`;
   const v = await vision([{ type: "text", text: rubric }, img(join(aids, "grey.png")), img(join(aids, "sil.png")), img(join(aids, "thumb.png")), ...refs.map((p) => img(p))]);
   const jackFail = (v.jack || []).filter((j) => !j.pass).map((j) => `Samurai Jack ${j.q}: ${j.note}`);
-  const passed = !hard.length && !jackFail.length && v.matches_sheet !== false && v.palette?.ok !== false && v.style_match >= 7 && v.overall >= 7;
+  const passed = !hard.length && !jackFail.length && v.complete_figure !== false && v.matches_sheet !== false && v.palette?.ok !== false && v.style_match >= 7 && v.overall >= 7;
   return { kind: "portrait", passed, overall: v.overall, style_match: v.style_match, design_quality: v.design_quality, silhouette: v.silhouette, hard, jackFail, forbidden: v.forbidden_found || [], sheet_issues: v.sheet_issues || [], palette: v.palette, fixes: v.fixes || [], summary: v.summary, pixels: px, jack: v.jack };
 }
 async function vetBackground(path) {
@@ -122,7 +125,7 @@ async function loop(kind, path, basePrompt, vet, maxTries) {
     writeFileSync(cand, await render(kind, prompt));
     if (kind === "char") execFileSync("sips", ["-Z", "1100", cand, "--out", cand], { stdio: "ignore" });
     const r = await vet(cand); r.attempt = n; console.log("    " + report(r));
-    const score = (r.passed ? 100 : 0) + (r.overall || 0) + (r.style_match || 0) / 10;
+    const score = (r.passed ? 100 : 0) - 40 * ((r.hard || []).length) - 15 * ((r.jackFail || []).length) + (r.overall || 0) + (r.style_match || 0) / 10;   // hard failures can never win on a flattering vision score
     if (!best || score > best.score) best = { score, cand, r };
     if (r.passed) break;
     const fixes = [...(r.fixes || []), ...(r.hard || []).map((h) => "fix: " + h), ...(r.jackFail || []), ...(r.sheet_issues || []).map((s) => "include: " + s)];
@@ -145,7 +148,7 @@ if (!has("--bg-only")) { if (existsSync(charPath) && !has("--force")) console.lo
 if (!has("--char-only")) { if (existsSync(bgPath) && !has("--force")) console.log("  background exists (use --force to regenerate)"); else rb = await loop("bg", bgPath, e.bgPrompt, vetBackground, Math.min(tries, 2)); }
 
 /* ---------------------------------------------------------------- register locally */
-if (existsSync(charPath) && existsSync(bgPath) && !done.has(e.id)) {
+if (!suffix && existsSync(charPath) && existsSync(bgPath) && !done.has(e.id)) {
   let a = readFileSync(join(root, "app.js"), "utf8");
   a = a.replace("const NODE_ART = {\n", `const NODE_ART = {\n  ${e.id}: { src: "${base}.png", bg: "${base}-bg.jpg", name: "${e.name.replace(/"/g, "")}" },\n`); writeFileSync(join(root, "app.js"), a);
   let d = readFileSync(join(root, "data.js"), "utf8"); d = d.replace(/\((\d+) of 126 done\)/, (_, n) => `(${+n + 1} of 126 done)`); writeFileSync(join(root, "data.js"), d);

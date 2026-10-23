@@ -41,7 +41,7 @@ Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 chara
 | Gender | Male |
 | Physique | wiry and hard-jawed; medium size; mobility: vehicle |
 | Ethnicity + nationality | Irish-Scottish heritage, Scottish |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | hard-jawed human driver in a spiked black leather jacket, driving gloves, goggles pushed up on the forehead and boots, one hand gripping a heavy tire-iron, the other fist wrapped in a spiked knuckle-duster |
 | Accessories | Armored coupe; ram-bar; tire-iron; driving gloves |
 | Pose | wide fighting stance with the crowbar swung back over one shoulder |
@@ -81,13 +81,14 @@ Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 chara
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Interceptors, male character (Irish-Scottish heritage, Scottish), apparent age mid 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Interceptors, male being, character (Irish-Scottish heritage, Scottish), apparent age mid 40s.
 DESIGN FOR SILHOUETTE FIRST: wide fighting stance with the crowbar swung back over one shoulder; the Armored coupe and the ram-bar break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: wiry and hard-jawed, medium size, vehicle. POSE: wide fighting stance with the crowbar swung back over one shoulder. EXPRESSION: fierce, jaw set, one eyebrow cocked, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): hard-jawed human driver in a spiked black leather jacket, driving gloves, goggles pushed up on the forehead and boots, one hand gripping a heavy tire-iron, the other fist wrapped in a spiked knuckle-duster.
 COLOR (exact hex values, flat fills): main #d00000 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f8f9fa about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffba08 about 10%, used on the eyes, the Armored coupe and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -112,7 +113,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | lean and quick; medium size; mobility: vehicle |
 | Ethnicity + nationality | Mexican-Native heritage, Mexican |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | lean human rider in a patched riding jacket, spiked shoulder pads, bandana mask and boots, a coiled chain whip in one hand and a compact crossbow in the other |
 | Accessories | Chopper; chain whip; crossbow; spiked pads |
 | Pose | hunched low in a speeding lean, chain whip trailing behind |
@@ -152,13 +153,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Outriders, female character (Mexican-Native heritage, Mexican), apparent age early 70s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Outriders, female being, character (Mexican-Native heritage, Mexican), apparent age early 70s.
 DESIGN FOR SILHOUETTE FIRST: hunched low in a speeding lean, chain whip trailing behind; the Chopper and the chain whip break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: lean and quick, medium size, vehicle. POSE: hunched low in a speeding lean, chain whip trailing behind. EXPRESSION: fierce lopsided grin, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): lean human rider in a patched riding jacket, spiked shoulder pads, bandana mask and boots, a coiled chain whip in one hand and a compact crossbow in the other.
 COLOR (exact hex values, flat fills): main #3a86ff about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Chopper and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -183,7 +185,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | stocky and robed; medium size; mobility: grounded |
 | Ethnicity + nationality | Armenian heritage, Armenian-American |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | robed human mechanic-zealot in a stenciled fuel-company vestment, a heavy wrench in one hand and a smoking hand-censer on a short chain in the other, a bandolier of small oil flasks |
 | Accessories | Fuel censer; jerry cans; wrench; stenciled vestments |
 | Pose | arms spread wide, smoking censer swinging from one hand |
@@ -223,13 +225,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fuel Zealots, male character (Armenian heritage, Armenian-American), apparent age mid 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fuel Zealots, male being, character (Armenian heritage, Armenian-American), apparent age mid 40s.
 DESIGN FOR SILHOUETTE FIRST: arms spread wide, smoking censer swinging from one hand; the Fuel censer and the jerry cans break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: stocky and robed, medium size, grounded. POSE: arms spread wide, smoking censer swinging from one hand. EXPRESSION: solemn, eyes lifted in devotion, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): robed human mechanic-zealot in a stenciled fuel-company vestment, a heavy wrench in one hand and a smoking hand-censer on a short chain in the other, a bandolier of small oil flasks.
 COLOR (exact hex values, flat fills): main #06d6a0 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e63946 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, used on the eyes, the Fuel censer and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -257,7 +260,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | lean and precise; medium size; mobility: agile |
 | Ethnicity + nationality | Korean heritage, South Korean |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | lean human fighter in a high-score jacket, wrist-guards, a glowing score-visor over the eyes and a token pouch at the belt, wielding a blade whose hilt is an arcade joystick |
 | Accessories | Arcade-stick blade; wrist-guards; score visor; token pouch |
 | Pose | mid-combo lunge, joystick-blade arcing overhead |
@@ -297,13 +300,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Joystick Duelists, male character (Korean heritage, South Korean), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Joystick Duelists, male being, character (Korean heritage, South Korean), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: mid-combo lunge, joystick-blade arcing overhead; the Arcade-stick blade and the wrist-guards break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: lean and precise, medium size, agile. POSE: mid-combo lunge, joystick-blade arcing overhead. EXPRESSION: intense focus, eyes narrowed behind the visor, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): lean human fighter in a high-score jacket, wrist-guards, a glowing score-visor over the eyes and a token pouch at the belt, wielding a blade whose hilt is an arcade joystick.
 COLOR (exact hex values, flat fills): main #9d4edd about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f4e846 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #00f5d4 about 10%, used on the eyes, the Arcade-stick blade and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -328,7 +332,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | rangy and loose-limbed; medium size; mobility: agile |
 | Ethnicity + nationality | Igbo heritage, Nigerian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | rangy human gunner in a padded jacket with a small bumper-shaped shield on one arm, a ricochet rifle in both hands and a plunger-tipped spear slung across the back |
 | Accessories | Ricochet rifle; bumper shield; plunger-spear; pocket flippers |
 | Pose | braced at one knee, rifle shouldered and angled for a bank shot |
@@ -368,13 +372,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Pinball Gunners, female character (Igbo heritage, Nigerian), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Pinball Gunners, female being, character (Igbo heritage, Nigerian), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: braced at one knee, rifle shouldered and angled for a bank shot; the Ricochet rifle and the bumper shield break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: rangy and loose-limbed, medium size, agile. POSE: braced at one knee, rifle shouldered and angled for a bank shot. EXPRESSION: gleeful squint, one eye closed to aim, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): rangy human gunner in a padded jacket with a small bumper-shaped shield on one arm, a ricochet rifle in both hands and a plunger-tipped spear slung across the back.
 COLOR (exact hex values, flat fills): main #ff5d8f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #00bbf9 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Ricochet rifle and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -399,7 +404,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | sharp and slight; medium size; mobility: grounded |
 | Ethnicity + nationality | Lebanese heritage, Brazilian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | sharp human broker in a satin jacket with a bandolier of glowing tokens, a calculator-gauntlet on one forearm and a leather ledger under the other arm, one coin flipping in the hand |
 | Accessories | Token bandolier; calculator-gauntlet; lucky die; ledger |
 | Pose | flipping a coin with one hand, ledger tucked under the other arm |
@@ -439,13 +444,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Token Brokers, male character (Lebanese heritage, Brazilian), apparent age late 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Token Brokers, male being, character (Lebanese heritage, Brazilian), apparent age late 50s.
 DESIGN FOR SILHOUETTE FIRST: flipping a coin with one hand, ledger tucked under the other arm; the Token bandolier and the calculator-gauntlet break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: sharp and slight, medium size, grounded. POSE: flipping a coin with one hand, ledger tucked under the other arm. EXPRESSION: sly knowing smirk, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): sharp human broker in a satin jacket with a bandolier of glowing tokens, a calculator-gauntlet on one forearm and a leather ledger under the other arm, one coin flipping in the hand.
 COLOR (exact hex values, flat fills): main #f8e777 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, used on the eyes, the Token bandolier and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -473,7 +479,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | average build under a heavy pack; medium size; mobility: grounded |
 | Ethnicity + nationality | Filipino heritage, Filipino |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | human broadcaster in a patched jacket with a humming jammer pack on the back, a headset, patch cables looped at the belt and a crackling shortwave baton in one hand |
 | Accessories | Jammer pack; shortwave baton; patch cables; headset |
 | Pose | baton pointed forward, shoulders turned as the pack hums |
@@ -513,13 +519,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Static Jammers, nonbinary character (Filipino heritage, Filipino), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Static Jammers, nonbinary being, character (Filipino heritage, Filipino), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: baton pointed forward, shoulders turned as the pack hums; the Jammer pack and the shortwave baton break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: average build under a heavy pack, medium size, grounded. POSE: baton pointed forward, shoulders turned as the pack hums. EXPRESSION: calm and alert, lips pressed, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): human broadcaster in a patched jacket with a humming jammer pack on the back, a headset, patch cables looped at the belt and a crackling shortwave baton in one hand.
 COLOR (exact hex values, flat fills): main #11b98a about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Jammer pack and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -544,7 +551,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | lean marksman; medium size; mobility: climbing |
 | Ethnicity + nationality | Ethiopian heritage, Ethiopian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | human marksman in a bomber jacket, big over-ear headphones around the neck, a long beat-rifle held in both hands, a cassette player clipped at the belt |
 | Accessories | Beat rifle; headphones; rooftop rig; tape deck |
 | Pose | kneeling on one knee with the rifle braced on a raised thigh |
@@ -584,13 +591,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Skyline DJs, female character (Ethiopian heritage, Ethiopian), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Skyline DJs, female being, character (Ethiopian heritage, Ethiopian), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: kneeling on one knee with the rifle braced on a raised thigh; the Beat rifle and the headphones break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: lean marksman, medium size, climbing. POSE: kneeling on one knee with the rifle braced on a raised thigh. EXPRESSION: cool, unblinking concentration, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): human marksman in a bomber jacket, big over-ear headphones around the neck, a long beat-rifle held in both hands, a cassette player clipped at the belt.
 COLOR (exact hex values, flat fills): main #fed6ad about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #7b2cbf about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #a2cd9e about 10%, used on the eyes, the Beat rifle and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -615,7 +623,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | soft and relaxed; medium size; mobility: grounded |
 | Ethnicity + nationality | Black American heritage, American (Louisiana) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | smooth-voiced human host in a cardigan over a collared shirt, headphones on, one hand holding a vintage microphone, the other holding a cassette, a warm calm expression |
 | Accessories | Studio mic; tape deck; phone-bank; warm smile |
 | Pose | leaning in toward a vintage microphone, one finger raised |
@@ -655,13 +663,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Late-Night Hosts, male character (Black American heritage, American (Louisiana)), apparent age mid 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Late-Night Hosts, male being, character (Black American heritage, American (Louisiana)), apparent age mid 40s.
 DESIGN FOR SILHOUETTE FIRST: leaning in toward a vintage microphone, one finger raised; the Studio mic and the tape deck break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: soft and relaxed, medium size, grounded. POSE: leaning in toward a vintage microphone, one finger raised. EXPRESSION: warm easy smile, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): smooth-voiced human host in a cardigan over a collared shirt, headphones on, one hand holding a vintage microphone, the other holding a cassette, a warm calm expression.
 COLOR (exact hex values, flat fills): main #b5ec69 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #8338ec about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, used on the eyes, the Studio mic and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -689,7 +698,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | broad and armored; large size; mobility: grounded |
 | Ethnicity + nationality | Samoan heritage, New Zealander |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | armored human marshal in a matching mall-security jacket, helmet with a visor and shoulder guards, a big stenciled riot shield on one arm and a baton in the other hand |
 | Accessories | Riot shield; baton; helmet visor; mall-security jacket |
 | Pose | braced low behind the shield with the baton cocked |
@@ -729,13 +738,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Riot Marshals, female character (Samoan heritage, New Zealander), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Riot Marshals, female being, character (Samoan heritage, New Zealander), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: braced low behind the shield with the baton cocked; the Riot shield and the baton break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: broad and armored, large size, grounded. POSE: braced low behind the shield with the baton cocked. EXPRESSION: stern, immovable resolve, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): armored human marshal in a matching mall-security jacket, helmet with a visor and shoulder guards, a big stenciled riot shield on one arm and a baton in the other hand.
 COLOR (exact hex values, flat fills): main #118ab2 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ef476f about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #eef6ff about 10%, used on the eyes, the Riot shield and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -760,7 +770,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | athletic and padded; medium size; mobility: agile |
 | Ethnicity + nationality | Afro-Brazilian heritage, Brazilian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | armored human lancer in a padded suit with slide-pads on the knees, a helmet lamp and a climbing harness, a long lance held across the body |
 | Accessories | Lance; slide-pads; helmet lamp; climbing harness |
 | Pose | mid-slide with the lance leveled forward |
@@ -800,13 +810,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Escalator Lancers, male character (Afro-Brazilian heritage, Brazilian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Escalator Lancers, male being, character (Afro-Brazilian heritage, Brazilian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: mid-slide with the lance leveled forward; the Lance and the slide-pads break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: athletic and padded, medium size, agile. POSE: mid-slide with the lance leveled forward. EXPRESSION: determined shout, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): armored human lancer in a padded suit with slide-pads on the knees, a helmet lamp and a climbing harness, a long lance held across the body.
 COLOR (exact hex values, flat fills): main #b1690f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4361ee about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff2cf about 10%, used on the eyes, the Lance and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -831,7 +842,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | immaculate and upright; medium size; mobility: grounded |
 | Ethnicity + nationality | Punjabi heritage, Indian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | immaculate human in a gold-trimmed bellhop jacket and cap with a name badge, a big ring of keys on the belt, a silver serving tray in one hand and a small bell in the other |
 | Accessories | Key ring; name badge; silver tray; bellhop jacket |
 | Pose | silver tray raised in one hand, service bell held up in the other |
@@ -871,13 +882,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Concierge Diplomats, female character (Punjabi heritage, Indian), apparent age early 70s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Concierge Diplomats, female being, character (Punjabi heritage, Indian), apparent age early 70s.
 DESIGN FOR SILHOUETTE FIRST: silver tray raised in one hand, service bell held up in the other; the Key ring and the name badge break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: immaculate and upright, medium size, grounded. POSE: silver tray raised in one hand, service bell held up in the other. EXPRESSION: polite, unflappable smile, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): immaculate human in a gold-trimmed bellhop jacket and cap with a name badge, a big ring of keys on the belt, a silver serving tray in one hand and a small bell in the other.
 COLOR (exact hex values, flat fills): main #2a9d8f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #d1ce70 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, used on the eyes, the Key ring and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Human people, mature dark-age tone, no nudity, no gore.
 ```
@@ -914,7 +926,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | tall and elegant; medium size; mobility: agile |
 | Ethnicity + nationality | Franco-Algerian heritage, French |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | tall pale vampire duelist in a sharp floor-length black longcoat with a high collar and gold wire trim, signet ring, a slim wired-grip rapier in one hand and a parrying dagger in the other |
 | Accessories | Wired-grip rapier; parry dagger; signet ring; floor-length longcoat |
 | Pose | full lunge, rapier extended, parry dagger trailing behind |
@@ -954,13 +966,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Razor Dandies, male character (Franco-Algerian heritage, French), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Razor Dandies, male being, character (Franco-Algerian heritage, French), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: full lunge, rapier extended, parry dagger trailing behind; the Wired-grip rapier and the parry dagger break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: tall and elegant, medium size, agile. POSE: full lunge, rapier extended, parry dagger trailing behind. EXPRESSION: haughty, one corner of the mouth lifted, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall pale vampire duelist in a sharp floor-length black longcoat with a high collar and gold wire trim, signet ring, a slim wired-grip rapier in one hand and a parrying dagger in the other.
 COLOR (exact hex values, flat fills): main #ad0c2a about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fee7bb about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #7d99ca about 10%, used on the eyes, the Wired-grip rapier and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -985,7 +998,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | athletic and theatrical; medium size; mobility: agile |
 | Ethnicity + nationality | Trinidadian heritage, British-Trinidadian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | elegant pale vampire executioner in a sequined cape and heeled boots, a mirrored blade in one hand and a faceted mirror-ball swinging on a chain from the other |
 | Accessories | Chain-mirrorball; mirror-blades; sequined cape; heeled boots |
 | Pose | mid-spin, mirror-ball swinging out on its chain |
@@ -1025,13 +1038,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mirror-Ball Executioners, female character (Trinidadian heritage, British-Trinidadian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mirror-Ball Executioners, female being, character (Trinidadian heritage, British-Trinidadian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: mid-spin, mirror-ball swinging out on its chain; the Chain-mirrorball and the mirror-blades break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: athletic and theatrical, medium size, agile. POSE: mid-spin, mirror-ball swinging out on its chain. EXPRESSION: theatrical, lips parted in a thrill, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): elegant pale vampire executioner in a sequined cape and heeled boots, a mirrored blade in one hand and a faceted mirror-ball swinging on a chain from the other.
 COLOR (exact hex values, flat fills): main #e5383b about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #eef6ff about 10%, used on the eyes, the Chain-mirrorball and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1056,7 +1070,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | poised and slender; medium size; mobility: grounded |
 | Ethnicity + nationality | Hungarian heritage, Hungarian |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | poised pale vampire in a long black coat with impeccable cuffs and a signet ring, a leather ledger tucked under one arm and a small silver bell held in the other hand |
 | Accessories | Ledger; silver bell; signet ring; impeccable cuffs |
 | Pose | ledger open in one hand, silver bell held up between two fingers |
@@ -1096,13 +1110,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Velvet Chaperones, nonbinary character (Hungarian heritage, Hungarian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Velvet Chaperones, nonbinary being, character (Hungarian heritage, Hungarian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: ledger open in one hand, silver bell held up between two fingers; the Ledger and the silver bell break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: poised and slender, medium size, grounded. POSE: ledger open in one hand, silver bell held up between two fingers. EXPRESSION: polite, one eyebrow raised, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): poised pale vampire in a long black coat with impeccable cuffs and a signet ring, a leather ledger tucked under one arm and a small silver bell held in the other hand.
 COLOR (exact hex values, flat fills): main #7b2cbf about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffd166 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff4df about 10%, used on the eyes, the Ledger and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1130,7 +1145,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slim and quick; medium size; mobility: agile |
 | Ethnicity + nationality | Japanese heritage, Japanese |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | slim pale vampire duelist in a sequin jacket and light-up sneakers, a glowing visor over the eyes, a short blade whose hilt is a strobe light |
 | Accessories | Strobe blade; glow-visor; sequin jacket; light-up sneakers |
 | Pose | caught mid-strike, blade extended with a sharp afterimage |
@@ -1170,13 +1185,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Strobe Duelists, female character (Japanese heritage, Japanese), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Strobe Duelists, female being, character (Japanese heritage, Japanese), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: caught mid-strike, blade extended with a sharp afterimage; the Strobe blade and the glow-visor break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: slim and quick, medium size, agile. POSE: caught mid-strike, blade extended with a sharp afterimage. EXPRESSION: icy, half-lidded stare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): slim pale vampire duelist in a sequin jacket and light-up sneakers, a glowing visor over the eyes, a short blade whose hilt is a strobe light.
 COLOR (exact hex values, flat fills): main #f72585 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff3b0 about 10%, used on the eyes, the Strobe blade and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1201,7 +1217,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | broad and heavy-shouldered; large size; mobility: grounded |
 | Ethnicity + nationality | Jamaican heritage, Jamaican |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | broad pale vampire brawler in a studded leather vest and ear-guards, a backpack-sized bass unit on the back, huge subwoofer-gauntlets on both fists |
 | Accessories | Subwoofer gauntlets; bass-pack; leather vest; ear-guards |
 | Pose | swinging a subwoofer gauntlet in a wide overhand punch |
@@ -1241,13 +1257,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Bassline Brawlers, male character (Jamaican heritage, Jamaican), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Bassline Brawlers, male being, character (Jamaican heritage, Jamaican), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: swinging a subwoofer gauntlet in a wide overhand punch; the Subwoofer gauntlets and the bass-pack break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: broad and heavy-shouldered, large size, grounded. POSE: swinging a subwoofer gauntlet in a wide overhand punch. EXPRESSION: fierce roar, fangs bared, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): broad pale vampire brawler in a studded leather vest and ear-guards, a backpack-sized bass unit on the back, huge subwoofer-gauntlets on both fists.
 COLOR (exact hex values, flat fills): main #6403a2 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffbe0b about 10%, used on the eyes, the Subwoofer gauntlets and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1272,7 +1289,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | imposing and broad-shouldered; large size; mobility: grounded |
 | Ethnicity + nationality | Nigerian Yoruba heritage, British-Nigerian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | imposing pale vampire in a sharp dark suit with an earpiece, one hand holding a velvet rope on a short stanchion, the other holding a clipboard |
 | Accessories | Velvet rope; earpiece; clipboard; sharp suit |
 | Pose | one hand holding a velvet rope, the other raised to stop traffic |
@@ -1312,13 +1329,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: VIP Hosts, male character (Nigerian Yoruba heritage, British-Nigerian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: VIP Hosts, male being, character (Nigerian Yoruba heritage, British-Nigerian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: one hand holding a velvet rope, the other raised to stop traffic; the Velvet rope and the earpiece break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: imposing and broad-shouldered, large size, grounded. POSE: one hand holding a velvet rope, the other raised to stop traffic. EXPRESSION: impassive, arms-crossed calm, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): imposing pale vampire in a sharp dark suit with an earpiece, one hand holding a velvet rope on a short stanchion, the other holding a clipboard.
 COLOR (exact hex values, flat fills): main #ff6d5f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffd166 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2b2957 about 10%, used on the eyes, the Velvet rope and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1346,7 +1364,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | gaunt and lean; medium size; mobility: flying |
 | Ethnicity + nationality | Pale gothic, unspecified European-inspired |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | gaunt pale vampire scout crouched on one knee, in a plated feather cloak with salvaged metal plates, a bandolier of throwing talons, a hand-crank radio on the belt, a curved talon-blade across the raised knee and a small spark lantern held at the foot |
 | Accessories | Curved talon-blade; throwing talons; hand-crank radio; spark lantern |
 | Pose | crouched on one knee, blade across the raised knee, lantern held low |
@@ -1386,13 +1404,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Owlwing Watch, male character (Pale gothic, unspecified European-inspired), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Owlwing Watch, male being, character (Pale gothic, unspecified European-inspired), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: crouched on one knee, blade across the raised knee, lantern held low; the Curved talon-blade and the throwing talons break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: gaunt and lean, medium size, flying. POSE: crouched on one knee, blade across the raised knee, lantern held low. EXPRESSION: half-lidded wary stare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): gaunt pale vampire scout crouched on one knee, in a plated feather cloak with salvaged metal plates, a bandolier of throwing talons, a hand-crank radio on the belt, a curved talon-blade across the raised knee and a small spark lantern held at the foot.
 COLOR (exact hex values, flat fills): main #19e6ff about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff2bd6 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffb000 about 10%, used on the eyes, the Curved talon-blade and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1417,7 +1436,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | hunched and stone-skinned; large size; mobility: climbing |
 | Ethnicity + nationality | Romanian heritage, Romanian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt |
 | Accessories | Stone knuckles; ledge-anchors; helmeted hood; wing-cloak |
 | Pose | hunched on all fours with fists planted, wings folded like a cloak |
@@ -1457,13 +1476,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gargoyle Sentries, male character (Romanian heritage, Romanian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gargoyle Sentries, male being, character (Romanian heritage, Romanian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: hunched on all fours with fists planted, wings folded like a cloak; the Stone knuckles and the ledge-anchors break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: hunched and stone-skinned, large size, climbing. POSE: hunched on all fours with fists planted, wings folded like a cloak. EXPRESSION: grim, heavy-browed, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt.
 COLOR (exact hex values, flat fills): main #8bb9e5 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff4d6d about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #023054 about 10%, used on the eyes, the Stone knuckles and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1488,7 +1508,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slim and long-limbed; medium size; mobility: climbing |
 | Ethnicity + nationality | Thai heritage, Thai |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | slim pale vampire scout in a headset and a harness covered in short antennas, climbing spikes on the boots, a tuning-fork blade humming in one hand |
 | Accessories | Tuning fork blade; headset; antenna harness; climbing spikes |
 | Pose | arm raised with the tuning-fork blade held to the ear |
@@ -1528,13 +1548,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Antenna Wraiths, female character (Thai heritage, Thai), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Antenna Wraiths, female being, character (Thai heritage, Thai), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: arm raised with the tuning-fork blade held to the ear; the Tuning fork blade and the headset break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: slim and long-limbed, medium size, climbing. POSE: arm raised with the tuning-fork blade held to the ear. EXPRESSION: serene, eyes half-closed as if listening, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): slim pale vampire scout in a headset and a harness covered in short antennas, climbing spikes on the boots, a tuning-fork blade humming in one hand.
 COLOR (exact hex values, flat fills): main #33bede about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffd60a about 10%, used on the eyes, the Tuning fork blade and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1562,7 +1583,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | elegant and slim; medium size; mobility: agile |
 | Ethnicity + nationality | Persian heritage, Iranian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | elegant pale vampire in a half-mask and a long coat with evening gloves, a rack of different masks on a shoulder strap, a stiletto concealed behind one gloved hand, a poison ring |
 | Accessories | Mask collection; hidden stiletto; poison ring; evening gloves |
 | Pose | stepping forward with a stiletto concealed behind one hand |
@@ -1602,13 +1623,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Masked Assassins, male character (Persian heritage, Iranian), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Masked Assassins, male being, character (Persian heritage, Iranian), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: stepping forward with a stiletto concealed behind one hand; the Mask collection and the hidden stiletto break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: elegant and slim, medium size, agile. POSE: stepping forward with a stiletto concealed behind one hand. EXPRESSION: cool, expressionless behind the half-mask, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): elegant pale vampire in a half-mask and a long coat with evening gloves, a rack of different masks on a shoulder strap, a stiletto concealed behind one gloved hand, a poison ring.
 COLOR (exact hex values, flat fills): main #c71856 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #dbe8ac about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #320b50 about 10%, used on the eyes, the Mask collection and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1633,7 +1655,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | poised and narrow; medium size; mobility: grounded |
 | Ethnicity + nationality | Scandinavian heritage, Danish |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | poised pale vampire in a long coat with rose-vine gloves, a bandolier of colored vials, a thorned whip coiled in one hand, an apothecary belt |
 | Accessories | Thorn whip; toxin vials; rose-vine gloves; apothecary belt |
 | Pose | coiling the thorn whip with one arm, vial held up in the other |
@@ -1673,13 +1695,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Thorn Poisoners, female character (Scandinavian heritage, Danish), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Thorn Poisoners, female being, character (Scandinavian heritage, Danish), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: coiling the thorn whip with one arm, vial held up in the other; the Thorn whip and the toxin vials break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: poised and narrow, medium size, grounded. POSE: coiling the thorn whip with one arm, vial held up in the other. EXPRESSION: serene, faintly amused, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): poised pale vampire in a long coat with rose-vine gloves, a bandolier of colored vials, a thorned whip coiled in one hand, an apothecary belt.
 COLOR (exact hex values, flat fills): main #b34907 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #80ed99 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #320b50 about 10%, used on the eyes, the Thorn whip and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1704,7 +1727,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | slim and adaptable; medium size; mobility: agile |
 | Ethnicity + nationality | Italian heritage, Italian |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | slim pale vampire in a half-mask and an understudy's cape, a prompt-book held open in one hand, a stage dagger in the other, a rack of small masks on the belt |
 | Accessories | Prompt-book; stage dagger; mask rack; understudy cape |
 | Pose | copying a rival's stance, prompt-book held open |
@@ -1744,13 +1767,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Spotlight Understudies, nonbinary character (Italian heritage, Italian), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Spotlight Understudies, nonbinary being, character (Italian heritage, Italian), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: copying a rival's stance, prompt-book held open; the Prompt-book and the stage dagger break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: slim and adaptable, medium size, agile. POSE: copying a rival's stance, prompt-book held open. EXPRESSION: wry, mid-impression, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): slim pale vampire in a half-mask and an understudy's cape, a prompt-book held open in one hand, a stage dagger in the other, a rack of small masks on the belt.
 COLOR (exact hex values, flat fills): main #eb25b4 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #8ecae6 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Prompt-book and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #16161c on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Vampire people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1787,7 +1811,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | lean and long-limbed; medium size; mobility: agile |
 | Ethnicity + nationality | wolf-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt |
 | Accessories | Hunting axe; throwing hatchets; pack-scarf; signal horn |
 | Pose | mid-leap, axe swinging toward the viewer |
@@ -1827,13 +1851,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Moonrunners, male character (wolf-kin (not human)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Moonrunners, male being, character (wolf-kin (not human)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: mid-leap, axe swinging toward the viewer; the Hunting axe and the throwing hatchets break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: lean and long-limbed, medium size, agile. POSE: mid-leap, axe swinging toward the viewer. EXPRESSION: snarling grin, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt.
 COLOR (exact hex values, flat fills): main #e9ecef about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #264653 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e9c46a about 10%, used on the eyes, the Hunting axe and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1858,7 +1883,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | pale and rangy; medium size; mobility: grounded |
 | Ethnicity + nationality | wolf-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt |
 | Accessories | Long rifle; white fur mantle; goggles; ice picks |
 | Pose | crouched in a snowdrift, rifle leveled |
@@ -1898,13 +1923,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Frostfang Wanderers, female character (wolf-kin (not human)), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Frostfang Wanderers, female being, character (wolf-kin (not human)), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: crouched in a snowdrift, rifle leveled; the Long rifle and the white fur mantle break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: pale and rangy, medium size, grounded. POSE: crouched in a snowdrift, rifle leveled. EXPRESSION: calm, steady stare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt.
 COLOR (exact hex values, flat fills): main #add6fe about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4ea8de about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, used on the eyes, the Long rifle and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -1929,7 +1955,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | shaggy and sturdy; medium size; mobility: grounded |
 | Ethnicity + nationality | wolf-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back |
 | Accessories | Collar-radio; tow harness; flare gun; med pack |
 | Pose | dragging a wounded ally with one arm, flare gun raised in the other |
@@ -1969,13 +1995,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hearth Hounds, female character (wolf-kin (not human)), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hearth Hounds, female being, character (wolf-kin (not human)), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: dragging a wounded ally with one arm, flare gun raised in the other; the Collar-radio and the tow harness break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: shaggy and sturdy, medium size, grounded. POSE: dragging a wounded ally with one arm, flare gun raised in the other. EXPRESSION: gentle, determined, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back.
 COLOR (exact hex values, flat fills): main #f2c458 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #118ab2 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Collar-radio and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2003,7 +2030,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | small and wiry; small size; mobility: agile |
 | Ethnicity + nationality | raccoon-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt |
 | Accessories | Crowbar; smoke bombs; lockpick roll; striped mask |
 | Pose | crouched over a safe with a crowbar levering it open |
@@ -2043,13 +2070,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mask Bandits, female character (raccoon-kin (not human)), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mask Bandits, female being, character (raccoon-kin (not human)), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: crouched over a safe with a crowbar levering it open; the Crowbar and the smoke bombs break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: small and wiry, small size, agile. POSE: crouched over a safe with a crowbar levering it open. EXPRESSION: mischievous grin, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt.
 COLOR (exact hex values, flat fills): main #dea013 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #7d99ca about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, used on the eyes, the Crowbar and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2074,7 +2102,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | small and stocky; small size; mobility: grounded |
 | Ethnicity + nationality | raccoon-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand |
 | Accessories | Scrap turret; tool bandolier; soldering torch; goggles |
 | Pose | twisting a screwdriver into a wired gadget, torch in the other paw |
@@ -2114,13 +2142,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gizmo Tinkers, male character (raccoon-kin (not human)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gizmo Tinkers, male being, character (raccoon-kin (not human)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: twisting a screwdriver into a wired gadget, torch in the other paw; the Scrap turret and the tool bandolier break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: small and stocky, small size, grounded. POSE: twisting a screwdriver into a wired gadget, torch in the other paw. EXPRESSION: absorbed, tongue between teeth, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand.
 COLOR (exact hex values, flat fills): main #44f1b9 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ee8613 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, used on the eyes, the Scrap turret and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2145,7 +2174,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | padded and stocky; small size; mobility: grounded |
 | Ethnicity + nationality | raccoon-kin (not human) |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys |
 | Accessories | Shaped charges; bolt cutters; skeleton keys; padded vest |
 | Pose | slapping a shaped charge on a door, bolt cutters on the belt |
@@ -2185,13 +2214,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Vault Lockbreakers, nonbinary character (raccoon-kin (not human)), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Vault Lockbreakers, nonbinary being, character (raccoon-kin (not human)), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: slapping a shaped charge on a door, bolt cutters on the belt; the Shaped charges and the bolt cutters break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: padded and stocky, small size, grounded. POSE: slapping a shaped charge on a door, bolt cutters on the belt. EXPRESSION: gleeful, eyes wide, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys.
 COLOR (exact hex values, flat fills): main #fd9794 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #a8dadc about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, used on the eyes, the Shaped charges and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2219,7 +2249,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | broad and armored; large size; mobility: aquatic |
 | Ethnicity + nationality | crocodile-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm |
 | Accessories | Boat hook; nest-armor; signal bell; egg basket |
 | Pose | boat hook raised, nest basket cradled on the other arm |
@@ -2259,13 +2289,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mire Matriarchs, female character (crocodile-kin (not human)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mire Matriarchs, female being, character (crocodile-kin (not human)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: boat hook raised, nest basket cradled on the other arm; the Boat hook and the nest-armor break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: broad and armored, large size, aquatic. POSE: boat hook raised, nest basket cradled on the other arm. EXPRESSION: stern, protective glare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm.
 COLOR (exact hex values, flat fills): main #7cb518 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #3a0ca3 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffe8d7 about 10%, used on the eyes, the Boat hook and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2290,7 +2321,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | lean and scarred; large size; mobility: aquatic |
 | Ethnicity + nationality | crocodile-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other |
 | Accessories | Boat hook; scrap cutlass; captain's hat; lantern pole |
 | Pose | one foot up on a crate, cutlass over the shoulder, lantern pole raised |
@@ -2330,13 +2361,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Snapjaw Riverjackers, male character (crocodile-kin (not human)), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Snapjaw Riverjackers, male being, character (crocodile-kin (not human)), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: one foot up on a crate, cutlass over the shoulder, lantern pole raised; the Boat hook and the scrap cutlass break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: lean and scarred, large size, aquatic. POSE: one foot up on a crate, cutlass over the shoulder, lantern pole raised. EXPRESSION: smug, tooth-baring grin, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other.
 COLOR (exact hex values, flat fills): main #67cdc1 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffbf69 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #1b263b about 10%, used on the eyes, the Boat hook and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2361,7 +2393,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | ancient and broad; large size; mobility: grounded |
 | Ethnicity + nationality | crocodile-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt |
 | Accessories | Heavy staff; mossy cloak; scroll of treaties; stone bracers |
 | Pose | seated upright with the staff planted, one eye cracking open |
@@ -2401,13 +2433,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Slow-Strike Sages, male character (crocodile-kin (not human)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Slow-Strike Sages, male being, character (crocodile-kin (not human)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: seated upright with the staff planted, one eye cracking open; the Heavy staff and the mossy cloak break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: ancient and broad, large size, grounded. POSE: seated upright with the staff planted, one eye cracking open. EXPRESSION: half-lidded, patient, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt.
 COLOR (exact hex values, flat fills): main #a7c957 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #6d597a about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fee7ab about 10%, used on the eyes, the Heavy staff and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2435,7 +2468,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tall, soft and round; medium size; mobility: aquatic |
 | Ethnicity + nationality | capybara-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | tall, soft capybara-kin with flowers and ribbons in her hair, wearing a layered mint-and-pink ribbon robe with a bow sash, a steaming iron kettle in one hand, a bundle of herbs and lavender in the crook of the other arm, glass spring-water vials and a flask at the belt; at her feet a small raccoon assistant in a green scarf with a belt of glowing crystals |
 | Accessories | Steam kettle; herb bundle; ribbon sash; spring-water vials; a crystal-wearing raccoon companion |
 | Pose | pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet |
@@ -2475,13 +2508,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hot-Spring Healers, female character (capybara-kin (not human)), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hot-Spring Healers, female being, character (capybara-kin (not human)), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet; the Steam kettle and the herb bundle break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: tall, soft and round, medium size, aquatic. POSE: pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet. EXPRESSION: soft, serene smile, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall, soft capybara-kin with flowers and ribbons in her hair, wearing a layered mint-and-pink ribbon robe with a bow sash, a steaming iron kettle in one hand, a bundle of herbs and lavender in the crook of the other arm, glass spring-water vials and a flask at the belt; at her feet a small raccoon assistant in a green scarf with a belt of glowing crystals.
 COLOR (exact hex values, flat fills): main #bcfec8 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffadad about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #c9c588 about 10%, used on the eyes, the Steam kettle and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2506,7 +2540,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | round and calm; medium size; mobility: grounded |
 | Ethnicity + nationality | capybara-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt |
 | Accessories | Reed mat; treaty scroll; gavel; tea set |
 | Pose | holding a treaty scroll and a teapot out in offer |
@@ -2546,13 +2580,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Reed-Lodge Diplomats, male character (capybara-kin (not human)), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Reed-Lodge Diplomats, male being, character (capybara-kin (not human)), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: holding a treaty scroll and a teapot out in offer; the Reed mat and the treaty scroll break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: round and calm, medium size, grounded. POSE: holding a treaty scroll and a teapot out in offer. EXPRESSION: calm, untroubled, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt.
 COLOR (exact hex values, flat fills): main #abdbd0 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e86c65 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, used on the eyes, the Reed mat and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2577,7 +2612,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | broad and heavy-set; large size; mobility: grounded |
 | Ethnicity + nationality | capybara-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand |
 | Accessories | Tower shield; sledge; scaffolding rig; hard hat |
 | Pose | planted behind a slab shield, sledge resting on one shoulder |
@@ -2617,13 +2652,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dam Wardens, male character (capybara-kin (not human)), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dam Wardens, male being, character (capybara-kin (not human)), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: planted behind a slab shield, sledge resting on one shoulder; the Tower shield and the sledge break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: broad and heavy-set, large size, grounded. POSE: planted behind a slab shield, sledge resting on one shoulder. EXPRESSION: stolid, unbothered, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand.
 COLOR (exact hex values, flat fills): main #b0970b about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #3d5a80 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #d8fdff about 10%, used on the eyes, the Tower shield and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2651,7 +2687,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | slim with feathery gills; medium size; mobility: aquatic |
 | Ethnicity + nationality | axolotl-kin (not human) |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other |
 | Accessories | Med satchel; glow-gel flask; bandage reel; field lamp |
 | Pose | kneeling with a glowing hand over a wound, satchel open |
@@ -2691,13 +2727,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Regrowth Medics, nonbinary character (axolotl-kin (not human)), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Regrowth Medics, nonbinary being, character (axolotl-kin (not human)), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: kneeling with a glowing hand over a wound, satchel open; the Med satchel and the glow-gel flask break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: slim with feathery gills, medium size, aquatic. POSE: kneeling with a glowing hand over a wound, satchel open. EXPRESSION: bright, reassuring smile, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other.
 COLOR (exact hex values, flat fills): main #f790c3 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff0d1 about 10%, used on the eyes, the Med satchel and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2722,7 +2759,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slim and wet-suited; medium size; mobility: aquatic |
 | Ethnicity + nationality | axolotl-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands |
 | Accessories | Storm staff; wet-suit coat; battery pack; goggles |
 | Pose | staff raised overhead as lightning arcs between the gills |
@@ -2762,13 +2799,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gillstorm Casters, female character (axolotl-kin (not human)), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gillstorm Casters, female being, character (axolotl-kin (not human)), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: staff raised overhead as lightning arcs between the gills; the Storm staff and the wet-suit coat break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: slim and wet-suited, medium size, aquatic. POSE: staff raised overhead as lightning arcs between the gills. EXPRESSION: intense, gills flared, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands.
 COLOR (exact hex values, flat fills): main #13a6c7 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff5d8f about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, used on the eyes, the Storm staff and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2793,7 +2831,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | wide-faced and low-slung; medium size; mobility: aquatic |
 | Ethnicity + nationality | axolotl-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands |
 | Accessories | Hooked spear; glow-lure; mud-cloak; wading boots |
 | Pose | low in a crouch, hooked spear lowered with the lure-tips glowing |
@@ -2833,13 +2871,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mudglow Lurkers, male character (axolotl-kin (not human)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mudglow Lurkers, male being, character (axolotl-kin (not human)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: low in a crouch, hooked spear lowered with the lure-tips glowing; the Hooked spear and the glow-lure break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: wide-faced and low-slung, medium size, aquatic. POSE: low in a crouch, hooked spear lowered with the lure-tips glowing. EXPRESSION: wide, unblinking stare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands.
 COLOR (exact hex values, flat fills): main #5a20c7 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #b5e48c about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, used on the eyes, the Hooked spear and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2867,7 +2906,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slender and feathered; medium size; mobility: flying |
 | Ethnicity + nationality | raven-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares |
 | Accessories | Crystal-ball lens; feather staff; star-sewn cloak; signal flares |
 | Pose | orb held aloft in one hand, crescent staff pointed in the other |
@@ -2907,13 +2946,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gloamwing Oracles, female character (raven-kin (not human)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gloamwing Oracles, female being, character (raven-kin (not human)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: orb held aloft in one hand, crescent staff pointed in the other; the Crystal-ball lens and the feather staff break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: slender and feathered, medium size, flying. POSE: orb held aloft in one hand, crescent staff pointed in the other. EXPRESSION: mysterious, knowing, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares.
 COLOR (exact hex values, flat fills): main #3a0ca3 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f9c74f about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #90e0ef about 10%, used on the eyes, the Crystal-ball lens and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -2938,7 +2978,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | small and quick; small size; mobility: flying |
 | Ethnicity + nationality | magpie-kin (not human) |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch |
 | Accessories | Twin hook-blades; relic bag; magnifying goggles; gem pouch |
 | Pose | hooking a gem with one blade, bag swinging from the shoulder |
@@ -2978,13 +3018,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Salvage Magpies, nonbinary character (magpie-kin (not human)), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Salvage Magpies, nonbinary being, character (magpie-kin (not human)), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: hooking a gem with one blade, bag swinging from the shoulder; the Twin hook-blades and the relic bag break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: small and quick, small size, flying. POSE: hooking a gem with one blade, bag swinging from the shoulder. EXPRESSION: greedy delight, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch.
 COLOR (exact hex values, flat fills): main #aafdff about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #1d3557 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #f54852 about 10%, used on the eyes, the Twin hook-blades and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3009,7 +3050,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | lean and feathered; medium size; mobility: flying |
 | Ethnicity + nationality | raven-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip |
 | Accessories | Talon-blades; feather mantle; black-iron beak mask; grudge ledger |
 | Pose | diving forward with talon-blades out, crows streaming behind |
@@ -3049,13 +3090,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Murder Vanguard, male character (raven-kin (not human)), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Murder Vanguard, male being, character (raven-kin (not human)), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: diving forward with talon-blades out, crows streaming behind; the Talon-blades and the feather mantle break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: lean and feathered, medium size, flying. POSE: diving forward with talon-blades out, crows streaming behind. EXPRESSION: cold, beaked glare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip.
 COLOR (exact hex values, flat fills): main #282956 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ef233c about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #def6ff about 10%, used on the eyes, the Talon-blades and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3083,7 +3125,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | round and fluffy; medium size; mobility: flying |
 | Ethnicity + nationality | owl-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt |
 | Accessories | Talon-blades; spectacles; scroll case; wing-cloak |
 | Pose | diving with talon-blades extended and wings half-spread |
@@ -3123,13 +3165,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hushwing Strikers, female character (owl-kin (not human)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hushwing Strikers, female being, character (owl-kin (not human)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: diving with talon-blades extended and wings half-spread; the Talon-blades and the spectacles break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: round and fluffy, medium size, flying. POSE: diving with talon-blades extended and wings half-spread. EXPRESSION: grave, unblinking, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt.
 COLOR (exact hex values, flat fills): main #7aa1ce about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #5f0f40 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #f78f0a about 10%, used on the eyes, the Talon-blades and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3154,7 +3197,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | compact with huge eyes; medium size; mobility: flying |
 | Ethnicity + nationality | owl-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands |
 | Accessories | Long rifle with thermal scope; night-goggles; ghillie cloak |
 | Pose | perched with the rifle braced across a raised knee |
@@ -3194,13 +3237,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Night-Eye Snipers, male character (owl-kin (not human)), apparent age early 70s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Night-Eye Snipers, male being, character (owl-kin (not human)), apparent age early 70s.
 DESIGN FOR SILHOUETTE FIRST: perched with the rifle braced across a raised knee; the Long rifle with thermal scope and the night-goggles break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: compact with huge eyes, medium size, flying. POSE: perched with the rifle braced across a raised knee. EXPRESSION: steady, enormous-eyed focus, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands.
 COLOR (exact hex values, flat fills): main #fff5bc about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #3c096c about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #c6e2fe about 10%, used on the eyes, the Long rifle with thermal scope and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3225,7 +3269,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | round and sturdy; medium size; mobility: grounded |
 | Ethnicity + nationality | owl-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder |
 | Accessories | Halberd; signal lamp; alarm horn; reinforced helm |
 | Pose | standing at a post, halberd upright, head swivelled over the shoulder |
@@ -3265,13 +3309,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rotating Watch, male character (owl-kin (not human)), apparent age early 70s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rotating Watch, male being, character (owl-kin (not human)), apparent age early 70s.
 DESIGN FOR SILHOUETTE FIRST: standing at a post, halberd upright, head swivelled over the shoulder; the Halberd and the signal lamp break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: round and sturdy, medium size, grounded. POSE: standing at a post, halberd upright, head swivelled over the shoulder. EXPRESSION: alert, head turned right around, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder.
 COLOR (exact hex values, flat fills): main #7091a1 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f28c16 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #023047 about 10%, used on the eyes, the Halberd and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3299,7 +3344,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slim and tentacled; medium size; mobility: agile |
 | Ethnicity + nationality | octopus-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt |
 | Accessories | Ink-bomb pouch; suction-grip gloves; silenced pistol; camo cloak |
 | Pose | slipping sideways with the silenced pistol raised, tentacles curling |
@@ -3339,13 +3384,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Ink Spies, female character (octopus-kin (not human)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Ink Spies, female being, character (octopus-kin (not human)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: slipping sideways with the silenced pistol raised, tentacles curling; the Ink-bomb pouch and the suction-grip gloves break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: slim and tentacled, medium size, agile. POSE: slipping sideways with the silenced pistol raised, tentacles curling. EXPRESSION: coolly amused, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt.
 COLOR (exact hex values, flat fills): main #9518a2 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, used on the eyes, the Ink-bomb pouch and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3370,7 +3416,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | many-limbed and busy; medium size; mobility: grounded |
 | Ethnicity + nationality | octopus-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver |
 | Accessories | Multi-tool harness; welder; scrap turret; goggles |
 | Pose | working on several tools at once with a limb for each |
@@ -3410,13 +3456,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Tentacle Engineers, male character (octopus-kin (not human)), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Tentacle Engineers, male being, character (octopus-kin (not human)), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: working on several tools at once with a limb for each; the Multi-tool harness and the welder break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: many-limbed and busy, medium size, grounded. POSE: working on several tools at once with a limb for each. EXPRESSION: frazzled, delighted focus, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver.
 COLOR (exact hex values, flat fills): main #fda96c about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #00b4d8 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, used on the eyes, the Multi-tool harness and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3441,7 +3488,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | robed and tentacled; medium size; mobility: aquatic |
 | Ethnicity + nationality | octopus-kin (not human) |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt |
 | Accessories | Sodden tome; ink wand; diving-bell helm; scroll case |
 | Pose | reading from an open tome while spectral limbs coil around |
@@ -3481,13 +3528,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Abyssal Scholars, nonbinary character (octopus-kin (not human)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Abyssal Scholars, nonbinary being, character (octopus-kin (not human)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: reading from an open tome while spectral limbs coil around; the Sodden tome and the ink wand break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: robed and tentacled, medium size, aquatic. POSE: reading from an open tome while spectral limbs coil around. EXPRESSION: serene, eyes half-shut, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt.
 COLOR (exact hex values, flat fills): main #270077 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e0aaff about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #1c2337 about 10%, used on the eyes, the Sodden tome and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3515,7 +3563,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | armored and compact; medium size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak |
 | Accessories | Club-claws; plated carapace; striking gauntlets; reef-cloak |
 | Pose | one club-claw cocked back, the other braced forward |
@@ -3555,13 +3603,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Punch-Claw Duelists, male character (mantis shrimp-kin (not human)), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Punch-Claw Duelists, male being, character (mantis shrimp-kin (not human)), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: one club-claw cocked back, the other braced forward; the Club-claws and the plated carapace break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: armored and compact, medium size, aquatic. POSE: one club-claw cocked back, the other braced forward. EXPRESSION: taut, predatory, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak.
 COLOR (exact hex values, flat fills): main #ca148b about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #023e8a about 10%, used on the eyes, the Club-claws and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3586,7 +3635,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | armored with stalked eyes; medium size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak |
 | Accessories | Prism rifle; multi-lens goggles; color-coded ammo; reef-cloak |
 | Pose | braced firing stance with a prism rifle |
@@ -3626,13 +3675,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Prism Gunners, female character (mantis shrimp-kin (not human)), apparent age early 70s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Prism Gunners, female being, character (mantis shrimp-kin (not human)), apparent age early 70s.
 DESIGN FOR SILHOUETTE FIRST: braced firing stance with a prism rifle; the Prism rifle and the multi-lens goggles break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: armored with stalked eyes, medium size, aquatic. POSE: braced firing stance with a prism rifle. EXPRESSION: fiercely focused, stalk-eyes aimed in different directions, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak.
 COLOR (exact hex values, flat fills): main #4dfff2 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f15bb5 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #9b5de5 about 10%, used on the eyes, the Prism rifle and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3657,7 +3707,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | heavily armored; large size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand |
 | Accessories | Shell shield; plated carapace; short club-claws; helmet |
 | Pose | crouched behind a ridged shield, short claw ready |
@@ -3697,13 +3747,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Reef Shell-Guard, male character (mantis shrimp-kin (not human)), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Reef Shell-Guard, male being, character (mantis shrimp-kin (not human)), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: crouched behind a ridged shield, short claw ready; the Shell shield and the plated carapace break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: heavily armored, large size, aquatic. POSE: crouched behind a ridged shield, short claw ready. EXPRESSION: grim, unmoved, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand.
 COLOR (exact hex values, flat fills): main #e95cbf about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #118ab2 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffd166 about 10%, used on the eyes, the Shell shield and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3731,7 +3782,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slim and winged; medium size; mobility: flying |
 | Ethnicity + nationality | moth-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt |
 | Accessories | Flare launcher; lantern staff; ash-dusted robes; signal mirror |
 | Pose | lantern staff raised, flare launcher cocked on the hip |
@@ -3771,13 +3822,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Lantern Cultists, female character (moth-kin (not human)), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Lantern Cultists, female being, character (moth-kin (not human)), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: lantern staff raised, flare launcher cocked on the hip; the Flare launcher and the lantern staff break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: slim and winged, medium size, flying. POSE: lantern staff raised, flare launcher cocked on the hip. EXPRESSION: rapt, glowing devotion, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt.
 COLOR (exact hex values, flat fills): main #d7ce04 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #cc0b38 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #410f1f about 10%, used on the eyes, the Flare launcher and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3802,7 +3854,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | delicate and winged; medium size; mobility: flying |
 | Ethnicity + nationality | moth-kin (not human) |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt |
 | Accessories | Dust-satchel; feather duster staff; scale-powder pots; shawl |
 | Pose | shaking glowing dust from a feather duster over an ally |
@@ -3842,13 +3894,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dreamdust Weavers, nonbinary character (moth-kin (not human)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dreamdust Weavers, nonbinary being, character (moth-kin (not human)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: shaking glowing dust from a feather duster over an ally; the Dust-satchel and the feather duster staff break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: delicate and winged, medium size, flying. POSE: shaking glowing dust from a feather duster over an ally. EXPRESSION: drowsy, dreamy smile, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt.
 COLOR (exact hex values, flat fills): main #b668f9 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffc8dd about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e0d52 about 10%, used on the eyes, the Dust-satchel and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3873,7 +3926,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | slim and winged; medium size; mobility: climbing |
 | Ethnicity + nationality | moth-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | moth-kin in a radio headset and a harness with an antenna pack, climbing gear on the belt, a signal rod held in both hands |
 | Accessories | Signal rod; radio headset; antenna pack; climbing harness |
 | Pose | climbing stance, signal rod pointed outward |
@@ -3913,13 +3966,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Signal-Tower Wardens, male character (moth-kin (not human)), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Signal-Tower Wardens, male being, character (moth-kin (not human)), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: climbing stance, signal rod pointed outward; the Signal rod and the radio headset break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: slim and winged, medium size, climbing. POSE: climbing stance, signal rod pointed outward. EXPRESSION: alert, antennae twitching, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): moth-kin in a radio headset and a harness with an antenna pack, climbing gear on the belt, a signal rod held in both hands.
 COLOR (exact hex values, flat fills): main #30a8f5 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #4a4e69 about 10%, used on the eyes, the Signal rod and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -3947,7 +4001,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | armored in overlapping plates; large size; mobility: grounded |
 | Ethnicity + nationality | pangolin-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | pangolin-kin in layered salvage-plate armor with overlapping scales, a tower shield on one arm and a hand-forged mace in the other |
 | Accessories | Layered plate armor; tower shield; hand-forged mace; shoulder plates |
 | Pose | planted wide behind a tower shield, mace raised |
@@ -3987,13 +4041,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Plate-Wall Bulwarks, female character (pangolin-kin (not human)), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Plate-Wall Bulwarks, female being, character (pangolin-kin (not human)), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: planted wide behind a tower shield, mace raised; the Layered plate armor and the tower shield break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: armored in overlapping plates, large size, grounded. POSE: planted wide behind a tower shield, mace raised. EXPRESSION: unshakable, jaw set, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): pangolin-kin in layered salvage-plate armor with overlapping scales, a tower shield on one arm and a hand-forged mace in the other.
 COLOR (exact hex values, flat fills): main #febab2 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4a4e69 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fdce53 about 10%, used on the eyes, the Layered plate armor and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4018,7 +4073,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | stocky with huge claws; medium size; mobility: burrowing |
 | Ethnicity + nationality | pangolin-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks |
 | Accessories | Digging claws; mining helmet; shaft-lamp; dynamite belt |
 | Pose | bursting up through the ground with both claws out |
@@ -4058,13 +4113,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Tunnel Diggers, male character (pangolin-kin (not human)), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Tunnel Diggers, male being, character (pangolin-kin (not human)), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: bursting up through the ground with both claws out; the Digging claws and the mining helmet break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: stocky with huge claws, medium size, burrowing. POSE: bursting up through the ground with both claws out. EXPRESSION: gritty, determined, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks.
 COLOR (exact hex values, flat fills): main #663502 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f4a261 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, used on the eyes, the Digging claws and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4089,7 +4145,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | armored and round; medium size; mobility: grounded |
 | Ethnicity + nationality | pangolin-kin (not human) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll |
 | Accessories | Spiked plates; rolling harness; charge helm; goggles |
 | Pose | half curled forward, about to roll |
@@ -4129,13 +4185,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Curl-Ball Rollers, male character (pangolin-kin (not human)), apparent age mid 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Curl-Ball Rollers, male being, character (pangolin-kin (not human)), apparent age mid 40s.
 DESIGN FOR SILHOUETTE FIRST: half curled forward, about to roll; the Spiked plates and the rolling harness break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: armored and round, medium size, grounded. POSE: half curled forward, about to roll. EXPRESSION: wild-eyed thrill, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll.
 COLOR (exact hex values, flat fills): main #e5f102 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fd4d50 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, used on the eyes, the Spiked plates and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4163,7 +4220,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | many-limbed and slender; medium size; mobility: climbing |
 | Ethnicity + nationality | spider-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | many-limbed spider-kin in a silk-and-wire coat, a spinneret gauntlet, a spool of razor-wire at the belt, hook knives in two hands |
 | Accessories | Spool of razor-wire; spinneret gauntlet; silk shawl; hook knives |
 | Pose | pulling taut threads of wire with all four hands |
@@ -4203,13 +4260,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Loomweavers, female character (spider-kin (not human)), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Loomweavers, female being, character (spider-kin (not human)), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: pulling taut threads of wire with all four hands; the Spool of razor-wire and the spinneret gauntlet break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: many-limbed and slender, medium size, climbing. POSE: pulling taut threads of wire with all four hands. EXPRESSION: serene, intent, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): many-limbed spider-kin in a silk-and-wire coat, a spinneret gauntlet, a spool of razor-wire at the belt, hook knives in two hands.
 COLOR (exact hex values, flat fills): main #e0aaff about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #201c49 about 10%, used on the eyes, the Spool of razor-wire and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4234,7 +4292,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | slim and agile; small size; mobility: climbing |
 | Ethnicity + nationality | spider-kin (not human) |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb |
 | Accessories | Courier bag; signal spool; hand-crank radio; tiny cap |
 | Pose | hanging upside-down from a thread, letter in one limb |
@@ -4274,13 +4332,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Silkroad Messengers, nonbinary character (spider-kin (not human)), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Silkroad Messengers, nonbinary being, character (spider-kin (not human)), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: hanging upside-down from a thread, letter in one limb; the Courier bag and the signal spool break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: slim and agile, small size, climbing. POSE: hanging upside-down from a thread, letter in one limb. EXPRESSION: cheerful and brisk, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb.
 COLOR (exact hex values, flat fills): main #dc8495 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4ecdc4 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff3b0 about 10%, used on the eyes, the Courier bag and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4305,7 +4364,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tiny and acrobatic; tiny size; mobility: agile |
 | Ethnicity + nationality | jumping spider-kin (not human) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | tiny jumping-spider-kin in a tiny cape and jump-boots, a hooked blade in each of two hands, a dewdrop-shaped buckler |
 | Accessories | Twin hooked blades; jump-boots; dewdrop buckler; tiny cape |
 | Pose | mid-leap with both blades flashing |
@@ -4345,13 +4404,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dewdrop Dancers, female character (jumping spider-kin (not human)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dewdrop Dancers, female being, character (jumping spider-kin (not human)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: mid-leap with both blades flashing; the Twin hooked blades and the jump-boots break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: tiny and acrobatic, tiny size, agile. POSE: mid-leap with both blades flashing. EXPRESSION: mischievous glee, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tiny jumping-spider-kin in a tiny cape and jump-boots, a hooked blade in each of two hands, a dewdrop-shaped buckler.
 COLOR (exact hex values, flat fills): main #fe73e6 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #90e0ef about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff1e6 about 10%, used on the eyes, the Twin hooked blades and one small magical detail. Black, white and neutral grey are also allowed. Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #b4532a on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4388,7 +4448,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | translucent and lean; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Haitian heritage, Haitian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | pale translucent ghost wrapped in a cloak of TV static, crackling gauntlets with antenna blades on the forearms, a cable trailing as a tail |
 | Accessories | Antenna blades; static cloak; crackling gauntlets; cable tail |
 | Pose | mid-lunge with blade-claws crossed, cable tail trailing |
@@ -4428,13 +4488,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Static Wraiths, male character (In life: Haitian heritage, Haitian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Static Wraiths, male being, character (In life: Haitian heritage, Haitian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: mid-lunge with blade-claws crossed, cable tail trailing; the Antenna blades and the static cloak break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: translucent and lean, medium size, phasing. POSE: mid-lunge with blade-claws crossed, cable tail trailing. EXPRESSION: blank, hollow mask-face, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): pale translucent ghost wrapped in a cloak of TV static, crackling gauntlets with antenna blades on the forearms, a cable trailing as a tail.
 COLOR (exact hex values, flat fills): main #076982 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff5da about 10%, used on the eyes, the Antenna blades and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4459,7 +4520,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | tall and striped; large size; mobility: phasing |
 | Ethnicity + nationality | In life: Welsh heritage, Welsh |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | tall ghost with a striped color-bar face and a TV-tube visor, a prism lens in one hand, a small color-bar shield on the other arm, an antenna on the head |
 | Accessories | Prism lens; color-bar shield; broadcast antenna; TV-head visor |
 | Pose | raising a prism lens, color-bar shield forward |
@@ -4499,13 +4560,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Test-Pattern Seers, nonbinary character (In life: Welsh heritage, Welsh), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Test-Pattern Seers, nonbinary being, character (In life: Welsh heritage, Welsh), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: raising a prism lens, color-bar shield forward; the Prism lens and the color-bar shield break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: tall and striped, large size, phasing. POSE: raising a prism lens, color-bar shield forward. EXPRESSION: serene, striped face unmoving, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall ghost with a striped color-bar face and a TV-tube visor, a prism lens in one hand, a small color-bar shield on the other arm, an antenna on the head.
 COLOR (exact hex values, flat fills): main #ce8106 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #3a86ff about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e63946 about 10%, used on the eyes, the Prism lens and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4530,7 +4592,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | calm and translucent; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Mexican heritage, Mexican |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | calm ghost in a translucent reflective vest, a siren horn held aloft in one hand, a hand-crank radio in the other, an emergency lamp at the belt |
 | Accessories | Siren horn; emergency lamp; hand-crank radio; reflective vest |
 | Pose | siren horn raised overhead, radio in the other hand |
@@ -4570,13 +4632,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Emergency Broadcasters, female character (In life: Mexican heritage, Mexican), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Emergency Broadcasters, female being, character (In life: Mexican heritage, Mexican), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: siren horn raised overhead, radio in the other hand; the Siren horn and the emergency lamp break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: calm and translucent, medium size, phasing. POSE: siren horn raised overhead, radio in the other hand. EXPRESSION: calm, steady, reassuring, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): calm ghost in a translucent reflective vest, a siren horn held aloft in one hand, a hand-crank radio in the other, an emergency lamp at the belt.
 COLOR (exact hex values, flat fills): main #f67604 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #023e8a about 10%, used on the eyes, the Siren horn and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4604,7 +4667,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | hulking and vehicle-fused; large size; mobility: vehicle |
 | Ethnicity + nationality | In life: Polish heritage, Polish |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | translucent ghost in a rust-colored cloak with glowing headlight-shaped eyes, a spectral blade shaped like a hood ornament in one hand |
 | Accessories | Possessed wreck; hood-spirit blade; rust cloak; headlight eyes |
 | Pose | hunched forward, hood-ornament blade slung back |
@@ -4644,13 +4707,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rust-Wraith Possessors, male character (In life: Polish heritage, Polish), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rust-Wraith Possessors, male being, character (In life: Polish heritage, Polish), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: hunched forward, hood-ornament blade slung back; the Possessed wreck and the hood-spirit blade break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: hulking and vehicle-fused, large size, vehicle. POSE: hunched forward, hood-ornament blade slung back. EXPRESSION: scowling, headlight eyes ablaze, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): translucent ghost in a rust-colored cloak with glowing headlight-shaped eyes, a spectral blade shaped like a hood ornament in one hand.
 COLOR (exact hex values, flat fills): main #df9062 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #c2f4f6 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, used on the eyes, the Possessed wreck and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4675,7 +4739,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | blocky and pixelated; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Japanese heritage, Japanese |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | ghost with a CRT monitor for a head and pixelated limbs, joystick staff in one hand, a score-ribbon across the chest, pixel-block gauntlets |
 | Accessories | Pixel gauntlets; joystick staff; CRT-head; score-ribbon |
 | Pose | firing a stream of sprites from pixel gauntlets |
@@ -4715,13 +4779,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Cabinet Spirits, male character (In life: Japanese heritage, Japanese), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Cabinet Spirits, male being, character (In life: Japanese heritage, Japanese), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: firing a stream of sprites from pixel gauntlets; the Pixel gauntlets and the joystick staff break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: blocky and pixelated, medium size, grounded. POSE: firing a stream of sprites from pixel gauntlets. EXPRESSION: blank pixel grin on a screen-face, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): ghost with a CRT monitor for a head and pixelated limbs, joystick staff in one hand, a score-ribbon across the chest, pixel-block gauntlets.
 COLOR (exact hex values, flat fills): main #795ef1 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #00f5d4 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffd166 about 10%, used on the eyes, the Pixel gauntlets and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4746,7 +4811,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slender and wired; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Indian heritage, Indian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | slender ghost in a circuit-board mantle with jumper cables at the belt, a trace-lens in one hand and a thin probe in the other |
 | Accessories | Trace-lens; jumper cables; circuit-board mantle; probe |
 | Pose | probe extended toward a device, jumper cables trailing |
@@ -4786,13 +4851,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Circuit Seers, female character (In life: Indian heritage, Indian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Circuit Seers, female being, character (In life: Indian heritage, Indian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: probe extended toward a device, jumper cables trailing; the Trace-lens and the jumper cables break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: slender and wired, medium size, phasing. POSE: probe extended toward a device, jumper cables trailing. EXPRESSION: curious, tilted head, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): slender ghost in a circuit-board mantle with jumper cables at the belt, a trace-lens in one hand and a thin probe in the other.
 COLOR (exact hex values, flat fills): main #48d763 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e63946 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, used on the eyes, the Trace-lens and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4820,7 +4886,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | elegant and graceful; medium size; mobility: agile |
 | Ethnicity + nationality | In life: Argentine heritage, Argentine |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | elegant ghost in a shimmering party coat mid-pirouette, a party blade in one hand and a sparkler in the other |
 | Accessories | Ghostly party blade; sparkler; glittering coat; phantom turntable |
 | Pose | mid-pirouette, party blade sweeping a circle |
@@ -4860,13 +4926,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Last-Dance Revelers, female character (In life: Argentine heritage, Argentine), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Last-Dance Revelers, female being, character (In life: Argentine heritage, Argentine), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: mid-pirouette, party blade sweeping a circle; the Ghostly party blade and the sparkler break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: elegant and graceful, medium size, agile. POSE: mid-pirouette, party blade sweeping a circle. EXPRESSION: dreamy, lost in the music, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): elegant ghost in a shimmering party coat mid-pirouette, a party blade in one hand and a sparkler in the other.
 COLOR (exact hex values, flat fills): main #d24a78 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, used on the eyes, the Ghostly party blade and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4891,7 +4958,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | gentle and shrouded; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Irish heritage, Irish |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | gentle ghost in a long shroud-cloak, a funeral bell in one hand, a candle lantern in the other, a memory book at the belt |
 | Accessories | Funeral bell; candle lantern; shroud cloak; memory book |
 | Pose | ringing a funeral bell, candle lantern held low |
@@ -4931,13 +4998,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Wake-Wardens, male character (In life: Irish heritage, Irish), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Wake-Wardens, male being, character (In life: Irish heritage, Irish), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: ringing a funeral bell, candle lantern held low; the Funeral bell and the candle lantern break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: gentle and shrouded, medium size, phasing. POSE: ringing a funeral bell, candle lantern held low. EXPRESSION: gentle, heavy-lidded, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): gentle ghost in a long shroud-cloak, a funeral bell in one hand, a candle lantern in the other, a memory book at the belt.
 COLOR (exact hex values, flat fills): main #878d71 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffb703 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #023047 about 10%, used on the eyes, the Funeral bell and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -4962,7 +5030,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | gaunt and wired; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Korean heritage, South Korean |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | ghost in a headset with a rotary-dial blade in one hand, a coiled phone-cord whip in the other, a small answering-machine shield on the forearm |
 | Accessories | Rotary-dial blade; phone-cord whip; headset; answering-machine shield |
 | Pose | whip-cracking a phone-cord, rotary blade raised |
@@ -5002,13 +5070,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Redial Wraiths, female character (In life: Korean heritage, South Korean), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Redial Wraiths, female being, character (In life: Korean heritage, South Korean), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: whip-cracking a phone-cord, rotary blade raised; the Rotary-dial blade and the phone-cord whip break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: gaunt and wired, medium size, phasing. POSE: whip-cracking a phone-cord, rotary blade raised. EXPRESSION: tense, repeating stare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): ghost in a headset with a rotary-dial blade in one hand, a coiled phone-cord whip in the other, a small answering-machine shield on the forearm.
 COLOR (exact hex values, flat fills): main #6878a6 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fb8500 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, used on the eyes, the Rotary-dial blade and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5036,7 +5105,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tall and pale; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Navajo heritage, American |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | pale ghost in a tattered long coat with a glowing brake-light lantern in one hand, a road-flare wand in the other, mouth open in a wail |
 | Accessories | Brake-light lantern; road-flare wand; tattered coat; mile marker |
 | Pose | arm out with a brake-light lantern, coat flaring |
@@ -5076,13 +5145,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Highway Banshees, female character (In life: Navajo heritage, American), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Highway Banshees, female being, character (In life: Navajo heritage, American), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: arm out with a brake-light lantern, coat flaring; the Brake-light lantern and the road-flare wand break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: tall and pale, medium size, phasing. POSE: arm out with a brake-light lantern, coat flaring. EXPRESSION: mouth open mid-wail, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): pale ghost in a tattered long coat with a glowing brake-light lantern in one hand, a road-flare wand in the other, mouth open in a wail.
 COLOR (exact hex values, flat fills): main #c4635a about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #4979a0 about 10%, used on the eyes, the Brake-light lantern and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5107,7 +5177,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | giant and frame-built; huge size; mobility: grounded |
 | Ethnicity + nationality | In life: American advertising-era smile |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | giant ghost with a fixed smiling face-mask and neon-tube arms, scaffolding-frame shoulders |
 | Accessories | Billboard frame; neon tubes; scaffolding; smiling mask |
 | Pose | towering stance with neon-tube arms spread |
@@ -5147,13 +5217,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Billboard Haunts, male character (In life: American advertising-era smile), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Billboard Haunts, male being, character (In life: American advertising-era smile), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: towering stance with neon-tube arms spread; the Billboard frame and the neon tubes break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: giant and frame-built, huge size, grounded. POSE: towering stance with neon-tube arms spread. EXPRESSION: fixed, painted grin, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): giant ghost with a fixed smiling face-mask and neon-tube arms, scaffolding-frame shoulders.
 COLOR (exact hex values, flat fills): main #96830b about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #3a86ff about 10%, used on the eyes, the Billboard frame and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5178,7 +5249,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | quiet and pale; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Nigerian heritage, Nigerian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | quiet ghost in a pale nurse's coat and soft slippers, an IV-stand staff glowing in one hand, a clipboard in the other, a nurse's lantern at the belt |
 | Accessories | Clipboard; nurse's lantern; IV-stand staff; soft slippers |
 | Pose | leaning on an IV-stand staff, clipboard held to the chest |
@@ -5218,13 +5289,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hospice Haunts, female character (In life: Nigerian heritage, Nigerian), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Hospice Haunts, female being, character (In life: Nigerian heritage, Nigerian), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: leaning on an IV-stand staff, clipboard held to the chest; the Clipboard and the nurse's lantern break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: quiet and pale, medium size, phasing. POSE: leaning on an IV-stand staff, clipboard held to the chest. EXPRESSION: quiet, tender calm, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): quiet ghost in a pale nurse's coat and soft slippers, an IV-stand staff glowing in one hand, a clipboard in the other, a nurse's lantern at the belt.
 COLOR (exact hex values, flat fills): main #a08bc1 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffafcc about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #eef6ff about 10%, used on the eyes, the Clipboard and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #8fcfe0 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Ghost people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5261,7 +5333,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | skeletal and armored; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Spanish heritage, Spanish |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | rattling skeleton in a brass breastplate and helmet, a door-shield stenciled with a number on one arm, a bone mace in the other hand |
 | Accessories | Door-shield; bone mace; brass breastplate; helmet |
 | Pose | mace raised overhead behind a numbered door-shield |
@@ -5301,13 +5373,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Riot-Line Bonebreakers, male character (In life: Spanish heritage, Spanish), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Riot-Line Bonebreakers, male being, character (In life: Spanish heritage, Spanish), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: mace raised overhead behind a numbered door-shield; the Door-shield and the bone mace break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: skeletal and armored, medium size, grounded. POSE: mace raised overhead behind a numbered door-shield. EXPRESSION: fixed skeletal grin, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): rattling skeleton in a brass breastplate and helmet, a door-shield stenciled with a number on one arm, a bone mace in the other hand.
 COLOR (exact hex values, flat fills): main #88080a about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fae4a8 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #faa307 about 10%, used on the eyes, the Door-shield and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5332,7 +5405,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | skeletal and angular; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Ghanaian heritage, Ghanaian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | grinning skeleton in a helmet with a forearm cannon, an ammo pouch of bone shards and a powder horn at the belt |
 | Accessories | Forearm cannon; bone ammo pouch; powder horn; helmet |
 | Pose | firing a forearm cannon in a spread of bone |
@@ -5372,13 +5445,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rattle-Cannon Gunners, female character (In life: Ghanaian heritage, Ghanaian), apparent age late 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rattle-Cannon Gunners, female being, character (In life: Ghanaian heritage, Ghanaian), apparent age late 50s.
 DESIGN FOR SILHOUETTE FIRST: firing a forearm cannon in a spread of bone; the Forearm cannon and the bone ammo pouch break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: skeletal and angular, medium size, grounded. POSE: firing a forearm cannon in a spread of bone. EXPRESSION: grinning, jaw unhinged, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): grinning skeleton in a helmet with a forearm cannon, an ammo pouch of bone shards and a powder horn at the belt.
 COLOR (exact hex values, flat fills): main #8f5600 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fae4a8 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #410f1f about 10%, used on the eyes, the Forearm cannon and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5403,7 +5477,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | tall and skeletal; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Cuban heritage, Cuban |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | grinning skeleton drum-major in a plumed helm, a baton in one hand, a banner pole in the other, a war-drum strapped to the front |
 | Accessories | War-drum; baton; plumed helm; banner |
 | Pose | marching mid-stride, baton raised over a war-drum |
@@ -5443,13 +5517,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Drum-Major Stewards, male character (In life: Cuban heritage, Cuban), apparent age early 70s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Drum-Major Stewards, male being, character (In life: Cuban heritage, Cuban), apparent age early 70s.
 DESIGN FOR SILHOUETTE FIRST: marching mid-stride, baton raised over a war-drum; the War-drum and the baton break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: tall and skeletal, medium size, grounded. POSE: marching mid-stride, baton raised over a war-drum. EXPRESSION: proud, plumed grin, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): grinning skeleton drum-major in a plumed helm, a baton in one hand, a banner pole in the other, a war-drum strapped to the front.
 COLOR (exact hex values, flat fills): main #a84a52 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, used on the eyes, the War-drum and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5477,7 +5552,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | hulking and slouched; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Polish heritage, Polish-American |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | hulking zombie in a hard hat and a work vest, a sledgehammer in both hands, a rebar spear on the back |
 | Accessories | Sledgehammer; hard hat; work vest; rebar spear |
 | Pose | hauling a sledgehammer back for a full swing |
@@ -5517,13 +5592,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Demolition Crews, male character (In life: Polish heritage, Polish-American), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Demolition Crews, male being, character (In life: Polish heritage, Polish-American), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: hauling a sledgehammer back for a full swing; the Sledgehammer and the hard hat break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: hulking and slouched, large size, grounded. POSE: hauling a sledgehammer back for a full swing. EXPRESSION: slack, steady stare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): hulking zombie in a hard hat and a work vest, a sledgehammer in both hands, a rebar spear on the back.
 COLOR (exact hex values, flat fills): main #64fe71 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #002645 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e63946 about 10%, used on the eyes, the Sledgehammer and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5548,7 +5624,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | massive and slow; huge size; mobility: grounded |
 | Ethnicity + nationality | In life: Samoan heritage, Samoan |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | massive zombie in a hard hat, safety vest and steel-toe boots, a chained wrecking ball bolted to one arm |
 | Accessories | Chained wrecking ball; steel-toe boots; safety vest; hard hat |
 | Pose | heaving a chained wrecking ball in a wide arc |
@@ -5588,13 +5664,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Wrecking-Ball Lumberers, male character (In life: Samoan heritage, Samoan), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Wrecking-Ball Lumberers, male being, character (In life: Samoan heritage, Samoan), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: heaving a chained wrecking ball in a wide arc; the Chained wrecking ball and the steel-toe boots break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: massive and slow, huge size, grounded. POSE: heaving a chained wrecking ball in a wide arc. EXPRESSION: vacant, patient, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): massive zombie in a hard hat, safety vest and steel-toe boots, a chained wrecking ball bolted to one arm.
 COLOR (exact hex values, flat fills): main #6d940e about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #7d99ca about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, used on the eyes, the Chained wrecking ball and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5619,7 +5696,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | lanky and rumpled; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Italian-American heritage, American |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | zombie in a loose tie and a hard hat with a union badge, a picket sign in one hand, a clipboard in the other |
 | Accessories | Clipboard; picket sign; hard hat; union badge |
 | Pose | raising a picket sign, clipboard under the other arm |
@@ -5659,13 +5736,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Shop Stewards, female character (In life: Italian-American heritage, American), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Shop Stewards, female being, character (In life: Italian-American heritage, American), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: raising a picket sign, clipboard under the other arm; the Clipboard and the picket sign break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: lanky and rumpled, medium size, grounded. POSE: raising a picket sign, clipboard under the other arm. EXPRESSION: wry, bureaucratic smirk, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): zombie in a loose tie and a hard hat with a union badge, a picket sign in one hand, a clipboard in the other.
 COLOR (exact hex values, flat fills): main #139b5e about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ef476f about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, used on the eyes, the Clipboard and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5693,7 +5771,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | tall and fussy; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Egyptian heritage, Egyptian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | tall skeletal lich in a fussy robe and a pince-nez, a giant soul-stamp in one hand, a contract scroll in the other, a quill behind the ear |
 | Accessories | Soul-stamp; contract scroll; quill; pince-nez |
 | Pose | slamming a huge stamp onto a glowing contract |
@@ -5733,13 +5811,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Soul Notaries, male character (In life: Egyptian heritage, Egyptian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Soul Notaries, male being, character (In life: Egyptian heritage, Egyptian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: slamming a huge stamp onto a glowing contract; the Soul-stamp and the contract scroll break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: tall and fussy, large size, grounded. POSE: slamming a huge stamp onto a glowing contract. EXPRESSION: pursed, fussy, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall skeletal lich in a fussy robe and a pince-nez, a giant soul-stamp in one hand, a contract scroll in the other, a quill behind the ear.
 COLOR (exact hex values, flat fills): main #6f4a9a about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffba08 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #271948 about 10%, used on the eyes, the Soul-stamp and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5764,7 +5843,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tall and narrow; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Chinese heritage, Chinese |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | tall lich in a pointed hat, a soul-lens held up in one hand, a crowbar in the other, a ledger tucked under the arm |
 | Accessories | Soul-lens; ledger; crowbar; pointed hat |
 | Pose | holding a soul-lens to an unseen jar, crowbar over the shoulder |
@@ -5804,13 +5883,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Phylactery Auditors, female character (In life: Chinese heritage, Chinese), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Phylactery Auditors, female being, character (In life: Chinese heritage, Chinese), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: holding a soul-lens to an unseen jar, crowbar over the shoulder; the Soul-lens and the ledger break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: tall and narrow, large size, grounded. POSE: holding a soul-lens to an unseen jar, crowbar over the shoulder. EXPRESSION: suspicious squint, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall lich in a pointed hat, a soul-lens held up in one hand, a crowbar in the other, a ledger tucked under the arm.
 COLOR (exact hex values, flat fills): main #00807f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #3c096c about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ff9e00 about 10%, used on the eyes, the Soul-lens and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5835,7 +5915,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | gaunt and robed; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Mongolian heritage, Mongolian |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | skeletal lich in black robes with a stamp ring and contract shackles at the belt, a long scythe held in both hands |
 | Accessories | Scythe; contract shackles; black robes; stamp ring |
 | Pose | swinging a long scythe through a wide arc |
@@ -5875,13 +5955,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Contract Reapers, male character (In life: Mongolian heritage, Mongolian), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Contract Reapers, male being, character (In life: Mongolian heritage, Mongolian), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: swinging a long scythe through a wide arc; the Scythe and the contract shackles break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: gaunt and robed, large size, grounded. POSE: swinging a long scythe through a wide arc. EXPRESSION: cold, decided, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): skeletal lich in black robes with a stamp ring and contract shackles at the belt, a long scythe held in both hands.
 COLOR (exact hex values, flat fills): main #c746b9 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, used on the eyes, the Scythe and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5909,7 +5990,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | armored and wrapped; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Nubian heritage, Sudanese |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | mummy knight in a bandage cape with a scarab brooch, a gilded sarcophagus lid carried as a shield on one arm, a gilded lance in the other hand |
 | Accessories | Sarcophagus shield; gilded lance; scarab brooch; bandage cape |
 | Pose | charging forward behind a sarcophagus lid, lance leveled |
@@ -5949,13 +6030,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Sarcophagus Lancers, male character (In life: Nubian heritage, Sudanese), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Sarcophagus Lancers, male being, character (In life: Nubian heritage, Sudanese), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: charging forward behind a sarcophagus lid, lance leveled; the Sarcophagus shield and the gilded lance break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: armored and wrapped, large size, grounded. POSE: charging forward behind a sarcophagus lid, lance leveled. EXPRESSION: stoic, gold-masked, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): mummy knight in a bandage cape with a scarab brooch, a gilded sarcophagus lid carried as a shield on one arm, a gilded lance in the other hand.
 COLOR (exact hex values, flat fills): main #6f6704 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #006d77 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, used on the eyes, the Sarcophagus shield and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -5980,7 +6062,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | regal and slim; medium size; mobility: agile |
 | Ethnicity + nationality | In life: Egyptian heritage, Egyptian |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | regal mummy in a golden mask and trailing wraps, a gilded scimitar in one hand and a bandage whip in the other |
 | Accessories | Gilded scimitar; gold mask; bandage whip |
 | Pose | scimitar raised in salute, bandage whip trailing |
@@ -6020,13 +6102,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gold-Mask Duelists, female character (In life: Egyptian heritage, Egyptian), apparent age late 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Gold-Mask Duelists, female being, character (In life: Egyptian heritage, Egyptian), apparent age late 50s.
 DESIGN FOR SILHOUETTE FIRST: scimitar raised in salute, bandage whip trailing; the Gilded scimitar and the gold mask break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: regal and slim, medium size, agile. POSE: scimitar raised in salute, bandage whip trailing. EXPRESSION: regal, unreadable, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): regal mummy in a golden mask and trailing wraps, a gilded scimitar in one hand and a bandage whip in the other.
 COLOR (exact hex values, flat fills): main #c66d97 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #d4a017 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #0b6e4f about 10%, used on the eyes, the Gilded scimitar and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6051,7 +6134,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | round and aproned; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Greek heritage, Greek |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | mummy in an ornate apron, a belt of oil flasks, a canopic jar in one hand, a roll of bandage in the other |
 | Accessories | Oil flasks; canopic jar; bandage roll; ornate apron |
 | Pose | hurling a glowing flask, canopic jar at the belt |
@@ -6091,13 +6174,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Embalmer Alchemists, female character (In life: Greek heritage, Greek), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Embalmer Alchemists, female being, character (In life: Greek heritage, Greek), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: hurling a glowing flask, canopic jar at the belt; the Oil flasks and the canopic jar break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: round and aproned, medium size, grounded. POSE: hurling a glowing flask, canopic jar at the belt. EXPRESSION: bright, clinical, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): mummy in an ornate apron, a belt of oil flasks, a canopic jar in one hand, a roll of bandage in the other.
 COLOR (exact hex values, flat fills): main #33ab1c about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, used on the eyes, the Oil flasks and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #bdb7a4 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Undead people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6134,7 +6218,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | small and armored; small size; mobility: vehicle |
 | Ethnicity + nationality | Fae (adapted from English folk tradition) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | winged fae knight in a grass-green visor helm with a leaf-and-hedge armor, a long hedge-lance in one hand, a grass shield on the other arm |
 | Accessories | Armored mower; hedge-lance; grass shield; visor |
 | Pose | charging with the hedge-lance leveled |
@@ -6174,13 +6258,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Lawnmower Knights, male character (Fae (adapted from English folk tradition)), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Lawnmower Knights, male being, character (Fae (adapted from English folk tradition)), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: charging with the hedge-lance leveled; the Armored mower and the hedge-lance break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: small and armored, small size, vehicle. POSE: charging with the hedge-lance leveled. EXPRESSION: proud, chin up, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): winged fae knight in a grass-green visor helm with a leaf-and-hedge armor, a long hedge-lance in one hand, a grass shield on the other arm.
 COLOR (exact hex values, flat fills): main #8bae63 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff5d8f about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Armored mower and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6205,7 +6290,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tiny and winged; tiny size; mobility: flying |
 | Ethnicity + nationality | Fae (adapted from Japanese folk tradition) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | tiny winged sprite in a rain cape and rubber boots, a garden-hose whip in one hand, a sprinkler-head staff in the other |
 | Accessories | Garden hose whip; sprinkler staff; rain cape; rubber boots |
 | Pose | spinning in a ring of water jets, hose whip snapping |
@@ -6245,13 +6330,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Sprinkler Sprites, female character (Fae (adapted from Japanese folk tradition)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Sprinkler Sprites, female being, character (Fae (adapted from Japanese folk tradition)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: spinning in a ring of water jets, hose whip snapping; the Garden hose whip and the sprinkler staff break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: tiny and winged, tiny size, flying. POSE: spinning in a ring of water jets, hose whip snapping. EXPRESSION: delighted, giggling, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tiny winged sprite in a rain cape and rubber boots, a garden-hose whip in one hand, a sprinkler-head staff in the other.
 COLOR (exact hex values, flat fills): main #65b2ac about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffd166 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2ee3ac about 10%, used on the eyes, the Garden hose whip and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6276,7 +6362,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | small and winged; small size; mobility: flying |
 | Ethnicity + nationality | Fae (adapted from American suburban folklore) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | winged fae in a sun hat, a clipboard in one hand, a tiny gavel in the other, a bundle of violation tags at the belt |
 | Accessories | Clipboard; violation tags; tiny gavel; sun hat |
 | Pose | holding a clipboard up like a shield, tiny gavel raised |
@@ -6316,13 +6402,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: HOA Mediators, female character (Fae (adapted from American suburban folklore)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: HOA Mediators, female being, character (Fae (adapted from American suburban folklore)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: holding a clipboard up like a shield, tiny gavel raised; the Clipboard and the violation tags break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: small and winged, small size, flying. POSE: holding a clipboard up like a shield, tiny gavel raised. EXPRESSION: pleasant, immovable, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): winged fae in a sun hat, a clipboard in one hand, a tiny gavel in the other, a bundle of violation tags at the belt.
 COLOR (exact hex values, flat fills): main #a5d39a about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffadad about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, used on the eyes, the Clipboard and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6350,7 +6437,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tall and bark-skinned; large size; mobility: grounded |
 | Ethnicity + nationality | Dryad (adapted from Greek tradition) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | bark-skinned dryad in moss-plate armor with cable-vines wrapped on the arms, a root staff in one hand, a small monitor-shaped shield on the other arm |
 | Accessories | Root staff; cable vines; monitor shield; moss-plate armor |
 | Pose | staff raised overhead, shield forward |
@@ -6390,13 +6477,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rootlink Warlocks, female character (Dryad (adapted from Greek tradition)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Rootlink Warlocks, female being, character (Dryad (adapted from Greek tradition)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: staff raised overhead, shield forward; the Root staff and the cable vines break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: tall and bark-skinned, large size, grounded. POSE: staff raised overhead, shield forward. EXPRESSION: cold, luminous stare, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): bark-skinned dryad in moss-plate armor with cable-vines wrapped on the arms, a root staff in one hand, a small monitor-shaped shield on the other arm.
 COLOR (exact hex values, flat fills): main #2d4700 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, used on the eyes, the Root staff and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6421,7 +6509,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | armored and mossy; large size; mobility: grounded |
 | Ethnicity + nationality | Dryad (adapted from Celtic tradition) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | armored dryad in moss-covered rack-plate armor, a server-rack shield on one arm, a root hammer in the other hand, a vine whip at the belt |
 | Accessories | Rack-plate shield; root hammer; moss cape; vine whip |
 | Pose | braced behind a rack-plate shield, root hammer raised |
@@ -6461,13 +6549,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Moss-Plate Wardens, male character (Dryad (adapted from Celtic tradition)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Moss-Plate Wardens, male being, character (Dryad (adapted from Celtic tradition)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: braced behind a rack-plate shield, root hammer raised; the Rack-plate shield and the root hammer break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: armored and mossy, large size, grounded. POSE: braced behind a rack-plate shield, root hammer raised. EXPRESSION: calm, mossy stoicism, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): armored dryad in moss-covered rack-plate armor, a server-rack shield on one arm, a root hammer in the other hand, a vine whip at the belt.
 COLOR (exact hex values, flat fills): main #b8b07c about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #bc4749 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fee7ab about 10%, used on the eyes, the Rack-plate shield and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6492,7 +6581,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | gentle and graceful; medium size; mobility: grounded |
 | Ethnicity + nationality | Dryad (adapted from Slavic tradition) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | gentle dryad in a flower crown, a seed satchel at the hip, a watering can in one hand and a grafting knife in the other |
 | Accessories | Seed satchel; watering can; grafting knife; flower crown |
 | Pose | pouring glowing water over a kneeling ally |
@@ -6532,13 +6621,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Greenhouse Healers, female character (Dryad (adapted from Slavic tradition)), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Greenhouse Healers, female being, character (Dryad (adapted from Slavic tradition)), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: pouring glowing water over a kneeling ally; the Seed satchel and the watering can break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: gentle and graceful, medium size, grounded. POSE: pouring glowing water over a kneeling ally. EXPRESSION: warm, patient, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): gentle dryad in a flower crown, a seed satchel at the hip, a watering can in one hand and a grafting knife in the other.
 COLOR (exact hex values, flat fills): main #f9c9e9 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #a7c957 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #3d405b about 10%, used on the eyes, the Seed satchel and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6566,7 +6656,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | short and stout; small size; mobility: burrowing |
 | Ethnicity + nationality | Gnome (adapted from German tradition) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | stout bearded gnome in a crystal-crowned mining helmet with a head-lamp, a pickaxe in one hand, a belt of small mining charges |
 | Accessories | Pickaxe; mining charges; helmet lamp; sump pump |
 | Pose | carrying a charge in one hand, pickaxe raised in the other |
@@ -6606,13 +6696,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Sump Sappers, male character (Gnome (adapted from German tradition)), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Sump Sappers, male being, character (Gnome (adapted from German tradition)), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: carrying a charge in one hand, pickaxe raised in the other; the Pickaxe and the mining charges break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
 BODY: short and stout, small size, burrowing. POSE: carrying a charge in one hand, pickaxe raised in the other. EXPRESSION: grumpy, gritted teeth, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): stout bearded gnome in a crystal-crowned mining helmet with a head-lamp, a pickaxe in one hand, a belt of small mining charges.
 COLOR (exact hex values, flat fills): main #9ca2fa about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff9e00 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, used on the eyes, the Pickaxe and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6637,7 +6728,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | stout and armored; small size; mobility: grounded |
 | Ethnicity + nationality | Gnome (adapted from Dutch tradition) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | bearded gnome in bulky boiler-plate armor with steam vents, goggles, heavy pressure-fist gauntlets on both hands |
 | Accessories | Pressure-fist gauntlets; boiler armor; goggles; steam pipe |
 | Pose | cocking a steaming gauntleted fist |
@@ -6677,13 +6768,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Boiler-Room Brawlers, male character (Gnome (adapted from Dutch tradition)), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Boiler-Room Brawlers, male being, character (Gnome (adapted from Dutch tradition)), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: cocking a steaming gauntleted fist; the Pressure-fist gauntlets and the boiler armor break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: stout and armored, small size, grounded. POSE: cocking a steaming gauntleted fist. EXPRESSION: red-faced, scowling, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): bearded gnome in bulky boiler-plate armor with steam vents, goggles, heavy pressure-fist gauntlets on both hands.
 COLOR (exact hex values, flat fills): main #8b3701 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #7d99ca about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, used on the eyes, the Pressure-fist gauntlets and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6708,7 +6800,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | short and bearded; small size; mobility: grounded |
 | Ethnicity + nationality | Gnome (adapted from Norse tradition) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | short bearded gnome in a tall pointy hat, a toll ledger in one hand, a gate key in the other, a signal horn at the belt |
 | Accessories | Toll ledger; gate key; signal horn; tall pointy hat |
 | Pose | holding the ledger up, gate key in the other hand |
@@ -6748,13 +6840,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Toll Brokers, male character (Gnome (adapted from Norse tradition)), apparent age late 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Toll Brokers, male being, character (Gnome (adapted from Norse tradition)), apparent age late 40s.
 DESIGN FOR SILHOUETTE FIRST: holding the ledger up, gate key in the other hand; the Toll ledger and the gate key break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: short and bearded, small size, grounded. POSE: holding the ledger up, gate key in the other hand. EXPRESSION: sour, businesslike, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): short bearded gnome in a tall pointy hat, a toll ledger in one hand, a gate key in the other, a signal horn at the belt.
 COLOR (exact hex values, flat fills): main #b3907c about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffb703 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #f3f1b3 about 10%, used on the eyes, the Toll ledger and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6782,7 +6875,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tiny and quick; tiny size; mobility: agile |
 | Ethnicity + nationality | Hob (adapted from English folk tradition) |
-| Identity | female character |
+| Identity | female being, character |
 | Wardrobe | tiny hob in a thimble helmet, a tiny hammer in one hand, a doorbell-shaped bomb in the other, a lockpick at the belt |
 | Accessories | Doorbell bomb; tiny hammer; welcome mat; lockpick |
 | Pose | crouched beside a rigged doorbell with the hammer up |
@@ -6822,13 +6915,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Doorbell Ambushers, female character (Hob (adapted from English folk tradition)), apparent age late 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Doorbell Ambushers, female being, character (Hob (adapted from English folk tradition)), apparent age late 50s.
 DESIGN FOR SILHOUETTE FIRST: crouched beside a rigged doorbell with the hammer up; the Doorbell bomb and the tiny hammer break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: tiny and quick, tiny size, agile. POSE: crouched beside a rigged doorbell with the hammer up. EXPRESSION: gleeful mischief, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tiny hob in a thimble helmet, a tiny hammer in one hand, a doorbell-shaped bomb in the other, a lockpick at the belt.
 COLOR (exact hex values, flat fills): main #d78dfc about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #d62828 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, used on the eyes, the Doorbell bomb and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6853,7 +6947,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | tiny and aproned; tiny size; mobility: agile |
 | Ethnicity + nationality | Hob (adapted from Scottish folk tradition) |
-| Identity | nonbinary character |
+| Identity | nonbinary being, character |
 | Wardrobe | tiny hob in an apron and oven mitts, a tray of suspicious cookies in one hand, a rolling pin in the other, a bandolier of tiny spice vials |
 | Accessories | Cookie tray; rolling pin; spice vials; oven mitts |
 | Pose | offering a tray of cookies, rolling pin behind the back |
@@ -6893,13 +6987,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Pantry Poisoners, nonbinary character (Hob (adapted from Scottish folk tradition)), apparent age early 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Pantry Poisoners, nonbinary being, character (Hob (adapted from Scottish folk tradition)), apparent age early 50s.
 DESIGN FOR SILHOUETTE FIRST: offering a tray of cookies, rolling pin behind the back; the Cookie tray and the rolling pin break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: tiny and aproned, tiny size, agile. POSE: offering a tray of cookies, rolling pin behind the back. EXPRESSION: sweetly innocent, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tiny hob in an apron and oven mitts, a tray of suspicious cookies in one hand, a rolling pin in the other, a bandolier of tiny spice vials.
 COLOR (exact hex values, flat fills): main #8fe00f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #2ec4b6 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Cookie tray and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -6924,7 +7019,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | tiny and alert; tiny size; mobility: grounded |
 | Ethnicity + nationality | Hob (adapted from Irish folk tradition) |
-| Identity | male character |
+| Identity | male being, character |
 | Wardrobe | tiny hob in a cap blowing a whistle, a lantern in one hand, a tiny baseball bat on one shoulder |
 | Accessories | Lantern; whistle; tiny bat; tiny cap |
 | Pose | blowing a whistle, tiny bat over one shoulder |
@@ -6964,13 +7059,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Block-Watch Sentries, male character (Hob (adapted from Irish folk tradition)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Block-Watch Sentries, male being, character (Hob (adapted from Irish folk tradition)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: blowing a whistle, tiny bat over one shoulder; the Lantern and the whistle break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: tiny and alert, tiny size, grounded. POSE: blowing a whistle, tiny bat over one shoulder. EXPRESSION: alert and officious, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tiny hob in a cap blowing a whistle, a lantern in one hand, a tiny baseball bat on one shoulder.
 COLOR (exact hex values, flat fills): main #cf82c6 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #3bceac about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #540d6e about 10%, used on the eyes, the Lantern and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #3f7d45 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Forest Spirit people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7007,7 +7103,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | hunched and amphibious; large size; mobility: aquatic |
 | Ethnicity + nationality | Deep One (adapted from coastal folklore) |
-| Identity | female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
+| Identity | female being, an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
 | Wardrobe | tall hunched amphibious Deep One priest in sodden ceremonial wet-robes, fins and gills, webbed hands holding a shell staff and a brine censer, a tide chart scroll at the belt |
 | Accessories | Shell staff; brine censer; wet-robes; tide chart |
 | Pose | raising the shell staff as the tide rises at the feet |
@@ -7047,13 +7143,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Tidecall Priests, female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (adapted from coastal folklore)), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Tidecall Priests, female being, an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (adapted from coastal folklore)), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: raising the shell staff as the tide rises at the feet; the Shell staff and the brine censer break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: hunched and amphibious, large size, aquatic. POSE: raising the shell staff as the tide rises at the feet. EXPRESSION: serene, slow-blinking, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall hunched amphibious Deep One priest in sodden ceremonial wet-robes, fins and gills, webbed hands holding a shell staff and a brine censer, a tide chart scroll at the belt.
 COLOR (exact hex values, flat fills): main #a35085 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fff0d1 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #9d4edd about 10%, used on the eyes, the Shell staff and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7078,7 +7175,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | broad and squat, reef-armored; large size; mobility: aquatic |
 | Ethnicity + nationality | Deep One (reef-grown) |
-| Identity | male an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
+| Identity | male being, an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
 | Wardrobe | broad squat Deep One in jagged coral-plate armor with fins and gills, a barnacle shield on one arm, a trident in the other, an anchor chain across the chest |
 | Accessories | Coral-plate armor; trident; barnacle shield; anchor chain |
 | Pose | trident planted, barnacle shield braced |
@@ -7118,13 +7215,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Coralbone Sentinels, male an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (reef-grown)), apparent age late 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Coralbone Sentinels, male being, an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (reef-grown)), apparent age late 20s.
 DESIGN FOR SILHOUETTE FIRST: trident planted, barnacle shield braced; the Coral-plate armor and the trident break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: broad and squat, reef-armored, large size, aquatic. POSE: trident planted, barnacle shield braced. EXPRESSION: stoic, barnacled scowl, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): broad squat Deep One in jagged coral-plate armor with fins and gills, a barnacle shield on one arm, a trident in the other, an anchor chain across the chest.
 COLOR (exact hex values, flat fills): main #803c49 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #389d83 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, used on the eyes, the Coral-plate armor and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7149,7 +7247,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | slender and amphibious; medium size; mobility: aquatic |
 | Ethnicity + nationality | Deep One (tide-pool oracle) |
-| Identity | female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
+| Identity | female being, an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
 | Wardrobe | slender Deep One oracle with luminous pearl eyes and a kelp veil, a bone staff in one hand, a tide-glass orb in the other |
 | Accessories | Pearl-eye lenses; bone staff; tide-glass orb; kelp veil |
 | Pose | holding up a tide-glass orb, kelp veil drifting |
@@ -7189,13 +7287,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Pearl-Eyed Oracles, female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (tide-pool oracle)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Pearl-Eyed Oracles, female being, an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (tide-pool oracle)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: holding up a tide-glass orb, kelp veil drifting; the Pearl-eye lenses and the bone staff break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: slender and amphibious, medium size, aquatic. POSE: holding up a tide-glass orb, kelp veil drifting. EXPRESSION: luminous, distant, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): slender Deep One oracle with luminous pearl eyes and a kelp veil, a bone staff in one hand, a tide-glass orb in the other.
 COLOR (exact hex values, flat fills): main #caa2ab about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #d00000 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, used on the eyes, the Pearl-eye lenses and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7223,7 +7322,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | segmented and winged; medium size; mobility: flying |
 | Ethnicity + nationality | Mi-Go (alien) |
-| Identity | nonbinary an alien fungoid-insectoid technologist: a segmented pinkish-grey body, a bulbous ridged head covered in short antenna tendrils instead of a face, four thin arms and a pair of large membranous wings |
+| Identity | nonbinary being, an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings |
 | Wardrobe | segmented winged fungus-crustacean Mi-Go in a clinical harness of glowing brain-cylinders, a delicate memory probe in one claw, a tape reel at the belt |
 | Accessories | Brain-cylinder harness; memory probe; surgical wings; tape reel |
 | Pose | poised with a memory probe, cylinders glowing at the chest |
@@ -7263,13 +7362,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Braincase Surgeons, nonbinary an alien fungoid-insectoid technologist: a segmented pinkish-grey body, a bulbous ridged head covered in short antenna tendrils instead of a face, four thin arms and a pair of large membranous wings (Mi-Go (alien)), apparent age mid 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Braincase Surgeons, nonbinary being, an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings (Mi-Go (alien)), apparent age mid 40s.
 DESIGN FOR SILHOUETTE FIRST: poised with a memory probe, cylinders glowing at the chest; the Brain-cylinder harness and the memory probe break the outline so it reads instantly as a black shape. Shape language: soft rounded rectangles with an open palm and a visible kit.
 BODY: segmented and winged, medium size, flying. POSE: poised with a memory probe, cylinders glowing at the chest. EXPRESSION: clinical, curious tilt, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): segmented winged fungus-crustacean Mi-Go in a clinical harness of glowing brain-cylinders, a delicate memory probe in one claw, a tape reel at the belt.
 COLOR (exact hex values, flat fills): main #9066a9 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f8961e about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e0d52 about 10%, used on the eyes, the Brain-cylinder harness and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7294,7 +7394,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | insectoid and winged; medium size; mobility: flying |
 | Ethnicity + nationality | Mi-Go (alien) |
-| Identity | male an alien fungoid-insectoid technologist: a segmented pinkish-grey body, a bulbous ridged head covered in short antenna tendrils instead of a face, four thin arms and a pair of large membranous wings |
+| Identity | male being, an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings |
 | Wardrobe | winged fungus-crustacean Mi-Go navigator with circuit-patterned wings, a navigator wand in one claw, a brass sextant and a beacon pack at the belt |
 | Accessories | Navigator wand; wing-sails; brass sextant; beacon pack |
 | Pose | staff raised, sextant in the other claw, wings flared |
@@ -7334,13 +7434,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Etherwing Navigators, male an alien fungoid-insectoid technologist: a segmented pinkish-grey body, a bulbous ridged head covered in short antenna tendrils instead of a face, four thin arms and a pair of large membranous wings (Mi-Go (alien)), apparent age late 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Etherwing Navigators, male being, an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings (Mi-Go (alien)), apparent age late 50s.
 DESIGN FOR SILHOUETTE FIRST: staff raised, sextant in the other claw, wings flared; the Navigator wand and the wing-sails break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: insectoid and winged, medium size, flying. POSE: staff raised, sextant in the other claw, wings flared. EXPRESSION: wary, mandibles flared, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): winged fungus-crustacean Mi-Go navigator with circuit-patterned wings, a navigator wand in one claw, a brass sextant and a beacon pack at the belt.
 COLOR (exact hex values, flat fills): main #1b6eda about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ffbe0b about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #7209b7 about 10%, used on the eyes, the Navigator wand and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7365,7 +7466,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | many-limbed and winged; large size; mobility: flying |
 | Ethnicity + nationality | Mi-Go (alien) |
-| Identity | female an alien fungoid-insectoid technologist: a segmented pinkish-grey body, a bulbous ridged head covered in short antenna tendrils instead of a face, four thin arms and a pair of large membranous wings |
+| Identity | female being, an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings |
 | Wardrobe | many-limbed winged fungus-crustacean Mi-Go engineer in a harness, an antenna lance in one claw, a signal horn and a cable bundle at the belt |
 | Accessories | Relay tower pack; signal horn; antenna lance; cable bundle |
 | Pose | antenna lance leveled, signal horn raised |
@@ -7405,13 +7506,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Signal-Hive Engineers, female an alien fungoid-insectoid technologist: a segmented pinkish-grey body, a bulbous ridged head covered in short antenna tendrils instead of a face, four thin arms and a pair of large membranous wings (Mi-Go (alien)), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Signal-Hive Engineers, female being, an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings (Mi-Go (alien)), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: antenna lance leveled, signal horn raised; the Relay tower pack and the signal horn break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: many-limbed and winged, large size, flying. POSE: antenna lance leveled, signal horn raised. EXPRESSION: intent, antennae forward, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): many-limbed winged fungus-crustacean Mi-Go engineer in a harness, an antenna lance in one claw, a signal horn and a cable bundle at the belt.
 COLOR (exact hex values, flat fills): main #a30364 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffd60a about 10%, used on the eyes, the Relay tower pack and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7439,7 +7541,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | shapeless and bristling; huge size; mobility: grounded |
 | Ethnicity + nationality | Shoggoth (living flesh) |
-| Identity | nonbinary a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
+| Identity | nonbinary being, a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
 | Wardrobe | shapeless dark Shoggoth mass bristling with eyes, jaws and tendrils, a scavenged armor shard half-swallowed into the body |
 | Accessories | Bone-plate lumps; tendril whips; hungering mouths; scavenged armor shards |
 | Pose | lunging with tendrils and jaws on every side |
@@ -7479,13 +7581,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Many-Maw Devourers, nonbinary a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age late 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Many-Maw Devourers, nonbinary being, a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age late 30s.
 DESIGN FOR SILHOUETTE FIRST: lunging with tendrils and jaws on every side; the Bone-plate lumps and the tendril whips break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: shapeless and bristling, huge size, grounded. POSE: lunging with tendrils and jaws on every side. EXPRESSION: many eyes, many mouths grinning, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): shapeless dark Shoggoth mass bristling with eyes, jaws and tendrils, a scavenged armor shard half-swallowed into the body.
 COLOR (exact hex values, flat fills): main #62000f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, used on the eyes, the Bone-plate lumps and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7510,7 +7613,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | humanoid with a melting face; medium size; mobility: agile |
 | Ethnicity + nationality | Shoggoth (living flesh) |
-| Identity | female a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
+| Identity | female being, a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
 | Wardrobe | humanoid shoggoth figure with a face melting at the edges into an eye, a borrowed coat, one hand a pale blade, a half-worn mask in the other hand |
 | Accessories | Borrowed coat; voice-box; blade-limb; mask collection |
 | Pose | stepping from a crowd with one blade-limb out |
@@ -7550,13 +7653,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mimic-Flesh Infiltrators, female a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age early 40s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Mimic-Flesh Infiltrators, female being, a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age early 40s.
 DESIGN FOR SILHOUETTE FIRST: stepping from a crowd with one blade-limb out; the Borrowed coat and the voice-box break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: humanoid with a melting face, medium size, agile. POSE: stepping from a crowd with one blade-limb out. EXPRESSION: face melting, one eye over the other, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): humanoid shoggoth figure with a face melting at the edges into an eye, a borrowed coat, one hand a pale blade, a half-worn mask in the other hand.
 COLOR (exact hex values, flat fills): main #07c621 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff595e about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, used on the eyes, the Borrowed coat and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7581,7 +7685,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | hulking and book-layered; huge size; mobility: grounded |
 | Ethnicity + nationality | Shoggoth (living flesh) |
-| Identity | male a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
+| Identity | male being, a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
 | Wardrobe | hulking amorphous Shoggoth mass layered with half-digested books and small memory-lamps, one big eye peering out of a page, an archive satchel |
 | Accessories | Layered shell of scavenged books; memory-lamps; archive satchel; slime-spine |
 | Pose | hulking forward with books and lamps layered on the body |
@@ -7621,13 +7725,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Memory-Mass Archivists, male a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Memory-Mass Archivists, male being, a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: hulking forward with books and lamps layered on the body; the Layered shell of scavenged books and the memory-lamps break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: hulking and book-layered, huge size, grounded. POSE: hulking forward with books and lamps layered on the body. EXPRESSION: single heavy-lidded eye in a page, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): hulking amorphous Shoggoth mass layered with half-digested books and small memory-lamps, one big eye peering out of a page, an archive satchel.
 COLOR (exact hex values, flat fills): main #8b3b7b about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #41d1c3 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #3d405b about 10%, used on the eyes, the Layered shell of scavenged books and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7655,7 +7760,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | barrel-bodied with five limbs; large size; mobility: grounded |
 | Ethnicity + nationality | Elder Thing (alien) |
-| Identity | male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
+| Identity | male being, an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
 | Wardrobe | barrel-bodied star-headed Elder Thing with five radiating limbs holding a starstone mallet and a surveying rod, wing-clamps folded at the back |
 | Accessories | Starstone mallet; surveying rod; tessellation tablets; wing-clamps |
 | Pose | raising a starstone mallet, rod in another limb |
@@ -7695,13 +7800,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Starstone Architects, male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Starstone Architects, male being, an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 30s.
 DESIGN FOR SILHOUETTE FIRST: raising a starstone mallet, rod in another limb; the Starstone mallet and the surveying rod break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: barrel-bodied with five limbs, large size, grounded. POSE: raising a starstone mallet, rod in another limb. EXPRESSION: calm, five-pointed head tilted, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): barrel-bodied star-headed Elder Thing with five radiating limbs holding a starstone mallet and a surveying rod, wing-clamps folded at the back.
 COLOR (exact hex values, flat fills): main #8e44ad about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e9c46a about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, used on the eyes, the Starstone mallet and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7726,7 +7832,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | barrel-bodied scholar; large size; mobility: grounded |
 | Ethnicity + nationality | Elder Thing (alien) |
-| Identity | female an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
+| Identity | female being, an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
 | Wardrobe | barrel-bodied star-headed Elder Thing scholar with folded wings, a fine strata brush in one radial limb and a chisel in another, a small fossil lamp |
 | Accessories | Chisel; strata-brush; rubbing sheets; fossil lamp |
 | Pose | brushing a glowing tablet, wings folded behind |
@@ -7766,13 +7872,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fossil-Script Historians, female an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 60s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fossil-Script Historians, female being, an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 60s.
 DESIGN FOR SILHOUETTE FIRST: brushing a glowing tablet, wings folded behind; the Chisel and the strata-brush break the outline so it reads instantly as a black shape. Shape language: circles and stars around a charm, instrument or talisman.
 BODY: barrel-bodied scholar, large size, grounded. POSE: brushing a glowing tablet, wings folded behind. EXPRESSION: absorbed, patient, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): barrel-bodied star-headed Elder Thing scholar with folded wings, a fine strata brush in one radial limb and a chisel in another, a small fossil lamp.
 COLOR (exact hex values, flat fills): main #635ebe about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #264653 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e76f51 about 10%, used on the eyes, the Chisel and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Enchanter (support) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7797,7 +7904,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | barrel-bodied and slate-armored; large size; mobility: flying |
 | Ethnicity + nationality | Elder Thing (alien) |
-| Identity | male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
+| Identity | male being, an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
 | Wardrobe | barrel-bodied star-headed Elder Thing guardian with slate-like folded wings as armor, a spear in one limb, shield-clamps, a star visor |
 | Accessories | Slate-plate wings; spear; shield-clamps; star-visor |
 | Pose | wings half-unfurled, spear leveled |
@@ -7837,13 +7944,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Wingfold Wardens, male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age early 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Wingfold Wardens, male being, an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age early 50s.
 DESIGN FOR SILHOUETTE FIRST: wings half-unfurled, spear leveled; the Slate-plate wings and the spear break the outline so it reads instantly as a black shape. Shape language: wide blocky rectangles and a big shield shape.
 BODY: barrel-bodied and slate-armored, large size, flying. POSE: wings half-unfurled, spear leveled. EXPRESSION: severe, star-visor down, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): barrel-bodied star-headed Elder Thing guardian with slate-like folded wings as armor, a spear in one limb, shield-clamps, a star visor.
 COLOR (exact hex values, flat fills): main #db09fb about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #8338ec about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff1e6 about 10%, used on the eyes, the Slate-plate wings and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Tank (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7871,7 +7979,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | tall, faceless and long-limbed; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
-| Identity | male a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
+| Identity | male being, a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
 | Wardrobe | tall smooth-faced faceless winged Nightgaunt with long limbs, barbed tail, a carry-harness across the chest, a sleep-glass lamp in one clawed hand |
 | Accessories | Barbed tail; sleep-glass lamp; carry-harness; black wing-cloak |
 | Pose | clutching a limp bundle in long limbs, barbed tail curled |
@@ -7911,13 +8019,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dream-Snatchers, male a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 20s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Dream-Snatchers, male being, a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 20s.
 DESIGN FOR SILHOUETTE FIRST: clutching a limp bundle in long limbs, barbed tail curled; the Barbed tail and the sleep-glass lamp break the outline so it reads instantly as a black shape. Shape language: hexagons and wide arc gestures with tools hanging off the body.
 BODY: tall, faceless and long-limbed, large size, flying. POSE: clutching a limp bundle in long limbs, barbed tail curled. EXPRESSION: faceless, smooth and blank, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall smooth-faced faceless winged Nightgaunt with long limbs, barbed tail, a carry-harness across the chest, a sleep-glass lamp in one clawed hand.
 COLOR (exact hex values, flat fills): main #862ef4 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e0aaff about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ff6d00 about 10%, used on the eyes, the Barbed tail and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -7942,7 +8051,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | tall and faceless; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
-| Identity | female a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
+| Identity | female being, a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
 | Wardrobe | tall faceless winged Nightgaunt with long limbs and a dark visor, a barbed knife in one hand, a signal lantern at the hip |
 | Accessories | Wing-sail; barbed knife; signal lantern; dark visor |
 | Pose | gliding with one long arm pointed down, knife drawn |
@@ -7982,13 +8091,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Voidwing Scouts, female a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 70s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Voidwing Scouts, female being, a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 70s.
 DESIGN FOR SILHOUETTE FIRST: gliding with one long arm pointed down, knife drawn; the Wing-sail and the barbed knife break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: tall and faceless, large size, flying. POSE: gliding with one long arm pointed down, knife drawn. EXPRESSION: faceless, dark visor, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall faceless winged Nightgaunt with long limbs and a dark visor, a barbed knife in one hand, a signal lantern at the hip.
 COLOR (exact hex values, flat fills): main #810070 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, used on the eyes, the Wing-sail and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8013,7 +8123,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Nonbinary |
 | Physique | tall, faceless and long-limbed; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
-| Identity | nonbinary a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
+| Identity | nonbinary being, a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
 | Wardrobe | tall faceless winged Nightgaunt herder with long limbs, a long hooked crook in one hand, a dream-whistle and a flock lantern at the belt |
 | Accessories | Hooked crook; dream-whistle; flock lantern; wing-cloak |
 | Pose | leaning on a hooked crook with a drifting flock behind |
@@ -8053,13 +8163,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Nightmare Shepherds, nonbinary a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age late 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Nightmare Shepherds, nonbinary being, a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age late 50s.
 DESIGN FOR SILHOUETTE FIRST: leaning on a hooked crook with a drifting flock behind; the Hooked crook and the dream-whistle break the outline so it reads instantly as a black shape. Shape language: flowing diamonds and a bright flat focus shape.
 BODY: tall, faceless and long-limbed, large size, flying. POSE: leaning on a hooked crook with a drifting flock behind. EXPRESSION: faceless and patient, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): tall faceless winged Nightgaunt herder with long limbs, a long hooked crook in one hand, a dream-whistle and a flock lantern at the belt.
 COLOR (exact hex values, flat fills): main #4e52e2 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #8ecae6 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, used on the eyes, the Hooked crook and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8087,7 +8198,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | angular quadruped; large size; mobility: phasing |
 | Ethnicity + nationality | Hound of Tindalos (alien) |
-| Identity | male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
+| Identity | male being, an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
 | Wardrobe | angular quadrupedal Hound of Tindalos built from sharp wedges and impossible joints, wedge-claws, a shard tail, a corner-lens collar |
 | Accessories | Wedge-claws; angular plates; corner-lens; shard-tail |
 | Pose | bursting out of a sharp corner mid-pounce |
@@ -8127,13 +8238,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Corner-Stalkers, male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 50s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Corner-Stalkers, male being, an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 50s.
 DESIGN FOR SILHOUETTE FIRST: bursting out of a sharp corner mid-pounce; the Wedge-claws and the angular plates break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
 BODY: angular quadruped, large size, phasing. POSE: bursting out of a sharp corner mid-pounce. EXPRESSION: snarling wedge-jaw, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): angular quadrupedal Hound of Tindalos built from sharp wedges and impossible joints, wedge-claws, a shard tail, a corner-lens collar.
 COLOR (exact hex values, flat fills): main #622367 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #00f5d4 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, used on the eyes, the Wedge-claws and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8158,7 +8270,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Female |
 | Physique | angular wedge-built hound; large size; mobility: phasing |
 | Ethnicity + nationality | Hound of Tindalos (alien) |
-| Identity | female an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
+| Identity | female being, an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
 | Wardrobe | angular wedge-built Hound of Tindalos with a wedge jaw, an hourglass lens collar, angular plating across the body |
 | Accessories | Chrono-fang; wedge-jaw; hourglass lens; angular plating |
 | Pose | sniffing a crack in the air with a ghostly copy a half-second behind |
@@ -8198,13 +8310,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Time-Scent Trackers, female an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Time-Scent Trackers, female being, an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: sniffing a crack in the air with a ghostly copy a half-second behind; the Chrono-fang and the wedge-jaw break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
 BODY: angular wedge-built hound, large size, phasing. POSE: sniffing a crack in the air with a ghostly copy a half-second behind. EXPRESSION: nose to the air, jaws parted, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): angular wedge-built Hound of Tindalos with a wedge jaw, an hourglass lens collar, angular plating across the body.
 COLOR (exact hex values, flat fills): main #a7777e about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #7b2cbf about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #201c49 about 10%, used on the eyes, the Chrono-fang and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8229,7 +8342,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Gender | Male |
 | Physique | angular with split jaws; large size; mobility: phasing |
 | Ethnicity + nationality | Hound of Tindalos (alien) |
-| Identity | male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
+| Identity | male being, an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
 | Wardrobe | angular wedge-built Hound of Tindalos with a jaw splitting open along a bright plane, wedge-plate shoulder spikes, dimensional shears, a shard tail |
 | Accessories | Split jaws; wedge-plate shoulder spikes; dimensional shears; shard-tail |
 | Pose | lunging with the split jaws wide open |
@@ -8269,13 +8382,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 **Character prompt**
 
 ```text
-Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fracture-Jaw Reapers, male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s.
+Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fracture-Jaw Reapers, male being, an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s.
 DESIGN FOR SILHOUETTE FIRST: lunging with the split jaws wide open; the Split jaws and the wedge-plate shoulder spikes break the outline so it reads instantly as a black shape. Shape language: heavy trapezoids, oversized fists and shoulders.
 BODY: angular with split jaws, large size, phasing. POSE: lunging with the split jaws wide open. EXPRESSION: jaw splitting along a bright plane, stylized and expressive.
 WARDROBE AND HELD GEAR (worn or hand-held only): angular wedge-built Hound of Tindalos with a jaw splitting open along a bright plane, wedge-plate shoulder spikes, dimensional shears, a shard tail.
 COLOR (exact hex values, flat fills): main #5b013d about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #def6ff about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #242a57 about 10%, used on the eyes, the Split jaws and one small magical detail. Black, white and neutral grey are also allowed. Species skin and anatomy may use simplified, flat, muted neutral base tones. No other saturated colors. Do not use #0b7a75 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Bruiser (combat) of the Eldritch people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8359,6 +8473,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): wizard in a structured green co
 COLOR (exact hex values, flat fills): main #5a844c about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #ffd60a about 10%, used on the eyes, the Radio staff and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8430,6 +8545,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): wizard in a sharp short coat, a
 COLOR (exact hex values, flat fills): main #8283f7 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff5d8f about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Coil-hilt rapier and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8624,6 +8740,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): woman in a layered shawl and he
 COLOR (exact hex values, flat fills): main #b703ec about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #00b4d8 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, used on the eyes, the Hex radio and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Controller (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8695,6 +8812,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): warm man in a long herb-stained
 COLOR (exact hex values, flat fills): main #0d5faf about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f4a261 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Herb satchel and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Support (support) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8769,6 +8887,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): young man in a jagged mantle an
 COLOR (exact hex values, flat fills): main #065255 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #6a4c93 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #caf9ff about 10%, used on the eyes, the Offering bowl and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Blaster (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8840,6 +8959,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): lean man with glowing circuit t
 COLOR (exact hex values, flat fills): main #b368c9 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #7b47cf about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff1e6 about 10%, used on the eyes, the Vein-lit twin blades and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8911,6 +9031,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): slim man in a coat of mirrored 
 COLOR (exact hex values, flat fills): main #00343e about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #0077b6 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #f72585 about 10%, used on the eyes, the Mirror-shard daggers and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -8985,6 +9106,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): lean young man in a scuffed jac
 COLOR (exact hex values, flat fills): main #8c606f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fff3b0 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #d00000 about 10%, used on the eyes, the Pocket watch and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Fighter (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -9056,6 +9178,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): slender man in a plain wrapped 
 COLOR (exact hex values, flat fills): main #fe6eb5 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #fee440 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #d8fdff about 10%, used on the eyes, the Wrapped fists and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Caster (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
@@ -9127,6 +9250,7 @@ WARDROBE AND HELD GEAR (worn or hand-held only): wiry person in a short insulate
 COLOR (exact hex values, flat fills): main #fffe64 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff4d6d about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff0d1 about 10%, used on the eyes, the Insulated shoulder cape and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #6b3fa6 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
+SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.
 SAMURAI JACK CHECK: it must still read when filled solid black; be animatable with a few large shapes; read at thumbnail size; use flat, separated colors; be distinctive without surface detail.
 COMPOSITION: a single full-body figure, head to toe fully visible, nothing cropped, clear margin around it, centered. Transparent background (true alpha): no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. A Assassin (combat) of the Magic people, mature dark-age tone, no nudity, no gore.
 ```
