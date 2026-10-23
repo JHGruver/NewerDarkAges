@@ -6,7 +6,7 @@
 (function () {
   const KEY = "nda-sound", TRACK = "audio/soundtrack.mp3", MUSIC_VOL = 0.7;
   const AC = window.AudioContext || window.webkitAudioContext;
-  let ac, master, staticGain, musicGain, music, mode = "static", staticLevel = 0.02, unlocked = false, trackMissing = false;
+  let duck = 1, ac, master, staticGain, musicGain, music, mode = "static", staticLevel = 0.02, unlocked = false, trackMissing = false;
   let enabled = true; try { enabled = localStorage.getItem(KEY) !== "off"; } catch {}
   const ramp = (param, v, t = 0.9) => { if (!ac) return; param.cancelScheduledValues(ac.currentTime); param.setTargetAtTime(v, ac.currentTime, t / 3); };
 
@@ -45,7 +45,19 @@
     },
     setMode(m) { if (m === mode) return; mode = m; apply(); },
     // story drives the static's loudness (0 to about 0.12)
-    static(level) { staticLevel = level; if (ac && unlocked && mode === "static") staticGain.gain.value += (level - staticGain.gain.value) * 0.2; },
+    static(level) { staticLevel = level; if (ac && unlocked && mode === "static") staticGain.gain.value += (level * duck - staticGain.gain.value) * 0.35; },
+    // a break in the static: it drops out for a beat while a clean two-note signal pings through, then the static returns
+    nudge() {
+      if (!ac || !unlocked || !enabled) return;
+      duck = 0; setTimeout(() => { duck = 1; }, 900);
+      const t = ac.currentTime, out = ac.createGain(); out.gain.value = 0.22; out.connect(master);
+      const echo = ac.createDelay(0.5); echo.delayTime.value = 0.2; const fb = ac.createGain(); fb.gain.value = 0.38; echo.connect(fb); fb.connect(echo); echo.connect(out);
+      [[988, 0.06, 0.16], [1319, 0.24, 0.55]].forEach(([hz, at, len]) => {
+        const o = ac.createOscillator(), g = ac.createGain(); o.type = "sine"; o.frequency.value = hz;
+        g.gain.setValueAtTime(0, t + at); g.gain.linearRampToValueAtTime(1, t + at + 0.015); g.gain.exponentialRampToValueAtTime(0.001, t + at + len);
+        o.connect(g); g.connect(out); g.connect(echo); o.start(t + at); o.stop(t + at + len + 0.05);
+      });
+    },
   };
   // the first real gesture anywhere starts the sound (if the viewer has not turned it off)
   const first = () => { if (enabled) unlock(); ["pointerdown", "keydown", "touchend"].forEach((e) => removeEventListener(e, first, true)); };
