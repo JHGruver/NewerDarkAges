@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 35.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 36.
 
 ## Art direction in one screen
 
@@ -4469,27 +4469,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | calm and translucent, a slight build, a hooded cloak; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Mexican heritage, Mexican |
 | Identity | female human |
-| Wardrobe | calm ghost in a translucent reflective vest, a siren horn held aloft in one hand, a hand-crank radio in the other, an emergency lamp at the belt |
+| Wardrobe | calm ghost woman with long black hair and a hoop earring in a pointed orange hood and a long orange coat with pale reflective stripes, a belt with a navy pouch and a glowing emergency lantern, striped orange boots, a blue megaphone raised high in one hand and an orange hand-crank radio held out in the other |
 | Accessories | Siren horn; emergency lamp; hand-crank radio; reflective vest |
-| Pose | turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring |
-| Facial expression | calm, steady, reassuring |
+| Pose | wide stance with the megaphone raised high in one arm and the hand-crank radio held out in the other |
+| Facial expression | calm, steady, commanding |
 | People | Ghost |
 | Class | Dead Air |
 | Subclass | Emergency Broadcasters |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring; the Siren horn and the emergency lamp break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide stance with the megaphone raised high in one arm and the hand-crank radio held out in the other; the Siren horn and the emergency lamp break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #f67604: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e4ffda: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #023e8a: the eyes, the Siren horn and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/ghost-emergencybroadcast.png` and `art/v2/ghost-emergencybroadcast-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring.
+1. Black-fill test: the silhouette must still read as wide stance with the megaphone raised high in one arm and the hand-crank radio held out in the other.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Siren horn and the pose must be visible at 64 px.
 4. Flat colors: #f67604 / #e4ffda / #023e8a as separate flat shapes divided by black line; no gradients or glow.
@@ -4509,8 +4509,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Emergency Broadcasters, female human (In life: Mexican heritage, Mexican), apparent age early 20s. calm and translucent, a slight build, a hooded cloak, medium size. Pose: turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring. Expression: calm, steady, reassuring, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Siren horn. SECOND ITEM, kept plain: emergency lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: calm ghost in a translucent reflective vest, a siren horn held aloft in one hand, a hand-crank radio in the other, an emergency lamp at the belt.
+CHARACTER: Emergency Broadcasters, female human (In life: Mexican heritage, Mexican), apparent age early 20s. calm and translucent, a slight build, a hooded cloak, medium size. Pose: wide stance with the megaphone raised high in one arm and the hand-crank radio held out in the other. Expression: calm, steady, commanding, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Siren horn. SECOND ITEM, kept plain: emergency lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: calm ghost woman with long black hair and a hoop earring in a pointed orange hood and a long orange coat with pale reflective stripes, a belt with a navy pouch and a glowing emergency lantern, striped orange boots, a blue megaphone raised high in one hand and an orange hand-crank radio held out in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #f67604 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023e8a about 10%, on the eyes, the Siren horn and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
