@@ -226,6 +226,8 @@
     const playChapter = (i) => {
       if (tourState === "off") return;
       const last = chaps.length - 1, { start, span } = spanOf(i);
+      // the opening static plays out in place (lines, then the title); every later chapter is glided into first
+      if (i === 0) { animateTo(scrollY, start + span * 0.97, 5000, false, () => playChapter(1)); return; }
       animateTo(scrollY, start + span * 0.3, i === 1 ? 1500 : 1100, true, () => {
         if (tourState === "off") return;
         if (i >= last) { stopTour(); return; }
@@ -241,7 +243,7 @@
       tourTimers.push(setTimeout(() => {
         tourState = "run"; if (hint) hint.classList.remove("alert");
         tourPill = document.createElement("div"); tourPill.className = "tour-pill"; tourPill.innerHTML = "<i></i>Guided tour <span>scroll or tap to take over</span>"; document.body.appendChild(tourPill); requestAnimationFrame(() => tourPill && tourPill.classList.add("on"));
-        playChapter(1);
+        playChapter(0);
       }, 4000));
     }
     const userTook = (e) => { if (tourState === "off") return; if (e.type === "scroll" && programmatic) return; stopTour(); };
