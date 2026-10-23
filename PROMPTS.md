@@ -108,15 +108,15 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ### Joystick Duelists
 
-*Combat · Fighter · colors #9d4edd / #f4e846 / #00f5d4 · background wash #d9a521*
+*Combat · Fighter · colors #9d4edd / #f4e846 / #00f5d4 · background wash #d9a521 · art already made*
 
 **Character prompt**
 
 ```text
 Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Joystick Duelists, male being, character (Korean heritage, South Korean), apparent age late 30s.
-DESIGN FOR SILHOUETTE FIRST: mid-combo lunge, joystick-blade arcing overhead; the Arcade-stick blade and the wrist-guards break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
-BODY: lean and precise, medium size, agile. POSE: mid-combo lunge, joystick-blade arcing overhead. EXPRESSION: intense focus, eyes narrowed behind the visor, stylized and expressive.
-WARDROBE AND HELD GEAR (worn or hand-held only): lean human fighter in a high-score jacket, wrist-guards, a glowing score-visor over the eyes and a token pouch at the belt, wielding a blade whose hilt is an arcade joystick.
+DESIGN FOR SILHOUETTE FIRST: mid-combo lunge, the joystick-hilted blade arcing overhead and the button-pad gauntlet thrust forward; the Arcade-stick blade and the wrist-guards break the outline so it reads instantly as a black shape. Shape language: balanced diagonals with one clear weapon line.
+BODY: lean and precise, medium size, agile. POSE: mid-combo lunge, the joystick-hilted blade arcing overhead and the button-pad gauntlet thrust forward. EXPRESSION: intense focus, eyes narrowed behind the visor, stylized and expressive.
+WARDROBE AND HELD GEAR (worn or hand-held only): lean topknotted young man in a purple high-score robe with yellow pixel-pattern trim, a cyan score-visor over the eyes, fingerless gloves, a belt of gold arcade tokens and a joystick-controller pouch, black trousers and spiked boots, wielding a long cyan pixel-edged blade whose hilt is an arcade joystick, a button-pad gauntlet on the other hand.
 COLOR (exact hex values, flat fills): main #9d4edd about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #f4e846 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #00f5d4 about 10%, used on the eyes, the Arcade-stick blade and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
