@@ -126,51 +126,6 @@ Charcoal and ink painting of Ashfall Reach: dust, tombs and buried bunkers, seal
 A hand-inked top-down map of a post-apocalyptic region on dark parchment: five areas (a central misty wasteland, a coastline of power-line pylons, a cluster of tall ruined towers, a forest swallowing a suburb, an ash desert with bunkers), drawn roads, rivers, railway lines, small icons for keeps, radio masts and tombs. Dark charcoal ink with violet, gold and teal washes, subtle grid lines and a compass rose. Leave all labels blank. No text, no lettering, no watermark, no logo.
 ```
 
-### Story panel: The Last Broadcast  `art/site/story-last-broadcast.jpg`
-
-- **Used for:** World page story strip (4 panels, same style)
-- **Generate at:** 1024x1024
-- **Format:** JPG
-
-```text
-Comic panel: a city at night with every window, TV and billboard showing the same white static, giant radio waves rippling outward as concentric rings across the sky, a lone human silhouette on a rooftop. Sin City ink style: stark black and white with heavy contrast and one accent color, flat angular geometry, bold clean contour lines, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity, white and black with a single hot-pink accent. No text, no lettering, no watermark, no logo.
-```
-
-### Story panel: The Dim  `art/site/story-dim.jpg`
-
-- **Used for:** World page story strip
-- **Generate at:** 1024x1024
-- **Format:** JPG
-
-```text
-Comic panel: half-dark fog rolling through a street, a ghostly neon sign flickering, shapes of ancient monsters returning in the haze (a tall antlered figure, a floating sheet, a many-eyed mass), rain. Sin City ink style: stark black and white with heavy contrast and one accent color, flat angular geometry, bold clean contour lines, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity, violet-washed with a single gold accent. No text, no lettering, no watermark, no logo.
-```
-
-### Story panel: The Relic Wars  `art/site/story-relic-wars.jpg`
-
-- **Used for:** World page story strip
-- **Generate at:** 1024x1024
-- **Format:** JPG
-
-```text
-Comic panel: two rival gangs facing each other over a glowing car battery on a cracked road, spiked armor, chains, salvaged radios on spears, burning barrels. Sin City ink style: stark black and white with heavy contrast and one accent color, flat angular geometry, bold clean contour lines, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity, rust-washed with a single cyan accent. Faces hidden by masks and shadow. No text, no lettering, no watermark, no logo.
-```
-
-### Story panel: The Second Signal  `art/site/story-second-signal.jpg`
-
-- **Used for:** World page story strip
-- **Generate at:** 1024x1024
-- **Format:** JPG
-
-```text
-Comic panel: a vertical beam of pulsing rings rising out of a collapsed tower, listeners of every kind (a wolf-kin, a vampire, a ghost, a wizard) standing in a circle looking up, a tiny red light at the source. Sin City ink style: stark black and white with heavy contrast and one accent color, flat angular geometry, bold clean contour lines, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity, teal-washed with a single hot-pink accent. No text, no lettering, no watermark, no logo.
-```
-
-
----
-
-## Peoples
-
 ### Human crest  `art/site/crest-human.png`
 
 - **Used for:** Filter buttons, tabs, people headers, gallery section banner (replaces the small line icon)
@@ -719,5 +674,80 @@ An abstract poster of four overlapping flat color shapes (gold, violet, hot pink
 
 ```text
 A dusk scene in chalky pastel tones: pale peach sky, sodium-amber street lamps, dusty teal buildings, a calm empty road, a single soft pink sign. Painted ink and charcoal texture, quiet and moody. No text, no lettering, no watermark, no logo.
+```
+
+
+---
+
+## Story page
+
+### Story scene: The Last Broadcast  `art/site/story-broadcast.jpg`
+
+- **Used for:** Story page, chapter 1 (the 1986 announcement)
+- **Generate at:** 1792x1024
+- **Format:** JPG
+
+```text
+A wide cinematic painting: a colossal 1980s Soviet-era concrete broadcast tower rising from a snowy night city, enormous concentric rings of radio waves rippling outward across a stormy sky, dozens of tiny glowing CRT television screens in apartment windows all showing white static, a lone empty street below. Cold teal and white wash with one blood-red warning light at the tower's top. No people, no text, no flags, no real logos. Sin City ink style: stark black and white with heavy contrast and one dominant wash color, charcoal and ink painting on toned paper, rain and haze, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity. 16:9 landscape, strong foreground, midground and background depth, a calm darker area on the left third for overlaid text. No text, no lettering, no watermark.
+```
+
+### Story scene: The War to End the Old World  `art/site/story-war.jpg`
+
+- **Used for:** Story page, chapter 2
+- **Generate at:** 1792x1024
+- **Format:** JPG
+
+```text
+A wide cinematic painting: a ruined metropolis during a world war: collapsed suspension bridge in a river, toppled power pylons with sparking lines, burning high-rises, searchlights crossing a smoke-filled sky, a dead satellite dish on its side, abandoned tanks in the foreground. Orange and charcoal wash with sooty black. No people, no text, no flags. Sin City ink style: stark black and white with heavy contrast and one dominant wash color, charcoal and ink painting on toned paper, rain and haze, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity. 16:9 landscape, strong foreground, midground and background depth, a calm darker area on the left third for overlaid text. No text, no lettering, no watermark.
+```
+
+### Story scene: The Dim  `art/site/story-dim.jpg`
+
+- **Used for:** Story page, chapter 3
+- **Generate at:** 1792x1024
+- **Format:** JPG
+
+```text
+A wide cinematic painting: a fortified dark-ages settlement built from stacked shipping containers and tire walls with wooden palisades, torches and braziers burning, a tall radio mast with one tiny red light, banners made of old tarps, rain-slick cobblestones, a single pink neon sign glowing in the fog. Dusty amber and gold wash. No people, no readable text. Sin City ink style: stark black and white with heavy contrast and one dominant wash color, charcoal and ink painting on toned paper, rain and haze, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity. 16:9 landscape, strong foreground, midground and background depth, a calm darker area on the left third for overlaid text. No text, no lettering, no watermark.
+```
+
+### Story scene: The Black Pyramid  `art/site/story-pyramid.jpg`
+
+- **Used for:** Story page, chapter 6
+- **Generate at:** 1792x1024
+- **Format:** JPG
+
+```text
+A wide cinematic painting: a huge black pyramid under a moon in an ash desert, a thin beam of pale gold light rising from its apex into storm clouds, a long line of tiny torches winding up the dunes toward its entrance, ancient statues half-buried in sand, broken old-world highway signs sticking out of the dunes. Deep violet and gold wash with black. No people close up, no text. Sin City ink style: stark black and white with heavy contrast and one dominant wash color, charcoal and ink painting on toned paper, rain and haze, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity. 16:9 landscape, strong foreground, midground and background depth, a calm darker area on the left third for overlaid text. No text, no lettering, no watermark.
+```
+
+### Story scene: The Block  `art/site/story-block.jpg`
+
+- **Used for:** Story page, chapter 7
+- **Generate at:** 1792x1024
+- **Format:** JPG
+
+```text
+A wide cinematic painting: a brutalist concrete prison fortress on a barren hill at night, searchlights sweeping, razor wire, a heavy gate, a long road approaching through fog lined with the dark silhouettes of armored zombie guards standing in a line (no gore, only silhouettes), a small old temple with a statue on a small hill to one side. Sickly green and grey wash. No text. Sin City ink style: stark black and white with heavy contrast and one dominant wash color, charcoal and ink painting on toned paper, rain and haze, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity. 16:9 landscape, strong foreground, midground and background depth, a calm darker area on the left third for overlaid text. No text, no lettering, no watermark.
+```
+
+### Story scene: Nine Empty Chairs  `art/site/story-chairs.jpg`
+
+- **Used for:** Story page, chapter 9 (the Elders are dead)
+- **Generate at:** 1792x1024
+- **Format:** JPG
+
+```text
+A wide cinematic painting: a vast ruined stone council chamber with nine tall empty high-backed chairs arranged in a half circle, each with a snuffed-out candle and a thin curl of smoke, moonlight falling through a broken dome, drifting dust and a few scattered scarab beetles on the floor, a seal on the floor with three symbols. Deep red and charcoal wash with cold moonlight. No people, no text. Sin City ink style: stark black and white with heavy contrast and one dominant wash color, charcoal and ink painting on toned paper, rain and haze, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity. 16:9 landscape, strong foreground, midground and background depth, a calm darker area on the left third for overlaid text. No text, no lettering, no watermark.
+```
+
+### Story scene: The Heirs  `art/site/story-heirs.jpg`
+
+- **Used for:** Story page, chapter 11
+- **Generate at:** 1792x1024
+- **Format:** JPG
+
+```text
+A wide cinematic painting: eight young silhouettes seen from behind standing on a ridge at dusk looking over a ruined neon city and the dark wilderness beyond: one with a staff, one with a sword and sparks of lightning, one with a crossbow, one small child floating a few inches above the ground, a young woman with long hair, one with a wolf shadow, one with flames in a raised hand, one with a hood. Violet and magenta sunset sky with a striped half sun. Silhouettes only, no faces, no text. Sin City ink style: stark black and white with heavy contrast and one dominant wash color, charcoal and ink painting on toned paper, rain and haze, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood, mature tone, no gore, no nudity. 16:9 landscape, strong foreground, midground and background depth, a calm darker area on the left third for overlaid text. No text, no lettering, no watermark.
 ```
 

@@ -20,6 +20,7 @@ document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.
 document.getElementById("burger-ic").innerHTML = ic("menu");
 
 /* ---------- colors ---------- */
+window.NDAH = { get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
 const pv = (g) => `--p:${g.color};--p2:${g.color2}`;
 const pal = (g, l) => (l && l.pal ? l.pal : [g.color2, "#f2efe6", "#ffffff"]);
 const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};--c2:${b};--c3:${c}`; };
@@ -380,8 +381,12 @@ function render() {
   else if (route === "manual") html = manual(rest[0]);
   else if (route === "roadmap") html = roadmap();
   else if (route === "art") html = art();
-  else html = home();
+  else if (route === "lore") html = loreView(rest[0]);
+  else html = storyHome();
+  if (render.cleanup) { render.cleanup(); render.cleanup = null; }
   app.innerHTML = html;
+  if (route === "lore") loreInit();
+  else if (!["characters", "manual", "roadmap", "art"].includes(route)) render.cleanup = storyInit();
   const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
   document.body.classList.toggle("fit", !!inChars);
   document.body.dataset.page = route === "characters" && !inChars ? "gallery" : (route || "home");
@@ -523,6 +528,8 @@ window.addEventListener("hashchange", () => {
 app.addEventListener("click", (e) => {
   const f = e.target.closest("[data-filter]");
   if (f) { const id = f.dataset.filter || null; galleryFilter = id === galleryFilter ? null : id; saveFilters(); transition(render); return; }
+  const lc = e.target.closest("[data-lorecast]");
+  if (lc) { loreState.cast = lc.dataset.lorecast; const y = scrollY; render(); scrollTo(0, y); return; }
   const vm = e.target.closest("[data-vmode]");
   if (vm) {
     const hp = location.hash.split("/");
