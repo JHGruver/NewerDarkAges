@@ -53,7 +53,7 @@ const rows = A.map(({ gid, g, s, l }, idx) => {
   const [a, b, d] = l.pal, gear = split(Array.isArray(l.gear) ? l.gear.join(", ") : l.gear);
   const ps = split(sp.p), half = Math.ceil(ps.length / 2), nonHuman = c.ethnicity.startsWith("N/A (");
   const r = {
-    nda: String(idx + 1).padStart(3, "0"), age: ageOf(l.id, l.name, m.who), id: l.id, name: l.name, tagline: l.tagline, people: g.name, peopleId: gid, cls: s.name, subclass: l.name, role: cap(l.role), type: t.name, typeKey: m.type,
+    nda: String(idx + 1).padStart(3, "0"), age: (window.CAST_AGE && window.CAST_AGE[l.id]) || ageOf(l.id, l.name, m.who), poseFamily: (window.CAST_FAMILY && window.CAST_FAMILY[l.id]) || "", id: l.id, name: l.name, tagline: l.tagline, people: g.name, peopleId: gid, cls: s.name, subclass: l.name, role: cap(l.role), type: t.name, typeKey: m.type,
     gender: c.gender, ethnicity: nonHuman ? herit(c.ethnicity).replace(/^a /, "") + " (not human)" : c.ethnicity, identity: m.who ? m.who : c.gender.toLowerCase() + " " + (Object.keys(SPECIES_LOOK).find((k) => c.ethnicity.includes(k)) ? SPECIES_LOOK[Object.keys(SPECIES_LOOK).find((k) => c.ethnicity.includes(k))] : (nonHuman ? "anthropomorphic " + herit(c.ethnicity).replace(/^a /, "").replace(/-kin$/, "") + " character" : "human")),
     physique: m.physique, size: m.size, mobility: m.move, expression: c.expression, pose: c.pose, wardrobe: sp.w, accessories: gear.join("; "),
     shape: AD.shape[m.type], silhouette: `${c.pose}; the ${gear[0] || "signature gear"}${gear[1] ? " and the " + gear[1] : ""} break the outline so it reads instantly as a black shape`,

@@ -465,19 +465,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | average build under a heavy pack; medium size; mobility: grounded |
+| Physique | average height, narrow shoulders, long thin arms, slightly stooped under a pack taller than the head; medium size; mobility: grounded |
 | Ethnicity + nationality | Filipino heritage, Filipino |
 | Identity | nonbinary human |
 | Wardrobe | human broadcaster in a patched jacket with a humming jammer pack on the back, a headset, patch cables looped at the belt and a crackling shortwave baton in one hand |
 | Accessories | Jammer pack; shortwave baton; patch cables; headset |
-| Pose | baton pointed forward, shoulders turned as the pack hums |
+| Pose | sprinting forward bent into the pack's weight, the baton thrust ahead like a lance, the other hand clamping a headphone to one ear |
 | Facial expression | calm and alert, lips pressed |
 | People | Human |
 | Class | Pirate Radio |
 | Subclass | Static Jammers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | baton pointed forward, shoulders turned as the pack hums; the Jammer pack and the shortwave baton break the outline so it reads instantly as a black shape |
+| Silhouette hook | sprinting forward bent into the pack's weight, the baton thrust ahead like a lance, the other hand clamping a headphone to one ear; the Jammer pack and the shortwave baton break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #11b98a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff006e: trim, sash, straps, secondary garment pieces and held gear |
@@ -488,7 +488,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as baton pointed forward, shoulders turned as the pack hums.
+1. Black-fill test: the silhouette must still read as sprinting forward bent into the pack's weight, the baton thrust ahead like a lance, the other hand clamping a headphone to one ear.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Jammer pack and the pose must be visible at 64 px.
 4. Flat colors: #11b98a / #ff006e / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -508,7 +508,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Static Jammers, nonbinary human (Filipino heritage, Filipino), apparent age mid 30s. average build under a heavy pack, medium size. Pose: baton pointed forward, shoulders turned as the pack hums. Expression: calm and alert, lips pressed, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Static Jammers, nonbinary human (Filipino heritage, Filipino), apparent age mid 30s. average height, narrow shoulders, long thin arms, slightly stooped under a pack taller than the head, medium size. Pose: sprinting forward bent into the pack's weight, the baton thrust ahead like a lance, the other hand clamping a headphone to one ear. Expression: calm and alert, lips pressed, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Jammer pack. SECOND ITEM, kept plain: shortwave baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: human broadcaster in a patched jacket with a humming jammer pack on the back, a headset, patch cables looped at the belt and a crackling shortwave baton in one hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #11b98a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Jammer pack and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -535,19 +535,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | lean marksman; medium size; mobility: climbing |
+| Physique | very tall and long-legged, flat-chested athletic build, narrow hips, long rope-scarred arms; medium size; mobility: climbing |
 | Ethnicity + nationality | Ethiopian heritage, Ethiopian |
 | Identity | female human |
 | Wardrobe | human marksman in a bomber jacket, big over-ear headphones around the neck, a long beat-rifle held in both hands, a cassette player clipped at the belt |
 | Accessories | Beat rifle; headphones; rooftop rig; tape deck |
-| Pose | kneeling on one knee with the rifle braced on a raised thigh |
+| Pose | dangling one-handed from a rope with the legs trailing, the other arm holding the long rifle across the body, one eye to the scope |
 | Facial expression | cool, unblinking concentration |
 | People | Human |
 | Class | Pirate Radio |
 | Subclass | Skyline DJs |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | kneeling on one knee with the rifle braced on a raised thigh; the Beat rifle and the headphones break the outline so it reads instantly as a black shape |
+| Silhouette hook | dangling one-handed from a rope with the legs trailing, the other arm holding the long rifle across the body, one eye to the scope; the Beat rifle and the headphones break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #fed6ad: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #7b2cbf: trim, sash, straps, secondary garment pieces and held gear |
@@ -558,7 +558,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as kneeling on one knee with the rifle braced on a raised thigh.
+1. Black-fill test: the silhouette must still read as dangling one-handed from a rope with the legs trailing, the other arm holding the long rifle across the body, one eye to the scope.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Beat rifle and the pose must be visible at 64 px.
 4. Flat colors: #fed6ad / #7b2cbf / #a2cd9e as separate flat shapes divided by black line; no gradients or glow.
@@ -578,7 +578,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Skyline DJs, female human (Ethiopian heritage, Ethiopian), apparent age mid 30s. lean marksman, medium size. Pose: kneeling on one knee with the rifle braced on a raised thigh. Expression: cool, unblinking concentration, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Skyline DJs, female human (Ethiopian heritage, Ethiopian), apparent age early 30s. very tall and long-legged, flat-chested athletic build, narrow hips, long rope-scarred arms, medium size. Pose: dangling one-handed from a rope with the legs trailing, the other arm holding the long rifle across the body, one eye to the scope. Expression: cool, unblinking concentration, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Beat rifle. SECOND ITEM, kept plain: headphones. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: human marksman in a bomber jacket, big over-ear headphones around the neck, a long beat-rifle held in both hands, a cassette player clipped at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fed6ad about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7b2cbf about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #a2cd9e about 10%, on the eyes, the Beat rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -605,19 +605,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | soft and relaxed; medium size; mobility: grounded |
+| Physique | short and pear-shaped, a soft round belly, a thick neck, small plump hands; medium size; mobility: grounded |
 | Ethnicity + nationality | Black American heritage, American (Louisiana) |
 | Identity | male human |
 | Wardrobe | smooth-voiced human host in a cardigan over a collared shirt, headphones on, one hand holding a vintage microphone, the other holding a cassette, a warm calm expression |
 | Accessories | Studio mic; tape deck; phone-bank; warm smile |
-| Pose | leaning in toward a vintage microphone, one finger raised |
+| Pose | perched sideways on a stool with one knee up, leaning into a vintage microphone with one finger raised, a headset around the neck |
 | Facial expression | warm easy smile |
 | People | Human |
 | Class | Pirate Radio |
 | Subclass | Late-Night Hosts |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | leaning in toward a vintage microphone, one finger raised; the Studio mic and the tape deck break the outline so it reads instantly as a black shape |
+| Silhouette hook | perched sideways on a stool with one knee up, leaning into a vintage microphone with one finger raised, a headset around the neck; the Studio mic and the tape deck break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #b5ec69: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #8338ec: trim, sash, straps, secondary garment pieces and held gear |
@@ -628,7 +628,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as leaning in toward a vintage microphone, one finger raised.
+1. Black-fill test: the silhouette must still read as perched sideways on a stool with one knee up, leaning into a vintage microphone with one finger raised, a headset around the neck.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Studio mic and the pose must be visible at 64 px.
 4. Flat colors: #b5ec69 / #8338ec / #2e2200 as separate flat shapes divided by black line; no gradients or glow.
@@ -648,7 +648,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Late-Night Hosts, male human (Black American heritage, American (Louisiana)), apparent age mid 40s. soft and relaxed, medium size. Pose: leaning in toward a vintage microphone, one finger raised. Expression: warm easy smile, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Late-Night Hosts, male human (Black American heritage, American (Louisiana)), apparent age mid 40s. short and pear-shaped, a soft round belly, a thick neck, small plump hands, medium size. Pose: perched sideways on a stool with one knee up, leaning into a vintage microphone with one finger raised, a headset around the neck. Expression: warm easy smile, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Studio mic. SECOND ITEM, kept plain: tape deck. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smooth-voiced human host in a cardigan over a collared shirt, headphones on, one hand holding a vintage microphone, the other holding a cassette, a warm calm expression.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b5ec69 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #8338ec about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, on the eyes, the Studio mic and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -678,19 +678,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | broad and armored; large size; mobility: grounded |
+| Physique | very broad inverted-triangle build, a short neck, thick limbs, a nearly square silhouette; large size; mobility: grounded |
 | Ethnicity + nationality | Samoan heritage, New Zealander |
 | Identity | female human |
 | Wardrobe | armored human marshal in a matching mall-security jacket, helmet with a visor and shoulder guards, a big stenciled riot shield on one arm and a baton in the other hand |
 | Accessories | Riot shield; baton; helmet visor; mall-security jacket |
-| Pose | braced low behind the shield with the baton cocked |
+| Pose | advancing one slow heavy step behind a tilted shield, the baton held back low, the chin tucked behind the shield rim |
 | Facial expression | stern, immovable resolve |
 | People | Human |
 | Class | Mall Republic |
 | Subclass | Riot Marshals |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | braced low behind the shield with the baton cocked; the Riot shield and the baton break the outline so it reads instantly as a black shape |
+| Silhouette hook | advancing one slow heavy step behind a tilted shield, the baton held back low, the chin tucked behind the shield rim; the Riot shield and the baton break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #118ab2: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ef476f: trim, sash, straps, secondary garment pieces and held gear |
@@ -701,7 +701,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as braced low behind the shield with the baton cocked.
+1. Black-fill test: the silhouette must still read as advancing one slow heavy step behind a tilted shield, the baton held back low, the chin tucked behind the shield rim.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Riot shield and the pose must be visible at 64 px.
 4. Flat colors: #118ab2 / #ef476f / #eef6ff as separate flat shapes divided by black line; no gradients or glow.
@@ -721,7 +721,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Riot Marshals, female human (Samoan heritage, New Zealander), apparent age late 20s. broad and armored, large size. Pose: braced low behind the shield with the baton cocked. Expression: stern, immovable resolve, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Riot Marshals, female human (Samoan heritage, New Zealander), apparent age late 20s. very broad inverted-triangle build, a short neck, thick limbs, a nearly square silhouette, large size. Pose: advancing one slow heavy step behind a tilted shield, the baton held back low, the chin tucked behind the shield rim. Expression: stern, immovable resolve, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Riot shield. SECOND ITEM, kept plain: baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored human marshal in a matching mall-security jacket, helmet with a visor and shoulder guards, a big stenciled riot shield on one arm and a baton in the other hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #118ab2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ef476f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #eef6ff about 10%, on the eyes, the Riot shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -748,19 +748,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | athletic and padded; medium size; mobility: agile |
+| Physique | stocky rectangular torso on short bowed legs, big forearms, a low center of gravity; medium size; mobility: agile |
 | Ethnicity + nationality | Afro-Brazilian heritage, Brazilian |
 | Identity | male human |
 | Wardrobe | armored human lancer in a padded suit with slide-pads on the knees, a helmet lamp and a climbing harness, a long lance held across the body |
 | Accessories | Lance; slide-pads; helmet lamp; climbing harness |
-| Pose | mid-slide with the lance leveled forward |
+| Pose | skidding sideways on one knee in a low slide, the lance couched under one arm and the other hand dragging the ground |
 | Facial expression | determined shout |
 | People | Human |
 | Class | Mall Republic |
 | Subclass | Escalator Lancers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | mid-slide with the lance leveled forward; the Lance and the slide-pads break the outline so it reads instantly as a black shape |
+| Silhouette hook | skidding sideways on one knee in a low slide, the lance couched under one arm and the other hand dragging the ground; the Lance and the slide-pads break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #b1690f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4361ee: trim, sash, straps, secondary garment pieces and held gear |
@@ -771,7 +771,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as mid-slide with the lance leveled forward.
+1. Black-fill test: the silhouette must still read as skidding sideways on one knee in a low slide, the lance couched under one arm and the other hand dragging the ground.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Lance and the pose must be visible at 64 px.
 4. Flat colors: #b1690f / #4361ee / #fff2cf as separate flat shapes divided by black line; no gradients or glow.
@@ -791,7 +791,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Escalator Lancers, male human (Afro-Brazilian heritage, Brazilian), apparent age mid 60s. athletic and padded, medium size. Pose: mid-slide with the lance leveled forward. Expression: determined shout, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Escalator Lancers, male human (Afro-Brazilian heritage, Brazilian), apparent age early 30s. stocky rectangular torso on short bowed legs, big forearms, a low center of gravity, medium size. Pose: skidding sideways on one knee in a low slide, the lance couched under one arm and the other hand dragging the ground. Expression: determined shout, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Lance. SECOND ITEM, kept plain: slide-pads. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored human lancer in a padded suit with slide-pads on the knees, a helmet lamp and a climbing harness, a long lance held across the body.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b1690f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4361ee about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff2cf about 10%, on the eyes, the Lance and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -818,19 +818,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | immaculate and upright; medium size; mobility: grounded |
+| Physique | very upright and slender like a bottle, a long neck, a tiny waist, a tall narrow silhouette; medium size; mobility: grounded |
 | Ethnicity + nationality | Punjabi heritage, Indian |
 | Identity | female human |
 | Wardrobe | immaculate human in a gold-trimmed bellhop jacket and cap with a name badge, a big ring of keys on the belt, a silver serving tray in one hand and a small bell in the other |
 | Accessories | Key ring; name badge; silver tray; bellhop jacket |
-| Pose | silver tray raised in one hand, service bell held up in the other |
+| Pose | standing on one foot with the other leg tucked, a silver tray balanced high on one fingertip, the service bell held out to the side |
 | Facial expression | polite, unflappable smile |
 | People | Human |
 | Class | Mall Republic |
 | Subclass | Concierge Diplomats |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | silver tray raised in one hand, service bell held up in the other; the Key ring and the name badge break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing on one foot with the other leg tucked, a silver tray balanced high on one fingertip, the service bell held out to the side; the Key ring and the name badge break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #2a9d8f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #d1ce70: trim, sash, straps, secondary garment pieces and held gear |
@@ -841,7 +841,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as silver tray raised in one hand, service bell held up in the other.
+1. Black-fill test: the silhouette must still read as standing on one foot with the other leg tucked, a silver tray balanced high on one fingertip, the service bell held out to the side.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Key ring and the pose must be visible at 64 px.
 4. Flat colors: #2a9d8f / #d1ce70 / #264653 as separate flat shapes divided by black line; no gradients or glow.
@@ -861,7 +861,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Concierge Diplomats, female human (Punjabi heritage, Indian), apparent age early 70s. immaculate and upright, medium size. Pose: silver tray raised in one hand, service bell held up in the other. Expression: polite, unflappable smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Concierge Diplomats, female human (Punjabi heritage, Indian), apparent age early 70s. very upright and slender like a bottle, a long neck, a tiny waist, a tall narrow silhouette, medium size. Pose: standing on one foot with the other leg tucked, a silver tray balanced high on one fingertip, the service bell held out to the side. Expression: polite, unflappable smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Key ring. SECOND ITEM, kept plain: name badge. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: immaculate human in a gold-trimmed bellhop jacket and cap with a name badge, a big ring of keys on the belt, a silver serving tray in one hand and a small bell in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #2a9d8f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #d1ce70 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Key ring and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -900,19 +900,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | tall and elegant; medium size; mobility: agile |
+| Physique | very tall (8.5 heads) and thin, long limbs, a small head, a coat collar taller than the head; medium size; mobility: agile |
 | Ethnicity + nationality | Franco-Algerian heritage, French |
 | Identity | male human |
 | Wardrobe | tall pale vampire duelist in a sharp floor-length black longcoat with a high collar and gold wire trim, signet ring, a slim wired-grip rapier in one hand and a parrying dagger in the other |
 | Accessories | Wired-grip rapier; parry dagger; signet ring; floor-length longcoat |
-| Pose | full lunge, rapier extended, parry dagger trailing behind |
+| Pose | standing in profile with the torso twisted back toward the viewer, the rapier pointed down along one leg, the parry dagger flourished beside the head |
 | Facial expression | haughty, one corner of the mouth lifted |
 | People | Vampire |
 | Class | Chrome Court |
 | Subclass | Razor Dandies |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | full lunge, rapier extended, parry dagger trailing behind; the Wired-grip rapier and the parry dagger break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing in profile with the torso twisted back toward the viewer, the rapier pointed down along one leg, the parry dagger flourished beside the head; the Wired-grip rapier and the parry dagger break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #ad0c2a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fee7bb: trim, sash, straps, secondary garment pieces and held gear |
@@ -923,7 +923,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as full lunge, rapier extended, parry dagger trailing behind.
+1. Black-fill test: the silhouette must still read as standing in profile with the torso twisted back toward the viewer, the rapier pointed down along one leg, the parry dagger flourished beside the head.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Wired-grip rapier and the pose must be visible at 64 px.
 4. Flat colors: #ad0c2a / #fee7bb / #7d99ca as separate flat shapes divided by black line; no gradients or glow.
@@ -943,7 +943,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Razor Dandies, male human (Franco-Algerian heritage, French), apparent age mid 60s. tall and elegant, medium size. Pose: full lunge, rapier extended, parry dagger trailing behind. Expression: haughty, one corner of the mouth lifted, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Razor Dandies, male human (Franco-Algerian heritage, French), apparent age early 40s. very tall (8.5 heads) and thin, long limbs, a small head, a coat collar taller than the head, medium size. Pose: standing in profile with the torso twisted back toward the viewer, the rapier pointed down along one leg, the parry dagger flourished beside the head. Expression: haughty, one corner of the mouth lifted, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wired-grip rapier. SECOND ITEM, kept plain: parry dagger. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall pale vampire duelist in a sharp floor-length black longcoat with a high collar and gold wire trim, signet ring, a slim wired-grip rapier in one hand and a parrying dagger in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ad0c2a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fee7bb about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #7d99ca about 10%, on the eyes, the Wired-grip rapier and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -970,19 +970,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | athletic and theatrical; medium size; mobility: agile |
+| Physique | broad shoulders, big arms and thighs, a heavy hourglass stage-performer build; medium size; mobility: agile |
 | Ethnicity + nationality | Trinidadian heritage, British-Trinidadian |
 | Identity | female human |
 | Wardrobe | elegant pale vampire executioner in a sequined cape and heeled boots, a mirrored blade in one hand and a faceted mirror-ball swinging on a chain from the other |
 | Accessories | Chain-mirrorball; mirror-blades; sequined cape; heeled boots |
-| Pose | mid-spin, mirror-ball swinging out on its chain |
+| Pose | caught mid-spin on one foot, the chain whipping the mirror ball around in a full circle, the free leg kicked high |
 | Facial expression | theatrical, lips parted in a thrill |
 | People | Vampire |
 | Class | Chrome Court |
 | Subclass | Mirror-Ball Executioners |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | mid-spin, mirror-ball swinging out on its chain; the Chain-mirrorball and the mirror-blades break the outline so it reads instantly as a black shape |
+| Silhouette hook | caught mid-spin on one foot, the chain whipping the mirror ball around in a full circle, the free leg kicked high; the Chain-mirrorball and the mirror-blades break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #e5383b: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd60a: trim, sash, straps, secondary garment pieces and held gear |
@@ -993,7 +993,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as mid-spin, mirror-ball swinging out on its chain.
+1. Black-fill test: the silhouette must still read as caught mid-spin on one foot, the chain whipping the mirror ball around in a full circle, the free leg kicked high.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Chain-mirrorball and the pose must be visible at 64 px.
 4. Flat colors: #e5383b / #ffd60a / #eef6ff as separate flat shapes divided by black line; no gradients or glow.
@@ -1013,7 +1013,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Mirror-Ball Executioners, female human (Trinidadian heritage, British-Trinidadian), apparent age mid 60s. athletic and theatrical, medium size. Pose: mid-spin, mirror-ball swinging out on its chain. Expression: theatrical, lips parted in a thrill, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mirror-Ball Executioners, female human (Trinidadian heritage, British-Trinidadian), apparent age early 30s. broad shoulders, big arms and thighs, a heavy hourglass stage-performer build, medium size. Pose: caught mid-spin on one foot, the chain whipping the mirror ball around in a full circle, the free leg kicked high. Expression: theatrical, lips parted in a thrill, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Chain-mirrorball. SECOND ITEM, kept plain: mirror-blades. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: elegant pale vampire executioner in a sequined cape and heeled boots, a mirrored blade in one hand and a faceted mirror-ball swinging on a chain from the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #e5383b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #eef6ff about 10%, on the eyes, the Chain-mirrorball and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1040,19 +1040,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | poised and slender; medium size; mobility: grounded |
+| Physique | slender and angular, wasp-waisted, very long hands, a very pale narrow face; medium size; mobility: grounded |
 | Ethnicity + nationality | Hungarian heritage, Hungarian |
 | Identity | nonbinary human |
 | Wardrobe | poised pale vampire in a long black coat with impeccable cuffs and a signet ring, a leather ledger tucked under one arm and a small silver bell held in the other hand |
 | Accessories | Ledger; silver bell; signet ring; impeccable cuffs |
-| Pose | ledger open in one hand, silver bell held up between two fingers |
+| Pose | bowed forward in a courteous half-bow, the ledger open in one hand, the silver bell raised between two fingers beside the ear |
 | Facial expression | polite, one eyebrow raised |
 | People | Vampire |
 | Class | Chrome Court |
 | Subclass | Velvet Chaperones |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | ledger open in one hand, silver bell held up between two fingers; the Ledger and the silver bell break the outline so it reads instantly as a black shape |
+| Silhouette hook | bowed forward in a courteous half-bow, the ledger open in one hand, the silver bell raised between two fingers beside the ear; the Ledger and the silver bell break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #7b2cbf: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd166: trim, sash, straps, secondary garment pieces and held gear |
@@ -1063,7 +1063,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as ledger open in one hand, silver bell held up between two fingers.
+1. Black-fill test: the silhouette must still read as bowed forward in a courteous half-bow, the ledger open in one hand, the silver bell raised between two fingers beside the ear.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Ledger and the pose must be visible at 64 px.
 4. Flat colors: #7b2cbf / #ffd166 / #fff4df as separate flat shapes divided by black line; no gradients or glow.
@@ -1083,7 +1083,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Velvet Chaperones, nonbinary human (Hungarian heritage, Hungarian), apparent age mid 60s. poised and slender, medium size. Pose: ledger open in one hand, silver bell held up between two fingers. Expression: polite, one eyebrow raised, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Velvet Chaperones, nonbinary human (Hungarian heritage, Hungarian), apparent age mid 50s. slender and angular, wasp-waisted, very long hands, a very pale narrow face, medium size. Pose: bowed forward in a courteous half-bow, the ledger open in one hand, the silver bell raised between two fingers beside the ear. Expression: polite, one eyebrow raised, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ledger. SECOND ITEM, kept plain: silver bell. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: poised pale vampire in a long black coat with impeccable cuffs and a signet ring, a leather ledger tucked under one arm and a small silver bell held in the other hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #7b2cbf about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd166 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff4df about 10%, on the eyes, the Ledger and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1113,19 +1113,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slim and quick; medium size; mobility: agile |
+| Physique | small and compact (6.5 heads), wiry runner's legs, a pointed chin; medium size; mobility: agile |
 | Ethnicity + nationality | Japanese heritage, Japanese |
 | Identity | female human |
 | Wardrobe | slim pale vampire duelist in a sequin jacket and light-up sneakers, a glowing visor over the eyes, a short blade whose hilt is a strobe light |
 | Accessories | Strobe blade; glow-visor; sequin jacket; light-up sneakers |
-| Pose | caught mid-strike, blade extended with a sharp afterimage |
+| Pose | frozen in a mid-air spinning slash, a sharp afterimage trailing, the hair flung out |
 | Facial expression | icy, half-lidded stare |
 | People | Vampire |
 | Class | Neon Nocturnes |
 | Subclass | Strobe Duelists |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | caught mid-strike, blade extended with a sharp afterimage; the Strobe blade and the glow-visor break the outline so it reads instantly as a black shape |
+| Silhouette hook | frozen in a mid-air spinning slash, a sharp afterimage trailing, the hair flung out; the Strobe blade and the glow-visor break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #f72585: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4cc9f0: trim, sash, straps, secondary garment pieces and held gear |
@@ -1136,7 +1136,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as caught mid-strike, blade extended with a sharp afterimage.
+1. Black-fill test: the silhouette must still read as frozen in a mid-air spinning slash, a sharp afterimage trailing, the hair flung out.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Strobe blade and the pose must be visible at 64 px.
 4. Flat colors: #f72585 / #4cc9f0 / #fff3b0 as separate flat shapes divided by black line; no gradients or glow.
@@ -1156,7 +1156,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Strobe Duelists, female human (Japanese heritage, Japanese), apparent age early 20s. slim and quick, medium size. Pose: caught mid-strike, blade extended with a sharp afterimage. Expression: icy, half-lidded stare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Strobe Duelists, female human (Japanese heritage, Japanese), apparent age early 20s. small and compact (6.5 heads), wiry runner's legs, a pointed chin, medium size. Pose: frozen in a mid-air spinning slash, a sharp afterimage trailing, the hair flung out. Expression: icy, half-lidded stare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Strobe blade. SECOND ITEM, kept plain: glow-visor. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slim pale vampire duelist in a sequin jacket and light-up sneakers, a glowing visor over the eyes, a short blade whose hilt is a strobe light.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #f72585 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff3b0 about 10%, on the eyes, the Strobe blade and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1183,19 +1183,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | broad and heavy-shouldered; large size; mobility: grounded |
+| Physique | a huge barrel chest on thin legs, one enormous arm much bigger than the other; large size; mobility: grounded |
 | Ethnicity + nationality | Jamaican heritage, Jamaican |
 | Identity | male human |
 | Wardrobe | broad pale vampire brawler in a studded leather vest and ear-guards, a backpack-sized bass unit on the back, huge subwoofer-gauntlets on both fists |
 | Accessories | Subwoofer gauntlets; bass-pack; leather vest; ear-guards |
-| Pose | swinging a subwoofer gauntlet in a wide overhand punch |
+| Pose | coiled back onto the rear foot with the head down, the subwoofer fist cocked behind the body |
 | Facial expression | fierce roar, fangs bared |
 | People | Vampire |
 | Class | Neon Nocturnes |
 | Subclass | Bassline Brawlers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | swinging a subwoofer gauntlet in a wide overhand punch; the Subwoofer gauntlets and the bass-pack break the outline so it reads instantly as a black shape |
+| Silhouette hook | coiled back onto the rear foot with the head down, the subwoofer fist cocked behind the body; the Subwoofer gauntlets and the bass-pack break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #6403a2: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #06d6a0: trim, sash, straps, secondary garment pieces and held gear |
@@ -1206,7 +1206,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as swinging a subwoofer gauntlet in a wide overhand punch.
+1. Black-fill test: the silhouette must still read as coiled back onto the rear foot with the head down, the subwoofer fist cocked behind the body.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Subwoofer gauntlets and the pose must be visible at 64 px.
 4. Flat colors: #6403a2 / #06d6a0 / #ffbe0b as separate flat shapes divided by black line; no gradients or glow.
@@ -1226,7 +1226,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Bassline Brawlers, male human (Jamaican heritage, Jamaican), apparent age mid 30s. broad and heavy-shouldered, large size. Pose: swinging a subwoofer gauntlet in a wide overhand punch. Expression: fierce roar, fangs bared, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Bassline Brawlers, male human (Jamaican heritage, Jamaican), apparent age mid 30s. a huge barrel chest on thin legs, one enormous arm much bigger than the other, large size. Pose: coiled back onto the rear foot with the head down, the subwoofer fist cocked behind the body. Expression: fierce roar, fangs bared, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Subwoofer gauntlets. SECOND ITEM, kept plain: bass-pack. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: broad pale vampire brawler in a studded leather vest and ear-guards, a backpack-sized bass unit on the back, huge subwoofer-gauntlets on both fists.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #6403a2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffbe0b about 10%, on the eyes, the Subwoofer gauntlets and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1253,19 +1253,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | imposing and broad-shouldered; large size; mobility: grounded |
+| Physique | very tall, wide square shoulders tapering to a narrow waist, a thick neck, huge flat hands; large size; mobility: grounded |
 | Ethnicity + nationality | Nigerian Yoruba heritage, British-Nigerian |
 | Identity | male human |
 | Wardrobe | imposing pale vampire in a sharp dark suit with an earpiece, one hand holding a velvet rope on a short stanchion, the other holding a clipboard |
 | Accessories | Velvet rope; earpiece; clipboard; sharp suit |
-| Pose | one hand holding a velvet rope, the other raised to stop traffic |
+| Pose | leaning back with the weight on the rear heel, one palm out to stop traffic, the other hand letting a velvet rope hang, looking down the nose |
 | Facial expression | impassive, arms-crossed calm |
 | People | Vampire |
 | Class | Neon Nocturnes |
 | Subclass | VIP Hosts |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | one hand holding a velvet rope, the other raised to stop traffic; the Velvet rope and the earpiece break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning back with the weight on the rear heel, one palm out to stop traffic, the other hand letting a velvet rope hang, looking down the nose; the Velvet rope and the earpiece break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #ff6d5f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd166: trim, sash, straps, secondary garment pieces and held gear |
@@ -1276,7 +1276,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as one hand holding a velvet rope, the other raised to stop traffic.
+1. Black-fill test: the silhouette must still read as leaning back with the weight on the rear heel, one palm out to stop traffic, the other hand letting a velvet rope hang, looking down the nose.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Velvet rope and the pose must be visible at 64 px.
 4. Flat colors: #ff6d5f / #ffd166 / #2b2957 as separate flat shapes divided by black line; no gradients or glow.
@@ -1296,7 +1296,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: VIP Hosts, male human (Nigerian Yoruba heritage, British-Nigerian), apparent age mid 60s. imposing and broad-shouldered, large size. Pose: one hand holding a velvet rope, the other raised to stop traffic. Expression: impassive, arms-crossed calm, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: VIP Hosts, male human (Nigerian Yoruba heritage, British-Nigerian), apparent age mid 40s. very tall, wide square shoulders tapering to a narrow waist, a thick neck, huge flat hands, large size. Pose: leaning back with the weight on the rear heel, one palm out to stop traffic, the other hand letting a velvet rope hang, looking down the nose. Expression: impassive, arms-crossed calm, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Velvet rope. SECOND ITEM, kept plain: earpiece. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: imposing pale vampire in a sharp dark suit with an earpiece, one hand holding a velvet rope on a short stanchion, the other holding a clipboard.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ff6d5f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd166 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2b2957 about 10%, on the eyes, the Velvet rope and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1396,19 +1396,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | hunched and stone-skinned; large size; mobility: climbing |
+| Physique | squat and wide with a hunched hump back, huge hands, short legs, stone-slab shoulders; large size; mobility: climbing |
 | Ethnicity + nationality | Romanian heritage, Romanian |
 | Identity | male human |
 | Wardrobe | hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt |
 | Accessories | Stone knuckles; ledge-anchors; helmeted hood; wing-cloak |
-| Pose | hunched on all fours with fists planted, wings folded like a cloak |
+| Pose | perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted |
 | Facial expression | grim, heavy-browed |
 | People | Vampire |
 | Class | Night Watch |
 | Subclass | Gargoyle Sentries |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | hunched on all fours with fists planted, wings folded like a cloak; the Stone knuckles and the ledge-anchors break the outline so it reads instantly as a black shape |
+| Silhouette hook | perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted; the Stone knuckles and the ledge-anchors break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #8bb9e5: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff4d6d: trim, sash, straps, secondary garment pieces and held gear |
@@ -1419,7 +1419,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hunched on all fours with fists planted, wings folded like a cloak.
+1. Black-fill test: the silhouette must still read as perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Stone knuckles and the pose must be visible at 64 px.
 4. Flat colors: #8bb9e5 / #ff4d6d / #023054 as separate flat shapes divided by black line; no gradients or glow.
@@ -1439,7 +1439,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Gargoyle Sentries, male human (Romanian heritage, Romanian), apparent age mid 60s. hunched and stone-skinned, large size. Pose: hunched on all fours with fists planted, wings folded like a cloak. Expression: grim, heavy-browed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Gargoyle Sentries, male human (Romanian heritage, Romanian), apparent age late 30s. squat and wide with a hunched hump back, huge hands, short legs, stone-slab shoulders, large size. Pose: perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted. Expression: grim, heavy-browed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Stone knuckles. SECOND ITEM, kept plain: ledge-anchors. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8bb9e5 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff4d6d about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023054 about 10%, on the eyes, the Stone knuckles and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1466,19 +1466,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slim and long-limbed; medium size; mobility: climbing |
+| Physique | extremely thin and long-limbed like a coat hanger, a long neck, narrow shoulders; medium size; mobility: climbing |
 | Ethnicity + nationality | Thai heritage, Thai |
 | Identity | female human |
 | Wardrobe | slim pale vampire scout in a headset and a harness covered in short antennas, climbing spikes on the boots, a tuning-fork blade humming in one hand |
 | Accessories | Tuning fork blade; headset; antenna harness; climbing spikes |
-| Pose | arm raised with the tuning-fork blade held to the ear |
+| Pose | perched on the top rung of an antenna mast with the legs dangling, the tuning-fork blade held to the ear |
 | Facial expression | serene, eyes half-closed as if listening |
 | People | Vampire |
 | Class | Night Watch |
 | Subclass | Antenna Wraiths |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | arm raised with the tuning-fork blade held to the ear; the Tuning fork blade and the headset break the outline so it reads instantly as a black shape |
+| Silhouette hook | perched on the top rung of an antenna mast with the legs dangling, the tuning-fork blade held to the ear; the Tuning fork blade and the headset break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #33bede: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f72585: trim, sash, straps, secondary garment pieces and held gear |
@@ -1489,7 +1489,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as arm raised with the tuning-fork blade held to the ear.
+1. Black-fill test: the silhouette must still read as perched on the top rung of an antenna mast with the legs dangling, the tuning-fork blade held to the ear.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Tuning fork blade and the pose must be visible at 64 px.
 4. Flat colors: #33bede / #f72585 / #ffd60a as separate flat shapes divided by black line; no gradients or glow.
@@ -1509,7 +1509,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Antenna Wraiths, female human (Thai heritage, Thai), apparent age early 40s. slim and long-limbed, medium size. Pose: arm raised with the tuning-fork blade held to the ear. Expression: serene, eyes half-closed as if listening, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Antenna Wraiths, female human (Thai heritage, Thai), apparent age early 40s. extremely thin and long-limbed like a coat hanger, a long neck, narrow shoulders, medium size. Pose: perched on the top rung of an antenna mast with the legs dangling, the tuning-fork blade held to the ear. Expression: serene, eyes half-closed as if listening, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Tuning fork blade. SECOND ITEM, kept plain: headset. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slim pale vampire scout in a headset and a harness covered in short antennas, climbing spikes on the boots, a tuning-fork blade humming in one hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #33bede about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd60a about 10%, on the eyes, the Tuning fork blade and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1539,19 +1539,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | elegant and slim; medium size; mobility: agile |
+| Physique | average height, slim and sinewy, narrow shoulders, compact and quiet; medium size; mobility: agile |
 | Ethnicity + nationality | Persian heritage, Iranian |
 | Identity | male human |
 | Wardrobe | elegant pale vampire in a half-mask and a long coat with evening gloves, a rack of different masks on a shoulder strap, a stiletto concealed behind one gloved hand, a poison ring |
 | Accessories | Mask collection; hidden stiletto; poison ring; evening gloves |
-| Pose | stepping forward with a stiletto concealed behind one hand |
+| Pose | creeping low mid-step on tiptoes, the stiletto hidden behind the back leg, the face half-turned away |
 | Facial expression | cool, expressionless behind the half-mask |
 | People | Vampire |
 | Class | Coterie of Masks |
 | Subclass | Masked Assassins |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | stepping forward with a stiletto concealed behind one hand; the Mask collection and the hidden stiletto break the outline so it reads instantly as a black shape |
+| Silhouette hook | creeping low mid-step on tiptoes, the stiletto hidden behind the back leg, the face half-turned away; the Mask collection and the hidden stiletto break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #c71856: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #dbe8ac: trim, sash, straps, secondary garment pieces and held gear |
@@ -1562,7 +1562,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as stepping forward with a stiletto concealed behind one hand.
+1. Black-fill test: the silhouette must still read as creeping low mid-step on tiptoes, the stiletto hidden behind the back leg, the face half-turned away.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Mask collection and the pose must be visible at 64 px.
 4. Flat colors: #c71856 / #dbe8ac / #320b50 as separate flat shapes divided by black line; no gradients or glow.
@@ -1582,7 +1582,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Masked Assassins, male human (Persian heritage, Iranian), apparent age late 40s. elegant and slim, medium size. Pose: stepping forward with a stiletto concealed behind one hand. Expression: cool, expressionless behind the half-mask, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Masked Assassins, male human (Persian heritage, Iranian), apparent age late 30s. average height, slim and sinewy, narrow shoulders, compact and quiet, medium size. Pose: creeping low mid-step on tiptoes, the stiletto hidden behind the back leg, the face half-turned away. Expression: cool, expressionless behind the half-mask, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Mask collection. SECOND ITEM, kept plain: hidden stiletto. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: elegant pale vampire in a half-mask and a long coat with evening gloves, a rack of different masks on a shoulder strap, a stiletto concealed behind one gloved hand, a poison ring.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #c71856 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #dbe8ac about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #320b50 about 10%, on the eyes, the Mask collection and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1609,19 +1609,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | poised and narrow; medium size; mobility: grounded |
+| Physique | tall hourglass, a long neck, delicate wrists, a very straight spine; medium size; mobility: grounded |
 | Ethnicity + nationality | Scandinavian heritage, Danish |
 | Identity | female human |
 | Wardrobe | poised pale vampire in a long coat with rose-vine gloves, a bandolier of colored vials, a thorned whip coiled in one hand, an apothecary belt |
 | Accessories | Thorn whip; toxin vials; rose-vine gloves; apothecary belt |
-| Pose | coiling the thorn whip with one arm, vial held up in the other |
+| Pose | walking away with a glance back over the shoulder, the thorn whip trailing from one hand, a vial held up in the other |
 | Facial expression | serene, faintly amused |
 | People | Vampire |
 | Class | Coterie of Masks |
 | Subclass | Thorn Poisoners |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | coiling the thorn whip with one arm, vial held up in the other; the Thorn whip and the toxin vials break the outline so it reads instantly as a black shape |
+| Silhouette hook | walking away with a glance back over the shoulder, the thorn whip trailing from one hand, a vial held up in the other; the Thorn whip and the toxin vials break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #b34907: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #80ed99: trim, sash, straps, secondary garment pieces and held gear |
@@ -1632,7 +1632,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as coiling the thorn whip with one arm, vial held up in the other.
+1. Black-fill test: the silhouette must still read as walking away with a glance back over the shoulder, the thorn whip trailing from one hand, a vial held up in the other.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Thorn whip and the pose must be visible at 64 px.
 4. Flat colors: #b34907 / #80ed99 / #320b50 as separate flat shapes divided by black line; no gradients or glow.
@@ -1652,7 +1652,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Thorn Poisoners, female human (Scandinavian heritage, Danish), apparent age late 40s. poised and narrow, medium size. Pose: coiling the thorn whip with one arm, vial held up in the other. Expression: serene, faintly amused, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Thorn Poisoners, female human (Scandinavian heritage, Danish), apparent age late 40s. tall hourglass, a long neck, delicate wrists, a very straight spine, medium size. Pose: walking away with a glance back over the shoulder, the thorn whip trailing from one hand, a vial held up in the other. Expression: serene, faintly amused, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Thorn whip. SECOND ITEM, kept plain: toxin vials. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: poised pale vampire in a long coat with rose-vine gloves, a bandolier of colored vials, a thorned whip coiled in one hand, an apothecary belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b34907 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #80ed99 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #320b50 about 10%, on the eyes, the Thorn whip and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1679,19 +1679,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | slim and adaptable; medium size; mobility: agile |
+| Physique | a rubbery average build, mid height, loose expressive limbs and a mobile face; medium size; mobility: agile |
 | Ethnicity + nationality | Italian heritage, Italian |
 | Identity | nonbinary human |
 | Wardrobe | slim pale vampire in a half-mask and an understudy's cape, a prompt-book held open in one hand, a stage dagger in the other, a rack of small masks on the belt |
 | Accessories | Prompt-book; stage dagger; mask rack; understudy cape |
-| Pose | copying a rival's stance, prompt-book held open |
+| Pose | caught mid-impression of a melodramatic lunge, one arm flung wide, the prompt-book held open in the other hand |
 | Facial expression | wry, mid-impression |
 | People | Vampire |
 | Class | Coterie of Masks |
 | Subclass | Spotlight Understudies |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | copying a rival's stance, prompt-book held open; the Prompt-book and the stage dagger break the outline so it reads instantly as a black shape |
+| Silhouette hook | caught mid-impression of a melodramatic lunge, one arm flung wide, the prompt-book held open in the other hand; the Prompt-book and the stage dagger break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #eb25b4: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #8ecae6: trim, sash, straps, secondary garment pieces and held gear |
@@ -1702,7 +1702,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as copying a rival's stance, prompt-book held open.
+1. Black-fill test: the silhouette must still read as caught mid-impression of a melodramatic lunge, one arm flung wide, the prompt-book held open in the other hand.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Prompt-book and the pose must be visible at 64 px.
 4. Flat colors: #eb25b4 / #8ecae6 / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -1722,7 +1722,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Spotlight Understudies, nonbinary human (Italian heritage, Italian), apparent age late 40s. slim and adaptable, medium size. Pose: copying a rival's stance, prompt-book held open. Expression: wry, mid-impression, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Spotlight Understudies, nonbinary human (Italian heritage, Italian), apparent age late 20s. a rubbery average build, mid height, loose expressive limbs and a mobile face, medium size. Pose: caught mid-impression of a melodramatic lunge, one arm flung wide, the prompt-book held open in the other hand. Expression: wry, mid-impression, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prompt-book. SECOND ITEM, kept plain: stage dagger. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slim pale vampire in a half-mask and an understudy's cape, a prompt-book held open in one hand, a stage dagger in the other, a rack of small masks on the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #eb25b4 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #8ecae6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Prompt-book and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1831,19 +1831,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | pale and rangy; medium size; mobility: grounded |
+| Physique | pale, rangy and long-limbed, a deep chest, a thin waist, big paws; medium size; mobility: grounded |
 | Ethnicity + nationality | wolf-kin (not human) |
 | Identity | female anthropomorphic wolf character |
 | Wardrobe | pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt |
 | Accessories | Long rifle; white fur mantle; goggles; ice picks |
-| Pose | crouched in a snowdrift, rifle leveled |
+| Pose | lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised |
 | Facial expression | calm, steady stare |
 | People | Were-Creature |
 | Class | Wolf-kin |
 | Subclass | Frostfang Wanderers |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | crouched in a snowdrift, rifle leveled; the Long rifle and the white fur mantle break the outline so it reads instantly as a black shape |
+| Silhouette hook | lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised; the Long rifle and the white fur mantle break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #add6fe: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4ea8de: trim, sash, straps, secondary garment pieces and held gear |
@@ -1854,7 +1854,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crouched in a snowdrift, rifle leveled.
+1. Black-fill test: the silhouette must still read as lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Long rifle and the pose must be visible at 64 px.
 4. Flat colors: #add6fe / #4ea8de / #1d3557 as separate flat shapes divided by black line; no gradients or glow.
@@ -1874,7 +1874,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Frostfang Wanderers, female anthropomorphic wolf character (wolf-kin (not human)), apparent age late 40s. pale and rangy, medium size. Pose: crouched in a snowdrift, rifle leveled. Expression: calm, steady stare, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Frostfang Wanderers, female anthropomorphic wolf character (wolf-kin (not human)), apparent age late 40s. pale, rangy and long-limbed, a deep chest, a thin waist, big paws, medium size. Pose: lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised. Expression: calm, steady stare, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle. SECOND ITEM, kept plain: white fur mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #add6fe about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4ea8de about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, on the eyes, the Long rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -1901,19 +1901,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | shaggy and sturdy; medium size; mobility: grounded |
+| Physique | shaggy, sturdy and square, a broad rump, short strong legs, a barrel chest; medium size; mobility: grounded |
 | Ethnicity + nationality | wolf-kin (not human) |
 | Identity | female anthropomorphic wolf character |
 | Wardrobe | shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back |
 | Accessories | Collar-radio; tow harness; flare gun; med pack |
-| Pose | dragging a wounded ally with one arm, flare gun raised in the other |
+| Pose | walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand |
 | Facial expression | gentle, determined |
 | People | Were-Creature |
 | Class | Wolf-kin |
 | Subclass | Hearth Hounds |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | dragging a wounded ally with one arm, flare gun raised in the other; the Collar-radio and the tow harness break the outline so it reads instantly as a black shape |
+| Silhouette hook | walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand; the Collar-radio and the tow harness break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #f2c458: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #118ab2: trim, sash, straps, secondary garment pieces and held gear |
@@ -1924,7 +1924,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as dragging a wounded ally with one arm, flare gun raised in the other.
+1. Black-fill test: the silhouette must still read as walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Collar-radio and the pose must be visible at 64 px.
 4. Flat colors: #f2c458 / #118ab2 / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -1944,7 +1944,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Hearth Hounds, female anthropomorphic wolf character (wolf-kin (not human)), apparent age early 40s. shaggy and sturdy, medium size. Pose: dragging a wounded ally with one arm, flare gun raised in the other. Expression: gentle, determined, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Hearth Hounds, female anthropomorphic wolf character (wolf-kin (not human)), apparent age early 40s. shaggy, sturdy and square, a broad rump, short strong legs, a barrel chest, medium size. Pose: walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand. Expression: gentle, determined, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Collar-radio. SECOND ITEM, kept plain: tow harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #f2c458 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #118ab2 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Collar-radio and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -1974,19 +1974,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | small and wiry; small size; mobility: agile |
+| Physique | small and wiry, a round head, a big ringed tail, nimble black hands; small size; mobility: agile |
 | Ethnicity + nationality | raccoon-kin (not human) |
 | Identity | female anthropomorphic raccoon character |
 | Wardrobe | masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt |
 | Accessories | Crowbar; smoke bombs; lockpick roll; striped mask |
-| Pose | crouched over a safe with a crowbar levering it open |
+| Pose | crouched over a safe with one ear to the door, the crowbar levering it open |
 | Facial expression | mischievous grin |
 | People | Were-Creature |
 | Class | Raccoon-kin |
 | Subclass | Mask Bandits |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | crouched over a safe with a crowbar levering it open; the Crowbar and the smoke bombs break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched over a safe with one ear to the door, the crowbar levering it open; the Crowbar and the smoke bombs break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #dea013: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #7d99ca: trim, sash, straps, secondary garment pieces and held gear |
@@ -1997,7 +1997,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crouched over a safe with a crowbar levering it open.
+1. Black-fill test: the silhouette must still read as crouched over a safe with one ear to the door, the crowbar levering it open.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Crowbar and the pose must be visible at 64 px.
 4. Flat colors: #dea013 / #7d99ca / #282956 as separate flat shapes divided by black line; no gradients or glow.
@@ -2017,7 +2017,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Mask Bandits, female anthropomorphic raccoon character (raccoon-kin (not human)), apparent age late 40s. small and wiry, small size. Pose: crouched over a safe with a crowbar levering it open. Expression: mischievous grin, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mask Bandits, female anthropomorphic raccoon character (raccoon-kin (not human)), apparent age late 20s. small and wiry, a round head, a big ringed tail, nimble black hands, small size. Pose: crouched over a safe with one ear to the door, the crowbar levering it open. Expression: mischievous grin, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Crowbar. SECOND ITEM, kept plain: smoke bombs. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #dea013 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7d99ca about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Crowbar and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2044,19 +2044,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | small and stocky; small size; mobility: grounded |
+| Physique | small and stocky, a round belly, oversized workshop goggles, short thick arms; small size; mobility: grounded |
 | Ethnicity + nationality | raccoon-kin (not human) |
 | Identity | male anthropomorphic raccoon character |
 | Wardrobe | raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand |
 | Accessories | Scrap turret; tool bandolier; soldering torch; goggles |
-| Pose | twisting a screwdriver into a wired gadget, torch in the other paw |
+| Pose | sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw |
 | Facial expression | absorbed, tongue between teeth |
 | People | Were-Creature |
 | Class | Raccoon-kin |
 | Subclass | Gizmo Tinkers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | twisting a screwdriver into a wired gadget, torch in the other paw; the Scrap turret and the tool bandolier break the outline so it reads instantly as a black shape |
+| Silhouette hook | sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw; the Scrap turret and the tool bandolier break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #44f1b9: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ee8613: trim, sash, straps, secondary garment pieces and held gear |
@@ -2067,7 +2067,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as twisting a screwdriver into a wired gadget, torch in the other paw.
+1. Black-fill test: the silhouette must still read as sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Scrap turret and the pose must be visible at 64 px.
 4. Flat colors: #44f1b9 / #ee8613 / #221c48 as separate flat shapes divided by black line; no gradients or glow.
@@ -2087,7 +2087,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Gizmo Tinkers, male anthropomorphic raccoon character (raccoon-kin (not human)), apparent age mid 60s. small and stocky, small size. Pose: twisting a screwdriver into a wired gadget, torch in the other paw. Expression: absorbed, tongue between teeth, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Gizmo Tinkers, male anthropomorphic raccoon character (raccoon-kin (not human)), apparent age early 60s. small and stocky, a round belly, oversized workshop goggles, short thick arms, small size. Pose: sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw. Expression: absorbed, tongue between teeth, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: tool bandolier. SECOND ITEM, kept plain: soldering torch. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #44f1b9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ee8613 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, on the eyes, the Scrap turret and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2114,19 +2114,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | padded and stocky; small size; mobility: grounded |
+| Physique | padded, stocky and round, a thick neck, a bandit mask, stubby fingers; small size; mobility: grounded |
 | Ethnicity + nationality | raccoon-kin (not human) |
 | Identity | nonbinary anthropomorphic raccoon character |
 | Wardrobe | raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys |
 | Accessories | Shaped charges; bolt cutters; skeleton keys; padded vest |
-| Pose | slapping a shaped charge on a door, bolt cutters on the belt |
+| Pose | hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt |
 | Facial expression | gleeful, eyes wide |
 | People | Were-Creature |
 | Class | Raccoon-kin |
 | Subclass | Vault Lockbreakers |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | slapping a shaped charge on a door, bolt cutters on the belt; the Shaped charges and the bolt cutters break the outline so it reads instantly as a black shape |
+| Silhouette hook | hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt; the Shaped charges and the bolt cutters break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #fd9794: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #a8dadc: trim, sash, straps, secondary garment pieces and held gear |
@@ -2137,7 +2137,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as slapping a shaped charge on a door, bolt cutters on the belt.
+1. Black-fill test: the silhouette must still read as hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Shaped charges and the pose must be visible at 64 px.
 4. Flat colors: #fd9794 / #a8dadc / #1d3557 as separate flat shapes divided by black line; no gradients or glow.
@@ -2157,7 +2157,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Vault Lockbreakers, nonbinary anthropomorphic raccoon character (raccoon-kin (not human)), apparent age late 30s. padded and stocky, small size. Pose: slapping a shaped charge on a door, bolt cutters on the belt. Expression: gleeful, eyes wide, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Vault Lockbreakers, nonbinary anthropomorphic raccoon character (raccoon-kin (not human)), apparent age late 30s. padded, stocky and round, a thick neck, a bandit mask, stubby fingers, small size. Pose: hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt. Expression: gleeful, eyes wide, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shaped charges. SECOND ITEM, kept plain: bolt cutters. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fd9794 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #a8dadc about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, on the eyes, the Shaped charges and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2187,19 +2187,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | broad and armored; large size; mobility: aquatic |
+| Physique | broad and enormously wide, a long heavy snout, a thick tail, ridged back plates; large size; mobility: aquatic |
 | Ethnicity + nationality | crocodile-kin (not human) |
 | Identity | female anthropomorphic crocodile character |
 | Wardrobe | broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm |
 | Accessories | Boat hook; nest-armor; signal bell; egg basket |
-| Pose | boat hook raised, nest basket cradled on the other arm |
+| Pose | standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout |
 | Facial expression | stern, protective glare |
 | People | Were-Creature |
 | Class | Crocodile-kin |
 | Subclass | Mire Matriarchs |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | boat hook raised, nest basket cradled on the other arm; the Boat hook and the nest-armor break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout; the Boat hook and the nest-armor break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #7cb518: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #3a0ca3: trim, sash, straps, secondary garment pieces and held gear |
@@ -2210,7 +2210,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as boat hook raised, nest basket cradled on the other arm.
+1. Black-fill test: the silhouette must still read as standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Boat hook and the pose must be visible at 64 px.
 4. Flat colors: #7cb518 / #3a0ca3 / #ffe8d7 as separate flat shapes divided by black line; no gradients or glow.
@@ -2230,7 +2230,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Mire Matriarchs, female anthropomorphic crocodile character (crocodile-kin (not human)), apparent age mid 60s. broad and armored, large size. Pose: boat hook raised, nest basket cradled on the other arm. Expression: stern, protective glare, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mire Matriarchs, female anthropomorphic crocodile character (crocodile-kin (not human)), apparent age mid 60s. broad and enormously wide, a long heavy snout, a thick tail, ridged back plates, large size. Pose: standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout. Expression: stern, protective glare, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: nest-armor. SECOND ITEM, kept plain: signal bell. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #7cb518 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3a0ca3 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffe8d7 about 10%, on the eyes, the Boat hook and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2257,19 +2257,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | lean and scarred; large size; mobility: aquatic |
+| Physique | lean, scarred and long, a narrow wedge snout, a whip-thin tail used for balance; large size; mobility: aquatic |
 | Ethnicity + nationality | crocodile-kin (not human) |
 | Identity | male anthropomorphic crocodile character |
 | Wardrobe | smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other |
 | Accessories | Boat hook; scrap cutlass; captain's hat; lantern pole |
-| Pose | one foot up on a crate, cutlass over the shoulder, lantern pole raised |
+| Pose | one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised |
 | Facial expression | smug, tooth-baring grin |
 | People | Were-Creature |
 | Class | Crocodile-kin |
 | Subclass | Snapjaw Riverjackers |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | one foot up on a crate, cutlass over the shoulder, lantern pole raised; the Boat hook and the scrap cutlass break the outline so it reads instantly as a black shape |
+| Silhouette hook | one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised; the Boat hook and the scrap cutlass break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #67cdc1: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffbf69: trim, sash, straps, secondary garment pieces and held gear |
@@ -2280,7 +2280,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as one foot up on a crate, cutlass over the shoulder, lantern pole raised.
+1. Black-fill test: the silhouette must still read as one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Boat hook and the pose must be visible at 64 px.
 4. Flat colors: #67cdc1 / #ffbf69 / #1b263b as separate flat shapes divided by black line; no gradients or glow.
@@ -2300,7 +2300,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Snapjaw Riverjackers, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 40s. lean and scarred, large size. Pose: one foot up on a crate, cutlass over the shoulder, lantern pole raised. Expression: smug, tooth-baring grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Snapjaw Riverjackers, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 40s. lean, scarred and long, a narrow wedge snout, a whip-thin tail used for balance, large size. Pose: one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised. Expression: smug, tooth-baring grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: scrap cutlass. SECOND ITEM, kept plain: captain's hat. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #67cdc1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffbf69 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1b263b about 10%, on the eyes, the Boat hook and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2327,19 +2327,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | ancient and broad; large size; mobility: grounded |
+| Physique | ancient and wide, drooping jowls, tiny half-shut eyes, a cracked-stone hide; large size; mobility: grounded |
 | Ethnicity + nationality | crocodile-kin (not human) |
 | Identity | male anthropomorphic crocodile character |
 | Wardrobe | ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt |
 | Accessories | Heavy staff; mossy cloak; scroll of treaties; stone bracers |
-| Pose | seated upright with the staff planted, one eye cracking open |
+| Pose | seated upright and still with the staff planted, one eye cracking open |
 | Facial expression | half-lidded, patient |
 | People | Were-Creature |
 | Class | Crocodile-kin |
 | Subclass | Slow-Strike Sages |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | seated upright with the staff planted, one eye cracking open; the Heavy staff and the mossy cloak break the outline so it reads instantly as a black shape |
+| Silhouette hook | seated upright and still with the staff planted, one eye cracking open; the Heavy staff and the mossy cloak break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #a7c957: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #6d597a: trim, sash, straps, secondary garment pieces and held gear |
@@ -2350,7 +2350,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as seated upright with the staff planted, one eye cracking open.
+1. Black-fill test: the silhouette must still read as seated upright and still with the staff planted, one eye cracking open.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Heavy staff and the pose must be visible at 64 px.
 4. Flat colors: #a7c957 / #6d597a / #fee7ab as separate flat shapes divided by black line; no gradients or glow.
@@ -2370,7 +2370,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Slow-Strike Sages, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age mid 60s. ancient and broad, large size. Pose: seated upright with the staff planted, one eye cracking open. Expression: half-lidded, patient, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Slow-Strike Sages, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 60s. ancient and wide, drooping jowls, tiny half-shut eyes, a cracked-stone hide, large size. Pose: seated upright and still with the staff planted, one eye cracking open. Expression: half-lidded, patient, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Heavy staff. SECOND ITEM, kept plain: mossy cloak. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a7c957 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #6d597a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fee7ab about 10%, on the eyes, the Heavy staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2470,19 +2470,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | round and calm; medium size; mobility: grounded |
+| Physique | round and calm, a blunt boxy head, a soft belly, short legs; medium size; mobility: grounded |
 | Ethnicity + nationality | capybara-kin (not human) |
 | Identity | male anthropomorphic capybara character |
 | Wardrobe | calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt |
 | Accessories | Reed mat; treaty scroll; gavel; tea set |
-| Pose | holding a treaty scroll and a teapot out in offer |
+| Pose | bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other |
 | Facial expression | calm, untroubled |
 | People | Were-Creature |
 | Class | Capybara-kin |
 | Subclass | Reed-Lodge Diplomats |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | holding a treaty scroll and a teapot out in offer; the Reed mat and the treaty scroll break the outline so it reads instantly as a black shape |
+| Silhouette hook | bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other; the Reed mat and the treaty scroll break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #abdbd0: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e86c65: trim, sash, straps, secondary garment pieces and held gear |
@@ -2493,7 +2493,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as holding a treaty scroll and a teapot out in offer.
+1. Black-fill test: the silhouette must still read as bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Reed mat and the pose must be visible at 64 px.
 4. Flat colors: #abdbd0 / #e86c65 / #264653 as separate flat shapes divided by black line; no gradients or glow.
@@ -2513,7 +2513,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Reed-Lodge Diplomats, male anthropomorphic capybara character (capybara-kin (not human)), apparent age mid 30s. round and calm, medium size. Pose: holding a treaty scroll and a teapot out in offer. Expression: calm, untroubled, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Reed-Lodge Diplomats, male anthropomorphic capybara character (capybara-kin (not human)), apparent age mid 30s. round and calm, a blunt boxy head, a soft belly, short legs, medium size. Pose: bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other. Expression: calm, untroubled, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Reed mat. SECOND ITEM, kept plain: treaty scroll. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #abdbd0 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e86c65 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Reed mat and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2540,19 +2540,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | broad and heavy-set; large size; mobility: grounded |
+| Physique | broad, heavy-set and low, huge front teeth, a thick neck, a wide flat tail; large size; mobility: grounded |
 | Ethnicity + nationality | capybara-kin (not human) |
 | Identity | male anthropomorphic capybara character |
 | Wardrobe | broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand |
 | Accessories | Tower shield; sledge; scaffolding rig; hard hat |
-| Pose | planted behind a slab shield, sledge resting on one shoulder |
+| Pose | leaning into a slab shield like a door, the sledge resting on one shoulder |
 | Facial expression | stolid, unbothered |
 | People | Were-Creature |
 | Class | Capybara-kin |
 | Subclass | Dam Wardens |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | planted behind a slab shield, sledge resting on one shoulder; the Tower shield and the sledge break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning into a slab shield like a door, the sledge resting on one shoulder; the Tower shield and the sledge break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #b0970b: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #3d5a80: trim, sash, straps, secondary garment pieces and held gear |
@@ -2563,7 +2563,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as planted behind a slab shield, sledge resting on one shoulder.
+1. Black-fill test: the silhouette must still read as leaning into a slab shield like a door, the sledge resting on one shoulder.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Tower shield and the pose must be visible at 64 px.
 4. Flat colors: #b0970b / #3d5a80 / #d8fdff as separate flat shapes divided by black line; no gradients or glow.
@@ -2583,7 +2583,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Dam Wardens, male anthropomorphic capybara character (capybara-kin (not human)), apparent age early 30s. broad and heavy-set, large size. Pose: planted behind a slab shield, sledge resting on one shoulder. Expression: stolid, unbothered, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Dam Wardens, male anthropomorphic capybara character (capybara-kin (not human)), apparent age early 30s. broad, heavy-set and low, huge front teeth, a thick neck, a wide flat tail, large size. Pose: leaning into a slab shield like a door, the sledge resting on one shoulder. Expression: stolid, unbothered, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: sledge. SECOND ITEM, kept plain: scaffolding rig. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b0970b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3d5a80 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #d8fdff about 10%, on the eyes, the Tower shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2613,19 +2613,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | slim with feathery gills; medium size; mobility: aquatic |
+| Physique | slim and boneless-looking, a broad flat head, feathery gills like three red fans, a smooth wet body; medium size; mobility: aquatic |
 | Ethnicity + nationality | axolotl-kin (not human) |
 | Identity | nonbinary anthropomorphic axolotl character |
 | Wardrobe | smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other |
 | Accessories | Med satchel; glow-gel flask; bandage reel; field lamp |
-| Pose | kneeling with a glowing hand over a wound, satchel open |
+| Pose | kneeling on one knee with a glowing hand over a wound, the satchel open on the ground |
 | Facial expression | bright, reassuring smile |
 | People | Were-Creature |
 | Class | Axolotl-kin |
 | Subclass | Regrowth Medics |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | kneeling with a glowing hand over a wound, satchel open; the Med satchel and the glow-gel flask break the outline so it reads instantly as a black shape |
+| Silhouette hook | kneeling on one knee with a glowing hand over a wound, the satchel open on the ground; the Med satchel and the glow-gel flask break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #f790c3: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4cc9f0: trim, sash, straps, secondary garment pieces and held gear |
@@ -2636,7 +2636,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as kneeling with a glowing hand over a wound, satchel open.
+1. Black-fill test: the silhouette must still read as kneeling on one knee with a glowing hand over a wound, the satchel open on the ground.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Med satchel and the pose must be visible at 64 px.
 4. Flat colors: #f790c3 / #4cc9f0 / #fff0d1 as separate flat shapes divided by black line; no gradients or glow.
@@ -2656,7 +2656,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Regrowth Medics, nonbinary anthropomorphic axolotl character (axolotl-kin (not human)), apparent age late 40s. slim with feathery gills, medium size. Pose: kneeling with a glowing hand over a wound, satchel open. Expression: bright, reassuring smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Regrowth Medics, nonbinary anthropomorphic axolotl character (axolotl-kin (not human)), apparent age late 40s. slim and boneless-looking, a broad flat head, feathery gills like three red fans, a smooth wet body, medium size. Pose: kneeling on one knee with a glowing hand over a wound, the satchel open on the ground. Expression: bright, reassuring smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Med satchel. SECOND ITEM, kept plain: glow-gel flask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #f790c3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff0d1 about 10%, on the eyes, the Med satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2683,19 +2683,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slim and wet-suited; medium size; mobility: aquatic |
+| Physique | slim and long, a snug wet suit, big gills that flare like frills; medium size; mobility: aquatic |
 | Ethnicity + nationality | axolotl-kin (not human) |
 | Identity | female anthropomorphic axolotl character |
 | Wardrobe | axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands |
 | Accessories | Storm staff; wet-suit coat; battery pack; goggles |
-| Pose | staff raised overhead as lightning arcs between the gills |
+| Pose | twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills |
 | Facial expression | intense, gills flared |
 | People | Were-Creature |
 | Class | Axolotl-kin |
 | Subclass | Gillstorm Casters |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | staff raised overhead as lightning arcs between the gills; the Storm staff and the wet-suit coat break the outline so it reads instantly as a black shape |
+| Silhouette hook | twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills; the Storm staff and the wet-suit coat break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #13a6c7: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff5d8f: trim, sash, straps, secondary garment pieces and held gear |
@@ -2706,7 +2706,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as staff raised overhead as lightning arcs between the gills.
+1. Black-fill test: the silhouette must still read as twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Storm staff and the pose must be visible at 64 px.
 4. Flat colors: #13a6c7 / #ff5d8f / #2e2200 as separate flat shapes divided by black line; no gradients or glow.
@@ -2726,7 +2726,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Gillstorm Casters, female anthropomorphic axolotl character (axolotl-kin (not human)), apparent age mid 30s. slim and wet-suited, medium size. Pose: staff raised overhead as lightning arcs between the gills. Expression: intense, gills flared, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Gillstorm Casters, female anthropomorphic axolotl character (axolotl-kin (not human)), apparent age mid 30s. slim and long, a snug wet suit, big gills that flare like frills, medium size. Pose: twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills. Expression: intense, gills flared, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Storm staff. SECOND ITEM, kept plain: wet-suit coat. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #13a6c7 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff5d8f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, on the eyes, the Storm staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2753,19 +2753,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | wide-faced and low-slung; medium size; mobility: aquatic |
+| Physique | wide-faced and low-slung, a broad flat head, stubby legs, a thick tail; medium size; mobility: aquatic |
 | Ethnicity + nationality | axolotl-kin (not human) |
 | Identity | male anthropomorphic axolotl character |
 | Wardrobe | wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands |
 | Accessories | Hooked spear; glow-lure; mud-cloak; wading boots |
-| Pose | low in a crouch, hooked spear lowered with the lure-tips glowing |
+| Pose | slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing |
 | Facial expression | wide, unblinking stare |
 | People | Were-Creature |
 | Class | Axolotl-kin |
 | Subclass | Mudglow Lurkers |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | low in a crouch, hooked spear lowered with the lure-tips glowing; the Hooked spear and the glow-lure break the outline so it reads instantly as a black shape |
+| Silhouette hook | slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing; the Hooked spear and the glow-lure break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #5a20c7: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #b5e48c: trim, sash, straps, secondary garment pieces and held gear |
@@ -2776,7 +2776,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as low in a crouch, hooked spear lowered with the lure-tips glowing.
+1. Black-fill test: the silhouette must still read as slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Hooked spear and the pose must be visible at 64 px.
 4. Flat colors: #5a20c7 / #b5e48c / #e4ffda as separate flat shapes divided by black line; no gradients or glow.
@@ -2796,7 +2796,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Mudglow Lurkers, male anthropomorphic axolotl character (axolotl-kin (not human)), apparent age early 20s. wide-faced and low-slung, medium size. Pose: low in a crouch, hooked spear lowered with the lure-tips glowing. Expression: wide, unblinking stare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mudglow Lurkers, male anthropomorphic axolotl character (axolotl-kin (not human)), apparent age early 20s. wide-faced and low-slung, a broad flat head, stubby legs, a thick tail, medium size. Pose: slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing. Expression: wide, unblinking stare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Hooked spear. SECOND ITEM, kept plain: glow-lure. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #5a20c7 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #b5e48c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, on the eyes, the Hooked spear and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2826,19 +2826,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slender and feathered; medium size; mobility: flying |
+| Physique | slender and feathered with a long neck, long thin legs, a big wing-cloak; medium size; mobility: flying |
 | Ethnicity + nationality | raven-kin (not human) |
 | Identity | female anthropomorphic raven character |
 | Wardrobe | slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares |
 | Accessories | Crystal-ball lens; feather staff; star-sewn cloak; signal flares |
-| Pose | orb held aloft in one hand, crescent staff pointed in the other |
+| Pose | hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other |
 | Facial expression | mysterious, knowing |
 | People | Were-Creature |
 | Class | Raven-kin |
 | Subclass | Gloamwing Oracles |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | orb held aloft in one hand, crescent staff pointed in the other; the Crystal-ball lens and the feather staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other; the Crystal-ball lens and the feather staff break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #3a0ca3: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f9c74f: trim, sash, straps, secondary garment pieces and held gear |
@@ -2849,7 +2849,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as orb held aloft in one hand, crescent staff pointed in the other.
+1. Black-fill test: the silhouette must still read as hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Crystal-ball lens and the pose must be visible at 64 px.
 4. Flat colors: #3a0ca3 / #f9c74f / #90e0ef as separate flat shapes divided by black line; no gradients or glow.
@@ -2869,7 +2869,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Gloamwing Oracles, female anthropomorphic raven character (raven-kin (not human)), apparent age mid 60s. slender and feathered, medium size. Pose: orb held aloft in one hand, crescent staff pointed in the other. Expression: mysterious, knowing, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Gloamwing Oracles, female anthropomorphic raven character (raven-kin (not human)), apparent age mid 60s. slender and feathered with a long neck, long thin legs, a big wing-cloak, medium size. Pose: hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other. Expression: mysterious, knowing, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Crystal-ball lens. SECOND ITEM, kept plain: feather staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #3a0ca3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f9c74f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #90e0ef about 10%, on the eyes, the Crystal-ball lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2896,19 +2896,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | small and quick; small size; mobility: flying |
+| Physique | small and quick, a sleek head, a long barred tail, a thin frame; small size; mobility: flying |
 | Ethnicity + nationality | magpie-kin (not human) |
 | Identity | nonbinary anthropomorphic magpie character |
 | Wardrobe | magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch |
 | Accessories | Twin hook-blades; relic bag; magnifying goggles; gem pouch |
-| Pose | hooking a gem with one blade, bag swinging from the shoulder |
+| Pose | swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak |
 | Facial expression | greedy delight |
 | People | Were-Creature |
 | Class | Raven-kin |
 | Subclass | Salvage Magpies |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | hooking a gem with one blade, bag swinging from the shoulder; the Twin hook-blades and the relic bag break the outline so it reads instantly as a black shape |
+| Silhouette hook | swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak; the Twin hook-blades and the relic bag break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #aafdff: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #1d3557: trim, sash, straps, secondary garment pieces and held gear |
@@ -2919,7 +2919,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hooking a gem with one blade, bag swinging from the shoulder.
+1. Black-fill test: the silhouette must still read as swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Twin hook-blades and the pose must be visible at 64 px.
 4. Flat colors: #aafdff / #1d3557 / #f54852 as separate flat shapes divided by black line; no gradients or glow.
@@ -2939,7 +2939,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Salvage Magpies, nonbinary anthropomorphic magpie character (magpie-kin (not human)), apparent age early 30s. small and quick, small size. Pose: hooking a gem with one blade, bag swinging from the shoulder. Expression: greedy delight, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Salvage Magpies, nonbinary anthropomorphic magpie character (magpie-kin (not human)), apparent age early 30s. small and quick, a sleek head, a long barred tail, a thin frame, small size. Pose: swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak. Expression: greedy delight, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Twin hook-blades. SECOND ITEM, kept plain: relic bag. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #aafdff about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1d3557 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f54852 about 10%, on the eyes, the Twin hook-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2966,19 +2966,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | lean and feathered; medium size; mobility: flying |
+| Physique | lean and feathered, hunched wing-shoulders, a dagger beak, long legs; medium size; mobility: flying |
 | Ethnicity + nationality | raven-kin (not human) |
 | Identity | male anthropomorphic raven character |
 | Wardrobe | raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip |
 | Accessories | Talon-blades; feather mantle; black-iron beak mask; grudge ledger |
-| Pose | diving forward with talon-blades out, crows streaming behind |
+| Pose | diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind |
 | Facial expression | cold, beaked glare |
 | People | Were-Creature |
 | Class | Raven-kin |
 | Subclass | Murder Vanguard |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | diving forward with talon-blades out, crows streaming behind; the Talon-blades and the feather mantle break the outline so it reads instantly as a black shape |
+| Silhouette hook | diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind; the Talon-blades and the feather mantle break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #282956: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ef233c: trim, sash, straps, secondary garment pieces and held gear |
@@ -2989,7 +2989,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as diving forward with talon-blades out, crows streaming behind.
+1. Black-fill test: the silhouette must still read as diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Talon-blades and the pose must be visible at 64 px.
 4. Flat colors: #282956 / #ef233c / #def6ff as separate flat shapes divided by black line; no gradients or glow.
@@ -3009,7 +3009,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, medium size. Pose: diving forward with talon-blades out, crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, hunched wing-shoulders, a dagger beak, long legs, medium size. Pose: diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: feather mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #282956 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ef233c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #def6ff about 10%, on the eyes, the Talon-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3039,19 +3039,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | round and fluffy; medium size; mobility: flying |
+| Physique | round and fluffy, a big heart-shaped face, a short neck, huge round eyes; medium size; mobility: flying |
 | Ethnicity + nationality | owl-kin (not human) |
 | Identity | female anthropomorphic owl character |
 | Wardrobe | fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt |
 | Accessories | Talon-blades; spectacles; scroll case; wing-cloak |
-| Pose | diving with talon-blades extended and wings half-spread |
+| Pose | launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak |
 | Facial expression | grave, unblinking |
 | People | Were-Creature |
 | Class | Owl-kin |
 | Subclass | Hushwing Strikers |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | diving with talon-blades extended and wings half-spread; the Talon-blades and the spectacles break the outline so it reads instantly as a black shape |
+| Silhouette hook | launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak; the Talon-blades and the spectacles break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #7aa1ce: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #5f0f40: trim, sash, straps, secondary garment pieces and held gear |
@@ -3062,7 +3062,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as diving with talon-blades extended and wings half-spread.
+1. Black-fill test: the silhouette must still read as launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Talon-blades and the pose must be visible at 64 px.
 4. Flat colors: #7aa1ce / #5f0f40 / #f78f0a as separate flat shapes divided by black line; no gradients or glow.
@@ -3082,7 +3082,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Hushwing Strikers, female anthropomorphic owl character (owl-kin (not human)), apparent age early 20s. round and fluffy, medium size. Pose: diving with talon-blades extended and wings half-spread. Expression: grave, unblinking, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Hushwing Strikers, female anthropomorphic owl character (owl-kin (not human)), apparent age early 20s. round and fluffy, a big heart-shaped face, a short neck, huge round eyes, medium size. Pose: launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak. Expression: grave, unblinking, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: spectacles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #7aa1ce about 60%, on the largest garment, armor, fur-marking or body areas; secondary #5f0f40 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f78f0a about 10%, on the eyes, the Talon-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3109,19 +3109,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | compact with huge eyes; medium size; mobility: flying |
+| Physique | compact, round-headed with huge eyes, a thin body, spindly legs; medium size; mobility: flying |
 | Ethnicity + nationality | owl-kin (not human) |
 | Identity | male anthropomorphic owl character |
 | Wardrobe | owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands |
 | Accessories | Long rifle with thermal scope; night-goggles; ghillie cloak |
-| Pose | perched with the rifle braced across a raised knee |
+| Pose | perched on one foot on a branch with the other knee up, the rifle braced across the raised knee |
 | Facial expression | steady, enormous-eyed focus |
 | People | Were-Creature |
 | Class | Owl-kin |
 | Subclass | Night-Eye Snipers |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | perched with the rifle braced across a raised knee; the Long rifle with thermal scope and the night-goggles break the outline so it reads instantly as a black shape |
+| Silhouette hook | perched on one foot on a branch with the other knee up, the rifle braced across the raised knee; the Long rifle with thermal scope and the night-goggles break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #fff5bc: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #3c096c: trim, sash, straps, secondary garment pieces and held gear |
@@ -3132,7 +3132,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as perched with the rifle braced across a raised knee.
+1. Black-fill test: the silhouette must still read as perched on one foot on a branch with the other knee up, the rifle braced across the raised knee.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Long rifle with thermal scope and the pose must be visible at 64 px.
 4. Flat colors: #fff5bc / #3c096c / #c6e2fe as separate flat shapes divided by black line; no gradients or glow.
@@ -3152,7 +3152,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact with huge eyes, medium size. Pose: perched with the rifle braced across a raised knee. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact, round-headed with huge eyes, a thin body, spindly legs, medium size. Pose: perched on one foot on a branch with the other knee up, the rifle braced across the raised knee. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle with thermal scope. SECOND ITEM, kept plain: night-goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fff5bc about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3c096c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c6e2fe about 10%, on the eyes, the Long rifle with thermal scope and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3179,19 +3179,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | round and sturdy; medium size; mobility: grounded |
+| Physique | round and sturdy, a barrel body, a head that turns a full half-circle on the neck; medium size; mobility: grounded |
 | Ethnicity + nationality | owl-kin (not human) |
 | Identity | male anthropomorphic owl character |
 | Wardrobe | round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder |
 | Accessories | Halberd; signal lamp; alarm horn; reinforced helm |
-| Pose | standing at a post, halberd upright, head swivelled over the shoulder |
+| Pose | standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder |
 | Facial expression | alert, head turned right around |
 | People | Were-Creature |
 | Class | Owl-kin |
 | Subclass | Rotating Watch |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | standing at a post, halberd upright, head swivelled over the shoulder; the Halberd and the signal lamp break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder; the Halberd and the signal lamp break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #7091a1: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f28c16: trim, sash, straps, secondary garment pieces and held gear |
@@ -3202,7 +3202,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as standing at a post, halberd upright, head swivelled over the shoulder.
+1. Black-fill test: the silhouette must still read as standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Halberd and the pose must be visible at 64 px.
 4. Flat colors: #7091a1 / #f28c16 / #023047 as separate flat shapes divided by black line; no gradients or glow.
@@ -3222,7 +3222,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Rotating Watch, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. round and sturdy, medium size. Pose: standing at a post, halberd upright, head swivelled over the shoulder. Expression: alert, head turned right around, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Rotating Watch, male anthropomorphic owl character (owl-kin (not human)), apparent age mid 60s. round and sturdy, a barrel body, a head that turns a full half-circle on the neck, medium size. Pose: standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder. Expression: alert, head turned right around, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Halberd. SECOND ITEM, kept plain: signal lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #7091a1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f28c16 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023047 about 10%, on the eyes, the Halberd and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3252,19 +3252,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slim and tentacled; medium size; mobility: agile |
+| Physique | slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway; medium size; mobility: agile |
 | Ethnicity + nationality | octopus-kin (not human) |
 | Identity | female anthropomorphic octopus character |
 | Wardrobe | octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt |
 | Accessories | Ink-bomb pouch; suction-grip gloves; silenced pistol; camo cloak |
-| Pose | slipping sideways with the silenced pistol raised, tentacles curling |
+| Pose | slipping sideways with the pistol raised, the tentacles curling behind like a cloak |
 | Facial expression | coolly amused |
 | People | Were-Creature |
 | Class | Octopus-kin |
 | Subclass | Ink Spies |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | slipping sideways with the silenced pistol raised, tentacles curling; the Ink-bomb pouch and the suction-grip gloves break the outline so it reads instantly as a black shape |
+| Silhouette hook | slipping sideways with the pistol raised, the tentacles curling behind like a cloak; the Ink-bomb pouch and the suction-grip gloves break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #9518a2: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #06d6a0: trim, sash, straps, secondary garment pieces and held gear |
@@ -3275,7 +3275,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as slipping sideways with the silenced pistol raised, tentacles curling.
+1. Black-fill test: the silhouette must still read as slipping sideways with the pistol raised, the tentacles curling behind like a cloak.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Ink-bomb pouch and the pose must be visible at 64 px.
 4. Flat colors: #9518a2 / #06d6a0 / #002645 as separate flat shapes divided by black line; no gradients or glow.
@@ -3295,7 +3295,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Ink Spies, female anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. slim and tentacled, medium size. Pose: slipping sideways with the silenced pistol raised, tentacles curling. Expression: coolly amused, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Ink Spies, female anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway, medium size. Pose: slipping sideways with the pistol raised, the tentacles curling behind like a cloak. Expression: coolly amused, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ink-bomb pouch. SECOND ITEM, kept plain: suction-grip gloves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #9518a2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, on the eyes, the Ink-bomb pouch and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3322,19 +3322,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | many-limbed and busy; medium size; mobility: grounded |
+| Physique | many-limbed and busy, a round head, a heavy apron, eight tool-holding arms; medium size; mobility: grounded |
 | Ethnicity + nationality | octopus-kin (not human) |
 | Identity | male anthropomorphic octopus character |
 | Wardrobe | octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver |
 | Accessories | Multi-tool harness; welder; scrap turret; goggles |
-| Pose | working on several tools at once with a limb for each |
+| Pose | standing braced on two legs working four tools at once, a limb for each |
 | Facial expression | frazzled, delighted focus |
 | People | Were-Creature |
 | Class | Octopus-kin |
 | Subclass | Tentacle Engineers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | working on several tools at once with a limb for each; the Multi-tool harness and the welder break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing braced on two legs working four tools at once, a limb for each; the Multi-tool harness and the welder break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #fda96c: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #00b4d8: trim, sash, straps, secondary garment pieces and held gear |
@@ -3345,7 +3345,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as working on several tools at once with a limb for each.
+1. Black-fill test: the silhouette must still read as standing braced on two legs working four tools at once, a limb for each.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Multi-tool harness and the pose must be visible at 64 px.
 4. Flat colors: #fda96c / #00b4d8 / #282956 as separate flat shapes divided by black line; no gradients or glow.
@@ -3365,7 +3365,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Tentacle Engineers, male anthropomorphic octopus character (octopus-kin (not human)), apparent age early 30s. many-limbed and busy, medium size. Pose: working on several tools at once with a limb for each. Expression: frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Tentacle Engineers, male anthropomorphic octopus character (octopus-kin (not human)), apparent age early 30s. many-limbed and busy, a round head, a heavy apron, eight tool-holding arms, medium size. Pose: standing braced on two legs working four tools at once, a limb for each. Expression: frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Multi-tool harness. SECOND ITEM, kept plain: welder. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fda96c about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00b4d8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Multi-tool harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3392,19 +3392,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | robed and tentacled; medium size; mobility: aquatic |
+| Physique | robed and tentacled, a tall domed head, trailing arms like a robe's hem; medium size; mobility: aquatic |
 | Ethnicity + nationality | octopus-kin (not human) |
 | Identity | nonbinary anthropomorphic octopus character |
 | Wardrobe | octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt |
 | Accessories | Sodden tome; ink wand; diving-bell helm; scroll case |
-| Pose | reading from an open tome while spectral limbs coil around |
+| Pose | drifting above the floor reading an open tome while spectral limbs coil around |
 | Facial expression | serene, eyes half-shut |
 | People | Were-Creature |
 | Class | Octopus-kin |
 | Subclass | Abyssal Scholars |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | reading from an open tome while spectral limbs coil around; the Sodden tome and the ink wand break the outline so it reads instantly as a black shape |
+| Silhouette hook | drifting above the floor reading an open tome while spectral limbs coil around; the Sodden tome and the ink wand break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #270077: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e0aaff: trim, sash, straps, secondary garment pieces and held gear |
@@ -3415,7 +3415,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as reading from an open tome while spectral limbs coil around.
+1. Black-fill test: the silhouette must still read as drifting above the floor reading an open tome while spectral limbs coil around.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Sodden tome and the pose must be visible at 64 px.
 4. Flat colors: #270077 / #e0aaff / #1c2337 as separate flat shapes divided by black line; no gradients or glow.
@@ -3435,7 +3435,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Abyssal Scholars, nonbinary anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. robed and tentacled, medium size. Pose: reading from an open tome while spectral limbs coil around. Expression: serene, eyes half-shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Abyssal Scholars, nonbinary anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. robed and tentacled, a tall domed head, trailing arms like a robe's hem, medium size. Pose: drifting above the floor reading an open tome while spectral limbs coil around. Expression: serene, eyes half-shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sodden tome. SECOND ITEM, kept plain: ink wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #270077 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e0aaff about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1c2337 about 10%, on the eyes, the Sodden tome and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3465,19 +3465,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | armored and compact; medium size; mobility: aquatic |
+| Physique | armored and compact, a wide shell back, one huge club claw and one small claw; medium size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
 | Identity | male anthropomorphic mantis shrimp character |
 | Wardrobe | armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak |
 | Accessories | Club-claws; plated carapace; striking gauntlets; reef-cloak |
-| Pose | one club-claw cocked back, the other braced forward |
+| Pose | stalking forward in a low guard with the club claw cocked back and the small claw braced forward |
 | Facial expression | taut, predatory |
 | People | Were-Creature |
 | Class | Mantis Shrimp-kin |
 | Subclass | Punch-Claw Duelists |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | one club-claw cocked back, the other braced forward; the Club-claws and the plated carapace break the outline so it reads instantly as a black shape |
+| Silhouette hook | stalking forward in a low guard with the club claw cocked back and the small claw braced forward; the Club-claws and the plated carapace break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #ca148b: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd60a: trim, sash, straps, secondary garment pieces and held gear |
@@ -3488,7 +3488,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as one club-claw cocked back, the other braced forward.
+1. Black-fill test: the silhouette must still read as stalking forward in a low guard with the club claw cocked back and the small claw braced forward.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Club-claws and the pose must be visible at 64 px.
 4. Flat colors: #ca148b / #ffd60a / #023e8a as separate flat shapes divided by black line; no gradients or glow.
@@ -3508,7 +3508,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Punch-Claw Duelists, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 30s. armored and compact, medium size. Pose: one club-claw cocked back, the other braced forward. Expression: taut, predatory, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Punch-Claw Duelists, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 30s. armored and compact, a wide shell back, one huge club claw and one small claw, medium size. Pose: stalking forward in a low guard with the club claw cocked back and the small claw braced forward. Expression: taut, predatory, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Club-claws. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ca148b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023e8a about 10%, on the eyes, the Club-claws and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3535,19 +3535,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | armored with stalked eyes; medium size; mobility: aquatic |
+| Physique | armored and narrow, eyes on long stalks, a bright carapace; medium size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
 | Identity | female anthropomorphic mantis shrimp character |
 | Wardrobe | mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak |
 | Accessories | Prism rifle; multi-lens goggles; color-coded ammo; reef-cloak |
-| Pose | braced firing stance with a prism rifle |
+| Pose | leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions |
 | Facial expression | fiercely focused, stalk-eyes aimed in different directions |
 | People | Were-Creature |
 | Class | Mantis Shrimp-kin |
 | Subclass | Prism Gunners |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | braced firing stance with a prism rifle; the Prism rifle and the multi-lens goggles break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions; the Prism rifle and the multi-lens goggles break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #4dfff2: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f15bb5: trim, sash, straps, secondary garment pieces and held gear |
@@ -3558,7 +3558,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as braced firing stance with a prism rifle.
+1. Black-fill test: the silhouette must still read as leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Prism rifle and the pose must be visible at 64 px.
 4. Flat colors: #4dfff2 / #f15bb5 / #9b5de5 as separate flat shapes divided by black line; no gradients or glow.
@@ -3578,7 +3578,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Prism Gunners, female anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 70s. armored with stalked eyes, medium size. Pose: braced firing stance with a prism rifle. Expression: fiercely focused, stalk-eyes aimed in different directions, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Prism Gunners, female anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 70s. armored and narrow, eyes on long stalks, a bright carapace, medium size. Pose: leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions. Expression: fiercely focused, stalk-eyes aimed in different directions, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prism rifle. SECOND ITEM, kept plain: multi-lens goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #4dfff2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f15bb5 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #9b5de5 about 10%, on the eyes, the Prism rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3605,19 +3605,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | heavily armored; large size; mobility: aquatic |
+| Physique | heavily armored, a dome shell, a wide low body; large size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
 | Identity | male anthropomorphic mantis shrimp character |
 | Wardrobe | heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand |
 | Accessories | Shell shield; plated carapace; short club-claws; helmet |
-| Pose | crouched behind a ridged shield, short claw ready |
+| Pose | kneeling behind a ridged shield with the short claw ready |
 | Facial expression | grim, unmoved |
 | People | Were-Creature |
 | Class | Mantis Shrimp-kin |
 | Subclass | Reef Shell-Guard |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | crouched behind a ridged shield, short claw ready; the Shell shield and the plated carapace break the outline so it reads instantly as a black shape |
+| Silhouette hook | kneeling behind a ridged shield with the short claw ready; the Shell shield and the plated carapace break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #e95cbf: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #118ab2: trim, sash, straps, secondary garment pieces and held gear |
@@ -3628,7 +3628,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crouched behind a ridged shield, short claw ready.
+1. Black-fill test: the silhouette must still read as kneeling behind a ridged shield with the short claw ready.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Shell shield and the pose must be visible at 64 px.
 4. Flat colors: #e95cbf / #118ab2 / #ffd166 as separate flat shapes divided by black line; no gradients or glow.
@@ -3648,7 +3648,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Reef Shell-Guard, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age late 20s. heavily armored, large size. Pose: crouched behind a ridged shield, short claw ready. Expression: grim, unmoved, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Reef Shell-Guard, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age late 20s. heavily armored, a dome shell, a wide low body, large size. Pose: kneeling behind a ridged shield with the short claw ready. Expression: grim, unmoved, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shell shield. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #e95cbf about 60%, on the largest garment, armor, fur-marking or body areas; secondary #118ab2 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd166 about 10%, on the eyes, the Shell shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3678,19 +3678,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slim and winged; medium size; mobility: flying |
+| Physique | slim and winged with feathery antennae, a fuzzy neck, a soft wing-cloak; medium size; mobility: flying |
 | Ethnicity + nationality | moth-kin (not human) |
 | Identity | female anthropomorphic moth character |
 | Wardrobe | moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt |
 | Accessories | Flare launcher; lantern staff; ash-dusted robes; signal mirror |
-| Pose | lantern staff raised, flare launcher cocked on the hip |
+| Pose | hovering with the lantern staff raised, a flare launcher cocked on the hip |
 | Facial expression | rapt, glowing devotion |
 | People | Were-Creature |
 | Class | Moth-kin |
 | Subclass | Lantern Cultists |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | lantern staff raised, flare launcher cocked on the hip; the Flare launcher and the lantern staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | hovering with the lantern staff raised, a flare launcher cocked on the hip; the Flare launcher and the lantern staff break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #d7ce04: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #cc0b38: trim, sash, straps, secondary garment pieces and held gear |
@@ -3701,7 +3701,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as lantern staff raised, flare launcher cocked on the hip.
+1. Black-fill test: the silhouette must still read as hovering with the lantern staff raised, a flare launcher cocked on the hip.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Flare launcher and the pose must be visible at 64 px.
 4. Flat colors: #d7ce04 / #cc0b38 / #410f1f as separate flat shapes divided by black line; no gradients or glow.
@@ -3721,7 +3721,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Lantern Cultists, female anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged, medium size. Pose: lantern staff raised, flare launcher cocked on the hip. Expression: rapt, glowing devotion, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Lantern Cultists, female anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged with feathery antennae, a fuzzy neck, a soft wing-cloak, medium size. Pose: hovering with the lantern staff raised, a flare launcher cocked on the hip. Expression: rapt, glowing devotion, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Flare launcher. SECOND ITEM, kept plain: lantern staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #d7ce04 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #cc0b38 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #410f1f about 10%, on the eyes, the Flare launcher and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3748,19 +3748,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | delicate and winged; medium size; mobility: flying |
+| Physique | delicate and winged, a soft fuzzy torso, big dusted wings; medium size; mobility: flying |
 | Ethnicity + nationality | moth-kin (not human) |
 | Identity | nonbinary anthropomorphic moth character |
 | Wardrobe | moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt |
 | Accessories | Dust-satchel; feather duster staff; scale-powder pots; shawl |
-| Pose | shaking glowing dust from a feather duster over an ally |
+| Pose | turning gently in the air shaking glowing dust from a feather duster over an ally |
 | Facial expression | drowsy, dreamy smile |
 | People | Were-Creature |
 | Class | Moth-kin |
 | Subclass | Dreamdust Weavers |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | shaking glowing dust from a feather duster over an ally; the Dust-satchel and the feather duster staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | turning gently in the air shaking glowing dust from a feather duster over an ally; the Dust-satchel and the feather duster staff break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #b668f9: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffc8dd: trim, sash, straps, secondary garment pieces and held gear |
@@ -3771,7 +3771,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as shaking glowing dust from a feather duster over an ally.
+1. Black-fill test: the silhouette must still read as turning gently in the air shaking glowing dust from a feather duster over an ally.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Dust-satchel and the pose must be visible at 64 px.
 4. Flat colors: #b668f9 / #ffc8dd / #2e0d52 as separate flat shapes divided by black line; no gradients or glow.
@@ -3791,7 +3791,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Dreamdust Weavers, nonbinary anthropomorphic moth character (moth-kin (not human)), apparent age mid 60s. delicate and winged, medium size. Pose: shaking glowing dust from a feather duster over an ally. Expression: drowsy, dreamy smile, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Dreamdust Weavers, nonbinary anthropomorphic moth character (moth-kin (not human)), apparent age mid 60s. delicate and winged, a soft fuzzy torso, big dusted wings, medium size. Pose: turning gently in the air shaking glowing dust from a feather duster over an ally. Expression: drowsy, dreamy smile, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Dust-satchel. SECOND ITEM, kept plain: feather duster staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b668f9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffc8dd about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e0d52 about 10%, on the eyes, the Dust-satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3818,19 +3818,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | slim and winged; medium size; mobility: climbing |
+| Physique | slim and winged, thin limbs, a wiry climber's build; medium size; mobility: climbing |
 | Ethnicity + nationality | moth-kin (not human) |
 | Identity | male anthropomorphic moth character |
 | Wardrobe | moth-kin in a radio headset and a harness with an antenna pack, climbing gear on the belt, a signal rod held in both hands |
 | Accessories | Signal rod; radio headset; antenna pack; climbing harness |
-| Pose | climbing stance, signal rod pointed outward |
+| Pose | climbing with the winged back arched, one hand on a rung and the signal rod pointed outward |
 | Facial expression | alert, antennae twitching |
 | People | Were-Creature |
 | Class | Moth-kin |
 | Subclass | Signal-Tower Wardens |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | climbing stance, signal rod pointed outward; the Signal rod and the radio headset break the outline so it reads instantly as a black shape |
+| Silhouette hook | climbing with the winged back arched, one hand on a rung and the signal rod pointed outward; the Signal rod and the radio headset break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #30a8f5: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f72585: trim, sash, straps, secondary garment pieces and held gear |
@@ -3841,7 +3841,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as climbing stance, signal rod pointed outward.
+1. Black-fill test: the silhouette must still read as climbing with the winged back arched, one hand on a rung and the signal rod pointed outward.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Signal rod and the pose must be visible at 64 px.
 4. Flat colors: #30a8f5 / #f72585 / #4a4e69 as separate flat shapes divided by black line; no gradients or glow.
@@ -3861,7 +3861,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Signal-Tower Wardens, male anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged, medium size. Pose: climbing stance, signal rod pointed outward. Expression: alert, antennae twitching, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Signal-Tower Wardens, male anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged, thin limbs, a wiry climber's build, medium size. Pose: climbing with the winged back arched, one hand on a rung and the signal rod pointed outward. Expression: alert, antennae twitching, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Signal rod. SECOND ITEM, kept plain: radio headset. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin in a radio headset and a harness with an antenna pack, climbing gear on the belt, a signal rod held in both hands.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #30a8f5 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4a4e69 about 10%, on the eyes, the Signal rod and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3891,19 +3891,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | armored in overlapping plates; large size; mobility: grounded |
+| Physique | armored in overlapping plates, a long snout, a heavy tail, large claws; large size; mobility: grounded |
 | Ethnicity + nationality | pangolin-kin (not human) |
 | Identity | female anthropomorphic pangolin character |
 | Wardrobe | pangolin-kin in layered salvage-plate armor with overlapping scales, a tower shield on one arm and a hand-forged mace in the other |
 | Accessories | Layered plate armor; tower shield; hand-forged mace; shoulder plates |
-| Pose | planted wide behind a tower shield, mace raised |
+| Pose | planted wide behind a tower shield, the mace raised |
 | Facial expression | unshakable, jaw set |
 | People | Were-Creature |
 | Class | Pangolin-kin |
 | Subclass | Plate-Wall Bulwarks |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | planted wide behind a tower shield, mace raised; the Layered plate armor and the tower shield break the outline so it reads instantly as a black shape |
+| Silhouette hook | planted wide behind a tower shield, the mace raised; the Layered plate armor and the tower shield break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #febab2: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4a4e69: trim, sash, straps, secondary garment pieces and held gear |
@@ -3914,7 +3914,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as planted wide behind a tower shield, mace raised.
+1. Black-fill test: the silhouette must still read as planted wide behind a tower shield, the mace raised.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Layered plate armor and the pose must be visible at 64 px.
 4. Flat colors: #febab2 / #4a4e69 / #fdce53 as separate flat shapes divided by black line; no gradients or glow.
@@ -3934,7 +3934,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Plate-Wall Bulwarks, female anthropomorphic pangolin character (pangolin-kin (not human)), apparent age mid 30s. armored in overlapping plates, large size. Pose: planted wide behind a tower shield, mace raised. Expression: unshakable, jaw set, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Plate-Wall Bulwarks, female anthropomorphic pangolin character (pangolin-kin (not human)), apparent age mid 30s. armored in overlapping plates, a long snout, a heavy tail, large claws, large size. Pose: planted wide behind a tower shield, the mace raised. Expression: unshakable, jaw set, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Layered plate armor. SECOND ITEM, kept plain: hand-forged mace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pangolin-kin in layered salvage-plate armor with overlapping scales, a tower shield on one arm and a hand-forged mace in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #febab2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4a4e69 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fdce53 about 10%, on the eyes, the Layered plate armor and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3961,19 +3961,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | stocky with huge claws; medium size; mobility: burrowing |
+| Physique | stocky with huge digging claws, a long snout, a thick scaled tail; medium size; mobility: burrowing |
 | Ethnicity + nationality | pangolin-kin (not human) |
 | Identity | male anthropomorphic pangolin character |
 | Wardrobe | pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks |
 | Accessories | Digging claws; mining helmet; shaft-lamp; dynamite belt |
-| Pose | bursting up through the ground with both claws out |
+| Pose | bursting up out of the ground with both claws out, dirt flying |
 | Facial expression | gritty, determined |
 | People | Were-Creature |
 | Class | Pangolin-kin |
 | Subclass | Tunnel Diggers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | bursting up through the ground with both claws out; the Digging claws and the mining helmet break the outline so it reads instantly as a black shape |
+| Silhouette hook | bursting up out of the ground with both claws out, dirt flying; the Digging claws and the mining helmet break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #663502: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f4a261: trim, sash, straps, secondary garment pieces and held gear |
@@ -3984,7 +3984,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as bursting up through the ground with both claws out.
+1. Black-fill test: the silhouette must still read as bursting up out of the ground with both claws out, dirt flying.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Digging claws and the pose must be visible at 64 px.
 4. Flat colors: #663502 / #f4a261 / #264653 as separate flat shapes divided by black line; no gradients or glow.
@@ -4004,7 +4004,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Tunnel Diggers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age late 20s. stocky with huge claws, medium size. Pose: bursting up through the ground with both claws out. Expression: gritty, determined, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Tunnel Diggers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age late 20s. stocky with huge digging claws, a long snout, a thick scaled tail, medium size. Pose: bursting up out of the ground with both claws out, dirt flying. Expression: gritty, determined, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Digging claws. SECOND ITEM, kept plain: mining helmet. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #663502 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4a261 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Digging claws and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -4031,19 +4031,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | armored and round; medium size; mobility: grounded |
+| Physique | armored and round, a plated back, a short snout; medium size; mobility: grounded |
 | Ethnicity + nationality | pangolin-kin (not human) |
 | Identity | male anthropomorphic pangolin character |
 | Wardrobe | pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll |
 | Accessories | Spiked plates; rolling harness; charge helm; goggles |
-| Pose | half curled forward, about to roll |
+| Pose | half curled forward on the toes, about to roll |
 | Facial expression | wild-eyed thrill |
 | People | Were-Creature |
 | Class | Pangolin-kin |
 | Subclass | Curl-Ball Rollers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | half curled forward, about to roll; the Spiked plates and the rolling harness break the outline so it reads instantly as a black shape |
+| Silhouette hook | half curled forward on the toes, about to roll; the Spiked plates and the rolling harness break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #e5f102: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fd4d50: trim, sash, straps, secondary garment pieces and held gear |
@@ -4054,7 +4054,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as half curled forward, about to roll.
+1. Black-fill test: the silhouette must still read as half curled forward on the toes, about to roll.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Spiked plates and the pose must be visible at 64 px.
 4. Flat colors: #e5f102 / #fd4d50 / #3a0ca3 as separate flat shapes divided by black line; no gradients or glow.
@@ -4074,7 +4074,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Curl-Ball Rollers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age mid 40s. armored and round, medium size. Pose: half curled forward, about to roll. Expression: wild-eyed thrill, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Curl-Ball Rollers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age mid 40s. armored and round, a plated back, a short snout, medium size. Pose: half curled forward on the toes, about to roll. Expression: wild-eyed thrill, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Spiked plates. SECOND ITEM, kept plain: rolling harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #e5f102 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fd4d50 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, on the eyes, the Spiked plates and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -4104,19 +4104,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | many-limbed and slender; medium size; mobility: climbing |
+| Physique | many-limbed and slender, a small round head, long thread-thin arms; medium size; mobility: climbing |
 | Ethnicity + nationality | spider-kin (not human) |
 | Identity | female anthropomorphic spider character |
 | Wardrobe | many-limbed spider-kin in a silk-and-wire coat, a spinneret gauntlet, a spool of razor-wire at the belt, hook knives in two hands |
 | Accessories | Spool of razor-wire; spinneret gauntlet; silk shawl; hook knives |
-| Pose | pulling taut threads of wire with all four hands |
+| Pose | hanging mid-web pulling taut threads of wire with all four hands |
 | Facial expression | serene, intent |
 | People | Were-Creature |
 | Class | Spider-kin |
 | Subclass | Loomweavers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | pulling taut threads of wire with all four hands; the Spool of razor-wire and the spinneret gauntlet break the outline so it reads instantly as a black shape |
+| Silhouette hook | hanging mid-web pulling taut threads of wire with all four hands; the Spool of razor-wire and the spinneret gauntlet break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #e0aaff: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #06d6a0: trim, sash, straps, secondary garment pieces and held gear |
@@ -4127,7 +4127,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as pulling taut threads of wire with all four hands.
+1. Black-fill test: the silhouette must still read as hanging mid-web pulling taut threads of wire with all four hands.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Spool of razor-wire and the pose must be visible at 64 px.
 4. Flat colors: #e0aaff / #06d6a0 / #201c49 as separate flat shapes divided by black line; no gradients or glow.
@@ -4147,7 +4147,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Loomweavers, female anthropomorphic spider character (spider-kin (not human)), apparent age early 30s. many-limbed and slender, medium size. Pose: pulling taut threads of wire with all four hands. Expression: serene, intent, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Loomweavers, female anthropomorphic spider character (spider-kin (not human)), apparent age early 30s. many-limbed and slender, a small round head, long thread-thin arms, medium size. Pose: hanging mid-web pulling taut threads of wire with all four hands. Expression: serene, intent, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Spool of razor-wire. SECOND ITEM, kept plain: spinneret gauntlet. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: many-limbed spider-kin in a silk-and-wire coat, a spinneret gauntlet, a spool of razor-wire at the belt, hook knives in two hands.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #e0aaff about 60%, on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #201c49 about 10%, on the eyes, the Spool of razor-wire and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -4174,19 +4174,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | slim and agile; small size; mobility: climbing |
+| Physique | slim and agile, a thin body, six small arms; small size; mobility: climbing |
 | Ethnicity + nationality | spider-kin (not human) |
 | Identity | nonbinary anthropomorphic spider character |
 | Wardrobe | upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb |
 | Accessories | Courier bag; signal spool; hand-crank radio; tiny cap |
-| Pose | hanging upside-down from a thread, letter in one limb |
+| Pose | scuttling sideways along a wall at speed on four limbs with a letter clutched in another |
 | Facial expression | cheerful and brisk |
 | People | Were-Creature |
 | Class | Spider-kin |
 | Subclass | Silkroad Messengers |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | hanging upside-down from a thread, letter in one limb; the Courier bag and the signal spool break the outline so it reads instantly as a black shape |
+| Silhouette hook | scuttling sideways along a wall at speed on four limbs with a letter clutched in another; the Courier bag and the signal spool break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #dc8495: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4ecdc4: trim, sash, straps, secondary garment pieces and held gear |
@@ -4197,7 +4197,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hanging upside-down from a thread, letter in one limb.
+1. Black-fill test: the silhouette must still read as scuttling sideways along a wall at speed on four limbs with a letter clutched in another.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Courier bag and the pose must be visible at 64 px.
 4. Flat colors: #dc8495 / #4ecdc4 / #fff3b0 as separate flat shapes divided by black line; no gradients or glow.
@@ -4217,7 +4217,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Silkroad Messengers, nonbinary anthropomorphic spider character (spider-kin (not human)), apparent age early 40s. slim and agile, small size. Pose: hanging upside-down from a thread, letter in one limb. Expression: cheerful and brisk, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Silkroad Messengers, nonbinary anthropomorphic spider character (spider-kin (not human)), apparent age early 40s. slim and agile, a thin body, six small arms, small size. Pose: scuttling sideways along a wall at speed on four limbs with a letter clutched in another. Expression: cheerful and brisk, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Courier bag. SECOND ITEM, kept plain: signal spool. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #dc8495 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4ecdc4 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff3b0 about 10%, on the eyes, the Courier bag and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -4244,7 +4244,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | tiny and acrobatic; tiny size; mobility: agile |
+| Physique | tiny and acrobatic, a big round head, huge forward eyes; tiny size; mobility: agile |
 | Ethnicity + nationality | jumping spider-kin (not human) |
 | Identity | female anthropomorphic jumping spider character |
 | Wardrobe | tiny jumping-spider-kin in a tiny cape and jump-boots, a hooked blade in each of two hands, a dewdrop-shaped buckler |
@@ -4287,7 +4287,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Dewdrop Dancers, female anthropomorphic jumping spider character (jumping spider-kin (not human)), apparent age early 20s. tiny and acrobatic, tiny size. Pose: mid-leap with both blades flashing. Expression: mischievous glee, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Dewdrop Dancers, female anthropomorphic jumping spider character (jumping spider-kin (not human)), apparent age early 20s. tiny and acrobatic, a big round head, huge forward eyes, tiny size. Pose: mid-leap with both blades flashing. Expression: mischievous glee, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Twin hooked blades. SECOND ITEM, kept plain: jump-boots. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tiny jumping-spider-kin in a tiny cape and jump-boots, a hooked blade in each of two hands, a dewdrop-shaped buckler.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fe73e6 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #90e0ef about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff1e6 about 10%, on the eyes, the Twin hooked blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -4396,19 +4396,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | tall and striped; large size; mobility: phasing |
+| Physique | very tall and striped like a lighthouse, a flat head, a broadcast-bar cape; large size; mobility: phasing |
 | Ethnicity + nationality | In life: Welsh heritage, Welsh |
 | Identity | nonbinary human |
 | Wardrobe | tall ghost with a striped color-bar face and a TV-tube visor, a prism lens in one hand, a small color-bar shield on the other arm, an antenna on the head |
 | Accessories | Prism lens; color-bar shield; broadcast antenna; TV-head visor |
-| Pose | raising a prism lens, color-bar shield forward |
+| Pose | gliding forward with the color-bar shield square in front and a prism lens raised in the other hand |
 | Facial expression | serene, striped face unmoving |
 | People | Ghost |
 | Class | Dead Air |
 | Subclass | Test-Pattern Seers |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | raising a prism lens, color-bar shield forward; the Prism lens and the color-bar shield break the outline so it reads instantly as a black shape |
+| Silhouette hook | gliding forward with the color-bar shield square in front and a prism lens raised in the other hand; the Prism lens and the color-bar shield break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #ce8106: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #3a86ff: trim, sash, straps, secondary garment pieces and held gear |
@@ -4419,7 +4419,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as raising a prism lens, color-bar shield forward.
+1. Black-fill test: the silhouette must still read as gliding forward with the color-bar shield square in front and a prism lens raised in the other hand.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Prism lens and the pose must be visible at 64 px.
 4. Flat colors: #ce8106 / #3a86ff / #e63946 as separate flat shapes divided by black line; no gradients or glow.
@@ -4439,7 +4439,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Test-Pattern Seers, nonbinary human (In life: Welsh heritage, Welsh), apparent age mid 60s. tall and striped, large size. Pose: raising a prism lens, color-bar shield forward. Expression: serene, striped face unmoving, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Test-Pattern Seers, nonbinary human (In life: Welsh heritage, Welsh), apparent age mid 60s. very tall and striped like a lighthouse, a flat head, a broadcast-bar cape, large size. Pose: gliding forward with the color-bar shield square in front and a prism lens raised in the other hand. Expression: serene, striped face unmoving, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prism lens. SECOND ITEM, kept plain: color-bar shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall ghost with a striped color-bar face and a TV-tube visor, a prism lens in one hand, a small color-bar shield on the other arm, an antenna on the head.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ce8106 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3a86ff about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e63946 about 10%, on the eyes, the Prism lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4466,19 +4466,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | calm and translucent; medium size; mobility: phasing |
+| Physique | calm and translucent, a slight build, a hooded cloak; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Mexican heritage, Mexican |
 | Identity | female human |
 | Wardrobe | calm ghost in a translucent reflective vest, a siren horn held aloft in one hand, a hand-crank radio in the other, an emergency lamp at the belt |
 | Accessories | Siren horn; emergency lamp; hand-crank radio; reflective vest |
-| Pose | siren horn raised overhead, radio in the other hand |
+| Pose | turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring |
 | Facial expression | calm, steady, reassuring |
 | People | Ghost |
 | Class | Dead Air |
 | Subclass | Emergency Broadcasters |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | siren horn raised overhead, radio in the other hand; the Siren horn and the emergency lamp break the outline so it reads instantly as a black shape |
+| Silhouette hook | turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring; the Siren horn and the emergency lamp break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #f67604: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e4ffda: trim, sash, straps, secondary garment pieces and held gear |
@@ -4489,7 +4489,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as siren horn raised overhead, radio in the other hand.
+1. Black-fill test: the silhouette must still read as turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Siren horn and the pose must be visible at 64 px.
 4. Flat colors: #f67604 / #e4ffda / #023e8a as separate flat shapes divided by black line; no gradients or glow.
@@ -4509,7 +4509,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Emergency Broadcasters, female human (In life: Mexican heritage, Mexican), apparent age early 20s. calm and translucent, medium size. Pose: siren horn raised overhead, radio in the other hand. Expression: calm, steady, reassuring, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Emergency Broadcasters, female human (In life: Mexican heritage, Mexican), apparent age early 20s. calm and translucent, a slight build, a hooded cloak, medium size. Pose: turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring. Expression: calm, steady, reassuring, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Siren horn. SECOND ITEM, kept plain: emergency lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: calm ghost in a translucent reflective vest, a siren horn held aloft in one hand, a hand-crank radio in the other, an emergency lamp at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #f67604 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023e8a about 10%, on the eyes, the Siren horn and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4539,19 +4539,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | hulking and vehicle-fused; large size; mobility: vehicle |
+| Physique | hulking and wide, a hunched truck-grille chest, one shoulder much higher than the other; large size; mobility: vehicle |
 | Ethnicity + nationality | In life: Polish heritage, Polish |
 | Identity | male human |
 | Wardrobe | translucent ghost in a rust-colored cloak with glowing headlight-shaped eyes, a spectral blade shaped like a hood ornament in one hand |
 | Accessories | Possessed wreck; hood-spirit blade; rust cloak; headlight eyes |
-| Pose | hunched forward, hood-ornament blade slung back |
+| Pose | hunched far forward, the hood-ornament blade slung back like a tail |
 | Facial expression | scowling, headlight eyes ablaze |
 | People | Ghost |
 | Class | Hollow Machines |
 | Subclass | Rust-Wraith Possessors |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | hunched forward, hood-ornament blade slung back; the Possessed wreck and the hood-spirit blade break the outline so it reads instantly as a black shape |
+| Silhouette hook | hunched far forward, the hood-ornament blade slung back like a tail; the Possessed wreck and the hood-spirit blade break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #df9062: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #c2f4f6: trim, sash, straps, secondary garment pieces and held gear |
@@ -4562,7 +4562,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hunched forward, hood-ornament blade slung back.
+1. Black-fill test: the silhouette must still read as hunched far forward, the hood-ornament blade slung back like a tail.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Possessed wreck and the pose must be visible at 64 px.
 4. Flat colors: #df9062 / #c2f4f6 / #002645 as separate flat shapes divided by black line; no gradients or glow.
@@ -4582,7 +4582,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Rust-Wraith Possessors, male human (In life: Polish heritage, Polish), apparent age mid 30s. hulking and vehicle-fused, large size. Pose: hunched forward, hood-ornament blade slung back. Expression: scowling, headlight eyes ablaze, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Rust-Wraith Possessors, male human (In life: Polish heritage, Polish), apparent age mid 30s. hulking and wide, a hunched truck-grille chest, one shoulder much higher than the other, large size. Pose: hunched far forward, the hood-ornament blade slung back like a tail. Expression: scowling, headlight eyes ablaze, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Possessed wreck. SECOND ITEM, kept plain: hood-spirit blade. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: translucent ghost in a rust-colored cloak with glowing headlight-shaped eyes, a spectral blade shaped like a hood ornament in one hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #df9062 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #c2f4f6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, on the eyes, the Possessed wreck and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4609,19 +4609,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | blocky and pixelated; medium size; mobility: grounded |
+| Physique | blocky and square, a monitor head, a cube torso, stiff limbs; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Japanese heritage, Japanese |
 | Identity | male human |
 | Wardrobe | ghost with a CRT monitor for a head and pixelated limbs, joystick staff in one hand, a score-ribbon across the chest, pixel-block gauntlets |
 | Accessories | Pixel gauntlets; joystick staff; CRT-head; score-ribbon |
-| Pose | firing a stream of sprites from pixel gauntlets |
+| Pose | marching stiffly while firing a stream of sprites from both pixel gauntlets |
 | Facial expression | blank pixel grin on a screen-face |
 | People | Ghost |
 | Class | Hollow Machines |
 | Subclass | Cabinet Spirits |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | firing a stream of sprites from pixel gauntlets; the Pixel gauntlets and the joystick staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | marching stiffly while firing a stream of sprites from both pixel gauntlets; the Pixel gauntlets and the joystick staff break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #795ef1: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #00f5d4: trim, sash, straps, secondary garment pieces and held gear |
@@ -4632,7 +4632,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as firing a stream of sprites from pixel gauntlets.
+1. Black-fill test: the silhouette must still read as marching stiffly while firing a stream of sprites from both pixel gauntlets.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Pixel gauntlets and the pose must be visible at 64 px.
 4. Flat colors: #795ef1 / #00f5d4 / #ffd166 as separate flat shapes divided by black line; no gradients or glow.
@@ -4652,7 +4652,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Cabinet Spirits, male human (In life: Japanese heritage, Japanese), apparent age early 30s. blocky and pixelated, medium size. Pose: firing a stream of sprites from pixel gauntlets. Expression: blank pixel grin on a screen-face, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Cabinet Spirits, male human (In life: Japanese heritage, Japanese), apparent age early 30s. blocky and square, a monitor head, a cube torso, stiff limbs, medium size. Pose: marching stiffly while firing a stream of sprites from both pixel gauntlets. Expression: blank pixel grin on a screen-face, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pixel gauntlets. SECOND ITEM, kept plain: joystick staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ghost with a CRT monitor for a head and pixelated limbs, joystick staff in one hand, a score-ribbon across the chest, pixel-block gauntlets.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #795ef1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00f5d4 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd166 about 10%, on the eyes, the Pixel gauntlets and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4679,19 +4679,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slender and wired; medium size; mobility: phasing |
+| Physique | slender and wired, long fingers, a hunched surgeon's back; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Indian heritage, Indian |
 | Identity | female human |
 | Wardrobe | slender ghost in a circuit-board mantle with jumper cables at the belt, a trace-lens in one hand and a thin probe in the other |
 | Accessories | Trace-lens; jumper cables; circuit-board mantle; probe |
-| Pose | probe extended toward a device, jumper cables trailing |
+| Pose | leaning far forward over a device with the probe extended, jumper cables trailing from the back |
 | Facial expression | curious, tilted head |
 | People | Ghost |
 | Class | Hollow Machines |
 | Subclass | Circuit Seers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | probe extended toward a device, jumper cables trailing; the Trace-lens and the jumper cables break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning far forward over a device with the probe extended, jumper cables trailing from the back; the Trace-lens and the jumper cables break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #48d763: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e63946: trim, sash, straps, secondary garment pieces and held gear |
@@ -4702,7 +4702,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as probe extended toward a device, jumper cables trailing.
+1. Black-fill test: the silhouette must still read as leaning far forward over a device with the probe extended, jumper cables trailing from the back.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Trace-lens and the pose must be visible at 64 px.
 4. Flat colors: #48d763 / #e63946 / #e4ffda as separate flat shapes divided by black line; no gradients or glow.
@@ -4722,7 +4722,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Circuit Seers, female human (In life: Indian heritage, Indian), apparent age mid 60s. slender and wired, medium size. Pose: probe extended toward a device, jumper cables trailing. Expression: curious, tilted head, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Circuit Seers, female human (In life: Indian heritage, Indian), apparent age mid 60s. slender and wired, long fingers, a hunched surgeon's back, medium size. Pose: leaning far forward over a device with the probe extended, jumper cables trailing from the back. Expression: curious, tilted head, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Trace-lens. SECOND ITEM, kept plain: jumper cables. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender ghost in a circuit-board mantle with jumper cables at the belt, a trace-lens in one hand and a thin probe in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #48d763 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e63946 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, on the eyes, the Trace-lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4752,19 +4752,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | elegant and graceful; medium size; mobility: agile |
+| Physique | elegant and graceful, a long neck, a dancer's long legs; medium size; mobility: agile |
 | Ethnicity + nationality | In life: Argentine heritage, Argentine |
 | Identity | female human |
 | Wardrobe | elegant ghost in a shimmering party coat mid-pirouette, a party blade in one hand and a sparkler in the other |
 | Accessories | Ghostly party blade; sparkler; glittering coat; phantom turntable |
-| Pose | mid-pirouette, party blade sweeping a circle |
+| Pose | caught mid grand jete with the party blade swept overhead |
 | Facial expression | dreamy, lost in the music |
 | People | Ghost |
 | Class | The Last Call |
 | Subclass | Last-Dance Revelers |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | mid-pirouette, party blade sweeping a circle; the Ghostly party blade and the sparkler break the outline so it reads instantly as a black shape |
+| Silhouette hook | caught mid grand jete with the party blade swept overhead; the Ghostly party blade and the sparkler break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #d24a78: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd60a: trim, sash, straps, secondary garment pieces and held gear |
@@ -4775,7 +4775,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as mid-pirouette, party blade sweeping a circle.
+1. Black-fill test: the silhouette must still read as caught mid grand jete with the party blade swept overhead.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Ghostly party blade and the pose must be visible at 64 px.
 4. Flat colors: #d24a78 / #ffd60a / #3a0ca3 as separate flat shapes divided by black line; no gradients or glow.
@@ -4795,7 +4795,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Last-Dance Revelers, female human (In life: Argentine heritage, Argentine), apparent age late 20s. elegant and graceful, medium size. Pose: mid-pirouette, party blade sweeping a circle. Expression: dreamy, lost in the music, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Last-Dance Revelers, female human (In life: Argentine heritage, Argentine), apparent age late 20s. elegant and graceful, a long neck, a dancer's long legs, medium size. Pose: caught mid grand jete with the party blade swept overhead. Expression: dreamy, lost in the music, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ghostly party blade. SECOND ITEM, kept plain: sparkler. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: elegant ghost in a shimmering party coat mid-pirouette, a party blade in one hand and a sparkler in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #d24a78 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, on the eyes, the Ghostly party blade and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4822,19 +4822,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | gentle and shrouded; medium size; mobility: phasing |
+| Physique | gentle and shrouded, a long hooded sheet, rounded shoulders; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Irish heritage, Irish |
 | Identity | male human |
 | Wardrobe | gentle ghost in a long shroud-cloak, a funeral bell in one hand, a candle lantern in the other, a memory book at the belt |
 | Accessories | Funeral bell; candle lantern; shroud cloak; memory book |
-| Pose | ringing a funeral bell, candle lantern held low |
+| Pose | kneeling in a hush with the candle lantern held low, the funeral bell ringing at the hip |
 | Facial expression | gentle, heavy-lidded |
 | People | Ghost |
 | Class | The Last Call |
 | Subclass | Wake-Wardens |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | ringing a funeral bell, candle lantern held low; the Funeral bell and the candle lantern break the outline so it reads instantly as a black shape |
+| Silhouette hook | kneeling in a hush with the candle lantern held low, the funeral bell ringing at the hip; the Funeral bell and the candle lantern break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #878d71: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffb703: trim, sash, straps, secondary garment pieces and held gear |
@@ -4845,7 +4845,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as ringing a funeral bell, candle lantern held low.
+1. Black-fill test: the silhouette must still read as kneeling in a hush with the candle lantern held low, the funeral bell ringing at the hip.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Funeral bell and the pose must be visible at 64 px.
 4. Flat colors: #878d71 / #ffb703 / #023047 as separate flat shapes divided by black line; no gradients or glow.
@@ -4865,7 +4865,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Wake-Wardens, male human (In life: Irish heritage, Irish), apparent age early 30s. gentle and shrouded, medium size. Pose: ringing a funeral bell, candle lantern held low. Expression: gentle, heavy-lidded, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Wake-Wardens, male human (In life: Irish heritage, Irish), apparent age early 30s. gentle and shrouded, a long hooded sheet, rounded shoulders, medium size. Pose: kneeling in a hush with the candle lantern held low, the funeral bell ringing at the hip. Expression: gentle, heavy-lidded, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Funeral bell. SECOND ITEM, kept plain: candle lantern. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: gentle ghost in a long shroud-cloak, a funeral bell in one hand, a candle lantern in the other, a memory book at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #878d71 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffb703 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023047 about 10%, on the eyes, the Funeral bell and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4892,19 +4892,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | gaunt and wired; medium size; mobility: phasing |
+| Physique | gaunt and wired, rubbery stretched arms, a tangle of phone cord; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Korean heritage, South Korean |
 | Identity | female human |
 | Wardrobe | ghost in a headset with a rotary-dial blade in one hand, a coiled phone-cord whip in the other, a small answering-machine shield on the forearm |
 | Accessories | Rotary-dial blade; phone-cord whip; headset; answering-machine shield |
-| Pose | whip-cracking a phone-cord, rotary blade raised |
+| Pose | cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand |
 | Facial expression | tense, repeating stare |
 | People | Ghost |
 | Class | The Last Call |
 | Subclass | Redial Wraiths |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | whip-cracking a phone-cord, rotary blade raised; the Rotary-dial blade and the phone-cord whip break the outline so it reads instantly as a black shape |
+| Silhouette hook | cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand; the Rotary-dial blade and the phone-cord whip break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #6878a6: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fb8500: trim, sash, straps, secondary garment pieces and held gear |
@@ -4915,7 +4915,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as whip-cracking a phone-cord, rotary blade raised.
+1. Black-fill test: the silhouette must still read as cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Rotary-dial blade and the pose must be visible at 64 px.
 4. Flat colors: #6878a6 / #fb8500 / #1d3557 as separate flat shapes divided by black line; no gradients or glow.
@@ -4935,7 +4935,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Redial Wraiths, female human (In life: Korean heritage, South Korean), apparent age late 20s. gaunt and wired, medium size. Pose: whip-cracking a phone-cord, rotary blade raised. Expression: tense, repeating stare, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Redial Wraiths, female human (In life: Korean heritage, South Korean), apparent age late 30s. gaunt and wired, rubbery stretched arms, a tangle of phone cord, medium size. Pose: cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand. Expression: tense, repeating stare, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Rotary-dial blade. SECOND ITEM, kept plain: phone-cord whip. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ghost in a headset with a rotary-dial blade in one hand, a coiled phone-cord whip in the other, a small answering-machine shield on the forearm.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #6878a6 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fb8500 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, on the eyes, the Rotary-dial blade and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -4965,19 +4965,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | tall and pale; medium size; mobility: phasing |
+| Physique | tall and pale, a long streaming coat, long hair; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Navajo heritage, American |
 | Identity | female human |
 | Wardrobe | pale ghost in a tattered long coat with a glowing brake-light lantern in one hand, a road-flare wand in the other, mouth open in a wail |
 | Accessories | Brake-light lantern; road-flare wand; tattered coat; mile marker |
-| Pose | arm out with a brake-light lantern, coat flaring |
+| Pose | leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring |
 | Facial expression | mouth open mid-wail |
 | People | Ghost |
 | Class | The Lingerers |
 | Subclass | Highway Banshees |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | arm out with a brake-light lantern, coat flaring; the Brake-light lantern and the road-flare wand break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring; the Brake-light lantern and the road-flare wand break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #c4635a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e4ffda: trim, sash, straps, secondary garment pieces and held gear |
@@ -4988,7 +4988,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as arm out with a brake-light lantern, coat flaring.
+1. Black-fill test: the silhouette must still read as leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Brake-light lantern and the pose must be visible at 64 px.
 4. Flat colors: #c4635a / #e4ffda / #4979a0 as separate flat shapes divided by black line; no gradients or glow.
@@ -5008,7 +5008,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Highway Banshees, female human (In life: Navajo heritage, American), apparent age late 30s. tall and pale, medium size. Pose: arm out with a brake-light lantern, coat flaring. Expression: mouth open mid-wail, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Highway Banshees, female human (In life: Navajo heritage, American), apparent age late 40s. tall and pale, a long streaming coat, long hair, medium size. Pose: leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring. Expression: mouth open mid-wail, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Brake-light lantern. SECOND ITEM, kept plain: road-flare wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pale ghost in a tattered long coat with a glowing brake-light lantern in one hand, a road-flare wand in the other, mouth open in a wail.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #c4635a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4979a0 about 10%, on the eyes, the Brake-light lantern and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -5035,19 +5035,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | giant and frame-built; huge size; mobility: grounded |
+| Physique | giant and frame-built, a rectangular body like a billboard frame; huge size; mobility: grounded |
 | Ethnicity + nationality | In life: American advertising-era smile |
 | Identity | male human |
 | Wardrobe | giant ghost with a fixed smiling face-mask and neon-tube arms, scaffolding-frame shoulders |
 | Accessories | Billboard frame; neon tubes; scaffolding; smiling mask |
-| Pose | towering stance with neon-tube arms spread |
+| Pose | towering with the neon-tube arms spread wide |
 | Facial expression | fixed, painted grin |
 | People | Ghost |
 | Class | The Lingerers |
 | Subclass | Billboard Haunts |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | towering stance with neon-tube arms spread; the Billboard frame and the neon tubes break the outline so it reads instantly as a black shape |
+| Silhouette hook | towering with the neon-tube arms spread wide; the Billboard frame and the neon tubes break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #96830b: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff006e: trim, sash, straps, secondary garment pieces and held gear |
@@ -5058,7 +5058,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as towering stance with neon-tube arms spread.
+1. Black-fill test: the silhouette must still read as towering with the neon-tube arms spread wide.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Billboard frame and the pose must be visible at 64 px.
 4. Flat colors: #96830b / #ff006e / #3a86ff as separate flat shapes divided by black line; no gradients or glow.
@@ -5078,7 +5078,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Billboard Haunts, male human (In life: American advertising-era smile), apparent age late 30s. giant and frame-built, huge size. Pose: towering stance with neon-tube arms spread. Expression: fixed, painted grin, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Billboard Haunts, male human (In life: American advertising-era smile), apparent age late 40s. giant and frame-built, a rectangular body like a billboard frame, huge size. Pose: towering with the neon-tube arms spread wide. Expression: fixed, painted grin, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Billboard frame. SECOND ITEM, kept plain: neon tubes. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: giant ghost with a fixed smiling face-mask and neon-tube arms, scaffolding-frame shoulders.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #96830b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3a86ff about 10%, on the eyes, the Billboard frame and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -5105,19 +5105,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | quiet and pale; medium size; mobility: phasing |
+| Physique | quiet and pale, a thin body, sloped shoulders; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Nigerian heritage, Nigerian |
 | Identity | female human |
 | Wardrobe | quiet ghost in a pale nurse's coat and soft slippers, an IV-stand staff glowing in one hand, a clipboard in the other, a nurse's lantern at the belt |
 | Accessories | Clipboard; nurse's lantern; IV-stand staff; soft slippers |
-| Pose | leaning on an IV-stand staff, clipboard held to the chest |
+| Pose | sitting on the floor with the knees drawn up, the IV-stand staff across the lap, a clipboard hugged to the chest |
 | Facial expression | quiet, tender calm |
 | People | Ghost |
 | Class | The Lingerers |
 | Subclass | Hospice Haunts |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | leaning on an IV-stand staff, clipboard held to the chest; the Clipboard and the nurse's lantern break the outline so it reads instantly as a black shape |
+| Silhouette hook | sitting on the floor with the knees drawn up, the IV-stand staff across the lap, a clipboard hugged to the chest; the Clipboard and the nurse's lantern break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #a08bc1: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffafcc: trim, sash, straps, secondary garment pieces and held gear |
@@ -5128,7 +5128,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as leaning on an IV-stand staff, clipboard held to the chest.
+1. Black-fill test: the silhouette must still read as sitting on the floor with the knees drawn up, the IV-stand staff across the lap, a clipboard hugged to the chest.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Clipboard and the pose must be visible at 64 px.
 4. Flat colors: #a08bc1 / #ffafcc / #eef6ff as separate flat shapes divided by black line; no gradients or glow.
@@ -5148,7 +5148,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Hospice Haunts, female human (In life: Nigerian heritage, Nigerian), apparent age early 20s. quiet and pale, medium size. Pose: leaning on an IV-stand staff, clipboard held to the chest. Expression: quiet, tender calm, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Hospice Haunts, female human (In life: Nigerian heritage, Nigerian), apparent age early 20s. quiet and pale, a thin body, sloped shoulders, medium size. Pose: sitting on the floor with the knees drawn up, the IV-stand staff across the lap, a clipboard hugged to the chest. Expression: quiet, tender calm, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Clipboard. SECOND ITEM, kept plain: nurse's lantern. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: quiet ghost in a pale nurse's coat and soft slippers, an IV-stand staff glowing in one hand, a clipboard in the other, a nurse's lantern at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a08bc1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffafcc about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #eef6ff about 10%, on the eyes, the Clipboard and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
@@ -5257,19 +5257,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | skeletal and angular; medium size; mobility: grounded |
+| Physique | skeletal and angular, a wide rib cage; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Ghanaian heritage, Ghanaian |
 | Identity | female human |
 | Wardrobe | grinning skeleton in a helmet with a forearm cannon, an ammo pouch of bone shards and a powder horn at the belt |
 | Accessories | Forearm cannon; bone ammo pouch; powder horn; helmet |
-| Pose | firing a forearm cannon in a spread of bone |
+| Pose | crouched on one knee firing a forearm cannon in a spray of bone |
 | Facial expression | grinning, jaw unhinged |
 | People | Undead |
 | Class | Dead Zone Legion |
 | Subclass | Rattle-Cannon Gunners |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | firing a forearm cannon in a spread of bone; the Forearm cannon and the bone ammo pouch break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched on one knee firing a forearm cannon in a spray of bone; the Forearm cannon and the bone ammo pouch break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #8f5600: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fae4a8: trim, sash, straps, secondary garment pieces and held gear |
@@ -5280,7 +5280,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as firing a forearm cannon in a spread of bone.
+1. Black-fill test: the silhouette must still read as crouched on one knee firing a forearm cannon in a spray of bone.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Forearm cannon and the pose must be visible at 64 px.
 4. Flat colors: #8f5600 / #fae4a8 / #410f1f as separate flat shapes divided by black line; no gradients or glow.
@@ -5300,7 +5300,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Rattle-Cannon Gunners, female human (In life: Ghanaian heritage, Ghanaian), apparent age late 50s. skeletal and angular, medium size. Pose: firing a forearm cannon in a spread of bone. Expression: grinning, jaw unhinged, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Rattle-Cannon Gunners, female human (In life: Ghanaian heritage, Ghanaian), apparent age late 50s. skeletal and angular, a wide rib cage, medium size. Pose: crouched on one knee firing a forearm cannon in a spray of bone. Expression: grinning, jaw unhinged, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Forearm cannon. SECOND ITEM, kept plain: bone ammo pouch. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: grinning skeleton in a helmet with a forearm cannon, an ammo pouch of bone shards and a powder horn at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8f5600 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fae4a8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #410f1f about 10%, on the eyes, the Forearm cannon and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5327,19 +5327,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | tall and skeletal; medium size; mobility: grounded |
+| Physique | tall and skeletal, a high shako hat, a long straight back; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Cuban heritage, Cuban |
 | Identity | male human |
 | Wardrobe | grinning skeleton drum-major in a plumed helm, a baton in one hand, a banner pole in the other, a war-drum strapped to the front |
 | Accessories | War-drum; baton; plumed helm; banner |
-| Pose | marching mid-stride, baton raised over a war-drum |
+| Pose | high-stepping in a march with the baton raised over a war-drum on a strap |
 | Facial expression | proud, plumed grin |
 | People | Undead |
 | Class | Dead Zone Legion |
 | Subclass | Drum-Major Stewards |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | marching mid-stride, baton raised over a war-drum; the War-drum and the baton break the outline so it reads instantly as a black shape |
+| Silhouette hook | high-stepping in a march with the baton raised over a war-drum on a strap; the War-drum and the baton break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #a84a52: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd60a: trim, sash, straps, secondary garment pieces and held gear |
@@ -5350,7 +5350,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as marching mid-stride, baton raised over a war-drum.
+1. Black-fill test: the silhouette must still read as high-stepping in a march with the baton raised over a war-drum on a strap.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the War-drum and the pose must be visible at 64 px.
 4. Flat colors: #a84a52 / #ffd60a / #221c48 as separate flat shapes divided by black line; no gradients or glow.
@@ -5370,7 +5370,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Drum-Major Stewards, male human (In life: Cuban heritage, Cuban), apparent age early 70s. tall and skeletal, medium size. Pose: marching mid-stride, baton raised over a war-drum. Expression: proud, plumed grin, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Drum-Major Stewards, male human (In life: Cuban heritage, Cuban), apparent age early 70s. tall and skeletal, a high shako hat, a long straight back, medium size. Pose: high-stepping in a march with the baton raised over a war-drum on a strap. Expression: proud, plumed grin, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: War-drum. SECOND ITEM, kept plain: baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: grinning skeleton drum-major in a plumed helm, a baton in one hand, a banner pole in the other, a war-drum strapped to the front.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a84a52 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, on the eyes, the War-drum and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5400,19 +5400,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | hulking and slouched; large size; mobility: grounded |
+| Physique | hulking and slouched, huge shoulders, a tiny head; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Polish heritage, Polish-American |
 | Identity | male human |
 | Wardrobe | hulking zombie in a hard hat and a work vest, a sledgehammer in both hands, a rebar spear on the back |
 | Accessories | Sledgehammer; hard hat; work vest; rebar spear |
-| Pose | hauling a sledgehammer back for a full swing |
+| Pose | wound up for a full swing, the torso twisted back and the sledgehammer behind |
 | Facial expression | slack, steady stare |
 | People | Undead |
 | Class | Risen Labor Union |
 | Subclass | Demolition Crews |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | hauling a sledgehammer back for a full swing; the Sledgehammer and the hard hat break the outline so it reads instantly as a black shape |
+| Silhouette hook | wound up for a full swing, the torso twisted back and the sledgehammer behind; the Sledgehammer and the hard hat break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #64fe71: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #002645: trim, sash, straps, secondary garment pieces and held gear |
@@ -5423,7 +5423,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hauling a sledgehammer back for a full swing.
+1. Black-fill test: the silhouette must still read as wound up for a full swing, the torso twisted back and the sledgehammer behind.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Sledgehammer and the pose must be visible at 64 px.
 4. Flat colors: #64fe71 / #002645 / #e63946 as separate flat shapes divided by black line; no gradients or glow.
@@ -5443,7 +5443,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Demolition Crews, male human (In life: Polish heritage, Polish-American), apparent age late 30s. hulking and slouched, large size. Pose: hauling a sledgehammer back for a full swing. Expression: slack, steady stare, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Demolition Crews, male human (In life: Polish heritage, Polish-American), apparent age late 30s. hulking and slouched, huge shoulders, a tiny head, large size. Pose: wound up for a full swing, the torso twisted back and the sledgehammer behind. Expression: slack, steady stare, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sledgehammer. SECOND ITEM, kept plain: hard hat. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hulking zombie in a hard hat and a work vest, a sledgehammer in both hands, a rebar spear on the back.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #64fe71 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #002645 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e63946 about 10%, on the eyes, the Sledgehammer and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5470,19 +5470,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | massive and slow; huge size; mobility: grounded |
+| Physique | massive and slow, a thick neck, long dangling arms; huge size; mobility: grounded |
 | Ethnicity + nationality | In life: Samoan heritage, Samoan |
 | Identity | male human |
 | Wardrobe | massive zombie in a hard hat, safety vest and steel-toe boots, a chained wrecking ball bolted to one arm |
 | Accessories | Chained wrecking ball; steel-toe boots; safety vest; hard hat |
-| Pose | heaving a chained wrecking ball in a wide arc |
+| Pose | spinning a chained wrecking ball in a wide arc |
 | Facial expression | vacant, patient |
 | People | Undead |
 | Class | Risen Labor Union |
 | Subclass | Wrecking-Ball Lumberers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | heaving a chained wrecking ball in a wide arc; the Chained wrecking ball and the steel-toe boots break the outline so it reads instantly as a black shape |
+| Silhouette hook | spinning a chained wrecking ball in a wide arc; the Chained wrecking ball and the steel-toe boots break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #6d940e: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #7d99ca: trim, sash, straps, secondary garment pieces and held gear |
@@ -5493,7 +5493,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as heaving a chained wrecking ball in a wide arc.
+1. Black-fill test: the silhouette must still read as spinning a chained wrecking ball in a wide arc.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Chained wrecking ball and the pose must be visible at 64 px.
 4. Flat colors: #6d940e / #7d99ca / #282956 as separate flat shapes divided by black line; no gradients or glow.
@@ -5513,7 +5513,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Wrecking-Ball Lumberers, male human (In life: Samoan heritage, Samoan), apparent age late 40s. massive and slow, huge size. Pose: heaving a chained wrecking ball in a wide arc. Expression: vacant, patient, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Wrecking-Ball Lumberers, male human (In life: Samoan heritage, Samoan), apparent age late 40s. massive and slow, a thick neck, long dangling arms, huge size. Pose: spinning a chained wrecking ball in a wide arc. Expression: vacant, patient, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Chained wrecking ball. SECOND ITEM, kept plain: steel-toe boots. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: massive zombie in a hard hat, safety vest and steel-toe boots, a chained wrecking ball bolted to one arm.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #6d940e about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7d99ca about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Chained wrecking ball and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5540,19 +5540,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | lanky and rumpled; medium size; mobility: grounded |
+| Physique | lanky and rumpled, a stoop, long arms; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Italian-American heritage, American |
 | Identity | female human |
 | Wardrobe | zombie in a loose tie and a hard hat with a union badge, a picket sign in one hand, a clipboard in the other |
 | Accessories | Clipboard; picket sign; hard hat; union badge |
-| Pose | raising a picket sign, clipboard under the other arm |
+| Pose | leaning on a picket sign like a staff with the clipboard tucked under the other arm |
 | Facial expression | wry, bureaucratic smirk |
 | People | Undead |
 | Class | Risen Labor Union |
 | Subclass | Shop Stewards |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | raising a picket sign, clipboard under the other arm; the Clipboard and the picket sign break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning on a picket sign like a staff with the clipboard tucked under the other arm; the Clipboard and the picket sign break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #139b5e: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ef476f: trim, sash, straps, secondary garment pieces and held gear |
@@ -5563,7 +5563,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as raising a picket sign, clipboard under the other arm.
+1. Black-fill test: the silhouette must still read as leaning on a picket sign like a staff with the clipboard tucked under the other arm.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Clipboard and the pose must be visible at 64 px.
 4. Flat colors: #139b5e / #ef476f / #002645 as separate flat shapes divided by black line; no gradients or glow.
@@ -5583,7 +5583,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Shop Stewards, female human (In life: Italian-American heritage, American), apparent age early 40s. lanky and rumpled, medium size. Pose: raising a picket sign, clipboard under the other arm. Expression: wry, bureaucratic smirk, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Shop Stewards, female human (In life: Italian-American heritage, American), apparent age early 40s. lanky and rumpled, a stoop, long arms, medium size. Pose: leaning on a picket sign like a staff with the clipboard tucked under the other arm. Expression: wry, bureaucratic smirk, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Clipboard. SECOND ITEM, kept plain: picket sign. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: zombie in a loose tie and a hard hat with a union badge, a picket sign in one hand, a clipboard in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #139b5e about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ef476f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, on the eyes, the Clipboard and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5613,19 +5613,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | tall and fussy; large size; mobility: grounded |
+| Physique | tall and fussy, a thin rod body, small spectacles; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Egyptian heritage, Egyptian |
 | Identity | male human |
 | Wardrobe | tall skeletal lich in a fussy robe and a pince-nez, a giant soul-stamp in one hand, a contract scroll in the other, a quill behind the ear |
 | Accessories | Soul-stamp; contract scroll; quill; pince-nez |
-| Pose | slamming a huge stamp onto a glowing contract |
+| Pose | slamming a huge stamp down on a glowing contract in a great overhead arc |
 | Facial expression | pursed, fussy |
 | People | Undead |
 | Class | Lich Bureaucracy |
 | Subclass | Soul Notaries |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | slamming a huge stamp onto a glowing contract; the Soul-stamp and the contract scroll break the outline so it reads instantly as a black shape |
+| Silhouette hook | slamming a huge stamp down on a glowing contract in a great overhead arc; the Soul-stamp and the contract scroll break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #6f4a9a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffba08: trim, sash, straps, secondary garment pieces and held gear |
@@ -5636,7 +5636,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as slamming a huge stamp onto a glowing contract.
+1. Black-fill test: the silhouette must still read as slamming a huge stamp down on a glowing contract in a great overhead arc.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Soul-stamp and the pose must be visible at 64 px.
 4. Flat colors: #6f4a9a / #ffba08 / #271948 as separate flat shapes divided by black line; no gradients or glow.
@@ -5656,7 +5656,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Soul Notaries, male human (In life: Egyptian heritage, Egyptian), apparent age mid 60s. tall and fussy, large size. Pose: slamming a huge stamp onto a glowing contract. Expression: pursed, fussy, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Soul Notaries, male human (In life: Egyptian heritage, Egyptian), apparent age mid 60s. tall and fussy, a thin rod body, small spectacles, large size. Pose: slamming a huge stamp down on a glowing contract in a great overhead arc. Expression: pursed, fussy, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Soul-stamp. SECOND ITEM, kept plain: contract scroll. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall skeletal lich in a fussy robe and a pince-nez, a giant soul-stamp in one hand, a contract scroll in the other, a quill behind the ear.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #6f4a9a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffba08 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #271948 about 10%, on the eyes, the Soul-stamp and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5683,19 +5683,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | tall and narrow; large size; mobility: grounded |
+| Physique | tall and narrow, a long neck, thin arms; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Chinese heritage, Chinese |
 | Identity | female human |
 | Wardrobe | tall lich in a pointed hat, a soul-lens held up in one hand, a crowbar in the other, a ledger tucked under the arm |
 | Accessories | Soul-lens; ledger; crowbar; pointed hat |
-| Pose | holding a soul-lens to an unseen jar, crowbar over the shoulder |
+| Pose | peering through a soul-lens at an unseen jar with the body twisted, a crowbar resting over one shoulder |
 | Facial expression | suspicious squint |
 | People | Undead |
 | Class | Lich Bureaucracy |
 | Subclass | Phylactery Auditors |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | holding a soul-lens to an unseen jar, crowbar over the shoulder; the Soul-lens and the ledger break the outline so it reads instantly as a black shape |
+| Silhouette hook | peering through a soul-lens at an unseen jar with the body twisted, a crowbar resting over one shoulder; the Soul-lens and the ledger break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #00807f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #3c096c: trim, sash, straps, secondary garment pieces and held gear |
@@ -5706,7 +5706,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as holding a soul-lens to an unseen jar, crowbar over the shoulder.
+1. Black-fill test: the silhouette must still read as peering through a soul-lens at an unseen jar with the body twisted, a crowbar resting over one shoulder.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Soul-lens and the pose must be visible at 64 px.
 4. Flat colors: #00807f / #3c096c / #ff9e00 as separate flat shapes divided by black line; no gradients or glow.
@@ -5726,7 +5726,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Phylactery Auditors, female human (In life: Chinese heritage, Chinese), apparent age mid 60s. tall and narrow, large size. Pose: holding a soul-lens to an unseen jar, crowbar over the shoulder. Expression: suspicious squint, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Phylactery Auditors, female human (In life: Chinese heritage, Chinese), apparent age mid 60s. tall and narrow, a long neck, thin arms, large size. Pose: peering through a soul-lens at an unseen jar with the body twisted, a crowbar resting over one shoulder. Expression: suspicious squint, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Soul-lens. SECOND ITEM, kept plain: ledger. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall lich in a pointed hat, a soul-lens held up in one hand, a crowbar in the other, a ledger tucked under the arm.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #00807f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3c096c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff9e00 about 10%, on the eyes, the Soul-lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5753,19 +5753,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | gaunt and robed; large size; mobility: grounded |
+| Physique | gaunt and robed, a long hooded figure, a stretched neck; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Mongolian heritage, Mongolian |
 | Identity | male human |
 | Wardrobe | skeletal lich in black robes with a stamp ring and contract shackles at the belt, a long scythe held in both hands |
 | Accessories | Scythe; contract shackles; black robes; stamp ring |
-| Pose | swinging a long scythe through a wide arc |
+| Pose | mid-sweep of a long scythe, the whole body turning with the robe flaring |
 | Facial expression | cold, decided |
 | People | Undead |
 | Class | Lich Bureaucracy |
 | Subclass | Contract Reapers |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | swinging a long scythe through a wide arc; the Scythe and the contract shackles break the outline so it reads instantly as a black shape |
+| Silhouette hook | mid-sweep of a long scythe, the whole body turning with the robe flaring; the Scythe and the contract shackles break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #c746b9: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e4ffda: trim, sash, straps, secondary garment pieces and held gear |
@@ -5776,7 +5776,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as swinging a long scythe through a wide arc.
+1. Black-fill test: the silhouette must still read as mid-sweep of a long scythe, the whole body turning with the robe flaring.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Scythe and the pose must be visible at 64 px.
 4. Flat colors: #c746b9 / #e4ffda / #1d3557 as separate flat shapes divided by black line; no gradients or glow.
@@ -5796,7 +5796,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Contract Reapers, male human (In life: Mongolian heritage, Mongolian), apparent age mid 60s. gaunt and robed, large size. Pose: swinging a long scythe through a wide arc. Expression: cold, decided, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Contract Reapers, male human (In life: Mongolian heritage, Mongolian), apparent age mid 60s. gaunt and robed, a long hooded figure, a stretched neck, large size. Pose: mid-sweep of a long scythe, the whole body turning with the robe flaring. Expression: cold, decided, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Scythe. SECOND ITEM, kept plain: contract shackles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: skeletal lich in black robes with a stamp ring and contract shackles at the belt, a long scythe held in both hands.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #c746b9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, on the eyes, the Scythe and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5826,19 +5826,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | armored and wrapped; large size; mobility: grounded |
+| Physique | armored and wrapped, a wide chest, thick bandaged limbs; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Nubian heritage, Sudanese |
 | Identity | male human |
 | Wardrobe | mummy knight in a bandage cape with a scarab brooch, a gilded sarcophagus lid carried as a shield on one arm, a gilded lance in the other hand |
 | Accessories | Sarcophagus shield; gilded lance; scarab brooch; bandage cape |
-| Pose | charging forward behind a sarcophagus lid, lance leveled |
+| Pose | charging forward at a run behind a sarcophagus lid, the lance leveled |
 | Facial expression | stoic, gold-masked |
 | People | Undead |
 | Class | Reach Court |
 | Subclass | Sarcophagus Lancers |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | charging forward behind a sarcophagus lid, lance leveled; the Sarcophagus shield and the gilded lance break the outline so it reads instantly as a black shape |
+| Silhouette hook | charging forward at a run behind a sarcophagus lid, the lance leveled; the Sarcophagus shield and the gilded lance break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #6f6704: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #006d77: trim, sash, straps, secondary garment pieces and held gear |
@@ -5849,7 +5849,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as charging forward behind a sarcophagus lid, lance leveled.
+1. Black-fill test: the silhouette must still read as charging forward at a run behind a sarcophagus lid, the lance leveled.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Sarcophagus shield and the pose must be visible at 64 px.
 4. Flat colors: #6f6704 / #006d77 / #221c48 as separate flat shapes divided by black line; no gradients or glow.
@@ -5869,7 +5869,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Sarcophagus Lancers, male human (In life: Nubian heritage, Sudanese), apparent age late 30s. armored and wrapped, large size. Pose: charging forward behind a sarcophagus lid, lance leveled. Expression: stoic, gold-masked, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Sarcophagus Lancers, male human (In life: Nubian heritage, Sudanese), apparent age late 30s. armored and wrapped, a wide chest, thick bandaged limbs, large size. Pose: charging forward at a run behind a sarcophagus lid, the lance leveled. Expression: stoic, gold-masked, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sarcophagus shield. SECOND ITEM, kept plain: gilded lance. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: mummy knight in a bandage cape with a scarab brooch, a gilded sarcophagus lid carried as a shield on one arm, a gilded lance in the other hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #6f6704 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #006d77 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, on the eyes, the Sarcophagus shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5896,19 +5896,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | regal and slim; medium size; mobility: agile |
+| Physique | regal and slim, a straight spine, a long gold-masked neck; medium size; mobility: agile |
 | Ethnicity + nationality | In life: Egyptian heritage, Egyptian |
 | Identity | female human |
 | Wardrobe | regal mummy in a golden mask and trailing wraps, a gilded scimitar in one hand and a bandage whip in the other |
 | Accessories | Gilded scimitar; gold mask; bandage whip |
-| Pose | scimitar raised in salute, bandage whip trailing |
+| Pose | balanced on one leg in a salute with the scimitar, the bandage whip trailing |
 | Facial expression | regal, unreadable |
 | People | Undead |
 | Class | Reach Court |
 | Subclass | Gold-Mask Duelists |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | scimitar raised in salute, bandage whip trailing; the Gilded scimitar and the gold mask break the outline so it reads instantly as a black shape |
+| Silhouette hook | balanced on one leg in a salute with the scimitar, the bandage whip trailing; the Gilded scimitar and the gold mask break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #c66d97: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #d4a017: trim, sash, straps, secondary garment pieces and held gear |
@@ -5919,7 +5919,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as scimitar raised in salute, bandage whip trailing.
+1. Black-fill test: the silhouette must still read as balanced on one leg in a salute with the scimitar, the bandage whip trailing.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Gilded scimitar and the pose must be visible at 64 px.
 4. Flat colors: #c66d97 / #d4a017 / #0b6e4f as separate flat shapes divided by black line; no gradients or glow.
@@ -5939,7 +5939,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Gold-Mask Duelists, female human (In life: Egyptian heritage, Egyptian), apparent age late 50s. regal and slim, medium size. Pose: scimitar raised in salute, bandage whip trailing. Expression: regal, unreadable, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Gold-Mask Duelists, female human (In life: Egyptian heritage, Egyptian), apparent age late 50s. regal and slim, a straight spine, a long gold-masked neck, medium size. Pose: balanced on one leg in a salute with the scimitar, the bandage whip trailing. Expression: regal, unreadable, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Gilded scimitar. SECOND ITEM, kept plain: gold mask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: regal mummy in a golden mask and trailing wraps, a gilded scimitar in one hand and a bandage whip in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #c66d97 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #d4a017 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #0b6e4f about 10%, on the eyes, the Gilded scimitar and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -5966,19 +5966,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | round and aproned; medium size; mobility: grounded |
+| Physique | round and aproned, a wide belly, short arms; medium size; mobility: grounded |
 | Ethnicity + nationality | In life: Greek heritage, Greek |
 | Identity | female human |
 | Wardrobe | mummy in an ornate apron, a belt of oil flasks, a canopic jar in one hand, a roll of bandage in the other |
 | Accessories | Oil flasks; canopic jar; bandage roll; ornate apron |
-| Pose | hurling a glowing flask, canopic jar at the belt |
+| Pose | leaning back to hurl a glowing flask, a canopic jar at the belt |
 | Facial expression | bright, clinical |
 | People | Undead |
 | Class | Reach Court |
 | Subclass | Embalmer Alchemists |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | hurling a glowing flask, canopic jar at the belt; the Oil flasks and the canopic jar break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning back to hurl a glowing flask, a canopic jar at the belt; the Oil flasks and the canopic jar break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #33ab1c: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #06d6a0: trim, sash, straps, secondary garment pieces and held gear |
@@ -5989,7 +5989,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hurling a glowing flask, canopic jar at the belt.
+1. Black-fill test: the silhouette must still read as leaning back to hurl a glowing flask, a canopic jar at the belt.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Oil flasks and the pose must be visible at 64 px.
 4. Flat colors: #33ab1c / #06d6a0 / #282956 as separate flat shapes divided by black line; no gradients or glow.
@@ -6009,7 +6009,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Embalmer Alchemists, female human (In life: Greek heritage, Greek), apparent age early 30s. round and aproned, medium size. Pose: hurling a glowing flask, canopic jar at the belt. Expression: bright, clinical, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Embalmer Alchemists, female human (In life: Greek heritage, Greek), apparent age early 30s. round and aproned, a wide belly, short arms, medium size. Pose: leaning back to hurl a glowing flask, a canopic jar at the belt. Expression: bright, clinical, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Oil flasks. SECOND ITEM, kept plain: canopic jar. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: mummy in an ornate apron, a belt of oil flasks, a canopic jar in one hand, a roll of bandage in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #33ab1c about 60%, on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Oil flasks and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
@@ -6048,19 +6048,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | small and armored; small size; mobility: vehicle |
+| Physique | small and armored, a bucket helmet, a stout body; small size; mobility: vehicle |
 | Ethnicity + nationality | Fae (adapted from English folk tradition) |
 | Identity | male human |
 | Wardrobe | winged fae knight in a grass-green visor helm with a leaf-and-hedge armor, a long hedge-lance in one hand, a grass shield on the other arm |
 | Accessories | Armored mower; hedge-lance; grass shield; visor |
-| Pose | charging with the hedge-lance leveled |
+| Pose | charging at a run with the hedge-lance leveled |
 | Facial expression | proud, chin up |
 | People | Forest Spirit |
 | Class | Cul-de-Sac Court |
 | Subclass | Lawnmower Knights |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | charging with the hedge-lance leveled; the Armored mower and the hedge-lance break the outline so it reads instantly as a black shape |
+| Silhouette hook | charging at a run with the hedge-lance leveled; the Armored mower and the hedge-lance break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #8bae63: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff5d8f: trim, sash, straps, secondary garment pieces and held gear |
@@ -6071,7 +6071,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as charging with the hedge-lance leveled.
+1. Black-fill test: the silhouette must still read as charging at a run with the hedge-lance leveled.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Armored mower and the pose must be visible at 64 px.
 4. Flat colors: #8bae63 / #ff5d8f / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -6091,7 +6091,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Lawnmower Knights, male human (Fae (adapted from English folk tradition)), apparent age late 30s. small and armored, small size. Pose: charging with the hedge-lance leveled. Expression: proud, chin up, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Lawnmower Knights, male human (Fae (adapted from English folk tradition)), apparent age late 30s. small and armored, a bucket helmet, a stout body, small size. Pose: charging at a run with the hedge-lance leveled. Expression: proud, chin up, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Armored mower. SECOND ITEM, kept plain: hedge-lance. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: winged fae knight in a grass-green visor helm with a leaf-and-hedge armor, a long hedge-lance in one hand, a grass shield on the other arm.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8bae63 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff5d8f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Armored mower and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6118,19 +6118,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | tiny and winged; tiny size; mobility: flying |
+| Physique | tiny and winged, a big head, a thin body; tiny size; mobility: flying |
 | Ethnicity + nationality | Fae (adapted from Japanese folk tradition) |
 | Identity | female human |
 | Wardrobe | tiny winged sprite in a rain cape and rubber boots, a garden-hose whip in one hand, a sprinkler-head staff in the other |
 | Accessories | Garden hose whip; sprinkler staff; rain cape; rubber boots |
-| Pose | spinning in a ring of water jets, hose whip snapping |
+| Pose | spinning in a ring of water jets, the hose whip snapping |
 | Facial expression | delighted, giggling |
 | People | Forest Spirit |
 | Class | Cul-de-Sac Court |
 | Subclass | Sprinkler Sprites |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | spinning in a ring of water jets, hose whip snapping; the Garden hose whip and the sprinkler staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | spinning in a ring of water jets, the hose whip snapping; the Garden hose whip and the sprinkler staff break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #65b2ac: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd166: trim, sash, straps, secondary garment pieces and held gear |
@@ -6141,7 +6141,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as spinning in a ring of water jets, hose whip snapping.
+1. Black-fill test: the silhouette must still read as spinning in a ring of water jets, the hose whip snapping.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Garden hose whip and the pose must be visible at 64 px.
 4. Flat colors: #65b2ac / #ffd166 / #2ee3ac as separate flat shapes divided by black line; no gradients or glow.
@@ -6161,7 +6161,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Sprinkler Sprites, female human (Fae (adapted from Japanese folk tradition)), apparent age early 20s. tiny and winged, tiny size. Pose: spinning in a ring of water jets, hose whip snapping. Expression: delighted, giggling, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Sprinkler Sprites, female human (Fae (adapted from Japanese folk tradition)), apparent age early 20s. tiny and winged, a big head, a thin body, tiny size. Pose: spinning in a ring of water jets, the hose whip snapping. Expression: delighted, giggling, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Garden hose whip. SECOND ITEM, kept plain: sprinkler staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tiny winged sprite in a rain cape and rubber boots, a garden-hose whip in one hand, a sprinkler-head staff in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #65b2ac about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd166 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2ee3ac about 10%, on the eyes, the Garden hose whip and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6188,19 +6188,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | small and winged; small size; mobility: flying |
+| Physique | small and winged, a stern pinched face, a rigid posture; small size; mobility: flying |
 | Ethnicity + nationality | Fae (adapted from American suburban folklore) |
 | Identity | female human |
 | Wardrobe | winged fae in a sun hat, a clipboard in one hand, a tiny gavel in the other, a bundle of violation tags at the belt |
 | Accessories | Clipboard; violation tags; tiny gavel; sun hat |
-| Pose | holding a clipboard up like a shield, tiny gavel raised |
+| Pose | hovering with a clipboard held up like a shield, a tiny gavel raised |
 | Facial expression | pleasant, immovable |
 | People | Forest Spirit |
 | Class | Cul-de-Sac Court |
 | Subclass | HOA Mediators |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | holding a clipboard up like a shield, tiny gavel raised; the Clipboard and the violation tags break the outline so it reads instantly as a black shape |
+| Silhouette hook | hovering with a clipboard held up like a shield, a tiny gavel raised; the Clipboard and the violation tags break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #a5d39a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffadad: trim, sash, straps, secondary garment pieces and held gear |
@@ -6211,7 +6211,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as holding a clipboard up like a shield, tiny gavel raised.
+1. Black-fill test: the silhouette must still read as hovering with a clipboard held up like a shield, a tiny gavel raised.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Clipboard and the pose must be visible at 64 px.
 4. Flat colors: #a5d39a / #ffadad / #264653 as separate flat shapes divided by black line; no gradients or glow.
@@ -6231,7 +6231,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: HOA Mediators, female human (Fae (adapted from American suburban folklore)), apparent age mid 60s. small and winged, small size. Pose: holding a clipboard up like a shield, tiny gavel raised. Expression: pleasant, immovable, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: HOA Mediators, female human (Fae (adapted from American suburban folklore)), apparent age mid 60s. small and winged, a stern pinched face, a rigid posture, small size. Pose: hovering with a clipboard held up like a shield, a tiny gavel raised. Expression: pleasant, immovable, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Clipboard. SECOND ITEM, kept plain: violation tags. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: winged fae in a sun hat, a clipboard in one hand, a tiny gavel in the other, a bundle of violation tags at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a5d39a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffadad about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Clipboard and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6331,19 +6331,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | armored and mossy; large size; mobility: grounded |
+| Physique | armored and mossy, a wide plated chest, heavy limbs; large size; mobility: grounded |
 | Ethnicity + nationality | Dryad (adapted from Celtic tradition) |
 | Identity | male human |
 | Wardrobe | armored dryad in moss-covered rack-plate armor, a server-rack shield on one arm, a root hammer in the other hand, a vine whip at the belt |
 | Accessories | Rack-plate shield; root hammer; moss cape; vine whip |
-| Pose | braced behind a rack-plate shield, root hammer raised |
+| Pose | leaning into a rack-plate shield with the root hammer raised |
 | Facial expression | calm, mossy stoicism |
 | People | Forest Spirit |
 | Class | Root-Server Dryads |
 | Subclass | Moss-Plate Wardens |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | braced behind a rack-plate shield, root hammer raised; the Rack-plate shield and the root hammer break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning into a rack-plate shield with the root hammer raised; the Rack-plate shield and the root hammer break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #b8b07c: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #bc4749: trim, sash, straps, secondary garment pieces and held gear |
@@ -6354,7 +6354,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as braced behind a rack-plate shield, root hammer raised.
+1. Black-fill test: the silhouette must still read as leaning into a rack-plate shield with the root hammer raised.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Rack-plate shield and the pose must be visible at 64 px.
 4. Flat colors: #b8b07c / #bc4749 / #fee7ab as separate flat shapes divided by black line; no gradients or glow.
@@ -6374,7 +6374,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Moss-Plate Wardens, male human (Dryad (adapted from Celtic tradition)), apparent age early 20s. armored and mossy, large size. Pose: braced behind a rack-plate shield, root hammer raised. Expression: calm, mossy stoicism, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Moss-Plate Wardens, male human (Dryad (adapted from Celtic tradition)), apparent age early 20s. armored and mossy, a wide plated chest, heavy limbs, large size. Pose: leaning into a rack-plate shield with the root hammer raised. Expression: calm, mossy stoicism, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Rack-plate shield. SECOND ITEM, kept plain: root hammer. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored dryad in moss-covered rack-plate armor, a server-rack shield on one arm, a root hammer in the other hand, a vine whip at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b8b07c about 60%, on the largest garment, armor, fur-marking or body areas; secondary #bc4749 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fee7ab about 10%, on the eyes, the Rack-plate shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6401,19 +6401,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | gentle and graceful; medium size; mobility: grounded |
+| Physique | gentle and graceful, a slim body, long gentle hands; medium size; mobility: grounded |
 | Ethnicity + nationality | Dryad (adapted from Slavic tradition) |
 | Identity | female human |
 | Wardrobe | gentle dryad in a flower crown, a seed satchel at the hip, a watering can in one hand and a grafting knife in the other |
 | Accessories | Seed satchel; watering can; grafting knife; flower crown |
-| Pose | pouring glowing water over a kneeling ally |
+| Pose | bent at the waist pouring glowing water from a gourd onto a fallen ally |
 | Facial expression | warm, patient |
 | People | Forest Spirit |
 | Class | Root-Server Dryads |
 | Subclass | Greenhouse Healers |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | pouring glowing water over a kneeling ally; the Seed satchel and the watering can break the outline so it reads instantly as a black shape |
+| Silhouette hook | bent at the waist pouring glowing water from a gourd onto a fallen ally; the Seed satchel and the watering can break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #f9c9e9: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #a7c957: trim, sash, straps, secondary garment pieces and held gear |
@@ -6424,7 +6424,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as pouring glowing water over a kneeling ally.
+1. Black-fill test: the silhouette must still read as bent at the waist pouring glowing water from a gourd onto a fallen ally.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Seed satchel and the pose must be visible at 64 px.
 4. Flat colors: #f9c9e9 / #a7c957 / #3d405b as separate flat shapes divided by black line; no gradients or glow.
@@ -6444,7 +6444,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Greenhouse Healers, female human (Dryad (adapted from Slavic tradition)), apparent age early 40s. gentle and graceful, medium size. Pose: pouring glowing water over a kneeling ally. Expression: warm, patient, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Greenhouse Healers, female human (Dryad (adapted from Slavic tradition)), apparent age early 40s. gentle and graceful, a slim body, long gentle hands, medium size. Pose: bent at the waist pouring glowing water from a gourd onto a fallen ally. Expression: warm, patient, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Seed satchel. SECOND ITEM, kept plain: watering can. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: gentle dryad in a flower crown, a seed satchel at the hip, a watering can in one hand and a grafting knife in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #f9c9e9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #a7c957 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3d405b about 10%, on the eyes, the Seed satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6474,19 +6474,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | short and stout; small size; mobility: burrowing |
+| Physique | short and stout, thick arms, a heavy beard; small size; mobility: burrowing |
 | Ethnicity + nationality | Gnome (adapted from German tradition) |
 | Identity | male human |
 | Wardrobe | stout bearded gnome in a crystal-crowned mining helmet with a head-lamp, a pickaxe in one hand, a belt of small mining charges |
 | Accessories | Pickaxe; mining charges; helmet lamp; sump pump |
-| Pose | carrying a charge in one hand, pickaxe raised in the other |
+| Pose | creeping low with a charge in one hand and the pickaxe raised in the other |
 | Facial expression | grumpy, gritted teeth |
 | People | Forest Spirit |
 | Class | Basement Gnomes |
 | Subclass | Sump Sappers |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | carrying a charge in one hand, pickaxe raised in the other; the Pickaxe and the mining charges break the outline so it reads instantly as a black shape |
+| Silhouette hook | creeping low with a charge in one hand and the pickaxe raised in the other; the Pickaxe and the mining charges break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #9ca2fa: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff9e00: trim, sash, straps, secondary garment pieces and held gear |
@@ -6497,7 +6497,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as carrying a charge in one hand, pickaxe raised in the other.
+1. Black-fill test: the silhouette must still read as creeping low with a charge in one hand and the pickaxe raised in the other.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Pickaxe and the pose must be visible at 64 px.
 4. Flat colors: #9ca2fa / #ff9e00 / #282956 as separate flat shapes divided by black line; no gradients or glow.
@@ -6517,7 +6517,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Sump Sappers, male human (Gnome (adapted from German tradition)), apparent age late 40s. short and stout, small size. Pose: carrying a charge in one hand, pickaxe raised in the other. Expression: grumpy, gritted teeth, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Sump Sappers, male human (Gnome (adapted from German tradition)), apparent age late 40s. short and stout, thick arms, a heavy beard, small size. Pose: creeping low with a charge in one hand and the pickaxe raised in the other. Expression: grumpy, gritted teeth, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pickaxe. SECOND ITEM, kept plain: mining charges. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stout bearded gnome in a crystal-crowned mining helmet with a head-lamp, a pickaxe in one hand, a belt of small mining charges.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #9ca2fa about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff9e00 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Pickaxe and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6544,19 +6544,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | stout and armored; small size; mobility: grounded |
+| Physique | stout and armored, a barrel chest, a short thick neck; small size; mobility: grounded |
 | Ethnicity + nationality | Gnome (adapted from Dutch tradition) |
 | Identity | male human |
 | Wardrobe | bearded gnome in bulky boiler-plate armor with steam vents, goggles, heavy pressure-fist gauntlets on both hands |
 | Accessories | Pressure-fist gauntlets; boiler armor; goggles; steam pipe |
-| Pose | cocking a steaming gauntleted fist |
+| Pose | cocking a steaming gauntleted fist back for a punch |
 | Facial expression | red-faced, scowling |
 | People | Forest Spirit |
 | Class | Basement Gnomes |
 | Subclass | Boiler-Room Brawlers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | cocking a steaming gauntleted fist; the Pressure-fist gauntlets and the boiler armor break the outline so it reads instantly as a black shape |
+| Silhouette hook | cocking a steaming gauntleted fist back for a punch; the Pressure-fist gauntlets and the boiler armor break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #8b3701: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #7d99ca: trim, sash, straps, secondary garment pieces and held gear |
@@ -6567,7 +6567,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as cocking a steaming gauntleted fist.
+1. Black-fill test: the silhouette must still read as cocking a steaming gauntleted fist back for a punch.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Pressure-fist gauntlets and the pose must be visible at 64 px.
 4. Flat colors: #8b3701 / #7d99ca / #264653 as separate flat shapes divided by black line; no gradients or glow.
@@ -6587,7 +6587,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Boiler-Room Brawlers, male human (Gnome (adapted from Dutch tradition)), apparent age early 40s. stout and armored, small size. Pose: cocking a steaming gauntleted fist. Expression: red-faced, scowling, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Boiler-Room Brawlers, male human (Gnome (adapted from Dutch tradition)), apparent age early 40s. stout and armored, a barrel chest, a short thick neck, small size. Pose: cocking a steaming gauntleted fist back for a punch. Expression: red-faced, scowling, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pressure-fist gauntlets. SECOND ITEM, kept plain: boiler armor. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: bearded gnome in bulky boiler-plate armor with steam vents, goggles, heavy pressure-fist gauntlets on both hands.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8b3701 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7d99ca about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Pressure-fist gauntlets and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6614,19 +6614,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | short and bearded; small size; mobility: grounded |
+| Physique | short and bearded, a round hat, sharp eyes; small size; mobility: grounded |
 | Ethnicity + nationality | Gnome (adapted from Norse tradition) |
 | Identity | male human |
 | Wardrobe | short bearded gnome in a tall pointy hat, a toll ledger in one hand, a gate key in the other, a signal horn at the belt |
 | Accessories | Toll ledger; gate key; signal horn; tall pointy hat |
-| Pose | holding the ledger up, gate key in the other hand |
+| Pose | standing with the ledger held up and a gate key dangling from the other hand |
 | Facial expression | sour, businesslike |
 | People | Forest Spirit |
 | Class | Basement Gnomes |
 | Subclass | Toll Brokers |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | holding the ledger up, gate key in the other hand; the Toll ledger and the gate key break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing with the ledger held up and a gate key dangling from the other hand; the Toll ledger and the gate key break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #b3907c: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffb703: trim, sash, straps, secondary garment pieces and held gear |
@@ -6637,7 +6637,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as holding the ledger up, gate key in the other hand.
+1. Black-fill test: the silhouette must still read as standing with the ledger held up and a gate key dangling from the other hand.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Toll ledger and the pose must be visible at 64 px.
 4. Flat colors: #b3907c / #ffb703 / #f3f1b3 as separate flat shapes divided by black line; no gradients or glow.
@@ -6657,7 +6657,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Toll Brokers, male human (Gnome (adapted from Norse tradition)), apparent age late 40s. short and bearded, small size. Pose: holding the ledger up, gate key in the other hand. Expression: sour, businesslike, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Toll Brokers, male human (Gnome (adapted from Norse tradition)), apparent age late 40s. short and bearded, a round hat, sharp eyes, small size. Pose: standing with the ledger held up and a gate key dangling from the other hand. Expression: sour, businesslike, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Toll ledger. SECOND ITEM, kept plain: gate key. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: short bearded gnome in a tall pointy hat, a toll ledger in one hand, a gate key in the other, a signal horn at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b3907c about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffb703 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f3f1b3 about 10%, on the eyes, the Toll ledger and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6687,19 +6687,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | tiny and quick; tiny size; mobility: agile |
+| Physique | tiny and quick, a big grin, a wiry body; tiny size; mobility: agile |
 | Ethnicity + nationality | Hob (adapted from English folk tradition) |
 | Identity | female human |
 | Wardrobe | tiny hob in a thimble helmet, a tiny hammer in one hand, a doorbell-shaped bomb in the other, a lockpick at the belt |
 | Accessories | Doorbell bomb; tiny hammer; welcome mat; lockpick |
-| Pose | crouched beside a rigged doorbell with the hammer up |
+| Pose | hanging from a doorframe by one hand with the hammer raised in the other |
 | Facial expression | gleeful mischief |
 | People | Forest Spirit |
 | Class | Hob Neighbors |
 | Subclass | Doorbell Ambushers |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | crouched beside a rigged doorbell with the hammer up; the Doorbell bomb and the tiny hammer break the outline so it reads instantly as a black shape |
+| Silhouette hook | hanging from a doorframe by one hand with the hammer raised in the other; the Doorbell bomb and the tiny hammer break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #d78dfc: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #d62828: trim, sash, straps, secondary garment pieces and held gear |
@@ -6710,7 +6710,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crouched beside a rigged doorbell with the hammer up.
+1. Black-fill test: the silhouette must still read as hanging from a doorframe by one hand with the hammer raised in the other.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Doorbell bomb and the pose must be visible at 64 px.
 4. Flat colors: #d78dfc / #d62828 / #221c48 as separate flat shapes divided by black line; no gradients or glow.
@@ -6730,7 +6730,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Doorbell Ambushers, female human (Hob (adapted from English folk tradition)), apparent age late 50s. tiny and quick, tiny size. Pose: crouched beside a rigged doorbell with the hammer up. Expression: gleeful mischief, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Doorbell Ambushers, female human (Hob (adapted from English folk tradition)), apparent age late 50s. tiny and quick, a big grin, a wiry body, tiny size. Pose: hanging from a doorframe by one hand with the hammer raised in the other. Expression: gleeful mischief, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Doorbell bomb. SECOND ITEM, kept plain: tiny hammer. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tiny hob in a thimble helmet, a tiny hammer in one hand, a doorbell-shaped bomb in the other, a lockpick at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #d78dfc about 60%, on the largest garment, armor, fur-marking or body areas; secondary #d62828 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, on the eyes, the Doorbell bomb and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6757,19 +6757,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | tiny and aproned; tiny size; mobility: agile |
+| Physique | tiny and aproned, a round body, a sweet round face; tiny size; mobility: agile |
 | Ethnicity + nationality | Hob (adapted from Scottish folk tradition) |
 | Identity | nonbinary human |
 | Wardrobe | tiny hob in an apron and oven mitts, a tray of suspicious cookies in one hand, a rolling pin in the other, a bandolier of tiny spice vials |
 | Accessories | Cookie tray; rolling pin; spice vials; oven mitts |
-| Pose | offering a tray of cookies, rolling pin behind the back |
+| Pose | tiptoeing forward offering a tray of cookies with a rolling pin hidden behind the back |
 | Facial expression | sweetly innocent |
 | People | Forest Spirit |
 | Class | Hob Neighbors |
 | Subclass | Pantry Poisoners |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | offering a tray of cookies, rolling pin behind the back; the Cookie tray and the rolling pin break the outline so it reads instantly as a black shape |
+| Silhouette hook | tiptoeing forward offering a tray of cookies with a rolling pin hidden behind the back; the Cookie tray and the rolling pin break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #8fe00f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #2ec4b6: trim, sash, straps, secondary garment pieces and held gear |
@@ -6780,7 +6780,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as offering a tray of cookies, rolling pin behind the back.
+1. Black-fill test: the silhouette must still read as tiptoeing forward offering a tray of cookies with a rolling pin hidden behind the back.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Cookie tray and the pose must be visible at 64 px.
 4. Flat colors: #8fe00f / #2ec4b6 / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -6800,7 +6800,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Pantry Poisoners, nonbinary human (Hob (adapted from Scottish folk tradition)), apparent age early 50s. tiny and aproned, tiny size. Pose: offering a tray of cookies, rolling pin behind the back. Expression: sweetly innocent, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Pantry Poisoners, nonbinary human (Hob (adapted from Scottish folk tradition)), apparent age early 50s. tiny and aproned, a round body, a sweet round face, tiny size. Pose: tiptoeing forward offering a tray of cookies with a rolling pin hidden behind the back. Expression: sweetly innocent, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Cookie tray. SECOND ITEM, kept plain: rolling pin. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tiny hob in an apron and oven mitts, a tray of suspicious cookies in one hand, a rolling pin in the other, a bandolier of tiny spice vials.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8fe00f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2ec4b6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Cookie tray and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6827,19 +6827,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | tiny and alert; tiny size; mobility: grounded |
+| Physique | tiny and alert, a straight back, a big whistle; tiny size; mobility: grounded |
 | Ethnicity + nationality | Hob (adapted from Irish folk tradition) |
 | Identity | male human |
 | Wardrobe | tiny hob in a cap blowing a whistle, a lantern in one hand, a tiny baseball bat on one shoulder |
 | Accessories | Lantern; whistle; tiny bat; tiny cap |
-| Pose | blowing a whistle, tiny bat over one shoulder |
+| Pose | marching while blowing a whistle, a tiny bat over one shoulder |
 | Facial expression | alert and officious |
 | People | Forest Spirit |
 | Class | Hob Neighbors |
 | Subclass | Block-Watch Sentries |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | blowing a whistle, tiny bat over one shoulder; the Lantern and the whistle break the outline so it reads instantly as a black shape |
+| Silhouette hook | marching while blowing a whistle, a tiny bat over one shoulder; the Lantern and the whistle break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #cf82c6: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #3bceac: trim, sash, straps, secondary garment pieces and held gear |
@@ -6850,7 +6850,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as blowing a whistle, tiny bat over one shoulder.
+1. Black-fill test: the silhouette must still read as marching while blowing a whistle, a tiny bat over one shoulder.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Lantern and the pose must be visible at 64 px.
 4. Flat colors: #cf82c6 / #3bceac / #540d6e as separate flat shapes divided by black line; no gradients or glow.
@@ -6870,7 +6870,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Block-Watch Sentries, male human (Hob (adapted from Irish folk tradition)), apparent age mid 60s. tiny and alert, tiny size. Pose: blowing a whistle, tiny bat over one shoulder. Expression: alert and officious, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Block-Watch Sentries, male human (Hob (adapted from Irish folk tradition)), apparent age mid 60s. tiny and alert, a straight back, a big whistle, tiny size. Pose: marching while blowing a whistle, a tiny bat over one shoulder. Expression: alert and officious, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Lantern. SECOND ITEM, kept plain: whistle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tiny hob in a cap blowing a whistle, a lantern in one hand, a tiny baseball bat on one shoulder.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #cf82c6 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3bceac about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #540d6e about 10%, on the eyes, the Lantern and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
@@ -6909,19 +6909,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | hunched and amphibious; large size; mobility: aquatic |
+| Physique | hunched and amphibious, a large body, a broad fin crest; large size; mobility: aquatic |
 | Ethnicity + nationality | Deep One (adapted from coastal folklore) |
 | Identity | female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
 | Wardrobe | tall hunched amphibious Deep One priest in sodden ceremonial wet-robes, fins and gills, webbed hands holding a shell staff and a brine censer, a tide chart scroll at the belt |
 | Accessories | Shell staff; brine censer; wet-robes; tide chart |
-| Pose | raising the shell staff as the tide rises at the feet |
+| Pose | leaning back with both arms raised calling the tide, the shell staff held overhead |
 | Facial expression | serene, slow-blinking |
 | People | Eldritch |
 | Class | Deep Ones |
 | Subclass | Tidecall Priests |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | raising the shell staff as the tide rises at the feet; the Shell staff and the brine censer break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning back with both arms raised calling the tide, the shell staff held overhead; the Shell staff and the brine censer break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #a35085: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fff0d1: trim, sash, straps, secondary garment pieces and held gear |
@@ -6932,7 +6932,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as raising the shell staff as the tide rises at the feet.
+1. Black-fill test: the silhouette must still read as leaning back with both arms raised calling the tide, the shell staff held overhead.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Shell staff and the pose must be visible at 64 px.
 4. Flat colors: #a35085 / #fff0d1 / #9d4edd as separate flat shapes divided by black line; no gradients or glow.
@@ -6952,7 +6952,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Tidecall Priests, female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (adapted from coastal folklore)), apparent age late 30s. hunched and amphibious, large size. Pose: raising the shell staff as the tide rises at the feet. Expression: serene, slow-blinking, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Tidecall Priests, female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (adapted from coastal folklore)), apparent age late 30s. hunched and amphibious, a large body, a broad fin crest, large size. Pose: leaning back with both arms raised calling the tide, the shell staff held overhead. Expression: serene, slow-blinking, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shell staff. SECOND ITEM, kept plain: brine censer. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall hunched amphibious Deep One priest in sodden ceremonial wet-robes, fins and gills, webbed hands holding a shell staff and a brine censer, a tide chart scroll at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a35085 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff0d1 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #9d4edd about 10%, on the eyes, the Shell staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -6979,19 +6979,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | broad and squat, reef-armored; large size; mobility: aquatic |
+| Physique | broad and squat, reef-armored, heavy shoulders; large size; mobility: aquatic |
 | Ethnicity + nationality | Deep One (reef-grown) |
 | Identity | male an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
 | Wardrobe | broad squat Deep One in jagged coral-plate armor with fins and gills, a barnacle shield on one arm, a trident in the other, an anchor chain across the chest |
 | Accessories | Coral-plate armor; trident; barnacle shield; anchor chain |
-| Pose | trident planted, barnacle shield braced |
+| Pose | advancing with the trident leveled and the barnacle shield braced |
 | Facial expression | stoic, barnacled scowl |
 | People | Eldritch |
 | Class | Deep Ones |
 | Subclass | Coralbone Sentinels |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | trident planted, barnacle shield braced; the Coral-plate armor and the trident break the outline so it reads instantly as a black shape |
+| Silhouette hook | advancing with the trident leveled and the barnacle shield braced; the Coral-plate armor and the trident break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #803c49: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #389d83: trim, sash, straps, secondary garment pieces and held gear |
@@ -7002,7 +7002,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as trident planted, barnacle shield braced.
+1. Black-fill test: the silhouette must still read as advancing with the trident leveled and the barnacle shield braced.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Coral-plate armor and the pose must be visible at 64 px.
 4. Flat colors: #803c49 / #389d83 / #e4ffda as separate flat shapes divided by black line; no gradients or glow.
@@ -7022,7 +7022,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Coralbone Sentinels, male an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (reef-grown)), apparent age late 20s. broad and squat, reef-armored, large size. Pose: trident planted, barnacle shield braced. Expression: stoic, barnacled scowl, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Coralbone Sentinels, male an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (reef-grown)), apparent age late 20s. broad and squat, reef-armored, heavy shoulders, large size. Pose: advancing with the trident leveled and the barnacle shield braced. Expression: stoic, barnacled scowl, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Coral-plate armor. SECOND ITEM, kept plain: trident. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: broad squat Deep One in jagged coral-plate armor with fins and gills, a barnacle shield on one arm, a trident in the other, an anchor chain across the chest.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #803c49 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #389d83 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, on the eyes, the Coral-plate armor and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7049,19 +7049,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | slender and amphibious; medium size; mobility: aquatic |
+| Physique | slender and amphibious, large pearl eyes, a trailing veil; medium size; mobility: aquatic |
 | Ethnicity + nationality | Deep One (tide-pool oracle) |
 | Identity | female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
 | Wardrobe | slender Deep One oracle with luminous pearl eyes and a kelp veil, a bone staff in one hand, a tide-glass orb in the other |
 | Accessories | Pearl-eye lenses; bone staff; tide-glass orb; kelp veil |
-| Pose | holding up a tide-glass orb, kelp veil drifting |
+| Pose | drifting with a tide-glass orb held up, a kelp veil floating |
 | Facial expression | luminous, distant |
 | People | Eldritch |
 | Class | Deep Ones |
 | Subclass | Pearl-Eyed Oracles |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | holding up a tide-glass orb, kelp veil drifting; the Pearl-eye lenses and the bone staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | drifting with a tide-glass orb held up, a kelp veil floating; the Pearl-eye lenses and the bone staff break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #caa2ab: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #d00000: trim, sash, straps, secondary garment pieces and held gear |
@@ -7072,7 +7072,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as holding up a tide-glass orb, kelp veil drifting.
+1. Black-fill test: the silhouette must still read as drifting with a tide-glass orb held up, a kelp veil floating.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Pearl-eye lenses and the pose must be visible at 64 px.
 4. Flat colors: #caa2ab / #d00000 / #3a0ca3 as separate flat shapes divided by black line; no gradients or glow.
@@ -7092,7 +7092,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Pearl-Eyed Oracles, female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (tide-pool oracle)), apparent age mid 60s. slender and amphibious, medium size. Pose: holding up a tide-glass orb, kelp veil drifting. Expression: luminous, distant, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Pearl-Eyed Oracles, female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest (Deep One (tide-pool oracle)), apparent age mid 60s. slender and amphibious, large pearl eyes, a trailing veil, medium size. Pose: drifting with a tide-glass orb held up, a kelp veil floating. Expression: luminous, distant, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pearl-eye lenses. SECOND ITEM, kept plain: bone staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender Deep One oracle with luminous pearl eyes and a kelp veil, a bone staff in one hand, a tide-glass orb in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #caa2ab about 60%, on the largest garment, armor, fur-marking or body areas; secondary #d00000 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, on the eyes, the Pearl-eye lenses and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7122,19 +7122,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | segmented and winged; medium size; mobility: flying |
+| Physique | segmented and winged, a bulbous ridged head, a cylinder harness; medium size; mobility: flying |
 | Ethnicity + nationality | Mi-Go (alien) |
 | Identity | nonbinary an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings |
 | Wardrobe | segmented winged fungus-crustacean Mi-Go in a clinical harness of glowing brain-cylinders, a delicate memory probe in one claw, a tape reel at the belt |
 | Accessories | Brain-cylinder harness; memory probe; surgical wings; tape reel |
-| Pose | poised with a memory probe, cylinders glowing at the chest |
+| Pose | hovering with a memory probe extended gently, cylinders glowing at the chest |
 | Facial expression | clinical, curious tilt |
 | People | Eldritch |
 | Class | Mi-Go |
 | Subclass | Braincase Surgeons |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | poised with a memory probe, cylinders glowing at the chest; the Brain-cylinder harness and the memory probe break the outline so it reads instantly as a black shape |
+| Silhouette hook | hovering with a memory probe extended gently, cylinders glowing at the chest; the Brain-cylinder harness and the memory probe break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #9066a9: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f8961e: trim, sash, straps, secondary garment pieces and held gear |
@@ -7145,7 +7145,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as poised with a memory probe, cylinders glowing at the chest.
+1. Black-fill test: the silhouette must still read as hovering with a memory probe extended gently, cylinders glowing at the chest.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Brain-cylinder harness and the pose must be visible at 64 px.
 4. Flat colors: #9066a9 / #f8961e / #2e0d52 as separate flat shapes divided by black line; no gradients or glow.
@@ -7165,7 +7165,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Braincase Surgeons, nonbinary an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings (Mi-Go (alien)), apparent age mid 40s. segmented and winged, medium size. Pose: poised with a memory probe, cylinders glowing at the chest. Expression: clinical, curious tilt, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Braincase Surgeons, nonbinary an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings (Mi-Go (alien)), apparent age mid 40s. segmented and winged, a bulbous ridged head, a cylinder harness, medium size. Pose: hovering with a memory probe extended gently, cylinders glowing at the chest. Expression: clinical, curious tilt, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Brain-cylinder harness. SECOND ITEM, kept plain: memory probe. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: segmented winged fungus-crustacean Mi-Go in a clinical harness of glowing brain-cylinders, a delicate memory probe in one claw, a tape reel at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #9066a9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f8961e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e0d52 about 10%, on the eyes, the Brain-cylinder harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7262,19 +7262,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | many-limbed and winged; large size; mobility: flying |
+| Physique | many-limbed and winged, a large body; large size; mobility: flying |
 | Ethnicity + nationality | Mi-Go (alien) |
 | Identity | female an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings |
 | Wardrobe | many-limbed winged fungus-crustacean Mi-Go engineer in a harness, an antenna lance in one claw, a signal horn and a cable bundle at the belt |
 | Accessories | Relay tower pack; signal horn; antenna lance; cable bundle |
-| Pose | antenna lance leveled, signal horn raised |
+| Pose | clinging to an antenna with four limbs while the antenna lance is leveled and the signal horn raised |
 | Facial expression | intent, antennae forward |
 | People | Eldritch |
 | Class | Mi-Go |
 | Subclass | Signal-Hive Engineers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | antenna lance leveled, signal horn raised; the Relay tower pack and the signal horn break the outline so it reads instantly as a black shape |
+| Silhouette hook | clinging to an antenna with four limbs while the antenna lance is leveled and the signal horn raised; the Relay tower pack and the signal horn break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #a30364: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #06d6a0: trim, sash, straps, secondary garment pieces and held gear |
@@ -7285,7 +7285,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as antenna lance leveled, signal horn raised.
+1. Black-fill test: the silhouette must still read as clinging to an antenna with four limbs while the antenna lance is leveled and the signal horn raised.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Relay tower pack and the pose must be visible at 64 px.
 4. Flat colors: #a30364 / #06d6a0 / #ffd60a as separate flat shapes divided by black line; no gradients or glow.
@@ -7305,7 +7305,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Signal-Hive Engineers, female an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings (Mi-Go (alien)), apparent age late 30s. many-limbed and winged, large size. Pose: antenna lance leveled, signal horn raised. Expression: intent, antennae forward, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Signal-Hive Engineers, female an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings (Mi-Go (alien)), apparent age late 30s. many-limbed and winged, a large body, large size. Pose: clinging to an antenna with four limbs while the antenna lance is leveled and the signal horn raised. Expression: intent, antennae forward, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: signal horn. SECOND ITEM, kept plain: antenna lance. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: many-limbed winged fungus-crustacean Mi-Go engineer in a harness, an antenna lance in one claw, a signal horn and a cable bundle at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a30364 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd60a about 10%, on the eyes, the Relay tower pack and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7335,7 +7335,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | shapeless and bristling; huge size; mobility: grounded |
+| Physique | shapeless and bristling, a heap of jaws; huge size; mobility: grounded |
 | Ethnicity + nationality | Shoggoth (living flesh) |
 | Identity | nonbinary a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
 | Wardrobe | shapeless dark Shoggoth mass bristling with eyes, jaws and tendrils, a scavenged armor shard half-swallowed into the body |
@@ -7378,7 +7378,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Many-Maw Devourers, nonbinary a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age late 30s. shapeless and bristling, huge size. Pose: lunging with tendrils and jaws on every side. Expression: many eyes, many mouths grinning, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Many-Maw Devourers, nonbinary a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age late 30s. shapeless and bristling, a heap of jaws, huge size. Pose: lunging with tendrils and jaws on every side. Expression: many eyes, many mouths grinning, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bone-plate lumps. SECOND ITEM, kept plain: tendril whips. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: shapeless dark Shoggoth mass bristling with eyes, jaws and tendrils, a scavenged armor shard half-swallowed into the body.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #62000f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, on the eyes, the Bone-plate lumps and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7405,19 +7405,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | humanoid with a melting face; medium size; mobility: agile |
+| Physique | humanoid with a melting face, an average build; medium size; mobility: agile |
 | Ethnicity + nationality | Shoggoth (living flesh) |
 | Identity | female a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
 | Wardrobe | humanoid shoggoth figure with a face melting at the edges into an eye, a borrowed coat, one hand a pale blade, a half-worn mask in the other hand |
 | Accessories | Borrowed coat; voice-box; blade-limb; mask collection |
-| Pose | stepping from a crowd with one blade-limb out |
+| Pose | stepping out of a crowd with one blade-limb out |
 | Facial expression | face melting, one eye over the other |
 | People | Eldritch |
 | Class | Shoggoths |
 | Subclass | Mimic-Flesh Infiltrators |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | stepping from a crowd with one blade-limb out; the Borrowed coat and the voice-box break the outline so it reads instantly as a black shape |
+| Silhouette hook | stepping out of a crowd with one blade-limb out; the Borrowed coat and the voice-box break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #07c621: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff595e: trim, sash, straps, secondary garment pieces and held gear |
@@ -7428,7 +7428,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as stepping from a crowd with one blade-limb out.
+1. Black-fill test: the silhouette must still read as stepping out of a crowd with one blade-limb out.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Borrowed coat and the pose must be visible at 64 px.
 4. Flat colors: #07c621 / #ff595e / #2e2200 as separate flat shapes divided by black line; no gradients or glow.
@@ -7448,7 +7448,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Mimic-Flesh Infiltrators, female a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age early 40s. humanoid with a melting face, medium size. Pose: stepping from a crowd with one blade-limb out. Expression: face melting, one eye over the other, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mimic-Flesh Infiltrators, female a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age early 40s. humanoid with a melting face, an average build, medium size. Pose: stepping out of a crowd with one blade-limb out. Expression: face melting, one eye over the other, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Borrowed coat. SECOND ITEM, kept plain: voice-box. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: humanoid shoggoth figure with a face melting at the edges into an eye, a borrowed coat, one hand a pale blade, a half-worn mask in the other hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #07c621 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff595e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, on the eyes, the Borrowed coat and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7475,19 +7475,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | hulking and book-layered; huge size; mobility: grounded |
+| Physique | hulking and book-layered, a hunched back; huge size; mobility: grounded |
 | Ethnicity + nationality | Shoggoth (living flesh) |
 | Identity | male a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
 | Wardrobe | hulking amorphous Shoggoth mass layered with half-digested books and small memory-lamps, one big eye peering out of a page, an archive satchel |
 | Accessories | Layered shell of scavenged books; memory-lamps; archive satchel; slime-spine |
-| Pose | hulking forward with books and lamps layered on the body |
+| Pose | hauling itself forward on its knuckles with lamps swaying |
 | Facial expression | single heavy-lidded eye in a page |
 | People | Eldritch |
 | Class | Shoggoths |
 | Subclass | Memory-Mass Archivists |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | hulking forward with books and lamps layered on the body; the Layered shell of scavenged books and the memory-lamps break the outline so it reads instantly as a black shape |
+| Silhouette hook | hauling itself forward on its knuckles with lamps swaying; the Layered shell of scavenged books and the memory-lamps break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #8b3b7b: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #41d1c3: trim, sash, straps, secondary garment pieces and held gear |
@@ -7498,7 +7498,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hulking forward with books and lamps layered on the body.
+1. Black-fill test: the silhouette must still read as hauling itself forward on its knuckles with lamps swaying.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Layered shell of scavenged books and the pose must be visible at 64 px.
 4. Flat colors: #8b3b7b / #41d1c3 / #3d405b as separate flat shapes divided by black line; no gradients or glow.
@@ -7518,7 +7518,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Memory-Mass Archivists, male a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age mid 60s. hulking and book-layered, huge size. Pose: hulking forward with books and lamps layered on the body. Expression: single heavy-lidded eye in a page, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Memory-Mass Archivists, male a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself (Shoggoth (living flesh)), apparent age mid 60s. hulking and book-layered, a hunched back, huge size. Pose: hauling itself forward on its knuckles with lamps swaying. Expression: single heavy-lidded eye in a page, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Layered shell of scavenged books. SECOND ITEM, kept plain: memory-lamps. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hulking amorphous Shoggoth mass layered with half-digested books and small memory-lamps, one big eye peering out of a page, an archive satchel.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8b3b7b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #41d1c3 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3d405b about 10%, on the eyes, the Layered shell of scavenged books and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7548,19 +7548,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | barrel-bodied with five limbs; large size; mobility: grounded |
+| Physique | barrel-bodied with five limbs, a ribbed torso; large size; mobility: grounded |
 | Ethnicity + nationality | Elder Thing (alien) |
 | Identity | male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
 | Wardrobe | barrel-bodied star-headed Elder Thing with five radiating limbs holding a starstone mallet and a surveying rod, wing-clamps folded at the back |
 | Accessories | Starstone mallet; surveying rod; tessellation tablets; wing-clamps |
-| Pose | raising a starstone mallet, rod in another limb |
+| Pose | leaning back on the five limbs with the starstone mallet raised overhead and a rod held out |
 | Facial expression | calm, five-pointed head tilted |
 | People | Eldritch |
 | Class | Elder Things |
 | Subclass | Starstone Architects |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | raising a starstone mallet, rod in another limb; the Starstone mallet and the surveying rod break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning back on the five limbs with the starstone mallet raised overhead and a rod held out; the Starstone mallet and the surveying rod break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #8e44ad: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e9c46a: trim, sash, straps, secondary garment pieces and held gear |
@@ -7571,7 +7571,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as raising a starstone mallet, rod in another limb.
+1. Black-fill test: the silhouette must still read as leaning back on the five limbs with the starstone mallet raised overhead and a rod held out.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Starstone mallet and the pose must be visible at 64 px.
 4. Flat colors: #8e44ad / #e9c46a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
@@ -7591,7 +7591,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Starstone Architects, male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 30s. barrel-bodied with five limbs, large size. Pose: raising a starstone mallet, rod in another limb. Expression: calm, five-pointed head tilted, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Starstone Architects, male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 30s. barrel-bodied with five limbs, a ribbed torso, large size. Pose: leaning back on the five limbs with the starstone mallet raised overhead and a rod held out. Expression: calm, five-pointed head tilted, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Starstone mallet. SECOND ITEM, kept plain: surveying rod. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: barrel-bodied star-headed Elder Thing with five radiating limbs holding a starstone mallet and a surveying rod, wing-clamps folded at the back.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8e44ad about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e9c46a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Starstone mallet and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7618,19 +7618,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | barrel-bodied scholar; large size; mobility: grounded |
+| Physique | barrel-bodied scholar, a patient stance; large size; mobility: grounded |
 | Ethnicity + nationality | Elder Thing (alien) |
 | Identity | female an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
 | Wardrobe | barrel-bodied star-headed Elder Thing scholar with folded wings, a fine strata brush in one radial limb and a chisel in another, a small fossil lamp |
 | Accessories | Chisel; strata-brush; rubbing sheets; fossil lamp |
-| Pose | brushing a glowing tablet, wings folded behind |
+| Pose | kneeling over a glowing tablet brushing it, the wings folded behind |
 | Facial expression | absorbed, patient |
 | People | Eldritch |
 | Class | Elder Things |
 | Subclass | Fossil-Script Historians |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | brushing a glowing tablet, wings folded behind; the Chisel and the strata-brush break the outline so it reads instantly as a black shape |
+| Silhouette hook | kneeling over a glowing tablet brushing it, the wings folded behind; the Chisel and the strata-brush break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #635ebe: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #264653: trim, sash, straps, secondary garment pieces and held gear |
@@ -7641,7 +7641,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as brushing a glowing tablet, wings folded behind.
+1. Black-fill test: the silhouette must still read as kneeling over a glowing tablet brushing it, the wings folded behind.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Chisel and the pose must be visible at 64 px.
 4. Flat colors: #635ebe / #264653 / #e76f51 as separate flat shapes divided by black line; no gradients or glow.
@@ -7661,7 +7661,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Fossil-Script Historians, female an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 60s. barrel-bodied scholar, large size. Pose: brushing a glowing tablet, wings folded behind. Expression: absorbed, patient, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Fossil-Script Historians, female an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age mid 60s. barrel-bodied scholar, a patient stance, large size. Pose: kneeling over a glowing tablet brushing it, the wings folded behind. Expression: absorbed, patient, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Chisel. SECOND ITEM, kept plain: strata-brush. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: barrel-bodied star-headed Elder Thing scholar with folded wings, a fine strata brush in one radial limb and a chisel in another, a small fossil lamp.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #635ebe about 60%, on the largest garment, armor, fur-marking or body areas; secondary #264653 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e76f51 about 10%, on the eyes, the Chisel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7688,19 +7688,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | barrel-bodied and slate-armored; large size; mobility: flying |
+| Physique | barrel-bodied and slate-armored, wide wings; large size; mobility: flying |
 | Ethnicity + nationality | Elder Thing (alien) |
 | Identity | male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
 | Wardrobe | barrel-bodied star-headed Elder Thing guardian with slate-like folded wings as armor, a spear in one limb, shield-clamps, a star visor |
 | Accessories | Slate-plate wings; spear; shield-clamps; star-visor |
-| Pose | wings half-unfurled, spear leveled |
+| Pose | wings half-unfurled and spear leveled, lifting off the ground |
 | Facial expression | severe, star-visor down |
 | People | Eldritch |
 | Class | Elder Things |
 | Subclass | Wingfold Wardens |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | wings half-unfurled, spear leveled; the Slate-plate wings and the spear break the outline so it reads instantly as a black shape |
+| Silhouette hook | wings half-unfurled and spear leveled, lifting off the ground; the Slate-plate wings and the spear break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #db09fb: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #8338ec: trim, sash, straps, secondary garment pieces and held gear |
@@ -7711,7 +7711,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as wings half-unfurled, spear leveled.
+1. Black-fill test: the silhouette must still read as wings half-unfurled and spear leveled, lifting off the ground.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Slate-plate wings and the pose must be visible at 64 px.
 4. Flat colors: #db09fb / #8338ec / #fff1e6 as separate flat shapes divided by black line; no gradients or glow.
@@ -7731,7 +7731,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Wingfold Wardens, male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age early 50s. barrel-bodied and slate-armored, large size. Pose: wings half-unfurled, spear leveled. Expression: severe, star-visor down, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Wingfold Wardens, male an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings (Elder Thing (alien)), apparent age early 50s. barrel-bodied and slate-armored, wide wings, large size. Pose: wings half-unfurled and spear leveled, lifting off the ground. Expression: severe, star-visor down, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Slate-plate wings. SECOND ITEM, kept plain: spear. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: barrel-bodied star-headed Elder Thing guardian with slate-like folded wings as armor, a spear in one limb, shield-clamps, a star visor.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #db09fb about 60%, on the largest garment, armor, fur-marking or body areas; secondary #8338ec about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff1e6 about 10%, on the eyes, the Slate-plate wings and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7761,19 +7761,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | tall, faceless and long-limbed; large size; mobility: flying |
+| Physique | tall, faceless and long-limbed, a smooth head; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
 | Identity | male a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
 | Wardrobe | tall smooth-faced faceless winged Nightgaunt with long limbs, barbed tail, a carry-harness across the chest, a sleep-glass lamp in one clawed hand |
 | Accessories | Barbed tail; sleep-glass lamp; carry-harness; black wing-cloak |
-| Pose | clutching a limp bundle in long limbs, barbed tail curled |
+| Pose | stooped forward clutching a limp bundle in long limbs, the barbed tail curled |
 | Facial expression | faceless, smooth and blank |
 | People | Eldritch |
 | Class | Nightgaunts |
 | Subclass | Dream-Snatchers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | clutching a limp bundle in long limbs, barbed tail curled; the Barbed tail and the sleep-glass lamp break the outline so it reads instantly as a black shape |
+| Silhouette hook | stooped forward clutching a limp bundle in long limbs, the barbed tail curled; the Barbed tail and the sleep-glass lamp break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #862ef4: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e0aaff: trim, sash, straps, secondary garment pieces and held gear |
@@ -7784,7 +7784,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as clutching a limp bundle in long limbs, barbed tail curled.
+1. Black-fill test: the silhouette must still read as stooped forward clutching a limp bundle in long limbs, the barbed tail curled.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Barbed tail and the pose must be visible at 64 px.
 4. Flat colors: #862ef4 / #e0aaff / #ff6d00 as separate flat shapes divided by black line; no gradients or glow.
@@ -7804,7 +7804,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Dream-Snatchers, male a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 20s. tall, faceless and long-limbed, large size. Pose: clutching a limp bundle in long limbs, barbed tail curled. Expression: faceless, smooth and blank, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Dream-Snatchers, male a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 20s. tall, faceless and long-limbed, a smooth head, large size. Pose: stooped forward clutching a limp bundle in long limbs, the barbed tail curled. Expression: faceless, smooth and blank, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Barbed tail. SECOND ITEM, kept plain: sleep-glass lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall smooth-faced faceless winged Nightgaunt with long limbs, barbed tail, a carry-harness across the chest, a sleep-glass lamp in one clawed hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #862ef4 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e0aaff about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff6d00 about 10%, on the eyes, the Barbed tail and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7831,19 +7831,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | tall and faceless; large size; mobility: flying |
+| Physique | tall and faceless, thin long limbs; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
 | Identity | female a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
 | Wardrobe | tall faceless winged Nightgaunt with long limbs and a dark visor, a barbed knife in one hand, a signal lantern at the hip |
 | Accessories | Wing-sail; barbed knife; signal lantern; dark visor |
-| Pose | gliding with one long arm pointed down, knife drawn |
+| Pose | gliding head-down with one long arm pointed down, the knife drawn |
 | Facial expression | faceless, dark visor |
 | People | Eldritch |
 | Class | Nightgaunts |
 | Subclass | Voidwing Scouts |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | gliding with one long arm pointed down, knife drawn; the Wing-sail and the barbed knife break the outline so it reads instantly as a black shape |
+| Silhouette hook | gliding head-down with one long arm pointed down, the knife drawn; the Wing-sail and the barbed knife break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #810070: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4cc9f0: trim, sash, straps, secondary garment pieces and held gear |
@@ -7854,7 +7854,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as gliding with one long arm pointed down, knife drawn.
+1. Black-fill test: the silhouette must still read as gliding head-down with one long arm pointed down, the knife drawn.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Wing-sail and the pose must be visible at 64 px.
 4. Flat colors: #810070 / #4cc9f0 / #2e2200 as separate flat shapes divided by black line; no gradients or glow.
@@ -7874,7 +7874,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Voidwing Scouts, female a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 70s. tall and faceless, large size. Pose: gliding with one long arm pointed down, knife drawn. Expression: faceless, dark visor, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Voidwing Scouts, female a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age early 70s. tall and faceless, thin long limbs, large size. Pose: gliding head-down with one long arm pointed down, the knife drawn. Expression: faceless, dark visor, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wing-sail. SECOND ITEM, kept plain: barbed knife. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall faceless winged Nightgaunt with long limbs and a dark visor, a barbed knife in one hand, a signal lantern at the hip.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #810070 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, on the eyes, the Wing-sail and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7901,7 +7901,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | tall, faceless and long-limbed; large size; mobility: flying |
+| Physique | tall, faceless and long-limbed, a calm stoop; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
 | Identity | nonbinary a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
 | Wardrobe | tall faceless winged Nightgaunt herder with long limbs, a long hooked crook in one hand, a dream-whistle and a flock lantern at the belt |
@@ -7944,7 +7944,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Nightmare Shepherds, nonbinary a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age late 50s. tall, faceless and long-limbed, large size. Pose: leaning on a hooked crook with a drifting flock behind. Expression: faceless and patient, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Nightmare Shepherds, nonbinary a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings (Nightgaunt (alien)), apparent age late 50s. tall, faceless and long-limbed, a calm stoop, large size. Pose: leaning on a hooked crook with a drifting flock behind. Expression: faceless and patient, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Hooked crook. SECOND ITEM, kept plain: dream-whistle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall faceless winged Nightgaunt herder with long limbs, a long hooked crook in one hand, a dream-whistle and a flock lantern at the belt.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #4e52e2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #8ecae6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, on the eyes, the Hooked crook and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -7974,7 +7974,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | angular quadruped; large size; mobility: phasing |
+| Physique | angular quadruped, wedge-shaped head; large size; mobility: phasing |
 | Ethnicity + nationality | Hound of Tindalos (alien) |
 | Identity | male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
 | Wardrobe | angular quadrupedal Hound of Tindalos built from sharp wedges and impossible joints, wedge-claws, a shard tail, a corner-lens collar |
@@ -8017,7 +8017,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Corner-Stalkers, male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 50s. angular quadruped, large size. Pose: bursting out of a sharp corner mid-pounce. Expression: snarling wedge-jaw, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Corner-Stalkers, male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 50s. angular quadruped, wedge-shaped head, large size. Pose: bursting out of a sharp corner mid-pounce. Expression: snarling wedge-jaw, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wedge-claws. SECOND ITEM, kept plain: angular plates. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: angular quadrupedal Hound of Tindalos built from sharp wedges and impossible joints, wedge-claws, a shard tail, a corner-lens collar.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #622367 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00f5d4 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, on the eyes, the Wedge-claws and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -8044,19 +8044,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | angular wedge-built hound; large size; mobility: phasing |
+| Physique | angular wedge-built hound, a long narrow snout; large size; mobility: phasing |
 | Ethnicity + nationality | Hound of Tindalos (alien) |
 | Identity | female an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
 | Wardrobe | angular wedge-built Hound of Tindalos with a wedge jaw, an hourglass lens collar, angular plating across the body |
 | Accessories | Chrono-fang; wedge-jaw; hourglass lens; angular plating |
-| Pose | sniffing a crack in the air with a ghostly copy a half-second behind |
+| Pose | nose to the ground sniffing a crack in the air, a ghostly copy a half-second behind |
 | Facial expression | nose to the air, jaws parted |
 | People | Eldritch |
 | Class | Hounds of Tindalos |
 | Subclass | Time-Scent Trackers |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | sniffing a crack in the air with a ghostly copy a half-second behind; the Chrono-fang and the wedge-jaw break the outline so it reads instantly as a black shape |
+| Silhouette hook | nose to the ground sniffing a crack in the air, a ghostly copy a half-second behind; the Chrono-fang and the wedge-jaw break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #a7777e: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #7b2cbf: trim, sash, straps, secondary garment pieces and held gear |
@@ -8067,7 +8067,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as sniffing a crack in the air with a ghostly copy a half-second behind.
+1. Black-fill test: the silhouette must still read as nose to the ground sniffing a crack in the air, a ghostly copy a half-second behind.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Chrono-fang and the pose must be visible at 64 px.
 4. Flat colors: #a7777e / #7b2cbf / #201c49 as separate flat shapes divided by black line; no gradients or glow.
@@ -8087,7 +8087,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Time-Scent Trackers, female an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s. angular wedge-built hound, large size. Pose: sniffing a crack in the air with a ghostly copy a half-second behind. Expression: nose to the air, jaws parted, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Time-Scent Trackers, female an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s. angular wedge-built hound, a long narrow snout, large size. Pose: nose to the ground sniffing a crack in the air, a ghostly copy a half-second behind. Expression: nose to the air, jaws parted, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Chrono-fang. SECOND ITEM, kept plain: wedge-jaw. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: angular wedge-built Hound of Tindalos with a wedge jaw, an hourglass lens collar, angular plating across the body.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a7777e about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7b2cbf about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #201c49 about 10%, on the eyes, the Chrono-fang and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -8114,7 +8114,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | angular with split jaws; large size; mobility: phasing |
+| Physique | angular with split jaws, plane-edged body; large size; mobility: phasing |
 | Ethnicity + nationality | Hound of Tindalos (alien) |
 | Identity | male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes |
 | Wardrobe | angular wedge-built Hound of Tindalos with a jaw splitting open along a bright plane, wedge-plate shoulder spikes, dimensional shears, a shard tail |
@@ -8157,7 +8157,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Fracture-Jaw Reapers, male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s. angular with split jaws, large size. Pose: lunging with the split jaws wide open. Expression: jaw splitting along a bright plane, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Fracture-Jaw Reapers, male an angular wedge-bodied hound whose jaw and limbs are made of sharp planes, with a long narrow snout and glowing eyes (Hound of Tindalos (alien)), apparent age early 30s. angular with split jaws, plane-edged body, large size. Pose: lunging with the split jaws wide open. Expression: jaw splitting along a bright plane, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Split jaws. SECOND ITEM, kept plain: wedge-plate shoulder spikes. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: angular wedge-built Hound of Tindalos with a jaw splitting open along a bright plane, wedge-plate shoulder spikes, dimensional shears, a shard tail.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #5b013d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #def6ff about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #242a57 about 10%, on the eyes, the Split jaws and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -8266,19 +8266,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | lean and quick; medium size; mobility: agile |
+| Physique | lean and quick, a coil-wound sleeve, a short coat; medium size; mobility: agile |
 | Ethnicity + nationality | Mexican heritage, Mexican |
 | Identity | a young man in his twenties of Mexican-inspired features, sharp sideburns |
 | Wardrobe | wizard in a sharp short coat, a coil-hilt rapier in one hand, capacitor bracers on both wrists, insulated gloves |
 | Accessories | Coil-hilt rapier; capacitor bracers; insulated gloves; short coat |
-| Pose | full lunge, coil-rapier extended with a discharge arc |
+| Pose | spinning on the front foot with the coil-rapier extended and a discharge arc trailing |
 | Facial expression | cocky, sparking grin |
 | People | Magic |
 | Class | Wizard |
 | Subclass | Circuit Arcanists |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | full lunge, coil-rapier extended with a discharge arc; the Coil-hilt rapier and the capacitor bracers break the outline so it reads instantly as a black shape |
+| Silhouette hook | spinning on the front foot with the coil-rapier extended and a discharge arc trailing; the Coil-hilt rapier and the capacitor bracers break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #8283f7: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff5d8f: trim, sash, straps, secondary garment pieces and held gear |
@@ -8289,7 +8289,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as full lunge, coil-rapier extended with a discharge arc.
+1. Black-fill test: the silhouette must still read as spinning on the front foot with the coil-rapier extended and a discharge arc trailing.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Coil-hilt rapier and the pose must be visible at 64 px.
 4. Flat colors: #8283f7 / #ff5d8f / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -8309,7 +8309,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Circuit Arcanists, a young man in his twenties of Mexican-inspired features, sharp sideburns (Mexican heritage, Mexican), apparent age mid 20s. lean and quick, medium size. Pose: full lunge, coil-rapier extended with a discharge arc. Expression: cocky, sparking grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Circuit Arcanists, a young man in his twenties of Mexican-inspired features, sharp sideburns (Mexican heritage, Mexican), apparent age mid 20s. lean and quick, a coil-wound sleeve, a short coat, medium size. Pose: spinning on the front foot with the coil-rapier extended and a discharge arc trailing. Expression: cocky, sparking grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Coil-hilt rapier. SECOND ITEM, kept plain: capacitor bracers. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: wizard in a sharp short coat, a coil-hilt rapier in one hand, capacitor bracers on both wrists, insulated gloves.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8283f7 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff5d8f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Coil-hilt rapier and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8459,19 +8459,19 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | average and shawled; medium size; mobility: grounded |
+| Physique | average and shawled, a stooped back, a heavy patchwork shawl; medium size; mobility: grounded |
 | Ethnicity + nationality | Lebanese heritage, Lebanese |
 | Identity | a woman in her mid-thirties of Lebanese-inspired features, dark headscarf |
 | Wardrobe | woman in a layered shawl and headscarf, a bent antenna wand in one hand and a battered hex radio on a strap, curse tapes tucked in a bandolier |
 | Accessories | Hex radio; antenna wand; curse cassettes; shawl |
-| Pose | antenna wand pointing out, radio held against the hip |
+| Pose | turning at the hips with the antenna wand pointing out, a radio held against the hip |
 | Facial expression | smoldering, lips moving in a murmur |
 | People | Magic |
 | Class | Witch |
 | Subclass | Scraphex Witches |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | antenna wand pointing out, radio held against the hip; the Hex radio and the antenna wand break the outline so it reads instantly as a black shape |
+| Silhouette hook | turning at the hips with the antenna wand pointing out, a radio held against the hip; the Hex radio and the antenna wand break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #b703ec: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #00b4d8: trim, sash, straps, secondary garment pieces and held gear |
@@ -8482,7 +8482,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as antenna wand pointing out, radio held against the hip.
+1. Black-fill test: the silhouette must still read as turning at the hips with the antenna wand pointing out, a radio held against the hip.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Hex radio and the pose must be visible at 64 px.
 4. Flat colors: #b703ec / #00b4d8 / #e4ffda as separate flat shapes divided by black line; no gradients or glow.
@@ -8502,7 +8502,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Scraphex Witches, a woman in her mid-thirties of Lebanese-inspired features, dark headscarf (Lebanese heritage, Lebanese), apparent age mid 30s. average and shawled, medium size. Pose: antenna wand pointing out, radio held against the hip. Expression: smoldering, lips moving in a murmur, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Scraphex Witches, a woman in her mid-thirties of Lebanese-inspired features, dark headscarf (Lebanese heritage, Lebanese), apparent age mid 30s. average and shawled, a stooped back, a heavy patchwork shawl, medium size. Pose: turning at the hips with the antenna wand pointing out, a radio held against the hip. Expression: smoldering, lips moving in a murmur, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Hex radio. SECOND ITEM, kept plain: antenna wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: woman in a layered shawl and headscarf, a bent antenna wand in one hand and a battered hex radio on a strap, curse tapes tucked in a bandolier.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b703ec about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00b4d8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, on the eyes, the Hex radio and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8529,19 +8529,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | warm and sturdy; medium size; mobility: grounded |
+| Physique | warm and sturdy, a barrel chest, wide forearms; medium size; mobility: grounded |
 | Ethnicity + nationality | West African heritage, Senegalese |
 | Identity | a man in his forties of West African-inspired features, close-cropped beard |
 | Wardrobe | warm man in a long herb-stained coat and a woven sash, a mortar and pestle in one hand and a root-carved cane in the other, a herb satchel at the hip |
 | Accessories | Herb satchel; mortar and pestle; root-carved cane; woven sash |
-| Pose | grinding herbs in a mortar, cane tucked under the arm |
+| Pose | seated on a stump grinding herbs in a mortar, the cane across the knees |
 | Facial expression | warm, reassuring |
 | People | Magic |
 | Class | Witch |
 | Subclass | Thornblood Coven |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | grinding herbs in a mortar, cane tucked under the arm; the Herb satchel and the mortar and pestle break the outline so it reads instantly as a black shape |
+| Silhouette hook | seated on a stump grinding herbs in a mortar, the cane across the knees; the Herb satchel and the mortar and pestle break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #0d5faf: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f4a261: trim, sash, straps, secondary garment pieces and held gear |
@@ -8552,7 +8552,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as grinding herbs in a mortar, cane tucked under the arm.
+1. Black-fill test: the silhouette must still read as seated on a stump grinding herbs in a mortar, the cane across the knees.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Herb satchel and the pose must be visible at 64 px.
 4. Flat colors: #0d5faf / #f4a261 / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -8572,7 +8572,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Thornblood Coven, a man in his forties of West African-inspired features, close-cropped beard (West African heritage, Senegalese), apparent age mid 40s. warm and sturdy, medium size. Pose: grinding herbs in a mortar, cane tucked under the arm. Expression: warm, reassuring, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Thornblood Coven, a man in his forties of West African-inspired features, close-cropped beard (West African heritage, Senegalese), apparent age mid 40s. warm and sturdy, a barrel chest, wide forearms, medium size. Pose: seated on a stump grinding herbs in a mortar, the cane across the knees. Expression: warm, reassuring, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Herb satchel. SECOND ITEM, kept plain: mortar and pestle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: warm man in a long herb-stained coat and a woven sash, a mortar and pestle in one hand and a root-carved cane in the other, a herb satchel at the hip.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #0d5faf about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4a261 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Herb satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8602,19 +8602,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | gaunt and tall; medium size; mobility: grounded |
+| Physique | gaunt and tall, sunken cheeks, long pale hands; medium size; mobility: grounded |
 | Ethnicity + nationality | Greek heritage, Greek |
 | Identity | a young man in his twenties of Greek-inspired features, shaven head |
 | Wardrobe | young man in a jagged mantle and asymmetric armor, a ritual mark glowing on one open palm and a small offering bowl in the other, a thin crown of black spikes |
 | Accessories | Offering bowl; void-marked gauntlet; ritual-scar mantle; jagged crown |
-| Pose | kneeling to cast, one palm glowing, offering bowl held out |
+| Pose | kneeling to cast with one palm glowing and the offering bowl held out |
 | Facial expression | hollow, reverent smile |
 | People | Magic |
 | Class | Warlock |
 | Subclass | Voidbound |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | kneeling to cast, one palm glowing, offering bowl held out; the Offering bowl and the void-marked gauntlet break the outline so it reads instantly as a black shape |
+| Silhouette hook | kneeling to cast with one palm glowing and the offering bowl held out; the Offering bowl and the void-marked gauntlet break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #065255: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #6a4c93: trim, sash, straps, secondary garment pieces and held gear |
@@ -8625,7 +8625,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as kneeling to cast, one palm glowing, offering bowl held out.
+1. Black-fill test: the silhouette must still read as kneeling to cast with one palm glowing and the offering bowl held out.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Offering bowl and the pose must be visible at 64 px.
 4. Flat colors: #065255 / #6a4c93 / #caf9ff as separate flat shapes divided by black line; no gradients or glow.
@@ -8645,7 +8645,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Voidbound, a young man in his twenties of Greek-inspired features, shaven head (Greek heritage, Greek), apparent age mid 20s. gaunt and tall, medium size. Pose: kneeling to cast, one palm glowing, offering bowl held out. Expression: hollow, reverent smile, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Voidbound, a young man in his twenties of Greek-inspired features, shaven head (Greek heritage, Greek), apparent age mid 20s. gaunt and tall, sunken cheeks, long pale hands, medium size. Pose: kneeling to cast with one palm glowing and the offering bowl held out. Expression: hollow, reverent smile, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Offering bowl. SECOND ITEM, kept plain: void-marked gauntlet. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: young man in a jagged mantle and asymmetric armor, a ritual mark glowing on one open palm and a small offering bowl in the other, a thin crown of black spikes.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #065255 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #6a4c93 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #caf9ff about 10%, on the eyes, the Offering bowl and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8672,19 +8672,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | lean and sinewy; medium size; mobility: agile |
+| Physique | lean and sinewy, wire-wrapped forearms, a shaved head; medium size; mobility: agile |
 | Ethnicity + nationality | Vietnamese heritage, Vietnamese |
 | Identity | a man in his twenties of Vietnamese-inspired features, circuit tattoos |
 | Wardrobe | lean man with glowing circuit tattoos along both arms, a bladed capacitor in each hand mid-slash, thorn plates on the shoulders |
 | Accessories | Vein-lit twin blades; wired arm sleeves; thorn plates; glowing circuit tattoos |
-| Pose | crossed blades mid-slash with circuits blazing |
+| Pose | crouched ready to spring, crossed blades low, circuits blazing along the arms |
 | Facial expression | feral, sinewy grin |
 | People | Magic |
 | Class | Warlock |
 | Subclass | Bloodwire Apostates |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | crossed blades mid-slash with circuits blazing; the Vein-lit twin blades and the wired arm sleeves break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched ready to spring, crossed blades low, circuits blazing along the arms; the Vein-lit twin blades and the wired arm sleeves break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #b368c9: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #7b47cf: trim, sash, straps, secondary garment pieces and held gear |
@@ -8695,7 +8695,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crossed blades mid-slash with circuits blazing.
+1. Black-fill test: the silhouette must still read as crouched ready to spring, crossed blades low, circuits blazing along the arms.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Vein-lit twin blades and the pose must be visible at 64 px.
 4. Flat colors: #b368c9 / #7b47cf / #fff1e6 as separate flat shapes divided by black line; no gradients or glow.
@@ -8715,7 +8715,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Bloodwire Apostates, a man in his twenties of Vietnamese-inspired features, circuit tattoos (Vietnamese heritage, Vietnamese), apparent age mid 20s. lean and sinewy, medium size. Pose: crossed blades mid-slash with circuits blazing. Expression: feral, sinewy grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Bloodwire Apostates, a man in his twenties of Vietnamese-inspired features, circuit tattoos (Vietnamese heritage, Vietnamese), apparent age mid 20s. lean and sinewy, wire-wrapped forearms, a shaved head, medium size. Pose: crouched ready to spring, crossed blades low, circuits blazing along the arms. Expression: feral, sinewy grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Vein-lit twin blades. SECOND ITEM, kept plain: wired arm sleeves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lean man with glowing circuit tattoos along both arms, a bladed capacitor in each hand mid-slash, thorn plates on the shoulders.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b368c9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7b47cf about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff1e6 about 10%, on the eyes, the Vein-lit twin blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8742,19 +8742,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | slim and quick; medium size; mobility: phasing |
+| Physique | slim and quick, a coat with a high collar; medium size; mobility: phasing |
 | Ethnicity + nationality | Persian heritage, Iranian |
 | Identity | a man in his thirties of Persian-inspired features, a mirrored half-mask |
 | Wardrobe | slim man in a coat of mirrored glass panels and a reflective half-mask, a mirror-shard dagger in each hand, caught mid-step |
 | Accessories | Mirror-shard daggers; reflective half-mask; glass-panel coat; silver gloves |
-| Pose | stepping out of a reflection, dagger low |
+| Pose | stepping out of a reflection with the dagger low |
 | Facial expression | impassive, only the eyes visible |
 | People | Magic |
 | Class | Warlock |
 | Subclass | Mirror Oathbreakers |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | stepping out of a reflection, dagger low; the Mirror-shard daggers and the reflective half-mask break the outline so it reads instantly as a black shape |
+| Silhouette hook | stepping out of a reflection with the dagger low; the Mirror-shard daggers and the reflective half-mask break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #00343e: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #0077b6: trim, sash, straps, secondary garment pieces and held gear |
@@ -8765,7 +8765,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as stepping out of a reflection, dagger low.
+1. Black-fill test: the silhouette must still read as stepping out of a reflection with the dagger low.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Mirror-shard daggers and the pose must be visible at 64 px.
 4. Flat colors: #00343e / #0077b6 / #f72585 as separate flat shapes divided by black line; no gradients or glow.
@@ -8785,7 +8785,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Mirror Oathbreakers, a man in his thirties of Persian-inspired features, a mirrored half-mask (Persian heritage, Iranian), apparent age mid 30s. slim and quick, medium size. Pose: stepping out of a reflection, dagger low. Expression: impassive, only the eyes visible, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mirror Oathbreakers, a man in his thirties of Persian-inspired features, a mirrored half-mask (Persian heritage, Iranian), apparent age mid 30s. slim and quick, a coat with a high collar, medium size. Pose: stepping out of a reflection with the dagger low. Expression: impassive, only the eyes visible, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Mirror-shard daggers. SECOND ITEM, kept plain: reflective half-mask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slim man in a coat of mirrored glass panels and a reflective half-mask, a mirror-shard dagger in each hand, caught mid-step.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #00343e about 60%, on the largest garment, armor, fur-marking or body areas; secondary #0077b6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f72585 about 10%, on the eyes, the Mirror-shard daggers and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8815,7 +8815,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | lean and restless; medium size; mobility: agile |
+| Physique | lean and restless, a thin frame, a loose jacket; medium size; mobility: agile |
 | Ethnicity + nationality | Nigerian heritage, Nigerian |
 | Identity | a young man in his twenties of Nigerian-inspired features, close-cropped hair |
 | Wardrobe | lean young man in a scuffed jacket mid-dodge, a narrow blade drawn, a pocket watch swinging on a chain |
@@ -8858,7 +8858,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Chronofractures, a young man in his twenties of Nigerian-inspired features, close-cropped hair (Nigerian heritage, Nigerian), apparent age mid 20s. lean and restless, medium size. Pose: leaning out of a dodge with a ghost-copy a step behind. Expression: restless, half-smiling, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Chronofractures, a young man in his twenties of Nigerian-inspired features, close-cropped hair (Nigerian heritage, Nigerian), apparent age mid 20s. lean and restless, a thin frame, a loose jacket, medium size. Pose: leaning out of a dodge with a ghost-copy a step behind. Expression: restless, half-smiling, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pocket watch. SECOND ITEM, kept plain: narrow blade. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lean young man in a scuffed jacket mid-dodge, a narrow blade drawn, a pocket watch swinging on a chain.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8c606f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff3b0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #d00000 about 10%, on the eyes, the Pocket watch and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8885,19 +8885,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | slender and composed; medium size; mobility: grounded |
+| Physique | slender and composed, a long neck, still hands; medium size; mobility: grounded |
 | Ethnicity + nationality | Japanese heritage, Japanese |
 | Identity | a man in his thirties of Japanese-inspired features, a plain headband |
 | Wardrobe | slender man in a plain wrapped robe and a headband, one hand outstretched with a few thought-blades hovering near it, eyes shut |
 | Accessories | Wrapped fists; plain headband; floating-blade focus; simple robe |
-| Pose | one hand extended with three thought-blades floating |
+| Pose | standing with one hand extended and three thought-blades floating in an arc |
 | Facial expression | composed, eyes shut |
 | People | Magic |
 | Class | Mage |
 | Subclass | Mindweavers |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | one hand extended with three thought-blades floating; the Wrapped fists and the plain headband break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing with one hand extended and three thought-blades floating in an arc; the Wrapped fists and the plain headband break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #fe6eb5: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fee440: trim, sash, straps, secondary garment pieces and held gear |
@@ -8908,7 +8908,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as one hand extended with three thought-blades floating.
+1. Black-fill test: the silhouette must still read as standing with one hand extended and three thought-blades floating in an arc.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Wrapped fists and the pose must be visible at 64 px.
 4. Flat colors: #fe6eb5 / #fee440 / #d8fdff as separate flat shapes divided by black line; no gradients or glow.
@@ -8928,7 +8928,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Mindweavers, a man in his thirties of Japanese-inspired features, a plain headband (Japanese heritage, Japanese), apparent age mid 30s. slender and composed, medium size. Pose: one hand extended with three thought-blades floating. Expression: composed, eyes shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mindweavers, a man in his thirties of Japanese-inspired features, a plain headband (Japanese heritage, Japanese), apparent age mid 30s. slender and composed, a long neck, still hands, medium size. Pose: standing with one hand extended and three thought-blades floating in an arc. Expression: composed, eyes shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wrapped fists. SECOND ITEM, kept plain: plain headband. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender man in a plain wrapped robe and a headband, one hand outstretched with a few thought-blades hovering near it, eyes shut.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fe6eb5 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fee440 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #d8fdff about 10%, on the eyes, the Wrapped fists and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).
@@ -8955,7 +8955,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Nonbinary |
-| Physique | wiry and androgynous; medium size; mobility: agile |
+| Physique | wiry and androgynous, a short crop of hair; medium size; mobility: agile |
 | Ethnicity + nationality | Peruvian heritage, Peruvian |
 | Identity | a wiry person in their twenties of Peruvian-inspired features, short cropped hair |
 | Wardrobe | wiry person in a short insulated cape, both hands crackling with lightning, a line of scorched sparks trailing behind, no weapons |
@@ -8998,7 +8998,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Fluxborn, a wiry person in their twenties of Peruvian-inspired features, short cropped hair (Peruvian heritage, Peruvian), apparent age mid 20s. wiry and androgynous, medium size. Pose: mid-dash with lightning crackling in both hands. Expression: wild, laughing, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Fluxborn, a wiry person in their twenties of Peruvian-inspired features, short cropped hair (Peruvian heritage, Peruvian), apparent age mid 20s. wiry and androgynous, a short crop of hair, medium size. Pose: mid-dash with lightning crackling in both hands. Expression: wild, laughing, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Insulated shoulder cape. SECOND ITEM, kept plain: sparkgap gloves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: wiry person in a short insulated cape, both hands crackling with lightning, a line of scorched sparks trailing behind, no weapons.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fffe64 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff4d6d about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff0d1 about 10%, on the eyes, the Insulated shoulder cape and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #6b3fa6 (background only).

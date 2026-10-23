@@ -59,7 +59,7 @@ for row in ws.iter_rows():
 # ------------------------------------------------------------------ ROSTER
 ws = wb.create_sheet("Character Art Roster")
 H = ["ID", "Slug", "People", "Class", "Subclass (character)", "Character", "Gender", "Apparent age", "Physique", "Size", "Mobility", "Heritage inspiration", "Canon status", "Tagline", "Type", "Role",
-     "Signature gear", "Companion", "Unique pose", "Facial expression", "Wardrobe", "Palette (main / secondary / pop)", "Main (60%)", "Secondary (30%)", "Pop (10%)", "Main used on", "Secondary used on", "Pop used on", "Natural base tones",
+     "Signature gear", "Companion", "Unique pose", "Pose family (line of action)", "Facial expression", "Wardrobe", "Palette (main / secondary / pop)", "Main (60%)", "Secondary (30%)", "Pop (10%)", "Main used on", "Secondary used on", "Pop used on", "Natural base tones",
      "Silhouette hook", "Shape language", "2D silhouette & simplification", "SJ check 1: black fill", "SJ check 2: few shapes", "SJ check 3: thumbnail", "SJ check 4: flat colors", "SJ check 5: distinctive", "Visual benchmark",
      "CHARACTER prompt (transparent art)", "BACKGROUND prompt (stippled ink)", "Environment concept", "People background color", "Midground", "Foreground", "Background items",
      "Character filename", "Background filename", "Source appearance", "Source overview", "Source abilities", "Strengths", "Weaknesses", "Lore placement", "Design status", "Prompt length (char / bg)"]
@@ -67,13 +67,13 @@ for c in CH:
     cut = c["wardrobe"].split(",")[:3]
     canon = "creative casting; adapt to fictional world" if c["ethnicity"].endswith("(not human)") is False else "species design"
     ws.append([c["nda"], c["id"], c["people"], c["cls"], c["subclass"], c["name"], c["gender"], c["age"], c["physique"], c["size"], c["mobility"], c["ethnicity"], canon, c["tagline"], c["type"], c["role"],
-        c["accessories"], c.get("companion", ""), c["pose"], c["expression"], c["wardrobe"], f'{c["main"]} / {c["secondary"]} / {c["pop"]}', c["main"], c["secondary"], c["pop"], c["mainUse"], c["secondaryUse"], c["popUse"], c["baseTones"],
+        c["accessories"], c.get("companion", ""), c["pose"], c.get("poseFamily", ""), c["expression"], c["wardrobe"], f'{c["main"]} / {c["secondary"]} / {c["pop"]}', c["main"], c["secondary"], c["pop"], c["mainUse"], c["secondaryUse"], c["popUse"], c["baseTones"],
         c["silhouette"], c["shape"], f'Cut 60-75% of source micro-detail. Keep 2-3 costume masses ({"; ".join(x.strip() for x in cut)}) and one hero prop ({c["accessories"].split(";")[0]}). Shape language: {c["shape"]}. Two flat tonal planes per material.',
         *c["jack"], "Approved: Human Interceptors, Vampire Owlwing Watch, Were Moonrunners", c["charPrompt"], c["bgPrompt"], c["scene"], c["peopleColor"], c["midground"], c["foreground"], c["bgItems"],
         c["fileChar"], c["fileBg"], c.get("look", ""), c.get("summary", ""), c.get("abilities", ""), c.get("strengths", ""), c.get("weaknesses", ""), c.get("lorePlace", ""),
         "Final art accepted" if c.get("art") else "Prompt ready", f'{len(c["charPrompt"])} / {len(c["bgPrompt"])}'])
-widths = [6, 18, 14, 18, 22, 22, 10, 11, 22, 8, 11, 26, 20, 28, 11, 9, 34, 26, 38, 22, 52, 28, 11, 11, 11, 28, 28, 28, 30, 44, 30, 50, 40, 40, 36, 40, 40, 30, 90, 90, 44, 12, 34, 30, 36, 34, 34, 44, 40, 40, 30, 30, 44, 18, 14]
-style(ws, widths, wrap={8, 9, 11, 13, 16, 17, 18, 19, 20, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 47, 48, 49, 50, 51}, swatch={22, 23, 24, 41}, freeze="G2")
+widths = [6, 18, 14, 18, 22, 22, 10, 11, 22, 8, 11, 26, 20, 28, 11, 9, 34, 26, 38, 14, 22, 52, 28, 11, 11, 11, 28, 28, 28, 30, 44, 30, 50, 40, 40, 36, 40, 40, 30, 90, 90, 44, 12, 34, 30, 36, 34, 34, 44, 40, 40, 30, 30, 44, 18, 14]
+style(ws, widths, wrap={8, 9, 11, 13, 16, 17, 18, 19, 21, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 48, 49, 50, 51, 52}, swatch={23, 24, 25, 42}, freeze="G2")
 ws.row_dimensions[1].height = 34
 
 # ------------------------------------------------------------------ CHAT PROMPTS

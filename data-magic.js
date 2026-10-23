@@ -23,7 +23,7 @@ Object.assign(CHAR_META, {
  },
  "circuitarcanists": {
   "type": "fighter",
-  "physique": "lean and quick",
+  "physique": "lean and quick, a coil-wound sleeve, a short coat",
   "size": "medium",
   "move": "agile",
   "who": "a young man in his twenties of Mexican-inspired features, sharp sideburns"
@@ -44,56 +44,56 @@ Object.assign(CHAR_META, {
  },
  "scraphexwitches": {
   "type": "controller",
-  "physique": "average and shawled",
+  "physique": "average and shawled, a stooped back, a heavy patchwork shawl",
   "size": "medium",
   "move": "grounded",
   "who": "a woman in her mid-thirties of Lebanese-inspired features, dark headscarf"
  },
  "thornbloodcoven": {
   "type": "support",
-  "physique": "warm and sturdy",
+  "physique": "warm and sturdy, a barrel chest, wide forearms",
   "size": "medium",
   "move": "grounded",
   "who": "a man in his forties of West African-inspired features, close-cropped beard"
  },
  "voidbound": {
   "type": "blaster",
-  "physique": "gaunt and tall",
+  "physique": "gaunt and tall, sunken cheeks, long pale hands",
   "size": "medium",
   "move": "grounded",
   "who": "a young man in his twenties of Greek-inspired features, shaven head"
  },
  "bloodwireapostates": {
   "type": "fighter",
-  "physique": "lean and sinewy",
+  "physique": "lean and sinewy, wire-wrapped forearms, a shaved head",
   "size": "medium",
   "move": "agile",
   "who": "a man in his twenties of Vietnamese-inspired features, circuit tattoos"
  },
  "mirroroathbreakers": {
   "type": "assassin",
-  "physique": "slim and quick",
+  "physique": "slim and quick, a coat with a high collar",
   "size": "medium",
   "move": "phasing",
   "who": "a man in his thirties of Persian-inspired features, a mirrored half-mask"
  },
  "chronofractures": {
   "type": "fighter",
-  "physique": "lean and restless",
+  "physique": "lean and restless, a thin frame, a loose jacket",
   "size": "medium",
   "move": "agile",
   "who": "a young man in his twenties of Nigerian-inspired features, close-cropped hair"
  },
  "mindweavers": {
   "type": "caster",
-  "physique": "slender and composed",
+  "physique": "slender and composed, a long neck, still hands",
   "size": "medium",
   "move": "grounded",
   "who": "a man in his thirties of Japanese-inspired features, a plain headband"
  },
  "fluxborn": {
   "type": "assassin",
-  "physique": "wiry and androgynous",
+  "physique": "wiry and androgynous, a short crop of hair",
   "size": "medium",
   "move": "agile",
   "who": "a wiry person in their twenties of Peruvian-inspired features, short cropped hair"
