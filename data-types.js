@@ -23,7 +23,7 @@ const T = (type, physique, size, move) => ({ type, physique, size, move });
 window.CHAR_META = {
   // human
   interceptors: T("bruiser", "wiry and hard-jawed", "medium", "vehicle"),
-  outriders: T("assassin", "lean and quick", "medium", "vehicle"),
+  outriders: T("assassin", "lean, wiry and weathered", "medium", "vehicle"),
   fuelpriests: T("blaster", "stocky and robed", "medium", "grounded"),
   joystick: T("fighter", "lean and precise", "medium", "agile"),
   pinball: T("blaster", "rangy and loose-limbed", "medium", "agile"),

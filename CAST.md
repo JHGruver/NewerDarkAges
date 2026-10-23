@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 11.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 12.
 
 ## Art direction in one screen
 
@@ -111,34 +111,34 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | lean and quick; medium size; mobility: vehicle |
+| Physique | lean, wiry and weathered; medium size; mobility: vehicle |
 | Ethnicity + nationality | Mexican-Native heritage, Mexican |
 | Identity | female being, character |
-| Wardrobe | lean human rider in a patched riding jacket, spiked shoulder pads, bandana mask and boots, a coiled chain whip in one hand and a compact crossbow in the other |
-| Accessories | Chopper; chain whip; crossbow; spiked pads |
-| Pose | hunched low in a speeding lean, chain whip trailing behind |
+| Wardrobe | lean, weathered older woman rider with a long silver braid and a red bandana, a patched blue riding jacket with spiked black shoulder pads, a crimson scarf and sash, black trousers, buckled leather boots with metal knee guards, a coiled barbed chain whip in one hand and a compact crossbow in the other |
+| Accessories | Barbed chain whip; compact crossbow; spiked pauldrons; red bandana; chopper (kept in the background) |
+| Pose | mid-lunge in a wide low stance, the barbed chain whip arcing overhead and the crossbow aimed forward |
 | Facial expression | fierce lopsided grin |
 | People | Human |
 | Class | Roadwar Convoys |
 | Subclass | Outriders |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | hunched low in a speeding lean, chain whip trailing behind; the Chopper and the chain whip break the outline so it reads instantly as a black shape |
+| Silhouette hook | mid-lunge in a wide low stance, the barbed chain whip arcing overhead and the crossbow aimed forward; the Barbed chain whip and the compact crossbow break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #3a86ff: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff006e: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #fff7c7: the eyes, the Chopper and one small magical detail |
+| Pop color (10%) | #fff7c7: the eyes, the Barbed chain whip and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-outriders.png` and `art/v2/human-outriders-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hunched low in a speeding lean, chain whip trailing behind.
+1. Black-fill test: the silhouette must still read as mid-lunge in a wide low stance, the barbed chain whip arcing overhead and the crossbow aimed forward.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Chopper and the pose must be visible at 64 px.
+3. Thumbnail test: the Barbed chain whip and the pose must be visible at 64 px.
 4. Flat colors: #3a86ff / #ff006e / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Chopper and chain whip and the assassin shape language.
+5. Distinctive without detail: identifiable by Barbed chain whip and compact crossbow and the assassin shape language.
 
 **Background**
 
@@ -154,10 +154,10 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Outriders, female being, character (Mexican-Native heritage, Mexican), apparent age early 70s.
-DESIGN FOR SILHOUETTE FIRST: hunched low in a speeding lean, chain whip trailing behind; the Chopper and the chain whip break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
-BODY: lean and quick, medium size, vehicle. POSE: hunched low in a speeding lean, chain whip trailing behind. EXPRESSION: fierce lopsided grin, stylized and expressive.
-WARDROBE AND HELD GEAR (worn or hand-held only): lean human rider in a patched riding jacket, spiked shoulder pads, bandana mask and boots, a coiled chain whip in one hand and a compact crossbow in the other.
-COLOR (exact hex values, flat fills): main #3a86ff about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Chopper and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
+DESIGN FOR SILHOUETTE FIRST: mid-lunge in a wide low stance, the barbed chain whip arcing overhead and the crossbow aimed forward; the Barbed chain whip and the compact crossbow break the outline so it reads instantly as a black shape. Shape language: sharp triangles, long thin blades, a low coiled posture.
+BODY: lean, wiry and weathered, medium size, vehicle. POSE: mid-lunge in a wide low stance, the barbed chain whip arcing overhead and the crossbow aimed forward. EXPRESSION: fierce lopsided grin, stylized and expressive.
+WARDROBE AND HELD GEAR (worn or hand-held only): lean, weathered older woman rider with a long silver braid and a red bandana, a patched blue riding jacket with spiked black shoulder pads, a crimson scarf and sash, black trousers, buckled leather boots with metal knee guards, a coiled barbed chain whip in one hand and a compact crossbow in the other.
+COLOR (exact hex values, flat fills): main #3a86ff about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Barbed chain whip and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
 SOLIDITY: every large shape is a fully filled, opaque, closed shape with a black contour line; no region fades, dissolves or disappears into the transparency; avoid large pale pink, light grey or white body areas (fill large areas with the assigned colors, a dark base tone or bone-cream edged in black); the figure is one connected body with all parts attached.

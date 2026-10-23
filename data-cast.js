@@ -6,7 +6,7 @@ const C = (g, eth, expr, pose) => ({ gender: g, ethnicity: eth, expression: expr
 window.CAST = {
   /* ---------------- HUMAN ---------------- */
   interceptors: C("Male", "Irish-Scottish heritage, Scottish", "fierce, jaw set, one eyebrow cocked", "wide fighting stance with the crowbar swung back over one shoulder"),
-  outriders: C("Female", "Mexican-Native heritage, Mexican", "fierce lopsided grin", "hunched low in a speeding lean, chain whip trailing behind"),
+  outriders: C("Female", "Mexican-Native heritage, Mexican", "fierce lopsided grin", "mid-lunge in a wide low stance, the barbed chain whip arcing overhead and the crossbow aimed forward"),
   fuelpriests: C("Male", "Armenian heritage, Armenian-American", "solemn, eyes lifted in devotion", "arms spread wide, smoking censer swinging from one hand"),
   joystick: C("Male", "Korean heritage, South Korean", "intense focus, eyes narrowed behind the visor", "mid-combo lunge, joystick-blade arcing overhead"),
   pinball: C("Female", "Igbo heritage, Nigerian", "gleeful squint, one eye closed to aim", "braced at one knee, rifle shouldered and angled for a bank shot"),
