@@ -125,3 +125,18 @@ Character artwork must remain isolated on transparency even when a People backgr
 2. **Style references:** new portraits are generated with the approved art (Interceptors, Owlwings, Moonrunners) attached as style references, so the model copies the rendering style, not just the words.
 3. **Self-vetting** (`tools/generate-character.mjs`): every attempt is scored by a vision model against the five Samurai Jack questions, the color rules, anatomy and the character description, compared side by side with the approved references, plus hard pixel checks (real transparency, nothing cropped, palette present, no stray saturated colors). A failing attempt is regenerated with the critique added to the prompt (up to 3 tries). The best attempt wins and its full report is saved next to the art (`*.vet.json`) and shown in `CAST.md`.
 4. **Human review** is still the last gate: nothing is committed until you approve it.
+
+
+---
+
+## Retool notes (Oct 23, 2026): why the first five characters failed the Samurai Jack check
+
+The Token Brokers, Pinball Gunners, Joystick Duelists, Fuel Zealots and Outriders portraits were all drawn as detailed anime-style fantasy illustrations (95% of the figure needed 170 to 290 distinct colors, and about a quarter of it was soft shading). Problems seen in the images:
+
+1. **Detail overload:** rows of medallions, tassels, belt buckles, chain links, canisters, studs, glyph patterns and bandages. The old prompts listed every item from the character sheet.
+2. **Anime rendering:** eyelashes, eye shine, shaded skin, glossy metal and gold shading.
+3. **Hair as strands:** braids, dreadlocks and fine hair detail instead of a few solid shapes.
+4. **Busy silhouettes:** ragged shredded hems and loose ribbon streamers broke the outline into dozens of spikes.
+5. **Extra colors:** cream, tan and brass gold appeared beside the assigned colors.
+
+The prompts now (1) state the Samurai Jack look first, (2) set a hard **simplification budget** (about 12 to 15 big shapes, one hero prop, three costume masses, cut about 70% of the source costume), (3) give drawing rules for face, hair, fabric, metal and hands, (4) restrict the palette more tightly and (5) end with the five-question self-check. Vehicles are never the hero prop. The rules live in `art-direction.json` under `simplify` and `never`.
