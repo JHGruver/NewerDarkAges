@@ -73,7 +73,7 @@ window.CAST = {
   emergencybroadcast: C("Female", "In life: Mexican heritage, Mexican", "calm, steady, reassuring", "turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring"),
   rustwraith: C("Male", "In life: Polish heritage, Polish", "scowling, headlight eyes ablaze", "hunched far forward, the hood-ornament blade slung back like a tail"),
   cabinetspirits: C("Male", "In life: Japanese heritage, Japanese", "blank pixel grin on a screen-face", "marching stiffly while firing a stream of sprites from both pixel gauntlets"),
-  hardwaresurgeons: C("Female", "In life: Indian heritage, Indian", "curious, tilted head", "leaning far forward over a device with the probe extended, jumper cables trailing from the back"),
+  hardwaresurgeons: C("Female", "In life: Indian heritage, Indian", "curious, tilted head behind round glasses", "stooped forward in a long stride, the trace-lens raised to the eye in one hand and the thin probe extended in the other, jumper cables trailing"),
   lastdance: C("Female", "In life: Argentine heritage, Argentine", "dreamy, lost in the music", "caught mid grand jete with the party blade swept overhead"),
   wakewardens: C("Male", "In life: Irish heritage, Irish", "sorrowful, heavy-lidded", "walking slowly with the head bowed, the candle lantern held low in one hand and the funeral bell hanging from the other"),
   redialwraiths: C("Female", "In life: Korean heritage, South Korean", "tense, repeating stare", "cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand"),

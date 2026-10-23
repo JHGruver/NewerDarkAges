@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 32.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 33.
 
 ## Art direction in one screen
 
@@ -4682,27 +4682,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | slender and wired, long fingers, a hunched surgeon's back; medium size; mobility: phasing |
 | Ethnicity + nationality | In life: Indian heritage, Indian |
 | Identity | female human |
-| Wardrobe | slender ghost in a circuit-board mantle with jumper cables at the belt, a trace-lens in one hand and a thin probe in the other |
+| Wardrobe | tall, stooped ghost scientist with a white hair bun, round glasses and red earrings, an angular green long coat with red trim and a backpack of cables, two dangling red-and-black jumper cables, a belt with a meter and a rack of probes, tall green-and-red boots, a gear-framed trace-lens held up in one hand and a thin red probe in the other |
 | Accessories | Trace-lens; jumper cables; circuit-board mantle; probe |
-| Pose | leaning far forward over a device with the probe extended, jumper cables trailing from the back |
-| Facial expression | curious, tilted head |
+| Pose | stooped forward in a long stride, the trace-lens raised to the eye in one hand and the thin probe extended in the other, jumper cables trailing |
+| Facial expression | curious, tilted head behind round glasses |
 | People | Ghost |
 | Class | Hollow Machines |
 | Subclass | Circuit Seers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | leaning far forward over a device with the probe extended, jumper cables trailing from the back; the Trace-lens and the jumper cables break the outline so it reads instantly as a black shape |
+| Silhouette hook | stooped forward in a long stride, the trace-lens raised to the eye in one hand and the thin probe extended in the other, jumper cables trailing; the Trace-lens and the jumper cables break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #48d763: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e63946: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #e4ffda: the eyes, the Trace-lens and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/ghost-hardwaresurgeons.png` and `art/v2/ghost-hardwaresurgeons-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as leaning far forward over a device with the probe extended, jumper cables trailing from the back.
+1. Black-fill test: the silhouette must still read as stooped forward in a long stride, the trace-lens raised to the eye in one hand and the thin probe extended in the other, jumper cables trailing.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Trace-lens and the pose must be visible at 64 px.
 4. Flat colors: #48d763 / #e63946 / #e4ffda as separate flat shapes divided by black line; no gradients or glow.
@@ -4722,8 +4722,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Circuit Seers, female human (In life: Indian heritage, Indian), apparent age mid 60s. slender and wired, long fingers, a hunched surgeon's back, medium size. Pose: leaning far forward over a device with the probe extended, jumper cables trailing from the back. Expression: curious, tilted head, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Trace-lens. SECOND ITEM, kept plain: jumper cables. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender ghost in a circuit-board mantle with jumper cables at the belt, a trace-lens in one hand and a thin probe in the other.
+CHARACTER: Circuit Seers, female human (In life: Indian heritage, Indian), apparent age mid 60s. slender and wired, long fingers, a hunched surgeon's back, medium size. Pose: stooped forward in a long stride, the trace-lens raised to the eye in one hand and the thin probe extended in the other, jumper cables trailing. Expression: curious, tilted head behind round glasses, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Trace-lens. SECOND ITEM, kept plain: jumper cables. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall, stooped ghost scientist with a white hair bun, round glasses and red earrings, an angular green long coat with red trim and a backpack of cables, two dangling red-and-black jumper cables, a belt with a meter and a rack of probes, tall green-and-red boots.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #48d763 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e63946 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, on the eyes, the Trace-lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
