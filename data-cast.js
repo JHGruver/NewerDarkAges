@@ -77,7 +77,7 @@ window.CAST = {
   lastdance: C("Female", "In life: Argentine heritage, Argentine", "dreamy, lost in the music", "caught mid grand jete with the party blade swept overhead"),
   wakewardens: C("Male", "In life: Irish heritage, Irish", "gentle, heavy-lidded", "kneeling in a hush with the candle lantern held low, the funeral bell ringing at the hip"),
   redialwraiths: C("Female", "In life: Korean heritage, South Korean", "tense, repeating stare", "cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand"),
-  highwaybanshees: C("Female", "In life: Navajo heritage, American", "mouth open mid-wail", "leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring"),
+  highwaybanshees: C("Female", "Navajo heritage, American", "mouth open mid-wail, head thrown back", "leaning back with the head thrown up in a wail, one arm out holding the lantern, the other raising a flare high"),
   billboardhaunts: C("Male", "In life: American advertising-era smile", "fixed, painted grin", "towering with the neon-tube arms spread wide"),
   hospicehaunts: C("Female", "In life: Nigerian heritage, Nigerian", "quiet, tender calm", "sitting on the floor with the knees drawn up, the IV-stand staff upright beside her, a clipboard hugged to the chest"),
   /* ---------------- UNDEAD ---------------- */

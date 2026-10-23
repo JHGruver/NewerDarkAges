@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 29.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 30.
 
 ## Art direction in one screen
 
@@ -4966,29 +4966,29 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Gender | Female |
 | Physique | tall and pale, a long streaming coat, long hair; medium size; mobility: phasing |
-| Ethnicity + nationality | In life: Navajo heritage, American |
+| Ethnicity + nationality | Navajo heritage, American |
 | Identity | female human |
-| Wardrobe | pale ghost in a tattered long coat with a glowing brake-light lantern in one hand, a road-flare wand in the other, mouth open in a wail |
+| Wardrobe | tall pale ghost with long black hair thrown back mid-wail, a tattered rust-orange long coat with pale-green trim over a dark vest, tall dark boots, a red brake-light lantern hanging from one hand and a burning road-flare held high in the other |
 | Accessories | Brake-light lantern; road-flare wand; tattered coat; mile marker |
-| Pose | leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring |
-| Facial expression | mouth open mid-wail |
+| Pose | leaning back with the head thrown up in a wail, one arm out holding the lantern, the other raising a flare high |
+| Facial expression | mouth open mid-wail, head thrown back |
 | People | Ghost |
 | Class | The Lingerers |
 | Subclass | Highway Banshees |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring; the Brake-light lantern and the road-flare wand break the outline so it reads instantly as a black shape |
+| Silhouette hook | leaning back with the head thrown up in a wail, one arm out holding the lantern, the other raising a flare high; the Brake-light lantern and the road-flare wand break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #c4635a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e4ffda: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #4979a0: the eyes, the Brake-light lantern and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/ghost-highwaybanshees.png` and `art/v2/ghost-highwaybanshees-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring.
+1. Black-fill test: the silhouette must still read as leaning back with the head thrown up in a wail, one arm out holding the lantern, the other raising a flare high.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Brake-light lantern and the pose must be visible at 64 px.
 4. Flat colors: #c4635a / #e4ffda / #4979a0 as separate flat shapes divided by black line; no gradients or glow.
@@ -5008,8 +5008,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Highway Banshees, female human (In life: Navajo heritage, American), apparent age late 40s. tall and pale, a long streaming coat, long hair, medium size. Pose: leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring. Expression: mouth open mid-wail, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Brake-light lantern. SECOND ITEM, kept plain: road-flare wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pale ghost in a tattered long coat with a glowing brake-light lantern in one hand, a road-flare wand in the other, mouth open in a wail.
+CHARACTER: Highway Banshees, female human (Navajo heritage, American), apparent age late 40s. tall and pale, a long streaming coat, long hair, medium size. Pose: leaning back with the head thrown up in a wail, one arm out holding the lantern, the other raising a flare high. Expression: mouth open mid-wail, head thrown back, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Brake-light lantern. SECOND ITEM, kept plain: road-flare wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall pale ghost with long black hair thrown back mid-wail, a tattered rust-orange long coat with pale-green trim over a dark vest, tall dark boots, a red brake-light lantern hanging from one hand and a burning road-flare held high in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #c4635a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e4ffda about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4979a0 about 10%, on the eyes, the Brake-light lantern and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
