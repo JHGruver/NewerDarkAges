@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 38.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 39.
 
 ## Art direction in one screen
 
@@ -4755,7 +4755,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | elegant and graceful, a long neck, a dancer's long legs; medium size; mobility: agile |
 | Ethnicity + nationality | In life: Argentine heritage, Argentine |
 | Identity | female human |
-| Wardrobe | elegant ghost in a shimmering party coat mid-pirouette, a party blade in one hand and a sparkler in the other |
+| Wardrobe | elegant ghost dancer with a black hair bun and a gold crown clip, closed eyes and purple eyeshadow, a pink-and-gold short wrap top and skirt with long flowing gold ribbons, black thigh boots with gold cuffs, a long curved purple-and-white party blade raised in one hand and a glowing sparkler held out in the other, mid grand jete |
 | Accessories | Ghostly party blade; sparkler; glittering coat; phantom turntable |
 | Pose | caught mid grand jete with the party blade swept overhead |
 | Facial expression | dreamy, lost in the music |
@@ -4770,8 +4770,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #ffd60a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #3a0ca3: the eyes, the Ghostly party blade and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/ghost-lastdance.png` and `art/v2/ghost-lastdance-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -4796,7 +4796,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
 CHARACTER: Last-Dance Revelers, female human (In life: Argentine heritage, Argentine), apparent age late 20s. elegant and graceful, a long neck, a dancer's long legs, medium size. Pose: caught mid grand jete with the party blade swept overhead. Expression: dreamy, lost in the music, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ghostly party blade. SECOND ITEM, kept plain: sparkler. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: elegant ghost in a shimmering party coat mid-pirouette, a party blade in one hand and a sparkler in the other.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ghostly party blade. SECOND ITEM, kept plain: sparkler. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: elegant ghost dancer with a black hair bun and a gold crown clip, closed eyes and purple eyeshadow, a pink-and-gold short wrap top and skirt with long flowing gold ribbons, black thigh boots with gold cuffs, a long curved purple-and-white party blade raised in one hand and a glowing sparkler held out in the other, mid grand jete.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #d24a78 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, on the eyes, the Ghostly party blade and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
