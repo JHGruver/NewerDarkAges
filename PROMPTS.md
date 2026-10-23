@@ -136,15 +136,15 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ### Pinball Gunners
 
-*Combat · Blaster · colors #ff5d8f / #00bbf9 / #fff7c7 · background wash #d9a521*
+*Combat · Blaster · colors #ff5d8f / #00bbf9 / #fff7c7 · background wash #d9a521 · art already made*
 
 **Character prompt**
 
 ```text
 Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Pinball Gunners, female being, character (Igbo heritage, Nigerian), apparent age late 30s.
-DESIGN FOR SILHOUETTE FIRST: braced at one knee, rifle shouldered and angled for a bank shot; the Ricochet rifle and the bumper shield break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
-BODY: rangy and loose-limbed, medium size, agile. POSE: braced at one knee, rifle shouldered and angled for a bank shot. EXPRESSION: gleeful squint, one eye closed to aim, stylized and expressive.
-WARDROBE AND HELD GEAR (worn or hand-held only): rangy human gunner in a padded jacket with a small bumper-shaped shield on one arm, a ricochet rifle in both hands and a plunger-tipped spear slung across the back.
+DESIGN FOR SILHOUETTE FIRST: braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm; the Ricochet rifle and the bumper shield break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
+BODY: rangy and loose-limbed, medium size, agile. POSE: braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm. EXPRESSION: gleeful squint, one eye closed to aim, stylized and expressive.
+WARDROBE AND HELD GEAR (worn or hand-held only): rangy young woman with a high dark dreadlock bun and a blue bandana, a hot-pink cape-jacket with blue lightning trim, a star-emblem round bumper shield on one arm, a long pink-and-cream railgun rifle with plunger-tipped barrel and scope aimed in both hands, a plunger-tipped spear slung across the back, studded belt, star knee-guard and laced boots.
 COLOR (exact hex values, flat fills): main #ff5d8f about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #00bbf9 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, used on the eyes, the Ricochet rifle and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
