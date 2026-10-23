@@ -413,7 +413,7 @@ function render() {
   if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
   else if (!render.first) window.scrollTo(0, 0);
   render.first = false;
-  NDAudio.setMode(route === "" || route === "home" ? "story" : "music");
+  NDAudio.setMode(route === "" || route === "home" ? "story" : route === "lore" ? "lore" : "music");
   closeDrawer();
 }
 render.first = true;
