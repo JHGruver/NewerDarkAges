@@ -82,7 +82,7 @@ window.CAST = {
   hospicehaunts: C("Female", "In life: Nigerian heritage, Nigerian", "quiet, tender calm", "sitting on the floor with the knees drawn up, the IV-stand staff across the lap, a clipboard hugged to the chest"),
   /* ---------------- UNDEAD ---------------- */
   bonebreakers: C("Male", "In life: Spanish heritage, Spanish", "fixed skeletal grin", "mace raised overhead behind a numbered door-shield"),
-  rattlecannon: C("Female", "In life: Ghanaian heritage, Ghanaian", "grinning, jaw unhinged", "crouched on one knee firing a forearm cannon in a spray of bone"),
+  rattlecannon: C("Female", "In life: Ghanaian heritage, Ghanaian", "grinning, jaw unhinged", "kneeling low on one knee, one hand on the hip, the forearm cannon aimed forward firing a spread of bone"),
   drummajor: C("Male", "In life: Cuban heritage, Cuban", "proud, plumed grin", "high-stepping mid-march, the drum on the hip, one stick beating and the baton raised high"),
   demolition: C("Male", "In life: Polish heritage, Polish-American", "slack, steady stare", "wound up for a full swing, the torso twisted back and the sledgehammer behind"),
   wreckinglumber: C("Male", "In life: Samoan heritage, Samoan", "stoic, heavy-lidded stare", "wide planted stance, one huge arm swinging the chained wrecking ball in a big loop overhead"),
