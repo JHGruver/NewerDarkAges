@@ -3,6 +3,8 @@
 // Use ic("wolf") to get an inline <svg>; it inherits the surrounding text color and size.
 window.ICONS = {
 "rotate": "<path d=\"M3 12a9 9 0 1 0 3-6.7\"/><path d=\"M3 4v5h5\"/>",
+"volume": "<path d=\"M11 5 6 9H2v6h4l5 4V5z\"/><path d=\"M15.5 8.5a5 5 0 0 1 0 7\"/><path d=\"M19 5a10 10 0 0 1 0 14\"/>",
+"volume-off": "<path d=\"M11 5 6 9H2v6h4l5 4V5z\"/><path d=\"m22 9-6 6\"/><path d=\"m16 9 6 6\"/>",
 "view-vertical": "<rect x=\"3\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"3\" width=\"4\" height=\"8\" /><rect x=\"3\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"13\" width=\"4\" height=\"8\" />",
 "view-horizontal": "<rect x=\"3\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"10\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"17\" y=\"4\" width=\"4\" height=\"16\" />",
 "heart": "<path d=\"M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6-8 11-8 11z\"/>",

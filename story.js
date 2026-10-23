@@ -96,26 +96,14 @@
     let burst = 0, current = -1, raf = 0, running = true; const sp = []; let needleY = 0;
     const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
 
-    // ---- optional static sound (Web Audio), off until the viewer turns it on ----
-    let ac = null, gain = null;
-    const startAudio = () => {
-      if (ac) { ac.resume(); return; }
-      ac = new (window.AudioContext || window.webkitAudioContext)();
-      const buf = ac.createBuffer(1, ac.sampleRate * 2, ac.sampleRate), d = buf.getChannelData(0);
-      for (let i = 0; i < d.length; i++) d[i] = (Math.random() * 2 - 1) * 0.5;
-      const src = ac.createBufferSource(); src.buffer = buf; src.loop = true;
-      const f = ac.createBiquadFilter(); f.type = "bandpass"; f.frequency.value = 2400; f.Q.value = 0.6;
-      gain = ac.createGain(); gain.gain.value = 0; src.connect(f); f.connect(gain); gain.connect(ac.destination); src.start();
-    };
+    // ---- static sound lives in audio.js; the dial button just mirrors the shared on/off state ----
+    const paintSnd = () => { snd.setAttribute("aria-pressed", NDAudio.enabled); snd.querySelector("span").textContent = NDAudio.enabled ? "Sound on" : "Sound off"; };
+    window.addEventListener("nda:sound", paintSnd); paintSnd();
     document.getElementById("replay").addEventListener("click", () => {
       try { sessionStorage.removeItem("nda-booted"); } catch {}
       window.scrollTo({ top: 0, behavior: "instant" }); window.dispatchEvent(new Event("nda:replay"));
     });
-    snd.addEventListener("click", () => {
-      const on = snd.getAttribute("aria-pressed") !== "true";
-      snd.setAttribute("aria-pressed", on); snd.querySelector("span").textContent = on ? "Sound on" : "Sound off";
-      if (on) startAudio(); else if (gain) gain.gain.value = 0;
-    });
+    snd.addEventListener("click", () => NDAudio.toggle());
 
     // ---- per-frame ----
     function frame() {
@@ -149,7 +137,7 @@
         cx.putImageData(img, 0, 0);
       }
       canvas.style.opacity = clamp(burst, 0, 0.55).toFixed(3);
-      if (gain) gain.gain.value = snd.getAttribute("aria-pressed") === "true" ? clamp(burst * 0.12, 0, 0.09) : 0;
+      NDAudio.static(0.02 + clamp(burst, 0, 0.55) * 0.2);
       // chapter-specific scrubbing
       const byId = (id) => root.querySelector(`.c-${id}`), pOf = (id) => parseFloat(byId(id).style.getPropertyValue("--p")) || 0;
       if (countEl) countEl.textContent = String(Math.max(0, Math.round(60 - 60 * clamp(pOf("announcement") * 1.15)))).padStart(2, "0");
@@ -177,7 +165,7 @@
       const urls = [...new Set([...Object.values(BG).map((b) => `${A}${b}.jpg`), ...["interceptors", "owlwings", "moonrunners", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing"].flatMap((c) => [NODE_ART[c].src, NODE_ART[c].bg]), `${A}logo-wordmark.png`])];
       let loaded = 0; const done = () => { loaded++; };
       urls.forEach((u) => { const im = new Image(); im.onload = im.onerror = done; im.src = u; });
-      const t0 = performance.now(), MIN = 2600; let finished = false, lockAt = 0, prog = 0;
+      const t0 = performance.now(), MIN = 2600; let finished = false, lockAt = 0, prog = 0, askAt = 0;
       const finish = () => {
         if (finished) return; finished = true;
         try { sessionStorage.setItem("nda-booted", "1"); } catch {}
@@ -199,7 +187,16 @@
         for (let i = 0; i < px.length; i += 4) { const v = (Math.random() * k) | 0; px[i] = px[i + 1] = px[i + 2] = v; px[i + 3] = 255; }
         bx.putImageData(img, 0, 0);
         if (prog > 0.985 && !lockAt) { lockAt = now; bf.textContent = "88.1"; bs.textContent = "Signal lost"; bootEl.classList.add("locked"); }
-        if (lockAt && now - lockAt > 650) { finish(); return; }
+        if (lockAt && now - lockAt > 650) {
+          // sound is on by default, but the browser only allows it after a click: ask once, and carry on silently if ignored
+          if (NDAudio.enabled && !NDAudio.unlocked) {
+            if (!askAt) {
+              askAt = now; bootEl.classList.add("ask"); bs.innerHTML = `<button class="boot-enter" id="bootenter">Click to tune in <small>sound on</small></button>`;
+              bootEl.addEventListener("pointerdown", () => finish()); addEventListener("keydown", () => finish(), { once: true });
+            }
+            if (now - askAt > 6000) { finish(); return; }
+          } else { finish(); return; }
+        }
         requestAnimationFrame(tick);
       })(performance.now());
     }
@@ -252,6 +249,6 @@
     if (bootEl) runBoot(); else startTour();
     frame();
     return () => {
-      stopTour(); tourListeners.forEach((ev) => window.removeEventListener(ev, userTook)); document.documentElement.classList.remove("booting"); running = false; cancelAnimationFrame(raf); if (ac) ac.close(); delete document.body.dataset.chapter; if (window.NDA3D) NDA3D.tint(null); };
+      stopTour(); tourListeners.forEach((ev) => window.removeEventListener(ev, userTook)); document.documentElement.classList.remove("booting"); running = false; cancelAnimationFrame(raf); window.removeEventListener("nda:sound", paintSnd); delete document.body.dataset.chapter; if (window.NDA3D) NDA3D.tint(null); };
   };
 })();

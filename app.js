@@ -16,6 +16,9 @@ const NUMW = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight"
 const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", eldritch: "Eldritch", magic: "Magic" };
 const LEVEL_DEFAULT = ["Subclass", "Specialization"];
 
+const sndBtn = document.getElementById("sndbtn");
+const paintSound = () => { sndBtn.innerHTML = ic(NDAudio.enabled ? "volume" : "volume-off"); sndBtn.setAttribute("aria-pressed", NDAudio.enabled); sndBtn.title = NDAudio.enabled ? "Sound on (click to mute)" : "Sound off (click to turn on)"; };
+sndBtn.addEventListener("click", () => NDAudio.toggle()); window.addEventListener("nda:sound", paintSound); paintSound();
 document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.png" alt="">`;
 document.getElementById("burger-ic").innerHTML = ic("menu");
 
@@ -404,6 +407,7 @@ function render() {
   if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
   else if (!render.first) window.scrollTo(0, 0);
   render.first = false;
+  NDAudio.setMode(route === "" || route === "home" ? "static" : "music");
   closeDrawer();
 }
 render.first = true;

@@ -1160,3 +1160,11 @@ a, button, summary, input, .panel, .mcard { transition: color .35s var(--ease), 
 :where(body *):not(:where(.story, .story *, #boot, #boot *, canvas, svg, svg *, img, video)) { transition: color .35s var(--ease), background-color .35s var(--ease), border-color .35s var(--ease), box-shadow .45s var(--ease), opacity .35s var(--ease), filter .4s var(--ease), transform .5s var(--ease), width .4s var(--ease), max-height .4s var(--ease); }
 img { transition: opacity .4s var(--ease), filter .5s var(--ease), transform .6s var(--ease); }
 .story :is(a, button, .tick, .peoples-row a, .heir, .tribe-tags span, .candle span) { transition: color .35s var(--ease), background-color .35s var(--ease), border-color .35s var(--ease), box-shadow .45s var(--ease), transform .5s var(--ease), opacity .4s var(--ease); }
+
+/* sound */
+.sndbtn { display: grid; place-items: center; width: 38px; height: 38px; margin-left: 8px; padding: 0; background: rgba(10, 10, 15, .55); border: 1px solid var(--edge); color: #fff; cursor: pointer; backdrop-filter: blur(8px); flex: none; }
+.sndbtn .i { width: 18px; height: 18px; } .sndbtn[aria-pressed="false"] { color: var(--soft); } .sndbtn:hover { background: rgba(255, 255, 255, .1); border-color: #fff; }
+.boot-enter { font-family: var(--head); font-weight: 700; font-size: 1rem; letter-spacing: .04em; color: #000; background: linear-gradient(90deg, #fff, #ffd9ec 45%, #c9f0ff); border: 0; padding: 12px 26px; cursor: pointer; box-shadow: 0 0 30px rgba(255, 95, 176, .5); animation: enterPulse 1.1s ease-in-out infinite; }
+.boot-enter small { display: block; font-family: var(--mono); font-weight: 400; font-size: .56rem; letter-spacing: .22em; text-transform: uppercase; opacity: .7; margin-top: 2px; }
+@keyframes enterPulse { 50% { box-shadow: 0 0 56px rgba(255, 95, 176, .85); transform: scale(1.03); } }
+#boot.ask .boot-status { min-height: 0; }
