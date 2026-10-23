@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 24.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 25.
 
 ## Art direction in one screen
 
@@ -5403,7 +5403,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | hulking and slouched, huge shoulders, a tiny head; large size; mobility: grounded |
 | Ethnicity + nationality | In life: Polish heritage, Polish-American |
 | Identity | male human |
-| Wardrobe | hulking zombie in a hard hat and a work vest, a sledgehammer in both hands, a rebar spear on the back |
+| Wardrobe | hulking tan-skinned zombie bruiser with red eyes and a stubble jaw, a neon-green hard hat, a neon-green work vest with navy chevron bands, baggy neon-green cargo trousers and steel-toe boots, a belt with a tool loop, a huge red-and-black sledgehammer swung back overhead in both fists and a red rebar spear slung on the back |
 | Accessories | Sledgehammer; hard hat; work vest; rebar spear |
 | Pose | wound up for a full swing, the torso twisted back and the sledgehammer behind |
 | Facial expression | slack, steady stare |
@@ -5418,8 +5418,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #002645: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #e63946: the eyes, the Sledgehammer and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/undead-demolition.png` and `art/v2/undead-demolition-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -5444,7 +5444,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
 CHARACTER: Demolition Crews, male human (In life: Polish heritage, Polish-American), apparent age late 30s. hulking and slouched, huge shoulders, a tiny head, large size. Pose: wound up for a full swing, the torso twisted back and the sledgehammer behind. Expression: slack, steady stare, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sledgehammer. SECOND ITEM, kept plain: hard hat. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hulking zombie in a hard hat and a work vest, a sledgehammer in both hands, a rebar spear on the back.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sledgehammer. SECOND ITEM, kept plain: hard hat. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hulking tan-skinned zombie bruiser with red eyes and a stubble jaw, a neon-green hard hat, a neon-green work vest with navy chevron bands, baggy neon-green cargo trousers and steel-toe boots, a belt with a tool loop, a huge red-and-black sledgehammer swung back overhead in both fists and a red rebar spear slung on the back.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #64fe71 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #002645 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e63946 about 10%, on the eyes, the Sledgehammer and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #bdb7a4 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
