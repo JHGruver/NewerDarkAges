@@ -6264,16 +6264,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | tall and bark-skinned; large size; mobility: grounded |
 | Ethnicity + nationality | Dryad (adapted from Greek tradition) |
 | Identity | female human |
-| Wardrobe | bark-skinned dryad in moss-plate armor with cable-vines wrapped on the arms, a root staff in one hand, a small monitor-shaped shield on the other arm |
+| Wardrobe | bark-skinned dryad woman with long vine-green hair, small antlers sprouting leaves and a blue gem on the brow, a leaf-and-vine bodice and layered leaf skirt with sky-blue trim, leaf greaves, a twisted branch staff topped with a glowing pale orb raised in one hand and a wooden rune shield wrapped in vines on the other arm, loose vines curling around her |
 | Accessories | Root staff; cable vines; monitor shield; moss-plate armor |
-| Pose | staff raised overhead, shield forward |
-| Facial expression | cold, luminous stare |
+| Pose | floating a step off the ground with the glowing staff raised overhead in one hand and the vine-wrapped rune shield held out in the other |
+| Facial expression | cold, watchful, stern |
 | People | Forest Spirit |
 | Class | Root-Server Dryads |
 | Subclass | Rootlink Warlocks |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | staff raised overhead, shield forward; the Root staff and the cable vines break the outline so it reads instantly as a black shape |
+| Silhouette hook | floating a step off the ground with the glowing staff raised overhead in one hand and the vine-wrapped rune shield held out in the other; the Root staff and the cable vines break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #2d4700: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4cc9f0: trim, sash, straps, secondary garment pieces and held gear |
@@ -6284,7 +6284,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as staff raised overhead, shield forward.
+1. Black-fill test: the silhouette must still read as floating a step off the ground with the glowing staff raised overhead in one hand and the vine-wrapped rune shield held out in the other.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Root staff and the pose must be visible at 64 px.
 4. Flat colors: #2d4700 / #4cc9f0 / #e4ffda as separate flat shapes divided by black line; no gradients or glow.
@@ -6304,8 +6304,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Rootlink Warlocks, female human (Dryad (adapted from Greek tradition)), apparent age early 20s. tall and bark-skinned, large size. Pose: staff raised overhead, shield forward. Expression: cold, luminous stare, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Root staff. SECOND ITEM, kept plain: cable vines. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: bark-skinned dryad in moss-plate armor with cable-vines wrapped on the arms, a root staff in one hand, a small monitor-shaped shield on the other arm.
+CHARACTER: Rootlink Warlocks, female human (Dryad (adapted from Greek tradition)), apparent age early 20s. tall and bark-skinned, large size. Pose: floating a step off the ground with the glowing staff raised overhead in one hand and the vine-wrapped rune shield held out in the other. Expression: cold, watchful, stern, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Root staff. SECOND ITEM, kept plain: cable vines. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: bark-skinned dryad woman with long vine-green hair, small antlers sprouting leaves and a blue gem on the brow, a leaf-and-vine bodice and layered leaf skirt with sky-blue trim, leaf greaves, a twisted branch staff topped with a glowing pale orb raised in one hand and a wooden rune shield wrapped in vines on the other arm, loose vines curling around her.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #2d4700 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, on the eyes, the Root staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.

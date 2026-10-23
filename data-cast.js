@@ -97,7 +97,7 @@ window.CAST = {
   mowerknights: C("Male", "Fae (adapted from English folk tradition)", "proud, chin up", "charging at a run with the hedge-lance leveled"),
   sprinklersprites: C("Female", "Fae (adapted from Japanese folk tradition)", "delighted, giggling", "spinning in a ring of water jets, the hose whip snapping"),
   hoamediators: C("Female", "Fae (adapted from American suburban folklore)", "stern, disapproving side-eye", "hovering in flight with the gavel raised high in one hand and the clipboard held out in the other"),
-  rootlinkwarlocks: C("Female", "Dryad (adapted from Greek tradition)", "cold, luminous stare", "staff raised overhead, shield forward"),
+  rootlinkwarlocks: C("Female", "Dryad (adapted from Greek tradition)", "cold, watchful, stern", "floating a step off the ground with the glowing staff raised overhead in one hand and the vine-wrapped rune shield held out in the other"),
   mossplate: C("Male", "Dryad (adapted from Celtic tradition)", "calm, mossy stoicism", "leaning into a rack-plate shield with the root hammer raised"),
   seedbank: C("Female", "Dryad (adapted from Slavic tradition)", "calm, watchful, stern", "floating a step off the ground with the glowing staff raised overhead in one hand and the vine-wrapped rune shield held out in the other"),
   sumpsappers: C("Male", "Gnome (adapted from German tradition)", "grumpy, gritted teeth", "creeping low with a charge in one hand and the pickaxe raised in the other"),
