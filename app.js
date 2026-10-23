@@ -30,6 +30,7 @@ const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};-
 
 /* ---------- art we have so far (everything else is a generated placeholder poster) ---------- */
 const NODE_ART = {
+  redialwraiths: { src: "art/v2/ghost-redialwraiths.png", bg: "art/v2/ghost-redialwraiths-bg.jpg", name: "Redial Wraith" },
   highwaybanshees: { src: "art/v2/ghost-highwaybanshees.png", bg: "art/v2/ghost-highwaybanshees-bg.jpg", name: "Highway Banshee" },
   billboardhaunts: { src: "art/v2/ghost-billboardhaunts.png", bg: "art/v2/ghost-billboardhaunts-bg.jpg", name: "Billboard Haunt" },
   hospicehaunts: { src: "art/v2/ghost-hospicehaunts.png", bg: "art/v2/ghost-hospicehaunts-bg.jpg", name: "Hospice Haunt" },
