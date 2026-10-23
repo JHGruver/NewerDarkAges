@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 34.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 35.
 
 ## Art direction in one screen
 
@@ -4542,27 +4542,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | hulking and wide, a hunched truck-grille chest, one shoulder much higher than the other; large size; mobility: vehicle |
 | Ethnicity + nationality | In life: Polish heritage, Polish |
 | Identity | male human |
-| Wardrobe | translucent ghost in a rust-colored cloak with glowing headlight-shaped eyes, a spectral blade shaped like a hood ornament in one hand |
+| Wardrobe | hulking spectral warrior in a ragged rust-orange hood and cloak with pale-ice-blue ghost-trim, glowing white eyes in a skull face, a rusted truck grille and two headlights fused to the chest, a chain slung across the body, steel exhaust pipes on the shoulders, huge dark armored gauntlets and boots, a long pale hood-ornament blade raised in one hand |
 | Accessories | Possessed wreck; hood-spirit blade; rust cloak; headlight eyes |
-| Pose | hunched far forward, the hood-ornament blade slung back like a tail |
+| Pose | heavy forward stance with the fists hanging low, the hood-ornament blade raised high behind the head |
 | Facial expression | scowling, headlight eyes ablaze |
 | People | Ghost |
 | Class | Hollow Machines |
 | Subclass | Rust-Wraith Possessors |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | hunched far forward, the hood-ornament blade slung back like a tail; the Possessed wreck and the hood-spirit blade break the outline so it reads instantly as a black shape |
+| Silhouette hook | heavy forward stance with the fists hanging low, the hood-ornament blade raised high behind the head; the Possessed wreck and the hood-spirit blade break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #df9062: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #c2f4f6: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #002645: the eyes, the Possessed wreck and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/ghost-rustwraith.png` and `art/v2/ghost-rustwraith-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hunched far forward, the hood-ornament blade slung back like a tail.
+1. Black-fill test: the silhouette must still read as heavy forward stance with the fists hanging low, the hood-ornament blade raised high behind the head.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Possessed wreck and the pose must be visible at 64 px.
 4. Flat colors: #df9062 / #c2f4f6 / #002645 as separate flat shapes divided by black line; no gradients or glow.
@@ -4582,8 +4582,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Rust-Wraith Possessors, male human (In life: Polish heritage, Polish), apparent age mid 30s. hulking and wide, a hunched truck-grille chest, one shoulder much higher than the other, large size. Pose: hunched far forward, the hood-ornament blade slung back like a tail. Expression: scowling, headlight eyes ablaze, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Possessed wreck. SECOND ITEM, kept plain: hood-spirit blade. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: translucent ghost in a rust-colored cloak with glowing headlight-shaped eyes, a spectral blade shaped like a hood ornament in one hand.
+CHARACTER: Rust-Wraith Possessors, male human (In life: Polish heritage, Polish), apparent age mid 30s. hulking and wide, a hunched truck-grille chest, one shoulder much higher than the other, large size. Pose: heavy forward stance with the fists hanging low, the hood-ornament blade raised high behind the head. Expression: scowling, headlight eyes ablaze, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Possessed wreck. SECOND ITEM, kept plain: hood-spirit blade. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hulking spectral warrior in a ragged rust-orange hood and cloak with pale-ice-blue ghost-trim, glowing white eyes in a skull face, a rusted truck grille and two headlights fused to the chest, a chain slung across the body, steel exhaust pipes on the shoulders, huge dark armored gauntlets and boots, a long pale hood-ornament blade raised in one hand.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #df9062 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #c2f4f6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, on the eyes, the Possessed wreck and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #8fcfe0 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.

@@ -71,7 +71,7 @@ window.CAST = {
   staticwraiths: C("Male", "In life: Haitian heritage, Haitian", "blank, hollow mask-face", "mid-lunge with blade-claws crossed, cable tail trailing"),
   testpattern: C("Nonbinary", "In life: Welsh heritage, Welsh", "serene, striped face unmoving", "gliding forward with the color-bar shield square in front and a prism lens raised in the other hand"),
   emergencybroadcast: C("Female", "In life: Mexican heritage, Mexican", "calm, steady, reassuring", "turned sideways with the siren horn raised overhead and the radio held out in the other hand, the coat flaring"),
-  rustwraith: C("Male", "In life: Polish heritage, Polish", "scowling, headlight eyes ablaze", "hunched far forward, the hood-ornament blade slung back like a tail"),
+  rustwraith: C("Male", "In life: Polish heritage, Polish", "scowling, headlight eyes ablaze", "heavy forward stance with the fists hanging low, the hood-ornament blade raised high behind the head"),
   cabinetspirits: C("Male", "In life: Japanese heritage, Japanese", "blank pixel grin on a screen-face", "wide stance, both pixel gauntlets thrust out to the sides firing streams of gold pixels, the joystick staff slung behind"),
   hardwaresurgeons: C("Female", "In life: Indian heritage, Indian", "curious, tilted head behind round glasses", "stooped forward in a long stride, the trace-lens raised to the eye in one hand and the thin probe extended in the other, jumper cables trailing"),
   lastdance: C("Female", "In life: Argentine heritage, Argentine", "dreamy, lost in the music", "caught mid grand jete with the party blade swept overhead"),
