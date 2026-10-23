@@ -12,7 +12,9 @@ import { fileURLToPath } from "node:url";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 if (existsSync(join(root, ".env"))) for (const line of readFileSync(join(root, ".env"), "utf8").split("\n")) { const m = line.match(/^\s*([A-Z_]+)\s*=\s*(.*?)\s*$/); if (m && !process.env[m[1]]) process.env[m[1]] = m[2].replace(/^["']|["']$/g, ""); }
-const KEY = process.env.OPENAI_API_KEY, MODEL = process.env.OPENAI_IMAGE_MODEL || "gpt-image-1";
+const KEY = process.env.OPENAI_API_KEY;
+// gpt-image-2 gives the best paintings but cannot make transparent backgrounds, so transparent assets use gpt-image-1.5.
+const MODEL_OPAQUE = process.env.OPENAI_IMAGE_MODEL || "gpt-image-2", MODEL_ALPHA = process.env.OPENAI_ALPHA_MODEL || "gpt-image-1.5";
 const args = process.argv.slice(2), has = (f) => args.includes(f), val = (f) => (args.includes(f) ? args[args.indexOf(f) + 1] : null);
 if (!KEY || KEY.includes("...")) { console.error("No OPENAI_API_KEY found. Put it in .env (see .env.example) or export it in your shell."); process.exit(1); }
 
@@ -34,7 +36,7 @@ const api = (path, init = {}) => fetch("https://api.openai.com/v1" + path, { ...
 if (has("--test")) {
   const r = await api("/models"); if (!r.ok) { console.error("Key rejected:", r.status, (await r.text()).slice(0, 300)); process.exit(1); }
   const ids = (await r.json()).data.map((m) => m.id).filter((id) => /image|dall-e/.test(id)).sort();
-  console.log("Key works. Image models on this account:", ids.join(", ") || "(none listed)"); console.log(`Using model: ${MODEL}${ids.includes(MODEL) ? "" : "  (NOT in the list above: set OPENAI_IMAGE_MODEL)"}`); process.exit(0);
+  console.log("Key works. Image models on this account:", ids.join(", ") || "(none listed)"); console.log(`Paintings: ${MODEL_OPAQUE}${ids.includes(MODEL_OPAQUE) ? "" : " (NOT listed: set OPENAI_IMAGE_MODEL)"}; transparent PNGs: ${MODEL_ALPHA}${ids.includes(MODEL_ALPHA) ? "" : " (NOT listed: set OPENAI_ALPHA_MODEL)"}`); process.exit(0);
 }
 if (has("--list")) { assets.forEach((a) => console.log(`${a.id.padEnd(26)} ${a.shape.padEnd(10)} ${a.transparent ? "transparent" : a.ext}  [${a.group}]`)); process.exit(0); }
 
@@ -45,11 +47,11 @@ else if (has("--all")) todo = assets;
 else { console.error("Pick what to generate: --only id1,id2 | --group Brand | --all  (or --test, --list)"); process.exit(1); }
 todo = todo.filter((a) => has("--force") || !existsSync(join(root, "art/site", `${a.id}.${a.ext}`)));
 const quality = val("--quality") || "medium";
-console.log(`${todo.length} image(s), model ${MODEL}, quality ${quality}${has("--dry") ? " (dry run)" : ""}`);
+console.log(`${todo.length} image(s), models ${MODEL_OPAQUE} / ${MODEL_ALPHA}, quality ${quality}${has("--dry") ? " (dry run)" : ""}`);
 mkdirSync(join(root, "art/site"), { recursive: true });
 for (const a of todo) {
   console.log(`- ${a.id} (${a.shape}${a.transparent ? ", transparent" : ""})`); if (has("--dry")) continue;
-  const body = { model: MODEL, prompt: a.prompt, size: a.shape, quality, n: 1, output_format: a.transparent ? "png" : "jpeg", ...(a.transparent ? { background: "transparent" } : {}) };
+  const body = { model: a.transparent ? MODEL_ALPHA : MODEL_OPAQUE, prompt: a.prompt, size: a.shape, quality, n: 1, output_format: a.transparent ? "png" : "jpeg", ...(a.transparent ? { background: "transparent" } : {}) };
   let ok = false;
   for (let tryN = 1; tryN <= 3 && !ok; tryN++) {
     const r = await api("/images/generations", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
