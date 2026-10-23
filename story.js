@@ -227,7 +227,8 @@
       if (tourState === "off") return;
       const last = chaps.length - 1, { start, span } = spanOf(i);
       // the opening static plays out in place (lines, then the title); every later chapter is glided into first
-      if (i === 0) { animateTo(scrollY, start + span * 0.97, 5000, false, () => playChapter(1)); return; }
+      // (lines appear, then the title; once it is fully revealed (about 80%) it holds there for the full five seconds)
+      if (i === 0) { animateTo(scrollY, start + span * 0.8, 3200, false, () => animateTo(start + span * 0.8, start + span * 0.92, 5000, false, () => playChapter(1))); return; }
       animateTo(scrollY, start + span * 0.3, i === 1 ? 1500 : 1100, true, () => {
         if (tourState === "off") return;
         if (i >= last) { stopTour(); return; }
