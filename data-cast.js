@@ -79,7 +79,7 @@ window.CAST = {
   redialwraiths: C("Female", "In life: Korean heritage, South Korean", "tense, repeating stare", "cracking a phone-cord whip overhead with the body twisted, the rotary blade raised in the other hand"),
   highwaybanshees: C("Female", "In life: Navajo heritage, American", "mouth open mid-wail", "leaning back with the head thrown back mid-wail, one arm out holding a brake-light lantern, the coat flaring"),
   billboardhaunts: C("Male", "In life: American advertising-era smile", "fixed, painted grin", "towering with the neon-tube arms spread wide"),
-  hospicehaunts: C("Female", "In life: Nigerian heritage, Nigerian", "quiet, tender calm", "sitting on the floor with the knees drawn up, the IV-stand staff across the lap, a clipboard hugged to the chest"),
+  hospicehaunts: C("Female", "In life: Nigerian heritage, Nigerian", "quiet, tender calm", "sitting on the floor with the knees drawn up, the IV-stand staff upright beside her, a clipboard hugged to the chest"),
   /* ---------------- UNDEAD ---------------- */
   bonebreakers: C("Male", "In life: Spanish heritage, Spanish", "fixed skeletal grin", "mace raised overhead behind a numbered door-shield"),
   rattlecannon: C("Female", "In life: Ghanaian heritage, Ghanaian", "grinning, jaw unhinged", "kneeling low on one knee, one hand on the hip, the forearm cannon aimed forward firing a spread of bone"),
