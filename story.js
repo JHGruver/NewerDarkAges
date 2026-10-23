@@ -237,8 +237,8 @@
       tourArmed = true;
       if (reduce || scrollY > 40) return;
       tourState = "wait";
-      tourTimers.push(setTimeout(() => { if (hint) hint.classList.add("alert"); NDAudio.nudge(); }, 2000));
-      tourTimers.push(setTimeout(() => NDAudio.nudge(), 3100));
+      tourTimers.push(setTimeout(() => { if (hint) hint.classList.add("alert"); NDAudio.nudge(1); }, 2000));
+      tourTimers.push(setTimeout(() => NDAudio.nudge(2), 3000));
       tourTimers.push(setTimeout(() => {
         tourState = "run"; if (hint) hint.classList.remove("alert");
         tourPill = document.createElement("div"); tourPill.className = "tour-pill"; tourPill.innerHTML = "<i></i>Guided tour <span>scroll or tap to take over</span>"; document.body.appendChild(tourPill); requestAnimationFrame(() => tourPill && tourPill.classList.add("on"));

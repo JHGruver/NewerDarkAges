@@ -56,16 +56,20 @@
       musicGain.gain.cancelScheduledValues(now); musicGain.gain.setTargetAtTime(musicLvl, now, 0.25);
     },
     // a break in the static: it drops out for a beat while a clean two-note signal pings through, then the static returns
-    nudge() {
+    // kind 1: two-note ping as the hint starts pulsing. kind 2: a louder rising three-note ping on the second beat.
+    nudge(kind = 1) {
       if (!ac || !unlocked || !enabled) return;
-      duck = 0; setTimeout(() => { duck = 1; }, 900);
-      const t = ac.currentTime, out = ac.createGain(); out.gain.value = 0.22; out.connect(master);
+      if (ac.state === "suspended") ac.resume();
+      const second = kind === 2, notes = second ? [[1319, 0.04, 0.2], [1760, 0.2, 0.22], [2093, 0.38, 0.7]] : [[988, 0.06, 0.16], [1319, 0.24, 0.55]];
+      duck = 0; setTimeout(() => { duck = 1; }, second ? 1300 : 900);
+      const t = ac.currentTime, out = ac.createGain(); out.gain.value = second ? 0.36 : 0.26; out.connect(master);
       const echo = ac.createDelay(0.5); echo.delayTime.value = 0.2; const fb = ac.createGain(); fb.gain.value = 0.38; echo.connect(fb); fb.connect(echo); echo.connect(out);
-      [[988, 0.06, 0.16], [1319, 0.24, 0.55]].forEach(([hz, at, len]) => {
-        const o = ac.createOscillator(), g = ac.createGain(); o.type = "sine"; o.frequency.value = hz;
+      notes.forEach(([hz, at, len]) => {
+        const o = ac.createOscillator(), g = ac.createGain(); o.type = second ? "triangle" : "sine"; o.frequency.value = hz;
         g.gain.setValueAtTime(0, t + at); g.gain.linearRampToValueAtTime(1, t + at + 0.015); g.gain.exponentialRampToValueAtTime(0.001, t + at + len);
         o.connect(g); g.connect(out); g.connect(echo); o.start(t + at); o.stop(t + at + len + 0.05);
       });
+      setTimeout(() => { try { out.disconnect(); echo.disconnect(); } catch {} }, 3500);
     },
   };
   // the first real gesture anywhere starts the sound (if the viewer has not turned it off)
