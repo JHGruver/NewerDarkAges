@@ -5,11 +5,18 @@ const { WORLD, STORY, PHASES, ART, MANUAL, PEOPLE_COLORS } = window;
 const GROUPS = GROUP_ORDER.map((id) => GROUP_DEFS[id]);
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const list = (items, cls = "") => `<ul class="${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
+const SITE_ART = "art/site/";
+// generated crests (peoples), class sigils (Magic) and type icons; fall back to the line icon if an image is missing
+const CRESTS = new Set(["human", "vampire", "were", "ghost", "undead", "forest", "eldritch", "magic"]);
+const SIGILS = new Set(["wizard", "witch", "warlock", "mage"]);
+const crest = (g) => (CRESTS.has(g.id) ? `<img class="crest" src="${SITE_ART}crest-${g.id}.png" alt="" loading="lazy">` : ic(g.icon));
+const subIcon = (g, s) => (g.id === "magic" && SIGILS.has(s.id) ? `<img class="crest sigil" src="${SITE_ART}sigil-${s.id}.png" alt="" loading="lazy">` : ic(s.icon));
+const typeIcon = (t) => `<img class="typeico" src="${SITE_ART}type-${t}.png" alt="" loading="lazy">`;
 const NUMW = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"];
 const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", eldritch: "Eldritch", magic: "Magic" };
 const LEVEL_DEFAULT = ["Subclass", "Specialization"];
 
-document.getElementById("brand-ic").innerHTML = ic("bolt");
+document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.png" alt="">`;
 document.getElementById("burger-ic").innerHTML = ic("menu");
 
 /* ---------- colors ---------- */
@@ -56,7 +63,7 @@ function home() {
   return `
   <div class="hero hero-min">
     <div class="eyebrow">${esc(WORLD.mantra)}</div>
-    <h1 class="mono-title">${esc(WORLD.title)}</h1>
+    <h1 class="mono-title"><img class="wordmark" src="${SITE_ART}logo-wordmark.png" alt="${esc(WORLD.title)}"></h1>
     <p class="lede">${NUMW[GROUPS.length]} peoples fighting over what the Last Broadcast left behind.</p>
     <a class="btn" href="#/characters">Choose your character →</a>
   </div>
@@ -71,7 +78,7 @@ function home() {
     <div class="grid cols-3">${GROUPS.map((g) => `
       <a class="panel people-card" style="${pv(g)}" href="#/characters/${g.id}">
         <span class="swatch" style="background:${g.color}"></span>
-        <div class="pico2">${ic(g.icon)}</div>
+        <div class="pico2">${crest(g)}</div>
         <h3>${esc(g.name)}</h3>
         <div class="muted">${esc(g.tagline)}</div>
         <div class="meta">${PEOPLE_COLORS[g.id].name} · ${g.subs.reduce((n, s) => n + s.subs.length, 0)} characters</div>
@@ -114,7 +121,7 @@ function gallery() {
   const counts = (g) => all.filter((c) => c.g === g).length;
   const filters = GROUPS.map((g) => `
     <button class="filter ${g.id === galleryFilter ? "sel" : ""}" style="${pv(g)}" data-filter="${g.id}" aria-pressed="${g.id === galleryFilter}" title="${esc(g.name)} (${counts(g)})" aria-label="${esc(g.name)}">
-      <i class="chip" style="background:${g.color}"></i><span class="ico">${ic(g.icon)}</span><span class="nm">${esc(g.name)}</span><span class="ct">${counts(g)}</span>
+      <i class="chip" style="background:${g.color}"></i><span class="ico">${crest(g)}</span><span class="nm">${esc(g.name)}</span><span class="ct">${counts(g)}</span>
     </button>`).join("");
   const roles = `<div class="roles" role="group" aria-label="Filter by role and status">
       ${[[null, "All"], ["combat", "Combat"], ["support", "Support"]].map(([r, n]) => `<button class="rf ${roleFilter === r ? "sel" : ""}" data-role="${r || ""}">${n}</button>`).join("")}
@@ -122,14 +129,14 @@ function gallery() {
       ${[["any", "Any status"], ["complete", `Completed · ${doneCount}`], ["pending", `In progress · ${all.length - doneCount}`]].map(([s, n]) => `<button class="rf st ${statusFilter === s ? "sel" : ""}" data-status="${s}">${n}</button>`).join("")}
     </div>`;
   const shown = galleryFilter ? chars.filter((c) => c.g.id === galleryFilter) : chars;
-  const emptyMsg = `<div class="empty">No characters match these filters. <button class="linkbtn" data-status="any">Show any status</button></div>`;
+  const emptyMsg = `<div class="empty"><img class="empty-art" src="${SITE_ART}empty-state.png" alt="">No characters match these filters. <button class="linkbtn" data-status="any">Show any status</button></div>`;
   let body;
   if (!shown.length) body = emptyMsg;
   else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map((c, i) => gcard(c, i)).join("")}</div>`;
   else body = `
     <section class="gsec" style="${pv(fg)}">
-      <header class="ghead"><span class="gi">${ic(fg.icon)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} character${shown.length === 1 ? "" : "s"}</span></header>
-      <div class="gsubs">${fg.subs.map((s) => { const cs = shown.filter((c) => c.s === s); return cs.length ? `<div class="gsub"><h3><span class="sub-ico">${ic(s.icon)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map((c, i) => gcard(c, i)).join("")}</div></div>` : ""; }).join("")}</div>
+      <header class="ghead"><span class="gi">${crest(fg)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} character${shown.length === 1 ? "" : "s"}</span></header>
+      <div class="gsubs">${fg.subs.map((s) => { const cs = shown.filter((c) => c.s === s); return cs.length ? `<div class="gsub"><h3><span class="sub-ico">${subIcon(fg, s)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map((c, i) => gcard(c, i)).join("")}</div></div>` : ""; }).join("")}</div>
     </section>`;
   const combat = all.filter((c) => c.l.role === "combat").length;
   return `
@@ -153,7 +160,7 @@ const viewSwitch = (active) => `<div class="vswitch" role="group" aria-label="Sw
 function chooserTree(group, trail, names) {
   const base = `#/characters/${group.id}`;
   const tabs = GROUPS.map((g) => `
-    <button class="tab ${g.id === group.id ? "sel" : ""}" style="${pv(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}"><span class="ico">${ic(g.icon)}</span><span class="nm">${SHORT[g.id]}</span></button>`).join("");
+    <button class="tab ${g.id === group.id ? "sel" : ""}" style="${pv(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}"><span class="ico">${crest(g)}</span><span class="nm">${SHORT[g.id]}</span></button>`).join("");
   const [s1, s2] = trail;
   const rows = group.subs.map((s) => {
     const open = s1 && s1.id === s.id;
@@ -162,7 +169,7 @@ function chooserTree(group, trail, names) {
         <ul class="tl l2">${s.subs.map((k) => `
           <li class="tn leaf"><button class="trow ${s2 && s2.id === k.id ? "sel" : ""}" style="--c1:${k.pal[0]}" data-go="${base}/${s.id}/${k.id}"><span class="ico">${ic(k.icon)}</span><span class="nm">${esc(k.name)}</span><em class="role ${k.role}">${k.role === "support" ? "S" : "C"}</em></button></li>`).join("")}</ul>` : "";
     return `
-      <li class="tn ${open ? "open" : ""}"><button class="trow ${open ? "sel" : ""}" data-go="${base}/${s.id}" aria-expanded="${open}"><span class="ico">${ic(s.icon)}</span><span class="nm">${esc(s.name)}</span><span class="chev">${ic(open ? "chevron-down" : "chevron-right")}</span></button>${kids}</li>`;
+      <li class="tn ${open ? "open" : ""}"><button class="trow ${open ? "sel" : ""}" data-go="${base}/${s.id}" aria-expanded="${open}"><span class="ico">${subIcon(group, s)}</span><span class="nm">${esc(s.name)}</span><span class="chev">${ic(open ? "chevron-down" : "chevron-right")}</span></button>${kids}</li>`;
   }).join("");
   return `
     <div class="tabs">${tabs}</div>
@@ -175,7 +182,7 @@ function chooserTree(group, trail, names) {
 const profile = (g, l) => {
   const m = metaOf(l), ty = TYPES[m.type];
   return `<div class="profile">
-    <div class="ptype"><span class="mt t big">${ty.letter}</span><div><b>${esc(ty.name)}</b><small>${esc(ty.desc)}</small></div></div>
+    <div class="ptype"><span class="mt t big">${ty.letter}</span>${typeIcon(m.type)}<div><b>${esc(ty.name)}</b><small>${esc(ty.desc)}</small></div></div>
     <dl class="attrs">
       <div><dt>People</dt><dd><span class="mt p">${PEOPLE_LETTER[g.id]}</span>${esc(g.name)}</dd></div>
       <div><dt>Role</dt><dd><span class="mt r">${l.role === "combat" ? "C" : "S"}</span>${l.role === "combat" ? "Combat" : "Support / social"}</dd></div>
@@ -462,7 +469,7 @@ function buildViewer() {
   const list = viewList(); const cur = viewIndex(list);
   const [pg, ps, pl] = location.hash.split("/").slice(2);
   const me = allCharacters().find((c) => c.g.id === pg && c.s.id === ps && c.l.id === pl);
-  const plaque = me ? `<div class="vn-plaque" style="${cv(me.g, me.l)}"><span class="pq-ico">${ic(me.g.icon)}</span><div class="pq-txt"><b class="pq-name">${esc(me.l.name)}</b><span class="pq-path">${esc(me.g.name)} <i>›</i> ${esc(me.s.name)} <i>›</i> ${esc(me.l.name)}</span></div><span class="pq-pips"><i></i><i></i><i></i></span></div>` : "";
+  const plaque = me ? `<div class="vn-plaque" style="${cv(me.g, me.l)}"><span class="pq-ico">${crest(me.g)}</span><div class="pq-txt"><b class="pq-name">${esc(me.l.name)}</b><span class="pq-path">${esc(me.g.name)} <i>›</i> ${esc(me.s.name)} <i>›</i> ${esc(me.l.name)}</span></div><span class="pq-pips"><i></i><i></i><i></i></span></div>` : "";
   if (list.length < 2 || cur < 0) { vn.innerHTML = plaque; return; }
   vn.innerHTML = plaque + `
     <button class="vn-arrow prev" data-vstep="-1" aria-label="Previous character">${ic("chevron-left")}</button>

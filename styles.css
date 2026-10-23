@@ -918,3 +918,34 @@ body.viewing .fig.has-art:hover .hero-fig img { filter: drop-shadow(0 0 26px col
 nav a, .brand { transition: text-shadow .35s ease, color .3s ease, background-color .3s ease, border-color .3s ease, opacity .3s ease; }
 .vn-strip { transition: max-height .4s var(--ease), opacity .35s ease, margin .4s var(--ease), padding .4s var(--ease); }
 .trow::after { transition: width .45s var(--ease), opacity .35s ease; }
+
+/* ===== generated site art (art/site) ===== */
+.crest { display: block; width: 1em; height: 1em; object-fit: contain; filter: drop-shadow(0 2px 4px rgba(0, 0, 0, .55)); }
+.filter .ico .crest { width: 30px; height: 30px; } .tab .ico .crest { width: 26px; height: 26px; }
+.ghead .gi .crest { width: 64px; height: 64px; } .people-card .pico2 .crest { width: 72px; height: 72px; }
+.sub-ico .crest { width: 22px; height: 22px; } .trow .ico .crest.sigil { width: 26px; height: 26px; }
+.vn-plaque .pq-ico { overflow: hidden; } .vn-plaque .pq-ico .crest { width: 26px; height: 26px; }
+.filter.sel .ico .crest, .tab.sel .ico .crest { filter: drop-shadow(0 0 6px rgba(255, 255, 255, .5)); }
+.brand .bolt { display: grid; } .brand .bolt img { width: 36px; height: 36px; object-fit: contain; padding: 3px; background: #f2efe6; box-shadow: 0 0 14px rgba(255, 214, 10, .35); }
+.mono-title .wordmark { display: block; width: min(380px, 74vw); height: auto; filter: drop-shadow(0 6px 22px rgba(255, 95, 176, .35)); }
+.typeico { width: 44px; height: 44px; object-fit: contain; margin-left: -4px; }
+.roleico { width: 18px; height: 18px; object-fit: contain; margin-right: 7px; vertical-align: -4px; }
+.empty .empty-art { display: block; width: 110px; margin: 0 auto 14px; opacity: .9; }
+/* film grain over the whole site */
+#grain { position: fixed; inset: 0; z-index: 95; pointer-events: none; background: url("art/site/tex-ink-grain.png") 0 0 / 512px; opacity: .07; mix-blend-mode: overlay; }
+/* rain over the art-only view */
+body.viewing #vn::before { content: ""; position: fixed; inset: 0; z-index: 60; pointer-events: none; background: url("art/site/tex-rain.png") 0 0 / 340px 512px; opacity: .22; animation: rainFall 1.4s linear infinite; }
+@keyframes rainFall { to { background-position: -90px 512px; } }
+@media (prefers-reduced-motion: reduce) { body.viewing #vn::before { animation: none; } }
+/* halftone corner and synth-grid horizon on the hero */
+.hero-min { position: relative; overflow: hidden; }
+.hero-min::before { content: ""; position: absolute; right: 0; top: 0; width: 38%; height: 70%; background: url("art/site/tex-halftone.png") 100% 0 / 260px; opacity: .1; mask-image: linear-gradient(225deg, #000, transparent 70%); -webkit-mask-image: linear-gradient(225deg, #000, transparent 70%); pointer-events: none; }
+.hero-min::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 90px; background: url("art/site/tex-synth-grid.png") 50% 100% / 760px auto no-repeat; opacity: .85; pointer-events: none; }
+.hero-min > * { position: relative; z-index: 1; }
+/* section divider */
+.block + .block::before { content: ""; display: block; height: 30px; max-width: 560px; margin: 0 auto 22px; background: url("art/site/divider.png") center / contain no-repeat; opacity: .85; }
+/* plaque frame */
+.vn-plaque { background: url("art/site/plaque-frame.png") center / 100% 100% no-repeat, rgba(8, 8, 11, .6); border: 0; padding: 20px 38px 20px 30px; box-shadow: none; }
+/* unfinished characters share one muted placeholder painting */
+.gc.pending .poster, .hero-fig .poster { background: url("art/site/placeholder-tile.jpg") center / cover; }
+.gc.pending .poster .pz, .hero-fig .poster .pz { display: none; }

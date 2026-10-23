@@ -51,7 +51,7 @@ console.log(`${todo.length} image(s), models ${MODEL_OPAQUE} / ${MODEL_ALPHA}, q
 mkdirSync(join(root, "art/site"), { recursive: true });
 for (const a of todo) {
   console.log(`- ${a.id} (${a.shape}${a.transparent ? ", transparent" : ""})`); if (has("--dry")) continue;
-  const body = { model: a.transparent ? MODEL_ALPHA : MODEL_OPAQUE, prompt: a.prompt, size: a.shape, quality, n: 1, output_format: a.transparent ? "png" : "jpeg", ...(a.transparent ? { background: "transparent" } : {}) };
+  const body = { model: a.transparent ? MODEL_ALPHA : MODEL_OPAQUE, prompt: a.prompt, size: a.shape, quality, n: 1, output_format: a.ext === "png" ? "png" : "jpeg", ...(a.transparent ? { background: "transparent" } : {}) };
   let ok = false;
   for (let tryN = 1; tryN <= 3 && !ok; tryN++) {
     const r = await api("/images/generations", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) });
