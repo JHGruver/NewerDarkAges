@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 41.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 42.
 
 ## Art direction in one screen
 
@@ -6191,27 +6191,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | small and winged, a stern pinched face, a rigid posture; small size; mobility: flying |
 | Ethnicity + nationality | Fae (adapted from American suburban folklore) |
 | Identity | female human |
-| Wardrobe | winged fae in a sun hat, a clipboard in one hand, a tiny gavel in the other, a bundle of violation tags at the belt |
+| Wardrobe | stern older winged fae woman with pointed ears and a grey bun, a wide green sun hat with a pink bow and a daisy, cream wings, a green-and-pink cape-jacket with a brooch and a big pink bow, black gloves, a belt with a ring of pink violation tags, black thigh boots with pink trim, a tiny gavel raised in one hand and a navy clipboard held in the other, hovering in flight |
 | Accessories | Clipboard; violation tags; tiny gavel; sun hat |
-| Pose | hovering with a clipboard held up like a shield, a tiny gavel raised |
-| Facial expression | pleasant, immovable |
+| Pose | hovering in flight with the gavel raised high in one hand and the clipboard held out in the other |
+| Facial expression | stern, disapproving side-eye |
 | People | Forest Spirit |
 | Class | Cul-de-Sac Court |
 | Subclass | HOA Mediators |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | hovering with a clipboard held up like a shield, a tiny gavel raised; the Clipboard and the violation tags break the outline so it reads instantly as a black shape |
+| Silhouette hook | hovering in flight with the gavel raised high in one hand and the clipboard held out in the other; the Clipboard and the violation tags break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #a5d39a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffadad: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #264653: the eyes, the Clipboard and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/forest-hoamediators.png` and `art/v2/forest-hoamediators-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hovering with a clipboard held up like a shield, a tiny gavel raised.
+1. Black-fill test: the silhouette must still read as hovering in flight with the gavel raised high in one hand and the clipboard held out in the other.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Clipboard and the pose must be visible at 64 px.
 4. Flat colors: #a5d39a / #ffadad / #264653 as separate flat shapes divided by black line; no gradients or glow.
@@ -6231,8 +6231,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: HOA Mediators, female human (Fae (adapted from American suburban folklore)), apparent age mid 60s. small and winged, a stern pinched face, a rigid posture, small size. Pose: hovering with a clipboard held up like a shield, a tiny gavel raised. Expression: pleasant, immovable, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Clipboard. SECOND ITEM, kept plain: violation tags. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: winged fae in a sun hat, a clipboard in one hand, a tiny gavel in the other, a bundle of violation tags at the belt.
+CHARACTER: HOA Mediators, female human (Fae (adapted from American suburban folklore)), apparent age mid 60s. small and winged, a stern pinched face, a rigid posture, small size. Pose: hovering in flight with the gavel raised high in one hand and the clipboard held out in the other. Expression: stern, disapproving side-eye, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Clipboard. SECOND ITEM, kept plain: violation tags. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stern older winged fae woman with pointed ears and a grey bun, a wide green sun hat with a pink bow and a daisy, cream wings, a green-and-pink cape-jacket with a brooch and a big pink bow, black gloves, a belt with a ring of pink violation tags, black thigh boots with pink trim.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a5d39a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffadad about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Clipboard and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
