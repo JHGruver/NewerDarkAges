@@ -137,7 +137,7 @@
         cx.putImageData(img, 0, 0);
       }
       canvas.style.opacity = clamp(burst, 0, 0.55).toFixed(3);
-      NDAudio.static(0.02 + clamp(burst, 0, 0.55) * 0.2);
+      NDAudio.story(tp, clamp(burst, 0, 0.55));
       // chapter-specific scrubbing
       const byId = (id) => root.querySelector(`.c-${id}`), pOf = (id) => parseFloat(byId(id).style.getPropertyValue("--p")) || 0;
       if (countEl) countEl.textContent = String(Math.max(0, Math.round(60 - 60 * clamp(pOf("announcement") * 1.15)))).padStart(2, "0");

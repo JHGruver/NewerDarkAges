@@ -1,12 +1,13 @@
 // SITE AUDIO. One shared Web Audio graph for the whole single-page site.
-//   home (story)        -> synthesized radio static, driven by the story (NDAudio.static(level))
-//   every other page    -> the soundtrack, audio/soundtrack.mp3 (crossfades in; stays silent if the file is missing)
+//   story (home)        -> radio static opens it; from the Dim on the soundtrack is heard between the static, and as the viewer
+//                          scrolls the static fades while the soundtrack rises (NDAudio.story(progress, burst))
+//   every other page    -> the soundtrack at its loudest (50%), static gone
 // Sound is ON by default, but browsers only allow audio after a click, tap or key press, so the first one starts it
 // (the boot screen asks for it). The header speaker button and the story dial both toggle it; the choice is remembered.
 (function () {
-  const KEY = "nda-sound", TRACK = "audio/soundtrack.mp3", MUSIC_VOL = 0.7;
+  const KEY = "nda-sound", TRACK = "audio/soundtrack.mp3", MUSIC_VOL = 0.5; // "full volume" is half volume
   const AC = window.AudioContext || window.webkitAudioContext;
-  let duck = 1, ac, master, staticGain, musicGain, music, mode = "static", staticLevel = 0.02, unlocked = false, trackMissing = false;
+  let duck = 1, ac, master, staticGain, musicGain, music, mode = "story", unlocked = false, trackMissing = false;
   let enabled = true; try { enabled = localStorage.getItem(KEY) !== "off"; } catch {}
   const ramp = (param, v, t = 0.9) => { if (!ac) return; param.cancelScheduledValues(ac.currentTime); param.setTargetAtTime(v, ac.currentTime, t / 3); };
 
@@ -24,11 +25,9 @@
   }
   function apply() {
     if (!ac || !unlocked) return;
-    const staticOn = mode === "static";
-    ramp(staticGain.gain, staticOn ? staticLevel : 0, staticOn ? 0.5 : 1.2);
-    if (mode === "music") {
-      if (!trackMissing) { const p = music.play(); if (p && p.catch) p.catch(() => {}); ramp(musicGain.gain, MUSIC_VOL, 2.4); }
-    } else { ramp(musicGain.gain, 0, 1.6); setTimeout(() => { if (mode !== "music" && music) music.pause(); }, 1900); }
+    if (!trackMissing) { const p = music.play(); if (p && p.catch) p.catch(() => {}); }
+    if (mode === "music") { ramp(staticGain.gain, 0, 1.4); ramp(musicGain.gain, MUSIC_VOL, 2.4); }
+    // in story mode NDAudio.story() sets both levels every frame
   }
   function unlock() {
     if (unlocked || !AC) return; build(); ac.resume(); unlocked = true; apply(); emit();
@@ -44,8 +43,18 @@
       emit();
     },
     setMode(m) { if (m === mode) return; mode = m; apply(); },
-    // story drives the static's loudness (0 to about 0.12)
-    static(level) { staticLevel = level; if (ac && unlocked && mode === "static") staticGain.gain.value += (level * duck - staticGain.gain.value) * 0.35; },
+    get mode() { return mode; },
+    levels() { return ac && unlocked ? { static: +staticGain.gain.value.toFixed(3), music: +musicGain.gain.value.toFixed(3), track: !trackMissing } : null; },
+    // The story sets the mix every frame. t = how far through the story (0 to 1), burst = extra static at chapter changes.
+    // Static starts loud and fades to a whisper; the soundtrack is inaudible until the Dim (t about 0.22) and then climbs to full.
+    story(t, burst) {
+      if (!ac || !unlocked || mode !== "story") return;
+      const m = Math.max(0, Math.min(1, (t - 0.22) / 0.78)), now = ac.currentTime;
+      const staticLvl = (0.02 + burst * 0.2) * (1 - 0.85 * Math.max(0, Math.min(1, (t - 0.15) / 0.85))) * duck;
+      const musicLvl = m <= 0 ? 0 : MUSIC_VOL * (0.22 + 0.78 * Math.pow(m, 0.9));
+      staticGain.gain.cancelScheduledValues(now); staticGain.gain.setTargetAtTime(staticLvl, now, 0.06);
+      musicGain.gain.cancelScheduledValues(now); musicGain.gain.setTargetAtTime(musicLvl, now, 0.25);
+    },
     // a break in the static: it drops out for a beat while a clean two-note signal pings through, then the static returns
     nudge() {
       if (!ac || !unlocked || !enabled) return;

@@ -1584,18 +1584,18 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | round and soft; medium size; mobility: aquatic |
+| Physique | tall, soft and round; medium size; mobility: aquatic |
 | Ethnicity + nationality | capybara-kin (not human: no ethnicity or nationality) |
-| Wardrobe | round capybara-kin in a towel-wrap robe, a steaming kettle in one hand and a bundle of herbs in the other, a flask at the hip |
-| Accessories | Steam kettle, herb bundle, bath towel, spring-water flask |
-| Pose | pouring steam from a kettle, one paw open in welcome |
+| Wardrobe | tall, soft capybara-kin with flowers and ribbons in her hair, wearing a layered mint-and-pink ribbon robe with a bow sash, a steaming iron kettle in one hand, a bundle of herbs and lavender in the crook of the other arm, glass spring-water vials and a flask at the belt; at her feet a small raccoon assistant in a green scarf with a belt of glowing crystals |
+| Accessories | Steam kettle, herb bundle, ribbon sash, spring-water vials, a crystal-wearing raccoon companion |
+| Pose | pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet |
 | Facial expression | soft, serene smile |
 | People | Were-Creature |
 | Class | Capybara-kin |
 | Subclass | Hot-Spring Healers |
 | Type | Support |
 | Combat or support | Support |
-| Art status | Not yet generated |
+| Art status | Done: `art/v2/were-hotspringhealers.png` and `art/v2/were-hotspringhealers-bg.jpg` |
 | Colors | main #bcfec8, secondary #ffadad, pop #c9c588 |
 
 **Background**
@@ -1611,7 +1611,7 @@ Charcoal and ink painting on toned paper, 16:9 landscape, Sin City contrast, 198
 **DALL·E character prompt**
 
 ```text
-Full-body character illustration of Hot-Spring Healers, female character (a capybara-kin). Body: round and soft, medium size, aquatic. Expression: soft, serene smile. Pose: pouring steam from a kettle, one paw open in welcome. Wardrobe and carried gear (wearable or hand-held only): round capybara-kin in a towel-wrap robe, a steaming kettle in one hand and a bundle of herbs in the other, a flask at the hip. Palette: main #bcfec8 (about 60%), secondary #ffadad (about 30%), pop #c9c588 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
+Full-body character illustration of Hot-Spring Healers, female character (a capybara-kin). Body: tall, soft and round, medium size, aquatic. Expression: soft, serene smile. Pose: pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet. Wardrobe and carried gear (wearable or hand-held only): tall, soft capybara-kin with flowers and ribbons in her hair, wearing a layered mint-and-pink ribbon robe with a bow sash, a steaming iron kettle in one hand, a bundle of herbs and lavender in the crook of the other arm, glass spring-water vials and a flask at the belt; at her feet a small raccoon assistant in a green scarf with a belt of glowing crystals. Palette: main #bcfec8 (about 60%), secondary #ffadad (about 30%), pop #c9c588 (about 10%). Samurai Jack animation style: flat color shapes, extremely simplified angular geometry, bold silhouette, minimal clean contour lines, at most two tones per material, no gradients, no texture noise. The entire body from head to boots is visible with margin around it; no vehicles, scenery, floor, cast shadow, text or background. A support (support) from the Were-Creature people (Capybara-kin), mature dark-age tone. 3:4 portrait, transparent background.
 ```
 
 **DALL·E background prompt**

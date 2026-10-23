@@ -40,7 +40,7 @@ window.CAST = {
   mirematriarchs: C("Female", "N/A (crocodile-kin)", "stern, protective glare", "boat hook raised, nest basket cradled on the other arm"),
   riverjackers: C("Male", "N/A (crocodile-kin)", "smug, tooth-baring grin", "one foot up on a crate, cutlass over the shoulder, lantern pole raised"),
   slowstrikesages: C("Male", "N/A (crocodile-kin)", "half-lidded, patient", "seated upright with the staff planted, one eye cracking open"),
-  hotspringhealers: C("Female", "N/A (capybara-kin)", "soft, serene smile", "pouring steam from a kettle, one paw open in welcome"),
+  hotspringhealers: C("Female", "N/A (capybara-kin)", "soft, serene smile", "pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet"),
   reeddiplomats: C("Male", "N/A (capybara-kin)", "calm, untroubled", "holding a treaty scroll and a teapot out in offer"),
   damwardens: C("Male", "N/A (capybara-kin)", "stolid, unbothered", "planted behind a slab shield, sledge resting on one shoulder"),
   regrowthmedics: C("Nonbinary", "N/A (axolotl-kin)", "bright, reassuring smile", "kneeling with a glowing hand over a wound, satchel open"),

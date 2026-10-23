@@ -57,7 +57,7 @@ window.CHAR_META = {
   mirematriarchs: T("tank", "broad and armored", "large", "aquatic"),
   riverjackers: T("fighter", "lean and scarred", "large", "aquatic"),
   slowstrikesages: T("bruiser", "ancient and broad", "large", "grounded"),
-  hotspringhealers: T("support", "round and soft", "medium", "aquatic"),
+  hotspringhealers: T("support", "tall, soft and round", "medium", "aquatic"),
   reeddiplomats: T("enchanter", "round and calm", "medium", "grounded"),
   damwardens: T("tank", "broad and heavy-set", "large", "grounded"),
   regrowthmedics: T("support", "slim with feathery gills", "medium", "aquatic"),

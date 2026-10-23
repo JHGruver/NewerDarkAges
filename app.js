@@ -33,6 +33,7 @@ const NODE_ART = {
   etherwing: { src: "art/v2/eldritch-etherwing.png", bg: "art/v2/eldritch-etherwing-bg.jpg", name: "Etherwing Navigator" },
   signalsavants: { src: "art/v2/witch-dialturners.png", bg: "art/v2/witch-dialturners-bg.jpg", name: "Signal Savant" },
   stickywizards: { src: "art/v2/magic-stickywizards.png", bg: "art/v2/magic-stickywizards-bg.jpg", name: "Sticky Wizard" },
+  hotspringhealers: { src: "art/v2/were-hotspringhealers.png", bg: "art/v2/were-hotspringhealers-bg.jpg", name: "Hot-Spring Healer" },
   sporecoven: { src: "art/v2/magic-sporecoven.png", bg: "art/v2/magic-sporecoven-bg.jpg", name: "Spore Coven Cultivator" },
   rootlinkwarlocks: { src: "art/v2/forest-rootlinkwarlocks.png", bg: "art/v2/forest-rootlinkwarlocks-bg.jpg", name: "Rootlink Warlock" },
   bonebreakers: { src: "art/v2/undead-bonebreakers.png", bg: "art/v2/undead-bonebreakers-bg.jpg", name: "Riot-Line Bonebreaker" },
@@ -407,7 +408,7 @@ function render() {
   if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
   else if (!render.first) window.scrollTo(0, 0);
   render.first = false;
-  NDAudio.setMode(route === "" || route === "home" ? "static" : "music");
+  NDAudio.setMode(route === "" || route === "home" ? "story" : "music");
   closeDrawer();
 }
 render.first = true;

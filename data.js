@@ -57,7 +57,7 @@ const K = (id, t, done) => ({ id, t, done: !!done });
 window.PHASES = [
   {
     id: "p1", name: "Phase 1: The Project Website (V2)", status: "in-progress",
-    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 16 of 26 tasks are done; the rest is mostly art generation and balance.",
+    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 17 of 26 tasks are done; the rest is mostly art generation and balance.",
     tasks: [
       K("world", "New world, peoples, subclasses and specializations (8 peoples, 126 characters, 8 in 10 combat)", true),
       K("magic", "Magic people: four classes (Wizard, Witch, Warlock, Mage) with 12 subclass characters, Sticky Wizard included", true),
@@ -73,7 +73,7 @@ window.PHASES = [
       K("deploy", "GitHub Pages deploy from main", true),
       K("core", "Generate the core characters and backgrounds (done: one per people, plus the Sticky Wizard)", true),
       K("manual", "Monster Manual NPCs reassigned to the new peoples", true),
-      K("allart", "Generate all 126 characters and their backgrounds (10 of 126 done)"),
+      K("allart", "Generate all 126 characters and their backgrounds (11 of 126 done)"),
       K("siteart", "Site art, part 1 (done): logo, wordmark, 8 crests, 4 Magic sigils, 9 type icons, textures, UI frames, placeholder tile. Part 2 (todo): banners, region plates, story panels, share image, world map", true),
       K("siteart2", "Site art, part 2: painted scenes from SITE-ASSETS.md (hero, regions, banners, story, map, headers) and wire them in"),
       K("pipeline", "Script the image generation from CAST.md (API, transparent PNG, auto-resize)"),
@@ -81,7 +81,7 @@ window.PHASES = [
       K("stats", "Balance and stat sheet for each specialization"),
       K("lore", "Consolidate the lore bible: unified from the World Outline and Characters sheet, with a Lore page and LORE-BIBLE.md", true),
       K("lore-approve", "Approve or change the bridging lore tagged A (Thoth-Ra / Ramuset / Imhotep, the 1986 broadcast, how the peoples fit)"),
-      K("music", "Soundtrack: generate it from MUSIC-PROMPT.md and save as audio/soundtrack.mp3 (static becomes the music on the character screen)"),
+      K("music", "Soundtrack: Last Game Before Dawn is in audio/soundtrack.mp3 and blends in from the static", true),
       K("story", "Scrolling story home page: the dial that tunes through the world's story to the Pick a character button", true),
       K("a11y", "Accessibility pass: keyboard focus, contrast, reduced motion and screen-reader labels"),
       K("share", "Custom domain and share/OG preview image"),
