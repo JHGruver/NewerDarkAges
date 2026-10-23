@@ -24,7 +24,7 @@ window.CHAR_META = {
   // human
   interceptors: T("bruiser", "wiry and hard-jawed", "medium", "vehicle"),
   outriders: T("assassin", "lean, wiry and weathered", "medium", "vehicle"),
-  fuelpriests: T("blaster", "stocky and robed", "medium", "grounded"),
+  fuelpriests: T("blaster", "stocky, bearded and robed", "medium", "grounded"),
   joystick: T("fighter", "lean and precise", "medium", "agile"),
   pinball: T("blaster", "rangy and loose-limbed", "medium", "agile"),
   tokenbrokers: T("enchanter", "sharp and slight", "medium", "grounded"),

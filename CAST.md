@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 12.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 13.
 
 ## Art direction in one screen
 
@@ -183,30 +183,30 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | stocky and robed; medium size; mobility: grounded |
+| Physique | stocky, bearded and robed; medium size; mobility: grounded |
 | Ethnicity + nationality | Armenian heritage, Armenian-American |
 | Identity | male being, character |
-| Wardrobe | robed human mechanic-zealot in a stenciled fuel-company vestment, a heavy wrench in one hand and a smoking hand-censer on a short chain in the other, a bandolier of small oil flasks |
+| Wardrobe | sturdy bearded man in his fifties with a red bandana, a loose teal robe with crimson trim and flame-sigil sashes, a leather bandolier and belt of brass fuel canisters, fingerless gloves, a heavy wrench raised in one hand and a smoking brass censer on chains in the other |
 | Accessories | Fuel censer; jerry cans; wrench; stenciled vestments |
-| Pose | arms spread wide, smoking censer swinging from one hand |
+| Pose | wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains |
 | Facial expression | solemn, eyes lifted in devotion |
 | People | Human |
 | Class | Roadwar Convoys |
 | Subclass | Fuel Zealots |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | arms spread wide, smoking censer swinging from one hand; the Fuel censer and the jerry cans break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains; the Fuel censer and the jerry cans break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #06d6a0: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e63946: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #2e2200: the eyes, the Fuel censer and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-fuelpriests.png` and `art/v2/human-fuelpriests-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as arms spread wide, smoking censer swinging from one hand.
+1. Black-fill test: the silhouette must still read as wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Fuel censer and the pose must be visible at 64 px.
 4. Flat colors: #06d6a0 / #e63946 / #2e2200 as separate flat shapes divided by black line; no gradients or glow.
@@ -226,9 +226,9 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fuel Zealots, male being, character (Armenian heritage, Armenian-American), apparent age mid 40s.
-DESIGN FOR SILHOUETTE FIRST: arms spread wide, smoking censer swinging from one hand; the Fuel censer and the jerry cans break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
-BODY: stocky and robed, medium size, grounded. POSE: arms spread wide, smoking censer swinging from one hand. EXPRESSION: solemn, eyes lifted in devotion, stylized and expressive.
-WARDROBE AND HELD GEAR (worn or hand-held only): robed human mechanic-zealot in a stenciled fuel-company vestment, a heavy wrench in one hand and a smoking hand-censer on a short chain in the other, a bandolier of small oil flasks.
+DESIGN FOR SILHOUETTE FIRST: wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains; the Fuel censer and the jerry cans break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
+BODY: stocky, bearded and robed, medium size, grounded. POSE: wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains. EXPRESSION: solemn, eyes lifted in devotion, stylized and expressive.
+WARDROBE AND HELD GEAR (worn or hand-held only): sturdy bearded man in his fifties with a red bandana, a loose teal robe with crimson trim and flame-sigil sashes, a leather bandolier and belt of brass fuel canisters, fingerless gloves, a heavy wrench raised in one hand and a smoking brass censer on chains in the other.
 COLOR (exact hex values, flat fills): main #06d6a0 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e63946 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, used on the eyes, the Fuel censer and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.

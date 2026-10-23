@@ -77,15 +77,15 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ### Fuel Zealots
 
-*Combat · Blaster · colors #06d6a0 / #e63946 / #2e2200 · background wash #d9a521*
+*Combat · Blaster · colors #06d6a0 / #e63946 / #2e2200 · background wash #d9a521 · art already made*
 
 **Character prompt**
 
 ```text
 Full-body character design for a 2D animated dark-fantasy TV series, in the style of Samurai Jack crossed with Sin City: flat geometric cel animation with heavy solid black shapes. Character: Fuel Zealots, male being, character (Armenian heritage, Armenian-American), apparent age mid 40s.
-DESIGN FOR SILHOUETTE FIRST: arms spread wide, smoking censer swinging from one hand; the Fuel censer and the jerry cans break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
-BODY: stocky and robed, medium size, grounded. POSE: arms spread wide, smoking censer swinging from one hand. EXPRESSION: solemn, eyes lifted in devotion, stylized and expressive.
-WARDROBE AND HELD GEAR (worn or hand-held only): robed human mechanic-zealot in a stenciled fuel-company vestment, a heavy wrench in one hand and a smoking hand-censer on a short chain in the other, a bandolier of small oil flasks.
+DESIGN FOR SILHOUETTE FIRST: wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains; the Fuel censer and the jerry cans break the outline so it reads instantly as a black shape. Shape language: long straight lines and a bold wedge-shaped weapon.
+BODY: stocky, bearded and robed, medium size, grounded. POSE: wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains. EXPRESSION: solemn, eyes lifted in devotion, stylized and expressive.
+WARDROBE AND HELD GEAR (worn or hand-held only): sturdy bearded man in his fifties with a red bandana, a loose teal robe with crimson trim and flame-sigil sashes, a leather bandolier and belt of brass fuel canisters, fingerless gloves, a heavy wrench raised in one hand and a smoking brass censer on chains in the other.
 COLOR (exact hex values, flat fills): main #06d6a0 about 60%, used on the largest garment, armor, fur-marking or body areas; secondary #e63946 about 30%, used on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, used on the eyes, the Fuel censer and one small magical detail. Black, white and neutral grey are also allowed. Natural skin tones are allowed but must be simplified, flat and muted. No other saturated colors. Do not use #d9a521 on the character (it is reserved for the background).
 REQUIRED STYLE: strong, recognizable full-body silhouette; flat geometric color shapes; angular construction and deliberate exaggeration; clean, minimal contour lines; heavy, solid black shapes; stark white highlights; maximum two tonal planes per material; clear separation between overlapping forms; readable anatomy and gestures; stylized, expressive face; strong negative space around arms, legs, weapons and accessories; consistent visual weight with the rest of the roster.
 FORBIDDEN: photorealism; 3D rendering or CGI; painterly brushwork; watercolor or oil-paint texture; anime-style fine detail; soft airbrushing; gradients; bloom, lens flare or realistic glow (any glow is a flat solid shape); detailed fabric textures; excessive tiny costume decorations; individual hairs or fur strands; realistic material reflections; generic fantasy concept-art rendering.
