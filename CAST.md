@@ -4024,16 +4024,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | slim and winged, thin limbs, a wiry climber's build; medium size; mobility: climbing |
 | Ethnicity + nationality | moth-kin (not human) |
 | Identity | male anthropomorphic moth character |
-| Wardrobe | moth-kin scout with a cream fluffy mane and feathery blue-and-pink antennae, a pink radio headset with a short antenna, big blue wings with cream eye-spots and pink tips, a pink climbing harness with a chain and padlock, clinging to a tower rung with one hand and holding a striped pink-and-black signal staff raised in the other |
+| Wardrobe | moth-kin scout with a cream fluffy mane and feathery blue-and-pink antennae, a pink radio headset with a short antenna, big blue wings with cream eye-spots and pink tips, a pink climbing harness with a chain and padlock, clinging to a metal pole with one hand and holding a striped pink-and-black signal staff raised in the other |
 | Accessories | Signal rod; radio headset; antenna pack; climbing harness |
-| Pose | clinging to a tower pole with one arm and a foot, the wings spread and the signal staff raised in the other hand |
+| Pose | clinging to a metal pole with one arm and a foot, the wings spread and the signal staff raised in the other hand |
 | Facial expression | alert, focused, antennae twitching |
 | People | Were-Creature |
 | Class | Moth-kin |
 | Subclass | Signal-Tower Wardens |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | clinging to a tower pole with one arm and a foot, the wings spread and the signal staff raised in the other hand; the Signal rod and the radio headset break the outline so it reads instantly as a black shape |
+| Silhouette hook | clinging to a metal pole with one arm and a foot, the wings spread and the signal staff raised in the other hand; the Signal rod and the radio headset break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #30a8f5: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f72585: trim, sash, straps, secondary garment pieces and held gear |
@@ -4044,7 +4044,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as clinging to a tower pole with one arm and a foot, the wings spread and the signal staff raised in the other hand.
+1. Black-fill test: the silhouette must still read as clinging to a metal pole with one arm and a foot, the wings spread and the signal staff raised in the other hand.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Signal rod and the pose must be visible at 64 px.
 4. Flat colors: #30a8f5 / #f72585 / #4a4e69 as separate flat shapes divided by black line; no gradients or glow.
@@ -4064,8 +4064,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Signal-Tower Wardens, male anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged, thin limbs, a wiry climber's build, medium size. Pose: clinging to a tower pole with one arm and a foot, the wings spread and the signal staff raised in the other hand. Expression: alert, focused, antennae twitching, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Signal rod. SECOND ITEM, kept plain: radio headset. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin scout with a cream fluffy mane and feathery blue-and-pink antennae, a pink radio headset with a short antenna, big blue wings with cream eye-spots and pink tips, a pink climbing harness with a chain and padlock, clinging to a tower rung with one hand and holding a striped pink-and-black signal staff raised in the other.
+CHARACTER: Signal-Tower Wardens, male anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged, thin limbs, a wiry climber's build, medium size. Pose: clinging to a metal pole with one arm and a foot, the wings spread and the signal staff raised in the other hand. Expression: alert, focused, antennae twitching, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Signal rod. SECOND ITEM, kept plain: radio headset. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin scout with a cream fluffy mane and feathery blue-and-pink antennae, a pink radio headset with a short antenna, big blue wings with cream eye-spots and pink tips, a pink climbing harness with a chain and padlock, clinging to a metal pole with one hand and holding a striped pink-and-black signal staff raised in the other.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #30a8f5 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f72585 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4a4e69 about 10%, on the eyes, the Signal rod and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
