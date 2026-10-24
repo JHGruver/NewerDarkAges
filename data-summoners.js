@@ -1,5 +1,5 @@
 // SUMMONERS / MINIONMANCERS: a new class in every people, each with one character who calls minions to fight for them.
-//   Human: Ninja Shoguns (ninjas)        Vampire: Belfry Batcallers (bats)       Were-Creature: Squirrel Callers (a capybara and squirrels)
+//   Human: Ninja Shoguns (ninjas)        Vampire: Belfry Batcallers (bats)       Were-Creature: Squirrel Commanders (a squirrel-kin who commands squirrels)
 //   Ghost: Seance Operators (demons)     Undead: Marrow Puppeteers (reverse necromancy: they steer the skeletons inside living creatures)
 //   Forest Spirit: Canopy Beastmasters   Eldritch: Azathoth Pipers (Lovecraft: flute-priests who call Byakhee)   Magic: Necromancers
 // Registers the class, CHAR_META and ART_SPEC. The new TYPE ("summoner") lives in data-types.js. All eight are combat.
@@ -39,18 +39,18 @@
       w: "tall gaunt vampire with a high collar, a long violet bat-wing cloak, a thin black bodice and boots, a small silver bell in one hand, five small bats peeling off the cloak around her",
       p: "a ruined bell-loft with a huge cracked bell, rope pulls, stone gargoyles, hanging bat roosts and a broken stained-glass window" });
 
-  add("were", { summary: "Clan matriarchs who never raise their voices. A calm call brings a tide of small, fast friends.", lore: "The Pack runs on messages, and the quickest messengers have bushy tails." },
-    { id: "squirrelcallers", name: "Squirrel Callers", icon: "capybara", tagline: "Calm voice. Many acorns.",
-      summary: "Capybara matriarchs whose gentle call brings a tide of squirrels: scouts, couriers and thieves with tiny teeth.",
-      lore: "The capybara clans sit at the Mystic meetings and never raise their voices. They do not need to. A Squirrel Caller can have a message across the territory before the treaty ink dries.",
-      strengths: ["Calls dozens of small fast squirrels", "Scouts and carries items across any ground"], weaknesses: ["Squirrels are fragile", "Slow on her own"],
-      abilities: ["Acorn Call: summon a scurry of squirrels", "Nut Barrage: the squirrels hurl acorns", "Scamper Relay: carry an ally's item or message to anyone"],
-      gear: "Carved acorn whistle, seed pouch, woven shawl, a scurry of small summoned squirrels",
-      look: "Calm capybara-kin sitting on a stump with an acorn whistle, five squirrels perched on her shoulders and arms and lap.",
-      pal: ["#6f4f2a", "#e8c07a", "#df590c"], physique: "enormous round barrel, a blunt boxy head, tiny legs, a lap wide enough for a flock", size: "large", move: "grounded",
-      who: "a placid, wide capybara-kin matriarch of great age",
-      w: "very round capybara-kin matriarch in a woven brown shawl, sitting on a stump with a carved acorn whistle at her lips, a seed pouch at her side, five small squirrels on her shoulders, arms and lap",
-      p: "an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches, a stump table and a pile of hollow logs" });
+  add("were", { summary: "Tiny drill-sergeants who command whole armies of squirrels with a whistle and a stern look.", lore: "The Pack runs on messages, and the quickest messengers have bushy tails." },
+    { id: "squirrelcommanders", name: "Squirrel Commanders", icon: "squirrel", tagline: "Fall in. Acorns up.",
+      summary: "Squirrel-kin drill-sergeants who command a scurry of squirrels: scouts, couriers and thieves with tiny teeth, all of them very well trained.",
+      lore: "The squirrel-kin took to the scrapyard oaks when the old world fell, and made a drill of everything. A Squirrel Commander can have a message across the territory before the treaty ink dries, or a hundred squirrels at your ankles before you finish a sentence.",
+      strengths: ["Commands dozens of small fast squirrels", "Scouts and carries items across any ground"], weaknesses: ["Squirrels are fragile", "Tiny and easy to catch on her own"],
+      abilities: ["Fall In: summon a scurry of squirrels", "Acorn Volley: the squirrels hurl acorns", "Scamper Relay: carry an ally's item or message to anyone"],
+      gear: "Acorn-cap helmet, carved acorn whistle, seed pouch, a scurry of small summoned squirrels",
+      look: "Small wiry squirrel-kin commander with a huge arched tail, an acorn whistle at her lips and one paw pointing forward as five squirrels charge around her feet.",
+      pal: ["#6f4f2a", "#e8c07a", "#df590c"], physique: "small and wiry, long hind legs, a huge bushy tail that arches higher than her head", size: "small", move: "agile",
+      who: "a small, wiry, bossy squirrel-kin commander",
+      w: "small wiry squirrel-kin commander with a huge bushy tail arched over her back, an acorn-cap helmet, a brown leather harness with a seed pouch, a carved acorn whistle at her lips, one paw pointing forward, five small squirrels charging around her feet",
+      p: "an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches, a stump parade ground and a pile of hollow logs" });
 
   add("ghost", { summary: "Dead-line operators who answer calls from places that should be silent, and let what answers climb through.", lore: "The old exchanges never hung up, and neither did what lives in the wire." },
     { id: "seanceoperators", name: "Seance Operators", icon: "ghost", tagline: "Please hold. Something is coming through.",

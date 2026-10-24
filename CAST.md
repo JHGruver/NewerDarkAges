@@ -1921,7 +1921,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 *People color: Rust #b4532a. Background setting: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles.*
 
 **Tagline:** Two hearts, one war-band.  
-**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Axolotl-kin (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers); Raven-kin (Gloamwing Oracles, Salvage Magpies, Murder Vanguard); Owl-kin (Hushwing Strikers, Night-Eye Snipers, Rotating Watch); Octopus-kin (Ink Spies, Tentacle Engineers, Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Callers)
+**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Axolotl-kin (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers); Raven-kin (Gloamwing Oracles, Salvage Magpies, Murder Vanguard); Owl-kin (Hushwing Strikers, Night-Eye Snipers, Rotating Watch); Octopus-kin (Ink Spies, Tentacle Engineers, Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
 
 
 ## Were-Creature › Wolf-kin
@@ -4518,43 +4518,43 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ## Were-Creature › Summoners
 
-### Squirrel Callers  `squirrelcallers`
+### Squirrel Commanders  `squirrelcommanders`
 
-*Calm voice. Many acorns.*
+*Fall in. Acorns up.*
 
 **Character**
 
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | enormous round barrel, a blunt boxy head, tiny legs, a lap wide enough for a flock; large size; mobility: grounded |
-| Ethnicity + nationality | capybara-kin (not human) |
-| Identity | a placid, wide capybara-kin matriarch of great age |
-| Wardrobe | very round capybara-kin matriarch in a woven brown shawl, sitting on a stump with a carved acorn whistle at her lips, a seed pouch at her side, five small squirrels on her shoulders, arms and lap |
-| Accessories | Carved acorn whistle; seed pouch; woven shawl; a scurry of small summoned squirrels |
-| Pose | seated on a stump with the acorn whistle at her lips, squirrels on her shoulders, arms and lap |
-| Facial expression | placid, eyes half closed |
+| Physique | small and wiry, long hind legs, a huge bushy tail that arches higher than her head; small size; mobility: agile |
+| Ethnicity + nationality | squirrel-kin (not human) |
+| Identity | a small, wiry, bossy squirrel-kin commander |
+| Wardrobe | small wiry squirrel-kin commander with a huge bushy tail arched over her back, an acorn-cap helmet, a brown leather harness with a seed pouch, a carved acorn whistle at her lips, one paw pointing forward, five small squirrels charging around her feet |
+| Accessories | Acorn-cap helmet; carved acorn whistle; seed pouch; a scurry of small summoned squirrels |
+| Pose | balanced on one foot atop a stump, tail arched high, one paw pointing forward as squirrels pour past |
+| Facial expression | sharp, bossy grin |
 | People | Were-Creature |
 | Class | Summoners |
-| Subclass | Squirrel Callers |
+| Subclass | Squirrel Commanders |
 | Type | Summoner |
 | Combat or support | Combat |
-| Silhouette hook | seated on a stump with the acorn whistle at her lips, squirrels on her shoulders, arms and lap; the Carved acorn whistle and the seed pouch break the outline so it reads instantly as a black shape |
+| Silhouette hook | balanced on one foot atop a stump, tail arched high, one paw pointing forward as squirrels pour past; the Acorn-cap helmet and the carved acorn whistle break the outline so it reads instantly as a black shape |
 | Shape language | one big commanding gesture silhouette with several small, clearly separate minion shapes around it |
 | Main color (60%) | #6f4f2a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e8c07a: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #df590c: the eyes, the Carved acorn whistle and one small magical detail |
+| Pop color (10%) | #df590c: the eyes, the Acorn-cap helmet and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
 | Art status | Not yet generated |
 | Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as seated on a stump with the acorn whistle at her lips, squirrels on her shoulders, arms and lap.
+1. Black-fill test: the silhouette must still read as balanced on one foot atop a stump, tail arched high, one paw pointing forward as squirrels pour past.
 2. Few large shapes: one big commanding gesture silhouette with several small, clearly separate minion shapes around it; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Carved acorn whistle and the pose must be visible at 64 px.
+3. Thumbnail test: the Acorn-cap helmet and the pose must be visible at 64 px.
 4. Flat colors: #6f4f2a / #e8c07a / #df590c as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Carved acorn whistle and seed pouch and the summoner shape language.
+5. Distinctive without detail: identifiable by Acorn-cap helmet and carved acorn whistle and the summoner shape language.
 
 **Background**
 
@@ -4563,19 +4563,19 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #6f4f2a / #e8c07a / #df590c (about 20%) |
 | Midground | an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches |
-| Foreground | a stump table and a pile of hollow logs |
-| Character-relevant items | an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches, a stump table and a pile of hollow logs |
+| Foreground | a stump parade ground and a pile of hollow logs |
+| Character-relevant items | an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches, a stump parade ground and a pile of hollow logs |
 
 **Character prompt**
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Squirrel Callers, a placid, wide capybara-kin matriarch of great age, apparent age early 70s. enormous round barrel, a blunt boxy head, tiny legs, a lap wide enough for a flock, large size. Pose: seated on a stump with the acorn whistle at her lips, squirrels on her shoulders, arms and lap. Expression: placid, eyes half closed, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Carved acorn whistle. SECOND ITEM, kept plain: seed pouch. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: very round capybara-kin matriarch in a woven brown shawl, sitting on a stump with a carved acorn whistle at her lips, a seed pouch at her side, five small squirrels on her shoulders, arms and lap.
+CHARACTER: Squirrel Commanders, a small, wiry, bossy squirrel-kin commander (squirrel-kin (not human)), apparent age mid 30s. small and wiry, long hind legs, a huge bushy tail that arches higher than her head, small size. Pose: balanced on one foot atop a stump, tail arched high, one paw pointing forward as squirrels pour past. Expression: sharp, bossy grin, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Acorn-cap helmet. SECOND ITEM, kept plain: carved acorn whistle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small wiry squirrel-kin commander with a huge bushy tail arched over her back, an acorn-cap helmet, a brown leather harness with a seed pouch, a carved acorn whistle at her lips, one paw pointing forward, five small squirrels charging around her feet.
 
 SUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #6f4f2a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c07a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #df590c about 10%, on the eyes, the Carved acorn whistle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #6f4f2a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c07a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #df590c about 10%, on the eyes, the Acorn-cap helmet and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must pass the black-fill, few-shapes, thumbnail, flat-color and distinctive-without-detail tests; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
@@ -4585,7 +4585,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Squirrel Callers with no people, creatures, figures, silhouettes or text. Midground: an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches. Foreground: a stump table and a pile of hollow logs, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Squirrel Commanders with no people, creatures, figures, silhouettes or text. Midground: an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches. Foreground: a stump parade ground and a pile of hollow logs, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #6f4f2a for the biggest glowing sources and surfaces, secondary #e8c07a for medium panels, banners and lights, pop #df590c for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

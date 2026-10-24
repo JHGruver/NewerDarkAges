@@ -68,7 +68,7 @@ The Characters sheet uses one set of class names for all three tribes (Chieftain
 - **The Last Broadcast** `[S+A]`. Becomes the Russian announcement of 1986, sent on every frequency. The sixty seconds of sound that followed is a design addition and is the root of the Second Signal.
 - **Thoth-Ra, Imhotep and Ramuset** `[A]`. Three names in the sources. Proposed: Imhotep is the neutral god the Mystics meet under. Ramuset is a darker god who is worshipped north of the Block and whose agent is Ezekiel. Thoth-Ra is Ramuset's sorcerer, the Mummy at the Black Pyramid who runs the trials. This makes every ascended leader a possible agent of Ramuset.
 - **The game's eight peoples** `[A]`. Humans, Vampires and Werewolves are the three tribes. Zombies, Zombie-Hybrids and the Mummy are the Undead. The Ghosts, Forest Spirits and Eldritch are the old world's leftovers and the things the war woke up. Magic is the Mystic tradition made into four classes.
-- **Werewolves versus the Were-Creature people** `[A]`. The Pack (wolf-kin) is the werewolf colony. The other were-kin (raccoon, crocodile, capybara, axolotl, raven, owl, octopus, mantis shrimp, moth, pangolin, spider) are clans that swore to the Pack in the cordon years.
+- **Werewolves versus the Were-Creature people** `[A]`. The Pack (wolf-kin) is the werewolf colony. The other were-kin (raccoon, crocodile, capybara, squirrel, axolotl, raven, owl, octopus, mantis shrimp, moth, pangolin, spider) are clans that swore to the Pack in the cordon years.
 - **Where magic comes from** `[A]`. From the Black Pyramid. The Wizards study what the trials teach, the Witches grow it, the Warlocks bargain for it (many through failed trials), and the Mages are born carrying it.
 
 ## 7. How the game's peoples, classes and subclasses fit
@@ -109,7 +109,7 @@ The werewolf colony and the clans that swore to the Pack. Alpha Wolf, Pack Leade
 - **Moth-kin** (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens): Light-keepers who tend the old signal towers.
 - **Pangolin-kin** (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers): Wall-builders and miners.
 - **Spider-kin** (Loomweavers, Silkroad Messengers, Dewdrop Dancers): Couriers and weavers who run the Pack's message lines.
-- **Summoners** (Squirrel Callers): The capybara clans' quiet couriers: Squirrel Callers run the acorn network that carries news between the Pack and the clans faster than any rider.
+- **Summoners** (Squirrel Commanders): The Pack's tail-twitching couriers and drill-sergeants: Squirrel Commanders run the acorn network that carries news and orders across the territory faster than any rider.
 
 ### Ghost · The Dead Air Stations
 

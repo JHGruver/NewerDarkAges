@@ -121,7 +121,7 @@ window.CAST = {
   fluxborn: C("Nonbinary", "Peruvian heritage, Peruvian", "wild, laughing", "mid-dash with lightning crackling in both hands"),
   ninjashoguns: C("Male", "Japanese heritage, Japanese", "stern, narrowed eyes", "wide commanding stance, the war fan swept out to one side while three small ninjas leap from the scroll in the other hand"),
   batcallers: C("Female", "Hungarian heritage, Hungarian", "serene, almost smiling", "arms flung wide on tiptoe as a swarm of bats peels away from the cloak, the bell held out in one hand"),
-  squirrelcallers: C("Female", "N/A (capybara-kin)", "placid, eyes half closed", "seated on a stump with the acorn whistle at her lips, squirrels on her shoulders, arms and lap"),
+  squirrelcommanders: C("Female", "N/A (squirrel-kin)", "sharp, bossy grin", "balanced on one foot atop a stump, tail arched high, one paw pointing forward as squirrels pour past"),
   seanceoperators: C("Female", "In life: Filipino heritage, Filipino", "bored professional calm", "leaning far back with one arm out holding the patch-cord while demons climb out of it"),
   marrowpuppeteers: C("Male", "In life: Egyptian heritage, Egyptian", "gleeful, hollow-eyed concentration", "hunched forward, both hands splayed with glowing strings running to a crow and a wolf"),
   canopybeastmasters: C("Female", "Brazilian Amazonian heritage, Brazilian", "fierce, delighted", "striding forward blowing the horn, the animals fanned out around her"),
@@ -151,7 +151,7 @@ window.CAST = {
 window.CAST_AGE = {
  "ninjashoguns": "early 50s",
  "batcallers": "mid 60s",
- "squirrelcallers": "early 70s",
+ "squirrelcommanders": "mid 30s",
  "seanceoperators": "mid 40s",
  "marrowpuppeteers": "early 70s",
  "canopybeastmasters": "late 30s",
@@ -288,7 +288,7 @@ window.CAST_AGE = {
 window.CAST_FAMILY = {
  "ninjashoguns": "PLANTED",
  "batcallers": "FLOAT",
- "squirrelcallers": "SIT",
+ "squirrelcommanders": "BALANCE",
  "seanceoperators": "LEAN",
  "marrowpuppeteers": "STOOP",
  "canopybeastmasters": "STRIDE",

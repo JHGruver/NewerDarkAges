@@ -6,6 +6,7 @@ window.ICONS = {
 "volume": "<path d=\"M11 5 6 9H2v6h4l5 4V5z\"/><path d=\"M15.5 8.5a5 5 0 0 1 0 7\"/><path d=\"M19 5a10 10 0 0 1 0 14\"/>",
 "volume-off": "<path d=\"M11 5 6 9H2v6h4l5 4V5z\"/><path d=\"m22 9-6 6\"/><path d=\"m16 9 6 6\"/>",
 "summon": "<circle cx=\"12\" cy=\"12\" r=\"10\"/><path d=\"m12 6 1.8 4.4 4.7.4-3.6 3 1.1 4.6L12 15.9 8 18.4l1.1-4.6-3.6-3 4.7-.4z\"/>",
+"squirrel": "<path d=\"M9 21c-3-2-3-7 0-9 1-3 4-4 6-2 2 2 1 5-1 6l-1 5\"/><path d=\"M16 9c4-1 6 2 5 6-.8 2.8-3.5 4-6 3\"/><circle cx=\"11.5\" cy=\"10.5\" r=\".6\"/>",
 "view-vertical": "<rect x=\"3\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"3\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"3\" width=\"4\" height=\"8\" /><rect x=\"3\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"10\" y=\"13\" width=\"5\" height=\"8\" /><rect x=\"17\" y=\"13\" width=\"4\" height=\"8\" />",
 "view-horizontal": "<rect x=\"3\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"10\" y=\"4\" width=\"5\" height=\"16\" /><rect x=\"17\" y=\"4\" width=\"4\" height=\"16\" />",
 "heart": "<path d=\"M12 21s-8-5-8-11a4.5 4.5 0 0 1 8-3 4.5 4.5 0 0 1 8 3c0 6-8 11-8 11z\"/>",
