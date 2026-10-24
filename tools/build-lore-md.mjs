@@ -7,7 +7,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const ctx = { console }; ctx.window = ctx; vm.createContext(ctx);
-for (const f of ["icons", "data", "data-peoples-1", "data-peoples-2", "data-peoples-3", "data-peoples-4", "data-types", "data-art", "data-magic", "data-lore-source", "data-lore"]) vm.runInContext(readFileSync(join(root, f + ".js"), "utf8"), ctx, { filename: f });
+for (const f of ["icons", "data", "data-peoples-1", "data-peoples-2", "data-peoples-3", "data-peoples-4", "data-types", "data-art", "data-magic", "data-summoners", "data-lore-source", "data-lore"]) vm.runInContext(readFileSync(join(root, f + ".js"), "utf8"), ctx, { filename: f });
 const { LORE, LORE_SRC, GROUP_DEFS, GROUP_ORDER, PEOPLE_COLORS } = ctx;
 const tag = (s) => (s ? ` \`[${s}]\`` : "");
 const o = [];

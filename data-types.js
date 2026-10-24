@@ -11,6 +11,7 @@ window.TYPES = {
   blaster:    { name: "Blaster",    letter: "L", desc: "Ranged firepower and explosive area damage.",     pose: "a braced firing stance aiming a ranged weapon, or winding up to throw an explosive" },
   controller: { name: "Controller", letter: "O", desc: "Traps, binds and shapes the battlefield.",        pose: "a wide arm gesture deploying a trap, chain, net or barrier, with tools hanging from the body" },
   support:    { name: "Support",    letter: "S", desc: "Heals, shields and rescues allies.",              pose: "an open calm posture with one hand offering aid, the medical or utility kit clearly visible" },
+  summoner:   { name: "Summoner",   letter: "N", desc: "Calls minions to fight in their place.",        pose: "arms spread or one hand commanding while small summoned minions leap, crawl or fly out around the figure, the minions drawn small and clearly separate from the summoner" },
   enchanter:  { name: "Enchanter",  letter: "E", desc: "Buffs allies, weakens enemies, bends morale.",    pose: "raised hands presenting a talisman, instrument or charm, ornamental accessories catching the pose" },
 };
 window.PEOPLE_LETTER = { human: "H", vampire: "V", were: "W", ghost: "G", undead: "U", forest: "F", eldritch: "E", magic: "M" };

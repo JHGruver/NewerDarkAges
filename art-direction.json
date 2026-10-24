@@ -44,7 +44,8 @@
   "blaster": "long straight lines and a bold wedge-shaped weapon",
   "controller": "hexagons and wide arc gestures with tools hanging off the body",
   "support": "soft rounded rectangles with an open palm and a visible kit",
-  "enchanter": "circles and stars around a charm, instrument or talisman"
+  "enchanter": "circles and stars around a charm, instrument or talisman",
+  "summoner": "one big commanding gesture silhouette with several small, clearly separate minion shapes around it"
  },
  "references": [
   "art/v2/human-interceptors.png",
@@ -58,12 +59,12 @@
  ],
  "simplify": [
   "FIGURE: about 12 to 15 big shapes in total",
-  "OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines",
-  "SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light",
-  "FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading",
+  "OUTLINE: one thin, uniform-weight black line",
+  "SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading",
+  "FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading",
   "HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture",
-  "FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles",
-  "METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading",
+  "FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles",
+  "METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving",
   "HANDS and FEET: simple blocky shapes",
   "at most ONE repeated graphic symbol on the whole figure",
   "clear negative space between limbs, prop and body"

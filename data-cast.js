@@ -119,6 +119,14 @@ window.CAST = {
   chronofractures: C("Male", "Nigerian heritage, Nigerian", "restless, half-smiling", "leaning out of a dodge with a ghost-copy a step behind"),
   mindweavers: C("Male", "Japanese heritage, Japanese", "composed, eyes shut", "standing with one hand extended and three thought-blades floating in an arc"),
   fluxborn: C("Nonbinary", "Peruvian heritage, Peruvian", "wild, laughing", "mid-dash with lightning crackling in both hands"),
+  ninjashoguns: C("Male", "Japanese heritage, Japanese", "stern, narrowed eyes", "wide commanding stance, the war fan swept out to one side while three small ninjas leap from the scroll in the other hand"),
+  batcallers: C("Female", "Hungarian heritage, Hungarian", "serene, almost smiling", "arms flung wide on tiptoe as a swarm of bats peels away from the cloak, the bell held out in one hand"),
+  squirrelcallers: C("Female", "N/A (capybara-kin)", "placid, eyes half closed", "seated on a stump with the acorn whistle at her lips, squirrels on her shoulders, arms and lap"),
+  seanceoperators: C("Female", "In life: Filipino heritage, Filipino", "bored professional calm", "leaning far back with one arm out holding the patch-cord while demons climb out of it"),
+  marrowpuppeteers: C("Male", "In life: Egyptian heritage, Egyptian", "gleeful, hollow-eyed concentration", "hunched forward, both hands splayed with glowing strings running to a crow and a wolf"),
+  canopybeastmasters: C("Female", "Brazilian Amazonian heritage, Brazilian", "fierce, delighted", "striding forward blowing the horn, the animals fanned out around her"),
+  azathothpipers: C("Nonbinary", "Unknown (flute-priest of the Drowned Undercity)", "none, a blank cloth mask", "swaying in a twisting stance with the flute at the mouth as two Byakhee spiral overhead"),
+  necromancers: C("Female", "Egyptian heritage, Egyptian", "calm, hollow-cheeked authority", "kneeling on one knee with the staff raised in one hand and the other palm pressed down as skeletons rise around her"),
   /* ---------------- ELDRITCH ---------------- */
   tidecallpriests: C("Female", "Deep One (adapted from coastal folklore)", "serene, slow-blinking", "leaning back with both arms raised calling the tide, the shell staff held overhead"),
   coralbone: C("Male", "Deep One (reef-grown)", "stoic, barnacled scowl", "advancing with the trident leveled and the barnacle shield braced"),
@@ -141,6 +149,15 @@ window.CAST = {
 };
 // Apparent age and pose family per character (audited Oct 2026 for variety). Not loaded by the site.
 window.CAST_AGE = {
+ "ninjashoguns": "early 50s",
+ "batcallers": "mid 60s",
+ "squirrelcallers": "early 70s",
+ "seanceoperators": "mid 40s",
+ "marrowpuppeteers": "early 70s",
+ "canopybeastmasters": "late 30s",
+ "azathothpipers": "mid 30s",
+ "necromancers": "mid 60s",
+
  "jammers": "mid 30s",
  "snipercaster": "early 30s",
  "latenightcallers": "mid 40s",
@@ -269,6 +286,15 @@ window.CAST_AGE = {
  "sporecoven": "mid 40s"
 };
 window.CAST_FAMILY = {
+ "ninjashoguns": "PLANTED",
+ "batcallers": "FLOAT",
+ "squirrelcallers": "SIT",
+ "seanceoperators": "LEAN",
+ "marrowpuppeteers": "STOOP",
+ "canopybeastmasters": "STRIDE",
+ "azathothpipers": "TWIST",
+ "necromancers": "KNEEL",
+
  "jammers": "RUN",
  "snipercaster": "HANG",
  "latenightcallers": "SIT",

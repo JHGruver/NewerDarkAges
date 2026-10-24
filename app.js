@@ -272,7 +272,7 @@ function detailBlocks(group, trail, names) {
       <details><summary>Background prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-b"])}</textarea><button class="copy" data-copy="${key}-b">Copy</button></details>
     </div>`;
   } else {
-    h += `<div class="blk"><h4>Go deeper</h4><p>${node.subs.length} ${esc(names[1].toLowerCase())}${/s$/.test(names[1]) ? "es" : "s"} to choose from, listed on the left or in the middle.</p></div>`;
+    h += `<div class="blk"><h4>Go deeper</h4><p>${node.subs.length === 1 ? `1 ${esc(names[1].toLowerCase())} to choose` : `${node.subs.length} ${esc(names[1].toLowerCase())}${/s$/.test(names[1]) ? "es" : "s"} to choose from`}, listed on the left or in the middle.</p></div>`;
   }
   return h;
 }

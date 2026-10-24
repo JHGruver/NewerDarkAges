@@ -81,6 +81,7 @@ The human colony. Chieftain, Senate and Elders. Nothing innate, so they win on n
 - **Arcade Clans** (Joystick Duelists, Pinball Gunners, Token Brokers): The colony's training clans. Competition is how the Senate finds talent.
 - **Pirate Radio** (Static Jammers, Skyline DJs, Late-Night Hosts): The colony's voice. They are the only ones who still remember the exact words of the Broadcast.
 - **Mall Republic** (Riot Marshals, Escalator Lancers, Concierge Diplomats): The seat of the Senate and the colony's police and envoys.
+- **Summoners** (Ninja Shoguns): The Shogun houses: hereditary war-lords who keep a ninja clan on call. The Senate pretends not to know them and borrows them often.
 
 ### Vampire · The Static Spires
 
@@ -90,6 +91,7 @@ The vampire colony. High Priest, Counsel and Lords. Rule by aristocracy and styl
 - **Neon Nocturnes** (Strobe Duelists, Bassline Brawlers, VIP Hosts): The night clubs that double as barracks and information markets.
 - **Night Watch** (Owlwing Watch, Gargoyle Sentries, Antenna Wraiths): Rooftop guards who patrol the borders and enforce the treaty line.
 - **Coterie of Masks** (Masked Assassins, Thorn Poisoners, Spotlight Understudies): The High Priest's spies and quiet knives.
+- **Summoners** (Belfry Batcallers): Belfry colonies tended by Batcallers. The bats are the High Priest's eyes across the Spires, and the first to know when a treaty line is crossed.
 
 ### Were-Creature · The Pylon Coast and the Scrapwild
 
@@ -107,6 +109,7 @@ The werewolf colony and the clans that swore to the Pack. Alpha Wolf, Pack Leade
 - **Moth-kin** (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens): Light-keepers who tend the old signal towers.
 - **Pangolin-kin** (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers): Wall-builders and miners.
 - **Spider-kin** (Loomweavers, Silkroad Messengers, Dewdrop Dancers): Couriers and weavers who run the Pack's message lines.
+- **Summoners** (Squirrel Callers): The capybara clans' quiet couriers: Squirrel Callers run the acorn network that carries news between the Pack and the clans faster than any rider.
 
 ### Ghost · The Dead Air Stations
 
@@ -116,6 +119,7 @@ The war dead who stayed in the machines. Neutral, and the only ones who remember
 - **Hollow Machines** (Rust-Wraith Possessors, Cabinet Spirits, Circuit Seers): Spirits bound into old hardware.
 - **The Last Call** (Last-Dance Revelers, Wake-Wardens, Redial Wraiths): Those who died celebrating the end of the world.
 - **The Lingerers** (Highway Banshees, Billboard Haunts, Hospice Haunts): Bound to the roads and wards where they died.
+- **Summoners** (Seance Operators): Operators of the dead exchanges. They dial a line that should be silent and let the Dial-Tone Demons up: fragments of the Broadcast's static that learned to grin.
 
 ### Undead · The Block, the Zombie Territories and the Black Pyramid
 
@@ -125,6 +129,7 @@ Zombies, Dr. Stein's cybernetic zombie-hybrids, and the Mummy court of Thoth-Ra 
 - **Risen Labor Union** (Demolition Crews, Wrecking-Ball Lumberers, Shop Stewards): Unmodified zombies who keep working because nobody told them to stop.
 - **Lich Bureaucracy** (Soul Notaries, Phylactery Auditors, Contract Reapers): The Mummy's bureaucracy: the Soul Notaries who file the souls forfeited in the trials.
 - **Reach Court** (Sarcophagus Lancers, Gold-Mask Duelists, Embalmer Alchemists): The Mummy court: Thoth-Ra's royal guard and Ramuset's embalmers at the Black Pyramid.
+- **Summoners** (Marrow Puppeteers): Reverse necromancers kept near the Block. They steer the skeletons inside the living, which is how the wilds' beasts leave marching in step.
 
 ### Forest Spirit · The Overgrowth
 
@@ -134,6 +139,7 @@ The old folk of the green edge of the Zombie Territories. They kept to themselve
 - **Root-Server Dryads** (Rootlink Warlocks, Moss-Plate Wardens, Greenhouse Healers): Dryads who grew into a dead data center.
 - **Basement Gnomes** (Sump Sappers, Boiler-Room Brawlers, Toll Brokers): Fortified cellars under the colonies' ruins.
 - **Hob Neighbors** (Doorbell Ambushers, Pantry Poisoners, Block-Watch Sentries): Small helpers who attach themselves to households and never leave.
+- **Summoners** (Canopy Beastmasters): The Overgrowth's Beastmasters: wardens who ask the forest for help with a horn and a promise, and get a whole cast of creatures.
 
 ### Eldritch · The Drowned Undercity
 
@@ -145,6 +151,7 @@ Not from here. The flood and the Broadcast's echo let the unmoored things up und
 - **Elder Things** (Starstone Architects, Fossil-Script Historians, Wingfold Wardens): The first architects, remembered in the pyramids.
 - **Nightgaunts** (Dream-Snatchers, Voidwing Scouts, Nightmare Shepherds): Hunters in the dark between the colonies.
 - **Hounds of Tindalos** (Corner-Stalkers, Time-Scent Trackers, Fracture-Jaw Reapers): Things that come through the sharp angles of time.
+- **Summoners** (Azathoth Pipers): Flute-priests of the Drowned Undercity who pipe for the blind idiot god Azathoth and call Byakhee: Mythos star-steeds that ride the notes. Outside the treaty.
 
 ### Magic · Every colony, and the Black Pyramid
 
@@ -154,6 +161,7 @@ The Mystic tradition. Four ways to hold the power that Thoth-Ra grants and the p
 - **Witch** (Spore Coven, Scraphex Witches, Thornblood Coven): The naturalist Mystics: Greys and wild practitioners who cultivate it.
 - **Warlock** (Voidbound, Bloodwire Apostates, Mirror Oathbreakers): Those who bargained: the failed, the bound and the oathbreakers.
 - **Mage** (Chronofractures, Mindweavers, Fluxborn): The born conduits: the generation now waking with powers.
+- **Summoners** (Necromancers): The Mystic tradition's quiet fifth path: students of the Black Pyramid's sands who raise the old dead. The Mystics do not forbid it. They watch. (Proposed, tagged A.)
 
 ## 8. The named cast
 

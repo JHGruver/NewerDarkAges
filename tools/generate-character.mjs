@@ -151,7 +151,7 @@ if (!has("--char-only")) { if (existsSync(bgPath) && !has("--force")) console.lo
 if (!suffix && existsSync(charPath) && existsSync(bgPath) && !done.has(e.id)) {
   let a = readFileSync(join(root, "app.js"), "utf8");
   a = a.replace("const NODE_ART = {\n", `const NODE_ART = {\n  ${e.id}: { src: "${base}.png", bg: "${base}-bg.jpg", name: "${e.name.replace(/"/g, "")}" },\n`); writeFileSync(join(root, "app.js"), a);
-  let d = readFileSync(join(root, "data.js"), "utf8"); d = d.replace(/\((\d+) of 126 done\)/, (_, n) => `(${+n + 1} of 126 done)`); writeFileSync(join(root, "data.js"), d);
+  let d = readFileSync(join(root, "data.js"), "utf8"); d = d.replace(/\((\d+) of 134 done\)/, (_, n) => `(${+n + 1} of 134 done)`); writeFileSync(join(root, "data.js"), d);
   console.log("  registered in app.js and the roadmap count");
 }
 execFileSync("node", [join(root, "tools/build-cast.cjs")], { stdio: "ignore" });

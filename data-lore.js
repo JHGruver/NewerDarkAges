@@ -213,3 +213,15 @@ LORE.story = [
   { id: "heirs", kicker: "The heirs", title: "The world is theirs to inherit or burn.", text: "Anna feels what is about to happen. Josh carries the lightning. Tom sees through walls. Emma is six and she flies. They are 6 to 28 years old." },
   { id: "choose", kicker: "Your frequency", title: "Which signal do you answer?", text: "Pick a people. Pick a class. Pick a character. The dial is yours." },
 ];
+
+// the new Summoners class in every people
+Object.entries({
+  human: "The Shogun houses: hereditary war-lords who keep a ninja clan on call. The Senate pretends not to know them and borrows them often.",
+  vampire: "Belfry colonies tended by Batcallers. The bats are the High Priest's eyes across the Spires, and the first to know when a treaty line is crossed.",
+  were: "The capybara clans' quiet couriers: Squirrel Callers run the acorn network that carries news between the Pack and the clans faster than any rider.",
+  ghost: "Operators of the dead exchanges. They dial a line that should be silent and let the Dial-Tone Demons up: fragments of the Broadcast's static that learned to grin.",
+  undead: "Reverse necromancers kept near the Block. They steer the skeletons inside the living, which is how the wilds' beasts leave marching in step.",
+  forest: "The Overgrowth's Beastmasters: wardens who ask the forest for help with a horn and a promise, and get a whole cast of creatures.",
+  eldritch: "Flute-priests of the Drowned Undercity who pipe for the blind idiot god Azathoth and call Byakhee: Mythos star-steeds that ride the notes. Outside the treaty.",
+  magic: "The Mystic tradition's quiet fifth path: students of the Black Pyramid's sands who raise the old dead. The Mystics do not forbid it. They watch. (Proposed, tagged A.)",
+}).forEach(([k, v]) => { LORE.placements[k].subs.summoners = v; });

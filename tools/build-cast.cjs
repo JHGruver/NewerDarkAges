@@ -30,14 +30,16 @@ const SPECIES_LOOK = { "Elder Thing": "an ancient alien architect: a tall ribbed
 const VEHICLE = /coupe|chopper|bike|motorcycle|car\b|truck|bus\b|wagon|cart|boat|mount|turret|tower|throne|engine|machine/i;
 function charPrompt(r) {
   const gear = r.accessories.split(";").map((x) => x.trim()).filter((x) => x && !VEHICLE.test(x));
-  const costume = r.wardrobe.split(",").slice(0, 7).join(",");
+  const costume = r.wardrobe.split(",").slice(0, 6).join(",");
+  const minions = r.typeKey === "summoner" ? `\nSUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.` : "";
   return `A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: ${r.name}, ${r.identity} (${herit(r.ethnicity)}), apparent age ${r.age}. ${r.physique}, ${r.size} size. Pose: ${r.pose}. Expression: ${r.expression}, as a minimal face. Design the silhouette first (${r.shape}); the pose and the hero prop must read as a solid black shape.
+CHARACTER: ${r.name}, ${r.identity}${r.identity.includes("heritage") || r.identity.includes("of ") ? "" : " (" + herit(r.ethnicity) + ")"}, apparent age ${r.age}. ${r.physique}, ${r.size} size. Pose: ${r.pose}. Expression: ${r.expression}, as a minimal face. Design the silhouette first (${r.shape}); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: ${gear[0] || "the signature item"}. SECOND ITEM, kept plain: ${gear[1] || "none"}. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ${costume}.
+${minions}
 HOW TO DRAW IT: ${AD.simplify.join("; ")}.
 COLOR (exact hex, flat fills): main ${r.main} about 60%, on ${r.mainUse}; secondary ${r.secondary} about 30%, on ${r.secondaryUse}; pop ${r.pop} about 10%, on ${r.popUse}. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use ${r.peopleColor} (background only).
 NEVER: ${AD.never}.
-SELF-CHECK before finishing: Is it recognizable filled solid black? Could an animator redraw it with a few large shapes? Readable as a thumbnail? Colors flat and separated by the outline? Distinctive without surface detail? If any answer is no, remove detail until all are yes.
+SELF-CHECK: it must pass the black-fill, few-shapes, thumbnail, flat-color and distinctive-without-detail tests; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. ${r.type}, ${r.role.toLowerCase()}, ${r.people} people, mature dark-age tone, no nudity, no gore.`;
 }
 function bgPrompt(r) {

@@ -57,9 +57,9 @@ const K = (id, t, done) => ({ id, t, done: !!done });
 window.PHASES = [
   {
     id: "p1", name: "Phase 1: The Project Website (V2)", status: "in-progress",
-    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 17 of 28 tasks are done; the rest is mostly art generation and balance.",
+    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 17 of 30 tasks are done; the rest is mostly art generation and balance.",
     tasks: [
-      K("world", "New world, peoples, subclasses and specializations (8 peoples, 126 characters, 8 in 10 combat)", true),
+      K("world", "New world, peoples, subclasses and specializations (8 peoples, 134 characters in 8 peoples, 8 in 10 combat)", true),
       K("magic", "Magic people: four classes (Wizard, Witch, Warlock, Mage) with 12 subclass characters, Sticky Wizard included", true),
       K("fourcolor", "Four-color system: people color + a unique trio for every character (color audit done)", true),
       K("types", "Character types (9), attributes (physique, size, mobility) and combat/support tile badges", true),
@@ -73,7 +73,7 @@ window.PHASES = [
       K("deploy", "GitHub Pages deploy from main", true),
       K("core", "Generate the core characters and backgrounds (done: one per people, plus the Sticky Wizard)", true),
       K("manual", "Monster Manual NPCs reassigned to the new peoples", true),
-      K("allart", "Generate all 126 characters and their backgrounds (46 of 126 done)"),
+      K("allart", "Generate all 134 characters and their backgrounds (46 of 134 done)"),
       K("siteart", "Site art, part 1 (done): logo, wordmark, 8 crests, 4 Magic sigils, 9 type icons, textures, UI frames, placeholder tile. Part 2 (todo): banners, region plates, story panels, share image, world map", true),
       K("siteart2", "Site art, part 2: painted scenes from SITE-ASSETS.md (hero, regions, banners, story, map, headers) and wire them in"),
       K("pipeline", "Script the image generation from CAST.md (API, transparent PNG, auto-resize)"),
@@ -82,12 +82,14 @@ window.PHASES = [
       K("lore", "Consolidate the lore bible: unified from the World Outline and Characters sheet, with a Lore page and LORE-BIBLE.md", true),
       K("lore-approve", "Approve or change the bridging lore tagged A (Thoth-Ra / Ramuset / Imhotep, the 1986 broadcast, how the peoples fit)"),
       K("vote", "Character voting page (#/vote): swipe deck with like / super like / dislike, comments and a spreadsheet export", true),
+      K("summoners", "Summoner / minionmancer class added to every people (8 new characters) with prompts, lore and attributes", true),
+      K("summoner-art", "Make the art for the 8 new Summoners (prompts are in PROMPTS.md)"),
       K("vote-review", "Collect votes from testers and review the exported spreadsheets"),
       K("music", "Soundtrack: Last Game Before Dawn is in audio/soundtrack.mp3 and blends in from the static", true),
       K("story", "Scrolling story home page: the dial that tunes through the world's story to the Pick a character button", true),
       K("a11y", "Accessibility pass: keyboard focus, contrast, reduced motion and screen-reader labels"),
       K("share", "Custom domain and share/OG preview image"),
-      K("notes", "Refresh V2-NOTES.md and the core prompt file for 8 peoples and 126 characters"),
+      K("notes", "Refresh V2-NOTES.md and the core prompt file for 8 peoples and 134 characters"),
     ],
   },
   {
@@ -98,7 +100,7 @@ window.PHASES = [
   {
     id: "p3", name: "Phase 3: Board Game (Physical + Digital)", status: "planned",
     summary: "Every player can be any specialization. Boxes hold a subset; the full box holds all of them.",
-    tasks: [K("b-rules", "Core rules and turn structure"), K("b-decks", "Specialization decks"), K("b-bal", "Balance across all 126 (builds on the Phase 1 stat sheets)"), K("b-roles", "Combat and support role rules (the 8/2 split)"), K("b-box", "Box set plan"), K("b-dig", "Digital prototype"), K("b-phys", "Physical prototype and playtests"), K("b-price", "Pricing and manufacturing plan")],
+    tasks: [K("b-rules", "Core rules and turn structure"), K("b-decks", "Specialization decks"), K("b-bal", "Balance across all 134 (builds on the Phase 1 stat sheets)"), K("b-roles", "Combat and support role rules (the 8/2 split)"), K("b-box", "Box set plan"), K("b-dig", "Digital prototype"), K("b-phys", "Physical prototype and playtests"), K("b-price", "Pricing and manufacturing plan")],
   },
   {
     id: "p4", name: "Phase 4: The MMO", status: "planned",
