@@ -42,8 +42,6 @@ const NODE_ART = {
   tentacleengineers: { src: "art/v2/were-tentacleengineers.png", bg: "art/v2/were-tentacleengineers-bg.jpg", name: "Squid Tentacle Engineer" },
   abyssalscholars: { src: "art/v2/were-abyssalscholars.png", bg: "art/v2/were-abyssalscholars-bg.jpg", name: "Octopus Abyssal Scholar" },
   punchclawduelists: { src: "art/v2/were-punchclawduelists.png", bg: "art/v2/were-punchclawduelists-bg.jpg", name: "Punch-Claw Duelist" },
-  prismgunners: { src: "art/v2/were-prismgunners.png", bg: "art/v2/were-prismgunners-bg.jpg", name: "Prism Gunner" },
-  reefshellguard: { src: "art/v2/were-reefshellguard.png", bg: "art/v2/were-reefshellguard-bg.jpg", name: "Reef Shell-Guard" },
   lanterncultists: { src: "art/v2/were-lanterncultists.png", bg: "art/v2/were-lanterncultists-bg.jpg", name: "Lantern Cultist" },
   dreamdustweavers: { src: "art/v2/were-dreamdustweavers.png", bg: "art/v2/were-dreamdustweavers-bg.jpg", name: "Dreamdust Weaver" },
   signaltowerwardens: { src: "art/v2/were-signaltowerwardens.png", bg: "art/v2/were-signaltowerwardens-bg.jpg", name: "Signal-Tower Warden" },
@@ -96,7 +94,6 @@ const NODE_ART = {
   rootlinkwarlocks: { src: "art/v2/forest-rootlinkwarlocks.png", bg: "art/v2/forest-rootlinkwarlocks-bg.jpg", name: "Rootlink Warlock" },
   bonebreakers: { src: "art/v2/undead-bonebreakers.png", bg: "art/v2/undead-bonebreakers-bg.jpg", name: "Riot-Line Bonebreaker" },
   staticwraiths: { src: "art/v2/ghost-staticwraiths.png", bg: "art/v2/ghost-staticwraiths-bg.jpg", name: "Static Wraith" },
-  moonrunners: { src: "art/v2/were-moonrunners.png", bg: "art/v2/were-moonrunners-bg.jpg", name: "Moonrunner" },
   interceptors: { src: "art/v2/human-interceptors.png", bg: "art/v2/human-interceptors-bg.jpg", name: "Interceptor" },
   owlwings: { src: "art/v2/vampire-owlwings.png", bg: "art/v2/vampire-owlwings-bg.jpg", name: "Owlwing Watcher" },
 };

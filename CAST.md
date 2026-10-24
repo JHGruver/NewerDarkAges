@@ -1,8 +1,8 @@
 # The Newer Dark Ages: Cast Bible
 
-Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 133 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
+Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 69.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 66.
 
 ## Art direction in one screen
 
@@ -1921,68 +1921,139 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 *People color: Rust #b4532a. Background setting: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles.*
 
 **Tagline:** Two hearts, one war-band.  
-**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Salamander-kin (Axolotl Regrowth Medics, Giant Salamander Maw Wardens, Olm Dark-Cave Seers, Ribbed Newt Bone-Skirmishers, Hellbender Riverskin Guardians); Avian-kin (Raven Murder Vanguard, Owl Night-Eye Snipers, Albatross Gale Sailors); Cephalopod-kin (Cuttlefish Ink Spies, Squid Tentacle Engineers, Octopus Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
+**Classes:** Canine-kin (Bone-Crusher Juggernauts, Bush Dog Torrent Striders, Wool Dog Dream-Weavers); Arctoidea-kin (Raccoon Mask Bandits, Red Panda Bamboo Monks, Short-Faced Bear Gallopers, Swan-Neck Seal Coil-Strikers, Honey Badger Loose-Hides, Sea Otter Anvil-Smashers, Stink Badger Possum-Gassers); Crocodylia-kin (Purussaurus Death-Rollers, Dwarf Caiman Bone-Plate Scouts, Cuban Crocodile Gallop Vanguard, Armadillosuchus Burrow-Juggernauts, Gharial Sonic Duelists, Herugavialis Tidal Marauders); Rodent-kin (Rodent Hot-Spring Healers, Josephoartigasia Tusk-Breakers, African Crested Rat Poison-Wick Wardens, Castoroides Wetland Overlords, Naked Mole-Rat Hive-Colonists, Giant Flying Squirrel Glide-Strikers); Salamander-kin (Axolotl Regrowth Medics, Giant Salamander Maw Wardens, Olm Dark-Cave Seers, Ribbed Newt Bone-Skirmishers, Hellbender Riverskin Guardians); Avian-kin (Raven Murder Vanguard, Owl Night-Eye Snipers, Albatross Gale Sailors); Cephalopod-kin (Cuttlefish Ink Spies, Squid Tentacle Engineers, Octopus Abyssal Scholars); Crustacea-kin (Mantis Shrimp Punch-Claw Duelists, Lobster Claw-Marshals, Pistol Shrimp Snap-Gunners, Yeti Crab Setae Farmers, Boxer Crab Anemone Brawlers, Remipede Cave-Venom Stalkers, Pram Bug Nursery Pilots); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
 
 
-## Were-Creature › Wolf-kin
+## Were-Creature › Canine-kin
 
-### Moonrunners  `moonrunners`
+### Bone-Crusher Juggernauts  `bonecrushers`
 
-*Fast, loud and in your flank.*
+*Armor is just a shell.*
 
 **Character**
 
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | lean and long-limbed; medium size; mobility: agile |
+| Physique | massive, bear-sized, a deep chest, a short blunt muzzle with an enormous jaw; large size; mobility: grounded |
 | Ethnicity + nationality | wolf-kin (not human) |
 | Identity | male anthropomorphic wolf character |
-| Wardrobe | lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt |
-| Accessories | Hunting axe; throwing hatchets; pack-scarf; signal horn |
-| Pose | mid-leap, axe swinging toward the viewer |
-| Facial expression | snarling grin |
+| Wardrobe | huge bear-sized wolf-kin with an oversized blunt jaw, studded shoulder plates, an armored collar, a jaw guard and a marrow flask, fangs bared and one paw planted on a cracked shield |
+| Accessories | Armored collar; bone-crusher jaw guard; studded shoulder plates; marrow flask |
+| Pose | wide braced stance mid-bite with the paws planted and the huge jaw closing |
+| Facial expression | snarling, jaw clenched |
 | People | Were-Creature |
-| Class | Wolf-kin |
-| Subclass | Moonrunners |
-| Type | Fighter |
+| Class | Canine-kin |
+| Subclass | Bone-Crusher Juggernauts |
+| Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | mid-leap, axe swinging toward the viewer; the Hunting axe and the throwing hatchets break the outline so it reads instantly as a black shape |
-| Shape language | balanced diagonals with one clear weapon line |
-| Main color (60%) | #e9ecef: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #264653: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #e9c46a: the eyes, the Hunting axe and one small magical detail |
+| Silhouette hook | wide braced stance mid-bite with the paws planted and the huge jaw closing; the Armored collar and the bone-crusher jaw guard break the outline so it reads instantly as a black shape |
+| Shape language | wide blocky rectangles and a big shield shape |
+| Main color (60%) | #8f6e3d: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff5d8f: the eyes, the Armored collar and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Done: `art/v2/were-moonrunners.png` and `art/v2/were-moonrunners-bg.jpg` |
-| Last vet | Final art accepted (made before the vetting pipeline) |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as mid-leap, axe swinging toward the viewer.
-2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Hunting axe and the pose must be visible at 64 px.
-4. Flat colors: #e9ecef / #264653 / #e9c46a as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Hunting axe and throwing hatchets and the fighter shape language.
+1. Black-fill test: the silhouette must still read as wide braced stance mid-bite with the paws planted and the huge jaw closing.
+2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Armored collar and the pose must be visible at 64 px.
+4. Flat colors: #8f6e3d / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Armored collar and bone-crusher jaw guard and the tank shape language.
 
 **Background**
 
 | Field | Value |
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #e9ecef / #264653 / #e9c46a (about 20%) |
-| Midground | a scrapyard war-den of rusted buses, a campfire barrel, a tire-wall palisade |
-| Foreground | a painted war totem, a tall signal pole |
-| Character-relevant items | a scrapyard war-den of rusted buses, a campfire barrel, a tire-wall palisade, a painted war totem, a tall signal pole |
+| Colors | wash #b4532a (about 65%); accents #8f6e3d / #f4f1e8 / #ff5d8f (about 20%) |
+| Midground | a scrapyard war-den with stacked shields, a bone-pile trophy wall |
+| Foreground | tire barricades and a campfire barrel |
+| Character-relevant items | a scrapyard war-den with stacked shields, a bone-pile trophy wall, tire barricades and a campfire barrel |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Moonrunners, male anthropomorphic wolf character (wolf-kin (not human)), apparent age early 20s. lean and long-limbed, medium size. Pose: mid-leap, axe swinging toward the viewer. Expression: snarling grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Hunting axe. SECOND ITEM, kept plain: throwing hatchets. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lean wolf-kin in a ragged cloak and a pack-colored scarf, a hunting axe in one hand, a bandolier of throwing hatchets and a signal horn on the belt.
+CHARACTER: Bone-Crusher Juggernauts, male anthropomorphic wolf character (wolf-kin (not human)), apparent age mid 40s. massive, bear-sized, a deep chest, a short blunt muzzle with an enormous jaw, large size. Pose: wide braced stance mid-bite with the paws planted and the huge jaw closing. Expression: snarling, jaw clenched, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Armored collar. SECOND ITEM, kept plain: bone-crusher jaw guard. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge bear-sized wolf-kin with an oversized blunt jaw, studded shoulder plates, an armored collar, a jaw guard and a marrow flask, fangs bared and one paw planted on a cracked shield.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #e9ecef about 60%, on the largest garment, armor, fur-marking or body areas; secondary #264653 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e9c46a about 10%, on the eyes, the Hunting axe and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #8f6e3d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Armored collar and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Bone-Crusher Juggernauts with no people, creatures, figures, silhouettes or text. Midground: a scrapyard war-den with stacked shields, a bone-pile trophy wall. Foreground: tire barricades and a campfire barrel, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #8f6e3d for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ff5d8f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Bush Dog Torrent Striders  `torrentstriders`
+
+*The river takes what the pack leaves.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | low-slung and sleek like an otter, a broad flat rudder tail, long body, short legs; medium size; mobility: aquatic |
+| Ethnicity + nationality | bush dog-kin (not human) |
+| Identity | female anthropomorphic bush dog character |
+| Wardrobe | low sleek otter-like wolf-kin with thick fur, a broad rudder tail, glowing webbed paws, a river-skin cloak and tail harness, crouched half submerged and lunging |
+| Accessories | Webbed gauntlets; rudder-tail harness; river-skin cloak; glowing paw bands |
+| Pose | lunging low out of the water with the webbed paws forward and the tail swept behind |
+| Facial expression | sly, wet-furred grin |
+| People | Were-Creature |
+| Class | Canine-kin |
+| Subclass | Bush Dog Torrent Striders |
+| Type | Fighter |
+| Combat or support | Combat |
+| Silhouette hook | lunging low out of the water with the webbed paws forward and the tail swept behind; the Webbed gauntlets and the rudder-tail harness break the outline so it reads instantly as a black shape |
+| Shape language | balanced diagonals with one clear weapon line |
+| Main color (60%) | #31a6c4: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #1f2438: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff8a3d: the eyes, the Webbed gauntlets and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as lunging low out of the water with the webbed paws forward and the tail swept behind.
+2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Webbed gauntlets and the pose must be visible at 64 px.
+4. Flat colors: #31a6c4 / #1f2438 / #ff8a3d as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Webbed gauntlets and rudder-tail harness and the fighter shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #31a6c4 / #1f2438 / #ff8a3d (about 20%) |
+| Midground | a flooded canal with sunken boats, reed beds |
+| Foreground | a collapsed pipe and river-mist pools |
+| Character-relevant items | a flooded canal with sunken boats, reed beds, a collapsed pipe and river-mist pools |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Bush Dog Torrent Striders, female anthropomorphic bush dog character (bush dog-kin (not human)), apparent age early 30s. low-slung and sleek like an otter, a broad flat rudder tail, long body, short legs, medium size. Pose: lunging low out of the water with the webbed paws forward and the tail swept behind. Expression: sly, wet-furred grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Webbed gauntlets. SECOND ITEM, kept plain: rudder-tail harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: low sleek otter-like wolf-kin with thick fur, a broad rudder tail, glowing webbed paws, a river-skin cloak and tail harness, crouched half submerged and lunging.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #31a6c4 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1f2438 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff8a3d about 10%, on the eyes, the Webbed gauntlets and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
@@ -1992,139 +2063,68 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Moonrunners with no people, creatures, figures, silhouettes or text. Midground: a scrapyard war-den of rusted buses, a campfire barrel, a tire-wall palisade. Foreground: a painted war totem, a tall signal pole, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #e9ecef for the biggest glowing sources and surfaces, secondary #264653 for medium panels, banners and lights, pop #e9c46a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Bush Dog Torrent Striders with no people, creatures, figures, silhouettes or text. Midground: a flooded canal with sunken boats, reed beds. Foreground: a collapsed pipe and river-mist pools, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #31a6c4 for the biggest glowing sources and surfaces, secondary #1f2438 for medium panels, banners and lights, pop #ff8a3d for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Frostfang Wanderers  `frostfangs`
+### Wool Dog Dream-Weavers  `caninedreamweavers`
 
-*You never see the second shot.*
+*Spin a ward. Keep them warm.*
 
 **Character**
 
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | pale, rangy and long-limbed, a deep chest, a thin waist, big paws; medium size; mobility: grounded |
-| Ethnicity + nationality | wolf-kin (not human) |
-| Identity | female anthropomorphic wolf character |
-| Wardrobe | pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt |
-| Accessories | Long rifle; white fur mantle; goggles; ice picks |
-| Pose | lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised |
-| Facial expression | calm, steady stare |
+| Physique | majestic and fluffy, cloud-furred, a long graceful neck, a plume of a tail; medium size; mobility: grounded |
+| Ethnicity + nationality | wool dog-kin (not human) |
+| Identity | female anthropomorphic wool dog character |
+| Wardrobe | majestic pure-white cloud-furred wool-dog-kin with a woven ceremonial veil, a lavender sash, a wool-spindle staff in one paw and tufts of wool drifting from the other |
+| Accessories | Wool-spindle staff; ceremonial veil; woven sash; glowing wool tufts |
+| Pose | standing tall with the spindle staff raised and glowing wool drifting from the open paw |
+| Facial expression | serene, half-lidded |
 | People | Were-Creature |
-| Class | Wolf-kin |
-| Subclass | Frostfang Wanderers |
-| Type | Blaster |
-| Combat or support | Combat |
-| Silhouette hook | lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised; the Long rifle and the white fur mantle break the outline so it reads instantly as a black shape |
-| Shape language | long straight lines and a bold wedge-shaped weapon |
-| Main color (60%) | #add6fe: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #4ea8de: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #1d3557: the eyes, the Long rifle and one small magical detail |
-| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
-
-**Samurai Jack check (targets for this character)**
-
-1. Black-fill test: the silhouette must still read as lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised.
-2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Long rifle and the pose must be visible at 64 px.
-4. Flat colors: #add6fe / #4ea8de / #1d3557 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Long rifle and white fur mantle and the blaster shape language.
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #add6fe / #4ea8de / #1d3557 (about 20%) |
-| Midground | a frozen mountain pass with a snow-covered supply sled, a dead truck buried in drifts |
-| Foreground | a camp tent, an ice-covered bridge |
-| Character-relevant items | a frozen mountain pass with a snow-covered supply sled, a dead truck buried in drifts, a camp tent, an ice-covered bridge |
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Frostfang Wanderers, female anthropomorphic wolf character (wolf-kin (not human)), apparent age late 40s. pale, rangy and long-limbed, a deep chest, a thin waist, big paws, medium size. Pose: lying flat on the belly in a snowdrift with the rifle propped on a mound, only the head and shoulders raised. Expression: calm, steady stare, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle. SECOND ITEM, kept plain: white fur mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pale arctic wolf-kin in a white fur mantle with goggles pushed up, a long rifle held in both hands, ice picks on the belt.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #add6fe about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4ea8de about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, on the eyes, the Long rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Blaster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Frostfang Wanderers with no people, creatures, figures, silhouettes or text. Midground: a frozen mountain pass with a snow-covered supply sled, a dead truck buried in drifts. Foreground: a camp tent, an ice-covered bridge, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #add6fe for the biggest glowing sources and surfaces, secondary #4ea8de for medium panels, banners and lights, pop #1d3557 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-### Hearth Hounds  `hearthhounds`
-
-*We get everyone home.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | shaggy, sturdy and square, a broad rump, short strong legs, a barrel chest; medium size; mobility: grounded |
-| Ethnicity + nationality | wolf-kin (not human) |
-| Identity | female anthropomorphic wolf character |
-| Wardrobe | shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back |
-| Accessories | Collar-radio; tow harness; flare gun; med pack |
-| Pose | walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand |
-| Facial expression | gentle, determined |
-| People | Were-Creature |
-| Class | Wolf-kin |
-| Subclass | Hearth Hounds |
+| Class | Canine-kin |
+| Subclass | Wool Dog Dream-Weavers |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand; the Collar-radio and the tow harness break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing tall with the spindle staff raised and glowing wool drifting from the open paw; the Wool-spindle staff and the ceremonial veil break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
-| Main color (60%) | #f2c458: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #118ab2: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #fff7c7: the eyes, the Collar-radio and one small magical detail |
+| Main color (60%) | #c3c0ed: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #06d6a0: the eyes, the Wool-spindle staff and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
 | Art status | Not yet generated |
 | Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand.
+1. Black-fill test: the silhouette must still read as standing tall with the spindle staff raised and glowing wool drifting from the open paw.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Collar-radio and the pose must be visible at 64 px.
-4. Flat colors: #f2c458 / #118ab2 / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Collar-radio and tow harness and the support shape language.
+3. Thumbnail test: the Wool-spindle staff and the pose must be visible at 64 px.
+4. Flat colors: #c3c0ed / #e8c76a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Wool-spindle staff and ceremonial veil and the support shape language.
 
 **Background**
 
 | Field | Value |
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #f2c458 / #118ab2 / #fff7c7 (about 20%) |
-| Midground | a caravan camp with a parked supply truck, hitched wagons, a campfire |
-| Foreground | a roadside lantern post, a barricaded gate |
-| Character-relevant items | a caravan camp with a parked supply truck, hitched wagons, a campfire, a roadside lantern post, a barricaded gate |
+| Colors | wash #b4532a (about 65%); accents #c3c0ed / #e8c76a / #06d6a0 (about 20%) |
+| Midground | a mountain meadow village with weaving frames, wool racks |
+| Foreground | wind banners and a stone shrine |
+| Character-relevant items | a mountain meadow village with weaving frames, wool racks, wind banners and a stone shrine |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Hearth Hounds, female anthropomorphic wolf character (wolf-kin (not human)), apparent age early 40s. shaggy, sturdy and square, a broad rump, short strong legs, a barrel chest, medium size. Pose: walking forward at a slant dragging a wounded ally by the collar with one arm, the flare gun raised in the other hand. Expression: gentle, determined, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Collar-radio. SECOND ITEM, kept plain: tow harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: shaggy shepherd wolf-kin in a collar with a small radio and a tow harness, a flare gun in one hand, a field med pack on the back.
+CHARACTER: Wool Dog Dream-Weavers, female anthropomorphic wool dog character (wool dog-kin (not human)), apparent age late 50s. majestic and fluffy, cloud-furred, a long graceful neck, a plume of a tail, medium size. Pose: standing tall with the spindle staff raised and glowing wool drifting from the open paw. Expression: serene, half-lidded, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wool-spindle staff. SECOND ITEM, kept plain: ceremonial veil. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: majestic pure-white cloud-furred wool-dog-kin with a woven ceremonial veil, a lavender sash, a wool-spindle staff in one paw and tufts of wool drifting from the other.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #f2c458 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #118ab2 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Collar-radio and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #c3c0ed about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Wool-spindle staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Support, support, Were-Creature people, mature dark-age tone, no nudity, no gore.
@@ -2134,15 +2134,15 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Hearth Hounds with no people, creatures, figures, silhouettes or text. Midground: a caravan camp with a parked supply truck, hitched wagons, a campfire. Foreground: a roadside lantern post, a barricaded gate, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #f2c458 for the biggest glowing sources and surfaces, secondary #118ab2 for medium panels, banners and lights, pop #fff7c7 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Wool Dog Dream-Weavers with no people, creatures, figures, silhouettes or text. Midground: a mountain meadow village with weaving frames, wool racks. Foreground: wind banners and a stone shrine, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #c3c0ed for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
 
-## Were-Creature › Raccoon-kin
+## Were-Creature › Arctoidea-kin
 
-### Mask Bandits  `maskbandits`
+### Raccoon Mask Bandits  `maskbandits`
 
 *A locked door is a challenge.*
 
@@ -2159,8 +2159,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Pose | crouched over a safe with one ear to the door, the crowbar levering it open |
 | Facial expression | mischievous grin |
 | People | Were-Creature |
-| Class | Raccoon-kin |
-| Subclass | Mask Bandits |
+| Class | Arctoidea-kin |
+| Subclass | Raccoon Mask Bandits |
 | Type | Assassin |
 | Combat or support | Combat |
 | Silhouette hook | crouched over a safe with one ear to the door, the crowbar levering it open; the Crowbar and the smoke bombs break the outline so it reads instantly as a black shape |
@@ -2194,7 +2194,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Mask Bandits, female anthropomorphic raccoon character (raccoon-kin (not human)), apparent age late 20s. small and wiry, a round head, a big ringed tail, nimble black hands, small size. Pose: crouched over a safe with one ear to the door, the crowbar levering it open. Expression: mischievous grin, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Raccoon Mask Bandits, female anthropomorphic raccoon character (raccoon-kin (not human)), apparent age late 20s. small and wiry, a round head, a big ringed tail, nimble black hands, small size. Pose: crouched over a safe with one ear to the door, the crowbar levering it open. Expression: mischievous grin, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Crowbar. SECOND ITEM, kept plain: smoke bombs. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: masked raccoon-kin in a patched trench coat, a striped eye-mask, a crowbar in one hand, a smoke bomb in the other, a roll of lockpicks at the belt.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -2208,355 +2208,139 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Mask Bandits with no people, creatures, figures, silhouettes or text. Midground: a half-opened steel safe, a cracked vault door, a stack of stolen crates. Foreground: a dumpster, a bundle of cables, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Raccoon Mask Bandits with no people, creatures, figures, silhouettes or text. Midground: a half-opened steel safe, a cracked vault door, a stack of stolen crates. Foreground: a dumpster, a bundle of cables, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #dea013 for the biggest glowing sources and surfaces, secondary #7d99ca for medium panels, banners and lights, pop #282956 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Gizmo Tinkers  `gizmotinkers`
+### Red Panda Bamboo Monks  `redpandamonks`
 
-*It's not broken. It's armed.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Male |
-| Physique | small and stocky, a round belly, oversized workshop goggles, short thick arms; small size; mobility: grounded |
-| Ethnicity + nationality | raccoon-kin (not human) |
-| Identity | male anthropomorphic raccoon character |
-| Wardrobe | raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand |
-| Accessories | Scrap turret; tool bandolier; soldering torch; goggles |
-| Pose | sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw |
-| Facial expression | absorbed, tongue between teeth |
-| People | Were-Creature |
-| Class | Raccoon-kin |
-| Subclass | Gizmo Tinkers |
-| Type | Controller |
-| Combat or support | Combat |
-| Silhouette hook | sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw; the Scrap turret and the tool bandolier break the outline so it reads instantly as a black shape |
-| Shape language | hexagons and wide arc gestures with tools hanging off the body |
-| Main color (60%) | #44f1b9: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #ee8613: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #221c48: the eyes, the Scrap turret and one small magical detail |
-| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
-
-**Samurai Jack check (targets for this character)**
-
-1. Black-fill test: the silhouette must still read as sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw.
-2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Scrap turret and the pose must be visible at 64 px.
-4. Flat colors: #44f1b9 / #ee8613 / #221c48 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Scrap turret and tool bandolier and the controller shape language.
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #44f1b9 / #ee8613 / #221c48 (about 20%) |
-| Midground | a cobbled-together scrap turret on a tripod, a shopping-cart workbench with a generator |
-| Foreground | heaps of electronic junk, a sparking tesla coil |
-| Character-relevant items | a cobbled-together scrap turret on a tripod, a shopping-cart workbench with a generator, heaps of electronic junk, a sparking tesla coil |
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Gizmo Tinkers, male anthropomorphic raccoon character (raccoon-kin (not human)), apparent age early 60s. small and stocky, a round belly, oversized workshop goggles, short thick arms, small size. Pose: sitting cross-legged on a workbench, a screwdriver turning in a wired gadget, a torch held in the other paw. Expression: absorbed, tongue between teeth, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: tool bandolier. SECOND ITEM, kept plain: soldering torch. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raccoon-kin in goggles and an apron wired with gadgets, a tool bandolier across the chest, a small soldering torch in one hand.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #44f1b9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ee8613 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #221c48 about 10%, on the eyes, the Scrap turret and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Controller, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Gizmo Tinkers with no people, creatures, figures, silhouettes or text. Midground: a cobbled-together scrap turret on a tripod, a shopping-cart workbench with a generator. Foreground: heaps of electronic junk, a sparking tesla coil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #44f1b9 for the biggest glowing sources and surfaces, secondary #ee8613 for medium panels, banners and lights, pop #221c48 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-### Vault Lockbreakers  `vaultlockbreakers`
-
-*Every vault has a weakness. Usually its owner.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Nonbinary |
-| Physique | padded, stocky and round, a thick neck, a bandit mask, stubby fingers; small size; mobility: grounded |
-| Ethnicity + nationality | raccoon-kin (not human) |
-| Identity | nonbinary anthropomorphic raccoon character |
-| Wardrobe | raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys |
-| Accessories | Shaped charges; bolt cutters; skeleton keys; padded vest |
-| Pose | hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt |
-| Facial expression | gleeful, eyes wide |
-| People | Were-Creature |
-| Class | Raccoon-kin |
-| Subclass | Vault Lockbreakers |
-| Type | Blaster |
-| Combat or support | Combat |
-| Silhouette hook | hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt; the Shaped charges and the bolt cutters break the outline so it reads instantly as a black shape |
-| Shape language | long straight lines and a bold wedge-shaped weapon |
-| Main color (60%) | #fd9794: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #a8dadc: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #1d3557: the eyes, the Shaped charges and one small magical detail |
-| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
-
-**Samurai Jack check (targets for this character)**
-
-1. Black-fill test: the silhouette must still read as hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt.
-2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Shaped charges and the pose must be visible at 64 px.
-4. Flat colors: #fd9794 / #a8dadc / #1d3557 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Shaped charges and bolt cutters and the blaster shape language.
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #fd9794 / #a8dadc / #1d3557 (about 20%) |
-| Midground | a sealed bunker vault door with a huge wheel, steel shelving |
-| Foreground | a safe-deposit wall, a collapsed ceiling with cables |
-| Character-relevant items | a sealed bunker vault door with a huge wheel, steel shelving, a safe-deposit wall, a collapsed ceiling with cables |
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Vault Lockbreakers, nonbinary anthropomorphic raccoon character (raccoon-kin (not human)), apparent age late 30s. padded, stocky and round, a thick neck, a bandit mask, stubby fingers, small size. Pose: hanging by one hand from a ceiling pipe while slapping a shaped charge on a door with the other, bolt cutters on the belt. Expression: gleeful, eyes wide, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shaped charges. SECOND ITEM, kept plain: bolt cutters. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raccoon-kin in a padded vest, bolt cutters held in both hands, a belt of shaped charges and a ring of skeleton keys.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #fd9794 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #a8dadc about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1d3557 about 10%, on the eyes, the Shaped charges and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Blaster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Vault Lockbreakers with no people, creatures, figures, silhouettes or text. Midground: a sealed bunker vault door with a huge wheel, steel shelving. Foreground: a safe-deposit wall, a collapsed ceiling with cables, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #fd9794 for the biggest glowing sources and surfaces, secondary #a8dadc for medium panels, banners and lights, pop #1d3557 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-
-## Were-Creature › Crocodile-kin
-
-### Mire Matriarchs  `mirematriarchs`
-
-*Mind the nest.*
+*Tea first. Then healing.*
 
 **Character**
 
 | Field | Value |
 |---|---|
 | Gender | Female |
-| Physique | broad and enormously wide, a long heavy snout, a thick tail, ridged back plates; large size; mobility: aquatic |
-| Ethnicity + nationality | crocodile-kin (not human) |
-| Identity | female anthropomorphic crocodile character |
-| Wardrobe | broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm |
-| Accessories | Boat hook; nest-armor; signal bell; egg basket |
-| Pose | standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout |
-| Facial expression | stern, protective glare |
+| Physique | round and fluffy, a banded tail as long as the body, a masked face; medium size; mobility: climbing |
+| Ethnicity + nationality | red panda-kin (not human) |
+| Identity | female anthropomorphic red panda character |
+| Wardrobe | round red-panda-kin monk with a ringed bushy tail, a rust robe with a bamboo-green sash, a steaming kettle in one paw and a bamboo staff in the other |
+| Accessories | Bamboo staff; tea kettle; striped tail; monk's sash |
+| Pose | sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder |
+| Facial expression | calm, small smile |
 | People | Were-Creature |
-| Class | Crocodile-kin |
-| Subclass | Mire Matriarchs |
-| Type | Tank |
-| Combat or support | Combat |
-| Silhouette hook | standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout; the Boat hook and the nest-armor break the outline so it reads instantly as a black shape |
-| Shape language | wide blocky rectangles and a big shield shape |
-| Main color (60%) | #7cb518: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #3a0ca3: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #ffe8d7: the eyes, the Boat hook and one small magical detail |
+| Class | Arctoidea-kin |
+| Subclass | Red Panda Bamboo Monks |
+| Type | Support |
+| Combat or support | Support |
+| Silhouette hook | sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder; the Bamboo staff and the tea kettle break the outline so it reads instantly as a black shape |
+| Shape language | soft rounded rectangles with an open palm and a visible kit |
+| Main color (60%) | #cd521d: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff5d8f: the eyes, the Bamboo staff and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
 | Art status | Not yet generated |
 | Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout.
-2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Boat hook and the pose must be visible at 64 px.
-4. Flat colors: #7cb518 / #3a0ca3 / #ffe8d7 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Boat hook and nest-armor and the tank shape language.
+1. Black-fill test: the silhouette must still read as sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder.
+2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Bamboo staff and the pose must be visible at 64 px.
+4. Flat colors: #cd521d / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Bamboo staff and tea kettle and the support shape language.
 
 **Background**
 
 | Field | Value |
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #7cb518 / #3a0ca3 / #ffe8d7 (about 20%) |
-| Midground | a stilt nest-fortress over the water with rope bridges, a moored barge |
-| Foreground | a wall of woven reeds, hatchling nests |
-| Character-relevant items | a stilt nest-fortress over the water with rope bridges, a moored barge, a wall of woven reeds, hatchling nests |
+| Colors | wash #b4532a (about 65%); accents #cd521d / #f4f1e8 / #ff5d8f (about 20%) |
+| Midground | a bamboo grove tea house on stilts with lanterns |
+| Foreground | rope bridges and a boiling kettle |
+| Character-relevant items | a bamboo grove tea house on stilts with lanterns, rope bridges and a boiling kettle |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Mire Matriarchs, female anthropomorphic crocodile character (crocodile-kin (not human)), apparent age mid 60s. broad and enormously wide, a long heavy snout, a thick tail, ridged back plates, large size. Pose: standing square with the boat hook raised high, the nest basket cradled on the other arm, a stern look down the snout. Expression: stern, protective glare, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: nest-armor. SECOND ITEM, kept plain: signal bell. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: broad crocodile-kin in a shawl over scrap nest-armor, a long boat hook in one hand, a signal bell on the belt, a small basket of eggs on the other arm.
+CHARACTER: Red Panda Bamboo Monks, female anthropomorphic red panda character (red panda-kin (not human)), apparent age mid 40s. round and fluffy, a banded tail as long as the body, a masked face, medium size. Pose: sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder. Expression: calm, small smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bamboo staff. SECOND ITEM, kept plain: tea kettle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: round red-panda-kin monk with a ringed bushy tail, a rust robe with a bamboo-green sash, a steaming kettle in one paw and a bamboo staff in the other.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #7cb518 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3a0ca3 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffe8d7 about 10%, on the eyes, the Boat hook and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #cd521d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Bamboo staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Support, support, Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
 
 **Background prompt**
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Mire Matriarchs with no people, creatures, figures, silhouettes or text. Midground: a stilt nest-fortress over the water with rope bridges, a moored barge. Foreground: a wall of woven reeds, hatchling nests, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #7cb518 for the biggest glowing sources and surfaces, secondary #3a0ca3 for medium panels, banners and lights, pop #ffe8d7 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Red Panda Bamboo Monks with no people, creatures, figures, silhouettes or text. Midground: a bamboo grove tea house on stilts with lanterns. Foreground: rope bridges and a boiling kettle, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #cd521d for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ff5d8f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Snapjaw Riverjackers  `riverjackers`
+### Short-Faced Bear Gallopers  `shortfacedbear`
 
-*Pay the toll. Or the river will.*
+*Run it down.*
 
 **Character**
 
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | lean, scarred and long, a narrow wedge snout, a whip-thin tail used for balance; large size; mobility: aquatic |
-| Ethnicity + nationality | crocodile-kin (not human) |
-| Identity | male anthropomorphic crocodile character |
-| Wardrobe | smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other |
-| Accessories | Boat hook; scrap cutlass; captain's hat; lantern pole |
-| Pose | one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised |
-| Facial expression | smug, tooth-baring grin |
+| Physique | gaunt and long-legged, towering, a short deep snout, massive nostrils; large size; mobility: agile |
+| Ethnicity + nationality | short-faced bear-kin (not human) |
+| Identity | male anthropomorphic short-faced bear character |
+| Wardrobe | towering long-legged bear-kin with a short deep snout, a spiked collar, wrapped legs and trophy bones at the hip, charging forward |
+| Accessories | Tall spiked collar; charge harness; long leg wraps; trophy bones |
+| Pose | mid-gallop with the long legs stretched and the head lowered |
+| Facial expression | grim, wide-nostriled |
 | People | Were-Creature |
-| Class | Crocodile-kin |
-| Subclass | Snapjaw Riverjackers |
-| Type | Fighter |
-| Combat or support | Combat |
-| Silhouette hook | one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised; the Boat hook and the scrap cutlass break the outline so it reads instantly as a black shape |
-| Shape language | balanced diagonals with one clear weapon line |
-| Main color (60%) | #67cdc1: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #ffbf69: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #1b263b: the eyes, the Boat hook and one small magical detail |
-| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
-
-**Samurai Jack check (targets for this character)**
-
-1. Black-fill test: the silhouette must still read as one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised.
-2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Boat hook and the pose must be visible at 64 px.
-4. Flat colors: #67cdc1 / #ffbf69 / #1b263b as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Boat hook and scrap cutlass and the fighter shape language.
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #67cdc1 / #ffbf69 / #1b263b (about 20%) |
-| Midground | an armed river barge with a mounted harpoon and a pirate flag, a drowned highway sign |
-| Foreground | a wooden dock, fog on the water |
-| Character-relevant items | an armed river barge with a mounted harpoon and a pirate flag, a drowned highway sign, a wooden dock, fog on the water |
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Snapjaw Riverjackers, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 40s. lean, scarred and long, a narrow wedge snout, a whip-thin tail used for balance, large size. Pose: one foot up on a crate with the tail swung out behind, the cutlass over the shoulder, a lantern pole raised. Expression: smug, tooth-baring grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: scrap cutlass. SECOND ITEM, kept plain: captain's hat. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smug crocodile-kin captain in a tilted captain's hat and a vest with many pockets, a scrap cutlass in one hand, a lantern on a short pole in the other.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #67cdc1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffbf69 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1b263b about 10%, on the eyes, the Boat hook and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Snapjaw Riverjackers with no people, creatures, figures, silhouettes or text. Midground: an armed river barge with a mounted harpoon and a pirate flag, a drowned highway sign. Foreground: a wooden dock, fog on the water, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #67cdc1 for the biggest glowing sources and surfaces, secondary #ffbf69 for medium panels, banners and lights, pop #1b263b for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-### Slow-Strike Sages  `slowstrikesages`
-
-*One blow. Take your time.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Male |
-| Physique | ancient and wide, drooping jowls, tiny half-shut eyes, a cracked-stone hide; large size; mobility: grounded |
-| Ethnicity + nationality | crocodile-kin (not human) |
-| Identity | male anthropomorphic crocodile character |
-| Wardrobe | ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt |
-| Accessories | Heavy staff; mossy cloak; scroll of treaties; stone bracers |
-| Pose | seated upright and still with the staff planted, one eye cracking open |
-| Facial expression | half-lidded, patient |
-| People | Were-Creature |
-| Class | Crocodile-kin |
-| Subclass | Slow-Strike Sages |
+| Class | Arctoidea-kin |
+| Subclass | Short-Faced Bear Gallopers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | seated upright and still with the staff planted, one eye cracking open; the Heavy staff and the mossy cloak break the outline so it reads instantly as a black shape |
+| Silhouette hook | mid-gallop with the long legs stretched and the head lowered; the Tall spiked collar and the charge harness break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
-| Main color (60%) | #a7c957: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #6d597a: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #fee7ab: the eyes, the Heavy staff and one small magical detail |
+| Main color (60%) | #5a452b: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #1f2438: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff8a3d: the eyes, the Tall spiked collar and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
 | Art status | Not yet generated |
 | Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as seated upright and still with the staff planted, one eye cracking open.
+1. Black-fill test: the silhouette must still read as mid-gallop with the long legs stretched and the head lowered.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Heavy staff and the pose must be visible at 64 px.
-4. Flat colors: #a7c957 / #6d597a / #fee7ab as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Heavy staff and mossy cloak and the bruiser shape language.
+3. Thumbnail test: the Tall spiked collar and the pose must be visible at 64 px.
+4. Flat colors: #5a452b / #1f2438 / #ff8a3d as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Tall spiked collar and charge harness and the bruiser shape language.
 
 **Background**
 
 | Field | Value |
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #a7c957 / #6d597a / #fee7ab (about 20%) |
-| Midground | a warm flat basking rock in a swamp, a collapsed overpass |
-| Foreground | hanging moss, a stack of carved treaty stones |
-| Character-relevant items | a warm flat basking rock in a swamp, a collapsed overpass, hanging moss, a stack of carved treaty stones |
+| Colors | wash #b4532a (about 65%); accents #5a452b / #1f2438 / #ff8a3d (about 20%) |
+| Midground | a dusty plain with bone arches, a barricade line |
+| Foreground | trampled tire marks and a lookout tree |
+| Character-relevant items | a dusty plain with bone arches, a barricade line, trampled tire marks and a lookout tree |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Slow-Strike Sages, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 60s. ancient and wide, drooping jowls, tiny half-shut eyes, a cracked-stone hide, large size. Pose: seated upright and still with the staff planted, one eye cracking open. Expression: half-lidded, patient, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Heavy staff. SECOND ITEM, kept plain: mossy cloak. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ancient mossy crocodile-kin in a heavy mossy cloak and stone bracers, a thick staff planted at the side, a scroll of treaties at the belt.
+CHARACTER: Short-Faced Bear Gallopers, male anthropomorphic short-faced bear character (short-faced bear-kin (not human)), apparent age mid 50s. gaunt and long-legged, towering, a short deep snout, massive nostrils, large size. Pose: mid-gallop with the long legs stretched and the head lowered. Expression: grim, wide-nostriled, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Tall spiked collar. SECOND ITEM, kept plain: charge harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: towering long-legged bear-kin with a short deep snout, a spiked collar, wrapped legs and trophy bones at the hip, charging forward.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #a7c957 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #6d597a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fee7ab about 10%, on the eyes, the Heavy staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #5a452b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1f2438 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff8a3d about 10%, on the eyes, the Tall spiked collar and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Bruiser, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
@@ -2566,15 +2350,728 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Slow-Strike Sages with no people, creatures, figures, silhouettes or text. Midground: a warm flat basking rock in a swamp, a collapsed overpass. Foreground: hanging moss, a stack of carved treaty stones, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #a7c957 for the biggest glowing sources and surfaces, secondary #6d597a for medium panels, banners and lights, pop #fee7ab for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Short-Faced Bear Gallopers with no people, creatures, figures, silhouettes or text. Midground: a dusty plain with bone arches, a barricade line. Foreground: trampled tire marks and a lookout tree, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #5a452b for the biggest glowing sources and surfaces, secondary #1f2438 for medium panels, banners and lights, pop #ff8a3d for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Swan-Neck Seal Coil-Strikers  `sealcoilstrikers`
+
+*Reach farther. Strike faster.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | sleek and slender, a very long swan-like neck, flippers, a slim tail; medium size; mobility: aquatic |
+| Ethnicity + nationality | seal-kin (not human) |
+| Identity | female anthropomorphic seal character |
+| Wardrobe | sleek grey seal-kin with an elongated S-curved neck, flipper-hands with sharp tooth bracers, a wet cloak and a neck guard, coiled to strike |
+| Accessories | Neck guard; coil harness; piercing tooth bracers; wet cloak |
+| Pose | coiled low with the long neck bent in an S ready to snap forward |
+| Facial expression | cool, narrow-eyed |
+| People | Were-Creature |
+| Class | Arctoidea-kin |
+| Subclass | Swan-Neck Seal Coil-Strikers |
+| Type | Fighter |
+| Combat or support | Combat |
+| Silhouette hook | coiled low with the long neck bent in an S ready to snap forward; the Neck guard and the coil harness break the outline so it reads instantly as a black shape |
+| Shape language | balanced diagonals with one clear weapon line |
+| Main color (60%) | #2938c2: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #06d6a0: the eyes, the Neck guard and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as coiled low with the long neck bent in an S ready to snap forward.
+2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Neck guard and the pose must be visible at 64 px.
+4. Flat colors: #2938c2 / #e8c76a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Neck guard and coil harness and the fighter shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #2938c2 / #e8c76a / #06d6a0 (about 20%) |
+| Midground | a flooded dock with piers, a net rack |
+| Foreground | wet stone and a rusted crane |
+| Character-relevant items | a flooded dock with piers, a net rack, wet stone and a rusted crane |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Swan-Neck Seal Coil-Strikers, female anthropomorphic seal character (seal-kin (not human)), apparent age early 30s. sleek and slender, a very long swan-like neck, flippers, a slim tail, medium size. Pose: coiled low with the long neck bent in an S ready to snap forward. Expression: cool, narrow-eyed, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Neck guard. SECOND ITEM, kept plain: coil harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: sleek grey seal-kin with an elongated S-curved neck, flipper-hands with sharp tooth bracers, a wet cloak and a neck guard, coiled to strike.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #2938c2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Neck guard and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Swan-Neck Seal Coil-Strikers with no people, creatures, figures, silhouettes or text. Midground: a flooded dock with piers, a net rack. Foreground: wet stone and a rusted crane, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #2938c2 for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Honey Badger Loose-Hides  `honeybadgers`
+
+*Grab me. See what happens.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | low, stocky and loose-skinned, a white back stripe, short strong legs; small size; mobility: agile |
+| Ethnicity + nationality | honey badger-kin (not human) |
+| Identity | male anthropomorphic honey badger character |
+| Wardrobe | low stocky honey-badger-kin with a bold white back stripe, a patched leather vest, spiked knuckles and a loose cloak, spinning mid-turn with the fists up |
+| Accessories | Patched leather vest; spiked knuckles; white back-stripe cape; venom-proof gloves |
+| Pose | twisting in its own loose skin mid-turn with both fists up |
+| Facial expression | unbothered, fearless grin |
+| People | Were-Creature |
+| Class | Arctoidea-kin |
+| Subclass | Honey Badger Loose-Hides |
+| Type | Fighter |
+| Combat or support | Combat |
+| Silhouette hook | twisting in its own loose skin mid-turn with both fists up; the Patched leather vest and the spiked knuckles break the outline so it reads instantly as a black shape |
+| Shape language | balanced diagonals with one clear weapon line |
+| Main color (60%) | #bab7ab: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #2d2a4a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #4cc9f0: the eyes, the Patched leather vest and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as twisting in its own loose skin mid-turn with both fists up.
+2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Patched leather vest and the pose must be visible at 64 px.
+4. Flat colors: #bab7ab / #2d2a4a / #4cc9f0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Patched leather vest and spiked knuckles and the fighter shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #bab7ab / #2d2a4a / #4cc9f0 (about 20%) |
+| Midground | a rubble yard with scorched barrels, a snake pit |
+| Foreground | a rusted gate and trophy skulls |
+| Character-relevant items | a rubble yard with scorched barrels, a snake pit, a rusted gate and trophy skulls |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Honey Badger Loose-Hides, male anthropomorphic honey badger character (honey badger-kin (not human)), apparent age mid 30s. low, stocky and loose-skinned, a white back stripe, short strong legs, small size. Pose: twisting in its own loose skin mid-turn with both fists up. Expression: unbothered, fearless grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Patched leather vest. SECOND ITEM, kept plain: spiked knuckles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: low stocky honey-badger-kin with a bold white back stripe, a patched leather vest, spiked knuckles and a loose cloak, spinning mid-turn with the fists up.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #bab7ab about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2d2a4a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4cc9f0 about 10%, on the eyes, the Patched leather vest and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Honey Badger Loose-Hides with no people, creatures, figures, silhouettes or text. Midground: a rubble yard with scorched barrels, a snake pit. Foreground: a rusted gate and trophy skulls, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #bab7ab for the biggest glowing sources and surfaces, secondary #2d2a4a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Sea Otter Anvil-Smashers  `seaotters`
+
+*Crack it open.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | round and dense-furred, floating-belly, short arms, a pouch under one arm; medium size; mobility: aquatic |
+| Ethnicity + nationality | sea otter-kin (not human) |
+| Identity | male anthropomorphic sea otter character |
+| Wardrobe | round dense-furred sea-otter-kin in a kelp belt and a thick fur collar, a big anvil rock raised overhead in both paws, a pouch under one arm |
+| Accessories | Anvil rock pouch; thick fur collar; shell-crusher mallet; kelp belt |
+| Pose | standing on the heels with both paws raising the anvil rock overhead |
+| Facial expression | gleeful, whiskered grin |
+| People | Were-Creature |
+| Class | Arctoidea-kin |
+| Subclass | Sea Otter Anvil-Smashers |
+| Type | Bruiser |
+| Combat or support | Combat |
+| Silhouette hook | standing on the heels with both paws raising the anvil rock overhead; the Anvil rock pouch and the thick fur collar break the outline so it reads instantly as a black shape |
+| Shape language | heavy trapezoids, oversized fists and shoulders |
+| Main color (60%) | #b09a3b: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #fff7e0: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #c77dff: the eyes, the Anvil rock pouch and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as standing on the heels with both paws raising the anvil rock overhead.
+2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Anvil rock pouch and the pose must be visible at 64 px.
+4. Flat colors: #b09a3b / #fff7e0 / #c77dff as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Anvil rock pouch and thick fur collar and the bruiser shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #b09a3b / #fff7e0 / #c77dff (about 20%) |
+| Midground | a kelp harbor with floating docks, a crab-trap stack |
+| Foreground | tide pools and wet stone |
+| Character-relevant items | a kelp harbor with floating docks, a crab-trap stack, tide pools and wet stone |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Sea Otter Anvil-Smashers, male anthropomorphic sea otter character (sea otter-kin (not human)), apparent age mid 30s. round and dense-furred, floating-belly, short arms, a pouch under one arm, medium size. Pose: standing on the heels with both paws raising the anvil rock overhead. Expression: gleeful, whiskered grin, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Anvil rock pouch. SECOND ITEM, kept plain: thick fur collar. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: round dense-furred sea-otter-kin in a kelp belt and a thick fur collar, a big anvil rock raised overhead in both paws, a pouch under one arm.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #b09a3b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff7e0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c77dff about 10%, on the eyes, the Anvil rock pouch and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Bruiser, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Sea Otter Anvil-Smashers with no people, creatures, figures, silhouettes or text. Midground: a kelp harbor with floating docks, a crab-trap stack. Foreground: tide pools and wet stone, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #b09a3b for the biggest glowing sources and surfaces, secondary #fff7e0 for medium panels, banners and lights, pop #c77dff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Stink Badger Possum-Gassers  `stinkbadgers`
+
+*Play dead. Then it gets worse.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | low and long with a white head stripe, a bushy tail, short legs; small size; mobility: grounded |
+| Ethnicity + nationality | stink badger-kin (not human) |
+| Identity | female anthropomorphic stink badger character |
+| Wardrobe | low long stink-badger-kin with a white head stripe, a bushy tail, a gas mask and spray canisters on the belt, one paw on the valve and a sulfur cloud rising |
+| Accessories | Gas mask; spray canisters; striped back cape; ash-grey wraps |
+| Pose | slumped low on the ground with one paw on the canister valve and a sulfur cloud rising |
+| Facial expression | smug, half-closed eyes |
+| People | Were-Creature |
+| Class | Arctoidea-kin |
+| Subclass | Stink Badger Possum-Gassers |
+| Type | Controller |
+| Combat or support | Combat |
+| Silhouette hook | slumped low on the ground with one paw on the canister valve and a sulfur cloud rising; the Gas mask and the spray canisters break the outline so it reads instantly as a black shape |
+| Shape language | hexagons and wide arc gestures with tools hanging off the body |
+| Main color (60%) | #a9bc2f: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #26324a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ffd23f: the eyes, the Gas mask and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as slumped low on the ground with one paw on the canister valve and a sulfur cloud rising.
+2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Gas mask and the pose must be visible at 64 px.
+4. Flat colors: #a9bc2f / #26324a / #ffd23f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Gas mask and spray canisters and the controller shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #a9bc2f / #26324a / #ffd23f (about 20%) |
+| Midground | a gas-fogged ruin with cracked barrels |
+| Foreground | hazard signs and a yellow haze |
+| Character-relevant items | a gas-fogged ruin with cracked barrels, hazard signs and a yellow haze |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Stink Badger Possum-Gassers, female anthropomorphic stink badger character (stink badger-kin (not human)), apparent age early 30s. low and long with a white head stripe, a bushy tail, short legs, small size. Pose: slumped low on the ground with one paw on the canister valve and a sulfur cloud rising. Expression: smug, half-closed eyes, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Gas mask. SECOND ITEM, kept plain: spray canisters. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: low long stink-badger-kin with a white head stripe, a bushy tail, a gas mask and spray canisters on the belt, one paw on the valve and a sulfur cloud rising.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #a9bc2f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #26324a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd23f about 10%, on the eyes, the Gas mask and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Controller, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Stink Badger Possum-Gassers with no people, creatures, figures, silhouettes or text. Midground: a gas-fogged ruin with cracked barrels. Foreground: hazard signs and a yellow haze, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #a9bc2f for the biggest glowing sources and surfaces, secondary #26324a for medium panels, banners and lights, pop #ffd23f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
 
-## Were-Creature › Capybara-kin
+## Were-Creature › Crocodylia-kin
 
-### Hot-Spring Healers  `hotspringhealers`
+### Purussaurus Death-Rollers  `purussaurus`
+
+*One bite. One roll.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | colossal, a huge broad blunt skull, thick scutes, a heavy tail; huge size; mobility: grounded |
+| Ethnicity + nationality | caiman-kin (not human) |
+| Identity | male anthropomorphic caiman character |
+| Wardrobe | colossal blunt-snouted caiman-kin in a skull-guard helm with a heavy chained tail, scute plates and trophy chains, jaws opening wide |
+| Accessories | Skull-guard helm; tail spike; trophy chains; scute plates |
+| Pose | lunging forward with the huge blunt jaw open and the tail swept to one side |
+| Facial expression | stoic, enormous jaw open |
+| People | Were-Creature |
+| Class | Crocodylia-kin |
+| Subclass | Purussaurus Death-Rollers |
+| Type | Bruiser |
+| Combat or support | Combat |
+| Silhouette hook | lunging forward with the huge blunt jaw open and the tail swept to one side; the Skull-guard helm and the tail spike break the outline so it reads instantly as a black shape |
+| Shape language | heavy trapezoids, oversized fists and shoulders |
+| Main color (60%) | #1d721f: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff5d8f: the eyes, the Skull-guard helm and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as lunging forward with the huge blunt jaw open and the tail swept to one side.
+2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Skull-guard helm and the pose must be visible at 64 px.
+4. Flat colors: #1d721f / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Skull-guard helm and tail spike and the bruiser shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #1d721f / #f4f1e8 / #ff5d8f (about 20%) |
+| Midground | a flooded swamp ruin with a broken dam |
+| Foreground | giant bones and mud banks |
+| Character-relevant items | a flooded swamp ruin with a broken dam, giant bones and mud banks |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Purussaurus Death-Rollers, male anthropomorphic caiman character (caiman-kin (not human)), apparent age early 50s. colossal, a huge broad blunt skull, thick scutes, a heavy tail, huge size. Pose: lunging forward with the huge blunt jaw open and the tail swept to one side. Expression: stoic, enormous jaw open, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Skull-guard helm. SECOND ITEM, kept plain: tail spike. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: colossal blunt-snouted caiman-kin in a skull-guard helm with a heavy chained tail, scute plates and trophy chains, jaws opening wide.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #1d721f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Skull-guard helm and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Bruiser, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Purussaurus Death-Rollers with no people, creatures, figures, silhouettes or text. Midground: a flooded swamp ruin with a broken dam. Foreground: giant bones and mud banks, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #1d721f for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ff5d8f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Dwarf Caiman Bone-Plate Scouts  `caimanscouts`
+
+*Small. Hard. Everywhere.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | small, compact and rigid, bony plates everywhere, a high domed skull; small size; mobility: grounded |
+| Ethnicity + nationality | dwarf caiman-kin (not human) |
+| Identity | female anthropomorphic dwarf caiman character |
+| Wardrobe | small stiff dwarf-caiman-kin in bone-plate armor with a high domed skull, a satchel and a short spear, crouched behind a plated shield |
+| Accessories | Bone-plate vest; domed helm; scout satchel; short spear |
+| Pose | crouched in a guard with the short spear leveled over the plated shield |
+| Facial expression | wary, sharp-eyed |
+| People | Were-Creature |
+| Class | Crocodylia-kin |
+| Subclass | Dwarf Caiman Bone-Plate Scouts |
+| Type | Tank |
+| Combat or support | Combat |
+| Silhouette hook | crouched in a guard with the short spear leveled over the plated shield; the Bone-plate vest and the domed helm break the outline so it reads instantly as a black shape |
+| Shape language | wide blocky rectangles and a big shield shape |
+| Main color (60%) | #238b2d: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #1f2438: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff8a3d: the eyes, the Bone-plate vest and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as crouched in a guard with the short spear leveled over the plated shield.
+2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Bone-plate vest and the pose must be visible at 64 px.
+4. Flat colors: #238b2d / #1f2438 / #ff8a3d as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Bone-plate vest and domed helm and the tank shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #238b2d / #1f2438 / #ff8a3d (about 20%) |
+| Midground | a muddy jungle trail with fallen logs |
+| Foreground | a lookout tree and a drainage ditch |
+| Character-relevant items | a muddy jungle trail with fallen logs, a lookout tree and a drainage ditch |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Dwarf Caiman Bone-Plate Scouts, female anthropomorphic dwarf caiman character (dwarf caiman-kin (not human)), apparent age early 40s. small, compact and rigid, bony plates everywhere, a high domed skull, small size. Pose: crouched in a guard with the short spear leveled over the plated shield. Expression: wary, sharp-eyed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bone-plate vest. SECOND ITEM, kept plain: domed helm. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small stiff dwarf-caiman-kin in bone-plate armor with a high domed skull, a satchel and a short spear, crouched behind a plated shield.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #238b2d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1f2438 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff8a3d about 10%, on the eyes, the Bone-plate vest and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Dwarf Caiman Bone-Plate Scouts with no people, creatures, figures, silhouettes or text. Midground: a muddy jungle trail with fallen logs. Foreground: a lookout tree and a drainage ditch, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #238b2d for the biggest glowing sources and surfaces, secondary #1f2438 for medium panels, banners and lights, pop #ff8a3d for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Cuban Crocodile Gallop Vanguard  `cubancrocodiles`
+
+*They run on land.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | lean and long-legged, an athletic body, broad flat teeth; medium size; mobility: agile |
+| Ethnicity + nationality | crocodile-kin (not human) |
+| Identity | male anthropomorphic crocodile character |
+| Wardrobe | lean athletic crocodile-kin on long legs in a running harness and a light scute vest, galloping mid-leap with the jaws open |
+| Accessories | Running harness; leg straps; tooth guard; light scute vest |
+| Pose | galloping mid-stride with the legs stretched and the jaws open |
+| Facial expression | predatory, grinning |
+| People | Were-Creature |
+| Class | Crocodylia-kin |
+| Subclass | Cuban Crocodile Gallop Vanguard |
+| Type | Assassin |
+| Combat or support | Combat |
+| Silhouette hook | galloping mid-stride with the legs stretched and the jaws open; the Running harness and the leg straps break the outline so it reads instantly as a black shape |
+| Shape language | sharp triangles, long thin blades, a low coiled posture |
+| Main color (60%) | #6eb83d: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #06d6a0: the eyes, the Running harness and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as galloping mid-stride with the legs stretched and the jaws open.
+2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Running harness and the pose must be visible at 64 px.
+4. Flat colors: #6eb83d / #e8c76a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Running harness and leg straps and the assassin shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #6eb83d / #e8c76a / #06d6a0 (about 20%) |
+| Midground | a salt flat with rusted crates |
+| Foreground | a fence line and shallow pools |
+| Character-relevant items | a salt flat with rusted crates, a fence line and shallow pools |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Cuban Crocodile Gallop Vanguard, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 20s. lean and long-legged, an athletic body, broad flat teeth, medium size. Pose: galloping mid-stride with the legs stretched and the jaws open. Expression: predatory, grinning, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Running harness. SECOND ITEM, kept plain: leg straps. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lean athletic crocodile-kin on long legs in a running harness and a light scute vest, galloping mid-leap with the jaws open.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #6eb83d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Running harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Assassin, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Cuban Crocodile Gallop Vanguard with no people, creatures, figures, silhouettes or text. Midground: a salt flat with rusted crates. Foreground: a fence line and shallow pools, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #6eb83d for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Armadillosuchus Burrow-Juggernauts  `armadillosuchus`
+
+*From below.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | stocky and low, a jointed armadillo shell across the back and neck, heavy curved claws; large size; mobility: burrowing |
+| Ethnicity + nationality | armadillosuchus-kin (not human) |
+| Identity | male anthropomorphic armadillosuchus character |
+| Wardrobe | stocky armored crocodile-kin with a jointed armadillo-like shell over the back and neck, heavy curved digging claws and a tunnel lamp, bursting up out of the ground |
+| Accessories | Jointed shell plates; digging claws; tunnel lamp; dirt-caked cloak |
+| Pose | bursting up out of the ground with both digging claws raised |
+| Facial expression | stoic, dirt-streaked |
+| People | Were-Creature |
+| Class | Crocodylia-kin |
+| Subclass | Armadillosuchus Burrow-Juggernauts |
+| Type | Tank |
+| Combat or support | Combat |
+| Silhouette hook | bursting up out of the ground with both digging claws raised; the Jointed shell plates and the digging claws break the outline so it reads instantly as a black shape |
+| Shape language | wide blocky rectangles and a big shield shape |
+| Main color (60%) | #ab8349: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #2d2a4a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #4cc9f0: the eyes, the Jointed shell plates and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as bursting up out of the ground with both digging claws raised.
+2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Jointed shell plates and the pose must be visible at 64 px.
+4. Flat colors: #ab8349 / #2d2a4a / #4cc9f0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Jointed shell plates and digging claws and the tank shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #ab8349 / #2d2a4a / #4cc9f0 (about 20%) |
+| Midground | a quarry with exposed tunnels, rubble mounds |
+| Foreground | a mine cart and dust |
+| Character-relevant items | a quarry with exposed tunnels, rubble mounds, a mine cart and dust |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Armadillosuchus Burrow-Juggernauts, male anthropomorphic armadillosuchus character (armadillosuchus-kin (not human)), apparent age mid 40s. stocky and low, a jointed armadillo shell across the back and neck, heavy curved claws, large size. Pose: bursting up out of the ground with both digging claws raised. Expression: stoic, dirt-streaked, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Jointed shell plates. SECOND ITEM, kept plain: digging claws. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stocky armored crocodile-kin with a jointed armadillo-like shell over the back and neck, heavy curved digging claws and a tunnel lamp, bursting up out of the ground.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #ab8349 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2d2a4a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4cc9f0 about 10%, on the eyes, the Jointed shell plates and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Armadillosuchus Burrow-Juggernauts with no people, creatures, figures, silhouettes or text. Midground: a quarry with exposed tunnels, rubble mounds. Foreground: a mine cart and dust, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #ab8349 for the biggest glowing sources and surfaces, secondary #2d2a4a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Gharial Sonic Duelists  `gharialduelists`
+
+*Buzz. Pop. Pierce.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | slender and long, a needle-thin snout with a bulb at the tip, sleek tail; medium size; mobility: aquatic |
+| Ethnicity + nationality | gharial-kin (not human) |
+| Identity | female anthropomorphic gharial character |
+| Wardrobe | slender gharial-kin with a needle-thin snout and a hollow bulb at the tip, a fin sash and shock bracers, snapping the snout with flat sonic rings rippling out |
+| Accessories | Ghara resonator; needle-snout guard; fin sash; shock bracers |
+| Pose | lunging forward with the needle snout thrust and the head bulb ringing |
+| Facial expression | cool, arched-snout poise |
+| People | Were-Creature |
+| Class | Crocodylia-kin |
+| Subclass | Gharial Sonic Duelists |
+| Type | Caster |
+| Combat or support | Combat |
+| Silhouette hook | lunging forward with the needle snout thrust and the head bulb ringing; the Ghara resonator and the needle-snout guard break the outline so it reads instantly as a black shape |
+| Shape language | flowing diamonds and a bright flat focus shape |
+| Main color (60%) | #43d0cb: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #fff7e0: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #c77dff: the eyes, the Ghara resonator and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as lunging forward with the needle snout thrust and the head bulb ringing.
+2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Ghara resonator and the pose must be visible at 64 px.
+4. Flat colors: #43d0cb / #fff7e0 / #c77dff as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Ghara resonator and needle-snout guard and the caster shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #43d0cb / #fff7e0 / #c77dff (about 20%) |
+| Midground | a river sandbar with a stone ghat, fishing nets |
+| Foreground | reeds and a boat dock |
+| Character-relevant items | a river sandbar with a stone ghat, fishing nets, reeds and a boat dock |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Gharial Sonic Duelists, female anthropomorphic gharial character (gharial-kin (not human)), apparent age early 40s. slender and long, a needle-thin snout with a bulb at the tip, sleek tail, medium size. Pose: lunging forward with the needle snout thrust and the head bulb ringing. Expression: cool, arched-snout poise, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ghara resonator. SECOND ITEM, kept plain: needle-snout guard. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender gharial-kin with a needle-thin snout and a hollow bulb at the tip, a fin sash and shock bracers, snapping the snout with flat sonic rings rippling out.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #43d0cb about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff7e0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c77dff about 10%, on the eyes, the Ghara resonator and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Caster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Gharial Sonic Duelists with no people, creatures, figures, silhouettes or text. Midground: a river sandbar with a stone ghat, fishing nets. Foreground: reeds and a boat dock, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #43d0cb for the biggest glowing sources and surfaces, secondary #fff7e0 for medium panels, banners and lights, pop #c77dff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Herugavialis Tidal Marauders  `herugavialis`
+
+*The sea is ours.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | long and sleek, a long snout, strong paddle tail; large size; mobility: aquatic |
+| Ethnicity + nationality | gharial-kin (not human) |
+| Identity | male anthropomorphic gharial character |
+| Wardrobe | sleek saltwater gavial-kin with a long toothy snout, a salt-iron harness, kelp wraps and a wave-fang spear, riding a curling wave |
+| Accessories | Surf cloak; salt-iron harness; wave-fang spear; kelp wraps |
+| Pose | leaning forward on a surfing stance with the spear thrust ahead |
+| Facial expression | fierce, salt-crusted grin |
+| People | Were-Creature |
+| Class | Crocodylia-kin |
+| Subclass | Herugavialis Tidal Marauders |
+| Type | Fighter |
+| Combat or support | Combat |
+| Silhouette hook | leaning forward on a surfing stance with the spear thrust ahead; the Surf cloak and the salt-iron harness break the outline so it reads instantly as a black shape |
+| Shape language | balanced diagonals with one clear weapon line |
+| Main color (60%) | #6992d3: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #26324a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ffd23f: the eyes, the Surf cloak and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as leaning forward on a surfing stance with the spear thrust ahead.
+2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Surf cloak and the pose must be visible at 64 px.
+4. Flat colors: #6992d3 / #26324a / #ffd23f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Surf cloak and salt-iron harness and the fighter shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #6992d3 / #26324a / #ffd23f (about 20%) |
+| Midground | a rocky surf coast with tide pools |
+| Foreground | wrecked boats and a lighthouse |
+| Character-relevant items | a rocky surf coast with tide pools, wrecked boats and a lighthouse |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Herugavialis Tidal Marauders, male anthropomorphic gharial character (gharial-kin (not human)), apparent age late 30s. long and sleek, a long snout, strong paddle tail, large size. Pose: leaning forward on a surfing stance with the spear thrust ahead. Expression: fierce, salt-crusted grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Surf cloak. SECOND ITEM, kept plain: salt-iron harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: sleek saltwater gavial-kin with a long toothy snout, a salt-iron harness, kelp wraps and a wave-fang spear, riding a curling wave.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #6992d3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #26324a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd23f about 10%, on the eyes, the Surf cloak and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Herugavialis Tidal Marauders with no people, creatures, figures, silhouettes or text. Midground: a rocky surf coast with tide pools. Foreground: wrecked boats and a lighthouse, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #6992d3 for the biggest glowing sources and surfaces, secondary #26324a for medium panels, banners and lights, pop #ffd23f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+
+## Were-Creature › Rodent-kin
+
+### Rodent Hot-Spring Healers  `hotspringhealers`
 
 *Soak. Heal. Forgive.*
 
@@ -2591,8 +3088,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Pose | pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet |
 | Facial expression | soft, serene smile |
 | People | Were-Creature |
-| Class | Capybara-kin |
-| Subclass | Hot-Spring Healers |
+| Class | Rodent-kin |
+| Subclass | Rodent Hot-Spring Healers |
 | Type | Support |
 | Combat or support | Support |
 | Silhouette hook | pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet; the Steam kettle and the herb bundle break the outline so it reads instantly as a black shape |
@@ -2626,7 +3123,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Hot-Spring Healers, female anthropomorphic capybara character (capybara-kin (not human)), apparent age late 30s. tall, soft and round, medium size. Pose: pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet. Expression: soft, serene smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Rodent Hot-Spring Healers, female anthropomorphic capybara character (capybara-kin (not human)), apparent age late 30s. tall, soft and round, medium size. Pose: pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet. Expression: soft, serene smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Steam kettle. SECOND ITEM, kept plain: herb bundle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall, soft capybara-kin with flowers and ribbons in her hair, wearing a layered mint-and-pink ribbon robe with a bow sash, a steaming iron kettle in one hand, a bundle of herbs and lavender in the crook of the other arm, glass spring-water vials and a flask at the belt; at her feet a small raccoon assistant in a green scarf with a belt of glowing crystals.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -2640,139 +3137,139 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Hot-Spring Healers with no people, creatures, figures, silhouettes or text. Midground: an outdoor hot spring with stone pools and steam, a bathhouse hut, a bamboo screen. Foreground: a pile of towels, a hand-pumped water tower, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Rodent Hot-Spring Healers with no people, creatures, figures, silhouettes or text. Midground: an outdoor hot spring with stone pools and steam, a bathhouse hut, a bamboo screen. Foreground: a pile of towels, a hand-pumped water tower, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #bcfec8 for the biggest glowing sources and surfaces, secondary #ffadad for medium panels, banners and lights, pop #c9c588 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Reed-Lodge Diplomats  `reeddiplomats`
+### Josephoartigasia Tusk-Breakers  `joseptusks`
 
-*Let's talk about this. Slowly.*
+*Tusks first.*
 
 **Character**
 
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | round and calm, a blunt boxy head, a soft belly, short legs; medium size; mobility: grounded |
-| Ethnicity + nationality | capybara-kin (not human) |
-| Identity | male anthropomorphic capybara character |
-| Wardrobe | calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt |
-| Accessories | Reed mat; treaty scroll; gavel; tea set |
-| Pose | bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other |
-| Facial expression | calm, untroubled |
+| Physique | enormous, a bull-sized skull, two long tusk-like incisors, a thick hide; huge size; mobility: grounded |
+| Ethnicity + nationality | giant rodent-kin (not human) |
+| Identity | male anthropomorphic giant rodent character |
+| Wardrobe | enormous rodent-kin with a bull-sized skull, two long iron-capped tusk-like incisors, a hide-plate collar and heavy stomp boots, head lowered to charge |
+| Accessories | Tusk caps; ram collar; hide plates; stomp boots |
+| Pose | head lowered mid-charge with the tusk incisors forward |
+| Facial expression | heavy-browed, stoic |
 | People | Were-Creature |
-| Class | Capybara-kin |
-| Subclass | Reed-Lodge Diplomats |
-| Type | Enchanter |
-| Combat or support | Support |
-| Silhouette hook | bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other; the Reed mat and the treaty scroll break the outline so it reads instantly as a black shape |
-| Shape language | circles and stars around a charm, instrument or talisman |
-| Main color (60%) | #abdbd0: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #e86c65: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #264653: the eyes, the Reed mat and one small magical detail |
+| Class | Rodent-kin |
+| Subclass | Josephoartigasia Tusk-Breakers |
+| Type | Bruiser |
+| Combat or support | Combat |
+| Silhouette hook | head lowered mid-charge with the tusk incisors forward; the Tusk caps and the ram collar break the outline so it reads instantly as a black shape |
+| Shape language | heavy trapezoids, oversized fists and shoulders |
+| Main color (60%) | #ca7649: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff5d8f: the eyes, the Tusk caps and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
 | Art status | Not yet generated |
 | Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other.
-2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Reed mat and the pose must be visible at 64 px.
-4. Flat colors: #abdbd0 / #e86c65 / #264653 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Reed mat and treaty scroll and the enchanter shape language.
+1. Black-fill test: the silhouette must still read as head lowered mid-charge with the tusk incisors forward.
+2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Tusk caps and the pose must be visible at 64 px.
+4. Flat colors: #ca7649 / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Tusk caps and ram collar and the bruiser shape language.
 
 **Background**
 
 | Field | Value |
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #abdbd0 / #e86c65 / #264653 (about 20%) |
-| Midground | a reed-mat lodge at the water's edge with a low tea table and cushions, a hanging lantern string |
-| Foreground | a bridge over a pond, a signing desk |
-| Character-relevant items | a reed-mat lodge at the water's edge with a low tea table and cushions, a hanging lantern string, a bridge over a pond, a signing desk |
+| Colors | wash #b4532a (about 65%); accents #ca7649 / #f4f1e8 / #ff5d8f (about 20%) |
+| Midground | a rocky basin with fallen pylons |
+| Foreground | bone arches and a broken stone gate |
+| Character-relevant items | a rocky basin with fallen pylons, bone arches and a broken stone gate |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Reed-Lodge Diplomats, male anthropomorphic capybara character (capybara-kin (not human)), apparent age mid 30s. round and calm, a blunt boxy head, a soft belly, short legs, medium size. Pose: bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other. Expression: calm, untroubled, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Reed mat. SECOND ITEM, kept plain: treaty scroll. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: calm capybara-kin in a reed-woven robe, a rolled treaty scroll in one hand and a small gavel in the other, a tea tin at the belt.
+CHARACTER: Josephoartigasia Tusk-Breakers, male anthropomorphic giant rodent character (giant rodent-kin (not human)), apparent age mid 50s. enormous, a bull-sized skull, two long tusk-like incisors, a thick hide, huge size. Pose: head lowered mid-charge with the tusk incisors forward. Expression: heavy-browed, stoic, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Tusk caps. SECOND ITEM, kept plain: ram collar. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: enormous rodent-kin with a bull-sized skull, two long iron-capped tusk-like incisors, a hide-plate collar and heavy stomp boots, head lowered to charge.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #abdbd0 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e86c65 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Reed mat and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #ca7649 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Tusk caps and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Enchanter, support, Were-Creature people, mature dark-age tone, no nudity, no gore.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Bruiser, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
 
 **Background prompt**
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Reed-Lodge Diplomats with no people, creatures, figures, silhouettes or text. Midground: a reed-mat lodge at the water's edge with a low tea table and cushions, a hanging lantern string. Foreground: a bridge over a pond, a signing desk, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #abdbd0 for the biggest glowing sources and surfaces, secondary #e86c65 for medium panels, banners and lights, pop #264653 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Josephoartigasia Tusk-Breakers with no people, creatures, figures, silhouettes or text. Midground: a rocky basin with fallen pylons. Foreground: bone arches and a broken stone gate, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #ca7649 for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ff5d8f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Dam Wardens  `damwardens`
+### African Crested Rat Poison-Wick Wardens  `crestedratwardens`
 
-*We built it. We keep it.*
+*Touch me. See what happens.*
 
 **Character**
 
 | Field | Value |
 |---|---|
-| Gender | Male |
-| Physique | broad, heavy-set and low, huge front teeth, a thick neck, a wide flat tail; large size; mobility: grounded |
-| Ethnicity + nationality | capybara-kin (not human) |
-| Identity | male anthropomorphic capybara character |
-| Wardrobe | broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand |
-| Accessories | Tower shield; sledge; scaffolding rig; hard hat |
-| Pose | leaning into a slab shield like a door, the sledge resting on one shoulder |
-| Facial expression | stolid, unbothered |
+| Gender | Female |
+| Physique | stocky with a bristling crest, a black-and-white striped flank, a bushy tail; medium size; mobility: grounded |
+| Ethnicity + nationality | crested rat-kin (not human) |
+| Identity | female anthropomorphic crested rat character |
+| Wardrobe | stocky crested rat-kin with a bristling crest, black-and-white warning-stripe flanks, a poison-wick cloak and a bark satchel, fur parted in a retaliation stance |
+| Accessories | Poison-wick cloak; bark satchel; warning-stripe mantle; thorn guard |
+| Pose | braced low with the flanks parted to show the warning stripes |
+| Facial expression | calm, warning stare |
 | People | Were-Creature |
-| Class | Capybara-kin |
-| Subclass | Dam Wardens |
+| Class | Rodent-kin |
+| Subclass | African Crested Rat Poison-Wick Wardens |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | leaning into a slab shield like a door, the sledge resting on one shoulder; the Tower shield and the sledge break the outline so it reads instantly as a black shape |
+| Silhouette hook | braced low with the flanks parted to show the warning stripes; the Poison-wick cloak and the bark satchel break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
-| Main color (60%) | #b0970b: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #3d5a80: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #d8fdff: the eyes, the Tower shield and one small magical detail |
+| Main color (60%) | #ae2fbc: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #1f2438: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff8a3d: the eyes, the Poison-wick cloak and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
 | Art status | Not yet generated |
 | Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as leaning into a slab shield like a door, the sledge resting on one shoulder.
+1. Black-fill test: the silhouette must still read as braced low with the flanks parted to show the warning stripes.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Tower shield and the pose must be visible at 64 px.
-4. Flat colors: #b0970b / #3d5a80 / #d8fdff as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Tower shield and sledge and the tank shape language.
+3. Thumbnail test: the Poison-wick cloak and the pose must be visible at 64 px.
+4. Flat colors: #ae2fbc / #1f2438 / #ff8a3d as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Poison-wick cloak and bark satchel and the tank shape language.
 
 **Background**
 
 | Field | Value |
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #b0970b / #3d5a80 / #d8fdff (about 20%) |
-| Midground | a half-built dam wall with scaffolding, a crane, sandbags |
-| Foreground | a flooded road, a concrete spillway, a work generator |
-| Character-relevant items | a half-built dam wall with scaffolding, a crane, sandbags, a flooded road, a concrete spillway, a work generator |
+| Colors | wash #b4532a (about 65%); accents #ae2fbc / #1f2438 / #ff8a3d (about 20%) |
+| Midground | a scrub-forest clearing with bark piles |
+| Foreground | thorn trees and old arrows |
+| Character-relevant items | a scrub-forest clearing with bark piles, thorn trees and old arrows |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Dam Wardens, male anthropomorphic capybara character (capybara-kin (not human)), apparent age early 30s. broad, heavy-set and low, huge front teeth, a thick neck, a wide flat tail, large size. Pose: leaning into a slab shield like a door, the sledge resting on one shoulder. Expression: stolid, unbothered, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: sledge. SECOND ITEM, kept plain: scaffolding rig. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: broad capybara-kin in a hard hat and a canvas work vest, a slab tower shield on one arm and a sledgehammer in the other hand.
+CHARACTER: African Crested Rat Poison-Wick Wardens, female anthropomorphic crested rat character (crested rat-kin (not human)), apparent age early 40s. stocky with a bristling crest, a black-and-white striped flank, a bushy tail, medium size. Pose: braced low with the flanks parted to show the warning stripes. Expression: calm, warning stare, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Poison-wick cloak. SECOND ITEM, kept plain: bark satchel. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stocky crested rat-kin with a bristling crest, black-and-white warning-stripe flanks, a poison-wick cloak and a bark satchel, fur parted in a retaliation stance.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #b0970b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3d5a80 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #d8fdff about 10%, on the eyes, the Tower shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #ae2fbc about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1f2438 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff8a3d about 10%, on the eyes, the Poison-wick cloak and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
@@ -2782,8 +3279,222 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Dam Wardens with no people, creatures, figures, silhouettes or text. Midground: a half-built dam wall with scaffolding, a crane, sandbags. Foreground: a flooded road, a concrete spillway, a work generator, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #b0970b for the biggest glowing sources and surfaces, secondary #3d5a80 for medium panels, banners and lights, pop #d8fdff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for African Crested Rat Poison-Wick Wardens with no people, creatures, figures, silhouettes or text. Midground: a scrub-forest clearing with bark piles. Foreground: thorn trees and old arrows, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #ae2fbc for the biggest glowing sources and surfaces, secondary #1f2438 for medium panels, banners and lights, pop #ff8a3d for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Castoroides Wetland Overlords  `castoroides`
+
+*The marsh obeys.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | bear-sized, a huge flat paddle tail, blunt long incisors, a thick wet coat; large size; mobility: aquatic |
+| Ethnicity + nationality | giant beaver-kin (not human) |
+| Identity | male anthropomorphic giant beaver character |
+| Wardrobe | bear-sized giant beaver-kin with a huge flat paddle tail raised, a marsh cloak and a reed belt, blunt incisors showing |
+| Accessories | Paddle-tail guard; marsh cloak; blunt-incisor bracer; reed belt |
+| Pose | standing upright with the paddle tail raised high for a sweep |
+| Facial expression | unhurried, heavy-lidded |
+| People | Were-Creature |
+| Class | Rodent-kin |
+| Subclass | Castoroides Wetland Overlords |
+| Type | Controller |
+| Combat or support | Combat |
+| Silhouette hook | standing upright with the paddle tail raised high for a sweep; the Paddle-tail guard and the marsh cloak break the outline so it reads instantly as a black shape |
+| Shape language | hexagons and wide arc gestures with tools hanging off the body |
+| Main color (60%) | #2b644b: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #06d6a0: the eyes, the Paddle-tail guard and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as standing upright with the paddle tail raised high for a sweep.
+2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Paddle-tail guard and the pose must be visible at 64 px.
+4. Flat colors: #2b644b / #e8c76a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Paddle-tail guard and marsh cloak and the controller shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #2b644b / #e8c76a / #06d6a0 (about 20%) |
+| Midground | a drowned marsh with a half-built dam |
+| Foreground | reed beds and floating logs |
+| Character-relevant items | a drowned marsh with a half-built dam, reed beds and floating logs |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Castoroides Wetland Overlords, male anthropomorphic giant beaver character (giant beaver-kin (not human)), apparent age mid 50s. bear-sized, a huge flat paddle tail, blunt long incisors, a thick wet coat, large size. Pose: standing upright with the paddle tail raised high for a sweep. Expression: unhurried, heavy-lidded, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Paddle-tail guard. SECOND ITEM, kept plain: marsh cloak. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: bear-sized giant beaver-kin with a huge flat paddle tail raised, a marsh cloak and a reed belt, blunt incisors showing.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #2b644b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Paddle-tail guard and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Controller, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Castoroides Wetland Overlords with no people, creatures, figures, silhouettes or text. Midground: a drowned marsh with a half-built dam. Foreground: reed beds and floating logs, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #2b644b for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Naked Mole-Rat Hive-Colonists  `molematehive`
+
+*Pain is for other people.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Nonbinary |
+| Physique | small, pink and wrinkled, huge front teeth, tiny eyes, a thin tail; small size; mobility: burrowing |
+| Ethnicity + nationality | naked mole-rat-kin (not human) |
+| Identity | nonbinary anthropomorphic naked mole-rat character |
+| Wardrobe | small pink wrinkled mole-rat-kin with big front teeth, tiny eyes, digging gauntlets and a sash with a queen's sigil, three tiny duplicates scurrying out behind |
+| Accessories | Digging gauntlets; tunnel lamp; queen's sigil sash; soldier helm |
+| Pose | scrambling forward low with the digging gauntlets and three tiny duplicates behind |
+| Facial expression | oblivious, grinning |
+| People | Were-Creature |
+| Class | Rodent-kin |
+| Subclass | Naked Mole-Rat Hive-Colonists |
+| Type | Summoner |
+| Combat or support | Combat |
+| Silhouette hook | scrambling forward low with the digging gauntlets and three tiny duplicates behind; the Digging gauntlets and the tunnel lamp break the outline so it reads instantly as a black shape |
+| Shape language | one big commanding gesture silhouette with several small, clearly separate minion shapes around it |
+| Main color (60%) | #e0aece: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #2d2a4a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #4cc9f0: the eyes, the Digging gauntlets and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as scrambling forward low with the digging gauntlets and three tiny duplicates behind.
+2. Few large shapes: one big commanding gesture silhouette with several small, clearly separate minion shapes around it; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Digging gauntlets and the pose must be visible at 64 px.
+4. Flat colors: #e0aece / #2d2a4a / #4cc9f0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Digging gauntlets and tunnel lamp and the summoner shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #e0aece / #2d2a4a / #4cc9f0 (about 20%) |
+| Midground | a tunnel colony with mud chambers, a queen's throne |
+| Foreground | nest piles and glowing lamps |
+| Character-relevant items | a tunnel colony with mud chambers, a queen's throne, nest piles and glowing lamps |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Naked Mole-Rat Hive-Colonists, nonbinary anthropomorphic naked mole-rat character (naked mole-rat-kin (not human)), apparent age early 30s. small, pink and wrinkled, huge front teeth, tiny eyes, a thin tail, small size. Pose: scrambling forward low with the digging gauntlets and three tiny duplicates behind. Expression: oblivious, grinning, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Digging gauntlets. SECOND ITEM, kept plain: tunnel lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small pink wrinkled mole-rat-kin with big front teeth, tiny eyes, digging gauntlets and a sash with a queen's sigil, three tiny duplicates scurrying out behind.
+
+SUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #e0aece about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2d2a4a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4cc9f0 about 10%, on the eyes, the Digging gauntlets and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Naked Mole-Rat Hive-Colonists with no people, creatures, figures, silhouettes or text. Midground: a tunnel colony with mud chambers, a queen's throne. Foreground: nest piles and glowing lamps, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #e0aece for the biggest glowing sources and surfaces, secondary #2d2a4a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Giant Flying Squirrel Glide-Strikers  `flyingsquirrels`
+
+*Drop. Hit. Gone.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | slender, a wide skin membrane between arms and legs, a big flat rudder tail; medium size; mobility: flying |
+| Ethnicity + nationality | flying squirrel-kin (not human) |
+| Identity | female anthropomorphic flying squirrel character |
+| Wardrobe | slender giant flying-squirrel-kin gliding with a wide skin membrane stretched between the arms and legs, a big rudder tail, goggles and talon gloves |
+| Accessories | Membrane cape; glide harness; talon gloves; goggles |
+| Pose | gliding with the arms and legs spread wide and the membrane stretched |
+| Facial expression | thrilled, goggled grin |
+| People | Were-Creature |
+| Class | Rodent-kin |
+| Subclass | Giant Flying Squirrel Glide-Strikers |
+| Type | Assassin |
+| Combat or support | Combat |
+| Silhouette hook | gliding with the arms and legs spread wide and the membrane stretched; the Membrane cape and the glide harness break the outline so it reads instantly as a black shape |
+| Shape language | sharp triangles, long thin blades, a low coiled posture |
+| Main color (60%) | #5729c2: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #fff7e0: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #c77dff: the eyes, the Membrane cape and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as gliding with the arms and legs spread wide and the membrane stretched.
+2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Membrane cape and the pose must be visible at 64 px.
+4. Flat colors: #5729c2 / #fff7e0 / #c77dff as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Membrane cape and glide harness and the assassin shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #5729c2 / #fff7e0 / #c77dff (about 20%) |
+| Midground | a ruined skyscraper canopy with ropes |
+| Foreground | ledges and a long drop |
+| Character-relevant items | a ruined skyscraper canopy with ropes, ledges and a long drop |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Giant Flying Squirrel Glide-Strikers, female anthropomorphic flying squirrel character (flying squirrel-kin (not human)), apparent age late 20s. slender, a wide skin membrane between arms and legs, a big flat rudder tail, medium size. Pose: gliding with the arms and legs spread wide and the membrane stretched. Expression: thrilled, goggled grin, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Membrane cape. SECOND ITEM, kept plain: glide harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender giant flying-squirrel-kin gliding with a wide skin membrane stretched between the arms and legs, a big rudder tail, goggles and talon gloves.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #5729c2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff7e0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c77dff about 10%, on the eyes, the Membrane cape and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Assassin, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Giant Flying Squirrel Glide-Strikers with no people, creatures, figures, silhouettes or text. Midground: a ruined skyscraper canopy with ropes. Foreground: ledges and a long drop, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #5729c2 for the biggest glowing sources and surfaces, secondary #fff7e0 for medium panels, banners and lights, pop #c77dff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
@@ -3578,9 +4289,9 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```
 
 
-## Were-Creature › Mantis Shrimp-kin
+## Were-Creature › Crustacea-kin
 
-### Punch-Claw Duelists  `punchclawduelists`
+### Mantis Shrimp Punch-Claw Duelists  `punchclawduelists`
 
 *One strike. Done.*
 
@@ -3597,8 +4308,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Pose | wide fighting stance with one huge club-claw cocked back overhead and the other braced forward |
 | Facial expression | taut, predatory glare |
 | People | Were-Creature |
-| Class | Mantis Shrimp-kin |
-| Subclass | Punch-Claw Duelists |
+| Class | Crustacea-kin |
+| Subclass | Mantis Shrimp Punch-Claw Duelists |
 | Type | Bruiser |
 | Combat or support | Combat |
 | Silhouette hook | wide fighting stance with one huge club-claw cocked back overhead and the other braced forward; the Club-claws and the plated carapace break the outline so it reads instantly as a black shape |
@@ -3632,7 +4343,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Punch-Claw Duelists, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 30s. armored and compact, a wide shell back, one huge club claw and one small claw, medium size. Pose: wide fighting stance with one huge club-claw cocked back overhead and the other braced forward. Expression: taut, predatory glare, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Mantis Shrimp Punch-Claw Duelists, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 30s. armored and compact, a wide shell back, one huge club claw and one small claw, medium size. Pose: wide fighting stance with one huge club-claw cocked back overhead and the other braced forward. Expression: taut, predatory glare, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Club-claws. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored mantis-shrimp-kin duelist in magenta, yellow and navy carapace plates with a spiky crest and two eye-stalks with striped bulbs, a dark cross-strap with a grey buckle and a belt pouch, pointed pink heels, a huge navy-and-magenta club-claw cocked back in one arm and a second claw held forward in a wide fighting stance.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -3646,139 +4357,68 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Punch-Claw Duelists with no people, creatures, figures, silhouettes or text. Midground: a flooded stadium with a duel ring marked in the floor, shattered glass. Foreground: a scoreboard, a collapsed bleacher, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Mantis Shrimp Punch-Claw Duelists with no people, creatures, figures, silhouettes or text. Midground: a flooded stadium with a duel ring marked in the floor, shattered glass. Foreground: a scoreboard, a collapsed bleacher, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #ca148b for the biggest glowing sources and surfaces, secondary #ffd60a for medium panels, banners and lights, pop #023e8a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Prism Gunners  `prismgunners`
+### Lobster Claw-Marshals  `lobsterclawmarshals`
 
-*Sixteen colors. One shot.*
-
-**Character**
-
-| Field | Value |
-|---|---|
-| Gender | Female |
-| Physique | armored and narrow, eyes on long stalks, a bright carapace; medium size; mobility: aquatic |
-| Ethnicity + nationality | mantis shrimp-kin (not human) |
-| Identity | female anthropomorphic mantis shrimp character |
-| Wardrobe | mantis-shrimp-kin gunner with a cyan armored body and pink spiked crest, three long eye-stalks with yellow eyes, octagonal purple multi-lens goggles, a cyan-and-pink leaf cloak and sash, a bandolier of purple ammo, a big purple-and-pink crystal prism rifle with a scope braced in both hands, in a wide firing stance |
-| Accessories | Prism rifle; multi-lens goggles; color-coded ammo; reef-cloak |
-| Pose | wide braced firing stance leaning into the prism rifle held in both hands |
-| Facial expression | fiercely focused, stalked eyes aimed in different directions |
-| People | Were-Creature |
-| Class | Mantis Shrimp-kin |
-| Subclass | Prism Gunners |
-| Type | Blaster |
-| Combat or support | Combat |
-| Silhouette hook | wide braced firing stance leaning into the prism rifle held in both hands; the Prism rifle and the multi-lens goggles break the outline so it reads instantly as a black shape |
-| Shape language | long straight lines and a bold wedge-shaped weapon |
-| Main color (60%) | #4dfff2: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #f15bb5: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #9b5de5: the eyes, the Prism rifle and one small magical detail |
-| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Done: `art/v2/were-prismgunners.png` and `art/v2/were-prismgunners-bg.jpg` |
-| Last vet | Final art accepted (made before the vetting pipeline) |
-
-**Samurai Jack check (targets for this character)**
-
-1. Black-fill test: the silhouette must still read as wide braced firing stance leaning into the prism rifle held in both hands.
-2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Prism rifle and the pose must be visible at 64 px.
-4. Flat colors: #4dfff2 / #f15bb5 / #9b5de5 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Prism rifle and multi-lens goggles and the blaster shape language.
-
-**Background**
-
-| Field | Value |
-|---|---|
-| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #4dfff2 / #f15bb5 / #9b5de5 (about 20%) |
-| Midground | a reef-fort firing line with a gun rack, a stack of ammo crates |
-| Foreground | a prism target board, a glowing lens array |
-| Character-relevant items | a reef-fort firing line with a gun rack, a stack of ammo crates, a prism target board, a glowing lens array |
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Prism Gunners, female anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 70s. armored and narrow, eyes on long stalks, a bright carapace, medium size. Pose: wide braced firing stance leaning into the prism rifle held in both hands. Expression: fiercely focused, stalked eyes aimed in different directions, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prism rifle. SECOND ITEM, kept plain: multi-lens goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: mantis-shrimp-kin gunner with a cyan armored body and pink spiked crest, three long eye-stalks with yellow eyes, octagonal purple multi-lens goggles, a cyan-and-pink leaf cloak and sash, a bandolier of purple ammo, a big purple-and-pink crystal prism rifle with a scope braced in both hands.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #4dfff2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f15bb5 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #9b5de5 about 10%, on the eyes, the Prism rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Blaster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Prism Gunners with no people, creatures, figures, silhouettes or text. Midground: a reef-fort firing line with a gun rack, a stack of ammo crates. Foreground: a prism target board, a glowing lens array, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #4dfff2 for the biggest glowing sources and surfaces, secondary #f15bb5 for medium panels, banners and lights, pop #9b5de5 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-### Reef Shell-Guard  `reefshellguard`
-
-*Behind the shell.*
+*Crush first. Parley later.*
 
 **Character**
 
 | Field | Value |
 |---|---|
 | Gender | Male |
-| Physique | heavily armored, a dome shell, a wide low body; large size; mobility: aquatic |
-| Ethnicity + nationality | mantis shrimp-kin (not human) |
-| Identity | male anthropomorphic mantis shrimp character |
-| Wardrobe | heavily armored mantis-shrimp-kin in hot-pink plate shell with teal straps and gold spikes, a teal helmet-head with gold eyes and long curved antennae, a belt with a gold buckle, a huge ridged pink-and-gold shell shield on one arm and a heavy club-claw ready in the other, crouched in a braced guard |
-| Accessories | Shell shield; plated carapace; short club-claws; helmet |
-| Pose | crouched in a braced guard behind the ridged shield, the club-claw cocked and ready |
-| Facial expression | grim, unmoved, gold slit eyes |
+| Physique | huge and armored, one giant crusher claw and one smaller cutter claw, long antennae, a tail fan; large size; mobility: aquatic |
+| Ethnicity + nationality | crustacea-kin (not human) |
+| Identity | male anthropomorphic crustacea character |
+| Wardrobe | huge armored lobster-kin in a plated shell with long antennae, a big crusher claw and a smaller cutter claw raised, a tail fan and a marshal's sash across the chest |
+| Accessories | Crusher claw gauntlet; cutter claw; plated carapace; marshal's sash |
+| Pose | braced in a wide stance with the crusher claw raised high and the cutter claw low |
+| Facial expression | stern, law-giving |
 | People | Were-Creature |
-| Class | Mantis Shrimp-kin |
-| Subclass | Reef Shell-Guard |
+| Class | Crustacea-kin |
+| Subclass | Lobster Claw-Marshals |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | crouched in a braced guard behind the ridged shield, the club-claw cocked and ready; the Shell shield and the plated carapace break the outline so it reads instantly as a black shape |
+| Silhouette hook | braced in a wide stance with the crusher claw raised high and the cutter claw low; the Crusher claw gauntlet and the cutter claw break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
-| Main color (60%) | #e95cbf: the largest garment, armor, fur-marking or body areas |
-| Secondary color (30%) | #118ab2: trim, sash, straps, secondary garment pieces and held gear |
-| Pop color (10%) | #ffd166: the eyes, the Shell shield and one small magical detail |
+| Main color (60%) | #e72364: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff5d8f: the eyes, the Crusher claw gauntlet and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Done: `art/v2/were-reefshellguard.png` and `art/v2/were-reefshellguard-bg.jpg` |
-| Last vet | Final art accepted (made before the vetting pipeline) |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crouched in a braced guard behind the ridged shield, the club-claw cocked and ready.
+1. Black-fill test: the silhouette must still read as braced in a wide stance with the crusher claw raised high and the cutter claw low.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
-3. Thumbnail test: the Shell shield and the pose must be visible at 64 px.
-4. Flat colors: #e95cbf / #118ab2 / #ffd166 as separate flat shapes divided by black line; no gradients or glow.
-5. Distinctive without detail: identifiable by Shell shield and plated carapace and the tank shape language.
+3. Thumbnail test: the Crusher claw gauntlet and the pose must be visible at 64 px.
+4. Flat colors: #e72364 / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Crusher claw gauntlet and cutter claw and the tank shape language.
 
 **Background**
 
 | Field | Value |
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
-| Colors | wash #b4532a (about 65%); accents #e95cbf / #118ab2 / #ffd166 (about 20%) |
-| Midground | a reef-fort gate with ridged walls, a drawbridge |
-| Foreground | barnacled barricades, a watchtower |
-| Character-relevant items | a reef-fort gate with ridged walls, a drawbridge, barnacled barricades, a watchtower |
+| Colors | wash #b4532a (about 65%); accents #e72364 / #f4f1e8 / #ff5d8f (about 20%) |
+| Midground | a reef-fort court of justice with a stone dais, tide-gate doors |
+| Foreground | banner poles and braziers |
+| Character-relevant items | a reef-fort court of justice with a stone dais, tide-gate doors, banner poles and braziers |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Reef Shell-Guard, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age late 20s. heavily armored, a dome shell, a wide low body, large size. Pose: crouched in a braced guard behind the ridged shield, the club-claw cocked and ready. Expression: grim, unmoved, gold slit eyes, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shell shield. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: heavily armored mantis-shrimp-kin in hot-pink plate shell with teal straps and gold spikes, a teal helmet-head with gold eyes and long curved antennae, a belt with a gold buckle, a huge ridged pink-and-gold shell shield on one arm and a heavy club-claw ready in the other, crouched in a braced guard.
+CHARACTER: Lobster Claw-Marshals, male anthropomorphic crustacea character (crustacea-kin (not human)), apparent age late 50s. huge and armored, one giant crusher claw and one smaller cutter claw, long antennae, a tail fan, large size. Pose: braced in a wide stance with the crusher claw raised high and the cutter claw low. Expression: stern, law-giving, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Crusher claw gauntlet. SECOND ITEM, kept plain: cutter claw. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge armored lobster-kin in a plated shell with long antennae, a big crusher claw and a smaller cutter claw raised, a tail fan and a marshal's sash across the chest.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #e95cbf about 60%, on the largest garment, armor, fur-marking or body areas; secondary #118ab2 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd166 about 10%, on the eyes, the Shell shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #e72364 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Crusher claw gauntlet and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
@@ -3788,8 +4428,363 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Reef Shell-Guard with no people, creatures, figures, silhouettes or text. Midground: a reef-fort gate with ridged walls, a drawbridge. Foreground: barnacled barricades, a watchtower, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #e95cbf for the biggest glowing sources and surfaces, secondary #118ab2 for medium panels, banners and lights, pop #ffd166 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Lobster Claw-Marshals with no people, creatures, figures, silhouettes or text. Midground: a reef-fort court of justice with a stone dais, tide-gate doors. Foreground: banner poles and braziers, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #e72364 for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ff5d8f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Pistol Shrimp Snap-Gunners  `pistolshrimpsnapgunners`
+
+*One claw. One crack.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | small and wiry, a huge oversized snap claw taller than the body, a curved shell back; small size; mobility: aquatic |
+| Ethnicity + nationality | crustacea-kin (not human) |
+| Identity | female anthropomorphic crustacea character |
+| Wardrobe | small wiry pistol-shrimp-kin in a shell with a huge oversized snap claw cocked like a hammer, an earplug headset, a vest with a bubble flask and a pale bubble blooming at the claw tip |
+| Accessories | Oversized snap-claw gauntlet; earplug headset; bubble flask; shell vest |
+| Pose | lunging forward with the huge snap claw cocked back |
+| Facial expression | gleeful, ear-plugged grin |
+| People | Were-Creature |
+| Class | Crustacea-kin |
+| Subclass | Pistol Shrimp Snap-Gunners |
+| Type | Blaster |
+| Combat or support | Combat |
+| Silhouette hook | lunging forward with the huge snap claw cocked back; the Oversized snap-claw gauntlet and the earplug headset break the outline so it reads instantly as a black shape |
+| Shape language | long straight lines and a bold wedge-shaped weapon |
+| Main color (60%) | #f4bb2a: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #1f2438: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ff8a3d: the eyes, the Oversized snap-claw gauntlet and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as lunging forward with the huge snap claw cocked back.
+2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Oversized snap-claw gauntlet and the pose must be visible at 64 px.
+4. Flat colors: #f4bb2a / #1f2438 / #ff8a3d as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Oversized snap-claw gauntlet and earplug headset and the blaster shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #f4bb2a / #1f2438 / #ff8a3d (about 20%) |
+| Midground | a rocky reef shallows with cracked clamshell targets |
+| Foreground | shattered glass and sandbags |
+| Character-relevant items | a rocky reef shallows with cracked clamshell targets, shattered glass and sandbags |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Pistol Shrimp Snap-Gunners, female anthropomorphic crustacea character (crustacea-kin (not human)), apparent age early 20s. small and wiry, a huge oversized snap claw taller than the body, a curved shell back, small size. Pose: lunging forward with the huge snap claw cocked back. Expression: gleeful, ear-plugged grin, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Oversized snap-claw gauntlet. SECOND ITEM, kept plain: earplug headset. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small wiry pistol-shrimp-kin in a shell with a huge oversized snap claw cocked like a hammer, an earplug headset, a vest with a bubble flask and a pale bubble blooming at the claw tip.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #f4bb2a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1f2438 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff8a3d about 10%, on the eyes, the Oversized snap-claw gauntlet and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Blaster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Pistol Shrimp Snap-Gunners with no people, creatures, figures, silhouettes or text. Midground: a rocky reef shallows with cracked clamshell targets. Foreground: shattered glass and sandbags, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #f4bb2a for the biggest glowing sources and surfaces, secondary #1f2438 for medium panels, banners and lights, pop #ff8a3d for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Yeti Crab Setae Farmers  `yetisetaefarmers`
+
+*Fur makes food.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Nonbinary |
+| Physique | stark white and round, two thick hair-covered claws, a squat body; medium size; mobility: aquatic |
+| Ethnicity + nationality | crustacea-kin (not human) |
+| Identity | nonbinary anthropomorphic crustacea character |
+| Wardrobe | stark-white yeti-crab-kin with two thick hair-covered claws waved in front, a woven basket, jars of glowing bacteria at the belt and a vent lamp |
+| Accessories | Furry setae claws; farming jars; vent lamp; carrying basket |
+| Pose | standing with both hairy claws waved out in front and a jar glowing at the belt |
+| Facial expression | placid, content |
+| People | Were-Creature |
+| Class | Crustacea-kin |
+| Subclass | Yeti Crab Setae Farmers |
+| Type | Support |
+| Combat or support | Support |
+| Silhouette hook | standing with both hairy claws waved out in front and a jar glowing at the belt; the Furry setae claws and the farming jars break the outline so it reads instantly as a black shape |
+| Shape language | soft rounded rectangles with an open palm and a visible kit |
+| Main color (60%) | #bee4ef: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #06d6a0: the eyes, the Furry setae claws and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as standing with both hairy claws waved out in front and a jar glowing at the belt.
+2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Furry setae claws and the pose must be visible at 64 px.
+4. Flat colors: #bee4ef / #e8c76a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Furry setae claws and farming jars and the support shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #bee4ef / #e8c76a / #06d6a0 (about 20%) |
+| Midground | a deep-sea vent field with warm chimneys |
+| Foreground | rows of fuzzy farm racks and bacteria mats |
+| Character-relevant items | a deep-sea vent field with warm chimneys, rows of fuzzy farm racks and bacteria mats |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Yeti Crab Setae Farmers, nonbinary anthropomorphic crustacea character (crustacea-kin (not human)), apparent age mid 40s. stark white and round, two thick hair-covered claws, a squat body, medium size. Pose: standing with both hairy claws waved out in front and a jar glowing at the belt. Expression: placid, content, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Furry setae claws. SECOND ITEM, kept plain: farming jars. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stark-white yeti-crab-kin with two thick hair-covered claws waved in front, a woven basket, jars of glowing bacteria at the belt and a vent lamp.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #bee4ef about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Furry setae claws and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Support, support, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Yeti Crab Setae Farmers with no people, creatures, figures, silhouettes or text. Midground: a deep-sea vent field with warm chimneys. Foreground: rows of fuzzy farm racks and bacteria mats, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #bee4ef for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Boxer Crab Anemone Brawlers  `boxercrabanemonebrawlers`
+
+*Left hook. Right hook. Sting.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | tiny and wide, an anemone held in each claw like a boxing glove, a flat shell; small size; mobility: agile |
+| Ethnicity + nationality | crustacea-kin (not human) |
+| Identity | male anthropomorphic crustacea character |
+| Wardrobe | small boxer-crab-kin in a shell with boxing trunks and a champion belt, a venomous pink anemone on each claw like a boxing glove, in a fighting stance |
+| Accessories | Anemone gloves; boxing trunks; champion belt; mouth guard |
+| Pose | bouncing in a boxer's crouch with an anemone glove raised on each claw |
+| Facial expression | cocky, tongue-out grin |
+| People | Were-Creature |
+| Class | Crustacea-kin |
+| Subclass | Boxer Crab Anemone Brawlers |
+| Type | Fighter |
+| Combat or support | Combat |
+| Silhouette hook | bouncing in a boxer's crouch with an anemone glove raised on each claw; the Anemone gloves and the boxing trunks break the outline so it reads instantly as a black shape |
+| Shape language | balanced diagonals with one clear weapon line |
+| Main color (60%) | #db57a6: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #2d2a4a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #4cc9f0: the eyes, the Anemone gloves and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as bouncing in a boxer's crouch with an anemone glove raised on each claw.
+2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Anemone gloves and the pose must be visible at 64 px.
+4. Flat colors: #db57a6 / #2d2a4a / #4cc9f0 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Anemone gloves and boxing trunks and the fighter shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #db57a6 / #2d2a4a / #4cc9f0 (about 20%) |
+| Midground | a coral boxing ring with rope-and-coral corners, a bell |
+| Foreground | a trophy shelf and a banner wall |
+| Character-relevant items | a coral boxing ring with rope-and-coral corners, a bell, a trophy shelf and a banner wall |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Boxer Crab Anemone Brawlers, male anthropomorphic crustacea character (crustacea-kin (not human)), apparent age late 20s. tiny and wide, an anemone held in each claw like a boxing glove, a flat shell, small size. Pose: bouncing in a boxer's crouch with an anemone glove raised on each claw. Expression: cocky, tongue-out grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Anemone gloves. SECOND ITEM, kept plain: boxing trunks. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small boxer-crab-kin in a shell with boxing trunks and a champion belt, a venomous pink anemone on each claw like a boxing glove, in a fighting stance.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #db57a6 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2d2a4a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4cc9f0 about 10%, on the eyes, the Anemone gloves and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Boxer Crab Anemone Brawlers with no people, creatures, figures, silhouettes or text. Midground: a coral boxing ring with rope-and-coral corners, a bell. Foreground: a trophy shelf and a banner wall, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #db57a6 for the biggest glowing sources and surfaces, secondary #2d2a4a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Remipede Cave-Venom Stalkers  `remipedecavestalkers`
+
+*Blind. Fanged. Quiet.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | pale, eyeless and long, a segmented centipede-like body with many swimming legs, hollow front fangs; medium size; mobility: aquatic |
+| Ethnicity + nationality | crustacea-kin (not human) |
+| Identity | female anthropomorphic crustacea character |
+| Wardrobe | pale eyeless remipede-kin with a long segmented body, many swimming legs, a pair of hollow venom fangs and a belt of vials, a cave-stick in one hand |
+| Accessories | Venom fangs; cave-stick; many-legged harness; vial belt |
+| Pose | coiled low and long with the fangs forward and the many legs gripping the wall |
+| Facial expression | blind, intent, mouth open |
+| People | Were-Creature |
+| Class | Crustacea-kin |
+| Subclass | Remipede Cave-Venom Stalkers |
+| Type | Assassin |
+| Combat or support | Combat |
+| Silhouette hook | coiled low and long with the fangs forward and the many legs gripping the wall; the Venom fangs and the cave-stick break the outline so it reads instantly as a black shape |
+| Shape language | sharp triangles, long thin blades, a low coiled posture |
+| Main color (60%) | #3f1f7a: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #fff7e0: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #c77dff: the eyes, the Venom fangs and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as coiled low and long with the fangs forward and the many legs gripping the wall.
+2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Venom fangs and the pose must be visible at 64 px.
+4. Flat colors: #3f1f7a / #fff7e0 / #c77dff as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Venom fangs and cave-stick and the assassin shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #3f1f7a / #fff7e0 / #c77dff (about 20%) |
+| Midground | a pitch-black flooded cave with stalactites |
+| Foreground | glowing cave fungus and a sunken stone ledge |
+| Character-relevant items | a pitch-black flooded cave with stalactites, glowing cave fungus and a sunken stone ledge |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Remipede Cave-Venom Stalkers, female anthropomorphic crustacea character (crustacea-kin (not human)), apparent age mid 30s. pale, eyeless and long, a segmented centipede-like body with many swimming legs, hollow front fangs, medium size. Pose: coiled low and long with the fangs forward and the many legs gripping the wall. Expression: blind, intent, mouth open, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Venom fangs. SECOND ITEM, kept plain: cave-stick. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pale eyeless remipede-kin with a long segmented body, many swimming legs, a pair of hollow venom fangs and a belt of vials, a cave-stick in one hand.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #3f1f7a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff7e0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c77dff about 10%, on the eyes, the Venom fangs and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Assassin, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Remipede Cave-Venom Stalkers with no people, creatures, figures, silhouettes or text. Midground: a pitch-black flooded cave with stalactites. Foreground: glowing cave fungus and a sunken stone ledge, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #3f1f7a for the biggest glowing sources and surfaces, secondary #fff7e0 for medium panels, banners and lights, pop #c77dff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
+### Pram Bug Nursery Pilots  `prambugnurserypilots`
+
+*Home is where you push it.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Female |
+| Physique | translucent, long-limbed and slender with big eyes, always pushing a barrel-shaped shell; medium size; mobility: aquatic |
+| Ethnicity + nationality | crustacea-kin (not human) |
+| Identity | female anthropomorphic crustacea character |
+| Wardrobe | translucent long-limbed pram-bug-kin with big eyes and slender claws, pushing a hollow barrel-shaped salp shell like a pram with tiny glowing eggs inside, a pushing pole and an egg satchel |
+| Accessories | Salp-barrel shell; translucent claws; pushing pole; egg satchel |
+| Pose | leaning forward pushing the barrel-shaped nursery with both slender arms |
+| Facial expression | gentle, watchful |
+| People | Were-Creature |
+| Class | Crustacea-kin |
+| Subclass | Pram Bug Nursery Pilots |
+| Type | Support |
+| Combat or support | Support |
+| Silhouette hook | leaning forward pushing the barrel-shaped nursery with both slender arms; the Salp-barrel shell and the translucent claws break the outline so it reads instantly as a black shape |
+| Shape language | soft rounded rectangles with an open palm and a visible kit |
+| Main color (60%) | #94cdd1: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #26324a: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #ffd23f: the eyes, the Salp-barrel shell and one small magical detail |
+| Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as leaning forward pushing the barrel-shaped nursery with both slender arms.
+2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Salp-barrel shell and the pose must be visible at 64 px.
+4. Flat colors: #94cdd1 / #26324a / #ffd23f as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Salp-barrel shell and translucent claws and the support shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #94cdd1 / #26324a / #ffd23f (about 20%) |
+| Midground | an open-ocean drift station with floating platforms, rope lines |
+| Foreground | jellyfish lamps and a rusted buoy |
+| Character-relevant items | an open-ocean drift station with floating platforms, rope lines, jellyfish lamps and a rusted buoy |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Pram Bug Nursery Pilots, female anthropomorphic crustacea character (crustacea-kin (not human)), apparent age early 40s. translucent, long-limbed and slender with big eyes, always pushing a barrel-shaped shell, medium size. Pose: leaning forward pushing the barrel-shaped nursery with both slender arms. Expression: gentle, watchful, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Salp-barrel shell. SECOND ITEM, kept plain: translucent claws. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: translucent long-limbed pram-bug-kin with big eyes and slender claws, pushing a hollow barrel-shaped salp shell like a pram with tiny glowing eggs inside, a pushing pole and an egg satchel.
+
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #94cdd1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #26324a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd23f about 10%, on the eyes, the Salp-barrel shell and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Support, support, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Pram Bug Nursery Pilots with no people, creatures, figures, silhouettes or text. Midground: an open-ocean drift station with floating platforms, rope lines. Foreground: jellyfish lamps and a rusted buoy, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #94cdd1 for the biggest glowing sources and surfaces, secondary #26324a for medium panels, banners and lights, pop #ffd23f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 

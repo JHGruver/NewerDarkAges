@@ -68,7 +68,7 @@ The Characters sheet uses one set of class names for all three tribes (Chieftain
 - **The Last Broadcast** `[S+A]`. Becomes the Russian announcement of 1986, sent on every frequency. The sixty seconds of sound that followed is a design addition and is the root of the Second Signal.
 - **Thoth-Ra, Imhotep and Ramuset** `[A]`. Three names in the sources. Proposed: Imhotep is the neutral god the Mystics meet under. Ramuset is a darker god who is worshipped north of the Block and whose agent is Ezekiel. Thoth-Ra is Ramuset's sorcerer, the Mummy at the Black Pyramid who runs the trials. This makes every ascended leader a possible agent of Ramuset.
 - **The game's eight peoples** `[A]`. Humans, Vampires and Werewolves are the three tribes. Zombies, Zombie-Hybrids and the Mummy are the Undead. The Ghosts, Forest Spirits and Eldritch are the old world's leftovers and the things the war woke up. Magic is the Mystic tradition made into four classes.
-- **Werewolves versus the Were-Creature people** `[A]`. The Pack (wolf-kin) is the werewolf colony. The other were-kin (raccoon, crocodile, capybara, squirrel, salamander (axolotl, giant salamander, olm, ribbed newt, hellbender), avian (raven, owl, albatross), cephalopod (octopus, squid, cuttlefish), mantis shrimp, moth, pangolin, spider) are clans that swore to the Pack in the cordon years.
+- **Werewolves versus the Were-Creature people** `[A]`. The Pack (the canine-kin) is the werewolf colony. The other were-kin (canine, arctoidea, crocodylia, rodent, crustacea, salamander (axolotl, giant salamander, olm, ribbed newt, hellbender), avian (raven, owl, albatross), cephalopod (octopus, squid, cuttlefish), mantis shrimp, moth, pangolin, spider) are clans that swore to the Pack in the cordon years.
 - **Where magic comes from** `[A]`. From the Black Pyramid. The Wizards study what the trials teach, the Witches grow it, the Warlocks bargain for it (many through failed trials), and the Mages are born carrying it.
 
 ## 7. How the game's peoples, classes and subclasses fit
@@ -97,14 +97,14 @@ The vampire colony. High Priest, Counsel and Lords. Rule by aristocracy and styl
 
 The werewolf colony and the clans that swore to the Pack. Alpha Wolf, Pack Leaders and Greys.
 
-- **Wolf-kin** (Moonrunners, Frostfang Wanderers, Hearth Hounds): The Pack itself: Erik's line and the war-bands.
-- **Raccoon-kin** (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers): Scavengers and fixers who keep the colony's salvage economy alive.
-- **Crocodile-kin** (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages): River-holders on the coast. Smugglers and matriarchs.
-- **Capybara-kin** (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens): The calm clans: healers and diplomats who sit at the Mystic meetings.
+- **Canine-kin** (Bone-Crusher Juggernauts, Bush Dog Torrent Striders, Wool Dog Dream-Weavers): The Pack itself: bone-crusher war-hounds, river-running bush dogs and wool-dog dream-weavers.
+- **Arctoidea-kin** (Raccoon Mask Bandits, Red Panda Bamboo Monks, Short-Faced Bear Gallopers, Swan-Neck Seal Coil-Strikers, Honey Badger Loose-Hides, Sea Otter Anvil-Smashers, Stink Badger Possum-Gassers): The scavengers and wanderers: raccoons, red pandas, short-faced bears, swan-necked seals, honey badgers, sea otters and stink badgers.
+- **Crocodylia-kin** (Purussaurus Death-Rollers, Dwarf Caiman Bone-Plate Scouts, Cuban Crocodile Gallop Vanguard, Armadillosuchus Burrow-Juggernauts, Gharial Sonic Duelists, Herugavialis Tidal Marauders): The river and swamp guard: colossal Purussaurus, bone-plated caimans, galloping crocodiles, burrowing Armadillosuchus, sonic gharials and sea-striding Herugavialis.
+- **Rodent-kin** (Rodent Hot-Spring Healers, Josephoartigasia Tusk-Breakers, African Crested Rat Poison-Wick Wardens, Castoroides Wetland Overlords, Naked Mole-Rat Hive-Colonists, Giant Flying Squirrel Glide-Strikers): The quiet and the huge: capybara healers, tusked giants, poison-wick crested rats, giant beavers, naked mole-rat colonies and gliding squirrels.
 - **Salamander-kin** (Axolotl Regrowth Medics, Giant Salamander Maw Wardens, Olm Dark-Cave Seers, Ribbed Newt Bone-Skirmishers, Hellbender Riverskin Guardians): The river and cave clans: axolotl healers, giant-salamander river guards, blind olm seers, ribbed-newt skirmishers and hellbender current-holders.
 - **Avian-kin** (Raven Murder Vanguard, Owl Night-Eye Snipers, Albatross Gale Sailors): The sky-post and the border watch: raven flock-fighters, owl night marksmen and albatross scouts who carry the wind.
 - **Cephalopod-kin** (Cuttlefish Ink Spies, Squid Tentacle Engineers, Octopus Abyssal Scholars): The flooded harbors' three cephalopod trades: cuttlefish spies, squid engineers and octopus scholars.
-- **Mantis Shrimp-kin** (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard): Reef guards and shock troops.
+- **Crustacea-kin** (Mantis Shrimp Punch-Claw Duelists, Lobster Claw-Marshals, Pistol Shrimp Snap-Gunners, Yeti Crab Setae Farmers, Boxer Crab Anemone Brawlers, Remipede Cave-Venom Stalkers, Pram Bug Nursery Pilots): The reef-forts and the vents: mantis-shrimp duelists, lobster marshals, pistol-shrimp gunners, yeti-crab farmers, boxer-crab brawlers, remipede stalkers and pram-bug nursery pilots.
 - **Moth-kin** (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens): Light-keepers who tend the old signal towers.
 - **Pangolin-kin** (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers): Wall-builders and miners.
 - **Spider-kin** (Loomweavers, Silkroad Messengers, Dewdrop Dancers): Couriers and weavers who run the Pack's message lines.
