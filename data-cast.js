@@ -102,7 +102,7 @@ window.CAST = {
   seedbank: C("Female", "Dryad (adapted from Slavic tradition)", "warm, patient, a small smile", "stepping forward bent at the waist, one hand pouring the watering can in a stream of leaf-water, the other open in a healing gesture"),
   sumpsappers: C("Male", "Gnome (adapted from German tradition)", "grumpy scowl, gritted teeth", "low wide stance with the pickaxe raised overhead in one hand and a stick of dynamite held out in the other"),
   boilerbrawlers: C("Male", "Gnome (adapted from Dutch tradition)", "red-faced, scowling", "cocking a steaming gauntleted fist back for a punch"),
-  tollbrokers: C("Male", "Gnome (adapted from Norse tradition)", "sour, businesslike", "standing with the ledger held up and a gate key dangling from the other hand"),
+  tollbrokers: C("Male", "Gnome (adapted from Norse tradition)", "sour, businesslike scowl", "standing with the toll ledger held up in one hand and a ring of gate keys dangling from the other, a signal horn at the hip"),
   doorbellambushers: C("Female", "Hob (adapted from English folk tradition)", "gleeful mischief", "hanging from a doorframe by one hand with the hammer raised in the other"),
   pantrypoisoners: C("Nonbinary", "Hob (adapted from Scottish folk tradition)", "sweetly innocent", "tiptoeing forward offering a tray of cookies with a rolling pin hidden behind the back"),
   blockwatch: C("Male", "Hob (adapted from Irish folk tradition)", "alert and officious", "marching while blowing a whistle, a tiny bat over one shoulder"),
