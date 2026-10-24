@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 133 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 64.
+**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 65.
 
 ## Art direction in one screen
 
@@ -2802,27 +2802,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | slim and boneless-looking, a broad flat head, feathery gills like three red fans, a smooth wet body; medium size; mobility: aquatic |
 | Ethnicity + nationality | axolotl-kin (not human) |
 | Identity | nonbinary anthropomorphic axolotl character |
-| Wardrobe | smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other |
+| Wardrobe | smiling axolotl-kin with a pink body, big red feathery gills and a pink-and-red tail fin, a pink-and-cyan field coat with cream panels and a cross-strap with a square buckle, cyan gloves and boots, kneeling on one knee with a glow-gel flask in one hand and a cream bandage reel in the other, an open first-aid case with a white cross beside it |
 | Accessories | Med satchel; glow-gel flask; bandage reel; field lamp |
-| Pose | kneeling on one knee with a glowing hand over a wound, the satchel open on the ground |
-| Facial expression | bright, reassuring smile |
+| Pose | kneeling on one knee over an open first-aid case, a glow-gel flask in one hand and a bandage reel in the other |
+| Facial expression | gentle, bright, reassuring smile |
 | People | Were-Creature |
 | Class | Salamander-kin |
 | Subclass | Axolotl Regrowth Medics |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | kneeling on one knee with a glowing hand over a wound, the satchel open on the ground; the Med satchel and the glow-gel flask break the outline so it reads instantly as a black shape |
+| Silhouette hook | kneeling on one knee over an open first-aid case, a glow-gel flask in one hand and a bandage reel in the other; the Med satchel and the glow-gel flask break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #f790c3: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4cc9f0: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #fff0d1: the eyes, the Med satchel and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-regrowthmedics.png` and `art/v2/were-regrowthmedics-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as kneeling on one knee with a glowing hand over a wound, the satchel open on the ground.
+1. Black-fill test: the silhouette must still read as kneeling on one knee over an open first-aid case, a glow-gel flask in one hand and a bandage reel in the other.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Med satchel and the pose must be visible at 64 px.
 4. Flat colors: #f790c3 / #4cc9f0 / #fff0d1 as separate flat shapes divided by black line; no gradients or glow.
@@ -2842,8 +2842,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Axolotl Regrowth Medics, nonbinary anthropomorphic axolotl character (axolotl-kin (not human)), apparent age late 40s. slim and boneless-looking, a broad flat head, feathery gills like three red fans, a smooth wet body, medium size. Pose: kneeling on one knee with a glowing hand over a wound, the satchel open on the ground. Expression: bright, reassuring smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Med satchel. SECOND ITEM, kept plain: glow-gel flask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other.
+CHARACTER: Axolotl Regrowth Medics, nonbinary anthropomorphic axolotl character (axolotl-kin (not human)), apparent age late 40s. slim and boneless-looking, a broad flat head, feathery gills like three red fans, a smooth wet body, medium size. Pose: kneeling on one knee over an open first-aid case, a glow-gel flask in one hand and a bandage reel in the other. Expression: gentle, bright, reassuring smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Med satchel. SECOND ITEM, kept plain: glow-gel flask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smiling axolotl-kin with a pink body, big red feathery gills and a pink-and-red tail fin, a pink-and-cyan field coat with cream panels and a cross-strap with a square buckle, cyan gloves and boots, kneeling on one knee with a glow-gel flask in one hand and a cream bandage reel in the other, an open first-aid case with a white cross beside it.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #f790c3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff0d1 about 10%, on the eyes, the Med satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).

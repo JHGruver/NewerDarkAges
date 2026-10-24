@@ -47,7 +47,7 @@ window.CAST = {
   olmseers: C("Nonbinary", "N/A (olm-kin)", "serene, blind, a faint smile", "seated with one palm pressed to the ground and the cave-stick held upright in the other hand"),
   boneskirmishers: C("Female", "N/A (ribbed newt-kin)", "fierce, wincing grin", "crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward"),
   riverskinguardians: C("Male", "N/A (hellbender-kin)", "stolid, unbothered", "braced in a wide stance behind the river-stone shield with the current-staff planted"),
-  regrowthmedics: C("Nonbinary", "N/A (axolotl-kin)", "bright, reassuring smile", "kneeling on one knee with a glowing hand over a wound, the satchel open on the ground"),
+  regrowthmedics: C("Nonbinary", "N/A (axolotl-kin)", "gentle, bright, reassuring smile", "kneeling on one knee over an open first-aid case, a glow-gel flask in one hand and a bandage reel in the other"),
   galesailors: C("Female", "N/A (albatross-kin)", "calm, far-seeing, wind-weathered", "soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing"),
   murdervanguard: C("Male", "N/A (raven-kin)", "cold, beaked glare", "diving forward in mid-air with the wings swept up, a talon-blade in each hand and three crows streaming behind"),
   nighteyesnipers: C("Male", "N/A (owl-kin)", "steady, enormous-eyed focus", "perched on one foot on a branch with the other leg tucked, the long rifle aimed forward in both hands"),
