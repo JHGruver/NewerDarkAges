@@ -1273,3 +1273,6 @@ body[data-vote="play"] #app { padding-bottom: 0; }
 .v-char { position: absolute; inset: 0 0 8px 0; height: auto; display: flex; justify-content: center; align-items: flex-end; }
 .v-char img { height: 100%; width: auto; max-width: 100%; object-fit: contain; }
 .v-char .v-noart { height: 100%; position: relative; display: grid; place-items: center; }
+body[data-vote="play"] #app { padding-top: 0; padding-bottom: 0; }
+body[data-vote="play"] .vote { padding-top: 0; padding-bottom: 0; }
+.v-play { height: calc(100svh - 66px); }
