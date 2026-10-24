@@ -72,7 +72,7 @@ window.LORE = {
     { q: "The Last Broadcast", a: "Becomes the Russian announcement of 1986, sent on every frequency. The sixty seconds of sound that followed is a design addition and is the root of the Second Signal.", src: "S+A" },
     { q: "Thoth-Ra, Imhotep and Ramuset", a: "Three names in the sources. Proposed: Imhotep is the neutral god the Mystics meet under. Ramuset is a darker god who is worshipped north of the Block and whose agent is Ezekiel. Thoth-Ra is Ramuset's sorcerer, the Mummy at the Black Pyramid who runs the trials. This makes every ascended leader a possible agent of Ramuset.", src: "A" },
     { q: "The game's eight peoples", a: "Humans, Vampires and Werewolves are the three tribes. Zombies, Zombie-Hybrids and the Mummy are the Undead. The Ghosts, Forest Spirits and Eldritch are the old world's leftovers and the things the war woke up. Magic is the Mystic tradition made into four classes.", src: "A" },
-    { q: "Werewolves versus the Were-Creature people", a: "The Pack (wolf-kin) is the werewolf colony. The other were-kin (raccoon, crocodile, capybara, squirrel, axolotl, raven, owl, octopus, mantis shrimp, moth, pangolin, spider) are clans that swore to the Pack in the cordon years.", src: "A" },
+    { q: "Werewolves versus the Were-Creature people", a: "The Pack (wolf-kin) is the werewolf colony. The other were-kin (raccoon, crocodile, capybara, squirrel, axolotl, raven, owl, cephalopod (octopus, squid, cuttlefish), mantis shrimp, moth, pangolin, spider) are clans that swore to the Pack in the cordon years.", src: "A" },
     { q: "Where magic comes from", a: "From the Black Pyramid. The Wizards study what the trials teach, the Witches grow it, the Warlocks bargain for it (many through failed trials), and the Mages are born carrying it.", src: "A" },
   ],
 
@@ -137,7 +137,7 @@ window.LORE = {
       axolotl: "Coastal healers and swamp ambushers.",
       raven: "Oracles and scouts who watch the borders.",
       owl: "Night sentries.",
-      octopus: "Spies and engineers in the flooded harbors.",
+      cephalopod: "The flooded harbors' three cephalopod trades: cuttlefish spies, squid engineers and octopus scholars.",
       mantisshrimp: "Reef guards and shock troops.",
       moth: "Light-keepers who tend the old signal towers.",
       pangolin: "Wall-builders and miners.",

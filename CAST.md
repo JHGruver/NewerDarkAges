@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 58.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 59.
 
 ## Art direction in one screen
 
@@ -1921,7 +1921,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 *People color: Rust #b4532a. Background setting: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles.*
 
 **Tagline:** Two hearts, one war-band.  
-**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Axolotl-kin (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers); Raven-kin (Gloamwing Oracles, Salvage Magpies, Murder Vanguard); Owl-kin (Hushwing Strikers, Night-Eye Snipers, Rotating Watch); Octopus-kin (Ink Spies, Tentacle Engineers, Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
+**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Axolotl-kin (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers); Raven-kin (Gloamwing Oracles, Salvage Magpies, Murder Vanguard); Owl-kin (Hushwing Strikers, Night-Eye Snipers, Rotating Watch); Cephalopod-kin (Ink Spies, Tentacle Engineers, Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
 
 
 ## Were-Creature › Wolf-kin
@@ -3436,7 +3436,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```
 
 
-## Were-Creature › Octopus-kin
+## Were-Creature › Cephalopod-kin
 
 ### Ink Spies  `inkspies`
 
@@ -3448,14 +3448,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Gender | Female |
 | Physique | slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway; medium size; mobility: agile |
-| Ethnicity + nationality | octopus-kin (not human) |
-| Identity | female anthropomorphic octopus character |
-| Wardrobe | octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt |
+| Ethnicity + nationality | cuttlefish-kin (not human) |
+| Identity | female anthropomorphic cuttlefish character |
+| Wardrobe | cuttlefish-kin in a color-shifting camo cloak with a wide frilled fin-skirt and W-shaped pupils, suction-grip gloves, a silenced pistol held in one arm and an ink-bomb pouch at the belt |
 | Accessories | Ink-bomb pouch; suction-grip gloves; silenced pistol; camo cloak |
 | Pose | slipping sideways with the pistol raised, the tentacles curling behind like a cloak |
 | Facial expression | coolly amused |
 | People | Were-Creature |
-| Class | Octopus-kin |
+| Class | Cephalopod-kin |
 | Subclass | Ink Spies |
 | Type | Assassin |
 | Combat or support | Combat |
@@ -3490,8 +3490,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Ink Spies, female anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway, medium size. Pose: slipping sideways with the pistol raised, the tentacles curling behind like a cloak. Expression: coolly amused, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ink-bomb pouch. SECOND ITEM, kept plain: suction-grip gloves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin in a camo cloak with suction-grip gloves, a silenced pistol in one tentacle-hand and an ink-bomb pouch at the belt.
+CHARACTER: Ink Spies, female anthropomorphic cuttlefish character (cuttlefish-kin (not human)), apparent age early 20s. slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway, medium size. Pose: slipping sideways with the pistol raised, the tentacles curling behind like a cloak. Expression: coolly amused, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ink-bomb pouch. SECOND ITEM, kept plain: suction-grip gloves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: cuttlefish-kin in a color-shifting camo cloak with a wide frilled fin-skirt and W-shaped pupils, suction-grip gloves, a silenced pistol held in one arm and an ink-bomb pouch at the belt.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #9518a2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, on the eyes, the Ink-bomb pouch and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3519,14 +3519,14 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Gender | Male |
 | Physique | many-limbed and busy, a round head, a heavy apron, eight tool-holding arms; medium size; mobility: grounded |
-| Ethnicity + nationality | octopus-kin (not human) |
-| Identity | male anthropomorphic octopus character |
-| Wardrobe | octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver |
+| Ethnicity + nationality | squid-kin (not human) |
+| Identity | male anthropomorphic squid character |
+| Wardrobe | squid-kin with a torpedo-shaped mantle fin, goggles and a multi-tool harness, a different tool in each of several arms: wrench, welder, rifle, screwdriver, and two long grabbing tentacles holding a bomb |
 | Accessories | Multi-tool harness; welder; scrap turret; goggles |
 | Pose | standing braced on two legs working four tools at once, a limb for each |
 | Facial expression | frazzled, delighted focus |
 | People | Were-Creature |
-| Class | Octopus-kin |
+| Class | Cephalopod-kin |
 | Subclass | Tentacle Engineers |
 | Type | Controller |
 | Combat or support | Combat |
@@ -3561,8 +3561,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Tentacle Engineers, male anthropomorphic octopus character (octopus-kin (not human)), apparent age early 30s. many-limbed and busy, a round head, a heavy apron, eight tool-holding arms, medium size. Pose: standing braced on two legs working four tools at once, a limb for each. Expression: frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Multi-tool harness. SECOND ITEM, kept plain: welder. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin in goggles and a multi-tool harness, a different tool in each of several limbs: wrench, welder, rifle, screwdriver.
+CHARACTER: Tentacle Engineers, male anthropomorphic squid character (squid-kin (not human)), apparent age early 30s. many-limbed and busy, a round head, a heavy apron, eight tool-holding arms, medium size. Pose: standing braced on two legs working four tools at once, a limb for each. Expression: frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Multi-tool harness. SECOND ITEM, kept plain: welder. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: squid-kin with a torpedo-shaped mantle fin, goggles and a multi-tool harness, a different tool in each of several arms: wrench, welder, rifle, screwdriver.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fda96c about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00b4d8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Multi-tool harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3592,27 +3592,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | robed and tentacled, a tall domed head, trailing arms like a robe's hem; medium size; mobility: aquatic |
 | Ethnicity + nationality | octopus-kin (not human) |
 | Identity | nonbinary anthropomorphic octopus character |
-| Wardrobe | octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt |
-| Accessories | Sodden tome; ink wand; diving-bell helm; scroll case |
-| Pose | drifting above the floor reading an open tome while spectral limbs coil around |
+| Wardrobe | octopus-kin scholar with a purple tentacle-bearded face, a tall pointed violet hood with round goggles, a long violet-and-black robe with a gear-and-eye sigil, a scroll case at the belt, a black tome with a sigil open in one arm, an ink wand trailing a swirl of ink in another and tentacles coiling around |
+| Accessories | Sodden tome; ink wand; goggles; scroll case |
+| Pose | drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another |
 | Facial expression | serene, eyes half-shut |
 | People | Were-Creature |
-| Class | Octopus-kin |
+| Class | Cephalopod-kin |
 | Subclass | Abyssal Scholars |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | drifting above the floor reading an open tome while spectral limbs coil around; the Sodden tome and the ink wand break the outline so it reads instantly as a black shape |
+| Silhouette hook | drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another; the Sodden tome and the ink wand break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #270077: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e0aaff: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #1c2337: the eyes, the Sodden tome and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-abyssalscholars.png` and `art/v2/were-abyssalscholars-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as drifting above the floor reading an open tome while spectral limbs coil around.
+1. Black-fill test: the silhouette must still read as drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Sodden tome and the pose must be visible at 64 px.
 4. Flat colors: #270077 / #e0aaff / #1c2337 as separate flat shapes divided by black line; no gradients or glow.
@@ -3632,8 +3632,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Abyssal Scholars, nonbinary anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. robed and tentacled, a tall domed head, trailing arms like a robe's hem, medium size. Pose: drifting above the floor reading an open tome while spectral limbs coil around. Expression: serene, eyes half-shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sodden tome. SECOND ITEM, kept plain: ink wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin in a diving-bell helmet, a sodden tome open in one limb, an ink wand in another, a scroll case at the belt.
+CHARACTER: Abyssal Scholars, nonbinary anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. robed and tentacled, a tall domed head, trailing arms like a robe's hem, medium size. Pose: drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another. Expression: serene, eyes half-shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sodden tome. SECOND ITEM, kept plain: ink wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin scholar with a purple tentacle-bearded face, a tall pointed violet hood with round goggles, a long violet-and-black robe with a gear-and-eye sigil, a scroll case at the belt, a black tome with a sigil open in one arm, an ink wand trailing a swirl of ink in another and tentacles coiling around.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #270077 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e0aaff about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1c2337 about 10%, on the eyes, the Sodden tome and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
