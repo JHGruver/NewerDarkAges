@@ -57,7 +57,7 @@ const K = (id, t, done) => ({ id, t, done: !!done });
 window.PHASES = [
   {
     id: "p1", name: "Phase 1: The Project Website (V2)", status: "in-progress",
-    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 17 of 26 tasks are done; the rest is mostly art generation and balance.",
+    summary: "The living project hub, rebuilt for the neo-retro cyberpunk direction. Version 1 is archived in the menu. Audited: 17 of 28 tasks are done; the rest is mostly art generation and balance.",
     tasks: [
       K("world", "New world, peoples, subclasses and specializations (8 peoples, 126 characters, 8 in 10 combat)", true),
       K("magic", "Magic people: four classes (Wizard, Witch, Warlock, Mage) with 12 subclass characters, Sticky Wizard included", true),
@@ -81,6 +81,8 @@ window.PHASES = [
       K("stats", "Balance and stat sheet for each specialization"),
       K("lore", "Consolidate the lore bible: unified from the World Outline and Characters sheet, with a Lore page and LORE-BIBLE.md", true),
       K("lore-approve", "Approve or change the bridging lore tagged A (Thoth-Ra / Ramuset / Imhotep, the 1986 broadcast, how the peoples fit)"),
+      K("vote", "Character voting page (#/vote): swipe deck with like / super like / dislike, comments and a spreadsheet export", true),
+      K("vote-review", "Collect votes from testers and review the exported spreadsheets"),
       K("music", "Soundtrack: Last Game Before Dawn is in audio/soundtrack.mp3 and blends in from the static", true),
       K("story", "Scrolling story home page: the dial that tunes through the world's story to the Pick a character button", true),
       K("a11y", "Accessibility pass: keyboard focus, contrast, reduced motion and screen-reader labels"),

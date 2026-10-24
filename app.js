@@ -23,7 +23,7 @@ document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.
 document.getElementById("burger-ic").innerHTML = ic("menu");
 
 /* ---------- colors ---------- */
-window.NDAH = { get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
+window.NDAH = { allCharacters: () => allCharacters(), poster: (...x) => poster(...x), cv: (...x) => cv(...x), get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
 const pv = (g) => `--p:${g.color};--p2:${g.color2}`;
 const pal = (g, l) => (l && l.pal ? l.pal : [g.color2, "#f2efe6", "#ffffff"]);
 const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};--c2:${b};--c3:${c}`; };
@@ -421,10 +421,12 @@ function render() {
   else if (route === "roadmap") html = roadmap();
   else if (route === "art") html = art();
   else if (route === "lore") html = loreView(rest[0]);
+  else if (route === "vote") html = voteView();
   else html = storyHome();
   if (render.cleanup) { render.cleanup(); render.cleanup = null; }
   app.innerHTML = html;
   if (route === "lore") loreInit();
+  else if (route === "vote") { voteInit(); render.cleanup = () => window.__voteCleanup && window.__voteCleanup(); }
   else if (!["characters", "manual", "roadmap", "art"].includes(route)) render.cleanup = storyInit();
   const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
   document.body.classList.toggle("fit", !!inChars);
