@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 126 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 44.
+**Gender split:** Male 63, Female 48, Nonbinary 15. **Combat/support:** 101/25. **With final art:** 45.
 
 ## Art direction in one screen
 
@@ -6477,27 +6477,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | short and stout, thick arms, a heavy beard; small size; mobility: burrowing |
 | Ethnicity + nationality | Gnome (adapted from German tradition) |
 | Identity | male human |
-| Wardrobe | stout bearded gnome in a crystal-crowned mining helmet with a head-lamp, a pickaxe in one hand, a belt of small mining charges |
+| Wardrobe | stout white-bearded gnome miner with a scowl, a periwinkle mining helmet with a head-lamp and an orange crystal crown, a periwinkle work coat with orange trim and straps, a belt of dynamite sticks and rope rings, dark trousers and orange-cuffed boots, a big dark pickaxe raised overhead in one hand and a stick of orange dynamite held out in the other |
 | Accessories | Pickaxe; mining charges; helmet lamp; sump pump |
-| Pose | creeping low with a charge in one hand and the pickaxe raised in the other |
-| Facial expression | grumpy, gritted teeth |
+| Pose | low wide stance with the pickaxe raised overhead in one hand and a stick of dynamite held out in the other |
+| Facial expression | grumpy scowl, gritted teeth |
 | People | Forest Spirit |
 | Class | Basement Gnomes |
 | Subclass | Sump Sappers |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | creeping low with a charge in one hand and the pickaxe raised in the other; the Pickaxe and the mining charges break the outline so it reads instantly as a black shape |
+| Silhouette hook | low wide stance with the pickaxe raised overhead in one hand and a stick of dynamite held out in the other; the Pickaxe and the mining charges break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #9ca2fa: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ff9e00: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #282956: the eyes, the Pickaxe and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/forest-sumpsappers.png` and `art/v2/forest-sumpsappers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as creeping low with a charge in one hand and the pickaxe raised in the other.
+1. Black-fill test: the silhouette must still read as low wide stance with the pickaxe raised overhead in one hand and a stick of dynamite held out in the other.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Pickaxe and the pose must be visible at 64 px.
 4. Flat colors: #9ca2fa / #ff9e00 / #282956 as separate flat shapes divided by black line; no gradients or glow.
@@ -6517,8 +6517,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Sump Sappers, male human (Gnome (adapted from German tradition)), apparent age late 40s. short and stout, thick arms, a heavy beard, small size. Pose: creeping low with a charge in one hand and the pickaxe raised in the other. Expression: grumpy, gritted teeth, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pickaxe. SECOND ITEM, kept plain: mining charges. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stout bearded gnome in a crystal-crowned mining helmet with a head-lamp, a pickaxe in one hand, a belt of small mining charges.
+CHARACTER: Sump Sappers, male human (Gnome (adapted from German tradition)), apparent age late 40s. short and stout, thick arms, a heavy beard, small size. Pose: low wide stance with the pickaxe raised overhead in one hand and a stick of dynamite held out in the other. Expression: grumpy scowl, gritted teeth, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Pickaxe. SECOND ITEM, kept plain: mining charges. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stout white-bearded gnome miner with a scowl, a periwinkle mining helmet with a head-lamp and an orange crystal crown, a periwinkle work coat with orange trim and straps, a belt of dynamite sticks and rope rings, dark trousers and orange-cuffed boots, a big dark pickaxe raised overhead in one hand and a stick of orange dynamite held out in the other.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line, no sketchy or variable-weight lines; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine, no soft shading, no rim light; FACE: minimal; eyes are two simple geometric shapes (almond, slit or dot) under one brow line, nose one angular line, mouth one line; no eyelashes, eye highlights, iris detail or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, ribbon streamers, patterns, embroidery, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; chains are one thick plain line; no engraving or gold shading; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #9ca2fa about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff9e00 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Pickaxe and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #3f7d45 (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
