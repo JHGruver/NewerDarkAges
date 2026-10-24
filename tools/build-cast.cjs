@@ -13,6 +13,9 @@ const herit = (e) => { const m = /^N\/A \((.*)\)$/.exec(e); return m ? "a " + m[
 const split = (p) => p.split(/,\s*(?![^()]*\))/).map((x) => x.trim()).filter(Boolean);
 const cap = (s) => s[0].toUpperCase() + s.slice(1);
 const A = leaves();
+// Image tools reject prompts that name other people's properties or artists. Everything pasted into them is described, never named.
+const CLEAN = [[/in the style of Samurai Jack crossed with Sin City/gi, "in a flat geometric animation style with heavy black ink shapes"], [/Samurai Jack animation style/gi, "flat geometric 2D animation style"], [/Samurai Jack-style/gi, "flat geometric"], [/Samurai Jack/gi, "flat-shape animation"], [/Genndy Tartakovsky/gi, "a flat-shape animator"], [/Sin City-style|Sin City/gi, "high-contrast black-and-white graphic-novel"], [/Elder Things?/gi, "ancient alien star-headed builders"], [/Mi-Go/gi, "alien winged fungoid-insect"], [/Shoggoths?/gi, "living-flesh blob creature"], [/Deep Ones?/gi, "amphibious fish-folk"], [/Nightgaunts?/gi, "faceless winged horror"], [/Hounds? of Tindalos/gi, "angular wedge-bodied hound"], [/Byakhee/gi, "bat-winged many-eyed star-steeds"], [/Azathoth/gi, "a blind cosmic idol god"], [/Lovecraft(ian)?/gi, "cosmic-horror"], [/David Bowie's Batman/gi, "glam-gothic"], [/\banime\b/gi, "ornate"], [/Mythos/gi, "cosmic-horror"]];
+const clean = (t) => CLEAN.reduce((s, [re, to]) => s.replace(re, to), t);
 const AGES = ["early 20s", "late 20s", "early 30s", "mid 30s", "late 30s", "early 40s", "mid 40s", "late 40s", "early 50s", "late 50s", "mid 60s", "early 70s"];
 const DECADE = { twenties: "mid 20s", thirties: "mid 30s", forties: "mid 40s", fifties: "mid 50s", sixties: "mid 60s", seventies: "early 70s", eighties: "late 70s" };
 function ageOf(id, name, who) {
@@ -32,18 +35,18 @@ function charPrompt(r) {
   const gear = r.accessories.split(";").map((x) => x.trim()).filter((x) => x && !VEHICLE.test(x));
   const costume = r.wardrobe.split(",").slice(0, 6).join(",");
   const minions = r.typeKey === "summoner" ? `\nSUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.` : "";
-  return `A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: ${r.name}, ${r.identity}${r.identity.includes("heritage") || r.identity.includes("of ") ? "" : " (" + herit(r.ethnicity) + ")"}, apparent age ${r.age}. ${r.physique}, ${r.size} size. Pose: ${r.pose}. Expression: ${r.expression}, as a minimal face. Design the silhouette first (${r.shape}); the pose and the hero prop must read as a solid black shape.
+  return `An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: ${r.name}, ${r.identity}${r.identity.includes("heritage") || r.identity.includes("of ") || Object.keys(SPECIES_LOOK).find((k) => r.ethnicity.includes(k)) ? "" : " (" + herit(r.ethnicity) + ")"}, apparent age ${r.age}. ${r.physique}, ${r.size} size. Pose: ${r.pose}. Expression: ${r.expression}, as a minimal face. Design the silhouette first (${r.shape}); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: ${gear[0] || "the signature item"}. SECOND ITEM, kept plain: ${gear[1] || "none"}. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: ${costume}.
 ${minions}
 HOW TO DRAW IT: ${AD.simplify.join("; ")}.
 COLOR (exact hex, flat fills): main ${r.main} about 60%, on ${r.mainUse}; secondary ${r.secondary} about 30%, on ${r.secondaryUse}; pop ${r.pop} about 10%, on ${r.popUse}. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use ${r.peopleColor} (background only).
 NEVER: ${AD.never}.
-SELF-CHECK: it must pass the black-fill, few-shapes, thumbnail, flat-color and distinctive-without-detail tests; if not, remove detail.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
 COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. ${r.type}, ${r.role.toLowerCase()}, ${r.people} people, mature dark-age tone, no nudity, no gore.`;
 }
 function bgPrompt(r) {
-  return `Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+  return `Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
 SCENE: ${r.scene}. An empty environment for ${r.name} with no people, creatures, figures, silhouettes or text. Midground: ${r.midground}. Foreground: ${r.foreground}, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ${r.peopleColorName.toUpperCase()}-washed painting. The people color ${r.peopleColor} washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main ${r.main} for the biggest glowing sources and surfaces, secondary ${r.secondary} for medium panels, banners and lights, pop ${r.pop} for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.`;
@@ -75,8 +78,8 @@ const rows = A.map(({ gid, g, s, l }, idx) => {
     `Flat colors: ${a} / ${b} / ${d} as separate flat shapes divided by black line; no gradients or glow.`,
     `Distinctive without detail: identifiable by ${gear.slice(0, 2).join(" and ") || "its pose"} and the ${t.name.toLowerCase()} shape language.`,
   ];
-  r.charPrompt = (OVERRIDE[l.id] && OVERRIDE[l.id][0]) || charPrompt(r);
-  r.bgPrompt = (OVERRIDE[l.id] && OVERRIDE[l.id][1]) || bgPrompt(r);
+  r.charPrompt = clean((OVERRIDE[l.id] && OVERRIDE[l.id][0]) || charPrompt(r));
+  r.bgPrompt = clean((OVERRIDE[l.id] && OVERRIDE[l.id][1]) || bgPrompt(r));
   const vp = ROOT + "art/v2/" + (ART[l.id] ? ART[l.id].src.split("/").pop().replace(".png", "") : "none") + ".vet.json";
   r.vet = fs.existsSync(vp) ? JSON.parse(fs.readFileSync(vp, "utf8")) : null;
   return r;

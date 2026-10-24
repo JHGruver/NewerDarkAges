@@ -69,5 +69,5 @@
   "at most ONE repeated graphic symbol on the whole figure",
   "clear negative space between limbs, prop and body"
  ],
- "never": "photorealism, 3D or CGI, painterly or watercolor texture, detailed anime rendering, airbrushing, gradients, glow or bloom or lens flare (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art"
+ "never": "photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art"
 }
