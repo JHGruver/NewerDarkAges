@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 59.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 60.
 
 ## Art direction in one screen
 
@@ -3521,27 +3521,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | many-limbed and busy, a round head, a heavy apron, eight tool-holding arms; medium size; mobility: grounded |
 | Ethnicity + nationality | squid-kin (not human) |
 | Identity | male anthropomorphic squid character |
-| Wardrobe | squid-kin with a torpedo-shaped mantle fin, goggles and a multi-tool harness, a different tool in each of several arms: wrench, welder, rifle, screwdriver, and two long grabbing tentacles holding a bomb |
+| Wardrobe | squid-kin engineer with an orange body and teal suckers, a big pointed orange mantle fin hood with round yellow goggles, a teal-and-navy work coat with a heavy navy apron and tool-loop belt, a backpack of cables, navy flippers, and a different tool in each of several arms: a wrench, a blue-flame torch, a plasma drill, a handheld scanner and pliers |
 | Accessories | Multi-tool harness; welder; scrap turret; goggles |
-| Pose | standing braced on two legs working four tools at once, a limb for each |
-| Facial expression | frazzled, delighted focus |
+| Pose | wide braced stance working several tools at once, one tool raised in each arm |
+| Facial expression | sleepy, frazzled, delighted focus |
 | People | Were-Creature |
 | Class | Cephalopod-kin |
 | Subclass | Squid Tentacle Engineers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | standing braced on two legs working four tools at once, a limb for each; the Multi-tool harness and the welder break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide braced stance working several tools at once, one tool raised in each arm; the Multi-tool harness and the welder break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #fda96c: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #00b4d8: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #282956: the eyes, the Multi-tool harness and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-tentacleengineers.png` and `art/v2/were-tentacleengineers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as standing braced on two legs working four tools at once, a limb for each.
+1. Black-fill test: the silhouette must still read as wide braced stance working several tools at once, one tool raised in each arm.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Multi-tool harness and the pose must be visible at 64 px.
 4. Flat colors: #fda96c / #00b4d8 / #282956 as separate flat shapes divided by black line; no gradients or glow.
@@ -3561,8 +3561,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Squid Tentacle Engineers, male anthropomorphic squid character (squid-kin (not human)), apparent age early 30s. many-limbed and busy, a round head, a heavy apron, eight tool-holding arms, medium size. Pose: standing braced on two legs working four tools at once, a limb for each. Expression: frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Multi-tool harness. SECOND ITEM, kept plain: welder. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: squid-kin with a torpedo-shaped mantle fin, goggles and a multi-tool harness, a different tool in each of several arms: wrench, welder, rifle, screwdriver.
+CHARACTER: Squid Tentacle Engineers, male anthropomorphic squid character (squid-kin (not human)), apparent age early 30s. many-limbed and busy, a round head, a heavy apron, eight tool-holding arms, medium size. Pose: wide braced stance working several tools at once, one tool raised in each arm. Expression: sleepy, frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Multi-tool harness. SECOND ITEM, kept plain: welder. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: squid-kin engineer with an orange body and teal suckers, a big pointed orange mantle fin hood with round yellow goggles, a teal-and-navy work coat with a heavy navy apron and tool-loop belt, a backpack of cables, navy flippers, and a different tool in each of several arms: a wrench.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fda96c about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00b4d8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #282956 about 10%, on the eyes, the Multi-tool harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
