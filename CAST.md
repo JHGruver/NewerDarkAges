@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 49.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 50.
 
 ## Art direction in one screen
 
@@ -4240,27 +4240,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | armored and round, a plated back, a short snout; medium size; mobility: grounded |
 | Ethnicity + nationality | pangolin-kin (not human) |
 | Identity | male anthropomorphic pangolin character |
-| Wardrobe | pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll |
+| Wardrobe | pangolin-kin with neon-yellow and indigo spiked scale plates over a brown body, a huge curling scaled tail, a red helmet with round purple goggles, a red rolling harness across the chest with a ring buckle, huge scale-plated fists with red cuffs and black clawed feet, crouched half curled forward ready to roll |
 | Accessories | Spiked plates; rolling harness; charge helm; goggles |
-| Pose | half curled forward on the toes, about to roll |
-| Facial expression | wild-eyed thrill |
+| Pose | coiled low on all fours with the tail curled up over the back and the huge fists planted, about to roll |
+| Facial expression | sly, confident half-smile |
 | People | Were-Creature |
 | Class | Pangolin-kin |
 | Subclass | Curl-Ball Rollers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | half curled forward on the toes, about to roll; the Spiked plates and the rolling harness break the outline so it reads instantly as a black shape |
+| Silhouette hook | coiled low on all fours with the tail curled up over the back and the huge fists planted, about to roll; the Spiked plates and the rolling harness break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #e5f102: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fd4d50: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #3a0ca3: the eyes, the Spiked plates and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-curlballrollers.png` and `art/v2/were-curlballrollers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as half curled forward on the toes, about to roll.
+1. Black-fill test: the silhouette must still read as coiled low on all fours with the tail curled up over the back and the huge fists planted, about to roll.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Spiked plates and the pose must be visible at 64 px.
 4. Flat colors: #e5f102 / #fd4d50 / #3a0ca3 as separate flat shapes divided by black line; no gradients or glow.
@@ -4280,8 +4280,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Curl-Ball Rollers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age mid 40s. armored and round, a plated back, a short snout, medium size. Pose: half curled forward on the toes, about to roll. Expression: wild-eyed thrill, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Spiked plates. SECOND ITEM, kept plain: rolling harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pangolin-kin in spiked plates and a charge helm with goggles, a rolling harness across the chest, half curled forward ready to roll.
+CHARACTER: Curl-Ball Rollers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age mid 40s. armored and round, a plated back, a short snout, medium size. Pose: coiled low on all fours with the tail curled up over the back and the huge fists planted, about to roll. Expression: sly, confident half-smile, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Spiked plates. SECOND ITEM, kept plain: rolling harness. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pangolin-kin with neon-yellow and indigo spiked scale plates over a brown body, a huge curling scaled tail, a red helmet with round purple goggles, a red rolling harness across the chest with a ring buckle, huge scale-plated fists with red cuffs and black clawed feet, crouched half curled forward ready to roll.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #e5f102 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fd4d50 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3a0ca3 about 10%, on the eyes, the Spiked plates and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).

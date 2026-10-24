@@ -63,7 +63,7 @@ window.CAST = {
   signaltowerwardens: C("Male", "N/A (moth-kin)", "alert, antennae twitching", "climbing with the winged back arched, one hand on a rung and the signal rod pointed outward"),
   platewallbulwarks: C("Female", "N/A (pangolin-kin)", "unshakable, jaw set", "planted wide behind a tower shield, the mace raised"),
   tunneldiggers: C("Male", "N/A (pangolin-kin)", "gritty, determined", "bursting up out of the ground with both claws out, dirt flying"),
-  curlballrollers: C("Male", "N/A (pangolin-kin)", "wild-eyed thrill", "half curled forward on the toes, about to roll"),
+  curlballrollers: C("Male", "N/A (pangolin-kin)", "sly, confident half-smile", "coiled low on all fours with the tail curled up over the back and the huge fists planted, about to roll"),
   loomweavers: C("Female", "N/A (spider-kin)", "serene, calm, narrowed pale eyes", "hanging mid-web with two limbs pulling taut loops of barbed thread and the hooked blades held low"),
   silkroad: C("Nonbinary", "N/A (spider-kin)", "cheerful, big pale eyes", "swinging down from a thread in a curled crouch, the envelope held out in one limb and the thread reel at the hip"),
   dewdrop: C("Female", "N/A (jumping spider-kin)", "mischievous glee", "mid-leap with both blades flashing"),
