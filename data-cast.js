@@ -45,7 +45,7 @@ window.CAST = {
   damwardens: C("Male", "N/A (capybara-kin)", "stolid, unbothered", "leaning into a slab shield like a door, the sledge resting on one shoulder"),
   mawwardens: C("Male", "N/A (giant salamander-kin)", "still, patient, a wide closed-mouth calm", "crouched low and wide on one hand and both feet with the stone hammer raised overhead in the other fist"),
   olmseers: C("Nonbinary", "N/A (olm-kin)", "serene, eyeless, a faint smile", "seated on the ground with the head tilted up, one hand pressed to the floor and the crystal staff held upright in the other"),
-  boneskirmishers: C("Female", "N/A (ribbed newt-kin)", "fierce, wincing grin", "crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward"),
+  boneskirmishers: C("Female", "N/A (ribbed newt-kin)", "fierce, wincing grin", "crouched low and twisting mid-leap as the rib-spikes burst from the sides, a bone blade swept back"),
   riverskinguardians: C("Male", "N/A (hellbender-kin)", "stolid, unbothered", "braced in a wide stance behind the river-stone shield with the current-staff planted"),
   regrowthmedics: C("Nonbinary", "N/A (axolotl-kin)", "gentle, bright, reassuring smile", "kneeling on one knee over an open first-aid case, a glow-gel flask in one hand and a bandage reel in the other"),
   galesailors: C("Female", "N/A (albatross-kin)", "calm, far-seeing, wind-weathered", "soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing"),

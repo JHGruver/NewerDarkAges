@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 133 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 67.
+**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 68.
 
 ## Art direction in one screen
 
@@ -3015,27 +3015,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | dark and spotted, low and wide, rows of rib-spikes along the sides; medium size; mobility: agile |
 | Ethnicity + nationality | ribbed newt-kin (not human) |
 | Identity | female anthropomorphic ribbed newt character |
-| Wardrobe | dark spotted ribbed-newt-kin crouched low with rows of pale orange rib-spikes bursting from the sides, leather wraps, a harness of venom vials, a bone knife in one hand and a vial in the other |
+| Wardrobe | dark spotted ribbed-newt-kin with an orange crest and green slit eyes, rows of long pale-orange rib-spikes bursting from the shoulders back and tail, an orange scarf and vest with a black belt and buckle, orange wrist and ankle wraps, a harness of green venom vials, a pale bone blade in one hand, crouched low and twisting mid-leap |
 | Accessories | Rib-spike harness; venom vials; bone knife; leather wraps |
-| Pose | crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward |
+| Pose | crouched low and twisting mid-leap as the rib-spikes burst from the sides, a bone blade swept back |
 | Facial expression | fierce, wincing grin |
 | People | Were-Creature |
 | Class | Salamander-kin |
 | Subclass | Ribbed Newt Bone-Skirmishers |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward; the Rib-spike harness and the venom vials break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched low and twisting mid-leap as the rib-spikes burst from the sides, a bone blade swept back; the Rib-spike harness and the venom vials break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #3d3a2a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e0902a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #a8e063: the eyes, the Rib-spike harness and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-boneskirmishers.png` and `art/v2/were-boneskirmishers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward.
+1. Black-fill test: the silhouette must still read as crouched low and twisting mid-leap as the rib-spikes burst from the sides, a bone blade swept back.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Rib-spike harness and the pose must be visible at 64 px.
 4. Flat colors: #3d3a2a / #e0902a / #a8e063 as separate flat shapes divided by black line; no gradients or glow.
@@ -3055,8 +3055,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Ribbed Newt Bone-Skirmishers, female anthropomorphic ribbed newt character (ribbed newt-kin (not human)), apparent age late 20s. dark and spotted, low and wide, rows of rib-spikes along the sides, medium size. Pose: crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward. Expression: fierce, wincing grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Rib-spike harness. SECOND ITEM, kept plain: venom vials. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: dark spotted ribbed-newt-kin crouched low with rows of pale orange rib-spikes bursting from the sides, leather wraps, a harness of venom vials, a bone knife in one hand and a vial in the other.
+CHARACTER: Ribbed Newt Bone-Skirmishers, female anthropomorphic ribbed newt character (ribbed newt-kin (not human)), apparent age late 20s. dark and spotted, low and wide, rows of rib-spikes along the sides, medium size. Pose: crouched low and twisting mid-leap as the rib-spikes burst from the sides, a bone blade swept back. Expression: fierce, wincing grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Rib-spike harness. SECOND ITEM, kept plain: venom vials. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: dark spotted ribbed-newt-kin with an orange crest and green slit eyes, rows of long pale-orange rib-spikes bursting from the shoulders back and tail, an orange scarf and vest with a black belt and buckle, orange wrist and ankle wraps, a harness of green venom vials, a pale bone blade in one hand.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #3d3a2a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e0902a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #a8e063 about 10%, on the eyes, the Rib-spike harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
