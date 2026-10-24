@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 131 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 64, Female 52, Nonbinary 15. **Combat/support:** 106/25. **With final art:** 63.
+**Gender split:** Male 64, Female 52, Nonbinary 15. **Combat/support:** 106/25. **With final art:** 64.
 
 ## Art direction in one screen
 
@@ -3018,27 +3018,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | lean and feathered, hunched wing-shoulders, a dagger beak, long legs; medium size; mobility: flying |
 | Ethnicity + nationality | raven-kin (not human) |
 | Identity | male anthropomorphic raven character |
-| Wardrobe | raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip |
+| Wardrobe | raven-kin assassin diving mid-air with huge navy-and-black wings, a black beak mask under a red-marked hood, a navy feather mantle with red trim, a red-pouched belt with a ring, a long curved pale talon-blade in each hand, red-banded legs with black talons, and three small black crows streaming behind |
 | Accessories | Talon-blades; feather mantle; black-iron beak mask; grudge ledger |
-| Pose | diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind |
+| Pose | diving forward in mid-air with the wings swept up, a talon-blade in each hand and three crows streaming behind |
 | Facial expression | cold, beaked glare |
 | People | Were-Creature |
 | Class | Avian-kin |
 | Subclass | Raven Murder Vanguard |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind; the Talon-blades and the feather mantle break the outline so it reads instantly as a black shape |
+| Silhouette hook | diving forward in mid-air with the wings swept up, a talon-blade in each hand and three crows streaming behind; the Talon-blades and the feather mantle break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #282956: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ef233c: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #def6ff: the eyes, the Talon-blades and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-murdervanguard.png` and `art/v2/were-murdervanguard-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind.
+1. Black-fill test: the silhouette must still read as diving forward in mid-air with the wings swept up, a talon-blade in each hand and three crows streaming behind.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Talon-blades and the pose must be visible at 64 px.
 4. Flat colors: #282956 / #ef233c / #def6ff as separate flat shapes divided by black line; no gradients or glow.
@@ -3058,8 +3058,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Raven Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, hunched wing-shoulders, a dagger beak, long legs, medium size. Pose: diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: feather mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip.
+CHARACTER: Raven Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, hunched wing-shoulders, a dagger beak, long legs, medium size. Pose: diving forward in mid-air with the wings swept up, a talon-blade in each hand and three crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: feather mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raven-kin assassin diving mid-air with huge navy-and-black wings, a black beak mask under a red-marked hood, a navy feather mantle with red trim, a red-pouched belt with a ring, a long curved pale talon-blade in each hand, red-banded legs with black talons.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #282956 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ef233c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #def6ff about 10%, on the eyes, the Talon-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).

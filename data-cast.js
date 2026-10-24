@@ -47,7 +47,7 @@ window.CAST = {
   gillstorm: C("Female", "N/A (axolotl-kin)", "intense, gills flared", "twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills"),
   mudglowlurkers: C("Male", "N/A (axolotl-kin)", "wide, unblinking stare", "slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing"),
   galesailors: C("Female", "N/A (albatross-kin)", "calm, far-seeing, wind-weathered", "soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing"),
-  murdervanguard: C("Male", "N/A (raven-kin)", "cold, beaked glare", "diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind"),
+  murdervanguard: C("Male", "N/A (raven-kin)", "cold, beaked glare", "diving forward in mid-air with the wings swept up, a talon-blade in each hand and three crows streaming behind"),
   nighteyesnipers: C("Male", "N/A (owl-kin)", "steady, enormous-eyed focus", "perched on one foot on a branch with the other leg tucked, the long rifle aimed forward in both hands"),
   inkspies: C("Female", "N/A (cuttlefish-kin)", "coolly amused, narrowed yellow eyes", "slipping sideways in a wide low stance with the silenced pistol raised and the arm-tentacles curling behind like a cloak"),
   tentacleengineers: C("Male", "N/A (squid-kin)", "sleepy, frazzled, delighted focus", "wide braced stance working several tools at once, one tool raised in each arm"),
