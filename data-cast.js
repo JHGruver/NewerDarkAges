@@ -65,7 +65,7 @@ window.CAST = {
   tunneldiggers: C("Male", "N/A (pangolin-kin)", "gritty, determined", "bursting up out of the ground with both claws out, dirt flying"),
   curlballrollers: C("Male", "N/A (pangolin-kin)", "wild-eyed thrill", "half curled forward on the toes, about to roll"),
   loomweavers: C("Female", "N/A (spider-kin)", "serene, intent", "hanging mid-web pulling taut threads of wire with all four hands"),
-  silkroad: C("Nonbinary", "N/A (spider-kin)", "cheerful and brisk", "scuttling sideways along a wall at speed on four limbs with a letter clutched in another"),
+  silkroad: C("Nonbinary", "N/A (spider-kin)", "cheerful, big pale eyes", "swinging down from a thread in a curled crouch, the envelope held out in one limb and the thread reel at the hip"),
   dewdrop: C("Female", "N/A (jumping spider-kin)", "mischievous glee", "mid-leap with both blades flashing"),
   /* ---------------- GHOST ---------------- */
   staticwraiths: C("Male", "In life: Haitian heritage, Haitian", "blank, hollow mask-face", "mid-lunge with blade-claws crossed, cable tail trailing"),

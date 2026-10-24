@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 47.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 48.
 
 ## Art direction in one screen
 
@@ -4385,27 +4385,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | slim and agile, a thin body, six small arms; small size; mobility: climbing |
 | Ethnicity + nationality | spider-kin (not human) |
 | Identity | nonbinary anthropomorphic spider character |
-| Wardrobe | upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb |
+| Wardrobe | spider-kin courier hanging from a thread, a pink-and-black striped abdomen and legs with teal bands, big pale eyes, a pink-and-teal jester-style courier cap with a pom-pom and a black visor, a pale courier satchel with a leaf emblem, a hand-crank thread reel at the hip and a sealed envelope held in one limb |
 | Accessories | Courier bag; signal spool; hand-crank radio; tiny cap |
-| Pose | scuttling sideways along a wall at speed on four limbs with a letter clutched in another |
-| Facial expression | cheerful and brisk |
+| Pose | swinging down from a thread in a curled crouch, the envelope held out in one limb and the thread reel at the hip |
+| Facial expression | cheerful, big pale eyes |
 | People | Were-Creature |
 | Class | Spider-kin |
 | Subclass | Silkroad Messengers |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | scuttling sideways along a wall at speed on four limbs with a letter clutched in another; the Courier bag and the signal spool break the outline so it reads instantly as a black shape |
+| Silhouette hook | swinging down from a thread in a curled crouch, the envelope held out in one limb and the thread reel at the hip; the Courier bag and the signal spool break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #dc8495: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #4ecdc4: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #fff3b0: the eyes, the Courier bag and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-silkroad.png` and `art/v2/were-silkroad-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as scuttling sideways along a wall at speed on four limbs with a letter clutched in another.
+1. Black-fill test: the silhouette must still read as swinging down from a thread in a curled crouch, the envelope held out in one limb and the thread reel at the hip.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Courier bag and the pose must be visible at 64 px.
 4. Flat colors: #dc8495 / #4ecdc4 / #fff3b0 as separate flat shapes divided by black line; no gradients or glow.
@@ -4425,8 +4425,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Silkroad Messengers, nonbinary anthropomorphic spider character (spider-kin (not human)), apparent age early 40s. slim and agile, a thin body, six small arms, small size. Pose: scuttling sideways along a wall at speed on four limbs with a letter clutched in another. Expression: cheerful and brisk, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Courier bag. SECOND ITEM, kept plain: signal spool. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: upside-down spider-kin hanging from a thread, a courier bag across the body, a hand-crank radio at the hip, a tiny cap, a letter held in one limb.
+CHARACTER: Silkroad Messengers, nonbinary anthropomorphic spider character (spider-kin (not human)), apparent age early 40s. slim and agile, a thin body, six small arms, small size. Pose: swinging down from a thread in a curled crouch, the envelope held out in one limb and the thread reel at the hip. Expression: cheerful, big pale eyes, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Courier bag. SECOND ITEM, kept plain: signal spool. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: spider-kin courier hanging from a thread, a pink-and-black striped abdomen and legs with teal bands, big pale eyes, a pink-and-teal jester-style courier cap with a pom-pom and a black visor, a pale courier satchel with a leaf emblem, a hand-crank thread reel at the hip and a sealed envelope held in one limb.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #dc8495 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4ecdc4 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff3b0 about 10%, on the eyes, the Courier bag and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
