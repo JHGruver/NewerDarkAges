@@ -99,7 +99,7 @@ window.CAST = {
   hoamediators: C("Female", "Fae (adapted from American suburban folklore)", "stern, disapproving side-eye", "hovering in flight with the gavel raised high in one hand and the clipboard held out in the other"),
   rootlinkwarlocks: C("Female", "Dryad (adapted from Greek tradition)", "cold, watchful, stern", "floating a step off the ground with the glowing staff raised overhead in one hand and the vine-wrapped rune shield held out in the other"),
   mossplate: C("Male", "Dryad (adapted from Celtic tradition)", "calm, mossy stoicism", "leaning into a rack-plate shield with the root hammer raised"),
-  seedbank: C("Female", "Dryad (adapted from Slavic tradition)", "warm, patient", "bent at the waist pouring glowing water from a gourd onto a fallen ally"),
+  seedbank: C("Female", "Dryad (adapted from Slavic tradition)", "warm, patient, a small smile", "stepping forward bent at the waist, one hand pouring the watering can in a stream of leaf-water, the other open in a healing gesture"),
   sumpsappers: C("Male", "Gnome (adapted from German tradition)", "grumpy, gritted teeth", "creeping low with a charge in one hand and the pickaxe raised in the other"),
   boilerbrawlers: C("Male", "Gnome (adapted from Dutch tradition)", "red-faced, scowling", "cocking a steaming gauntleted fist back for a punch"),
   tollbrokers: C("Male", "Gnome (adapted from Norse tradition)", "sour, businesslike", "standing with the ledger held up and a gate key dangling from the other hand"),
