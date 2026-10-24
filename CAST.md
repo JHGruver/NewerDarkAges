@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 133 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 68.
+**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 69.
 
 ## Art direction in one screen
 
@@ -3086,27 +3086,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | wide and wrinkled with folded skin flaps, a flat head, a thick flattened tail; large size; mobility: aquatic |
 | Ethnicity + nationality | hellbender-kin (not human) |
 | Identity | male anthropomorphic hellbender character |
-| Wardrobe | wide wrinkled hellbender-kin in a ridged folded-skin cloak with flat gripping gloves, a river-stone shield planted before it and a current-staff in the other hand, water streaming off the folds |
+| Wardrobe | wide wrinkled slate-blue hellbender-kin with a broad flat head and a gentle smile, mossy green skin-flap frills along the neck and body, an orange-and-black harness and sash with ring buckles, orange wrist and ankle wraps, a giant mossy river-stone shield planted before it, and a twisted dark current-staff trailing a ribbon of green water in one hand, in a low braced crouch |
 | Accessories | Folded-skin cloak; river-stone shield; current-staff; flat gripping gloves |
-| Pose | braced in a wide stance behind the river-stone shield with the current-staff planted |
-| Facial expression | stolid, unbothered |
+| Pose | low braced crouch behind the giant river-stone shield with the current-staff planted in the other hand |
+| Facial expression | calm, stolid, a gentle small smile |
 | People | Were-Creature |
 | Class | Salamander-kin |
 | Subclass | Hellbender Riverskin Guardians |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | braced in a wide stance behind the river-stone shield with the current-staff planted; the Folded-skin cloak and the river-stone shield break the outline so it reads instantly as a black shape |
+| Silhouette hook | low braced crouch behind the giant river-stone shield with the current-staff planted in the other hand; the Folded-skin cloak and the river-stone shield break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #4a5f6a: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f2c14e: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #b5e48c: the eyes, the Folded-skin cloak and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-riverskinguardians.png` and `art/v2/were-riverskinguardians-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as braced in a wide stance behind the river-stone shield with the current-staff planted.
+1. Black-fill test: the silhouette must still read as low braced crouch behind the giant river-stone shield with the current-staff planted in the other hand.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Folded-skin cloak and the pose must be visible at 64 px.
 4. Flat colors: #4a5f6a / #f2c14e / #b5e48c as separate flat shapes divided by black line; no gradients or glow.
@@ -3126,8 +3126,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Hellbender Riverskin Guardians, male anthropomorphic hellbender character (hellbender-kin (not human)), apparent age mid 40s. wide and wrinkled with folded skin flaps, a flat head, a thick flattened tail, large size. Pose: braced in a wide stance behind the river-stone shield with the current-staff planted. Expression: stolid, unbothered, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Folded-skin cloak. SECOND ITEM, kept plain: river-stone shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: wide wrinkled hellbender-kin in a ridged folded-skin cloak with flat gripping gloves, a river-stone shield planted before it and a current-staff in the other hand, water streaming off the folds.
+CHARACTER: Hellbender Riverskin Guardians, male anthropomorphic hellbender character (hellbender-kin (not human)), apparent age mid 40s. wide and wrinkled with folded skin flaps, a flat head, a thick flattened tail, large size. Pose: low braced crouch behind the giant river-stone shield with the current-staff planted in the other hand. Expression: calm, stolid, a gentle small smile, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Folded-skin cloak. SECOND ITEM, kept plain: river-stone shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: wide wrinkled slate-blue hellbender-kin with a broad flat head and a gentle smile, mossy green skin-flap frills along the neck and body, an orange-and-black harness and sash with ring buckles, orange wrist and ankle wraps, a giant mossy river-stone shield planted before it, and a twisted dark current-staff trailing a ribbon of green water in one hand.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #4a5f6a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f2c14e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #b5e48c about 10%, on the eyes, the Folded-skin cloak and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
