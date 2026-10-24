@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 53.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 54.
 
 ## Art direction in one screen
 
@@ -3953,27 +3953,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | delicate and winged, a soft fuzzy torso, big dusted wings; medium size; mobility: flying |
 | Ethnicity + nationality | moth-kin (not human) |
 | Identity | nonbinary anthropomorphic moth character |
-| Wardrobe | moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt |
+| Wardrobe | moth-kin dream-weaver with a cream fluffy mane and feathery pink antennae, big violet wings with dark eye-spots, a violet hooded shawl, a satchel with a crescent-moon emblem and pots of scale-powder with pink tassels at the belt, a pink feather-duster staff raised in one hand shaking pink dust, the other hand open, hovering |
 | Accessories | Dust-satchel; feather duster staff; scale-powder pots; shawl |
-| Pose | turning gently in the air shaking glowing dust from a feather duster over an ally |
-| Facial expression | drowsy, dreamy smile |
+| Pose | hovering with the feather duster raised in one hand shaking glowing dust and the other hand open, wings spread wide |
+| Facial expression | drowsy, gentle smile |
 | People | Were-Creature |
 | Class | Moth-kin |
 | Subclass | Dreamdust Weavers |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | turning gently in the air shaking glowing dust from a feather duster over an ally; the Dust-satchel and the feather duster staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | hovering with the feather duster raised in one hand shaking glowing dust and the other hand open, wings spread wide; the Dust-satchel and the feather duster staff break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #b668f9: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffc8dd: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #2e0d52: the eyes, the Dust-satchel and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-dreamdustweavers.png` and `art/v2/were-dreamdustweavers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as turning gently in the air shaking glowing dust from a feather duster over an ally.
+1. Black-fill test: the silhouette must still read as hovering with the feather duster raised in one hand shaking glowing dust and the other hand open, wings spread wide.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Dust-satchel and the pose must be visible at 64 px.
 4. Flat colors: #b668f9 / #ffc8dd / #2e0d52 as separate flat shapes divided by black line; no gradients or glow.
@@ -3993,8 +3993,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Dreamdust Weavers, nonbinary anthropomorphic moth character (moth-kin (not human)), apparent age mid 60s. delicate and winged, a soft fuzzy torso, big dusted wings, medium size. Pose: turning gently in the air shaking glowing dust from a feather duster over an ally. Expression: drowsy, dreamy smile, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Dust-satchel. SECOND ITEM, kept plain: feather duster staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin with shimmering dusty wings in a shawl, a feather-duster staff in one hand, a satchel and pots of scale-powder at the belt.
+CHARACTER: Dreamdust Weavers, nonbinary anthropomorphic moth character (moth-kin (not human)), apparent age mid 60s. delicate and winged, a soft fuzzy torso, big dusted wings, medium size. Pose: hovering with the feather duster raised in one hand shaking glowing dust and the other hand open, wings spread wide. Expression: drowsy, gentle smile, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Dust-satchel. SECOND ITEM, kept plain: feather duster staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin dream-weaver with a cream fluffy mane and feathery pink antennae, big violet wings with dark eye-spots, a violet hooded shawl, a satchel with a crescent-moon emblem and pots of scale-powder with pink tassels at the belt, a pink feather-duster staff raised in one hand shaking pink dust, the other hand open.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b668f9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffc8dd about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e0d52 about 10%, on the eyes, the Dust-satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
