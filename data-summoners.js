@@ -49,7 +49,7 @@
       look: "Small wiry squirrel-kin commander with a huge arched tail, an acorn whistle at her lips and one paw pointing forward as five squirrels charge around her feet.",
       pal: ["#6f4f2a", "#e8c07a", "#df590c"], physique: "small and wiry, long hind legs, a huge bushy tail that arches higher than her head", size: "small", move: "agile",
       who: "a small, wiry, bossy squirrel-kin commander",
-      w: "small wiry squirrel-kin commander with a huge bushy tail arched over her back, an acorn-cap helmet, a brown leather harness with a seed pouch, a carved acorn whistle at her lips, one paw pointing forward, five small squirrels charging around her feet",
+      w: "small wiry squirrel-kin commander with a huge bushy tail arched behind her, an orange acorn-cap helmet, a yellow sash and a brown harness with an acorn seed pouch, a carved acorn whistle at her lips, one paw pointing forward, standing on a stump while five small acorn-helmeted squirrels charge around it",
       p: "an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches, a stump parade ground and a pile of hollow logs" });
 
   add("ghost", { summary: "Dead-line operators who answer calls from places that should be silent, and let what answers climb through.", lore: "The old exchanges never hung up, and neither did what lives in the wire." },

@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 46.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 47.
 
 ## Art direction in one screen
 
@@ -4530,7 +4530,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | small and wiry, long hind legs, a huge bushy tail that arches higher than her head; small size; mobility: agile |
 | Ethnicity + nationality | squirrel-kin (not human) |
 | Identity | a small, wiry, bossy squirrel-kin commander |
-| Wardrobe | small wiry squirrel-kin commander with a huge bushy tail arched over her back, an acorn-cap helmet, a brown leather harness with a seed pouch, a carved acorn whistle at her lips, one paw pointing forward, five small squirrels charging around her feet |
+| Wardrobe | small wiry squirrel-kin commander with a huge bushy tail arched behind her, an orange acorn-cap helmet, a yellow sash and a brown harness with an acorn seed pouch, a carved acorn whistle at her lips, one paw pointing forward, standing on a stump while five small acorn-helmeted squirrels charge around it |
 | Accessories | Acorn-cap helmet; carved acorn whistle; seed pouch; a scurry of small summoned squirrels |
 | Pose | balanced on one foot atop a stump, tail arched high, one paw pointing forward as squirrels pour past |
 | Facial expression | sharp, bossy grin |
@@ -4545,8 +4545,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #e8c07a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #df590c: the eyes, the Acorn-cap helmet and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-squirrelcommanders.png` and `art/v2/were-squirrelcommanders-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -4571,7 +4571,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
 CHARACTER: Squirrel Commanders, a small, wiry, bossy squirrel-kin commander (squirrel-kin (not human)), apparent age mid 30s. small and wiry, long hind legs, a huge bushy tail that arches higher than her head, small size. Pose: balanced on one foot atop a stump, tail arched high, one paw pointing forward as squirrels pour past. Expression: sharp, bossy grin, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Acorn-cap helmet. SECOND ITEM, kept plain: carved acorn whistle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small wiry squirrel-kin commander with a huge bushy tail arched over her back, an acorn-cap helmet, a brown leather harness with a seed pouch, a carved acorn whistle at her lips, one paw pointing forward, five small squirrels charging around her feet.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Acorn-cap helmet. SECOND ITEM, kept plain: carved acorn whistle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small wiry squirrel-kin commander with a huge bushy tail arched behind her, an orange acorn-cap helmet, a yellow sash and a brown harness with an acorn seed pouch, a carved acorn whistle at her lips, one paw pointing forward, standing on a stump while five small acorn-helmeted squirrels charge around it.
 
 SUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
