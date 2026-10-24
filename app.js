@@ -23,7 +23,7 @@ document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.
 document.getElementById("burger-ic").innerHTML = ic("menu");
 
 /* ---------- colors ---------- */
-window.NDAH = { allCharacters: () => allCharacters(), poster: (...x) => poster(...x), cv: (...x) => cv(...x), get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
+window.NDAH = { setScene: (s) => setScene(s), allCharacters: () => allCharacters(), poster: (...x) => poster(...x), cv: (...x) => cv(...x), get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
 const pv = (g) => `--p:${g.color};--p2:${g.color2}`;
 const pal = (g, l) => (l && l.pal ? l.pal : [g.color2, "#f2efe6", "#ffffff"]);
 const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};--c2:${b};--c3:${c}`; };
@@ -436,7 +436,7 @@ function render() {
   if (window.NDA3D) NDA3D.tint(tint || null);
   // scene background only for a character that has its own scene
   const leafId = route === "characters" && rest.length === 3 ? rest[2] : null;
-  const bgSrc = leafId && NODE_ART[leafId] ? NODE_ART[leafId].bg : null;
+  const bgSrc = route === "vote" ? (window.__voteBg || null) : (leafId && NODE_ART[leafId] ? NODE_ART[leafId].bg : null);
   setScene(bgSrc);
   document.body.classList.toggle("has-bg", !!bgSrc);
   const t = document.querySelector(".blk-title h2, .detail-head h2");
