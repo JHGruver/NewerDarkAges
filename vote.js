@@ -37,14 +37,16 @@
       <section class="v-play" id="v-play" hidden>
         <div class="v-top"><div class="v-prog"><i id="v-bar"></i></div><div class="v-count" id="v-count"></div></div>
         <div class="v-stage" id="v-stage"></div>
-        <label class="v-comment"><span>Comment (optional)</span><textarea id="v-comment" rows="2" maxlength="600" placeholder="Anything you love, hate or want changed about this one?"></textarea></label>
-        <div class="v-btns">
-          <button class="vb vb-no" id="b-dislike" aria-label="Dislike"><b>✕</b><span>Dislike</span></button>
-          <button class="vb vb-super" id="b-super" aria-label="Super like"><b>★</b><span>Super like</span></button>
-          <button class="vb vb-yes" id="b-like" aria-label="Like"><b>♥</b><span>Like</span></button>
+        <div class="v-controls">
+          <label class="v-comment"><span>Comment (optional)</span><textarea id="v-comment" rows="1" maxlength="600" placeholder="Anything you love, hate or want changed about this one?"></textarea></label>
+          <div class="v-btns">
+            <button class="vb vb-no" id="b-dislike" aria-label="Dislike"><b>✕</b><span>Dislike</span></button>
+            <button class="vb vb-super" id="b-super" aria-label="Super like"><b>★</b><span>Super like</span></button>
+            <button class="vb vb-yes" id="b-like" aria-label="Like"><b>♥</b><span>Like</span></button>
+          </div>
+          <div class="v-sub"><button class="linkbtn" id="b-undo">← Back</button><button class="linkbtn" id="b-skip">Skip</button><button class="linkbtn" id="b-finish">Finish and download</button></div>
+          <p class="v-hint muted">Drag the card or use the keys: ← dislike · → like · ↑ super like · Backspace go back</p>
         </div>
-        <div class="v-sub"><button class="linkbtn" id="b-undo">← Back</button><button class="linkbtn" id="b-skip">Skip</button><button class="linkbtn" id="b-finish">Finish and download</button></div>
-        <p class="v-hint muted">Drag the card or use the keys: ← dislike · → like · ↑ super like · Backspace go back</p>
       </section>
       <section class="v-done panel" id="v-done" hidden></section>
     </div>`;
@@ -63,16 +65,15 @@
     const voted = () => Object.values(S.votes).filter((v) => v.v && v.v !== "skip").length;
     if (S.order.length && S.i < S.order.length && Object.keys(S.votes).length) { const r = $("#v-resume"); r.hidden = false; r.textContent = `Resume: ${S.i} of ${S.order.length} done`; }
 
-    function show(id) { $("#v-start").hidden = id !== "start"; $("#v-play").hidden = id !== "play"; $("#v-done").hidden = id !== "done"; window.scrollTo({ top: 0 }); }
+    function show(id) { document.body.dataset.vote = id === "play" ? "play" : ""; $("#v-start").hidden = id !== "start"; $("#v-play").hidden = id !== "play"; $("#v-done").hidden = id !== "done"; window.scrollTo({ top: 0 }); }
 
     function cardHTML(c) {
       const art = NODE_ART[c.l.id], l = c.l, g = c.g;
       const media = art ? `<img src="${art.src}" alt="" draggable="false">` : `<div class="v-noart">${poster(g, l, "big")}<span class="v-tag">Art coming soon</span></div>`;
-      const bg = art ? `style="background-image:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.55)),url('${art.bg}')"` : "";
+      const bg = art ? `style="background-image:url('${art.bg}')"` : "";
       return `<article class="v-card" style="${cv(g, l)}" id="v-card">
         <div class="v-art" ${bg}>${media}<b class="v-stamp s-like">LIKE</b><b class="v-stamp s-no">NOPE</b><b class="v-stamp s-super">SUPER</b></div>
-        <div class="v-info"><div class="v-people">${esc(g.name)} › ${esc(c.s.name)}</div><h2>${esc(l.name)}</h2><p class="v-quip">${esc(l.tagline)}</p><p class="v-desc">${esc(blurb(l))}</p>
-        <div class="v-meta"><span class="v-role ${l.role}">${l.role === "combat" ? "Combat" : "Support"}</span><span class="v-trio"><i style="background:${l.pal[0]}"></i><i style="background:${l.pal[1]}"></i><i style="background:${l.pal[2]}"></i></span></div></div></article>`;
+        <div class="v-info"><div class="v-people"><span>${esc(g.name)} › ${esc(c.s.name)}</span><span class="v-meta"><span class="v-role ${l.role}">${l.role === "combat" ? "Combat" : "Support"}</span><span class="v-trio"><i style="background:${l.pal[0]}"></i><i style="background:${l.pal[1]}"></i><i style="background:${l.pal[2]}"></i></span></span></div><h2>${esc(l.name)}</h2><p class="v-quip">${esc(l.tagline)}</p><p class="v-desc">${esc(blurb(l))}</p></div></article>`;
     }
 
     function render() {
@@ -188,7 +189,7 @@
       if (e.key === "ArrowRight") { e.preventDefault(); cast("like"); } else if (e.key === "ArrowLeft") { e.preventDefault(); cast("dislike"); } else if (e.key === "ArrowUp") { e.preventDefault(); cast("super"); } else if (e.key === "Backspace") { e.preventDefault(); back(); }
     };
     document.addEventListener("keydown", key);
-    window.__voteCleanup = () => document.removeEventListener("keydown", key);
+    window.__voteCleanup = () => { document.removeEventListener("keydown", key); delete document.body.dataset.vote; };
     // an unfinished deck reopens straight into voting
     if (S.started && S.order.length && S.i < S.order.length) { show("play"); render(); } else show("start");
   };
