@@ -54,7 +54,7 @@ window.CAST = {
   rotatingwatch: C("Male", "N/A (owl-kin)", "alert, head turned right around", "standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder"),
   inkspies: C("Female", "N/A (cuttlefish-kin)", "coolly amused", "slipping sideways with the pistol raised, the tentacles curling behind like a cloak"),
   tentacleengineers: C("Male", "N/A (squid-kin)", "frazzled, delighted focus", "standing braced on two legs working four tools at once, a limb for each"),
-  abyssalscholars: C("Nonbinary", "N/A (octopus-kin)", "serene, eyes half-shut", "drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another"),
+  abyssalscholars: C("Nonbinary", "N/A (octopus-kin)", "serene, sleepy, eyes half-shut", "levitating upright with the open tome in one arm and the ink wand in another swirling a ribbon of ink overhead, tentacles trailing"),
   punchclawduelists: C("Male", "N/A (mantis shrimp-kin)", "taut, predatory glare", "wide fighting stance with one huge club-claw cocked back overhead and the other braced forward"),
   prismgunners: C("Female", "N/A (mantis shrimp-kin)", "fiercely focused, stalked eyes aimed in different directions", "wide braced firing stance leaning into the prism rifle held in both hands"),
   reefshellguard: C("Male", "N/A (mantis shrimp-kin)", "grim, unmoved, gold slit eyes", "crouched in a braced guard behind the ridged shield, the club-claw cocked and ready"),
