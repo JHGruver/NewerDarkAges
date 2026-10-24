@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 131 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 64, Female 52, Nonbinary 15. **Combat/support:** 106/25. **With final art:** 61.
+**Gender split:** Male 64, Female 52, Nonbinary 15. **Combat/support:** 106/25. **With final art:** 62.
 
 ## Art direction in one screen
 
@@ -3160,27 +3160,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | enormous wingspan, a long hooked beak, a narrow body, long thin legs; large size; mobility: flying |
 | Ethnicity + nationality | albatross-kin (not human) |
 | Identity | female anthropomorphic albatross character |
-| Wardrobe | huge-winged albatross-kin in a white-and-sea-blue salt-stained coat with amber trim and round goggles, a sea-chart satchel, a weather-vane staff held up in one hand, wings spread wide and a small wind-flag banner snapping behind |
+| Wardrobe | albatross-kin in flight with huge white-and-blue wings with black tips, a long hooked amber beak, round goggles on a blue hood, a white-and-blue coat with a dark belt and amber trim, an amber compass satchel at the hip, yellow webbed feet with dark toes, and a weather-vane compass staff held high carrying a long blue wave-pattern flag snapping in the wind |
 | Accessories | Sea-chart satchel; weather vane staff; wind-flag banner; goggles |
-| Pose | wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind |
+| Pose | soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing |
 | Facial expression | calm, far-seeing, wind-weathered |
 | People | Were-Creature |
 | Class | Avian-kin |
 | Subclass | Albatross Gale Sailors |
 | Type | Enchanter |
 | Combat or support | Support |
-| Silhouette hook | wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind; the Sea-chart satchel and the weather vane staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing; the Sea-chart satchel and the weather vane staff break the outline so it reads instantly as a black shape |
 | Shape language | circles and stars around a charm, instrument or talisman |
 | Main color (60%) | #2a74b8: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ffb347: the eyes, the Sea-chart satchel and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-galesailors.png` and `art/v2/were-galesailors-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind.
+1. Black-fill test: the silhouette must still read as soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing.
 2. Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Sea-chart satchel and the pose must be visible at 64 px.
 4. Flat colors: #2a74b8 / #f4f1e8 / #ffb347 as separate flat shapes divided by black line; no gradients or glow.
@@ -3200,8 +3200,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Albatross Gale Sailors, female anthropomorphic albatross character (albatross-kin (not human)), apparent age mid 50s. enormous wingspan, a long hooked beak, a narrow body, long thin legs, large size. Pose: wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind. Expression: calm, far-seeing, wind-weathered, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sea-chart satchel. SECOND ITEM, kept plain: weather vane staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge-winged albatross-kin in a white-and-sea-blue salt-stained coat with amber trim and round goggles, a sea-chart satchel, a weather-vane staff held up in one hand, wings spread wide and a small wind-flag banner snapping behind.
+CHARACTER: Albatross Gale Sailors, female anthropomorphic albatross character (albatross-kin (not human)), apparent age mid 50s. enormous wingspan, a long hooked beak, a narrow body, long thin legs, large size. Pose: soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing. Expression: calm, far-seeing, wind-weathered, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sea-chart satchel. SECOND ITEM, kept plain: weather vane staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: albatross-kin in flight with huge white-and-blue wings with black tips, a long hooked amber beak, round goggles on a blue hood, a white-and-blue coat with a dark belt and amber trim, an amber compass satchel at the hip, yellow webbed feet with dark toes.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #2a74b8 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffb347 about 10%, on the eyes, the Sea-chart satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).

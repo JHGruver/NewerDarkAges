@@ -46,7 +46,7 @@ window.CAST = {
   regrowthmedics: C("Nonbinary", "N/A (axolotl-kin)", "bright, reassuring smile", "kneeling on one knee with a glowing hand over a wound, the satchel open on the ground"),
   gillstorm: C("Female", "N/A (axolotl-kin)", "intense, gills flared", "twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills"),
   mudglowlurkers: C("Male", "N/A (axolotl-kin)", "wide, unblinking stare", "slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing"),
-  galesailors: C("Female", "N/A (albatross-kin)", "calm, far-seeing, wind-weathered", "wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind"),
+  galesailors: C("Female", "N/A (albatross-kin)", "calm, far-seeing, wind-weathered", "soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing"),
   murdervanguard: C("Male", "N/A (raven-kin)", "cold, beaked glare", "diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind"),
   nighteyesnipers: C("Male", "N/A (owl-kin)", "steady, enormous-eyed focus", "perched on one foot on a branch with the other knee up, the rifle braced across the raised knee"),
   inkspies: C("Female", "N/A (cuttlefish-kin)", "coolly amused, narrowed yellow eyes", "slipping sideways in a wide low stance with the silenced pistol raised and the arm-tentacles curling behind like a cloak"),
