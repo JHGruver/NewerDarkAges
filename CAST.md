@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 57.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 58.
 
 ## Art direction in one screen
 
@@ -3666,27 +3666,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | armored and compact, a wide shell back, one huge club claw and one small claw; medium size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
 | Identity | male anthropomorphic mantis shrimp character |
-| Wardrobe | armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak |
+| Wardrobe | armored mantis-shrimp-kin duelist in magenta, yellow and navy carapace plates with a spiky crest and two eye-stalks with striped bulbs, a dark cross-strap with a grey buckle and a belt pouch, pointed pink heels, a huge navy-and-magenta club-claw cocked back in one arm and a second claw held forward in a wide fighting stance |
 | Accessories | Club-claws; plated carapace; striking gauntlets; reef-cloak |
-| Pose | stalking forward in a low guard with the club claw cocked back and the small claw braced forward |
-| Facial expression | taut, predatory |
+| Pose | wide fighting stance with one huge club-claw cocked back overhead and the other braced forward |
+| Facial expression | taut, predatory glare |
 | People | Were-Creature |
 | Class | Mantis Shrimp-kin |
 | Subclass | Punch-Claw Duelists |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | stalking forward in a low guard with the club claw cocked back and the small claw braced forward; the Club-claws and the plated carapace break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide fighting stance with one huge club-claw cocked back overhead and the other braced forward; the Club-claws and the plated carapace break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #ca148b: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #ffd60a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #023e8a: the eyes, the Club-claws and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-punchclawduelists.png` and `art/v2/were-punchclawduelists-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as stalking forward in a low guard with the club claw cocked back and the small claw braced forward.
+1. Black-fill test: the silhouette must still read as wide fighting stance with one huge club-claw cocked back overhead and the other braced forward.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Club-claws and the pose must be visible at 64 px.
 4. Flat colors: #ca148b / #ffd60a / #023e8a as separate flat shapes divided by black line; no gradients or glow.
@@ -3706,8 +3706,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Punch-Claw Duelists, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 30s. armored and compact, a wide shell back, one huge club claw and one small claw, medium size. Pose: stalking forward in a low guard with the club claw cocked back and the small claw braced forward. Expression: taut, predatory, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Club-claws. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored mantis-shrimp-kin with plated carapace and striking gauntlets, club-claws cocked back, a reef-cloak.
+CHARACTER: Punch-Claw Duelists, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 30s. armored and compact, a wide shell back, one huge club claw and one small claw, medium size. Pose: wide fighting stance with one huge club-claw cocked back overhead and the other braced forward. Expression: taut, predatory glare, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Club-claws. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored mantis-shrimp-kin duelist in magenta, yellow and navy carapace plates with a spiky crest and two eye-stalks with striped bulbs, a dark cross-strap with a grey buckle and a belt pouch, pointed pink heels, a huge navy-and-magenta club-claw cocked back in one arm and a second claw held forward in a wide fighting stance.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ca148b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ffd60a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023e8a about 10%, on the eyes, the Club-claws and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
