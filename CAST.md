@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 131 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 64, Female 52, Nonbinary 15. **Combat/support:** 106/25. **With final art:** 62.
+**Gender split:** Male 64, Female 52, Nonbinary 15. **Combat/support:** 106/25. **With final art:** 63.
 
 ## Art direction in one screen
 
@@ -3089,27 +3089,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | compact, round-headed with huge eyes, a thin body, spindly legs; medium size; mobility: flying |
 | Ethnicity + nationality | owl-kin (not human) |
 | Identity | male anthropomorphic owl character |
-| Wardrobe | owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands |
+| Wardrobe | owl-kin sniper with huge golden eyes and tufted ears, black night-vision goggles on a cream-and-purple hood, a shaggy cream ghillie cloak with purple trim, a holster at the hip, striped purple leg wraps, dark taloned feet gripping a branch, a long pale-blue scoped rifle aimed in both hands |
 | Accessories | Long rifle with thermal scope; night-goggles; ghillie cloak |
-| Pose | perched on one foot on a branch with the other knee up, the rifle braced across the raised knee |
+| Pose | perched on one foot on a branch with the other leg tucked, the long rifle aimed forward in both hands |
 | Facial expression | steady, enormous-eyed focus |
 | People | Were-Creature |
 | Class | Avian-kin |
 | Subclass | Owl Night-Eye Snipers |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | perched on one foot on a branch with the other knee up, the rifle braced across the raised knee; the Long rifle with thermal scope and the night-goggles break the outline so it reads instantly as a black shape |
+| Silhouette hook | perched on one foot on a branch with the other leg tucked, the long rifle aimed forward in both hands; the Long rifle with thermal scope and the night-goggles break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #fff5bc: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #3c096c: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #c6e2fe: the eyes, the Long rifle with thermal scope and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-nighteyesnipers.png` and `art/v2/were-nighteyesnipers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as perched on one foot on a branch with the other knee up, the rifle braced across the raised knee.
+1. Black-fill test: the silhouette must still read as perched on one foot on a branch with the other leg tucked, the long rifle aimed forward in both hands.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Long rifle with thermal scope and the pose must be visible at 64 px.
 4. Flat colors: #fff5bc / #3c096c / #c6e2fe as separate flat shapes divided by black line; no gradients or glow.
@@ -3129,8 +3129,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Owl Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact, round-headed with huge eyes, a thin body, spindly legs, medium size. Pose: perched on one foot on a branch with the other knee up, the rifle braced across the raised knee. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle with thermal scope. SECOND ITEM, kept plain: night-goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands.
+CHARACTER: Owl Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact, round-headed with huge eyes, a thin body, spindly legs, medium size. Pose: perched on one foot on a branch with the other leg tucked, the long rifle aimed forward in both hands. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle with thermal scope. SECOND ITEM, kept plain: night-goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: owl-kin sniper with huge golden eyes and tufted ears, black night-vision goggles on a cream-and-purple hood, a shaggy cream ghillie cloak with purple trim, a holster at the hip, striped purple leg wraps, dark taloned feet gripping a branch.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fff5bc about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3c096c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c6e2fe about 10%, on the eyes, the Long rifle with thermal scope and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
