@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 55.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 56.
 
 ## Art direction in one screen
 
@@ -3808,27 +3808,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | heavily armored, a dome shell, a wide low body; large size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
 | Identity | male anthropomorphic mantis shrimp character |
-| Wardrobe | heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand |
+| Wardrobe | heavily armored mantis-shrimp-kin in hot-pink plate shell with teal straps and gold spikes, a teal helmet-head with gold eyes and long curved antennae, a belt with a gold buckle, a huge ridged pink-and-gold shell shield on one arm and a heavy club-claw ready in the other, crouched in a braced guard |
 | Accessories | Shell shield; plated carapace; short club-claws; helmet |
-| Pose | kneeling behind a ridged shield with the short claw ready |
-| Facial expression | grim, unmoved |
+| Pose | crouched in a braced guard behind the ridged shield, the club-claw cocked and ready |
+| Facial expression | grim, unmoved, gold slit eyes |
 | People | Were-Creature |
 | Class | Mantis Shrimp-kin |
 | Subclass | Reef Shell-Guard |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | kneeling behind a ridged shield with the short claw ready; the Shell shield and the plated carapace break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched in a braced guard behind the ridged shield, the club-claw cocked and ready; the Shell shield and the plated carapace break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #e95cbf: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #118ab2: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ffd166: the eyes, the Shell shield and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-reefshellguard.png` and `art/v2/were-reefshellguard-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as kneeling behind a ridged shield with the short claw ready.
+1. Black-fill test: the silhouette must still read as crouched in a braced guard behind the ridged shield, the club-claw cocked and ready.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Shell shield and the pose must be visible at 64 px.
 4. Flat colors: #e95cbf / #118ab2 / #ffd166 as separate flat shapes divided by black line; no gradients or glow.
@@ -3848,8 +3848,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Reef Shell-Guard, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age late 20s. heavily armored, a dome shell, a wide low body, large size. Pose: kneeling behind a ridged shield with the short claw ready. Expression: grim, unmoved, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shell shield. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: heavily armored mantis-shrimp-kin in a helmet, a ridged shell shield on one arm, a short club-claw in the other hand.
+CHARACTER: Reef Shell-Guard, male anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age late 20s. heavily armored, a dome shell, a wide low body, large size. Pose: crouched in a braced guard behind the ridged shield, the club-claw cocked and ready. Expression: grim, unmoved, gold slit eyes, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shell shield. SECOND ITEM, kept plain: plated carapace. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: heavily armored mantis-shrimp-kin in hot-pink plate shell with teal straps and gold spikes, a teal helmet-head with gold eyes and long curved antennae, a belt with a gold buckle, a huge ridged pink-and-gold shell shield on one arm and a heavy club-claw ready in the other, crouched in a braced guard.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #e95cbf about 60%, on the largest garment, armor, fur-marking or body areas; secondary #118ab2 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd166 about 10%, on the eyes, the Shell shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
