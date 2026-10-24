@@ -381,8 +381,7 @@
      "crocodile": "River-holders on the coast. Smugglers and matriarchs.",
      "capybara": "The calm clans: healers and diplomats who sit at the Mystic meetings.",
      "axolotl": "Coastal healers and swamp ambushers.",
-     "raven": "Oracles and scouts who watch the borders.",
-     "owl": "Night sentries.",
+     "avian": "The sky-post and the border watch: raven flock-fighters, owl night marksmen and albatross scouts who carry the wind.",
      "cephalopod": "The flooded harbors' three cephalopod trades: cuttlefish spies, squid engineers and octopus scholars.",
      "mantisshrimp": "Reef guards and shock troops.",
      "moth": "Light-keepers who tend the old signal towers.",
@@ -3144,139 +3143,15 @@
   },
   {
    "nda": "042",
-   "age": "mid 60s",
-   "poseFamily": "FLOAT",
-   "id": "gloamwings",
-   "name": "Gloamwing Oracles",
-   "tagline": "Your fortune, for a feather.",
-   "people": "Were-Creature",
-   "peopleId": "were",
-   "cls": "Raven-kin",
-   "subclass": "Gloamwing Oracles",
-   "role": "Support",
-   "type": "Enchanter",
-   "typeKey": "enchanter",
-   "gender": "Female",
-   "ethnicity": "raven-kin (not human)",
-   "identity": "female anthropomorphic raven character",
-   "physique": "slender and feathered with a long neck, long thin legs, a big wing-cloak",
-   "size": "medium",
-   "mobility": "flying",
-   "expression": "mysterious, knowing",
-   "pose": "hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other",
-   "wardrobe": "slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares",
-   "accessories": "Crystal-ball lens; feather staff; star-sewn cloak; signal flares",
-   "shape": "circles and stars around a charm, instrument or talisman",
-   "silhouette": "hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other; the Crystal-ball lens and the feather staff break the outline so it reads instantly as a black shape",
-   "main": "#3a0ca3",
-   "secondary": "#f9c74f",
-   "pop": "#90e0ef",
-   "mainUse": "the largest garment, armor, fur-marking or body areas",
-   "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
-   "popUse": "the eyes, the Crystal-ball lens and one small magical detail",
-   "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
-   "peopleColor": "#b4532a",
-   "peopleColorName": "Rust",
-   "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
-   "midground": "a moonlit cliff terrace with an armillary sphere, a stone altar of feathers, a rusted dish",
-   "foreground": "a bell tower, stacked scrolls",
-   "bgItems": "a moonlit cliff terrace with an armillary sphere, a stone altar of feathers, a rusted dish, a bell tower, stacked scrolls",
-   "art": null,
-   "look": "Slender raven-kin in a star-patterned cloak holding up a glowing orb, crescent staff in the other hand.",
-   "summary": "Omen-readers who warn the party of what is coming. Gloamwing Oracles see ambushes, traps and betrayals before they happen.",
-   "lore": "They read the flight of birds and the shape of smoke. They are rarely wrong and always dramatic.",
-   "abilities": "Omen: reveal a hidden event\nFeather Ward: protect an ally\nCawing Warning: alert allies to danger",
-   "strengths": "Prophecy and early warning; Strong party support",
-   "weaknesses": "Cryptic; Low damage",
-   "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Oracles and scouts who watch the borders.",
-   "nameOnSheet": "Gloamwing Oracles",
-   "fileChar": "art/v2/were-gloamwings.png",
-   "fileBg": "art/v2/were-gloamwings-bg.jpg",
-   "jack": [
-    "Black-fill test: the silhouette must still read as hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other.",
-    "Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
-    "Thumbnail test: the Crystal-ball lens and the pose must be visible at 64 px.",
-    "Flat colors: #3a0ca3 / #f9c74f / #90e0ef as separate flat shapes divided by black line; no gradients or glow.",
-    "Distinctive without detail: identifiable by Crystal-ball lens and feather staff and the enchanter shape language."
-   ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Gloamwing Oracles, female anthropomorphic raven character (raven-kin (not human)), apparent age mid 60s. slender and feathered with a long neck, long thin legs, a big wing-cloak, medium size. Pose: hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other. Expression: mysterious, knowing, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Crystal-ball lens. SECOND ITEM, kept plain: feather staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #3a0ca3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f9c74f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #90e0ef about 10%, on the eyes, the Crystal-ball lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Enchanter, support, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Gloamwing Oracles with no people, creatures, figures, silhouettes or text. Midground: a moonlit cliff terrace with an armillary sphere, a stone altar of feathers, a rusted dish. Foreground: a bell tower, stacked scrolls, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #3a0ca3 for the biggest glowing sources and surfaces, secondary #f9c74f for medium panels, banners and lights, pop #90e0ef for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
-   "vet": null
-  },
-  {
-   "nda": "043",
-   "age": "early 30s",
-   "poseFamily": "HANG",
-   "id": "magpies",
-   "name": "Salvage Magpies",
-   "tagline": "Finders, keepers, fighters.",
-   "people": "Were-Creature",
-   "peopleId": "were",
-   "cls": "Raven-kin",
-   "subclass": "Salvage Magpies",
-   "role": "Combat",
-   "type": "Fighter",
-   "typeKey": "fighter",
-   "gender": "Nonbinary",
-   "ethnicity": "magpie-kin (not human)",
-   "identity": "nonbinary anthropomorphic magpie character",
-   "physique": "small and quick, a sleek head, a long barred tail, a thin frame",
-   "size": "small",
-   "mobility": "flying",
-   "expression": "greedy delight",
-   "pose": "swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak",
-   "wardrobe": "magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch",
-   "accessories": "Twin hook-blades; relic bag; magnifying goggles; gem pouch",
-   "shape": "balanced diagonals with one clear weapon line",
-   "silhouette": "swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak; the Twin hook-blades and the relic bag break the outline so it reads instantly as a black shape",
-   "main": "#aafdff",
-   "secondary": "#1d3557",
-   "pop": "#f54852",
-   "mainUse": "the largest garment, armor, fur-marking or body areas",
-   "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
-   "popUse": "the eyes, the Twin hook-blades and one small magical detail",
-   "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
-   "peopleColor": "#b4532a",
-   "peopleColorName": "Rust",
-   "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
-   "midground": "a magpie's treasure nest of shelves and crates full of salvaged relics, a stack of TVs",
-   "foreground": "a shop counter, glittering heaps of scrap",
-   "bgItems": "a magpie's treasure nest of shelves and crates full of salvaged relics, a stack of TVs, a shop counter, glittering heaps of scrap",
-   "art": null,
-   "look": "Magpie-kin in a ring-covered coat grinning over a sack of loot, a blade in each hand.",
-   "summary": "Scavenger-mercenaries who hunt relics and fight over them. Salvage Magpies pick fights they can win and loot what remains.",
-   "lore": "Every Magpie's nest is a vault of trophies. Visit one and you may leave with a ring, a spoon and a debt.",
-   "abilities": "Shiny Sense: detect relics\nTrinket Swap: trade an item mid-fight\nDistracting Gleam: blind foes",
-   "strengths": "Find loot and relics; Strong dual-wield damage",
-   "weaknesses": "Distracted by shiny things; Greedy",
-   "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Oracles and scouts who watch the borders.",
-   "nameOnSheet": "Salvage Magpies",
-   "fileChar": "art/v2/were-magpies.png",
-   "fileBg": "art/v2/were-magpies-bg.jpg",
-   "jack": [
-    "Black-fill test: the silhouette must still read as swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak.",
-    "Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
-    "Thumbnail test: the Twin hook-blades and the pose must be visible at 64 px.",
-    "Flat colors: #aafdff / #1d3557 / #f54852 as separate flat shapes divided by black line; no gradients or glow.",
-    "Distinctive without detail: identifiable by Twin hook-blades and relic bag and the fighter shape language."
-   ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Salvage Magpies, nonbinary anthropomorphic magpie character (magpie-kin (not human)), apparent age early 30s. small and quick, a sleek head, a long barred tail, a thin frame, small size. Pose: swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak. Expression: greedy delight, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Twin hook-blades. SECOND ITEM, kept plain: relic bag. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #aafdff about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1d3557 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f54852 about 10%, on the eyes, the Twin hook-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Salvage Magpies with no people, creatures, figures, silhouettes or text. Midground: a magpie's treasure nest of shelves and crates full of salvaged relics, a stack of TVs. Foreground: a shop counter, glittering heaps of scrap, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #aafdff for the biggest glowing sources and surfaces, secondary #1d3557 for medium panels, banners and lights, pop #f54852 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
-   "vet": null
-  },
-  {
-   "nda": "044",
    "age": "early 40s",
    "poseFamily": "DIVE",
    "id": "murdervanguard",
-   "name": "Murder Vanguard",
+   "name": "Raven Murder Vanguard",
    "tagline": "One of us. All of us.",
    "people": "Were-Creature",
    "peopleId": "were",
-   "cls": "Raven-kin",
-   "subclass": "Murder Vanguard",
+   "cls": "Avian-kin",
+   "subclass": "Raven Murder Vanguard",
    "role": "Combat",
    "type": "Assassin",
    "typeKey": "assassin",
@@ -3313,8 +3188,8 @@
    "strengths": "Coordinated flock strikes; Strong against single targets",
    "weaknesses": "Weak when isolated; Hold grudges too long",
    "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Oracles and scouts who watch the borders.",
-   "nameOnSheet": "Murder Vanguard",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The sky-post and the border watch: raven flock-fighters, owl night marksmen and albatross scouts who carry the wind.",
+   "nameOnSheet": "Raven Murder Vanguard",
    "fileChar": "art/v2/were-murdervanguard.png",
    "fileBg": "art/v2/were-murdervanguard-bg.jpg",
    "jack": [
@@ -3324,83 +3199,21 @@
     "Flat colors: #282956 / #ef233c / #def6ff as separate flat shapes divided by black line; no gradients or glow.",
     "Distinctive without detail: identifiable by Talon-blades and feather mantle and the assassin shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, hunched wing-shoulders, a dagger beak, long legs, medium size. Pose: diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: feather mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #282956 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ef233c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #def6ff about 10%, on the eyes, the Talon-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Assassin, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Murder Vanguard with no people, creatures, figures, silhouettes or text. Midground: a dead tree of perched scrap and wire, a rooftop crow roost, a chain-link fence. Foreground: a burned-out bus, a stack of ledgers, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #282956 for the biggest glowing sources and surfaces, secondary #ef233c for medium panels, banners and lights, pop #def6ff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Raven Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, hunched wing-shoulders, a dagger beak, long legs, medium size. Pose: diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: feather mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #282956 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ef233c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #def6ff about 10%, on the eyes, the Talon-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Assassin, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Raven Murder Vanguard with no people, creatures, figures, silhouettes or text. Midground: a dead tree of perched scrap and wire, a rooftop crow roost, a chain-link fence. Foreground: a burned-out bus, a stack of ledgers, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #282956 for the biggest glowing sources and surfaces, secondary #ef233c for medium panels, banners and lights, pop #def6ff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
-   "nda": "045",
-   "age": "early 20s",
-   "poseFamily": "LEAP",
-   "id": "hushwings",
-   "name": "Hushwing Strikers",
-   "tagline": "Silent flight. Silent end.",
-   "people": "Were-Creature",
-   "peopleId": "were",
-   "cls": "Owl-kin",
-   "subclass": "Hushwing Strikers",
-   "role": "Combat",
-   "type": "Fighter",
-   "typeKey": "fighter",
-   "gender": "Female",
-   "ethnicity": "owl-kin (not human)",
-   "identity": "female anthropomorphic owl character",
-   "physique": "round and fluffy, a big heart-shaped face, a short neck, huge round eyes",
-   "size": "medium",
-   "mobility": "flying",
-   "expression": "grave, unblinking",
-   "pose": "launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak",
-   "wardrobe": "fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt",
-   "accessories": "Talon-blades; spectacles; scroll case; wing-cloak",
-   "shape": "balanced diagonals with one clear weapon line",
-   "silhouette": "launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak; the Talon-blades and the spectacles break the outline so it reads instantly as a black shape",
-   "main": "#7aa1ce",
-   "secondary": "#5f0f40",
-   "pop": "#f78f0a",
-   "mainUse": "the largest garment, armor, fur-marking or body areas",
-   "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
-   "popUse": "the eyes, the Talon-blades and one small magical detail",
-   "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
-   "peopleColor": "#b4532a",
-   "peopleColorName": "Rust",
-   "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
-   "midground": "a moonlit treetop watchpost, a signal platform on a dead pylon, a hollow tree",
-   "foreground": "a bell, a hanging lantern",
-   "bgItems": "a moonlit treetop watchpost, a signal platform on a dead pylon, a hollow tree, a bell, a hanging lantern",
-   "art": null,
-   "look": "Fluffy owl-kin in a scarf and plate bracers diving with talon-blades extended, moon behind.",
-   "summary": "Night-fighters who patrol borders and kill what crosses them. Hushwing Strikers dive from the dark and leave nothing to report.",
-   "lore": "They carry secrets nobody else can. They sit in judgment of arguments, and they have heard it all.",
-   "abilities": "Silent Glide: fly unheard\nJudging Stare: weaken a foe\nNight Dive: heavy opening strike",
-   "strengths": "Silent flight and night vision; Heavy dive damage",
-   "weaknesses": "Poor in daylight; Slow to decide",
-   "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Night sentries.",
-   "nameOnSheet": "Hushwing Strikers",
-   "fileChar": "art/v2/were-hushwings.png",
-   "fileBg": "art/v2/were-hushwings-bg.jpg",
-   "jack": [
-    "Black-fill test: the silhouette must still read as launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak.",
-    "Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
-    "Thumbnail test: the Talon-blades and the pose must be visible at 64 px.",
-    "Flat colors: #7aa1ce / #5f0f40 / #f78f0a as separate flat shapes divided by black line; no gradients or glow.",
-    "Distinctive without detail: identifiable by Talon-blades and spectacles and the fighter shape language."
-   ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Hushwing Strikers, female anthropomorphic owl character (owl-kin (not human)), apparent age early 20s. round and fluffy, a big heart-shaped face, a short neck, huge round eyes, medium size. Pose: launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak. Expression: grave, unblinking, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: spectacles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #7aa1ce about 60%, on the largest garment, armor, fur-marking or body areas; secondary #5f0f40 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f78f0a about 10%, on the eyes, the Talon-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Hushwing Strikers with no people, creatures, figures, silhouettes or text. Midground: a moonlit treetop watchpost, a signal platform on a dead pylon, a hollow tree. Foreground: a bell, a hanging lantern, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #7aa1ce for the biggest glowing sources and surfaces, secondary #5f0f40 for medium panels, banners and lights, pop #f78f0a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
-   "vet": null
-  },
-  {
-   "nda": "046",
+   "nda": "043",
    "age": "early 70s",
    "poseFamily": "BALANCE",
    "id": "nighteyesnipers",
-   "name": "Night-Eye Snipers",
+   "name": "Owl Night-Eye Snipers",
    "tagline": "Enormous eyes. One bullet.",
    "people": "Were-Creature",
    "peopleId": "were",
-   "cls": "Owl-kin",
-   "subclass": "Night-Eye Snipers",
+   "cls": "Avian-kin",
+   "subclass": "Owl Night-Eye Snipers",
    "role": "Combat",
    "type": "Blaster",
    "typeKey": "blaster",
@@ -3437,8 +3250,8 @@
    "strengths": "Extreme range and night vision; Reveal the enemy's position for allies",
    "weaknesses": "Poor in daylight; Slow to relocate",
    "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Night sentries.",
-   "nameOnSheet": "Night-Eye Snipers",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The sky-post and the border watch: raven flock-fighters, owl night marksmen and albatross scouts who carry the wind.",
+   "nameOnSheet": "Owl Night-Eye Snipers",
    "fileChar": "art/v2/were-nighteyesnipers.png",
    "fileBg": "art/v2/were-nighteyesnipers-bg.jpg",
    "jack": [
@@ -3448,74 +3261,74 @@
     "Flat colors: #fff5bc / #3c096c / #c6e2fe as separate flat shapes divided by black line; no gradients or glow.",
     "Distinctive without detail: identifiable by Long rifle with thermal scope and night-goggles and the blaster shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact, round-headed with huge eyes, a thin body, spindly legs, medium size. Pose: perched on one foot on a branch with the other knee up, the rifle braced across the raised knee. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle with thermal scope. SECOND ITEM, kept plain: night-goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #fff5bc about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3c096c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c6e2fe about 10%, on the eyes, the Long rifle with thermal scope and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Blaster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Night-Eye Snipers with no people, creatures, figures, silhouettes or text. Midground: a rusted high-tension pylon with a sniper perch, a dead rail yard. Foreground: a collapsed bridge, a searchlight, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #fff5bc for the biggest glowing sources and surfaces, secondary #3c096c for medium panels, banners and lights, pop #c6e2fe for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Owl Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact, round-headed with huge eyes, a thin body, spindly legs, medium size. Pose: perched on one foot on a branch with the other knee up, the rifle braced across the raised knee. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle with thermal scope. SECOND ITEM, kept plain: night-goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #fff5bc about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3c096c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c6e2fe about 10%, on the eyes, the Long rifle with thermal scope and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Blaster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Owl Night-Eye Snipers with no people, creatures, figures, silhouettes or text. Midground: a rusted high-tension pylon with a sniper perch, a dead rail yard. Foreground: a collapsed bridge, a searchlight, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #fff5bc for the biggest glowing sources and surfaces, secondary #3c096c for medium panels, banners and lights, pop #c6e2fe for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
-   "nda": "047",
-   "age": "mid 60s",
-   "poseFamily": "TWIST",
-   "id": "rotatingwatch",
-   "name": "Rotating Watch",
-   "tagline": "All around. Always.",
+   "nda": "044",
+   "age": "mid 50s",
+   "poseFamily": "FLOAT",
+   "id": "galesailors",
+   "name": "Albatross Gale Sailors",
+   "tagline": "Wind at your back. Always.",
    "people": "Were-Creature",
    "peopleId": "were",
-   "cls": "Owl-kin",
-   "subclass": "Rotating Watch",
-   "role": "Combat",
-   "type": "Tank",
-   "typeKey": "tank",
-   "gender": "Male",
-   "ethnicity": "owl-kin (not human)",
-   "identity": "male anthropomorphic owl character",
-   "physique": "round and sturdy, a barrel body, a head that turns a full half-circle on the neck",
-   "size": "medium",
-   "mobility": "grounded",
-   "expression": "alert, head turned right around",
-   "pose": "standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder",
-   "wardrobe": "round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder",
-   "accessories": "Halberd; signal lamp; alarm horn; reinforced helm",
-   "shape": "wide blocky rectangles and a big shield shape",
-   "silhouette": "standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder; the Halberd and the signal lamp break the outline so it reads instantly as a black shape",
-   "main": "#7091a1",
-   "secondary": "#f28c16",
-   "pop": "#023047",
+   "cls": "Avian-kin",
+   "subclass": "Albatross Gale Sailors",
+   "role": "Support",
+   "type": "Enchanter",
+   "typeKey": "enchanter",
+   "gender": "Female",
+   "ethnicity": "albatross-kin (not human)",
+   "identity": "female anthropomorphic albatross character",
+   "physique": "enormous wingspan, a long hooked beak, a narrow body, long thin legs",
+   "size": "large",
+   "mobility": "flying",
+   "expression": "calm, far-seeing, wind-weathered",
+   "pose": "wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind",
+   "wardrobe": "huge-winged albatross-kin in a white-and-sea-blue salt-stained coat with amber trim and round goggles, a sea-chart satchel, a weather-vane staff held up in one hand, wings spread wide and a small wind-flag banner snapping behind",
+   "accessories": "Sea-chart satchel; weather vane staff; wind-flag banner; goggles",
+   "shape": "circles and stars around a charm, instrument or talisman",
+   "silhouette": "wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind; the Sea-chart satchel and the weather vane staff break the outline so it reads instantly as a black shape",
+   "main": "#2a74b8",
+   "secondary": "#f4f1e8",
+   "pop": "#ffb347",
    "mainUse": "the largest garment, armor, fur-marking or body areas",
    "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
-   "popUse": "the eyes, the Halberd and one small magical detail",
+   "popUse": "the eyes, the Sea-chart satchel and one small magical detail",
    "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
    "peopleColor": "#b4532a",
    "peopleColorName": "Rust",
    "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
-   "midground": "a border watch post with a signal lamp, a barbed-wire fence, a guard tower",
-   "foreground": "a barricade, a ringing alarm bell",
-   "bgItems": "a border watch post with a signal lamp, a barbed-wire fence, a guard tower, a barricade, a ringing alarm bell",
+   "midground": "a windswept seawall lookout with a signal mast, a weather vane tower, a coiled rope pile",
+   "foreground": "sea-chart tables, rusted wind turbines and fluttering pennants",
+   "bgItems": "a windswept seawall lookout with a signal mast, a weather vane tower, a coiled rope pile, sea-chart tables, rusted wind turbines and fluttering pennants",
    "art": null,
-   "look": "Round owl-kin sentry with a halberd, head turned fully backward over the shoulder, signal lamp glowing.",
-   "summary": "Sentry-fighters who can turn their heads nearly all the way around. Rotating Watch guards keep every approach covered and punish every flank.",
-   "lore": "A Watch post is manned by an owl who has not blinked in a week. They are never surprised.",
-   "abilities": "Full Turn: attack in any direction without penalty\nAlarm Hoot: alert allies and reveal enemies\nSteady Post: gain defense while stationary",
-   "strengths": "360-degree overwatch; Punish flanking enemies",
-   "weaknesses": "Slow to leave their post; Poor mobility",
+   "look": "Huge-winged albatross-kin in a salt-stained coat holding a weather-vane staff, wings wide and a flag snapping in the wind behind.",
+   "summary": "Albatross navigators who ride the long winds and share them. Gale Sailors scout the whole territory from the sky and fill their allies' sails with a tailwind.",
+   "lore": "An albatross can cross an ocean without landing, and the Pack's Gale Sailors have crossed every border without being stopped. They carry the weather in their wings.",
+   "abilities": "Tailwind: boost an ally's speed for a turn\nLong Glide: scout a far zone and reveal it\nStorm Petrel Call: summon a gust that pushes enemies back",
+   "strengths": "Long-range scouting and map reveal; Speed and range buffs for the whole party",
+   "weaknesses": "Clumsy on the ground; Low damage",
    "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Night sentries.",
-   "nameOnSheet": "Rotating Watch",
-   "fileChar": "art/v2/were-rotatingwatch.png",
-   "fileBg": "art/v2/were-rotatingwatch-bg.jpg",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The sky-post and the border watch: raven flock-fighters, owl night marksmen and albatross scouts who carry the wind.",
+   "nameOnSheet": "Albatross Gale Sailors",
+   "fileChar": "art/v2/were-galesailors.png",
+   "fileBg": "art/v2/were-galesailors-bg.jpg",
    "jack": [
-    "Black-fill test: the silhouette must still read as standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder.",
-    "Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
-    "Thumbnail test: the Halberd and the pose must be visible at 64 px.",
-    "Flat colors: #7091a1 / #f28c16 / #023047 as separate flat shapes divided by black line; no gradients or glow.",
-    "Distinctive without detail: identifiable by Halberd and signal lamp and the tank shape language."
+    "Black-fill test: the silhouette must still read as wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind.",
+    "Few large shapes: circles and stars around a charm, instrument or talisman; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
+    "Thumbnail test: the Sea-chart satchel and the pose must be visible at 64 px.",
+    "Flat colors: #2a74b8 / #f4f1e8 / #ffb347 as separate flat shapes divided by black line; no gradients or glow.",
+    "Distinctive without detail: identifiable by Sea-chart satchel and weather vane staff and the enchanter shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Rotating Watch, male anthropomorphic owl character (owl-kin (not human)), apparent age mid 60s. round and sturdy, a barrel body, a head that turns a full half-circle on the neck, medium size. Pose: standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder. Expression: alert, head turned right around, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Halberd. SECOND ITEM, kept plain: signal lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #7091a1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f28c16 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023047 about 10%, on the eyes, the Halberd and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Rotating Watch with no people, creatures, figures, silhouettes or text. Midground: a border watch post with a signal lamp, a barbed-wire fence, a guard tower. Foreground: a barricade, a ringing alarm bell, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #7091a1 for the biggest glowing sources and surfaces, secondary #f28c16 for medium panels, banners and lights, pop #023047 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Albatross Gale Sailors, female anthropomorphic albatross character (albatross-kin (not human)), apparent age mid 50s. enormous wingspan, a long hooked beak, a narrow body, long thin legs, large size. Pose: wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind. Expression: calm, far-seeing, wind-weathered, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sea-chart satchel. SECOND ITEM, kept plain: weather vane staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge-winged albatross-kin in a white-and-sea-blue salt-stained coat with amber trim and round goggles, a sea-chart satchel, a weather-vane staff held up in one hand, wings spread wide and a small wind-flag banner snapping behind.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #2a74b8 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffb347 about 10%, on the eyes, the Sea-chart satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Enchanter, support, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Albatross Gale Sailors with no people, creatures, figures, silhouettes or text. Midground: a windswept seawall lookout with a signal mast, a weather vane tower, a coiled rope pile. Foreground: sea-chart tables, rusted wind turbines and fluttering pennants, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #2a74b8 for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ffb347 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
-   "nda": "048",
+   "nda": "045",
    "age": "early 20s",
    "poseFamily": "SLIDE",
    "id": "inkspies",
@@ -3580,7 +3393,7 @@
    "vet": null
   },
   {
-   "nda": "049",
+   "nda": "046",
    "age": "early 30s",
    "poseFamily": "PLANTED",
    "id": "tentacleengineers",
@@ -3645,7 +3458,7 @@
    "vet": null
   },
   {
-   "nda": "050",
+   "nda": "047",
    "age": "early 20s",
    "poseFamily": "FLOAT",
    "id": "abyssalscholars",
@@ -3710,7 +3523,7 @@
    "vet": null
   },
   {
-   "nda": "051",
+   "nda": "048",
    "age": "early 30s",
    "poseFamily": "STRIDE",
    "id": "punchclawduelists",
@@ -3775,7 +3588,7 @@
    "vet": null
   },
   {
-   "nda": "052",
+   "nda": "049",
    "age": "early 70s",
    "poseFamily": "LEAN",
    "id": "prismgunners",
@@ -3840,7 +3653,7 @@
    "vet": null
   },
   {
-   "nda": "053",
+   "nda": "050",
    "age": "late 20s",
    "poseFamily": "KNEEL",
    "id": "reefshellguard",
@@ -3905,7 +3718,7 @@
    "vet": null
   },
   {
-   "nda": "054",
+   "nda": "051",
    "age": "late 20s",
    "poseFamily": "FLOAT",
    "id": "lanterncultists",
@@ -3970,7 +3783,7 @@
    "vet": null
   },
   {
-   "nda": "055",
+   "nda": "052",
    "age": "mid 60s",
    "poseFamily": "SPIN",
    "id": "dreamdustweavers",
@@ -4035,7 +3848,7 @@
    "vet": null
   },
   {
-   "nda": "056",
+   "nda": "053",
    "age": "late 20s",
    "poseFamily": "HANG",
    "id": "signaltowerwardens",
@@ -4100,7 +3913,7 @@
    "vet": null
   },
   {
-   "nda": "057",
+   "nda": "054",
    "age": "mid 30s",
    "poseFamily": "PLANTED",
    "id": "platewallbulwarks",
@@ -4165,7 +3978,7 @@
    "vet": null
   },
   {
-   "nda": "058",
+   "nda": "055",
    "age": "late 20s",
    "poseFamily": "LEAP",
    "id": "tunneldiggers",
@@ -4230,7 +4043,7 @@
    "vet": null
   },
   {
-   "nda": "059",
+   "nda": "056",
    "age": "mid 40s",
    "poseFamily": "SPIN",
    "id": "curlballrollers",
@@ -4295,7 +4108,7 @@
    "vet": null
   },
   {
-   "nda": "060",
+   "nda": "057",
    "age": "early 30s",
    "poseFamily": "HANG",
    "id": "loomweavers",
@@ -4360,7 +4173,7 @@
    "vet": null
   },
   {
-   "nda": "061",
+   "nda": "058",
    "age": "early 40s",
    "poseFamily": "RUN",
    "id": "silkroad",
@@ -4425,7 +4238,7 @@
    "vet": null
   },
   {
-   "nda": "062",
+   "nda": "059",
    "age": "early 20s",
    "poseFamily": "LEAP",
    "id": "dewdrop",
@@ -4490,7 +4303,7 @@
    "vet": null
   },
   {
-   "nda": "063",
+   "nda": "060",
    "age": "mid 30s",
    "poseFamily": "BALANCE",
    "id": "squirrelcommanders",
@@ -4555,7 +4368,7 @@
    "vet": null
   },
   {
-   "nda": "064",
+   "nda": "061",
    "age": "mid 60s",
    "poseFamily": "LUNGE",
    "id": "staticwraiths",
@@ -4620,7 +4433,7 @@
    "vet": null
   },
   {
-   "nda": "065",
+   "nda": "062",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "testpattern",
@@ -4685,7 +4498,7 @@
    "vet": null
   },
   {
-   "nda": "066",
+   "nda": "063",
    "age": "early 20s",
    "poseFamily": "TWIST",
    "id": "emergencybroadcast",
@@ -4750,7 +4563,7 @@
    "vet": null
   },
   {
-   "nda": "067",
+   "nda": "064",
    "age": "mid 30s",
    "poseFamily": "STOOP",
    "id": "rustwraith",
@@ -4815,7 +4628,7 @@
    "vet": null
   },
   {
-   "nda": "068",
+   "nda": "065",
    "age": "early 30s",
    "poseFamily": "STRIDE",
    "id": "cabinetspirits",
@@ -4880,7 +4693,7 @@
    "vet": null
   },
   {
-   "nda": "069",
+   "nda": "066",
    "age": "mid 60s",
    "poseFamily": "LEAN",
    "id": "hardwaresurgeons",
@@ -4945,7 +4758,7 @@
    "vet": null
   },
   {
-   "nda": "070",
+   "nda": "067",
    "age": "late 20s",
    "poseFamily": "LEAP",
    "id": "lastdance",
@@ -5010,7 +4823,7 @@
    "vet": null
   },
   {
-   "nda": "071",
+   "nda": "068",
    "age": "early 30s",
    "poseFamily": "KNEEL",
    "id": "wakewardens",
@@ -5075,7 +4888,7 @@
    "vet": null
   },
   {
-   "nda": "072",
+   "nda": "069",
    "age": "late 30s",
    "poseFamily": "TWIST",
    "id": "redialwraiths",
@@ -5140,7 +4953,7 @@
    "vet": null
   },
   {
-   "nda": "073",
+   "nda": "070",
    "age": "late 40s",
    "poseFamily": "LEAN",
    "id": "highwaybanshees",
@@ -5205,7 +5018,7 @@
    "vet": null
   },
   {
-   "nda": "074",
+   "nda": "071",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "billboardhaunts",
@@ -5270,7 +5083,7 @@
    "vet": null
   },
   {
-   "nda": "075",
+   "nda": "072",
    "age": "early 20s",
    "poseFamily": "SIT",
    "id": "hospicehaunts",
@@ -5335,7 +5148,7 @@
    "vet": null
   },
   {
-   "nda": "076",
+   "nda": "073",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "seanceoperators",
@@ -5397,7 +5210,7 @@
    "vet": null
   },
   {
-   "nda": "077",
+   "nda": "074",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "bonebreakers",
@@ -5462,7 +5275,7 @@
    "vet": null
   },
   {
-   "nda": "078",
+   "nda": "075",
    "age": "late 50s",
    "poseFamily": "CROUCH",
    "id": "rattlecannon",
@@ -5527,7 +5340,7 @@
    "vet": null
   },
   {
-   "nda": "079",
+   "nda": "076",
    "age": "early 70s",
    "poseFamily": "STRIDE",
    "id": "drummajor",
@@ -5592,7 +5405,7 @@
    "vet": null
   },
   {
-   "nda": "080",
+   "nda": "077",
    "age": "late 30s",
    "poseFamily": "TWIST",
    "id": "demolition",
@@ -5657,7 +5470,7 @@
    "vet": null
   },
   {
-   "nda": "081",
+   "nda": "078",
    "age": "late 40s",
    "poseFamily": "SPIN",
    "id": "wreckinglumber",
@@ -5722,7 +5535,7 @@
    "vet": null
   },
   {
-   "nda": "082",
+   "nda": "079",
    "age": "early 40s",
    "poseFamily": "LEAN",
    "id": "shopstewards",
@@ -5787,7 +5600,7 @@
    "vet": null
   },
   {
-   "nda": "083",
+   "nda": "080",
    "age": "mid 60s",
    "poseFamily": "LUNGE",
    "id": "soulnotaries",
@@ -5852,7 +5665,7 @@
    "vet": null
   },
   {
-   "nda": "084",
+   "nda": "081",
    "age": "mid 60s",
    "poseFamily": "TWIST",
    "id": "phylacteryauditors",
@@ -5917,7 +5730,7 @@
    "vet": null
   },
   {
-   "nda": "085",
+   "nda": "082",
    "age": "mid 60s",
    "poseFamily": "SPIN",
    "id": "contractreapers",
@@ -5982,7 +5795,7 @@
    "vet": null
   },
   {
-   "nda": "086",
+   "nda": "083",
    "age": "late 30s",
    "poseFamily": "RUN",
    "id": "sarcophaguslancers",
@@ -6047,7 +5860,7 @@
    "vet": null
   },
   {
-   "nda": "087",
+   "nda": "084",
    "age": "late 50s",
    "poseFamily": "BALANCE",
    "id": "goldmaskduelists",
@@ -6112,7 +5925,7 @@
    "vet": null
   },
   {
-   "nda": "088",
+   "nda": "085",
    "age": "early 30s",
    "poseFamily": "LEAN",
    "id": "embalmeralchemists",
@@ -6177,7 +5990,7 @@
    "vet": null
   },
   {
-   "nda": "089",
+   "nda": "086",
    "age": "early 70s",
    "poseFamily": "STOOP",
    "id": "marrowpuppeteers",
@@ -6239,7 +6052,7 @@
    "vet": null
   },
   {
-   "nda": "090",
+   "nda": "087",
    "age": "late 30s",
    "poseFamily": "RUN",
    "id": "mowerknights",
@@ -6304,7 +6117,7 @@
    "vet": null
   },
   {
-   "nda": "091",
+   "nda": "088",
    "age": "early 20s",
    "poseFamily": "SPIN",
    "id": "sprinklersprites",
@@ -6369,7 +6182,7 @@
    "vet": null
   },
   {
-   "nda": "092",
+   "nda": "089",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "hoamediators",
@@ -6434,7 +6247,7 @@
    "vet": null
   },
   {
-   "nda": "093",
+   "nda": "090",
    "age": "early 20s",
    "poseFamily": "PLANTED",
    "id": "rootlinkwarlocks",
@@ -6499,7 +6312,7 @@
    "vet": null
   },
   {
-   "nda": "094",
+   "nda": "091",
    "age": "early 20s",
    "poseFamily": "LEAN",
    "id": "mossplate",
@@ -6564,7 +6377,7 @@
    "vet": null
   },
   {
-   "nda": "095",
+   "nda": "092",
    "age": "early 40s",
    "poseFamily": "STOOP",
    "id": "seedbank",
@@ -6629,7 +6442,7 @@
    "vet": null
   },
   {
-   "nda": "096",
+   "nda": "093",
    "age": "late 40s",
    "poseFamily": "CROUCH",
    "id": "sumpsappers",
@@ -6694,7 +6507,7 @@
    "vet": null
   },
   {
-   "nda": "097",
+   "nda": "094",
    "age": "early 40s",
    "poseFamily": "LUNGE",
    "id": "boilerbrawlers",
@@ -6756,7 +6569,7 @@
    "vet": null
   },
   {
-   "nda": "098",
+   "nda": "095",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "tollbrokers",
@@ -6821,7 +6634,7 @@
    "vet": null
   },
   {
-   "nda": "099",
+   "nda": "096",
    "age": "late 50s",
    "poseFamily": "HANG",
    "id": "doorbellambushers",
@@ -6883,7 +6696,7 @@
    "vet": null
   },
   {
-   "nda": "100",
+   "nda": "097",
    "age": "early 50s",
    "poseFamily": "BALANCE",
    "id": "pantrypoisoners",
@@ -6945,7 +6758,7 @@
    "vet": null
   },
   {
-   "nda": "101",
+   "nda": "098",
    "age": "mid 60s",
    "poseFamily": "STRIDE",
    "id": "blockwatch",
@@ -7007,7 +6820,7 @@
    "vet": null
   },
   {
-   "nda": "102",
+   "nda": "099",
    "age": "late 30s",
    "poseFamily": "STRIDE",
    "id": "canopybeastmasters",
@@ -7069,7 +6882,7 @@
    "vet": null
   },
   {
-   "nda": "103",
+   "nda": "100",
    "age": "late 30s",
    "poseFamily": "LEAN",
    "id": "tidecallpriests",
@@ -7131,7 +6944,7 @@
    "vet": null
   },
   {
-   "nda": "104",
+   "nda": "101",
    "age": "late 20s",
    "poseFamily": "STRIDE",
    "id": "coralbone",
@@ -7193,7 +7006,7 @@
    "vet": null
   },
   {
-   "nda": "105",
+   "nda": "102",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "pearleyed",
@@ -7255,7 +7068,7 @@
    "vet": null
   },
   {
-   "nda": "106",
+   "nda": "103",
    "age": "mid 40s",
    "poseFamily": "FLOAT",
    "id": "braincase",
@@ -7317,7 +7130,7 @@
    "vet": null
   },
   {
-   "nda": "107",
+   "nda": "104",
    "age": "late 50s",
    "poseFamily": "PLANTED",
    "id": "etherwing",
@@ -7382,7 +7195,7 @@
    "vet": null
   },
   {
-   "nda": "108",
+   "nda": "105",
    "age": "late 30s",
    "poseFamily": "HANG",
    "id": "signalhive",
@@ -7444,7 +7257,7 @@
    "vet": null
   },
   {
-   "nda": "109",
+   "nda": "106",
    "age": "late 30s",
    "poseFamily": "LUNGE",
    "id": "manymaw",
@@ -7506,7 +7319,7 @@
    "vet": null
   },
   {
-   "nda": "110",
+   "nda": "107",
    "age": "early 40s",
    "poseFamily": "STRIDE",
    "id": "mimicflesh",
@@ -7568,7 +7381,7 @@
    "vet": null
   },
   {
-   "nda": "111",
+   "nda": "108",
    "age": "mid 60s",
    "poseFamily": "STOOP",
    "id": "memorymass",
@@ -7630,7 +7443,7 @@
    "vet": null
   },
   {
-   "nda": "112",
+   "nda": "109",
    "age": "mid 30s",
    "poseFamily": "LEAN",
    "id": "starstone",
@@ -7692,7 +7505,7 @@
    "vet": null
   },
   {
-   "nda": "113",
+   "nda": "110",
    "age": "mid 60s",
    "poseFamily": "KNEEL",
    "id": "fossilscript",
@@ -7754,7 +7567,7 @@
    "vet": null
   },
   {
-   "nda": "114",
+   "nda": "111",
    "age": "early 50s",
    "poseFamily": "LEAP",
    "id": "wingfold",
@@ -7816,7 +7629,7 @@
    "vet": null
   },
   {
-   "nda": "115",
+   "nda": "112",
    "age": "early 20s",
    "poseFamily": "STOOP",
    "id": "dreamsnatchers",
@@ -7878,7 +7691,7 @@
    "vet": null
   },
   {
-   "nda": "116",
+   "nda": "113",
    "age": "early 70s",
    "poseFamily": "DIVE",
    "id": "voidwing",
@@ -7940,7 +7753,7 @@
    "vet": null
   },
   {
-   "nda": "117",
+   "nda": "114",
    "age": "late 50s",
    "poseFamily": "LEAN",
    "id": "nightmareshepherds",
@@ -8002,7 +7815,7 @@
    "vet": null
   },
   {
-   "nda": "118",
+   "nda": "115",
    "age": "early 50s",
    "poseFamily": "LEAP",
    "id": "cornerstalkers",
@@ -8064,7 +7877,7 @@
    "vet": null
   },
   {
-   "nda": "119",
+   "nda": "116",
    "age": "early 30s",
    "poseFamily": "CRAWL",
    "id": "timescent",
@@ -8126,7 +7939,7 @@
    "vet": null
   },
   {
-   "nda": "120",
+   "nda": "117",
    "age": "early 30s",
    "poseFamily": "LUNGE",
    "id": "fracturejaw",
@@ -8188,7 +8001,7 @@
    "vet": null
   },
   {
-   "nda": "121",
+   "nda": "118",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "azathothpipers",
@@ -8250,7 +8063,7 @@
    "vet": null
   },
   {
-   "nda": "122",
+   "nda": "119",
    "age": "mid 40s",
    "poseFamily": "PLANTED",
    "id": "signalsavants",
@@ -8315,7 +8128,7 @@
    "vet": null
   },
   {
-   "nda": "123",
+   "nda": "120",
    "age": "mid 20s",
    "poseFamily": "SPIN",
    "id": "circuitarcanists",
@@ -8377,7 +8190,7 @@
    "vet": null
   },
   {
-   "nda": "124",
+   "nda": "121",
    "age": "mid 30s",
    "poseFamily": "LEAN",
    "id": "stickywizards",
@@ -8442,7 +8255,7 @@
    "vet": null
   },
   {
-   "nda": "125",
+   "nda": "122",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "sporecoven",
@@ -8507,7 +8320,7 @@
    "vet": null
   },
   {
-   "nda": "126",
+   "nda": "123",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "scraphexwitches",
@@ -8569,7 +8382,7 @@
    "vet": null
   },
   {
-   "nda": "127",
+   "nda": "124",
    "age": "mid 40s",
    "poseFamily": "SIT",
    "id": "thornbloodcoven",
@@ -8631,7 +8444,7 @@
    "vet": null
   },
   {
-   "nda": "128",
+   "nda": "125",
    "age": "mid 20s",
    "poseFamily": "KNEEL",
    "id": "voidbound",
@@ -8693,7 +8506,7 @@
    "vet": null
   },
   {
-   "nda": "129",
+   "nda": "126",
    "age": "mid 20s",
    "poseFamily": "CROUCH",
    "id": "bloodwireapostates",
@@ -8755,7 +8568,7 @@
    "vet": null
   },
   {
-   "nda": "130",
+   "nda": "127",
    "age": "mid 30s",
    "poseFamily": "STRIDE",
    "id": "mirroroathbreakers",
@@ -8817,7 +8630,7 @@
    "vet": null
   },
   {
-   "nda": "131",
+   "nda": "128",
    "age": "mid 20s",
    "poseFamily": "LEAN",
    "id": "chronofractures",
@@ -8879,7 +8692,7 @@
    "vet": null
   },
   {
-   "nda": "132",
+   "nda": "129",
    "age": "mid 30s",
    "poseFamily": "FLOAT",
    "id": "mindweavers",
@@ -8941,7 +8754,7 @@
    "vet": null
   },
   {
-   "nda": "133",
+   "nda": "130",
    "age": "mid 20s",
    "poseFamily": "RUN",
    "id": "fluxborn",
@@ -9003,7 +8816,7 @@
    "vet": null
   },
   {
-   "nda": "134",
+   "nda": "131",
    "age": "mid 60s",
    "poseFamily": "KNEEL",
    "id": "necromancers",

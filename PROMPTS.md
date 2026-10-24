@@ -1183,63 +1183,9 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```
 
 
-## Were-Creature › Raven-kin
+## Were-Creature › Avian-kin
 
-### Gloamwing Oracles
-
-*Support · Enchanter · colors #3a0ca3 / #f9c74f / #90e0ef · background wash #b4532a*
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Gloamwing Oracles, female anthropomorphic raven character (raven-kin (not human)), apparent age mid 60s. slender and feathered with a long neck, long thin legs, a big wing-cloak, medium size. Pose: hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other. Expression: mysterious, knowing, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Crystal-ball lens. SECOND ITEM, kept plain: feather staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender raven-kin in a star-sewn cloak, a crystal-ball lens held up in one hand, a feather staff in the other, a bandolier of signal flares.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #3a0ca3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f9c74f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #90e0ef about 10%, on the eyes, the Crystal-ball lens and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Enchanter, support, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Gloamwing Oracles with no people, creatures, figures, silhouettes or text. Midground: a moonlit cliff terrace with an armillary sphere, a stone altar of feathers, a rusted dish. Foreground: a bell tower, stacked scrolls, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #3a0ca3 for the biggest glowing sources and surfaces, secondary #f9c74f for medium panels, banners and lights, pop #90e0ef for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-### Salvage Magpies
-
-*Combat · Fighter · colors #aafdff / #1d3557 / #f54852 · background wash #b4532a*
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Salvage Magpies, nonbinary anthropomorphic magpie character (magpie-kin (not human)), apparent age early 30s. small and quick, a sleek head, a long barred tail, a thin frame, small size. Pose: swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak. Expression: greedy delight, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Twin hook-blades. SECOND ITEM, kept plain: relic bag. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: magpie-kin in a ring-covered coat and magnifying goggles, a hook-blade in each hand, a relic bag slung over one shoulder and a gem pouch.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #aafdff about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1d3557 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f54852 about 10%, on the eyes, the Twin hook-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Salvage Magpies with no people, creatures, figures, silhouettes or text. Midground: a magpie's treasure nest of shelves and crates full of salvaged relics, a stack of TVs. Foreground: a shop counter, glittering heaps of scrap, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #aafdff for the biggest glowing sources and surfaces, secondary #1d3557 for medium panels, banners and lights, pop #f54852 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-### Murder Vanguard
+### Raven Murder Vanguard
 
 *Combat · Assassin · colors #282956 / #ef233c / #def6ff · background wash #b4532a*
 
@@ -1247,7 +1193,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, hunched wing-shoulders, a dagger beak, long legs, medium size. Pose: diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Raven Murder Vanguard, male anthropomorphic raven character (raven-kin (not human)), apparent age early 40s. lean and feathered, hunched wing-shoulders, a dagger beak, long legs, medium size. Pose: diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind. Expression: cold, beaked glare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: feather mantle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: raven-kin in a black-iron beak mask and a feather mantle, a talon-blade in each hand, a grudge ledger tied at the hip.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -1261,42 +1207,12 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Murder Vanguard with no people, creatures, figures, silhouettes or text. Midground: a dead tree of perched scrap and wire, a rooftop crow roost, a chain-link fence. Foreground: a burned-out bus, a stack of ledgers, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Raven Murder Vanguard with no people, creatures, figures, silhouettes or text. Midground: a dead tree of perched scrap and wire, a rooftop crow roost, a chain-link fence. Foreground: a burned-out bus, a stack of ledgers, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #282956 for the biggest glowing sources and surfaces, secondary #ef233c for medium panels, banners and lights, pop #def6ff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-
-## Were-Creature › Owl-kin
-
-### Hushwing Strikers
-
-*Combat · Fighter · colors #7aa1ce / #5f0f40 / #f78f0a · background wash #b4532a*
-
-**Character prompt**
-
-```text
-An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Hushwing Strikers, female anthropomorphic owl character (owl-kin (not human)), apparent age early 20s. round and fluffy, a big heart-shaped face, a short neck, huge round eyes, medium size. Pose: launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak. Expression: grave, unblinking, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Talon-blades. SECOND ITEM, kept plain: spectacles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: fluffy owl-kin in a scarf and plate bracers with round spectacles, a talon-blade in each hand, a scroll case at the belt.
-
-HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #7aa1ce about 60%, on the largest garment, armor, fur-marking or body areas; secondary #5f0f40 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #f78f0a about 10%, on the eyes, the Talon-blades and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
-NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
-SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
-```
-
-**Background prompt**
-
-```text
-Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Hushwing Strikers with no people, creatures, figures, silhouettes or text. Midground: a moonlit treetop watchpost, a signal platform on a dead pylon, a hollow tree. Foreground: a bell, a hanging lantern, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #7aa1ce for the biggest glowing sources and surfaces, secondary #5f0f40 for medium panels, banners and lights, pop #f78f0a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
-COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
-```
-
-### Night-Eye Snipers
+### Owl Night-Eye Snipers
 
 *Combat · Blaster · colors #fff5bc / #3c096c / #c6e2fe · background wash #b4532a*
 
@@ -1304,7 +1220,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact, round-headed with huge eyes, a thin body, spindly legs, medium size. Pose: perched on one foot on a branch with the other knee up, the rifle braced across the raised knee. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Owl Night-Eye Snipers, male anthropomorphic owl character (owl-kin (not human)), apparent age early 70s. compact, round-headed with huge eyes, a thin body, spindly legs, medium size. Pose: perched on one foot on a branch with the other knee up, the rifle braced across the raised knee. Expression: steady, enormous-eyed focus, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Long rifle with thermal scope. SECOND ITEM, kept plain: night-goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: owl-kin with huge golden eyes in a ghillie-cloak with night-vision goggles, a long scoped rifle held in both hands.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -1318,35 +1234,35 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Night-Eye Snipers with no people, creatures, figures, silhouettes or text. Midground: a rusted high-tension pylon with a sniper perch, a dead rail yard. Foreground: a collapsed bridge, a searchlight, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Owl Night-Eye Snipers with no people, creatures, figures, silhouettes or text. Midground: a rusted high-tension pylon with a sniper perch, a dead rail yard. Foreground: a collapsed bridge, a searchlight, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #fff5bc for the biggest glowing sources and surfaces, secondary #3c096c for medium panels, banners and lights, pop #c6e2fe for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Rotating Watch
+### Albatross Gale Sailors
 
-*Combat · Tank · colors #7091a1 / #f28c16 / #023047 · background wash #b4532a*
+*Support · Enchanter · colors #2a74b8 / #f4f1e8 / #ffb347 · background wash #b4532a*
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Rotating Watch, male anthropomorphic owl character (owl-kin (not human)), apparent age mid 60s. round and sturdy, a barrel body, a head that turns a full half-circle on the neck, medium size. Pose: standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder. Expression: alert, head turned right around, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Halberd. SECOND ITEM, kept plain: signal lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: round owl-kin sentry in a reinforced helm, a halberd in one hand, an alarm horn at the belt, head turned all the way around over the shoulder.
+CHARACTER: Albatross Gale Sailors, female anthropomorphic albatross character (albatross-kin (not human)), apparent age mid 50s. enormous wingspan, a long hooked beak, a narrow body, long thin legs, large size. Pose: wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind. Expression: calm, far-seeing, wind-weathered, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sea-chart satchel. SECOND ITEM, kept plain: weather vane staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge-winged albatross-kin in a white-and-sea-blue salt-stained coat with amber trim and round goggles, a sea-chart satchel, a weather-vane staff held up in one hand, wings spread wide and a small wind-flag banner snapping behind.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
-COLOR (exact hex, flat fills): main #7091a1 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f28c16 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023047 about 10%, on the eyes, the Halberd and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+COLOR (exact hex, flat fills): main #2a74b8 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffb347 about 10%, on the eyes, the Sea-chart satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
 NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
 SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
-COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Enchanter, support, Were-Creature people, mature dark-age tone, no nudity, no gore.
 ```
 
 **Background prompt**
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Rotating Watch with no people, creatures, figures, silhouettes or text. Midground: a border watch post with a signal lamp, a barbed-wire fence, a guard tower. Foreground: a barricade, a ringing alarm bell, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
-COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #7091a1 for the biggest glowing sources and surfaces, secondary #f28c16 for medium panels, banners and lights, pop #023047 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Albatross Gale Sailors with no people, creatures, figures, silhouettes or text. Midground: a windswept seawall lookout with a signal mast, a weather vane tower, a coiled rope pile. Foreground: sea-chart tables, rusted wind turbines and fluttering pennants, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #2a74b8 for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ffb347 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 

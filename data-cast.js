@@ -46,12 +46,9 @@ window.CAST = {
   regrowthmedics: C("Nonbinary", "N/A (axolotl-kin)", "bright, reassuring smile", "kneeling on one knee with a glowing hand over a wound, the satchel open on the ground"),
   gillstorm: C("Female", "N/A (axolotl-kin)", "intense, gills flared", "twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills"),
   mudglowlurkers: C("Male", "N/A (axolotl-kin)", "wide, unblinking stare", "slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing"),
-  gloamwings: C("Female", "N/A (raven-kin)", "mysterious, knowing", "hovering a foot above the ground with the cloak spread, an orb held aloft in one hand, the crescent staff pointed in the other"),
-  magpies: C("Nonbinary", "N/A (magpie-kin)", "greedy delight", "swinging from a hook by one blade with the bag flung out from the shoulder, a gem glinting in the beak"),
+  galesailors: C("Female", "N/A (albatross-kin)", "calm, far-seeing, wind-weathered", "wings spread wide in a long glide, the weather-vane staff raised in one arm and the flag snapping behind"),
   murdervanguard: C("Male", "N/A (raven-kin)", "cold, beaked glare", "diving headfirst with the talon-blades forward, the wings swept back, crows streaming behind"),
-  hushwings: C("Female", "N/A (owl-kin)", "grave, unblinking", "launching upward off the ground with the wings half-spread, the talon-blades extended, a silent open beak"),
   nighteyesnipers: C("Male", "N/A (owl-kin)", "steady, enormous-eyed focus", "perched on one foot on a branch with the other knee up, the rifle braced across the raised knee"),
-  rotatingwatch: C("Male", "N/A (owl-kin)", "alert, head turned right around", "standing at a post with the halberd upright, the body facing forward and the head swivelled all the way over the shoulder"),
   inkspies: C("Female", "N/A (cuttlefish-kin)", "coolly amused, narrowed yellow eyes", "slipping sideways in a wide low stance with the silenced pistol raised and the arm-tentacles curling behind like a cloak"),
   tentacleengineers: C("Male", "N/A (squid-kin)", "sleepy, frazzled, delighted focus", "wide braced stance working several tools at once, one tool raised in each arm"),
   abyssalscholars: C("Nonbinary", "N/A (octopus-kin)", "serene, sleepy, eyes half-shut", "levitating upright with the open tome in one arm and the ink wand in another swirling a ribbon of ink overhead, tentacles trailing"),
@@ -149,6 +146,7 @@ window.CAST = {
 };
 // Apparent age and pose family per character (audited Oct 2026 for variety). Not loaded by the site.
 window.CAST_AGE = {
+ "galesailors": "mid 50s",
  "ninjashoguns": "early 50s",
  "batcallers": "mid 60s",
  "squirrelcommanders": "mid 30s",
@@ -188,12 +186,8 @@ window.CAST_AGE = {
  "regrowthmedics": "late 40s",
  "gillstorm": "mid 30s",
  "mudglowlurkers": "early 20s",
- "gloamwings": "mid 60s",
- "magpies": "early 30s",
  "murdervanguard": "early 40s",
- "hushwings": "early 20s",
  "nighteyesnipers": "early 70s",
- "rotatingwatch": "mid 60s",
  "inkspies": "early 20s",
  "tentacleengineers": "early 30s",
  "abyssalscholars": "early 20s",
@@ -286,6 +280,7 @@ window.CAST_AGE = {
  "sporecoven": "mid 40s"
 };
 window.CAST_FAMILY = {
+ "galesailors": "FLOAT",
  "ninjashoguns": "PLANTED",
  "batcallers": "FLOAT",
  "squirrelcommanders": "BALANCE",
@@ -325,12 +320,8 @@ window.CAST_FAMILY = {
  "regrowthmedics": "KNEEL",
  "gillstorm": "TWIST",
  "mudglowlurkers": "CRAWL",
- "gloamwings": "FLOAT",
- "magpies": "HANG",
  "murdervanguard": "DIVE",
- "hushwings": "LEAP",
  "nighteyesnipers": "BALANCE",
- "rotatingwatch": "TWIST",
  "inkspies": "SLIDE",
  "tentacleengineers": "PLANTED",
  "abyssalscholars": "FLOAT",
