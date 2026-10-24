@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 50.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 51.
 
 ## Art direction in one screen
 
@@ -4169,27 +4169,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | stocky with huge digging claws, a long snout, a thick scaled tail; medium size; mobility: burrowing |
 | Ethnicity + nationality | pangolin-kin (not human) |
 | Identity | male anthropomorphic pangolin character |
-| Wardrobe | pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks |
+| Wardrobe | pangolin-kin with orange-and-brown scale armor, a curling scaled tail, an orange mining helmet with a shaft-lamp, an orange harness with a square buckle, a belt of red dynamite sticks, huge steel-blue digging claws on both arms, bursting up through the rock with chunks flying |
 | Accessories | Digging claws; mining helmet; shaft-lamp; dynamite belt |
-| Pose | bursting up out of the ground with both claws out, dirt flying |
-| Facial expression | gritty, determined |
+| Pose | bursting up out of the ground with one huge claw raised back and the other planted, rubble flying |
+| Facial expression | gritty, determined side-glance |
 | People | Were-Creature |
 | Class | Pangolin-kin |
 | Subclass | Tunnel Diggers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | bursting up out of the ground with both claws out, dirt flying; the Digging claws and the mining helmet break the outline so it reads instantly as a black shape |
+| Silhouette hook | bursting up out of the ground with one huge claw raised back and the other planted, rubble flying; the Digging claws and the mining helmet break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #663502: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f4a261: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #264653: the eyes, the Digging claws and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-tunneldiggers.png` and `art/v2/were-tunneldiggers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as bursting up out of the ground with both claws out, dirt flying.
+1. Black-fill test: the silhouette must still read as bursting up out of the ground with one huge claw raised back and the other planted, rubble flying.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Digging claws and the pose must be visible at 64 px.
 4. Flat colors: #663502 / #f4a261 / #264653 as separate flat shapes divided by black line; no gradients or glow.
@@ -4209,8 +4209,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Tunnel Diggers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age late 20s. stocky with huge digging claws, a long snout, a thick scaled tail, medium size. Pose: bursting up out of the ground with both claws out, dirt flying. Expression: gritty, determined, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Digging claws. SECOND ITEM, kept plain: mining helmet. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pangolin-kin in a mining helmet with a shaft-lamp, huge digging claws, a belt of dynamite sticks.
+CHARACTER: Tunnel Diggers, male anthropomorphic pangolin character (pangolin-kin (not human)), apparent age late 20s. stocky with huge digging claws, a long snout, a thick scaled tail, medium size. Pose: bursting up out of the ground with one huge claw raised back and the other planted, rubble flying. Expression: gritty, determined side-glance, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Digging claws. SECOND ITEM, kept plain: mining helmet. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pangolin-kin with orange-and-brown scale armor, a curling scaled tail, an orange mining helmet with a shaft-lamp, an orange harness with a square buckle, a belt of red dynamite sticks, huge steel-blue digging claws on both arms.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #663502 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4a261 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Digging claws and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
