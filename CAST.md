@@ -1921,7 +1921,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 *People color: Rust #b4532a. Background setting: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles.*
 
 **Tagline:** Two hearts, one war-band.  
-**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Axolotl-kin (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers); Raven-kin (Gloamwing Oracles, Salvage Magpies, Murder Vanguard); Owl-kin (Hushwing Strikers, Night-Eye Snipers, Rotating Watch); Cephalopod-kin (Ink Spies, Tentacle Engineers, Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
+**Classes:** Wolf-kin (Moonrunners, Frostfang Wanderers, Hearth Hounds); Raccoon-kin (Mask Bandits, Gizmo Tinkers, Vault Lockbreakers); Crocodile-kin (Mire Matriarchs, Snapjaw Riverjackers, Slow-Strike Sages); Capybara-kin (Hot-Spring Healers, Reed-Lodge Diplomats, Dam Wardens); Axolotl-kin (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers); Raven-kin (Gloamwing Oracles, Salvage Magpies, Murder Vanguard); Owl-kin (Hushwing Strikers, Night-Eye Snipers, Rotating Watch); Cephalopod-kin (Cuttlefish Ink Spies, Squid Tentacle Engineers, Octopus Abyssal Scholars); Mantis Shrimp-kin (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
 
 
 ## Were-Creature › Wolf-kin
@@ -3438,7 +3438,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ## Were-Creature › Cephalopod-kin
 
-### Ink Spies  `inkspies`
+### Cuttlefish Ink Spies  `inkspies`
 
 *You'll never see them.*
 
@@ -3456,7 +3456,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Facial expression | coolly amused |
 | People | Were-Creature |
 | Class | Cephalopod-kin |
-| Subclass | Ink Spies |
+| Subclass | Cuttlefish Ink Spies |
 | Type | Assassin |
 | Combat or support | Combat |
 | Silhouette hook | slipping sideways with the pistol raised, the tentacles curling behind like a cloak; the Ink-bomb pouch and the suction-grip gloves break the outline so it reads instantly as a black shape |
@@ -3490,7 +3490,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Ink Spies, female anthropomorphic cuttlefish character (cuttlefish-kin (not human)), apparent age early 20s. slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway, medium size. Pose: slipping sideways with the pistol raised, the tentacles curling behind like a cloak. Expression: coolly amused, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Cuttlefish Ink Spies, female anthropomorphic cuttlefish character (cuttlefish-kin (not human)), apparent age early 20s. slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway, medium size. Pose: slipping sideways with the pistol raised, the tentacles curling behind like a cloak. Expression: coolly amused, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ink-bomb pouch. SECOND ITEM, kept plain: suction-grip gloves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: cuttlefish-kin in a color-shifting camo cloak with a wide frilled fin-skirt and W-shaped pupils, suction-grip gloves, a silenced pistol held in one arm and an ink-bomb pouch at the belt.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -3504,12 +3504,12 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Ink Spies with no people, creatures, figures, silhouettes or text. Midground: a flooded subway tunnel with a dripping ceiling, a sunken turnstile. Foreground: a locked data vault, a wall of dead monitors, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Cuttlefish Ink Spies with no people, creatures, figures, silhouettes or text. Midground: a flooded subway tunnel with a dripping ceiling, a sunken turnstile. Foreground: a locked data vault, a wall of dead monitors, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #9518a2 for the biggest glowing sources and surfaces, secondary #06d6a0 for medium panels, banners and lights, pop #002645 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Tentacle Engineers  `tentacleengineers`
+### Squid Tentacle Engineers  `tentacleengineers`
 
 *Eight hands. Eight tools.*
 
@@ -3527,7 +3527,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Facial expression | frazzled, delighted focus |
 | People | Were-Creature |
 | Class | Cephalopod-kin |
-| Subclass | Tentacle Engineers |
+| Subclass | Squid Tentacle Engineers |
 | Type | Controller |
 | Combat or support | Combat |
 | Silhouette hook | standing braced on two legs working four tools at once, a limb for each; the Multi-tool harness and the welder break the outline so it reads instantly as a black shape |
@@ -3561,7 +3561,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Tentacle Engineers, male anthropomorphic squid character (squid-kin (not human)), apparent age early 30s. many-limbed and busy, a round head, a heavy apron, eight tool-holding arms, medium size. Pose: standing braced on two legs working four tools at once, a limb for each. Expression: frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Squid Tentacle Engineers, male anthropomorphic squid character (squid-kin (not human)), apparent age early 30s. many-limbed and busy, a round head, a heavy apron, eight tool-holding arms, medium size. Pose: standing braced on two legs working four tools at once, a limb for each. Expression: frazzled, delighted focus, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Multi-tool harness. SECOND ITEM, kept plain: welder. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: squid-kin with a torpedo-shaped mantle fin, goggles and a multi-tool harness, a different tool in each of several arms: wrench, welder, rifle, screwdriver.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -3575,12 +3575,12 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Tentacle Engineers with no people, creatures, figures, silhouettes or text. Midground: a flooded workshop with a half-built scrap turret, a welding rig, parts bins. Foreground: a generator, a pile of drones, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Squid Tentacle Engineers with no people, creatures, figures, silhouettes or text. Midground: a flooded workshop with a half-built scrap turret, a welding rig, parts bins. Foreground: a generator, a pile of drones, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #fda96c for the biggest glowing sources and surfaces, secondary #00b4d8 for medium panels, banners and lights, pop #282956 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
-### Abyssal Scholars  `abyssalscholars`
+### Octopus Abyssal Scholars  `abyssalscholars`
 
 *Knowledge is deep. So are we.*
 
@@ -3598,7 +3598,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Facial expression | serene, eyes half-shut |
 | People | Were-Creature |
 | Class | Cephalopod-kin |
-| Subclass | Abyssal Scholars |
+| Subclass | Octopus Abyssal Scholars |
 | Type | Caster |
 | Combat or support | Combat |
 | Silhouette hook | drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another; the Sodden tome and the ink wand break the outline so it reads instantly as a black shape |
@@ -3632,7 +3632,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Abyssal Scholars, nonbinary anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. robed and tentacled, a tall domed head, trailing arms like a robe's hem, medium size. Pose: drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another. Expression: serene, eyes half-shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+CHARACTER: Octopus Abyssal Scholars, nonbinary anthropomorphic octopus character (octopus-kin (not human)), apparent age early 20s. robed and tentacled, a tall domed head, trailing arms like a robe's hem, medium size. Pose: drifting above the floor reading an open tome in one arm while the ink wand trails a swirl in another. Expression: serene, eyes half-shut, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Sodden tome. SECOND ITEM, kept plain: ink wand. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: octopus-kin scholar with a purple tentacle-bearded face, a tall pointed violet hood with round goggles, a long violet-and-black robe with a gear-and-eye sigil, a scroll case at the belt, a black tome with a sigil open in one arm, an ink wand trailing a swirl of ink in another and tentacles coiling around.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -3646,7 +3646,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a graphic-novel panel with Sin City contrast: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Abyssal Scholars with no people, creatures, figures, silhouettes or text. Midground: a flooded library with half-sunken shelves, a diving-bell chamber, a wall of tide charts. Foreground: floating books, a drowned reading desk, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Octopus Abyssal Scholars with no people, creatures, figures, silhouettes or text. Midground: a flooded library with half-sunken shelves, a diving-bell chamber, a wall of tide charts. Foreground: floating books, a drowned reading desk, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #270077 for the biggest glowing sources and surfaces, secondary #e0aaff for medium panels, banners and lights, pop #1c2337 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

@@ -104,7 +104,7 @@ The werewolf colony and the clans that swore to the Pack. Alpha Wolf, Pack Leade
 - **Axolotl-kin** (Regrowth Medics, Gillstorm Casters, Mudglow Lurkers): Coastal healers and swamp ambushers.
 - **Raven-kin** (Gloamwing Oracles, Salvage Magpies, Murder Vanguard): Oracles and scouts who watch the borders.
 - **Owl-kin** (Hushwing Strikers, Night-Eye Snipers, Rotating Watch): Night sentries.
-- **Cephalopod-kin** (Ink Spies, Tentacle Engineers, Abyssal Scholars): The flooded harbors' three cephalopod trades: cuttlefish spies, squid engineers and octopus scholars.
+- **Cephalopod-kin** (Cuttlefish Ink Spies, Squid Tentacle Engineers, Octopus Abyssal Scholars): The flooded harbors' three cephalopod trades: cuttlefish spies, squid engineers and octopus scholars.
 - **Mantis Shrimp-kin** (Punch-Claw Duelists, Prism Gunners, Reef Shell-Guard): Reef guards and shock troops.
 - **Moth-kin** (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens): Light-keepers who tend the old signal towers.
 - **Pangolin-kin** (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers): Wall-builders and miners.
