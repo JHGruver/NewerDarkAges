@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 56.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 57.
 
 ## Art direction in one screen
 
@@ -3737,27 +3737,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | armored and narrow, eyes on long stalks, a bright carapace; medium size; mobility: aquatic |
 | Ethnicity + nationality | mantis shrimp-kin (not human) |
 | Identity | female anthropomorphic mantis shrimp character |
-| Wardrobe | mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak |
+| Wardrobe | mantis-shrimp-kin gunner with a cyan armored body and pink spiked crest, three long eye-stalks with yellow eyes, octagonal purple multi-lens goggles, a cyan-and-pink leaf cloak and sash, a bandolier of purple ammo, a big purple-and-pink crystal prism rifle with a scope braced in both hands, in a wide firing stance |
 | Accessories | Prism rifle; multi-lens goggles; color-coded ammo; reef-cloak |
-| Pose | leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions |
-| Facial expression | fiercely focused, stalk-eyes aimed in different directions |
+| Pose | wide braced firing stance leaning into the prism rifle held in both hands |
+| Facial expression | fiercely focused, stalked eyes aimed in different directions |
 | People | Were-Creature |
 | Class | Mantis Shrimp-kin |
 | Subclass | Prism Gunners |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions; the Prism rifle and the multi-lens goggles break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide braced firing stance leaning into the prism rifle held in both hands; the Prism rifle and the multi-lens goggles break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #4dfff2: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f15bb5: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #9b5de5: the eyes, the Prism rifle and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-prismgunners.png` and `art/v2/were-prismgunners-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions.
+1. Black-fill test: the silhouette must still read as wide braced firing stance leaning into the prism rifle held in both hands.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Prism rifle and the pose must be visible at 64 px.
 4. Flat colors: #4dfff2 / #f15bb5 / #9b5de5 as separate flat shapes divided by black line; no gradients or glow.
@@ -3777,8 +3777,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Prism Gunners, female anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 70s. armored and narrow, eyes on long stalks, a bright carapace, medium size. Pose: leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions. Expression: fiercely focused, stalk-eyes aimed in different directions, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prism rifle. SECOND ITEM, kept plain: multi-lens goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: mantis-shrimp-kin with stalked independent eyes behind multi-lens goggles, a prism rifle in both hands, a bandolier of color-coded ammo, a reef-cloak.
+CHARACTER: Prism Gunners, female anthropomorphic mantis shrimp character (mantis shrimp-kin (not human)), apparent age early 70s. armored and narrow, eyes on long stalks, a bright carapace, medium size. Pose: wide braced firing stance leaning into the prism rifle held in both hands. Expression: fiercely focused, stalked eyes aimed in different directions, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Prism rifle. SECOND ITEM, kept plain: multi-lens goggles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: mantis-shrimp-kin gunner with a cyan armored body and pink spiked crest, three long eye-stalks with yellow eyes, octagonal purple multi-lens goggles, a cyan-and-pink leaf cloak and sash, a bandolier of purple ammo, a big purple-and-pink crystal prism rifle with a scope braced in both hands.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #4dfff2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f15bb5 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #9b5de5 about 10%, on the eyes, the Prism rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
