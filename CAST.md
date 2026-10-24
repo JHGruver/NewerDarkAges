@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 60.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 61.
 
 ## Art direction in one screen
 
@@ -3450,27 +3450,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway; medium size; mobility: agile |
 | Ethnicity + nationality | cuttlefish-kin (not human) |
 | Identity | female anthropomorphic cuttlefish character |
-| Wardrobe | cuttlefish-kin in a color-shifting camo cloak with a wide frilled fin-skirt and W-shaped pupils, suction-grip gloves, a silenced pistol held in one arm and an ink-bomb pouch at the belt |
+| Wardrobe | cuttlefish-kin spy with a purple body and teal spots, a huge swept-back mantle fin, yellow slit eyes, arm-tentacles with pale suckers, a purple-and-teal long coat with a dark belt, an ink-bomb pouch at the hip, dark clawed gloves and teal-trimmed boots, a long silenced pistol raised in one hand, in a low sideways stance |
 | Accessories | Ink-bomb pouch; suction-grip gloves; silenced pistol; camo cloak |
-| Pose | slipping sideways with the pistol raised, the tentacles curling behind like a cloak |
-| Facial expression | coolly amused |
+| Pose | slipping sideways in a wide low stance with the silenced pistol raised and the arm-tentacles curling behind like a cloak |
+| Facial expression | coolly amused, narrowed yellow eyes |
 | People | Were-Creature |
 | Class | Cephalopod-kin |
 | Subclass | Cuttlefish Ink Spies |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | slipping sideways with the pistol raised, the tentacles curling behind like a cloak; the Ink-bomb pouch and the suction-grip gloves break the outline so it reads instantly as a black shape |
+| Silhouette hook | slipping sideways in a wide low stance with the silenced pistol raised and the arm-tentacles curling behind like a cloak; the Ink-bomb pouch and the suction-grip gloves break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #9518a2: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #06d6a0: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #002645: the eyes, the Ink-bomb pouch and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-inkspies.png` and `art/v2/were-inkspies-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as slipping sideways with the pistol raised, the tentacles curling behind like a cloak.
+1. Black-fill test: the silhouette must still read as slipping sideways in a wide low stance with the silenced pistol raised and the arm-tentacles curling behind like a cloak.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Ink-bomb pouch and the pose must be visible at 64 px.
 4. Flat colors: #9518a2 / #06d6a0 / #002645 as separate flat shapes divided by black line; no gradients or glow.
@@ -3490,8 +3490,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Cuttlefish Ink Spies, female anthropomorphic cuttlefish character (cuttlefish-kin (not human)), apparent age early 20s. slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway, medium size. Pose: slipping sideways with the pistol raised, the tentacles curling behind like a cloak. Expression: coolly amused, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ink-bomb pouch. SECOND ITEM, kept plain: suction-grip gloves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: cuttlefish-kin in a color-shifting camo cloak with a wide frilled fin-skirt and W-shaped pupils, suction-grip gloves, a silenced pistol held in one arm and an ink-bomb pouch at the belt.
+CHARACTER: Cuttlefish Ink Spies, female anthropomorphic cuttlefish character (cuttlefish-kin (not human)), apparent age early 20s. slim and tentacled, a bulbous head, eight arms in loose coils, a boneless sway, medium size. Pose: slipping sideways in a wide low stance with the silenced pistol raised and the arm-tentacles curling behind like a cloak. Expression: coolly amused, narrowed yellow eyes, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ink-bomb pouch. SECOND ITEM, kept plain: suction-grip gloves. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: cuttlefish-kin spy with a purple body and teal spots, a huge swept-back mantle fin, yellow slit eyes, arm-tentacles with pale suckers, a purple-and-teal long coat with a dark belt, an ink-bomb pouch at the hip.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #9518a2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #06d6a0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #002645 about 10%, on the eyes, the Ink-bomb pouch and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
