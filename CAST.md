@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 134 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 54.
+**Gender split:** Male 65, Female 53, Nonbinary 16. **Combat/support:** 109/25. **With final art:** 55.
 
 ## Art direction in one screen
 
@@ -3882,27 +3882,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | slim and winged with feathery antennae, a fuzzy neck, a soft wing-cloak; medium size; mobility: flying |
 | Ethnicity + nationality | moth-kin (not human) |
 | Identity | female anthropomorphic moth character |
-| Wardrobe | moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt |
+| Wardrobe | moth-kin cultist with a cream fluffy mane and feathery cream-and-red antennae, huge mustard-yellow wings with dark eye-spots, a mustard hooded cloak with red trim and sash, a pocket-watch signal mirror at the belt, a red spotting-scope launcher in one hand and a tall lantern staff raised in the other, hovering |
 | Accessories | Flare launcher; lantern staff; ash-dusted robes; signal mirror |
-| Pose | hovering with the lantern staff raised, a flare launcher cocked on the hip |
+| Pose | hovering with the lantern staff raised high in one hand and the flare launcher aimed out in the other, wings spread |
 | Facial expression | rapt, glowing devotion |
 | People | Were-Creature |
 | Class | Moth-kin |
 | Subclass | Lantern Cultists |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | hovering with the lantern staff raised, a flare launcher cocked on the hip; the Flare launcher and the lantern staff break the outline so it reads instantly as a black shape |
+| Silhouette hook | hovering with the lantern staff raised high in one hand and the flare launcher aimed out in the other, wings spread; the Flare launcher and the lantern staff break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #d7ce04: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #cc0b38: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #410f1f: the eyes, the Flare launcher and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-lanterncultists.png` and `art/v2/were-lanterncultists-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as hovering with the lantern staff raised, a flare launcher cocked on the hip.
+1. Black-fill test: the silhouette must still read as hovering with the lantern staff raised high in one hand and the flare launcher aimed out in the other, wings spread.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Flare launcher and the pose must be visible at 64 px.
 4. Flat colors: #d7ce04 / #cc0b38 / #410f1f as separate flat shapes divided by black line; no gradients or glow.
@@ -3922,8 +3922,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 A character model-sheet drawing for a 2D television cartoon in the exact visual style of Samurai Jack (Genndy Tartakovsky): extremely simple large flat shapes, one thin uniform black outline, flat colors, minimal detail, angular geometry, plus Sin City heavy solid black shapes and a few stark white highlights. It must look like a cel from the show, NOT detailed anime or fantasy concept art.
-CHARACTER: Lantern Cultists, female anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged with feathery antennae, a fuzzy neck, a soft wing-cloak, medium size. Pose: hovering with the lantern staff raised, a flare launcher cocked on the hip. Expression: rapt, glowing devotion, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Flare launcher. SECOND ITEM, kept plain: lantern staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin with huge eye-patterned wings in ash-dusted robes, a lantern staff in one hand, a flare launcher in the other, a signal mirror at the belt.
+CHARACTER: Lantern Cultists, female anthropomorphic moth character (moth-kin (not human)), apparent age late 20s. slim and winged with feathery antennae, a fuzzy neck, a soft wing-cloak, medium size. Pose: hovering with the lantern staff raised high in one hand and the flare launcher aimed out in the other, wings spread. Expression: rapt, glowing devotion, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Flare launcher. SECOND ITEM, kept plain: lantern staff. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: moth-kin cultist with a cream fluffy mane and feathery cream-and-red antennae, huge mustard-yellow wings with dark eye-spots, a mustard hooded cloak with red trim and sash, a pocket-watch signal mirror at the belt, a red spotting-scope launcher in one hand and a tall lantern staff raised in the other, hovering.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #d7ce04 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #cc0b38 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #410f1f about 10%, on the eyes, the Flare launcher and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).

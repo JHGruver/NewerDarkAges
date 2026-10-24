@@ -58,7 +58,7 @@ window.CAST = {
   punchclawduelists: C("Male", "N/A (mantis shrimp-kin)", "taut, predatory", "stalking forward in a low guard with the club claw cocked back and the small claw braced forward"),
   prismgunners: C("Female", "N/A (mantis shrimp-kin)", "fiercely focused, stalk-eyes aimed in different directions", "leaning back to brace a huge prism rifle on the hip, the eye stalks aimed in different directions"),
   reefshellguard: C("Male", "N/A (mantis shrimp-kin)", "grim, unmoved", "kneeling behind a ridged shield with the short claw ready"),
-  lanterncultists: C("Female", "N/A (moth-kin)", "rapt, glowing devotion", "hovering with the lantern staff raised, a flare launcher cocked on the hip"),
+  lanterncultists: C("Female", "N/A (moth-kin)", "rapt, glowing devotion", "hovering with the lantern staff raised high in one hand and the flare launcher aimed out in the other, wings spread"),
   dreamdustweavers: C("Nonbinary", "N/A (moth-kin)", "drowsy, gentle smile", "hovering with the feather duster raised in one hand shaking glowing dust and the other hand open, wings spread wide"),
   signaltowerwardens: C("Male", "N/A (moth-kin)", "alert, focused, antennae twitching", "clinging to a metal pole with one arm and a foot, the wings spread and the signal staff raised in the other hand"),
   platewallbulwarks: C("Female", "N/A (pangolin-kin)", "calm, narrowed, watchful", "wide braced stance behind the tower shield with the spiked mace raised overhead"),
