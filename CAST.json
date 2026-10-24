@@ -380,7 +380,7 @@
      "raccoon": "Scavengers and fixers who keep the colony's salvage economy alive.",
      "crocodile": "River-holders on the coast. Smugglers and matriarchs.",
      "capybara": "The calm clans: healers and diplomats who sit at the Mystic meetings.",
-     "axolotl": "Coastal healers and swamp ambushers.",
+     "salamander": "The river and cave clans: axolotl healers, giant-salamander river guards, blind olm seers, ribbed-newt skirmishers and hellbender current-holders.",
      "avian": "The sky-post and the border watch: raven flock-fighters, owl night marksmen and albatross scouts who carry the wind.",
      "cephalopod": "The flooded harbors' three cephalopod trades: cuttlefish spies, squid engineers and octopus scholars.",
      "mantisshrimp": "Reef guards and shock troops.",
@@ -2960,12 +2960,12 @@
    "age": "late 40s",
    "poseFamily": "KNEEL",
    "id": "regrowthmedics",
-   "name": "Regrowth Medics",
+   "name": "Axolotl Regrowth Medics",
    "tagline": "We can regrow that.",
    "people": "Were-Creature",
    "peopleId": "were",
-   "cls": "Axolotl-kin",
-   "subclass": "Regrowth Medics",
+   "cls": "Salamander-kin",
+   "subclass": "Axolotl Regrowth Medics",
    "role": "Support",
    "type": "Support",
    "typeKey": "support",
@@ -2996,14 +2996,14 @@
    "bgItems": "a flooded clinic basement with glowing tanks, a hospital bed, a rolling IV stand, an old x-ray lightbox, bubbling aquariums",
    "art": null,
    "look": "Smiling axolotl-kin with glowing pink gills holding a med satchel, healing light spilling from one hand.",
-   "summary": "Field medics who regenerate wounded allies. Regrowth Medics knit flesh, reattach armor and bring the fallen back on their feet.",
+   "summary": "Axolotl field medics who regenerate wounded allies. Regrowth Medics knit flesh, reattach armor and bring the fallen back on their feet.",
    "lore": "A Medic's own gills glow when they heal, and the whole camp knows someone is being saved.",
    "abilities": "Regrowth: heal over time and restore armor\nGill Glow: reveal hidden injuries\nSecond Wind: revive a fallen ally",
    "strengths": "Strongest regeneration and revive in the game; Cleanse wounds and status effects",
    "weaknesses": "Fragile; Low offense",
    "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Coastal healers and swamp ambushers.",
-   "nameOnSheet": "Regrowth Medics",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The river and cave clans: axolotl healers, giant-salamander river guards, blind olm seers, ribbed-newt skirmishers and hellbender current-holders.",
+   "nameOnSheet": "Axolotl Regrowth Medics",
    "fileChar": "art/v2/were-regrowthmedics.png",
    "fileBg": "art/v2/were-regrowthmedics-bg.jpg",
    "jack": [
@@ -3013,136 +3013,260 @@
     "Flat colors: #f790c3 / #4cc9f0 / #fff0d1 as separate flat shapes divided by black line; no gradients or glow.",
     "Distinctive without detail: identifiable by Med satchel and glow-gel flask and the support shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Regrowth Medics, nonbinary anthropomorphic axolotl character (axolotl-kin (not human)), apparent age late 40s. slim and boneless-looking, a broad flat head, feathery gills like three red fans, a smooth wet body, medium size. Pose: kneeling on one knee with a glowing hand over a wound, the satchel open on the ground. Expression: bright, reassuring smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Med satchel. SECOND ITEM, kept plain: glow-gel flask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #f790c3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff0d1 about 10%, on the eyes, the Med satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Support, support, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Regrowth Medics with no people, creatures, figures, silhouettes or text. Midground: a flooded clinic basement with glowing tanks, a hospital bed, a rolling IV stand. Foreground: an old x-ray lightbox, bubbling aquariums, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #f790c3 for the biggest glowing sources and surfaces, secondary #4cc9f0 for medium panels, banners and lights, pop #fff0d1 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Axolotl Regrowth Medics, nonbinary anthropomorphic axolotl character (axolotl-kin (not human)), apparent age late 40s. slim and boneless-looking, a broad flat head, feathery gills like three red fans, a smooth wet body, medium size. Pose: kneeling on one knee with a glowing hand over a wound, the satchel open on the ground. Expression: bright, reassuring smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Med satchel. SECOND ITEM, kept plain: glow-gel flask. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smiling axolotl-kin with glowing pink gills, a field coat with a med satchel, a glow-gel flask in one hand and a reel of bandage in the other.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #f790c3 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff0d1 about 10%, on the eyes, the Med satchel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Support, support, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Axolotl Regrowth Medics with no people, creatures, figures, silhouettes or text. Midground: a flooded clinic basement with glowing tanks, a hospital bed, a rolling IV stand. Foreground: an old x-ray lightbox, bubbling aquariums, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #f790c3 for the biggest glowing sources and surfaces, secondary #4cc9f0 for medium panels, banners and lights, pop #fff0d1 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
    "nda": "040",
-   "age": "mid 30s",
-   "poseFamily": "TWIST",
-   "id": "gillstorm",
-   "name": "Gillstorm Casters",
-   "tagline": "The tide is a spell.",
+   "age": "mid 50s",
+   "poseFamily": "PLANTED",
+   "id": "mawwardens",
+   "name": "Giant Salamander Maw Wardens",
+   "tagline": "Open wide. Say nothing.",
    "people": "Were-Creature",
    "peopleId": "were",
-   "cls": "Axolotl-kin",
-   "subclass": "Gillstorm Casters",
+   "cls": "Salamander-kin",
+   "subclass": "Giant Salamander Maw Wardens",
    "role": "Combat",
-   "type": "Caster",
-   "typeKey": "caster",
-   "gender": "Female",
-   "ethnicity": "axolotl-kin (not human)",
-   "identity": "female anthropomorphic axolotl character",
-   "physique": "slim and long, a snug wet suit, big gills that flare like frills",
-   "size": "medium",
+   "type": "Bruiser",
+   "typeKey": "bruiser",
+   "gender": "Male",
+   "ethnicity": "giant salamander-kin (not human)",
+   "identity": "male anthropomorphic giant salamander character",
+   "physique": "enormous flat-headed salamander, a huge wide mouth, tiny eyes, a thick tail",
+   "size": "large",
    "mobility": "aquatic",
-   "expression": "intense, gills flared",
-   "pose": "twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills",
-   "wardrobe": "axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands",
-   "accessories": "Storm staff; wet-suit coat; battery pack; goggles",
-   "shape": "flowing diamonds and a bright flat focus shape",
-   "silhouette": "twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills; the Storm staff and the wet-suit coat break the outline so it reads instantly as a black shape",
-   "main": "#13a6c7",
-   "secondary": "#ff5d8f",
-   "pop": "#2e2200",
+   "expression": "still, patient, a wide closed-mouth calm",
+   "pose": "planted low and wide with the jaws opening and the riverbed hammer raised in one fist",
+   "wardrobe": "huge flat-headed giant salamander-kin with a wide mouth and tiny eyes, a river-stone plated harness, a wide-mouth helm and a sensor-node collar, a heavy riverbed hammer raised in one fist",
+   "accessories": "Riverbed hammer; sensor-node collar; wide-mouth helm; river-stone plating",
+   "shape": "heavy trapezoids, oversized fists and shoulders",
+   "silhouette": "planted low and wide with the jaws opening and the riverbed hammer raised in one fist; the Riverbed hammer and the sensor-node collar break the outline so it reads instantly as a black shape",
+   "main": "#5a6b5e",
+   "secondary": "#e8c76a",
+   "pop": "#c94b3a",
    "mainUse": "the largest garment, armor, fur-marking or body areas",
    "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
-   "popUse": "the eyes, the Storm staff and one small magical detail",
+   "popUse": "the eyes, the Riverbed hammer and one small magical detail",
    "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
    "peopleColor": "#b4532a",
    "peopleColorName": "Rust",
    "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
-   "midground": "a flooded power substation with puddles and fallen transformers, a lightning rod tower",
-   "foreground": "a coil of cables, storm clouds",
-   "bgItems": "a flooded power substation with puddles and fallen transformers, a lightning rod tower, a coil of cables, storm clouds",
+   "midground": "a dark river crossing with a half-submerged stone bridge, mooring posts",
+   "foreground": "fish-weir traps, reed beds and a boat wreck",
+   "bgItems": "a dark river crossing with a half-submerged stone bridge, mooring posts, fish-weir traps, reed beds and a boat wreck",
    "art": null,
-   "look": "Axolotl-kin in a wet-suit coat with crackling blue gills, lightning arcing from a staff, puddles at the feet.",
-   "summary": "Aquatic spellcasters who summon floods, storms and static from the deep. Gillstorm Casters turn any wet room into a battlefield.",
-   "lore": "Their gills crackle with electric charge. They stand knee-deep in a puddle and everyone else is in trouble.",
-   "abilities": "Flash Flood: water wave that knocks back\nStatic Gill: lightning arc through wet targets\nMist Veil: obscure vision",
-   "strengths": "Strong area damage in water; Control the terrain with floods",
-   "weaknesses": "Weak in dry places; Fragile",
+   "look": "Huge, wide-mouthed giant salamander with a flat head and tiny eyes rising from the water, jaws agape, bone-plated shoulders streaming.",
+   "summary": "Giant salamanders the size of a door who lie motionless on dark riverbeds and snap shut with a vacuum bite. Maw Wardens guard the river crossings and swallow what tries to pass.",
+   "lore": "The largest living amphibians sit so still that boats float over them. A Maw Warden feels every footstep in the water long before it arrives.",
+   "abilities": "Vacuum Bite: pull a target in and crush it\nStill Water: sense every vibration nearby\nRiverbed Slam: knock down everything in front",
+   "strengths": "Huge size and heavy damage; Vacuum bite pulls targets in",
+   "weaknesses": "Slow to turn; Weak out of water",
    "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Coastal healers and swamp ambushers.",
-   "nameOnSheet": "Gillstorm Casters",
-   "fileChar": "art/v2/were-gillstorm.png",
-   "fileBg": "art/v2/were-gillstorm-bg.jpg",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The river and cave clans: axolotl healers, giant-salamander river guards, blind olm seers, ribbed-newt skirmishers and hellbender current-holders.",
+   "nameOnSheet": "Giant Salamander Maw Wardens",
+   "fileChar": "art/v2/were-mawwardens.png",
+   "fileBg": "art/v2/were-mawwardens-bg.jpg",
    "jack": [
-    "Black-fill test: the silhouette must still read as twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills.",
-    "Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
-    "Thumbnail test: the Storm staff and the pose must be visible at 64 px.",
-    "Flat colors: #13a6c7 / #ff5d8f / #2e2200 as separate flat shapes divided by black line; no gradients or glow.",
-    "Distinctive without detail: identifiable by Storm staff and wet-suit coat and the caster shape language."
+    "Black-fill test: the silhouette must still read as planted low and wide with the jaws opening and the riverbed hammer raised in one fist.",
+    "Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
+    "Thumbnail test: the Riverbed hammer and the pose must be visible at 64 px.",
+    "Flat colors: #5a6b5e / #e8c76a / #c94b3a as separate flat shapes divided by black line; no gradients or glow.",
+    "Distinctive without detail: identifiable by Riverbed hammer and sensor-node collar and the bruiser shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Gillstorm Casters, female anthropomorphic axolotl character (axolotl-kin (not human)), apparent age mid 30s. slim and long, a snug wet suit, big gills that flare like frills, medium size. Pose: twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills. Expression: intense, gills flared, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Storm staff. SECOND ITEM, kept plain: wet-suit coat. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: axolotl-kin in a wet-suit coat with crackling blue gills, a battery pack on the back, goggles pushed up, a storm staff held in both hands.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #13a6c7 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff5d8f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, on the eyes, the Storm staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Caster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Gillstorm Casters with no people, creatures, figures, silhouettes or text. Midground: a flooded power substation with puddles and fallen transformers, a lightning rod tower. Foreground: a coil of cables, storm clouds, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #13a6c7 for the biggest glowing sources and surfaces, secondary #ff5d8f for medium panels, banners and lights, pop #2e2200 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Giant Salamander Maw Wardens, male anthropomorphic giant salamander character (giant salamander-kin (not human)), apparent age mid 50s. enormous flat-headed salamander, a huge wide mouth, tiny eyes, a thick tail, large size. Pose: planted low and wide with the jaws opening and the riverbed hammer raised in one fist. Expression: still, patient, a wide closed-mouth calm, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Riverbed hammer. SECOND ITEM, kept plain: sensor-node collar. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge flat-headed giant salamander-kin with a wide mouth and tiny eyes, a river-stone plated harness, a wide-mouth helm and a sensor-node collar, a heavy riverbed hammer raised in one fist.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #5a6b5e about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c94b3a about 10%, on the eyes, the Riverbed hammer and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Bruiser, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Giant Salamander Maw Wardens with no people, creatures, figures, silhouettes or text. Midground: a dark river crossing with a half-submerged stone bridge, mooring posts. Foreground: fish-weir traps, reed beds and a boat wreck, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #5a6b5e for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #c94b3a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
    "nda": "041",
-   "age": "early 20s",
-   "poseFamily": "CRAWL",
-   "id": "mudglowlurkers",
-   "name": "Mudglow Lurkers",
-   "tagline": "Hold still. It's already behind you.",
+   "age": "early 70s",
+   "poseFamily": "SIT",
+   "id": "olmseers",
+   "name": "Olm Dark-Cave Seers",
+   "tagline": "I have time. You do not.",
    "people": "Were-Creature",
    "peopleId": "were",
-   "cls": "Axolotl-kin",
-   "subclass": "Mudglow Lurkers",
+   "cls": "Salamander-kin",
+   "subclass": "Olm Dark-Cave Seers",
    "role": "Combat",
-   "type": "Assassin",
-   "typeKey": "assassin",
-   "gender": "Male",
-   "ethnicity": "axolotl-kin (not human)",
-   "identity": "male anthropomorphic axolotl character",
-   "physique": "wide-faced and low-slung, a broad flat head, stubby legs, a thick tail",
+   "type": "Caster",
+   "typeKey": "caster",
+   "gender": "Nonbinary",
+   "ethnicity": "olm-kin (not human)",
+   "identity": "nonbinary anthropomorphic olm character",
+   "physique": "pale and eyeless, a long thin snake-like body, red feathery gills",
    "size": "medium",
    "mobility": "aquatic",
-   "expression": "wide, unblinking stare",
-   "pose": "slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing",
-   "wardrobe": "wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands",
-   "accessories": "Hooked spear; glow-lure; mud-cloak; wading boots",
-   "shape": "sharp triangles, long thin blades, a low coiled posture",
-   "silhouette": "slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing; the Hooked spear and the glow-lure break the outline so it reads instantly as a black shape",
-   "main": "#5a20c7",
-   "secondary": "#b5e48c",
-   "pop": "#e4ffda",
+   "expression": "serene, blind, a faint smile",
+   "pose": "seated with one palm pressed to the ground and the cave-stick held upright in the other hand",
+   "wardrobe": "pale eyeless olm-kin with a long thin body and red feathery gills, a thin pale cloak, a string of fast-beads at the neck, a vibration drum at the hip, a cave-stick held in one hand and the other palm pressed to the ground",
+   "accessories": "Cave-stick; vibration drum; pale cloak; fast-bead string",
+   "shape": "flowing diamonds and a bright flat focus shape",
+   "silhouette": "seated with one palm pressed to the ground and the cave-stick held upright in the other hand; the Cave-stick and the vibration drum break the outline so it reads instantly as a black shape",
+   "main": "#d9c3b8",
+   "secondary": "#7a3a5a",
+   "pop": "#4cc9f0",
    "mainUse": "the largest garment, armor, fur-marking or body areas",
    "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
-   "popUse": "the eyes, the Hooked spear and one small magical detail",
+   "popUse": "the eyes, the Cave-stick and one small magical detail",
    "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
    "peopleColor": "#b4532a",
    "peopleColorName": "Rust",
    "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
-   "midground": "a muddy marsh with half-sunken cars, glowing swamp lures on stalks, a rotten dock",
-   "foreground": "reeds, a sunken bus",
-   "bgItems": "a muddy marsh with half-sunken cars, glowing swamp lures on stalks, a rotten dock, reeds, a sunken bus",
+   "midground": "a flooded limestone cave with stalactites, still black pools",
+   "foreground": "a stone shrine, glowing cave mushrooms and a rope ladder",
+   "bgItems": "a flooded limestone cave with stalactites, still black pools, a stone shrine, glowing cave mushrooms and a rope ladder",
    "art": null,
-   "look": "Wide-faced axolotl-kin half-submerged in muck, glowing gill-tips lit like lures, a hooked spear raised.",
-   "summary": "Ambush predators who lurk in muddy shallows with glowing lures. Mudglow Lurkers pull enemies in and finish them from the dark.",
-   "lore": "Their glowing gill-tips are a promise of safety. It is a lie.",
-   "abilities": "Glow Lure: pull a target toward you\nMud Dive: submerge and reposition\nGill Snap: heavy strike from stealth",
-   "strengths": "Superb ambush and lure damage; Regenerate between fights",
-   "weaknesses": "Weak when exposed; Predictable lures",
+   "look": "Pale, eyeless olm-kin with a long thin body and red external gills holding a cave-stick, one hand to the ground feeling for footsteps.",
+   "summary": "Blind, pale cave-dwellers who live for a century and can go ten years without a meal. Dark-Cave Seers feel the world through vibration and strike with ancient patience.",
+   "lore": "They sit in flooded caves where nothing has changed in a thousand years, and they have outwaited every army that came looking.",
+   "abilities": "Still Sense: reveal every moving enemy nearby\nLong Fast: reduce damage while stationary\nCave Whisper: a vibration spell that stuns",
+   "strengths": "Senses everything through vibration; Extreme endurance: never hungry, hard to wear down",
+   "weaknesses": "Blind in the open air; Slow to act",
    "companion": "",
-   "lorePlace": "The Pylon Coast and the Scrapwild: Coastal healers and swamp ambushers.",
-   "nameOnSheet": "Mudglow Lurkers",
-   "fileChar": "art/v2/were-mudglowlurkers.png",
-   "fileBg": "art/v2/were-mudglowlurkers-bg.jpg",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The river and cave clans: axolotl healers, giant-salamander river guards, blind olm seers, ribbed-newt skirmishers and hellbender current-holders.",
+   "nameOnSheet": "Olm Dark-Cave Seers",
+   "fileChar": "art/v2/were-olmseers.png",
+   "fileBg": "art/v2/were-olmseers-bg.jpg",
    "jack": [
-    "Black-fill test: the silhouette must still read as slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing.",
-    "Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
-    "Thumbnail test: the Hooked spear and the pose must be visible at 64 px.",
-    "Flat colors: #5a20c7 / #b5e48c / #e4ffda as separate flat shapes divided by black line; no gradients or glow.",
-    "Distinctive without detail: identifiable by Hooked spear and glow-lure and the assassin shape language."
+    "Black-fill test: the silhouette must still read as seated with one palm pressed to the ground and the cave-stick held upright in the other hand.",
+    "Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
+    "Thumbnail test: the Cave-stick and the pose must be visible at 64 px.",
+    "Flat colors: #d9c3b8 / #7a3a5a / #4cc9f0 as separate flat shapes divided by black line; no gradients or glow.",
+    "Distinctive without detail: identifiable by Cave-stick and vibration drum and the caster shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Mudglow Lurkers, male anthropomorphic axolotl character (axolotl-kin (not human)), apparent age early 20s. wide-faced and low-slung, a broad flat head, stubby legs, a thick tail, medium size. Pose: slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing. Expression: wide, unblinking stare, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Hooked spear. SECOND ITEM, kept plain: glow-lure. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: wide-faced axolotl-kin in a muddy cloak and wading boots, glowing lure-tips on the gills, a hooked spear held in both hands.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #5a20c7 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #b5e48c about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e4ffda about 10%, on the eyes, the Hooked spear and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Assassin, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Mudglow Lurkers with no people, creatures, figures, silhouettes or text. Midground: a muddy marsh with half-sunken cars, glowing swamp lures on stalks, a rotten dock. Foreground: reeds, a sunken bus, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #5a20c7 for the biggest glowing sources and surfaces, secondary #b5e48c for medium panels, banners and lights, pop #e4ffda for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Olm Dark-Cave Seers, nonbinary anthropomorphic olm character (olm-kin (not human)), apparent age early 70s. pale and eyeless, a long thin snake-like body, red feathery gills, medium size. Pose: seated with one palm pressed to the ground and the cave-stick held upright in the other hand. Expression: serene, blind, a faint smile, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Cave-stick. SECOND ITEM, kept plain: vibration drum. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: pale eyeless olm-kin with a long thin body and red feathery gills, a thin pale cloak, a string of fast-beads at the neck, a vibration drum at the hip, a cave-stick held in one hand and the other palm pressed to the ground.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #d9c3b8 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7a3a5a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4cc9f0 about 10%, on the eyes, the Cave-stick and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Caster, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Olm Dark-Cave Seers with no people, creatures, figures, silhouettes or text. Midground: a flooded limestone cave with stalactites, still black pools. Foreground: a stone shrine, glowing cave mushrooms and a rope ladder, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #d9c3b8 for the biggest glowing sources and surfaces, secondary #7a3a5a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
    "nda": "042",
+   "age": "late 20s",
+   "poseFamily": "CROUCH",
+   "id": "boneskirmishers",
+   "name": "Ribbed Newt Bone-Skirmishers",
+   "tagline": "Sharp where it counts.",
+   "people": "Were-Creature",
+   "peopleId": "were",
+   "cls": "Salamander-kin",
+   "subclass": "Ribbed Newt Bone-Skirmishers",
+   "role": "Combat",
+   "type": "Fighter",
+   "typeKey": "fighter",
+   "gender": "Female",
+   "ethnicity": "ribbed newt-kin (not human)",
+   "identity": "female anthropomorphic ribbed newt character",
+   "physique": "dark and spotted, low and wide, rows of rib-spikes along the sides",
+   "size": "medium",
+   "mobility": "agile",
+   "expression": "fierce, wincing grin",
+   "pose": "crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward",
+   "wardrobe": "dark spotted ribbed-newt-kin crouched low with rows of pale orange rib-spikes bursting from the sides, leather wraps, a harness of venom vials, a bone knife in one hand and a vial in the other",
+   "accessories": "Rib-spike harness; venom vials; bone knife; leather wraps",
+   "shape": "balanced diagonals with one clear weapon line",
+   "silhouette": "crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward; the Rib-spike harness and the venom vials break the outline so it reads instantly as a black shape",
+   "main": "#3d3a2a",
+   "secondary": "#e0902a",
+   "pop": "#a8e063",
+   "mainUse": "the largest garment, armor, fur-marking or body areas",
+   "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
+   "popUse": "the eyes, the Rib-spike harness and one small magical detail",
+   "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
+   "peopleColor": "#b4532a",
+   "peopleColorName": "Rust",
+   "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
+   "midground": "a rocky streambed arena with pools, mossy boulders",
+   "foreground": "bone piles, a ring of stakes and small braziers",
+   "bgItems": "a rocky streambed arena with pools, mossy boulders, bone piles, a ring of stakes and small braziers",
+   "art": null,
+   "look": "Dark, spotted ribbed newt-kin crouched low with rows of pale orange rib-spikes bursting from its sides, a vial in one hand.",
+   "summary": "Newt skirmishers who push their own sharp ribs through their skin, tipped with poison. Bone-Skirmishers fight in close, bursting into a ring of venomous spikes when cornered.",
+   "lore": "The tips of the ribs pass through poison glands on the way out. It hurts them too. They say that is the point.",
+   "abilities": "Rib Burst: spikes erupt and poison nearby foes\nVenom Coat: poison a weapon\nSkewer: a heavy rib-thrust",
+   "strengths": "Poison rib burst when hit; Strong close-range damage",
+   "weaknesses": "Hurts itself each burst; Fragile at range",
+   "companion": "",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The river and cave clans: axolotl healers, giant-salamander river guards, blind olm seers, ribbed-newt skirmishers and hellbender current-holders.",
+   "nameOnSheet": "Ribbed Newt Bone-Skirmishers",
+   "fileChar": "art/v2/were-boneskirmishers.png",
+   "fileBg": "art/v2/were-boneskirmishers-bg.jpg",
+   "jack": [
+    "Black-fill test: the silhouette must still read as crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward.",
+    "Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
+    "Thumbnail test: the Rib-spike harness and the pose must be visible at 64 px.",
+    "Flat colors: #3d3a2a / #e0902a / #a8e063 as separate flat shapes divided by black line; no gradients or glow.",
+    "Distinctive without detail: identifiable by Rib-spike harness and venom vials and the fighter shape language."
+   ],
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Ribbed Newt Bone-Skirmishers, female anthropomorphic ribbed newt character (ribbed newt-kin (not human)), apparent age late 20s. dark and spotted, low and wide, rows of rib-spikes along the sides, medium size. Pose: crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward. Expression: fierce, wincing grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Rib-spike harness. SECOND ITEM, kept plain: venom vials. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: dark spotted ribbed-newt-kin crouched low with rows of pale orange rib-spikes bursting from the sides, leather wraps, a harness of venom vials, a bone knife in one hand and a vial in the other.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #3d3a2a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e0902a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #a8e063 about 10%, on the eyes, the Rib-spike harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Fighter, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Ribbed Newt Bone-Skirmishers with no people, creatures, figures, silhouettes or text. Midground: a rocky streambed arena with pools, mossy boulders. Foreground: bone piles, a ring of stakes and small braziers, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #3d3a2a for the biggest glowing sources and surfaces, secondary #e0902a for medium panels, banners and lights, pop #a8e063 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "vet": null
+  },
+  {
+   "nda": "043",
+   "age": "mid 40s",
+   "poseFamily": "LEAN",
+   "id": "riverskinguardians",
+   "name": "Hellbender Riverskin Guardians",
+   "tagline": "Cold water. Clean skin.",
+   "people": "Were-Creature",
+   "peopleId": "were",
+   "cls": "Salamander-kin",
+   "subclass": "Hellbender Riverskin Guardians",
+   "role": "Combat",
+   "type": "Tank",
+   "typeKey": "tank",
+   "gender": "Male",
+   "ethnicity": "hellbender-kin (not human)",
+   "identity": "male anthropomorphic hellbender character",
+   "physique": "wide and wrinkled with folded skin flaps, a flat head, a thick flattened tail",
+   "size": "large",
+   "mobility": "aquatic",
+   "expression": "stolid, unbothered",
+   "pose": "braced in a wide stance behind the river-stone shield with the current-staff planted",
+   "wardrobe": "wide wrinkled hellbender-kin in a ridged folded-skin cloak with flat gripping gloves, a river-stone shield planted before it and a current-staff in the other hand, water streaming off the folds",
+   "accessories": "Folded-skin cloak; river-stone shield; current-staff; flat gripping gloves",
+   "shape": "wide blocky rectangles and a big shield shape",
+   "silhouette": "braced in a wide stance behind the river-stone shield with the current-staff planted; the Folded-skin cloak and the river-stone shield break the outline so it reads instantly as a black shape",
+   "main": "#4a5f6a",
+   "secondary": "#f2c14e",
+   "pop": "#b5e48c",
+   "mainUse": "the largest garment, armor, fur-marking or body areas",
+   "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
+   "popUse": "the eyes, the Folded-skin cloak and one small magical detail",
+   "baseTones": "Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted.",
+   "peopleColor": "#b4532a",
+   "peopleColorName": "Rust",
+   "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
+   "midground": "a cold rapids gorge with a stone weir, wet boulders",
+   "foreground": "a log footbridge, a water mill wheel and clear pools",
+   "bgItems": "a cold rapids gorge with a stone weir, wet boulders, a log footbridge, a water mill wheel and clear pools",
+   "art": null,
+   "look": "Wide, wrinkled hellbender-kin in a ridged skin-cloak planting a river-stone shield, water streaming off its folds.",
+   "summary": "Wrinkled hellbenders who breathe through their folded skin in cold fast rivers. Riverskin Guardians hold a current like a wall and never tire in clean water.",
+   "lore": "North America's biggest salamander has no use for gills or much for lungs. It needs only clean water, and it will defend any river that has it.",
+   "abilities": "Skin Fold: gain armor from flowing water\nCurrent Hold: root enemies in a stream\nClean Water: purify an area",
+   "strengths": "Never tires in running water; Strong defense in rivers and rain",
+   "weaknesses": "Weak in dirty or still water; Slow on land",
+   "companion": "",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The river and cave clans: axolotl healers, giant-salamander river guards, blind olm seers, ribbed-newt skirmishers and hellbender current-holders.",
+   "nameOnSheet": "Hellbender Riverskin Guardians",
+   "fileChar": "art/v2/were-riverskinguardians.png",
+   "fileBg": "art/v2/were-riverskinguardians-bg.jpg",
+   "jack": [
+    "Black-fill test: the silhouette must still read as braced in a wide stance behind the river-stone shield with the current-staff planted.",
+    "Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
+    "Thumbnail test: the Folded-skin cloak and the pose must be visible at 64 px.",
+    "Flat colors: #4a5f6a / #f2c14e / #b5e48c as separate flat shapes divided by black line; no gradients or glow.",
+    "Distinctive without detail: identifiable by Folded-skin cloak and river-stone shield and the tank shape language."
+   ],
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Hellbender Riverskin Guardians, male anthropomorphic hellbender character (hellbender-kin (not human)), apparent age mid 40s. wide and wrinkled with folded skin flaps, a flat head, a thick flattened tail, large size. Pose: braced in a wide stance behind the river-stone shield with the current-staff planted. Expression: stolid, unbothered, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Folded-skin cloak. SECOND ITEM, kept plain: river-stone shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: wide wrinkled hellbender-kin in a ridged folded-skin cloak with flat gripping gloves, a river-stone shield planted before it and a current-staff in the other hand, water streaming off the folds.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #4a5f6a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f2c14e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #b5e48c about 10%, on the eyes, the Folded-skin cloak and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Hellbender Riverskin Guardians with no people, creatures, figures, silhouettes or text. Midground: a cold rapids gorge with a stone weir, wet boulders. Foreground: a log footbridge, a water mill wheel and clear pools, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #4a5f6a for the biggest glowing sources and surfaces, secondary #f2c14e for medium panels, banners and lights, pop #b5e48c for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "vet": null
+  },
+  {
+   "nda": "044",
    "age": "early 40s",
    "poseFamily": "DIVE",
    "id": "murdervanguard",
@@ -3207,7 +3331,7 @@
    "vet": null
   },
   {
-   "nda": "043",
+   "nda": "045",
    "age": "early 70s",
    "poseFamily": "BALANCE",
    "id": "nighteyesnipers",
@@ -3272,7 +3396,7 @@
    "vet": null
   },
   {
-   "nda": "044",
+   "nda": "046",
    "age": "mid 50s",
    "poseFamily": "FLOAT",
    "id": "galesailors",
@@ -3337,7 +3461,7 @@
    "vet": null
   },
   {
-   "nda": "045",
+   "nda": "047",
    "age": "early 20s",
    "poseFamily": "SLIDE",
    "id": "inkspies",
@@ -3402,7 +3526,7 @@
    "vet": null
   },
   {
-   "nda": "046",
+   "nda": "048",
    "age": "early 30s",
    "poseFamily": "PLANTED",
    "id": "tentacleengineers",
@@ -3467,7 +3591,7 @@
    "vet": null
   },
   {
-   "nda": "047",
+   "nda": "049",
    "age": "early 20s",
    "poseFamily": "FLOAT",
    "id": "abyssalscholars",
@@ -3532,7 +3656,7 @@
    "vet": null
   },
   {
-   "nda": "048",
+   "nda": "050",
    "age": "early 30s",
    "poseFamily": "STRIDE",
    "id": "punchclawduelists",
@@ -3597,7 +3721,7 @@
    "vet": null
   },
   {
-   "nda": "049",
+   "nda": "051",
    "age": "early 70s",
    "poseFamily": "LEAN",
    "id": "prismgunners",
@@ -3662,7 +3786,7 @@
    "vet": null
   },
   {
-   "nda": "050",
+   "nda": "052",
    "age": "late 20s",
    "poseFamily": "KNEEL",
    "id": "reefshellguard",
@@ -3727,7 +3851,7 @@
    "vet": null
   },
   {
-   "nda": "051",
+   "nda": "053",
    "age": "late 20s",
    "poseFamily": "FLOAT",
    "id": "lanterncultists",
@@ -3792,7 +3916,7 @@
    "vet": null
   },
   {
-   "nda": "052",
+   "nda": "054",
    "age": "mid 60s",
    "poseFamily": "SPIN",
    "id": "dreamdustweavers",
@@ -3857,7 +3981,7 @@
    "vet": null
   },
   {
-   "nda": "053",
+   "nda": "055",
    "age": "late 20s",
    "poseFamily": "HANG",
    "id": "signaltowerwardens",
@@ -3922,7 +4046,7 @@
    "vet": null
   },
   {
-   "nda": "054",
+   "nda": "056",
    "age": "mid 30s",
    "poseFamily": "PLANTED",
    "id": "platewallbulwarks",
@@ -3987,7 +4111,7 @@
    "vet": null
   },
   {
-   "nda": "055",
+   "nda": "057",
    "age": "late 20s",
    "poseFamily": "LEAP",
    "id": "tunneldiggers",
@@ -4052,7 +4176,7 @@
    "vet": null
   },
   {
-   "nda": "056",
+   "nda": "058",
    "age": "mid 40s",
    "poseFamily": "SPIN",
    "id": "curlballrollers",
@@ -4117,7 +4241,7 @@
    "vet": null
   },
   {
-   "nda": "057",
+   "nda": "059",
    "age": "early 30s",
    "poseFamily": "HANG",
    "id": "loomweavers",
@@ -4182,7 +4306,7 @@
    "vet": null
   },
   {
-   "nda": "058",
+   "nda": "060",
    "age": "early 40s",
    "poseFamily": "RUN",
    "id": "silkroad",
@@ -4247,7 +4371,7 @@
    "vet": null
   },
   {
-   "nda": "059",
+   "nda": "061",
    "age": "early 20s",
    "poseFamily": "LEAP",
    "id": "dewdrop",
@@ -4312,7 +4436,7 @@
    "vet": null
   },
   {
-   "nda": "060",
+   "nda": "062",
    "age": "mid 30s",
    "poseFamily": "BALANCE",
    "id": "squirrelcommanders",
@@ -4377,7 +4501,7 @@
    "vet": null
   },
   {
-   "nda": "061",
+   "nda": "063",
    "age": "mid 60s",
    "poseFamily": "LUNGE",
    "id": "staticwraiths",
@@ -4442,7 +4566,7 @@
    "vet": null
   },
   {
-   "nda": "062",
+   "nda": "064",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "testpattern",
@@ -4507,7 +4631,7 @@
    "vet": null
   },
   {
-   "nda": "063",
+   "nda": "065",
    "age": "early 20s",
    "poseFamily": "TWIST",
    "id": "emergencybroadcast",
@@ -4572,7 +4696,7 @@
    "vet": null
   },
   {
-   "nda": "064",
+   "nda": "066",
    "age": "mid 30s",
    "poseFamily": "STOOP",
    "id": "rustwraith",
@@ -4637,7 +4761,7 @@
    "vet": null
   },
   {
-   "nda": "065",
+   "nda": "067",
    "age": "early 30s",
    "poseFamily": "STRIDE",
    "id": "cabinetspirits",
@@ -4702,7 +4826,7 @@
    "vet": null
   },
   {
-   "nda": "066",
+   "nda": "068",
    "age": "mid 60s",
    "poseFamily": "LEAN",
    "id": "hardwaresurgeons",
@@ -4767,7 +4891,7 @@
    "vet": null
   },
   {
-   "nda": "067",
+   "nda": "069",
    "age": "late 20s",
    "poseFamily": "LEAP",
    "id": "lastdance",
@@ -4832,7 +4956,7 @@
    "vet": null
   },
   {
-   "nda": "068",
+   "nda": "070",
    "age": "early 30s",
    "poseFamily": "KNEEL",
    "id": "wakewardens",
@@ -4897,7 +5021,7 @@
    "vet": null
   },
   {
-   "nda": "069",
+   "nda": "071",
    "age": "late 30s",
    "poseFamily": "TWIST",
    "id": "redialwraiths",
@@ -4962,7 +5086,7 @@
    "vet": null
   },
   {
-   "nda": "070",
+   "nda": "072",
    "age": "late 40s",
    "poseFamily": "LEAN",
    "id": "highwaybanshees",
@@ -5027,7 +5151,7 @@
    "vet": null
   },
   {
-   "nda": "071",
+   "nda": "073",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "billboardhaunts",
@@ -5092,7 +5216,7 @@
    "vet": null
   },
   {
-   "nda": "072",
+   "nda": "074",
    "age": "early 20s",
    "poseFamily": "SIT",
    "id": "hospicehaunts",
@@ -5157,7 +5281,7 @@
    "vet": null
   },
   {
-   "nda": "073",
+   "nda": "075",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "seanceoperators",
@@ -5219,7 +5343,7 @@
    "vet": null
   },
   {
-   "nda": "074",
+   "nda": "076",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "bonebreakers",
@@ -5284,7 +5408,7 @@
    "vet": null
   },
   {
-   "nda": "075",
+   "nda": "077",
    "age": "late 50s",
    "poseFamily": "CROUCH",
    "id": "rattlecannon",
@@ -5349,7 +5473,7 @@
    "vet": null
   },
   {
-   "nda": "076",
+   "nda": "078",
    "age": "early 70s",
    "poseFamily": "STRIDE",
    "id": "drummajor",
@@ -5414,7 +5538,7 @@
    "vet": null
   },
   {
-   "nda": "077",
+   "nda": "079",
    "age": "late 30s",
    "poseFamily": "TWIST",
    "id": "demolition",
@@ -5479,7 +5603,7 @@
    "vet": null
   },
   {
-   "nda": "078",
+   "nda": "080",
    "age": "late 40s",
    "poseFamily": "SPIN",
    "id": "wreckinglumber",
@@ -5544,7 +5668,7 @@
    "vet": null
   },
   {
-   "nda": "079",
+   "nda": "081",
    "age": "early 40s",
    "poseFamily": "LEAN",
    "id": "shopstewards",
@@ -5609,7 +5733,7 @@
    "vet": null
   },
   {
-   "nda": "080",
+   "nda": "082",
    "age": "mid 60s",
    "poseFamily": "LUNGE",
    "id": "soulnotaries",
@@ -5674,7 +5798,7 @@
    "vet": null
   },
   {
-   "nda": "081",
+   "nda": "083",
    "age": "mid 60s",
    "poseFamily": "TWIST",
    "id": "phylacteryauditors",
@@ -5739,7 +5863,7 @@
    "vet": null
   },
   {
-   "nda": "082",
+   "nda": "084",
    "age": "mid 60s",
    "poseFamily": "SPIN",
    "id": "contractreapers",
@@ -5804,7 +5928,7 @@
    "vet": null
   },
   {
-   "nda": "083",
+   "nda": "085",
    "age": "late 30s",
    "poseFamily": "RUN",
    "id": "sarcophaguslancers",
@@ -5869,7 +5993,7 @@
    "vet": null
   },
   {
-   "nda": "084",
+   "nda": "086",
    "age": "late 50s",
    "poseFamily": "BALANCE",
    "id": "goldmaskduelists",
@@ -5934,7 +6058,7 @@
    "vet": null
   },
   {
-   "nda": "085",
+   "nda": "087",
    "age": "early 30s",
    "poseFamily": "LEAN",
    "id": "embalmeralchemists",
@@ -5999,7 +6123,7 @@
    "vet": null
   },
   {
-   "nda": "086",
+   "nda": "088",
    "age": "early 70s",
    "poseFamily": "STOOP",
    "id": "marrowpuppeteers",
@@ -6061,7 +6185,7 @@
    "vet": null
   },
   {
-   "nda": "087",
+   "nda": "089",
    "age": "late 30s",
    "poseFamily": "RUN",
    "id": "mowerknights",
@@ -6126,7 +6250,7 @@
    "vet": null
   },
   {
-   "nda": "088",
+   "nda": "090",
    "age": "early 20s",
    "poseFamily": "SPIN",
    "id": "sprinklersprites",
@@ -6191,7 +6315,7 @@
    "vet": null
   },
   {
-   "nda": "089",
+   "nda": "091",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "hoamediators",
@@ -6256,7 +6380,7 @@
    "vet": null
   },
   {
-   "nda": "090",
+   "nda": "092",
    "age": "early 20s",
    "poseFamily": "PLANTED",
    "id": "rootlinkwarlocks",
@@ -6321,7 +6445,7 @@
    "vet": null
   },
   {
-   "nda": "091",
+   "nda": "093",
    "age": "early 20s",
    "poseFamily": "LEAN",
    "id": "mossplate",
@@ -6386,7 +6510,7 @@
    "vet": null
   },
   {
-   "nda": "092",
+   "nda": "094",
    "age": "early 40s",
    "poseFamily": "STOOP",
    "id": "seedbank",
@@ -6451,7 +6575,7 @@
    "vet": null
   },
   {
-   "nda": "093",
+   "nda": "095",
    "age": "late 40s",
    "poseFamily": "CROUCH",
    "id": "sumpsappers",
@@ -6516,7 +6640,7 @@
    "vet": null
   },
   {
-   "nda": "094",
+   "nda": "096",
    "age": "early 40s",
    "poseFamily": "LUNGE",
    "id": "boilerbrawlers",
@@ -6578,7 +6702,7 @@
    "vet": null
   },
   {
-   "nda": "095",
+   "nda": "097",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "tollbrokers",
@@ -6643,7 +6767,7 @@
    "vet": null
   },
   {
-   "nda": "096",
+   "nda": "098",
    "age": "late 50s",
    "poseFamily": "HANG",
    "id": "doorbellambushers",
@@ -6705,7 +6829,7 @@
    "vet": null
   },
   {
-   "nda": "097",
+   "nda": "099",
    "age": "early 50s",
    "poseFamily": "BALANCE",
    "id": "pantrypoisoners",
@@ -6767,7 +6891,7 @@
    "vet": null
   },
   {
-   "nda": "098",
+   "nda": "100",
    "age": "mid 60s",
    "poseFamily": "STRIDE",
    "id": "blockwatch",
@@ -6829,7 +6953,7 @@
    "vet": null
   },
   {
-   "nda": "099",
+   "nda": "101",
    "age": "late 30s",
    "poseFamily": "STRIDE",
    "id": "canopybeastmasters",
@@ -6891,7 +7015,7 @@
    "vet": null
   },
   {
-   "nda": "100",
+   "nda": "102",
    "age": "late 30s",
    "poseFamily": "LEAN",
    "id": "tidecallpriests",
@@ -6953,7 +7077,7 @@
    "vet": null
   },
   {
-   "nda": "101",
+   "nda": "103",
    "age": "late 20s",
    "poseFamily": "STRIDE",
    "id": "coralbone",
@@ -7015,7 +7139,7 @@
    "vet": null
   },
   {
-   "nda": "102",
+   "nda": "104",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "pearleyed",
@@ -7077,7 +7201,7 @@
    "vet": null
   },
   {
-   "nda": "103",
+   "nda": "105",
    "age": "mid 40s",
    "poseFamily": "FLOAT",
    "id": "braincase",
@@ -7139,7 +7263,7 @@
    "vet": null
   },
   {
-   "nda": "104",
+   "nda": "106",
    "age": "late 50s",
    "poseFamily": "PLANTED",
    "id": "etherwing",
@@ -7204,7 +7328,7 @@
    "vet": null
   },
   {
-   "nda": "105",
+   "nda": "107",
    "age": "late 30s",
    "poseFamily": "HANG",
    "id": "signalhive",
@@ -7266,7 +7390,7 @@
    "vet": null
   },
   {
-   "nda": "106",
+   "nda": "108",
    "age": "late 30s",
    "poseFamily": "LUNGE",
    "id": "manymaw",
@@ -7328,7 +7452,7 @@
    "vet": null
   },
   {
-   "nda": "107",
+   "nda": "109",
    "age": "early 40s",
    "poseFamily": "STRIDE",
    "id": "mimicflesh",
@@ -7390,7 +7514,7 @@
    "vet": null
   },
   {
-   "nda": "108",
+   "nda": "110",
    "age": "mid 60s",
    "poseFamily": "STOOP",
    "id": "memorymass",
@@ -7452,7 +7576,7 @@
    "vet": null
   },
   {
-   "nda": "109",
+   "nda": "111",
    "age": "mid 30s",
    "poseFamily": "LEAN",
    "id": "starstone",
@@ -7514,7 +7638,7 @@
    "vet": null
   },
   {
-   "nda": "110",
+   "nda": "112",
    "age": "mid 60s",
    "poseFamily": "KNEEL",
    "id": "fossilscript",
@@ -7576,7 +7700,7 @@
    "vet": null
   },
   {
-   "nda": "111",
+   "nda": "113",
    "age": "early 50s",
    "poseFamily": "LEAP",
    "id": "wingfold",
@@ -7638,7 +7762,7 @@
    "vet": null
   },
   {
-   "nda": "112",
+   "nda": "114",
    "age": "early 20s",
    "poseFamily": "STOOP",
    "id": "dreamsnatchers",
@@ -7700,7 +7824,7 @@
    "vet": null
   },
   {
-   "nda": "113",
+   "nda": "115",
    "age": "early 70s",
    "poseFamily": "DIVE",
    "id": "voidwing",
@@ -7762,7 +7886,7 @@
    "vet": null
   },
   {
-   "nda": "114",
+   "nda": "116",
    "age": "late 50s",
    "poseFamily": "LEAN",
    "id": "nightmareshepherds",
@@ -7824,7 +7948,7 @@
    "vet": null
   },
   {
-   "nda": "115",
+   "nda": "117",
    "age": "early 50s",
    "poseFamily": "LEAP",
    "id": "cornerstalkers",
@@ -7886,7 +8010,7 @@
    "vet": null
   },
   {
-   "nda": "116",
+   "nda": "118",
    "age": "early 30s",
    "poseFamily": "CRAWL",
    "id": "timescent",
@@ -7948,7 +8072,7 @@
    "vet": null
   },
   {
-   "nda": "117",
+   "nda": "119",
    "age": "early 30s",
    "poseFamily": "LUNGE",
    "id": "fracturejaw",
@@ -8010,7 +8134,7 @@
    "vet": null
   },
   {
-   "nda": "118",
+   "nda": "120",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "azathothpipers",
@@ -8072,7 +8196,7 @@
    "vet": null
   },
   {
-   "nda": "119",
+   "nda": "121",
    "age": "mid 40s",
    "poseFamily": "PLANTED",
    "id": "signalsavants",
@@ -8137,7 +8261,7 @@
    "vet": null
   },
   {
-   "nda": "120",
+   "nda": "122",
    "age": "mid 20s",
    "poseFamily": "SPIN",
    "id": "circuitarcanists",
@@ -8199,7 +8323,7 @@
    "vet": null
   },
   {
-   "nda": "121",
+   "nda": "123",
    "age": "mid 30s",
    "poseFamily": "LEAN",
    "id": "stickywizards",
@@ -8264,7 +8388,7 @@
    "vet": null
   },
   {
-   "nda": "122",
+   "nda": "124",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "sporecoven",
@@ -8329,7 +8453,7 @@
    "vet": null
   },
   {
-   "nda": "123",
+   "nda": "125",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "scraphexwitches",
@@ -8391,7 +8515,7 @@
    "vet": null
   },
   {
-   "nda": "124",
+   "nda": "126",
    "age": "mid 40s",
    "poseFamily": "SIT",
    "id": "thornbloodcoven",
@@ -8453,7 +8577,7 @@
    "vet": null
   },
   {
-   "nda": "125",
+   "nda": "127",
    "age": "mid 20s",
    "poseFamily": "KNEEL",
    "id": "voidbound",
@@ -8515,7 +8639,7 @@
    "vet": null
   },
   {
-   "nda": "126",
+   "nda": "128",
    "age": "mid 20s",
    "poseFamily": "CROUCH",
    "id": "bloodwireapostates",
@@ -8577,7 +8701,7 @@
    "vet": null
   },
   {
-   "nda": "127",
+   "nda": "129",
    "age": "mid 30s",
    "poseFamily": "STRIDE",
    "id": "mirroroathbreakers",
@@ -8639,7 +8763,7 @@
    "vet": null
   },
   {
-   "nda": "128",
+   "nda": "130",
    "age": "mid 20s",
    "poseFamily": "LEAN",
    "id": "chronofractures",
@@ -8701,7 +8825,7 @@
    "vet": null
   },
   {
-   "nda": "129",
+   "nda": "131",
    "age": "mid 30s",
    "poseFamily": "FLOAT",
    "id": "mindweavers",
@@ -8763,7 +8887,7 @@
    "vet": null
   },
   {
-   "nda": "130",
+   "nda": "132",
    "age": "mid 20s",
    "poseFamily": "RUN",
    "id": "fluxborn",
@@ -8825,7 +8949,7 @@
    "vet": null
   },
   {
-   "nda": "131",
+   "nda": "133",
    "age": "mid 60s",
    "poseFamily": "KNEEL",
    "id": "necromancers",

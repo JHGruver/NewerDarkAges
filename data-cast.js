@@ -43,9 +43,11 @@ window.CAST = {
   hotspringhealers: C("Female", "N/A (capybara-kin)", "soft, serene smile", "pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet"),
   reeddiplomats: C("Male", "N/A (capybara-kin)", "calm, untroubled", "bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other"),
   damwardens: C("Male", "N/A (capybara-kin)", "stolid, unbothered", "leaning into a slab shield like a door, the sledge resting on one shoulder"),
+  mawwardens: C("Male", "N/A (giant salamander-kin)", "still, patient, a wide closed-mouth calm", "planted low and wide with the jaws opening and the riverbed hammer raised in one fist"),
+  olmseers: C("Nonbinary", "N/A (olm-kin)", "serene, blind, a faint smile", "seated with one palm pressed to the ground and the cave-stick held upright in the other hand"),
+  boneskirmishers: C("Female", "N/A (ribbed newt-kin)", "fierce, wincing grin", "crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward"),
+  riverskinguardians: C("Male", "N/A (hellbender-kin)", "stolid, unbothered", "braced in a wide stance behind the river-stone shield with the current-staff planted"),
   regrowthmedics: C("Nonbinary", "N/A (axolotl-kin)", "bright, reassuring smile", "kneeling on one knee with a glowing hand over a wound, the satchel open on the ground"),
-  gillstorm: C("Female", "N/A (axolotl-kin)", "intense, gills flared", "twisted at the hips with the staff raised overhead in both hands, lightning arcing between the gills"),
-  mudglowlurkers: C("Male", "N/A (axolotl-kin)", "wide, unblinking stare", "slinking low on hands and knees with the hooked spear lowered, the lure-tips glowing"),
   galesailors: C("Female", "N/A (albatross-kin)", "calm, far-seeing, wind-weathered", "soaring with the huge wings spread wide, one arm raising the compass-vane staff and its flag high, the feet trailing"),
   murdervanguard: C("Male", "N/A (raven-kin)", "cold, beaked glare", "diving forward in mid-air with the wings swept up, a talon-blade in each hand and three crows streaming behind"),
   nighteyesnipers: C("Male", "N/A (owl-kin)", "steady, enormous-eyed focus", "perched on one foot on a branch with the other leg tucked, the long rifle aimed forward in both hands"),
@@ -146,6 +148,10 @@ window.CAST = {
 };
 // Apparent age and pose family per character (audited Oct 2026 for variety). Not loaded by the site.
 window.CAST_AGE = {
+ "mawwardens": "mid 50s",
+ "olmseers": "early 70s",
+ "boneskirmishers": "late 20s",
+ "riverskinguardians": "mid 40s",
  "galesailors": "mid 50s",
  "ninjashoguns": "early 50s",
  "batcallers": "mid 60s",
@@ -184,8 +190,6 @@ window.CAST_AGE = {
  "reeddiplomats": "mid 30s",
  "damwardens": "early 30s",
  "regrowthmedics": "late 40s",
- "gillstorm": "mid 30s",
- "mudglowlurkers": "early 20s",
  "murdervanguard": "early 40s",
  "nighteyesnipers": "early 70s",
  "inkspies": "early 20s",
@@ -280,6 +284,10 @@ window.CAST_AGE = {
  "sporecoven": "mid 40s"
 };
 window.CAST_FAMILY = {
+ "mawwardens": "PLANTED",
+ "olmseers": "SIT",
+ "boneskirmishers": "CROUCH",
+ "riverskinguardians": "LEAN",
  "galesailors": "FLOAT",
  "ninjashoguns": "PLANTED",
  "batcallers": "FLOAT",
@@ -318,8 +326,6 @@ window.CAST_FAMILY = {
  "reeddiplomats": "STOOP",
  "damwardens": "LEAN",
  "regrowthmedics": "KNEEL",
- "gillstorm": "TWIST",
- "mudglowlurkers": "CRAWL",
  "murdervanguard": "DIVE",
  "nighteyesnipers": "BALANCE",
  "inkspies": "SLIDE",
