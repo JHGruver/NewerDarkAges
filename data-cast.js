@@ -61,7 +61,7 @@ window.CAST = {
   lanterncultists: C("Female", "N/A (moth-kin)", "rapt, glowing devotion", "hovering with the lantern staff raised, a flare launcher cocked on the hip"),
   dreamdustweavers: C("Nonbinary", "N/A (moth-kin)", "drowsy, dreamy smile", "turning gently in the air shaking glowing dust from a feather duster over an ally"),
   signaltowerwardens: C("Male", "N/A (moth-kin)", "alert, antennae twitching", "climbing with the winged back arched, one hand on a rung and the signal rod pointed outward"),
-  platewallbulwarks: C("Female", "N/A (pangolin-kin)", "unshakable, jaw set", "planted wide behind a tower shield, the mace raised"),
+  platewallbulwarks: C("Female", "N/A (pangolin-kin)", "calm, narrowed, watchful", "wide braced stance behind the tower shield with the spiked mace raised overhead"),
   tunneldiggers: C("Male", "N/A (pangolin-kin)", "gritty, determined side-glance", "bursting up out of the ground with one huge claw raised back and the other planted, rubble flying"),
   curlballrollers: C("Male", "N/A (pangolin-kin)", "sly, confident half-smile", "coiled low on all fours with the tail curled up over the back and the huge fists planted, about to roll"),
   loomweavers: C("Female", "N/A (spider-kin)", "serene, calm, narrowed pale eyes", "hanging mid-web with two limbs pulling taut loops of barbed thread and the hooked blades held low"),
