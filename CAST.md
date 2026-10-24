@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 133 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 65.
+**Gender split:** Male 65, Female 52, Nonbinary 16. **Combat/support:** 108/25. **With final art:** 66.
 
 ## Art direction in one screen
 
@@ -2873,27 +2873,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | enormous flat-headed salamander, a huge wide mouth, tiny eyes, a thick tail; large size; mobility: aquatic |
 | Ethnicity + nationality | giant salamander-kin (not human) |
 | Identity | male anthropomorphic giant salamander character |
-| Wardrobe | huge flat-headed giant salamander-kin with a wide mouth and tiny eyes, a river-stone plated harness, a wide-mouth helm and a sensor-node collar, a heavy riverbed hammer raised in one fist |
+| Wardrobe | huge dark-green spotted giant-salamander-kin with a wide flat head, small red eyes and red-and-green feathery gill fronds, a gold-and-red disc necklace, a gold harness with a black sash and ring buckle, gold-banded arm and leg guards, clawed hands and feet, and a massive black-and-red stone riverbed hammer raised overhead in one fist |
 | Accessories | Riverbed hammer; sensor-node collar; wide-mouth helm; river-stone plating |
-| Pose | planted low and wide with the jaws opening and the riverbed hammer raised in one fist |
+| Pose | crouched low and wide on one hand and both feet with the stone hammer raised overhead in the other fist |
 | Facial expression | still, patient, a wide closed-mouth calm |
 | People | Were-Creature |
 | Class | Salamander-kin |
 | Subclass | Giant Salamander Maw Wardens |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | planted low and wide with the jaws opening and the riverbed hammer raised in one fist; the Riverbed hammer and the sensor-node collar break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched low and wide on one hand and both feet with the stone hammer raised overhead in the other fist; the Riverbed hammer and the sensor-node collar break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #5a6b5e: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #c94b3a: the eyes, the Riverbed hammer and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-mawwardens.png` and `art/v2/were-mawwardens-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as planted low and wide with the jaws opening and the riverbed hammer raised in one fist.
+1. Black-fill test: the silhouette must still read as crouched low and wide on one hand and both feet with the stone hammer raised overhead in the other fist.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Riverbed hammer and the pose must be visible at 64 px.
 4. Flat colors: #5a6b5e / #e8c76a / #c94b3a as separate flat shapes divided by black line; no gradients or glow.
@@ -2913,8 +2913,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Giant Salamander Maw Wardens, male anthropomorphic giant salamander character (giant salamander-kin (not human)), apparent age mid 50s. enormous flat-headed salamander, a huge wide mouth, tiny eyes, a thick tail, large size. Pose: planted low and wide with the jaws opening and the riverbed hammer raised in one fist. Expression: still, patient, a wide closed-mouth calm, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Riverbed hammer. SECOND ITEM, kept plain: sensor-node collar. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge flat-headed giant salamander-kin with a wide mouth and tiny eyes, a river-stone plated harness, a wide-mouth helm and a sensor-node collar, a heavy riverbed hammer raised in one fist.
+CHARACTER: Giant Salamander Maw Wardens, male anthropomorphic giant salamander character (giant salamander-kin (not human)), apparent age mid 50s. enormous flat-headed salamander, a huge wide mouth, tiny eyes, a thick tail, large size. Pose: crouched low and wide on one hand and both feet with the stone hammer raised overhead in the other fist. Expression: still, patient, a wide closed-mouth calm, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Riverbed hammer. SECOND ITEM, kept plain: sensor-node collar. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge dark-green spotted giant-salamander-kin with a wide flat head, small red eyes and red-and-green feathery gill fronds, a gold-and-red disc necklace, a gold harness with a black sash and ring buckle, gold-banded arm and leg guards, clawed hands and feet.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #5a6b5e about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c94b3a about 10%, on the eyes, the Riverbed hammer and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).

@@ -43,7 +43,7 @@ window.CAST = {
   hotspringhealers: C("Female", "N/A (capybara-kin)", "soft, serene smile", "pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet"),
   reeddiplomats: C("Male", "N/A (capybara-kin)", "calm, untroubled", "bowing slightly with both arms out, a treaty scroll in one paw and a teapot offered in the other"),
   damwardens: C("Male", "N/A (capybara-kin)", "stolid, unbothered", "leaning into a slab shield like a door, the sledge resting on one shoulder"),
-  mawwardens: C("Male", "N/A (giant salamander-kin)", "still, patient, a wide closed-mouth calm", "planted low and wide with the jaws opening and the riverbed hammer raised in one fist"),
+  mawwardens: C("Male", "N/A (giant salamander-kin)", "still, patient, a wide closed-mouth calm", "crouched low and wide on one hand and both feet with the stone hammer raised overhead in the other fist"),
   olmseers: C("Nonbinary", "N/A (olm-kin)", "serene, blind, a faint smile", "seated with one palm pressed to the ground and the cave-stick held upright in the other hand"),
   boneskirmishers: C("Female", "N/A (ribbed newt-kin)", "fierce, wincing grin", "crouched low and twisting as the rib-spikes burst from the sides, the bone knife forward"),
   riverskinguardians: C("Male", "N/A (hellbender-kin)", "stolid, unbothered", "braced in a wide stance behind the river-stone shield with the current-staff planted"),
