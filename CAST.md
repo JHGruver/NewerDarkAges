@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 96.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 97.
 
 ## Art direction in one screen
 
@@ -761,7 +761,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | stocky rectangular torso on short bowed legs, big forearms, a low center of gravity; medium size; mobility: agile |
 | Ethnicity + nationality | Afro-Brazilian heritage, Brazilian |
 | Identity | male human |
-| Wardrobe | armored human lancer in a padded suit with slide-pads on the knees, a helmet lamp and a climbing harness, a long lance held across the body |
+| Wardrobe | burly bearded human lancer in orange-and-black padded armor with blue and cream trim, big angular pauldrons, a cream headband with a headlamp and a blue sash, climbing-harness straps with steel rings, a studded belt, fingerless gloves, heavy cream-and-black knee guards and boots, a long cream-and-black spear with a broad leaf-shaped blade held low in both hands |
 | Accessories | Lance; slide-pads; helmet lamp; climbing harness |
 | Pose | skidding sideways on one knee in a low slide, the lance couched under one arm and the other hand dragging the ground |
 | Facial expression | determined shout |
@@ -776,8 +776,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #4361ee: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #fff2cf: the eyes, the Lance and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-escalator.png` and `art/v2/human-escalator-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -793,16 +793,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners |
 | Colors | wash #d9a521 (about 65%); accents #b1690f / #4361ee / #fff2cf (about 20%) |
-| Midground | a stopped escalator running up to a skylight, a glass elevator |
-| Foreground | a mall atrium balcony with railings, hanging banners |
-| Character-relevant items | a stopped escalator running up to a skylight, a glass elevator, a mall atrium balcony with railings, hanging banners |
+| Midground | a ruined mall atrium beneath a broken glass dome and moon: a working escalator pair lit with amber strips, a glass elevator tower, balcony walkways with railings, planters with overgrowth |
+| Foreground | amber lanterns, rubble, and blue banners with a circle sigil |
+| Character-relevant items | a ruined mall atrium beneath a broken glass dome and moon: a working escalator pair lit with amber strips, a glass elevator tower, balcony walkways with railings, planters with overgrowth, amber lanterns, rubble, and blue banners with a circle sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Escalator Lancers, male human (Afro-Brazilian heritage, Brazilian), apparent age early 30s. stocky rectangular torso on short bowed legs, big forearms, a low center of gravity, medium size. Pose: skidding sideways on one knee in a low slide, the lance couched under one arm and the other hand dragging the ground. Expression: determined shout, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Lance. SECOND ITEM, kept plain: slide-pads. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored human lancer in a padded suit with slide-pads on the knees, a helmet lamp and a climbing harness, a long lance held across the body.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Lance. SECOND ITEM, kept plain: slide-pads. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: burly bearded human lancer in orange-and-black padded armor with blue and cream trim, big angular pauldrons, a cream headband with a headlamp and a blue sash, climbing-harness straps with steel rings, a studded belt, fingerless gloves.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b1690f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4361ee about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff2cf about 10%, on the eyes, the Lance and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -815,7 +815,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Escalator Lancers with no people, creatures, figures, silhouettes or text. Midground: a stopped escalator running up to a skylight, a glass elevator. Foreground: a mall atrium balcony with railings, hanging banners, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Escalator Lancers with no people, creatures, figures, silhouettes or text. Midground: a ruined mall atrium beneath a broken glass dome and moon: a working escalator pair lit with amber strips, a glass elevator tower, balcony walkways with railings, planters with overgrowth. Foreground: amber lanterns, rubble, and blue banners with a circle sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #b1690f for the biggest glowing sources and surfaces, secondary #4361ee for medium panels, banners and lights, pop #fff2cf for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
