@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 70.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 71.
 
 ## Art direction in one screen
 
@@ -2225,27 +2225,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | round and fluffy, a banded tail as long as the body, a masked face; medium size; mobility: climbing |
 | Ethnicity + nationality | red panda-kin (not human) |
 | Identity | female anthropomorphic red panda character |
-| Wardrobe | round red-panda-kin monk with a ringed bushy tail, a rust robe with a bamboo-green sash, a steaming kettle in one paw and a bamboo staff in the other |
+| Wardrobe | round red-panda-kin monk with a ringed bushy tail, a rust robe with a cream wrap sash, a black teapot pouring into a cup in one paw and a pink bamboo staff in the other |
 | Accessories | Bamboo staff; tea kettle; striped tail; monk's sash |
-| Pose | sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder |
-| Facial expression | calm, small smile |
+| Pose | squatting upright, pouring tea from the teapot into a cup in one paw, the bamboo staff held upright in the other |
+| Facial expression | eyes closed, calm small smile |
 | People | Were-Creature |
 | Class | Arctoidea-kin |
 | Subclass | Red Panda Bamboo Monks |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder; the Bamboo staff and the tea kettle break the outline so it reads instantly as a black shape |
+| Silhouette hook | squatting upright, pouring tea from the teapot into a cup in one paw, the bamboo staff held upright in the other; the Bamboo staff and the tea kettle break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #cd521d: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ff5d8f: the eyes, the Bamboo staff and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-redpandamonks.png` and `art/v2/were-redpandamonks-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder.
+1. Black-fill test: the silhouette must still read as squatting upright, pouring tea from the teapot into a cup in one paw, the bamboo staff held upright in the other.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Bamboo staff and the pose must be visible at 64 px.
 4. Flat colors: #cd521d / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
@@ -2257,16 +2257,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #cd521d / #f4f1e8 / #ff5d8f (about 20%) |
-| Midground | a bamboo grove tea house on stilts with lanterns |
-| Foreground | rope bridges and a boiling kettle |
-| Character-relevant items | a bamboo grove tea house on stilts with lanterns, rope bridges and a boiling kettle |
+| Midground | a bamboo grove pagoda tea house with paper lanterns, a rope bridge |
+| Foreground | waterfalls and a boiling kettle over a fire |
+| Character-relevant items | a bamboo grove pagoda tea house with paper lanterns, a rope bridge, waterfalls and a boiling kettle over a fire |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Red Panda Bamboo Monks, female anthropomorphic red panda character (red panda-kin (not human)), apparent age mid 40s. round and fluffy, a banded tail as long as the body, a masked face, medium size. Pose: sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder. Expression: calm, small smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bamboo staff. SECOND ITEM, kept plain: tea kettle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: round red-panda-kin monk with a ringed bushy tail, a rust robe with a bamboo-green sash, a steaming kettle in one paw and a bamboo staff in the other.
+CHARACTER: Red Panda Bamboo Monks, female anthropomorphic red panda character (red panda-kin (not human)), apparent age mid 40s. round and fluffy, a banded tail as long as the body, a masked face, medium size. Pose: squatting upright, pouring tea from the teapot into a cup in one paw, the bamboo staff held upright in the other. Expression: eyes closed, calm small smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bamboo staff. SECOND ITEM, kept plain: tea kettle. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: round red-panda-kin monk with a ringed bushy tail, a rust robe with a cream wrap sash, a black teapot pouring into a cup in one paw and a pink bamboo staff in the other.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #cd521d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Bamboo staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2279,7 +2279,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Red Panda Bamboo Monks with no people, creatures, figures, silhouettes or text. Midground: a bamboo grove tea house on stilts with lanterns. Foreground: rope bridges and a boiling kettle, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Red Panda Bamboo Monks with no people, creatures, figures, silhouettes or text. Midground: a bamboo grove pagoda tea house with paper lanterns, a rope bridge. Foreground: waterfalls and a boiling kettle over a fire, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #cd521d for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ff5d8f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

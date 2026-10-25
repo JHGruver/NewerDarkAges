@@ -34,7 +34,7 @@ window.CAST = {
   bonecrushers: C("Male", "N/A (wolf-kin)", "snarling, jaw clenched on the muzzle guard", "crouched low and wide with one clawed fist planted on a cracked boulder and the head turned snarling"),
   torrentstriders: C("Female", "N/A (bush dog-kin)", "sly, orange-eyed smirk", "diving low in a streamlined leap with the webbed paws forward and the rudder tail swept back"),
   caninedreamweavers: C("Female", "N/A (wool dog-kin)", "serene, green-eyed, a faint smile", "standing tall with the spindle staff held upright in one paw and the other palm open as glowing wool drifts up"),
-  redpandamonks: C("Female", "N/A (red panda-kin)", "calm, small smile", "sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder"),
+  redpandamonks: C("Female", "N/A (red panda-kin)", "eyes closed, calm small smile", "squatting upright, pouring tea from the teapot into a cup in one paw, the bamboo staff held upright in the other"),
   shortfacedbear: C("Male", "N/A (short-faced bear-kin)", "grim, wide-nostriled", "mid-gallop with the long legs stretched and the head lowered"),
   sealcoilstrikers: C("Female", "N/A (seal-kin)", "cool, narrow-eyed", "coiled low with the long neck bent in an S ready to snap forward"),
   honeybadgers: C("Male", "N/A (honey badger-kin)", "unbothered, fearless grin", "twisting in its own loose skin mid-turn with both fists up"),
