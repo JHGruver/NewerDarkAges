@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 93.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 94.
 
 ## Art direction in one screen
 
@@ -545,7 +545,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | very tall and long-legged, flat-chested athletic build, narrow hips, long rope-scarred arms; medium size; mobility: climbing |
 | Ethnicity + nationality | Ethiopian heritage, Ethiopian |
 | Identity | female human |
-| Wardrobe | human marksman in a bomber jacket, big over-ear headphones around the neck, a long beat-rifle held in both hands, a cassette player clipped at the belt |
+| Wardrobe | human sharpshooter DJ in a cream-and-purple cropped jacket with big angular shoulders, long black braids in a high ponytail, purple over-ear headphones, a long green-and-black scoped sound rifle aimed forward, purple fingerless gloves, a belt pouch, purple-wrapped thigh straps and chunky purple boots, one hand gripping a hanging rope |
 | Accessories | Beat rifle; headphones; rooftop rig; tape deck |
 | Pose | dangling one-handed from a rope with the legs trailing, the other arm holding the long rifle across the body, one eye to the scope |
 | Facial expression | cool, unblinking concentration |
@@ -560,8 +560,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #7b2cbf: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #a2cd9e: the eyes, the Beat rifle and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-snipercaster.png` and `art/v2/human-snipercaster-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -577,16 +577,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners |
 | Colors | wash #d9a521 (about 65%); accents #fed6ad / #7b2cbf / #a2cd9e (about 20%) |
-| Midground | a rusted antenna mast with a rooftop sniper perch, a stack of speakers, a boombox |
-| Foreground | cables, a rooftop tape deck rig bolted to a rail |
-| Character-relevant items | a rusted antenna mast with a rooftop sniper perch, a stack of speakers, a boombox, cables, a rooftop tape deck rig bolted to a rail |
+| Midground | a rooftop soundstage on a highway overpass at sunset: stacked speakers, a DJ booth with turntables and glowing purple decks, crates of records, a boombox |
+| Foreground | a radio tower and satellite dish, string lights, lanterns, and purple banners with a crescent-moon sigil |
+| Character-relevant items | a rooftop soundstage on a highway overpass at sunset: stacked speakers, a DJ booth with turntables and glowing purple decks, crates of records, a boombox, a radio tower and satellite dish, string lights, lanterns, and purple banners with a crescent-moon sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Skyline DJs, female human (Ethiopian heritage, Ethiopian), apparent age early 30s. very tall and long-legged, flat-chested athletic build, narrow hips, long rope-scarred arms, medium size. Pose: dangling one-handed from a rope with the legs trailing, the other arm holding the long rifle across the body, one eye to the scope. Expression: cool, unblinking concentration, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Beat rifle. SECOND ITEM, kept plain: headphones. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: human marksman in a bomber jacket, big over-ear headphones around the neck, a long beat-rifle held in both hands, a cassette player clipped at the belt.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Beat rifle. SECOND ITEM, kept plain: headphones. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: human sharpshooter DJ in a cream-and-purple cropped jacket with big angular shoulders, long black braids in a high ponytail, purple over-ear headphones, a long green-and-black scoped sound rifle aimed forward, purple fingerless gloves, a belt pouch.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #fed6ad about 60%, on the largest garment, armor, fur-marking or body areas; secondary #7b2cbf about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #a2cd9e about 10%, on the eyes, the Beat rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -599,7 +599,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Skyline DJs with no people, creatures, figures, silhouettes or text. Midground: a rusted antenna mast with a rooftop sniper perch, a stack of speakers, a boombox. Foreground: cables, a rooftop tape deck rig bolted to a rail, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Skyline DJs with no people, creatures, figures, silhouettes or text. Midground: a rooftop soundstage on a highway overpass at sunset: stacked speakers, a DJ booth with turntables and glowing purple decks, crates of records, a boombox. Foreground: a radio tower and satellite dish, string lights, lanterns, and purple banners with a crescent-moon sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #fed6ad for the biggest glowing sources and surfaces, secondary #7b2cbf for medium panels, banners and lights, pop #a2cd9e for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

@@ -108,6 +108,7 @@ const NODE_ART = {
   sarcophaguslancers: { src: "art/v2/undead-sarcophaguslancers.png", bg: "art/v2/undead-sarcophaguslancers-bg.jpg", name: "Sarcophagus Lancer" },
   tokenbrokers: { src: "art/v2/human-tokenbrokers.png", bg: "art/v2/human-tokenbrokers-bg.jpg", name: "Token Broker" },
   jammers: { src: "art/v2/human-jammers.png", bg: "art/v2/human-jammers-bg.jpg", name: "Static Jammer" },
+  snipercaster: { src: "art/v2/human-snipercaster.png", bg: "art/v2/human-snipercaster-bg.jpg", name: "Skyline DJ" },
   pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
   joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
   fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },
