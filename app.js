@@ -115,6 +115,7 @@ const NODE_ART = {
   concierge: { src: "art/v2/human-concierge.png", bg: "art/v2/human-concierge-bg.jpg", name: "Concierge Diplomat" },
   ninjashoguns: { src: "art/v2/human-ninjashoguns.png", bg: "art/v2/human-ninjashoguns-bg.jpg", name: "Ninja Shogun" },
   tidecallpriests: { src: "art/v2/eldritch-tidecallpriests.png", bg: "art/v2/eldritch-tidecallpriests-bg.jpg", name: "Tidecall Priest" },
+  coralbone: { src: "art/v2/eldritch-coralbone.png", bg: "art/v2/eldritch-coralbone-bg.jpg", name: "Coralbone Sentinel" },
   pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
   joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
   fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },
