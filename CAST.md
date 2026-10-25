@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 92.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 93.
 
 ## Art direction in one screen
 
@@ -474,7 +474,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | average height, narrow shoulders, long thin arms, slightly stooped under a pack taller than the head; medium size; mobility: grounded |
 | Ethnicity + nationality | Filipino heritage, Filipino |
 | Identity | nonbinary human |
-| Wardrobe | human broadcaster in a patched jacket with a humming jammer pack on the back, a headset, patch cables looped at the belt and a crackling shortwave baton in one hand |
+| Wardrobe | human broadcaster in a teal-and-black patched jacket with pink trim, a cream headset clamped to one ear, a tall humming jammer pack on the back bristling with antennae, a speaker and a small dish, pink patch cables looped at the belt with a pouch, black leggings, chunky teal-and-pink boots, and a crackling cream shortwave baton in one hand |
 | Accessories | Jammer pack; shortwave baton; patch cables; headset |
 | Pose | sprinting forward bent into the pack's weight, the baton thrust ahead like a lance, the other hand clamping a headphone to one ear |
 | Facial expression | calm and alert, lips pressed |
@@ -489,8 +489,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #ff006e: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #fff7c7: the eyes, the Jammer pack and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-jammers.png` and `art/v2/human-jammers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -506,16 +506,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners |
 | Colors | wash #d9a521 (about 65%); accents #11b98a / #ff006e / #fff7c7 (about 20%) |
-| Midground | a rooftop radio mast with guy-wires, rows of dead monitors, a tangle of cables |
-| Foreground | a signal-jammer dish, a transmitter rack |
-| Character-relevant items | a rooftop radio mast with guy-wires, rows of dead monitors, a tangle of cables, a signal-jammer dish, a transmitter rack |
+| Midground | a neon-lit highway overpass under a cratered moon: a radio tower hung with dishes, a jammer dish on a mast, racks of glowing teal monitors, crates, striped barriers |
+| Foreground | traffic cones, street lamps, red tattered banners with a signal sigil, and wet asphalt with neon reflections |
+| Character-relevant items | a neon-lit highway overpass under a cratered moon: a radio tower hung with dishes, a jammer dish on a mast, racks of glowing teal monitors, crates, striped barriers, traffic cones, street lamps, red tattered banners with a signal sigil, and wet asphalt with neon reflections |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Static Jammers, nonbinary human (Filipino heritage, Filipino), apparent age mid 30s. average height, narrow shoulders, long thin arms, slightly stooped under a pack taller than the head, medium size. Pose: sprinting forward bent into the pack's weight, the baton thrust ahead like a lance, the other hand clamping a headphone to one ear. Expression: calm and alert, lips pressed, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Jammer pack. SECOND ITEM, kept plain: shortwave baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: human broadcaster in a patched jacket with a humming jammer pack on the back, a headset, patch cables looped at the belt and a crackling shortwave baton in one hand.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Jammer pack. SECOND ITEM, kept plain: shortwave baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: human broadcaster in a teal-and-black patched jacket with pink trim, a cream headset clamped to one ear, a tall humming jammer pack on the back bristling with antennae, a speaker and a small dish, pink patch cables looped at the belt with a pouch, black leggings.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #11b98a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff006e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Jammer pack and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -528,7 +528,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Static Jammers with no people, creatures, figures, silhouettes or text. Midground: a rooftop radio mast with guy-wires, rows of dead monitors, a tangle of cables. Foreground: a signal-jammer dish, a transmitter rack, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Static Jammers with no people, creatures, figures, silhouettes or text. Midground: a neon-lit highway overpass under a cratered moon: a radio tower hung with dishes, a jammer dish on a mast, racks of glowing teal monitors, crates, striped barriers. Foreground: traffic cones, street lamps, red tattered banners with a signal sigil, and wet asphalt with neon reflections, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #11b98a for the biggest glowing sources and surfaces, secondary #ff006e for medium panels, banners and lights, pop #fff7c7 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
