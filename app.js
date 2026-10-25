@@ -127,6 +127,7 @@ const NODE_ART = {
   wingfold: { src: "art/v2/eldritch-wingfold.png", bg: "art/v2/eldritch-wingfold-bg.jpg", name: "Wingfold Warden" },
   dreamsnatchers: { src: "art/v2/eldritch-dreamsnatchers.png", bg: "art/v2/eldritch-dreamsnatchers-bg.jpg", name: "Dream-Snatcher" },
   voidwing: { src: "art/v2/eldritch-voidwing.png", bg: "art/v2/eldritch-voidwing-bg.jpg", name: "Voidwing Scout" },
+  nightmareshepherds: { src: "art/v2/eldritch-nightmareshepherds.png", bg: "art/v2/eldritch-nightmareshepherds-bg.jpg", name: "Nightmare Shepherd" },
   pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
   joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
   fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },
