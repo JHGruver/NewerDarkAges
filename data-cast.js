@@ -57,7 +57,7 @@ window.CAST = {
   boxercrabanemonebrawlers: C("Male", "N/A (crustacea-kin)", "cocky, tongue-out grin", "bouncing in a boxer's crouch with an anemone glove raised on each claw"),
   remipedecavestalkers: C("Female", "N/A (crustacea-kin)", "blind, intent, mouth open", "coiled low and long with the fangs forward and the many legs gripping the wall"),
   prambugnurserypilots: C("Female", "N/A (crustacea-kin)", "gentle, watchful", "leaning forward pushing the barrel-shaped nursery with both slender arms"),
-  maskbandits: C("Female", "N/A (raccoon-kin)", "mischievous grin", "crouched over a safe with one ear to the door, the crowbar levering it open"),
+  maskbandits: C("Female", "N/A (raccoon-kin)", "mischievous grin", "crouched low beside a cracked safe door, one hand to the cheek, the crowbar wedged in the gap"),
   hotspringhealers: C("Female", "N/A (capybara-kin)", "soft, serene smile", "pouring steam from the kettle with one arm raised, the other paw open in welcome, the crystal raccoon beside her feet"),
   mawwardens: C("Male", "N/A (giant salamander-kin)", "still, patient, a wide closed-mouth calm", "crouched low and wide on one hand and both feet with the stone hammer raised overhead in the other fist"),
   olmseers: C("Nonbinary", "N/A (olm-kin)", "serene, eyeless, a faint smile", "seated on the ground with the head tilted up, one hand pressed to the floor and the crystal staff held upright in the other"),
