@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 106.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 107.
 
 ## Art direction in one screen
 
@@ -8953,7 +8953,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | hulking and book-layered, a hunched back; huge size; mobility: grounded |
 | Ethnicity + nationality | Shoggoth (living flesh) |
 | Identity | male a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself |
-| Wardrobe | hulking amorphous Shoggoth mass layered with half-digested books and small memory-lamps, one big eye peering out of a page, an archive satchel |
+| Wardrobe | hulking four-legged Shoggoth mass of crimson tendrils covered in staring eyes, layered with stacked dark books, scrolls and a brown satchel under teal straps, an open book for a face with one big eye and a toothy maw, hanging teal lanterns and book-wrapped feet |
 | Accessories | Layered shell of scavenged books; memory-lamps; archive satchel; slime-spine |
 | Pose | hauling itself forward on its knuckles with lamps swaying |
 | Facial expression | single heavy-lidded eye in a page |
@@ -8968,8 +8968,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #41d1c3: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #3d405b: the eyes, the Layered shell of scavenged books and one small magical detail |
 | Natural base tones | Species skin and anatomy may use simplified, flat, muted neutral base tones. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/eldritch-memorymass.png` and `art/v2/eldritch-memorymass-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -8985,16 +8985,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls |
 | Colors | wash #0b7a75 (about 65%); accents #8b3b7b / #41d1c3 / #3d405b (about 20%) |
-| Midground | a library of towering shelves with floating pages, a reading desk, a card catalog |
-| Foreground | glowing lamps, a grand staircase |
-| Character-relevant items | a library of towering shelves with floating pages, a reading desk, a card catalog, glowing lamps, a grand staircase |
+| Midground | a flooded moonlit archive under a teal moon: towering shelves, a grand staircase with melting candles, an armillary globe, a card catalog |
+| Foreground | hourglasses, floating pages and books, a glowing arch with a violet light beam, banners with a crescent sigil |
+| Character-relevant items | a flooded moonlit archive under a teal moon: towering shelves, a grand staircase with melting candles, an armillary globe, a card catalog, hourglasses, floating pages and books, a glowing arch with a violet light beam, banners with a crescent sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Memory-Mass Archivists, male a living-flesh creature: a mass of dark glossy flesh with many eyes and mouths opening across a body that reshapes itself, apparent age mid 60s. hulking and book-layered, a hunched back, huge size. Pose: hauling itself forward on its knuckles with lamps swaying. Expression: single heavy-lidded eye in a page, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Layered shell of scavenged books. SECOND ITEM, kept plain: memory-lamps. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hulking amorphous living-flesh blob creature mass layered with half-digested books and small memory-lamps, one big eye peering out of a page, an archive satchel.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Layered shell of scavenged books. SECOND ITEM, kept plain: memory-lamps. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hulking four-legged living-flesh blob creature mass of crimson tendrils covered in staring eyes, layered with stacked dark books, scrolls and a brown satchel under teal straps, an open book for a face with one big eye and a toothy maw, hanging teal lanterns and book-wrapped feet.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8b3b7b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #41d1c3 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #3d405b about 10%, on the eyes, the Layered shell of scavenged books and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -9007,7 +9007,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Memory-Mass Archivists with no people, creatures, figures, silhouettes or text. Midground: a library of towering shelves with floating pages, a reading desk, a card catalog. Foreground: glowing lamps, a grand staircase, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Memory-Mass Archivists with no people, creatures, figures, silhouettes or text. Midground: a flooded moonlit archive under a teal moon: towering shelves, a grand staircase with melting candles, an armillary globe, a card catalog. Foreground: hourglasses, floating pages and books, a glowing arch with a violet light beam, banners with a crescent sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #8b3b7b for the biggest glowing sources and surfaces, secondary #41d1c3 for medium panels, banners and lights, pop #3d405b for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
