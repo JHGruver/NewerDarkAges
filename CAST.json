@@ -1391,7 +1391,10 @@
    "midground": "a mountain-fort courtyard with lacquered gates, paper lanterns",
    "foreground": "a rack of ninja weapons, a banner wall and a stone garden",
    "bgItems": "a mountain-fort courtyard with lacquered gates, paper lanterns, a rack of ninja weapons, a banner wall and a stone garden",
-   "art": null,
+   "art": {
+    "src": "art/v2/human-ninjashoguns.png",
+    "bg": "art/v2/human-ninjashoguns-bg.jpg"
+   },
    "look": "Stern armored commander with a huge crested helmet, a war fan in one hand and an open scroll in the other, three small black ninjas leaping out of the scroll.",
    "summary": "War-lords who command a shadow clan. A Shogun flicks open a scroll and a squad of ninjas leaps out to strike, scout and vanish.",
    "lore": "Every Shogun inherits a war fan and a scroll of ninja contracts, signed in ink that never dries. The Senate pretends not to know them. The Senate has never refused a favor from one.",

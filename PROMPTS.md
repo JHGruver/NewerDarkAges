@@ -357,7 +357,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ### Ninja Shoguns
 
-*Combat · Summoner · colors #861349 / #1b1f3a / #ffd23f · background wash #d9a521*
+*Combat · Summoner · colors #861349 / #1b1f3a / #ffd23f · background wash #d9a521 · art already made*
 
 **Character prompt**
 
