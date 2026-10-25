@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 108.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 109.
 
 ## Art direction in one screen
 
@@ -9098,7 +9098,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | barrel-bodied scholar, a patient stance; large size; mobility: grounded |
 | Ethnicity + nationality | Elder Thing (alien) |
 | Identity | female an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings |
-| Wardrobe | barrel-bodied star-headed Elder Thing scholar with folded wings, a fine strata brush in one radial limb and a chisel in another, a small fossil lamp |
+| Wardrobe | star-headed Elder Thing scholar with six orange eyes on a violet striped barrel body, a teal sash with a gold crest, pale folded wings and clawed legs, one hand holding an orange-lit lantern, a pale brush and an orange chisel working a carved stone slab |
 | Accessories | Chisel; strata-brush; rubbing sheets; fossil lamp |
 | Pose | kneeling over a glowing tablet brushing it, the wings folded behind |
 | Facial expression | absorbed, patient |
@@ -9113,8 +9113,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #264653: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #e76f51: the eyes, the Chisel and one small magical detail |
 | Natural base tones | Species skin and anatomy may use simplified, flat, muted neutral base tones. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/eldritch-fossilscript.png` and `art/v2/eldritch-fossilscript-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -9130,16 +9130,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls |
 | Colors | wash #0b7a75 (about 65%); accents #635ebe / #264653 / #e76f51 (about 20%) |
-| Midground | an excavation site with a glowing carved stone tablet wall, a rock-cut stairway |
-| Foreground | scaffolding, a stack of rubbing sheets |
-| Character-relevant items | an excavation site with a glowing carved stone tablet wall, a rock-cut stairway, scaffolding, a stack of rubbing sheets |
+| Midground | a flooded moonlit excavation under a teal moon: a cliff wall carved with glowing trilobite and ammonite fossils, a rock-cut stairway with waterfalls, bamboo scaffolding with torches |
+| Foreground | tattered banners, tables of fossil rubbing sheets, brush jars and lanterns |
+| Character-relevant items | a flooded moonlit excavation under a teal moon: a cliff wall carved with glowing trilobite and ammonite fossils, a rock-cut stairway with waterfalls, bamboo scaffolding with torches, tattered banners, tables of fossil rubbing sheets, brush jars and lanterns |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Fossil-Script Historians, female an ancient alien architect: a tall ribbed barrel-shaped torso with five vertical ridges, a five-pointed starfish-shaped head with a bright eye at each point, five jointed limbs and folded membranous wings, apparent age mid 60s. barrel-bodied scholar, a patient stance, large size. Pose: kneeling over a glowing tablet brushing it, the wings folded behind. Expression: absorbed, patient, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Chisel. SECOND ITEM, kept plain: strata-brush. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: barrel-bodied star-headed ancient alien star-headed builders scholar with folded wings, a fine strata brush in one radial limb and a chisel in another, a small fossil lamp.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Chisel. SECOND ITEM, kept plain: strata-brush. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: star-headed ancient alien star-headed builders scholar with six orange eyes on a violet striped barrel body, a teal sash with a gold crest, pale folded wings and clawed legs, one hand holding an orange-lit lantern, a pale brush and an orange chisel working a carved stone slab.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #635ebe about 60%, on the largest garment, armor, fur-marking or body areas; secondary #264653 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e76f51 about 10%, on the eyes, the Chisel and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -9152,7 +9152,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Fossil-Script Historians with no people, creatures, figures, silhouettes or text. Midground: an excavation site with a glowing carved stone tablet wall, a rock-cut stairway. Foreground: scaffolding, a stack of rubbing sheets, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Fossil-Script Historians with no people, creatures, figures, silhouettes or text. Midground: a flooded moonlit excavation under a teal moon: a cliff wall carved with glowing trilobite and ammonite fossils, a rock-cut stairway with waterfalls, bamboo scaffolding with torches. Foreground: tattered banners, tables of fossil rubbing sheets, brush jars and lanterns, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #635ebe for the biggest glowing sources and surfaces, secondary #264653 for medium panels, banners and lights, pop #e76f51 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
