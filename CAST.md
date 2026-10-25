@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 80.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 81.
 
 ## Art direction in one screen
 
@@ -2938,27 +2938,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | slender and long, a needle-thin snout with a bulb at the tip, sleek tail; medium size; mobility: aquatic |
 | Ethnicity + nationality | gharial-kin (not human) |
 | Identity | female anthropomorphic gharial character |
-| Wardrobe | slender gharial-kin with a needle-thin snout and a hollow bulb at the tip, a fin sash and shock bracers, snapping the snout with flat sonic rings rippling out |
+| Wardrobe | slender gharial-kin with a needle-thin snout and a purple bulb at the tip, a cream-and-black wrap top and skirt with gold diamond studs, purple-gem bracers, and flat purple sonic rings rippling out of the bulb |
 | Accessories | Ghara resonator; needle-snout guard; fin sash; shock bracers |
-| Pose | lunging forward with the needle snout thrust and the head bulb ringing |
+| Pose | deep lunge with the snout thrust to the side, one clawed arm out for balance and the other swept back |
 | Facial expression | cool, arched-snout poise |
 | People | Were-Creature |
 | Class | Crocodylia-kin |
 | Subclass | Gharial Sonic Duelists |
 | Type | Caster |
 | Combat or support | Combat |
-| Silhouette hook | lunging forward with the needle snout thrust and the head bulb ringing; the Ghara resonator and the needle-snout guard break the outline so it reads instantly as a black shape |
+| Silhouette hook | deep lunge with the snout thrust to the side, one clawed arm out for balance and the other swept back; the Ghara resonator and the needle-snout guard break the outline so it reads instantly as a black shape |
 | Shape language | flowing diamonds and a bright flat focus shape |
 | Main color (60%) | #43d0cb: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #fff7e0: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #c77dff: the eyes, the Ghara resonator and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-gharialduelists.png` and `art/v2/were-gharialduelists-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as lunging forward with the needle snout thrust and the head bulb ringing.
+1. Black-fill test: the silhouette must still read as deep lunge with the snout thrust to the side, one clawed arm out for balance and the other swept back.
 2. Few large shapes: flowing diamonds and a bright flat focus shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Ghara resonator and the pose must be visible at 64 px.
 4. Flat colors: #43d0cb / #fff7e0 / #c77dff as separate flat shapes divided by black line; no gradients or glow.
@@ -2970,16 +2970,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #43d0cb / #fff7e0 / #c77dff (about 20%) |
-| Midground | a river sandbar with a stone ghat, fishing nets |
-| Foreground | reeds and a boat dock |
-| Character-relevant items | a river sandbar with a stone ghat, fishing nets, reeds and a boat dock |
+| Midground | a ruined riverside port with a stone stair ghat, an arched bridge, waterfalls |
+| Foreground | fishing nets, reeds, a moored boat and teal and purple lanterns |
+| Character-relevant items | a ruined riverside port with a stone stair ghat, an arched bridge, waterfalls, fishing nets, reeds, a moored boat and teal and purple lanterns |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Gharial Sonic Duelists, female anthropomorphic gharial character (gharial-kin (not human)), apparent age early 40s. slender and long, a needle-thin snout with a bulb at the tip, sleek tail, medium size. Pose: lunging forward with the needle snout thrust and the head bulb ringing. Expression: cool, arched-snout poise, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ghara resonator. SECOND ITEM, kept plain: needle-snout guard. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender gharial-kin with a needle-thin snout and a hollow bulb at the tip, a fin sash and shock bracers, snapping the snout with flat sonic rings rippling out.
+CHARACTER: Gharial Sonic Duelists, female anthropomorphic gharial character (gharial-kin (not human)), apparent age early 40s. slender and long, a needle-thin snout with a bulb at the tip, sleek tail, medium size. Pose: deep lunge with the snout thrust to the side, one clawed arm out for balance and the other swept back. Expression: cool, arched-snout poise, as a minimal face. Design the silhouette first (flowing diamonds and a bright flat focus shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ghara resonator. SECOND ITEM, kept plain: needle-snout guard. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: slender gharial-kin with a needle-thin snout and a purple bulb at the tip, a cream-and-black wrap top and skirt with gold diamond studs, purple-gem bracers, and flat purple sonic rings rippling out of the bulb.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #43d0cb about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff7e0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #c77dff about 10%, on the eyes, the Ghara resonator and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2992,7 +2992,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Gharial Sonic Duelists with no people, creatures, figures, silhouettes or text. Midground: a river sandbar with a stone ghat, fishing nets. Foreground: reeds and a boat dock, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Gharial Sonic Duelists with no people, creatures, figures, silhouettes or text. Midground: a ruined riverside port with a stone stair ghat, an arched bridge, waterfalls. Foreground: fishing nets, reeds, a moored boat and teal and purple lanterns, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #43d0cb for the biggest glowing sources and surfaces, secondary #fff7e0 for medium panels, banners and lights, pop #c77dff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
