@@ -83,12 +83,12 @@
       const spec = window.ART_SPEC && ART_SPEC[l.id], first = (t) => ((t || "").split(/(?<=[.!?])\s/)[0] || "").trim();
       const move = (MOVES[m.move] || m.move).toLowerCase(), pal = l.pal.map((x) => `<i style="background:${x}"></i>`).join("");
       const rows = [
-        ["Role", `${ty.name}. ${ty.desc}`, `Posed ${ty.pose.split(",")[0].replace(/^an? /, "")}.`],
+        ["Role", `${ty.name}. ${ty.desc}`, `Pose: ${ty.pose.split(",")[0].replace(/^an? /, "")}.`],
         ["Build", `${m.physique}, ${SIZES[m.size].toLowerCase()} (${SIZE_DESC[m.size]}), ${move}`, "Drawn at that scale and silhouette."],
         ["Signature", ((l.abilities || [])[0] || "").replace(/:.*/, ""), spec ? `Look for it in the gear: ${spec.w}.` : `Gear: ${l.gear}.`],
         ["Edge and flaw", `${(l.strengths || [])[0] || ""}. But: ${((l.weaknesses || [])[0] || "").toLowerCase()}.`, `Colors ${pal} carry the people's palette.`],
       ];
-      return `<details class="v-notes" open><summary>Why it looks like this</summary><p class="v-fact">${esc(first(l.lore))}</p>${rows.map((r) => `<div class="v-nrow"><b>${r[0]}</b><span>${esc(r[1])}</span><em>${r[0] === "Edge and flaw" ? r[2] : esc(r[2])}</em></div>`).join("")}</details>`;
+      return `<details class="v-notes"${matchMedia("(min-width: 700px) and (min-height: 760px)").matches ? " open" : ""}><summary>Why it looks like this</summary><p class="v-fact">${esc(first(l.lore))}</p>${rows.map((r) => `<div class="v-nrow"><b>${r[0]}</b><span>${esc(r[1])}</span><em>${r[0] === "Edge and flaw" ? r[2] : esc(r[2])}</em></div>`).join("")}</details>`;
     }
     // the character's own background fills the whole page behind everything
     function setBg(src) { window.__voteBg = src || null; H().setScene(src || null); document.body.classList.toggle("has-bg", !!src); }
