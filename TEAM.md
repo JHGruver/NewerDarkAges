@@ -1,36 +1,38 @@
 # The Newer Dark Ages: Virtual Team and Agents
 
-This file tracks every team, every agent and who answers to whom. It is the staffing chart behind the business plan (the "Newer Dark Ages: Business Plan" doc) and the quests in Studio HQ (`#/studio`).
+This file tracks every team, every agent and who answers to whom. It is the staffing chart behind the plan. The same data drives the website: the org chart, the team reports and the site audit live at `#/team`, and the plan is tracked at `#/studio`. The data source is `data-team.js`; `node tools/build-team-md.cjs` rebuilds [TEAM-REPORTS.md](TEAM-REPORTS.md), [SITE-AUDIT.md](SITE-AUDIT.md) and [PLAN.md](PLAN.md) from it.
 
-**How it works.** An agent is a named role that Claude can step into on request ("Ask Vault to price the comic campaign"). Each has a mandate, an owner list, a deliverable and a hard rule. Agents draft, analyze and challenge. They do not sign contracts, move money, file trademarks or publish for you. Those stay human, and each team lists who the human is.
+## The humans
 
-**Status key:** `ACTIVE` ready to use now · `ON CALL` use when the work arrives · `HUMAN NEEDED` an agent can prepare but a person must act.
+| Person | Role | Hours a week (assumed) | Does |
+| --- | --- | --- | --- |
+| Jacob Gruver | Founder and Executive Producer | 8 | Makes every portrait and background, owns canon and final approval |
+| Mike Mears | Partner (role to be set) | 4 | Proposed: accounts, money, vendors, outreach; second human on every council decision |
+| Ben | Creative Consultant and Tester | 1.5 | Reviews the look and tone, tests every build, runs the playtests |
+
+Everything else is an agent. Agents draft, analyze and challenge. They do not sign, pay, file or publish.
+
+## Org chart
+
+```
+        Jacob Gruver ─────── Mike Mears         Ben (consultant and tester)
+        Founder and EP       Partner            ┆ advises Mordant, Gantry
+                 │
+        ┌────────┴──────────────── THE WAR COUNCIL ──────────────────────┐
+        │                                                                 │
+   Mordant      Tithe      Gantry      Hawker      Cipher     Warden    Vulture
+   Creative     Finance    Operations  Growth      Technology Legal+IP  Strategy
+      │            │          │           │           │          │         │
+   Design       Finance    Production  Communications Engineering Legal   Research
+   Game+Story              QA+Playtest Growth+Community Security  and IP   Partnerships
+   Audio                   Support     Merch and Store
+```
+
+Ben has a dotted line to Mordant (look and tone) and Gantry (testing). Each team also has a human counterpart who approves its output: Jacob for Design, Production, Game and Story, Audio and Security; Mike for Finance, Communications, Growth, Merch, Legal, Research, Partnerships and Support; Ben for QA and Playtest.
 
 ---
 
-## 1. Reporting structure
-
-```
-                          YOU  (Founder, Executive Producer, final say)
-                                          |
-                 ┌────────────────────────┴────────────────────────┐
-                 │               THE WAR COUNCIL (C-suite)         │
-                 │  Chief Creative · Finance · Operations · Growth │
-                 │  Technology · Legal · Strategy                  │
-                 └──┬────────┬────────┬────────┬────────┬────────┬─┘
-                    │        │        │        │        │        │
-                 Finance  Production Design   Comms   Game &    Engineering
-                  Team     Team      Team     Team   Story Team   Team
-                    │        │        │        │        │        │
-              Growth & Community · Merch & Fulfillment · Legal & IP ·
-              Audio · Research & Data · Partnerships · QA & Playtest · Support
-```
-
-Every team lead reports to a council member. Every council member reports to you. No agent acts on a spending, legal or public-facing decision without a council member's written verdict and your approval.
-
----
-
-## 2. The War Council (C-suite advisors)
+## 1. The War Council (C-suite advisors)
 
 The council exists to make the project succeed, not to make you comfortable. Each member is told to be blunt, to attack weak assumptions, to name the cheapest way to fail early, and to give a single recommendation instead of a menu. Their ruling format is always: **Verdict · Reason · Risk · Next action · Kill condition** (the point at which we stop).
 
@@ -54,7 +56,7 @@ The council exists to make the project succeed, not to make you comfortable. Eac
 
 ---
 
-## 3. Finance Team (reports to Tithe)
+## 2. Finance Team (reports to Tithe)
 
 | Agent | Mandate | Deliverables | Status |
 | --- | --- | --- | --- |
@@ -68,7 +70,7 @@ The council exists to make the project succeed, not to make you comfortable. Eac
 
 ---
 
-## 4. Production Team (reports to Gantry)
+## 3. Production Team (reports to Gantry)
 
 | Agent | Mandate | Deliverables | Status |
 | --- | --- | --- | --- |
@@ -83,7 +85,7 @@ The council exists to make the project succeed, not to make you comfortable. Eac
 
 ---
 
-## 5. Design Team (reports to Mordant)
+## 4. Design Team (reports to Mordant)
 
 | Agent | Mandate | Deliverables | Status |
 | --- | --- | --- | --- |
@@ -99,7 +101,7 @@ The council exists to make the project succeed, not to make you comfortable. Eac
 
 ---
 
-## 6. Communications Team (reports to Hawker and Mordant)
+## 5. Communications Team (reports to Hawker and Mordant)
 
 | Agent | Mandate | Deliverables | Status |
 | --- | --- | --- | --- |
@@ -113,7 +115,9 @@ The council exists to make the project succeed, not to make you comfortable. Eac
 
 ---
 
-## 7. Teams you were missing
+## 6. Teams you were missing
+
+The full agent list for every team, and each team's report, is in [TEAM-REPORTS.md](TEAM-REPORTS.md). Where a name here differs from that file, the report file is current.
 
 | Team | Lead agent | Why you need it | Reports to |
 | --- | --- | --- | --- |
@@ -133,7 +137,7 @@ Add a team here before staffing it: name, lead, who it reports to, and the one-l
 
 ---
 
-## 8. Meet the team (written by Herald and the Communications Team)
+## 7. Meet the team (written by Herald and the Communications Team)
 
 > *Welcome to the war room of The Newer Dark Ages. Forty-odd names, one goal: turn a world full of monsters into a business that outlasts the moon. Here is who stands where.*
 
@@ -157,11 +161,13 @@ Add a team here before staffing it: name, lead, who it reports to, and the one-l
 
 **The rest of the guild:** Loremaster (story and rules), Cipher's Forge (engineering), Hawker's Guild (community), Peddler (merch), Notary (legal prep), Resonance (music), Oracle (research), Broker (partnerships), Gauntlet (testing), Hearth (support) and Bulwark (security).
 
+> *Three humans sit above all of it: Jacob, Mike and Ben. Jacob and Mike decide; Ben tests and advises.*
+>
 > *You are the Executive Producer. Everyone here answers up the chain to you, and everyone has permission to tell you when you are wrong.*
 
 ---
 
-## 9. Operating rhythm
+## 8. Operating rhythm
 
 | When | What | Who runs it | Output |
 | --- | --- | --- | --- |
@@ -173,15 +179,17 @@ Add a team here before staffing it: name, lead, who it reports to, and the one-l
 | Per product | Break-even sheet before spend | Vault and Margin | Go or no-go |
 | Per launch | Pre-flight: legal, art, schedule, money | Gantry | Signed-off checklist |
 
-## 10. Decision log
+## 9. Decision log
 
 Record every council ruling and every overrule here, newest first.
 
 | Date | Decision | Ruled by | Overruled by you? | Reason | Kill condition |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-24 | Season One is Were-Creature, Ghost and Undead (76 characters); the other five peoples wait | Vulture, Mordant | No | 65 of 76 are already finished and 13.5 human hours a week cannot carry 147 | Revisit at the Phase 2 gate |
+| 2026-10-24 | Phase 0 comes first: scrub public names, add signup and analytics, rotate the key | Warden, Hawker | No | Public exposure and zero audience capture are the two biggest gaps | Phase 0 gate in Studio HQ |
 | 2026-10-24 | Treat the MMO as a gated option, not a deliverable | Vulture, Cipher | No | Needs funding, a technical lead and proven demand first | Revisit after the board game campaign |
 
-## 11. How to call an agent
+## 10. How to call an agent
 
 - Name them in your request: "Tithe, price the comic crowdfund" or "Aegis, review these two images."
 - For a council ruling say "War Council" and give the decision. Expect the five-part verdict.

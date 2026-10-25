@@ -460,12 +460,14 @@ function render() {
   else if (route === "lore") html = loreView(rest[0]);
   else if (route === "vote") html = voteView();
   else if (route === "studio") html = studioView(rest[0]);
+  else if (route === "team") html = teamView(rest[0]);
   else html = storyHome();
   if (render.cleanup) { render.cleanup(); render.cleanup = null; }
   app.innerHTML = html;
   if (route === "lore") loreInit();
   else if (route === "vote") { voteInit(); render.cleanup = () => window.__voteCleanup && window.__voteCleanup(); }
   else if (route === "studio") render.cleanup = studioInit();
+  else if (route === "team") render.cleanup = teamInit();
   else if (!["characters", "manual", "roadmap", "art"].includes(route)) render.cleanup = storyInit();
   const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
   document.body.classList.toggle("fit", !!inChars);
@@ -486,7 +488,7 @@ function render() {
   render.first = false;
   NDAudio.setMode(route === "" || route === "home" ? "story" : route === "lore" ? "lore" : "music");
   if (window.NDProfile) NDProfile.close();
-  const pb = document.getElementById("profbtn"); if (pb) pb.classList.toggle("here", ["vote", "manual", "roadmap", "art"].includes(route));
+  const pb = document.getElementById("profbtn"); if (pb) pb.classList.toggle("here", ["team", "vote", "manual", "roadmap", "art"].includes(route));
 }
 render.first = true;
 
