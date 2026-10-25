@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 99.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 100.
 
 ## Art direction in one screen
 
@@ -8379,7 +8379,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | hunched and amphibious, a large body, a broad fin crest; large size; mobility: aquatic |
 | Ethnicity + nationality | Deep One (adapted from coastal folklore) |
 | Identity | female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest |
-| Wardrobe | tall hunched amphibious Deep One priest in sodden ceremonial wet-robes, fins and gills, webbed hands holding a shell staff and a brine censer, a tide chart scroll at the belt |
+| Wardrobe | tall slender amphibious fish-priest with blue-grey skin, spiny purple-and-cream fins, a fin crest and webbed feet, purple eyes, a plum-and-cream layered ceremonial robe with long wide sleeves, a bead necklace, a cream round belt clasp with a rolled scroll, a curled shell-and-fin staff with tassels raised in one hand and a hanging censer lantern in the other |
 | Accessories | Shell staff; brine censer; wet-robes; tide chart |
 | Pose | leaning back with both arms raised calling the tide, the shell staff held overhead |
 | Facial expression | serene, slow-blinking |
@@ -8394,8 +8394,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #fff0d1: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #9d4edd: the eyes, the Shell staff and one small magical detail |
 | Natural base tones | Species skin and anatomy may use simplified, flat, muted neutral base tones. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/eldritch-tidecallpriests.png` and `art/v2/eldritch-tidecallpriests-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -8411,16 +8411,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls |
 | Colors | wash #0b7a75 (about 65%); accents #a35085 / #fff0d1 / #9d4edd (about 20%) |
-| Midground | a drowned subway platform at low tide with a flooded altar, a shell-covered pillar |
-| Foreground | tide pools, a tide-clock on the wall |
-| Character-relevant items | a drowned subway platform at low tide with a flooded altar, a shell-covered pillar, tide pools, a tide-clock on the wall |
+| Midground | a flooded moon-monolith cathedral under a teal night sky: a glowing magenta glyph monolith at the top of a wide stair, waterfalls, flooded arches and bridges, a giant crescent-moon clock face |
+| Foreground | shell and coral piles, glowing lanterns and candles, and plum banners with a crescent sigil |
+| Character-relevant items | a flooded moon-monolith cathedral under a teal night sky: a glowing magenta glyph monolith at the top of a wide stair, waterfalls, flooded arches and bridges, a giant crescent-moon clock face, shell and coral piles, glowing lanterns and candles, and plum banners with a crescent sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Tidecall Priests, female an amphibious fish-man: scaled skin, wide fish eyes, gills at the neck, webbed hands and feet, a finned crest, apparent age late 30s. hunched and amphibious, a large body, a broad fin crest, large size. Pose: leaning back with both arms raised calling the tide, the shell staff held overhead. Expression: serene, slow-blinking, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shell staff. SECOND ITEM, kept plain: brine censer. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall hunched amphibious amphibious fish-folk priest in sodden ceremonial wet-robes, fins and gills, webbed hands holding a shell staff and a brine censer, a tide chart scroll at the belt.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Shell staff. SECOND ITEM, kept plain: brine censer. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall slender amphibious fish-priest with blue-grey skin, spiny purple-and-cream fins, a fin crest and webbed feet, purple eyes, a plum-and-cream layered ceremonial robe with long wide sleeves, a bead necklace.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a35085 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #fff0d1 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #9d4edd about 10%, on the eyes, the Shell staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -8433,7 +8433,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Tidecall Priests with no people, creatures, figures, silhouettes or text. Midground: a drowned subway platform at low tide with a flooded altar, a shell-covered pillar. Foreground: tide pools, a tide-clock on the wall, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Tidecall Priests with no people, creatures, figures, silhouettes or text. Midground: a flooded moon-monolith cathedral under a teal night sky: a glowing magenta glyph monolith at the top of a wide stair, waterfalls, flooded arches and bridges, a giant crescent-moon clock face. Foreground: shell and coral piles, glowing lanterns and candles, and plum banners with a crescent sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #a35085 for the biggest glowing sources and surfaces, secondary #fff0d1 for medium panels, banners and lights, pop #9d4edd for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
