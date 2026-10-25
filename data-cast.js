@@ -47,7 +47,7 @@ window.CAST = {
   gharialduelists: C("Female", "N/A (gharial-kin)", "cool, arched-snout poise", "deep lunge with the snout thrust to the side, one clawed arm out for balance and the other swept back"),
   herugavialis: C("Male", "N/A (gharial-kin)", "fierce, salt-crusted grin", "surfing stance on a curling wave, leaning forward with the long spear held across the body"),
   joseptusks: C("Male", "N/A (giant rodent-kin)", "heavy-browed, stoic", "hunched forward on all fours mid-charge, the head lowered with the long tusk incisors thrust ahead"),
-  crestedratwardens: C("Female", "N/A (crested rat-kin)", "calm, warning stare", "braced low with the flanks parted to show the warning stripes"),
+  crestedratwardens: C("Female", "N/A (crested rat-kin)", "calm, warning stare", "braced low in a half-turn, one hand on the hip and the head turned over the shoulder with a narrow stare"),
   castoroides: C("Male", "N/A (giant beaver-kin)", "unhurried, heavy-lidded", "standing upright with the paddle tail raised high for a sweep"),
   molematehive: C("Nonbinary", "N/A (naked mole-rat-kin)", "oblivious, grinning", "scrambling forward low with the digging gauntlets and three tiny duplicates behind"),
   flyingsquirrels: C("Female", "N/A (flying squirrel-kin)", "thrilled, goggled grin", "gliding with the arms and legs spread wide and the membrane stretched"),
