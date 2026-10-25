@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 77.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 78.
 
 ## Art direction in one screen
 
@@ -2725,27 +2725,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | small, compact and rigid, bony plates everywhere, a high domed skull; small size; mobility: grounded |
 | Ethnicity + nationality | dwarf caiman-kin (not human) |
 | Identity | female anthropomorphic dwarf caiman character |
-| Wardrobe | small stiff dwarf-caiman-kin in bone-plate armor with a high domed skull, a satchel and a short spear, crouched behind a plated shield |
+| Wardrobe | small stiff dwarf-caiman-kin in white bone-plate armor with a finned bone helm, a brown belt satchel and a short leaf-bladed spear, crouched behind a big spiked bone shield |
 | Accessories | Bone-plate vest; domed helm; scout satchel; short spear |
-| Pose | crouched in a guard with the short spear leveled over the plated shield |
+| Pose | low crouch behind the big bone shield, the short spear leveled across the front, eyes narrowed |
 | Facial expression | wary, sharp-eyed |
 | People | Were-Creature |
 | Class | Crocodylia-kin |
 | Subclass | Dwarf Caiman Bone-Plate Scouts |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | crouched in a guard with the short spear leveled over the plated shield; the Bone-plate vest and the domed helm break the outline so it reads instantly as a black shape |
+| Silhouette hook | low crouch behind the big bone shield, the short spear leveled across the front, eyes narrowed; the Bone-plate vest and the domed helm break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #238b2d: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #1f2438: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ff8a3d: the eyes, the Bone-plate vest and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-caimanscouts.png` and `art/v2/were-caimanscouts-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as crouched in a guard with the short spear leveled over the plated shield.
+1. Black-fill test: the silhouette must still read as low crouch behind the big bone shield, the short spear leveled across the front, eyes narrowed.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Bone-plate vest and the pose must be visible at 64 px.
 4. Flat colors: #238b2d / #1f2438 / #ff8a3d as separate flat shapes divided by black line; no gradients or glow.
@@ -2757,16 +2757,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #238b2d / #1f2438 / #ff8a3d (about 20%) |
-| Midground | a muddy jungle trail with fallen logs |
-| Foreground | a lookout tree and a drainage ditch |
-| Character-relevant items | a muddy jungle trail with fallen logs, a lookout tree and a drainage ditch |
+| Midground | a muddy swamp settlement with a fallen log bridge, lookout platforms |
+| Foreground | a giant jawbone, a drainage pipe and green lanterns |
+| Character-relevant items | a muddy swamp settlement with a fallen log bridge, lookout platforms, a giant jawbone, a drainage pipe and green lanterns |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Dwarf Caiman Bone-Plate Scouts, female anthropomorphic dwarf caiman character (dwarf caiman-kin (not human)), apparent age early 40s. small, compact and rigid, bony plates everywhere, a high domed skull, small size. Pose: crouched in a guard with the short spear leveled over the plated shield. Expression: wary, sharp-eyed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bone-plate vest. SECOND ITEM, kept plain: domed helm. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small stiff dwarf-caiman-kin in bone-plate armor with a high domed skull, a satchel and a short spear, crouched behind a plated shield.
+CHARACTER: Dwarf Caiman Bone-Plate Scouts, female anthropomorphic dwarf caiman character (dwarf caiman-kin (not human)), apparent age early 40s. small, compact and rigid, bony plates everywhere, a high domed skull, small size. Pose: low crouch behind the big bone shield, the short spear leveled across the front, eyes narrowed. Expression: wary, sharp-eyed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bone-plate vest. SECOND ITEM, kept plain: domed helm. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small stiff dwarf-caiman-kin in white bone-plate armor with a finned bone helm, a brown belt satchel and a short leaf-bladed spear, crouched behind a big spiked bone shield.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #238b2d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #1f2438 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff8a3d about 10%, on the eyes, the Bone-plate vest and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2779,7 +2779,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Dwarf Caiman Bone-Plate Scouts with no people, creatures, figures, silhouettes or text. Midground: a muddy jungle trail with fallen logs. Foreground: a lookout tree and a drainage ditch, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Dwarf Caiman Bone-Plate Scouts with no people, creatures, figures, silhouettes or text. Midground: a muddy swamp settlement with a fallen log bridge, lookout platforms. Foreground: a giant jawbone, a drainage pipe and green lanterns, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #238b2d for the biggest glowing sources and surfaces, secondary #1f2438 for medium panels, banners and lights, pop #ff8a3d for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
