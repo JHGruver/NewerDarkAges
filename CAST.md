@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 84.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 85.
 
 ## Art direction in one screen
 
@@ -3296,7 +3296,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | bear-sized, a huge flat paddle tail, blunt long incisors, a thick wet coat; large size; mobility: aquatic |
 | Ethnicity + nationality | giant beaver-kin (not human) |
 | Identity | male anthropomorphic giant beaver character |
-| Wardrobe | bear-sized giant beaver-kin with a huge flat paddle tail raised, a marsh cloak and a reed belt, blunt incisors showing |
+| Wardrobe | bear-sized giant beaver-kin with blunt pale incisors and a huge flat paddle tail raised, the tail armored in a gold-lashed teal-and-brown frame, a ragged green marsh cloak with gold chevron trim and a ring clasp, gold-wrapped forearms and shins, a rope belt with two black poles at the hip |
 | Accessories | Paddle-tail guard; marsh cloak; blunt-incisor bracer; reed belt |
 | Pose | standing upright with the paddle tail raised high for a sweep |
 | Facial expression | unhurried, heavy-lidded |
@@ -3311,8 +3311,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #06d6a0: the eyes, the Paddle-tail guard and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-castoroides.png` and `art/v2/were-castoroides-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -3328,16 +3328,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #2b644b / #e8c76a / #06d6a0 (about 20%) |
-| Midground | a drowned marsh with a half-built dam |
-| Foreground | reed beds and floating logs |
-| Character-relevant items | a drowned marsh with a half-built dam, reed beds and floating logs |
+| Midground | a moonlit marsh fortress of log palisades and lookout towers on stilts, a log dam with waterfalls, hanging teal lanterns |
+| Foreground | cattail reeds, floating logs, torches and cream banners with a sun sigil |
+| Character-relevant items | a moonlit marsh fortress of log palisades and lookout towers on stilts, a log dam with waterfalls, hanging teal lanterns, cattail reeds, floating logs, torches and cream banners with a sun sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Castoroides Wetland Overlords, male anthropomorphic giant beaver character (giant beaver-kin (not human)), apparent age mid 50s. bear-sized, a huge flat paddle tail, blunt long incisors, a thick wet coat, large size. Pose: standing upright with the paddle tail raised high for a sweep. Expression: unhurried, heavy-lidded, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Paddle-tail guard. SECOND ITEM, kept plain: marsh cloak. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: bear-sized giant beaver-kin with a huge flat paddle tail raised, a marsh cloak and a reed belt, blunt incisors showing.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Paddle-tail guard. SECOND ITEM, kept plain: marsh cloak. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: bear-sized giant beaver-kin with blunt pale incisors and a huge flat paddle tail raised, the tail armored in a gold-lashed teal-and-brown frame, a ragged green marsh cloak with gold chevron trim and a ring clasp, gold-wrapped forearms and shins, a rope belt with two black poles at the hip.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #2b644b about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Paddle-tail guard and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -3350,7 +3350,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Castoroides Wetland Overlords with no people, creatures, figures, silhouettes or text. Midground: a drowned marsh with a half-built dam. Foreground: reed beds and floating logs, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Castoroides Wetland Overlords with no people, creatures, figures, silhouettes or text. Midground: a moonlit marsh fortress of log palisades and lookout towers on stilts, a log dam with waterfalls, hanging teal lanterns. Foreground: cattail reeds, floating logs, torches and cream banners with a sun sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #2b644b for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

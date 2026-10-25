@@ -29,6 +29,7 @@ const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};-
 
 /* ---------- art we have so far (everything else is a generated placeholder poster) ---------- */
 const NODE_ART = {
+  castoroides: { src: "art/v2/were-castoroides.png", bg: "art/v2/were-castoroides-bg.jpg", name: "Castoroides Wetland Overlord" },
   crestedratwardens: { src: "art/v2/were-crestedratwardens.png", bg: "art/v2/were-crestedratwardens-bg.jpg", name: "African Crested Rat Poison-Wick Warden" },
   joseptusks: { src: "art/v2/were-joseptusks.png", bg: "art/v2/were-joseptusks-bg.jpg", name: "Josephoartigasia Tusk-Breaker" },
   herugavialis: { src: "art/v2/were-herugavialis.png", bg: "art/v2/were-herugavialis-bg.jpg", name: "Herugavialis Tidal Marauder" },
