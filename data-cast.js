@@ -31,7 +31,7 @@ window.CAST = {
   thornpoisoners: C("Female", "Scandinavian heritage, Danish", "serene, faintly amused", "walking away with a glance back over the shoulder, the thorn whip trailing from one hand, a vial held up in the other"),
   understudies: C("Nonbinary", "Italian heritage, Italian", "wry, mid-impression", "caught mid-impression of a melodramatic lunge, one arm flung wide, the prompt-book held open in the other hand"),
   /* ---------------- WERE-CREATURE ---------------- */
-  bonecrushers: C("Male", "N/A (wolf-kin)", "snarling, jaw clenched", "wide braced stance mid-bite with the paws planted and the huge jaw closing"),
+  bonecrushers: C("Male", "N/A (wolf-kin)", "snarling, jaw clenched on the muzzle guard", "crouched low and wide with one clawed fist planted on a cracked boulder and the head turned snarling"),
   torrentstriders: C("Female", "N/A (bush dog-kin)", "sly, wet-furred grin", "lunging low out of the water with the webbed paws forward and the tail swept behind"),
   caninedreamweavers: C("Female", "N/A (wool dog-kin)", "serene, half-lidded", "standing tall with the spindle staff raised and glowing wool drifting from the open paw"),
   redpandamonks: C("Female", "N/A (red panda-kin)", "calm, small smile", "sitting upright with the kettle poured in one paw and the bamboo staff leaning on the shoulder"),

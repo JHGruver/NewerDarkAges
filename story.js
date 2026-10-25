@@ -25,7 +25,7 @@
       </svg>
       <div class="tribe-tags"><span style="--c:#d9a521">${crest(GROUPS.find((g) => g.id === "human"))}Humans</span><span style="--c:#8a8a99">${crest(GROUPS.find((g) => g.id === "vampire"))}Vampires</span><span style="--c:#b4532a">${crest(GROUPS.find((g) => g.id === "were"))}Werewolves</span></div>`;
     if (id === "chairs") {
-      const three = [["human", "interceptors", "Chieftain", "Humans"], ["vampire", "owlwings", "High Priest", "Vampires"], ["were", "mawwardens", "Alpha Wolf", "Werewolves"]];
+      const three = [["human", "interceptors", "Chieftain", "Humans"], ["vampire", "owlwings", "High Priest", "Vampires"], ["were", "bonecrushers", "Alpha Wolf", "Werewolves"]];
       return `<div class="three">${three.filter(([, c]) => NODE_ART[c]).map(([p, c, t, n], i) => `<figure style="--i:${i}"><div class="bgc" style="background-image:url('${NODE_ART[c].bg}')"></div><img src="${NODE_ART[c].src}" alt=""><figcaption><b>${t}</b><span>${n}</span></figcaption></figure>`).join("")}</div>`;
     }
     if (id === "pyramid") return `<div class="beam" aria-hidden="true"></div><div class="trials" aria-hidden="true"><span>Pass</span><i></i><span>Fail</span></div>`;
@@ -40,7 +40,7 @@
       return `<div class="heirs">${hs.map((c, i) => `<div class="heir" style="--i:${i}"><b>${esc(c.name)}</b><span>${esc(c.age)}</span><em>${esc(c.powers.replace(/"/g, ""))}</em></div>`).join("")}</div>`;
     }
     if (id === "choose") {
-      const fan = ["interceptors", "owlwings", "mawwardens", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing", "signalsavants", "stickywizards", "sporecoven"].filter((c) => NODE_ART[c]);
+      const fan = ["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing", "signalsavants", "stickywizards", "sporecoven"].filter((c) => NODE_ART[c]);
       return `<div class="fan" aria-hidden="true">${fan.map((c, i) => `<img style="--i:${i};--n:${fan.length}" src="${NODE_ART[c].src}" alt="">`).join("")}</div>
         <div class="choose-cta"><a class="big-cta" href="#/characters">Pick a character <span>→</span></a>
         <div class="peoples-row">${GROUPS.map((g) => `<a href="#/characters/${g.id}" style="--p:${g.color}" title="${esc(g.name)}">${crest(g)}<span>${esc(g.name)}</span></a>`).join("")}</div>
@@ -162,7 +162,7 @@
       const bars = [...bootEl.querySelectorAll(".boot-bars i")], bc = document.getElementById("bootstatic"), bx = bc.getContext("2d"); bc.width = 200; bc.height = 112;
       document.documentElement.classList.add("booting"); window.scrollTo(0, 0);
       const { NODE_ART } = H();
-      const urls = [...new Set([...Object.values(BG).map((b) => `${A}${b}.jpg`), ...["interceptors", "owlwings", "mawwardens", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing"].flatMap((c) => [NODE_ART[c].src, NODE_ART[c].bg]), `${A}logo-wordmark.png`])];
+      const urls = [...new Set([...Object.values(BG).map((b) => `${A}${b}.jpg`), ...["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing"].flatMap((c) => [NODE_ART[c].src, NODE_ART[c].bg]), `${A}logo-wordmark.png`])];
       let loaded = 0; const done = () => { loaded++; };
       urls.forEach((u) => { const im = new Image(); im.onload = im.onerror = done; im.src = u; });
       const t0 = performance.now(), MIN = 2600; let finished = false, lockAt = 0, prog = 0, askAt = 0;

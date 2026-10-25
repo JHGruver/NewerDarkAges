@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 66.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 67.
 
 ## Art direction in one screen
 
@@ -1938,27 +1938,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | massive, bear-sized, a deep chest, a short blunt muzzle with an enormous jaw; large size; mobility: grounded |
 | Ethnicity + nationality | wolf-kin (not human) |
 | Identity | male anthropomorphic wolf character |
-| Wardrobe | huge bear-sized wolf-kin with an oversized blunt jaw, studded shoulder plates, an armored collar, a jaw guard and a marrow flask, fangs bared and one paw planted on a cracked shield |
+| Wardrobe | huge bear-sized brown-and-cream wolf-kin with glowing magenta eyes and a snarling spiked iron muzzle guard, a black-and-magenta spiked collar, white spiked shoulder plates, bandage-wrapped black-banded forearms and legs, a magenta-capped marrow flask at the belt, crouched low with one clawed fist planted on a cracked grey boulder |
 | Accessories | Armored collar; bone-crusher jaw guard; studded shoulder plates; marrow flask |
-| Pose | wide braced stance mid-bite with the paws planted and the huge jaw closing |
-| Facial expression | snarling, jaw clenched |
+| Pose | crouched low and wide with one clawed fist planted on a cracked boulder and the head turned snarling |
+| Facial expression | snarling, jaw clenched on the muzzle guard |
 | People | Were-Creature |
 | Class | Canine-kin |
 | Subclass | Bone-Crusher Juggernauts |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | wide braced stance mid-bite with the paws planted and the huge jaw closing; the Armored collar and the bone-crusher jaw guard break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched low and wide with one clawed fist planted on a cracked boulder and the head turned snarling; the Armored collar and the bone-crusher jaw guard break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #8f6e3d: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ff5d8f: the eyes, the Armored collar and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-bonecrushers.png` and `art/v2/were-bonecrushers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as wide braced stance mid-bite with the paws planted and the huge jaw closing.
+1. Black-fill test: the silhouette must still read as crouched low and wide with one clawed fist planted on a cracked boulder and the head turned snarling.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Armored collar and the pose must be visible at 64 px.
 4. Flat colors: #8f6e3d / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
@@ -1978,8 +1978,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Bone-Crusher Juggernauts, male anthropomorphic wolf character (wolf-kin (not human)), apparent age mid 40s. massive, bear-sized, a deep chest, a short blunt muzzle with an enormous jaw, large size. Pose: wide braced stance mid-bite with the paws planted and the huge jaw closing. Expression: snarling, jaw clenched, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Armored collar. SECOND ITEM, kept plain: bone-crusher jaw guard. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge bear-sized wolf-kin with an oversized blunt jaw, studded shoulder plates, an armored collar, a jaw guard and a marrow flask, fangs bared and one paw planted on a cracked shield.
+CHARACTER: Bone-Crusher Juggernauts, male anthropomorphic wolf character (wolf-kin (not human)), apparent age mid 40s. massive, bear-sized, a deep chest, a short blunt muzzle with an enormous jaw, large size. Pose: crouched low and wide with one clawed fist planted on a cracked boulder and the head turned snarling. Expression: snarling, jaw clenched on the muzzle guard, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Armored collar. SECOND ITEM, kept plain: bone-crusher jaw guard. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: huge bear-sized brown-and-cream wolf-kin with glowing magenta eyes and a snarling spiked iron muzzle guard, a black-and-magenta spiked collar, white spiked shoulder plates, bandage-wrapped black-banded forearms and legs, a magenta-capped marrow flask at the belt, crouched low with one clawed fist planted on a cracked grey boulder.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8f6e3d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Armored collar and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
