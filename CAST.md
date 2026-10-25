@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 75.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 76.
 
 ## Art direction in one screen
 
@@ -2580,27 +2580,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | low and long with a white head stripe, a bushy tail, short legs; small size; mobility: grounded |
 | Ethnicity + nationality | stink badger-kin (not human) |
 | Identity | female anthropomorphic stink badger character |
-| Wardrobe | low long stink-badger-kin with a white head stripe, a bushy tail, a gas mask and spray canisters on the belt, one paw on the valve and a sulfur cloud rising |
+| Wardrobe | low long stink-badger-kin with a white head stripe, a big bushy striped tail, a yellow-ringed gas mask, a ragged hooded cloak, a row of striped spray canisters on the belt, one paw on a tall gas canister valve and a green cloud rising |
 | Accessories | Gas mask; spray canisters; striped back cape; ash-grey wraps |
-| Pose | slumped low on the ground with one paw on the canister valve and a sulfur cloud rising |
+| Pose | crouched low on all fours, one paw on the gas canister valve, the head turned with half-lidded eyes |
 | Facial expression | smug, half-closed eyes |
 | People | Were-Creature |
 | Class | Arctoidea-kin |
 | Subclass | Stink Badger Possum-Gassers |
 | Type | Controller |
 | Combat or support | Combat |
-| Silhouette hook | slumped low on the ground with one paw on the canister valve and a sulfur cloud rising; the Gas mask and the spray canisters break the outline so it reads instantly as a black shape |
+| Silhouette hook | crouched low on all fours, one paw on the gas canister valve, the head turned with half-lidded eyes; the Gas mask and the spray canisters break the outline so it reads instantly as a black shape |
 | Shape language | hexagons and wide arc gestures with tools hanging off the body |
 | Main color (60%) | #a9bc2f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #26324a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ffd23f: the eyes, the Gas mask and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-stinkbadgers.png` and `art/v2/were-stinkbadgers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as slumped low on the ground with one paw on the canister valve and a sulfur cloud rising.
+1. Black-fill test: the silhouette must still read as crouched low on all fours, one paw on the gas canister valve, the head turned with half-lidded eyes.
 2. Few large shapes: hexagons and wide arc gestures with tools hanging off the body; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Gas mask and the pose must be visible at 64 px.
 4. Flat colors: #a9bc2f / #26324a / #ffd23f as separate flat shapes divided by black line; no gradients or glow.
@@ -2612,16 +2612,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #a9bc2f / #26324a / #ffd23f (about 20%) |
-| Midground | a gas-fogged ruin with cracked barrels |
-| Foreground | hazard signs and a yellow haze |
-| Character-relevant items | a gas-fogged ruin with cracked barrels, hazard signs and a yellow haze |
+| Midground | a toxic wasteland with leaking barrels, glowing green sludge |
+| Foreground | biohazard banners and signs, smoking tanks and a yellow haze |
+| Character-relevant items | a toxic wasteland with leaking barrels, glowing green sludge, biohazard banners and signs, smoking tanks and a yellow haze |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Stink Badger Possum-Gassers, female anthropomorphic stink badger character (stink badger-kin (not human)), apparent age early 30s. low and long with a white head stripe, a bushy tail, short legs, small size. Pose: slumped low on the ground with one paw on the canister valve and a sulfur cloud rising. Expression: smug, half-closed eyes, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Gas mask. SECOND ITEM, kept plain: spray canisters. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: low long stink-badger-kin with a white head stripe, a bushy tail, a gas mask and spray canisters on the belt, one paw on the valve and a sulfur cloud rising.
+CHARACTER: Stink Badger Possum-Gassers, female anthropomorphic stink badger character (stink badger-kin (not human)), apparent age early 30s. low and long with a white head stripe, a bushy tail, short legs, small size. Pose: crouched low on all fours, one paw on the gas canister valve, the head turned with half-lidded eyes. Expression: smug, half-closed eyes, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Gas mask. SECOND ITEM, kept plain: spray canisters. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: low long stink-badger-kin with a white head stripe, a big bushy striped tail, a yellow-ringed gas mask, a ragged hooded cloak, a row of striped spray canisters on the belt, one paw on a tall gas canister valve and a green cloud rising.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #a9bc2f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #26324a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ffd23f about 10%, on the eyes, the Gas mask and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2634,7 +2634,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Stink Badger Possum-Gassers with no people, creatures, figures, silhouettes or text. Midground: a gas-fogged ruin with cracked barrels. Foreground: hazard signs and a yellow haze, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Stink Badger Possum-Gassers with no people, creatures, figures, silhouettes or text. Midground: a toxic wasteland with leaking barrels, glowing green sludge. Foreground: biohazard banners and signs, smoking tanks and a yellow haze, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #a9bc2f for the biggest glowing sources and surfaces, secondary #26324a for medium panels, banners and lights, pop #ffd23f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

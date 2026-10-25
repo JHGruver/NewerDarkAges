@@ -39,7 +39,7 @@ window.CAST = {
   sealcoilstrikers: C("Female", "N/A (seal-kin)", "cool, narrow-eyed", "crouched low with one flipper-arm reaching out, the long neck bent in an S and the head turned to the side"),
   honeybadgers: C("Male", "N/A (honey badger-kin)", "unbothered, fearless grin", "wide low stance, both spiked fists raised, the head turned with a bared-teeth grin"),
   seaotters: C("Male", "N/A (sea otter-kin)", "gleeful, whiskered grin", "wide stance, both fists raising the anvil rock overhead, the head tilted down with a gleeful grin"),
-  stinkbadgers: C("Female", "N/A (stink badger-kin)", "smug, half-closed eyes", "slumped low on the ground with one paw on the canister valve and a sulfur cloud rising"),
+  stinkbadgers: C("Female", "N/A (stink badger-kin)", "smug, half-closed eyes", "crouched low on all fours, one paw on the gas canister valve, the head turned with half-lidded eyes"),
   purussaurus: C("Male", "N/A (caiman-kin)", "stoic, enormous jaw open", "lunging forward with the huge blunt jaw open and the tail swept to one side"),
   caimanscouts: C("Female", "N/A (dwarf caiman-kin)", "wary, sharp-eyed", "crouched in a guard with the short spear leveled over the plated shield"),
   cubancrocodiles: C("Male", "N/A (crocodile-kin)", "predatory, grinning", "galloping mid-stride with the legs stretched and the jaws open"),
