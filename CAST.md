@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 111.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 112.
 
 ## Art direction in one screen
 
@@ -9314,7 +9314,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | tall and faceless, thin long limbs; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
 | Identity | female a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
-| Wardrobe | tall faceless winged Nightgaunt with long limbs and a dark visor, a barbed knife in one hand, a signal lantern at the hip |
+| Wardrobe | tall faceless winged Nightgaunt in magenta and black with sky-blue edging, a smooth black hood face, large brown bat wings, a small dark lantern at the hip, a long barbed tail and a long jagged blade held low in one hand |
 | Accessories | Wing-sail; barbed knife; signal lantern; dark visor |
 | Pose | gliding head-down with one long arm pointed down, the knife drawn |
 | Facial expression | faceless, dark visor |
@@ -9329,8 +9329,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #4cc9f0: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #2e2200: the eyes, the Wing-sail and one small magical detail |
 | Natural base tones | Species skin and anatomy may use simplified, flat, muted neutral base tones. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/eldritch-voidwing.png` and `art/v2/eldritch-voidwing-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -9346,16 +9346,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls |
 | Colors | wash #0b7a75 (about 65%); accents #810070 / #4cc9f0 / #2e2200 (about 20%) |
-| Midground | a high cliff ledge with a moon, a derelict watchtower |
-| Foreground | a cable stretched across a canyon, a signal beacon |
-| Character-relevant items | a high cliff ledge with a moon, a derelict watchtower, a cable stretched across a canyon, a signal beacon |
+| Midground | a misty canyon of moonlit ruins under a teal moon: cliff ledges with waterfalls, a rope cable strung across the gap with tattered pink pennants, a lantern watchtower |
+| Foreground | a high arched bridge, a banner with a winged sigil, glowing violet and cyan lanterns |
+| Character-relevant items | a misty canyon of moonlit ruins under a teal moon: cliff ledges with waterfalls, a rope cable strung across the gap with tattered pink pennants, a lantern watchtower, a high arched bridge, a banner with a winged sigil, glowing violet and cyan lanterns |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Voidwing Scouts, female a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings, apparent age early 70s. tall and faceless, thin long limbs, large size. Pose: gliding head-down with one long arm pointed down, the knife drawn. Expression: faceless, dark visor, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wing-sail. SECOND ITEM, kept plain: barbed knife. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall faceless winged faceless winged horror with long limbs and a dark visor, a barbed knife in one hand, a signal lantern at the hip.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wing-sail. SECOND ITEM, kept plain: barbed knife. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall faceless winged faceless winged horror in magenta and black with sky-blue edging, a smooth black hood face, large brown bat wings, a small dark lantern at the hip, a long barbed tail and a long jagged blade held low in one hand.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #810070 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #4cc9f0 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, on the eyes, the Wing-sail and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -9368,7 +9368,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Voidwing Scouts with no people, creatures, figures, silhouettes or text. Midground: a high cliff ledge with a moon, a derelict watchtower. Foreground: a cable stretched across a canyon, a signal beacon, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Voidwing Scouts with no people, creatures, figures, silhouettes or text. Midground: a misty canyon of moonlit ruins under a teal moon: cliff ledges with waterfalls, a rope cable strung across the gap with tattered pink pennants, a lantern watchtower. Foreground: a high arched bridge, a banner with a winged sigil, glowing violet and cyan lanterns, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #810070 for the biggest glowing sources and surfaces, secondary #4cc9f0 for medium panels, banners and lights, pop #2e2200 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
