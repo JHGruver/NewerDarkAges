@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 76.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 77.
 
 ## Art direction in one screen
 
@@ -2654,27 +2654,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | colossal, a huge broad blunt skull, thick scutes, a heavy tail; huge size; mobility: grounded |
 | Ethnicity + nationality | caiman-kin (not human) |
 | Identity | male anthropomorphic caiman character |
-| Wardrobe | colossal blunt-snouted caiman-kin in a skull-guard helm with a heavy chained tail, scute plates and trophy chains, jaws opening wide |
+| Wardrobe | colossal blunt-snouted caiman-kin in a bone skull-guard helm with pink spikes, a heavy chained tail ending in a spiked bone club, bone shoulder plates, ring belts and wrapped legs, jaws opening wide |
 | Accessories | Skull-guard helm; tail spike; trophy chains; scute plates |
-| Pose | lunging forward with the huge blunt jaw open and the tail swept to one side |
+| Pose | rearing up on bent legs, one clawed arm reaching forward, the huge jaw open in a roar and the chained tail arched overhead |
 | Facial expression | stoic, enormous jaw open |
 | People | Were-Creature |
 | Class | Crocodylia-kin |
 | Subclass | Purussaurus Death-Rollers |
 | Type | Bruiser |
 | Combat or support | Combat |
-| Silhouette hook | lunging forward with the huge blunt jaw open and the tail swept to one side; the Skull-guard helm and the tail spike break the outline so it reads instantly as a black shape |
+| Silhouette hook | rearing up on bent legs, one clawed arm reaching forward, the huge jaw open in a roar and the chained tail arched overhead; the Skull-guard helm and the tail spike break the outline so it reads instantly as a black shape |
 | Shape language | heavy trapezoids, oversized fists and shoulders |
 | Main color (60%) | #1d721f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #f4f1e8: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ff5d8f: the eyes, the Skull-guard helm and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-purussaurus.png` and `art/v2/were-purussaurus-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as lunging forward with the huge blunt jaw open and the tail swept to one side.
+1. Black-fill test: the silhouette must still read as rearing up on bent legs, one clawed arm reaching forward, the huge jaw open in a roar and the chained tail arched overhead.
 2. Few large shapes: heavy trapezoids, oversized fists and shoulders; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Skull-guard helm and the pose must be visible at 64 px.
 4. Flat colors: #1d721f / #f4f1e8 / #ff5d8f as separate flat shapes divided by black line; no gradients or glow.
@@ -2686,16 +2686,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #1d721f / #f4f1e8 / #ff5d8f (about 20%) |
-| Midground | a flooded swamp ruin with a broken dam |
-| Foreground | giant bones and mud banks |
-| Character-relevant items | a flooded swamp ruin with a broken dam, giant bones and mud banks |
+| Midground | a flooded swamp ruin with a broken dam and waterfalls, giant rib bones and a jawbone |
+| Foreground | a lookout platform, mossy trees and mud banks |
+| Character-relevant items | a flooded swamp ruin with a broken dam and waterfalls, giant rib bones and a jawbone, a lookout platform, mossy trees and mud banks |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Purussaurus Death-Rollers, male anthropomorphic caiman character (caiman-kin (not human)), apparent age early 50s. colossal, a huge broad blunt skull, thick scutes, a heavy tail, huge size. Pose: lunging forward with the huge blunt jaw open and the tail swept to one side. Expression: stoic, enormous jaw open, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Skull-guard helm. SECOND ITEM, kept plain: tail spike. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: colossal blunt-snouted caiman-kin in a skull-guard helm with a heavy chained tail, scute plates and trophy chains, jaws opening wide.
+CHARACTER: Purussaurus Death-Rollers, male anthropomorphic caiman character (caiman-kin (not human)), apparent age early 50s. colossal, a huge broad blunt skull, thick scutes, a heavy tail, huge size. Pose: rearing up on bent legs, one clawed arm reaching forward, the huge jaw open in a roar and the chained tail arched overhead. Expression: stoic, enormous jaw open, as a minimal face. Design the silhouette first (heavy trapezoids, oversized fists and shoulders); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Skull-guard helm. SECOND ITEM, kept plain: tail spike. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: colossal blunt-snouted caiman-kin in a bone skull-guard helm with pink spikes, a heavy chained tail ending in a spiked bone club, bone shoulder plates, ring belts and wrapped legs, jaws opening wide.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #1d721f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f4f1e8 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff5d8f about 10%, on the eyes, the Skull-guard helm and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2708,7 +2708,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Purussaurus Death-Rollers with no people, creatures, figures, silhouettes or text. Midground: a flooded swamp ruin with a broken dam. Foreground: giant bones and mud banks, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Purussaurus Death-Rollers with no people, creatures, figures, silhouettes or text. Midground: a flooded swamp ruin with a broken dam and waterfalls, giant rib bones and a jawbone. Foreground: a lookout platform, mossy trees and mud banks, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #1d721f for the biggest glowing sources and surfaces, secondary #f4f1e8 for medium panels, banners and lights, pop #ff5d8f for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
