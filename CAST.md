@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 78.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 79.
 
 ## Art direction in one screen
 
@@ -2796,27 +2796,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | lean and long-legged, an athletic body, broad flat teeth; medium size; mobility: agile |
 | Ethnicity + nationality | crocodile-kin (not human) |
 | Identity | male anthropomorphic crocodile character |
-| Wardrobe | lean athletic crocodile-kin on long legs in a running harness and a light scute vest, galloping mid-leap with the jaws open |
+| Wardrobe | lean athletic crocodile-kin on long legs in a gold-trimmed running harness with teal gems, a short tattered loincloth and gold-banded wrists and ankles, leaping mid-pounce with the jaws open |
 | Accessories | Running harness; leg straps; tooth guard; light scute vest |
-| Pose | galloping mid-stride with the legs stretched and the jaws open |
+| Pose | mid-pounce, the body stretched forward, one leg reaching down and the jaws open |
 | Facial expression | predatory, grinning |
 | People | Were-Creature |
 | Class | Crocodylia-kin |
 | Subclass | Cuban Crocodile Gallop Vanguard |
 | Type | Assassin |
 | Combat or support | Combat |
-| Silhouette hook | galloping mid-stride with the legs stretched and the jaws open; the Running harness and the leg straps break the outline so it reads instantly as a black shape |
+| Silhouette hook | mid-pounce, the body stretched forward, one leg reaching down and the jaws open; the Running harness and the leg straps break the outline so it reads instantly as a black shape |
 | Shape language | sharp triangles, long thin blades, a low coiled posture |
 | Main color (60%) | #6eb83d: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #06d6a0: the eyes, the Running harness and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-cubancrocodiles.png` and `art/v2/were-cubancrocodiles-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as galloping mid-stride with the legs stretched and the jaws open.
+1. Black-fill test: the silhouette must still read as mid-pounce, the body stretched forward, one leg reaching down and the jaws open.
 2. Few large shapes: sharp triangles, long thin blades, a low coiled posture; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Running harness and the pose must be visible at 64 px.
 4. Flat colors: #6eb83d / #e8c76a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
@@ -2828,16 +2828,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #6eb83d / #e8c76a / #06d6a0 (about 20%) |
-| Midground | a salt flat with rusted crates |
-| Foreground | a fence line and shallow pools |
-| Character-relevant items | a salt flat with rusted crates, a fence line and shallow pools |
+| Midground | a salt flat with a chain-link fence, spiked posts |
+| Foreground | rusted crates, shallow green-lit pools and a distant watchtower citadel |
+| Character-relevant items | a salt flat with a chain-link fence, spiked posts, rusted crates, shallow green-lit pools and a distant watchtower citadel |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Cuban Crocodile Gallop Vanguard, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 20s. lean and long-legged, an athletic body, broad flat teeth, medium size. Pose: galloping mid-stride with the legs stretched and the jaws open. Expression: predatory, grinning, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Running harness. SECOND ITEM, kept plain: leg straps. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lean athletic crocodile-kin on long legs in a running harness and a light scute vest, galloping mid-leap with the jaws open.
+CHARACTER: Cuban Crocodile Gallop Vanguard, male anthropomorphic crocodile character (crocodile-kin (not human)), apparent age late 20s. lean and long-legged, an athletic body, broad flat teeth, medium size. Pose: mid-pounce, the body stretched forward, one leg reaching down and the jaws open. Expression: predatory, grinning, as a minimal face. Design the silhouette first (sharp triangles, long thin blades, a low coiled posture); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Running harness. SECOND ITEM, kept plain: leg straps. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lean athletic crocodile-kin on long legs in a gold-trimmed running harness with teal gems, a short tattered loincloth and gold-banded wrists and ankles, leaping mid-pounce with the jaws open.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #6eb83d about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Running harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2850,7 +2850,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Cuban Crocodile Gallop Vanguard with no people, creatures, figures, silhouettes or text. Midground: a salt flat with rusted crates. Foreground: a fence line and shallow pools, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Cuban Crocodile Gallop Vanguard with no people, creatures, figures, silhouettes or text. Midground: a salt flat with a chain-link fence, spiked posts. Foreground: rusted crates, shallow green-lit pools and a distant watchtower citadel, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #6eb83d for the biggest glowing sources and surfaces, secondary #e8c76a for medium panels, banners and lights, pop #06d6a0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
