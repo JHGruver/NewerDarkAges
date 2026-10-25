@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 102.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 103.
 
 ## Art direction in one screen
 
@@ -8595,7 +8595,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | segmented and winged, a bulbous ridged head, a cylinder harness; medium size; mobility: flying |
 | Ethnicity + nationality | Mi-Go (alien) |
 | Identity | nonbinary an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings |
-| Wardrobe | segmented winged fungus-crustacean Mi-Go in a clinical harness of glowing brain-cylinders, a delicate memory probe in one claw, a tape reel at the belt |
+| Wardrobe | hovering winged insectoid surgeon with a cream ridged head-shell with orange spots, purple eyes and curled antennae, large translucent lilac wings with orange edges, four slender cream-and-black arms, a harness of three glowing purple brain-cylinders with orange rings on the chest, a purple robe with orange sash and diamond panels, a tape reel at the belt, a slim memory probe wired to a claw in one hand and a dark tablet in another |
 | Accessories | Brain-cylinder harness; memory probe; surgical wings; tape reel |
 | Pose | hovering with a memory probe extended gently, cylinders glowing at the chest |
 | Facial expression | clinical, curious tilt |
@@ -8610,8 +8610,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #f8961e: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #2e0d52: the eyes, the Brain-cylinder harness and one small magical detail |
 | Natural base tones | Species skin and anatomy may use simplified, flat, muted neutral base tones. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/eldritch-braincase.png` and `art/v2/eldritch-braincase-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -8627,16 +8627,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls |
 | Colors | wash #0b7a75 (about 65%); accents #9066a9 / #f8961e / #2e0d52 (about 20%) |
-| Midground | an alien surgery lab with rows of glowing cylinders, a surgical table |
-| Foreground | a reel-to-reel tape bank, a wall of monitors |
-| Character-relevant items | an alien surgery lab with rows of glowing cylinders, a surgical table, a reel-to-reel tape bank, a wall of monitors |
+| Midground | a flooded neon brain laboratory under a teal moon: tall glass cylinders holding glowing purple brains, an overhead surgical lamp on arms above a central table at a stair, banks of amber monitors showing brain scans |
+| Foreground | reel-to-reel tape decks, instrument carts, cables and orange banners with a crescent sigil |
+| Character-relevant items | a flooded neon brain laboratory under a teal moon: tall glass cylinders holding glowing purple brains, an overhead surgical lamp on arms above a central table at a stair, banks of amber monitors showing brain scans, reel-to-reel tape decks, instrument carts, cables and orange banners with a crescent sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Braincase Surgeons, nonbinary an alien fungoid-insectoid technologist: a segmented chitinous body of bone-cream and charcoal plates, a bulbous ridged head with short antenna tendrils and mandibles instead of a face, four thin jointed arms and a pair of large membranous wings, apparent age mid 40s. segmented and winged, a bulbous ridged head, a cylinder harness, medium size. Pose: hovering with a memory probe extended gently, cylinders glowing at the chest. Expression: clinical, curious tilt, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Brain-cylinder harness. SECOND ITEM, kept plain: memory probe. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: segmented winged fungus-crustacean alien winged fungoid-insect in a clinical harness of glowing brain-cylinders, a delicate memory probe in one claw, a tape reel at the belt.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Brain-cylinder harness. SECOND ITEM, kept plain: memory probe. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hovering winged insectoid surgeon with a cream ridged head-shell with orange spots, purple eyes and curled antennae, large translucent lilac wings with orange edges, four slender cream-and-black arms, a harness of three glowing purple brain-cylinders with orange rings on the chest, a purple robe with orange sash and diamond panels.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #9066a9 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #f8961e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e0d52 about 10%, on the eyes, the Brain-cylinder harness and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -8649,7 +8649,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Braincase Surgeons with no people, creatures, figures, silhouettes or text. Midground: an alien surgery lab with rows of glowing cylinders, a surgical table. Foreground: a reel-to-reel tape bank, a wall of monitors, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Braincase Surgeons with no people, creatures, figures, silhouettes or text. Midground: a flooded neon brain laboratory under a teal moon: tall glass cylinders holding glowing purple brains, an overhead surgical lamp on arms above a central table at a stair, banks of amber monitors showing brain scans. Foreground: reel-to-reel tape decks, instrument carts, cables and orange banners with a crescent sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #9066a9 for the biggest glowing sources and surfaces, secondary #f8961e for medium panels, banners and lights, pop #2e0d52 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
