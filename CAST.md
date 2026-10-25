@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 97.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 98.
 
 ## Art direction in one screen
 
@@ -832,7 +832,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | very upright and slender like a bottle, a long neck, a tiny waist, a tall narrow silhouette; medium size; mobility: grounded |
 | Ethnicity + nationality | Punjabi heritage, Indian |
 | Identity | female human |
-| Wardrobe | immaculate human in a gold-trimmed bellhop jacket and cap with a name badge, a big ring of keys on the belt, a silver serving tray in one hand and a small bell in the other |
+| Wardrobe | elegant older human concierge with a silver bun and gold drop earrings, a teal-and-gold pillbox hat, a teal double-breasted uniform with gold diamond trim and a name badge, a gold-and-black sash, a ring of large brass keys at the hip, one hand balancing a round silver tray on a fingertip and the other holding a brass service bell, teal trousers and pointed gold-trimmed boots |
 | Accessories | Key ring; name badge; silver tray; bellhop jacket |
 | Pose | standing on one foot with the other leg tucked, a silver tray balanced high on one fingertip, the service bell held out to the side |
 | Facial expression | polite, unflappable smile |
@@ -847,8 +847,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #d1ce70: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #264653: the eyes, the Key ring and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-concierge.png` and `art/v2/human-concierge-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -864,16 +864,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners |
 | Colors | wash #d9a521 (about 65%); accents #2a9d8f / #d1ce70 / #264653 (about 20%) |
-| Midground | a grand hotel lobby desk with a brass bell and a wall of key hooks, a luggage cart |
-| Foreground | a marble staircase, a rotating door |
-| Character-relevant items | a grand hotel lobby desk with a brass bell and a wall of key hooks, a luggage cart, a marble staircase, a rotating door |
+| Midground | a post-apocalyptic art-deco hotel lobby under a moon: a brass revolving door, a grand staircase with teal carpet, a front desk with a bell and key cubbies, a luggage cart with trunks |
+| Foreground | glowing lanterns, potted palms, a checkerboard marble floor, and teal banners with a ring sigil |
+| Character-relevant items | a post-apocalyptic art-deco hotel lobby under a moon: a brass revolving door, a grand staircase with teal carpet, a front desk with a bell and key cubbies, a luggage cart with trunks, glowing lanterns, potted palms, a checkerboard marble floor, and teal banners with a ring sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Concierge Diplomats, female human (Punjabi heritage, Indian), apparent age early 70s. very upright and slender like a bottle, a long neck, a tiny waist, a tall narrow silhouette, medium size. Pose: standing on one foot with the other leg tucked, a silver tray balanced high on one fingertip, the service bell held out to the side. Expression: polite, unflappable smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Key ring. SECOND ITEM, kept plain: name badge. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: immaculate human in a gold-trimmed bellhop jacket and cap with a name badge, a big ring of keys on the belt, a silver serving tray in one hand and a small bell in the other.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Key ring. SECOND ITEM, kept plain: name badge. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: elegant older human concierge with a silver bun and gold drop earrings, a teal-and-gold pillbox hat, a teal double-breasted uniform with gold diamond trim and a name badge, a gold-and-black sash, a ring of large brass keys at the hip, one hand balancing a round silver tray on a fingertip and the other holding a brass service bell.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #2a9d8f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #d1ce70 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #264653 about 10%, on the eyes, the Key ring and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -886,7 +886,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Concierge Diplomats with no people, creatures, figures, silhouettes or text. Midground: a grand hotel lobby desk with a brass bell and a wall of key hooks, a luggage cart. Foreground: a marble staircase, a rotating door, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Concierge Diplomats with no people, creatures, figures, silhouettes or text. Midground: a post-apocalyptic art-deco hotel lobby under a moon: a brass revolving door, a grand staircase with teal carpet, a front desk with a bell and key cubbies, a luggage cart with trunks. Foreground: glowing lanterns, potted palms, a checkerboard marble floor, and teal banners with a ring sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #2a9d8f for the biggest glowing sources and surfaces, secondary #d1ce70 for medium panels, banners and lights, pop #264653 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

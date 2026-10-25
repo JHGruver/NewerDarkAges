@@ -112,6 +112,7 @@ const NODE_ART = {
   latenightcallers: { src: "art/v2/human-latenightcallers.png", bg: "art/v2/human-latenightcallers-bg.jpg", name: "Late-Night Host" },
   riotmarshals: { src: "art/v2/human-riotmarshals.png", bg: "art/v2/human-riotmarshals-bg.jpg", name: "Riot Marshal" },
   escalator: { src: "art/v2/human-escalator.png", bg: "art/v2/human-escalator-bg.jpg", name: "Escalator Lancer" },
+  concierge: { src: "art/v2/human-concierge.png", bg: "art/v2/human-concierge-bg.jpg", name: "Concierge Diplomat" },
   pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
   joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
   fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },
