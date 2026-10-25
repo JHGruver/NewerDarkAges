@@ -125,6 +125,7 @@ const NODE_ART = {
   starstone: { src: "art/v2/eldritch-starstone.png", bg: "art/v2/eldritch-starstone-bg.jpg", name: "Starstone Architect" },
   fossilscript: { src: "art/v2/eldritch-fossilscript.png", bg: "art/v2/eldritch-fossilscript-bg.jpg", name: "Fossil-Script Historian" },
   wingfold: { src: "art/v2/eldritch-wingfold.png", bg: "art/v2/eldritch-wingfold-bg.jpg", name: "Wingfold Warden" },
+  dreamsnatchers: { src: "art/v2/eldritch-dreamsnatchers.png", bg: "art/v2/eldritch-dreamsnatchers-bg.jpg", name: "Dream-Snatcher" },
   pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
   joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
   fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },

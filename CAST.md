@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 110.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 111.
 
 ## Art direction in one screen
 
@@ -9243,7 +9243,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | tall, faceless and long-limbed, a smooth head; large size; mobility: flying |
 | Ethnicity + nationality | Nightgaunt (alien) |
 | Identity | male a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings |
-| Wardrobe | tall smooth-faced faceless winged Nightgaunt with long limbs, barbed tail, a carry-harness across the chest, a sleep-glass lamp in one clawed hand |
+| Wardrobe | tall faceless winged Nightgaunt in violet and black with a smooth black face and curling horns, ragged bat wings, a lilac-wrapped tan sack held at the hip, a crescent-moon lantern in one clawed hand, a long barbed orange tail and clawed feet |
 | Accessories | Barbed tail; sleep-glass lamp; carry-harness; black wing-cloak |
 | Pose | stooped forward clutching a limp bundle in long limbs, the barbed tail curled |
 | Facial expression | faceless, smooth and blank |
@@ -9258,8 +9258,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #e0aaff: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #ff6d00: the eyes, the Barbed tail and one small magical detail |
 | Natural base tones | Species skin and anatomy may use simplified, flat, muted neutral base tones. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/eldritch-dreamsnatchers.png` and `art/v2/eldritch-dreamsnatchers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -9275,16 +9275,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls |
 | Colors | wash #0b7a75 (about 65%); accents #862ef4 / #e0aaff / #ff6d00 (about 20%) |
-| Midground | a dream-road bridge over a void, a bed on a floating platform |
-| Foreground | a row of sleeping cots, hanging sleep-lanterns |
-| Character-relevant items | a dream-road bridge over a void, a bed on a floating platform, a row of sleeping cots, hanging sleep-lanterns |
+| Midground | a moonlit dream-road above the mist under a teal moon: a long arched viaduct with crescent-sigil banners and waterfalls, floating rock islands with a canopy bed on one, rows of cots with pillows and quilts |
+| Foreground | hanging orange and violet lanterns, a crystal ball |
+| Character-relevant items | a moonlit dream-road above the mist under a teal moon: a long arched viaduct with crescent-sigil banners and waterfalls, floating rock islands with a canopy bed on one, rows of cots with pillows and quilts, hanging orange and violet lanterns, a crystal ball |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Dream-Snatchers, male a tall faceless winged horror: smooth featureless black head with curling horns, long thin limbs, a barbed tail and bat-like wings, apparent age early 20s. tall, faceless and long-limbed, a smooth head, large size. Pose: stooped forward clutching a limp bundle in long limbs, the barbed tail curled. Expression: faceless, smooth and blank, as a minimal face. Design the silhouette first (hexagons and wide arc gestures with tools hanging off the body); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Barbed tail. SECOND ITEM, kept plain: sleep-glass lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall smooth-faced faceless winged faceless winged horror with long limbs, barbed tail, a carry-harness across the chest, a sleep-glass lamp in one clawed hand.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Barbed tail. SECOND ITEM, kept plain: sleep-glass lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall faceless winged faceless winged horror in violet and black with a smooth black face and curling horns, ragged bat wings, a lilac-wrapped tan sack held at the hip, a crescent-moon lantern in one clawed hand, a long barbed orange tail and clawed feet.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #862ef4 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e0aaff about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #ff6d00 about 10%, on the eyes, the Barbed tail and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).
@@ -9297,7 +9297,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Dream-Snatchers with no people, creatures, figures, silhouettes or text. Midground: a dream-road bridge over a void, a bed on a floating platform. Foreground: a row of sleeping cots, hanging sleep-lanterns, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for Dream-Snatchers with no people, creatures, figures, silhouettes or text. Midground: a moonlit dream-road above the mist under a teal moon: a long arched viaduct with crescent-sigil banners and waterfalls, floating rock islands with a canopy bed on one, rows of cots with pillows and quilts. Foreground: hanging orange and violet lanterns, a crystal ball, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #862ef4 for the biggest glowing sources and surfaces, secondary #e0aaff for medium panels, banners and lights, pop #ff6d00 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
