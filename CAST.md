@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 79.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 80.
 
 ## Art direction in one screen
 
@@ -2867,27 +2867,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | stocky and low, a jointed armadillo shell across the back and neck, heavy curved claws; large size; mobility: burrowing |
 | Ethnicity + nationality | armadillosuchus-kin (not human) |
 | Identity | male anthropomorphic armadillosuchus character |
-| Wardrobe | stocky armored crocodile-kin with a jointed armadillo-like shell over the back and neck, heavy curved digging claws and a tunnel lamp, bursting up out of the ground |
+| Wardrobe | stocky armored crocodile-kin with cyan-plated armadillo-like banded shell over the back and neck, heavy curved black digging claws, a cyan tunnel lantern at the belt and a ring sash, bursting up out of a pile of rubble |
 | Accessories | Jointed shell plates; digging claws; tunnel lamp; dirt-caked cloak |
-| Pose | bursting up out of the ground with both digging claws raised |
+| Pose | bursting up out of the rubble, one huge digging claw raised high and the other swiping low, jaws open |
 | Facial expression | stoic, dirt-streaked |
 | People | Were-Creature |
 | Class | Crocodylia-kin |
 | Subclass | Armadillosuchus Burrow-Juggernauts |
 | Type | Tank |
 | Combat or support | Combat |
-| Silhouette hook | bursting up out of the ground with both digging claws raised; the Jointed shell plates and the digging claws break the outline so it reads instantly as a black shape |
+| Silhouette hook | bursting up out of the rubble, one huge digging claw raised high and the other swiping low, jaws open; the Jointed shell plates and the digging claws break the outline so it reads instantly as a black shape |
 | Shape language | wide blocky rectangles and a big shield shape |
 | Main color (60%) | #ab8349: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #2d2a4a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #4cc9f0: the eyes, the Jointed shell plates and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-armadillosuchus.png` and `art/v2/were-armadillosuchus-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as bursting up out of the ground with both digging claws raised.
+1. Black-fill test: the silhouette must still read as bursting up out of the rubble, one huge digging claw raised high and the other swiping low, jaws open.
 2. Few large shapes: wide blocky rectangles and a big shield shape; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Jointed shell plates and the pose must be visible at 64 px.
 4. Flat colors: #ab8349 / #2d2a4a / #4cc9f0 as separate flat shapes divided by black line; no gradients or glow.
@@ -2899,16 +2899,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #ab8349 / #2d2a4a / #4cc9f0 (about 20%) |
-| Midground | a quarry with exposed tunnels, rubble mounds |
-| Foreground | a mine cart and dust |
-| Character-relevant items | a quarry with exposed tunnels, rubble mounds, a mine cart and dust |
+| Midground | a quarry fortress with arched tunnel mouths, scaffold cranes |
+| Foreground | rubble mounds, a mine cart and blue lanterns |
+| Character-relevant items | a quarry fortress with arched tunnel mouths, scaffold cranes, rubble mounds, a mine cart and blue lanterns |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Armadillosuchus Burrow-Juggernauts, male anthropomorphic armadillosuchus character (armadillosuchus-kin (not human)), apparent age mid 40s. stocky and low, a jointed armadillo shell across the back and neck, heavy curved claws, large size. Pose: bursting up out of the ground with both digging claws raised. Expression: stoic, dirt-streaked, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Jointed shell plates. SECOND ITEM, kept plain: digging claws. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stocky armored crocodile-kin with a jointed armadillo-like shell over the back and neck, heavy curved digging claws and a tunnel lamp, bursting up out of the ground.
+CHARACTER: Armadillosuchus Burrow-Juggernauts, male anthropomorphic armadillosuchus character (armadillosuchus-kin (not human)), apparent age mid 40s. stocky and low, a jointed armadillo shell across the back and neck, heavy curved claws, large size. Pose: bursting up out of the rubble, one huge digging claw raised high and the other swiping low, jaws open. Expression: stoic, dirt-streaked, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Jointed shell plates. SECOND ITEM, kept plain: digging claws. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stocky armored crocodile-kin with cyan-plated armadillo-like banded shell over the back and neck, heavy curved black digging claws, a cyan tunnel lantern at the belt and a ring sash, bursting up out of a pile of rubble.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ab8349 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2d2a4a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4cc9f0 about 10%, on the eyes, the Jointed shell plates and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2921,7 +2921,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Armadillosuchus Burrow-Juggernauts with no people, creatures, figures, silhouettes or text. Midground: a quarry with exposed tunnels, rubble mounds. Foreground: a mine cart and dust, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Armadillosuchus Burrow-Juggernauts with no people, creatures, figures, silhouettes or text. Midground: a quarry fortress with arched tunnel mouths, scaffold cranes. Foreground: rubble mounds, a mine cart and blue lanterns, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #ab8349 for the biggest glowing sources and surfaces, secondary #2d2a4a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
