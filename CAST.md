@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 73.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 74.
 
 ## Art direction in one screen
 
@@ -2438,27 +2438,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | low, stocky and loose-skinned, a white back stripe, short strong legs; small size; mobility: agile |
 | Ethnicity + nationality | honey badger-kin (not human) |
 | Identity | male anthropomorphic honey badger character |
-| Wardrobe | low stocky honey-badger-kin with a bold white back stripe, a patched leather vest, spiked knuckles and a loose cloak, spinning mid-turn with the fists up |
+| Wardrobe | low stocky honey-badger-kin with a bold white back stripe, a hooded stitched-patch vest with a ring belt, spiked knuckle gauntlets and wrapped shins, fists up in a wide stance |
 | Accessories | Patched leather vest; spiked knuckles; white back-stripe cape; venom-proof gloves |
-| Pose | twisting in its own loose skin mid-turn with both fists up |
+| Pose | wide low stance, both spiked fists raised, the head turned with a bared-teeth grin |
 | Facial expression | unbothered, fearless grin |
 | People | Were-Creature |
 | Class | Arctoidea-kin |
 | Subclass | Honey Badger Loose-Hides |
 | Type | Fighter |
 | Combat or support | Combat |
-| Silhouette hook | twisting in its own loose skin mid-turn with both fists up; the Patched leather vest and the spiked knuckles break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide low stance, both spiked fists raised, the head turned with a bared-teeth grin; the Patched leather vest and the spiked knuckles break the outline so it reads instantly as a black shape |
 | Shape language | balanced diagonals with one clear weapon line |
 | Main color (60%) | #bab7ab: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #2d2a4a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #4cc9f0: the eyes, the Patched leather vest and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-honeybadgers.png` and `art/v2/were-honeybadgers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as twisting in its own loose skin mid-turn with both fists up.
+1. Black-fill test: the silhouette must still read as wide low stance, both spiked fists raised, the head turned with a bared-teeth grin.
 2. Few large shapes: balanced diagonals with one clear weapon line; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Patched leather vest and the pose must be visible at 64 px.
 4. Flat colors: #bab7ab / #2d2a4a / #4cc9f0 as separate flat shapes divided by black line; no gradients or glow.
@@ -2470,16 +2470,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #bab7ab / #2d2a4a / #4cc9f0 (about 20%) |
-| Midground | a rubble yard with scorched barrels, a snake pit |
-| Foreground | a rusted gate and trophy skulls |
-| Character-relevant items | a rubble yard with scorched barrels, a snake pit, a rusted gate and trophy skulls |
+| Midground | a rubble yard with burning barrels, a spiked scrap gate |
+| Foreground | horned skulls on posts, giant curved tusks and stacked tires |
+| Character-relevant items | a rubble yard with burning barrels, a spiked scrap gate, horned skulls on posts, giant curved tusks and stacked tires |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Honey Badger Loose-Hides, male anthropomorphic honey badger character (honey badger-kin (not human)), apparent age mid 30s. low, stocky and loose-skinned, a white back stripe, short strong legs, small size. Pose: twisting in its own loose skin mid-turn with both fists up. Expression: unbothered, fearless grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Patched leather vest. SECOND ITEM, kept plain: spiked knuckles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: low stocky honey-badger-kin with a bold white back stripe, a patched leather vest, spiked knuckles and a loose cloak, spinning mid-turn with the fists up.
+CHARACTER: Honey Badger Loose-Hides, male anthropomorphic honey badger character (honey badger-kin (not human)), apparent age mid 30s. low, stocky and loose-skinned, a white back stripe, short strong legs, small size. Pose: wide low stance, both spiked fists raised, the head turned with a bared-teeth grin. Expression: unbothered, fearless grin, as a minimal face. Design the silhouette first (balanced diagonals with one clear weapon line); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Patched leather vest. SECOND ITEM, kept plain: spiked knuckles. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: low stocky honey-badger-kin with a bold white back stripe, a hooded stitched-patch vest with a ring belt, spiked knuckle gauntlets and wrapped shins, fists up in a wide stance.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #bab7ab about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2d2a4a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #4cc9f0 about 10%, on the eyes, the Patched leather vest and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
@@ -2492,7 +2492,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Honey Badger Loose-Hides with no people, creatures, figures, silhouettes or text. Midground: a rubble yard with scorched barrels, a snake pit. Foreground: a rusted gate and trophy skulls, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Honey Badger Loose-Hides with no people, creatures, figures, silhouettes or text. Midground: a rubble yard with burning barrels, a spiked scrap gate. Foreground: horned skulls on posts, giant curved tusks and stacked tires, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #bab7ab for the biggest glowing sources and surfaces, secondary #2d2a4a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
