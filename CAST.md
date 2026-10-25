@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 85.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 86.
 
 ## Art direction in one screen
 
@@ -3367,7 +3367,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | small, pink and wrinkled, huge front teeth, tiny eyes, a thin tail; small size; mobility: burrowing |
 | Ethnicity + nationality | naked mole-rat-kin (not human) |
 | Identity | nonbinary anthropomorphic naked mole-rat character |
-| Wardrobe | small pink wrinkled mole-rat-kin with big front teeth, tiny eyes, digging gauntlets and a sash with a queen's sigil, three tiny duplicates scurrying out behind |
+| Wardrobe | small pink wrinkled mole-rat-kin with big pale front teeth, a wide grin, a purple hooded wrap with cream trim, huge black-and-cyan digging gauntlets, a hex belt buckle with a cyan sigil and a cyan lantern at the hip, three tiny duplicates scurrying around the feet carrying cyan crystals, a lantern and a barrel |
 | Accessories | Digging gauntlets; tunnel lamp; queen's sigil sash; soldier helm |
 | Pose | scrambling forward low with the digging gauntlets and three tiny duplicates behind |
 | Facial expression | oblivious, grinning |
@@ -3382,8 +3382,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #2d2a4a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #4cc9f0: the eyes, the Digging gauntlets and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-molematehive.png` and `art/v2/were-molematehive-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -3399,16 +3399,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
 | Colors | wash #b4532a (about 65%); accents #e0aece / #2d2a4a / #4cc9f0 (about 20%) |
-| Midground | a tunnel colony with mud chambers, a queen's throne |
-| Foreground | nest piles and glowing lamps |
-| Character-relevant items | a tunnel colony with mud chambers, a queen's throne, nest piles and glowing lamps |
+| Midground | an underground hive city of mud-and-bone chambers, arched tunnels and rope bridges, a spiked queen's throne |
+| Foreground | waterfalls, purple banners with sun sigils, pink crystal clusters and glowing lanterns |
+| Character-relevant items | an underground hive city of mud-and-bone chambers, arched tunnels and rope bridges, a spiked queen's throne, waterfalls, purple banners with sun sigils, pink crystal clusters and glowing lanterns |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Naked Mole-Rat Hive-Colonists, nonbinary anthropomorphic naked mole-rat character (naked mole-rat-kin (not human)), apparent age early 30s. small, pink and wrinkled, huge front teeth, tiny eyes, a thin tail, small size. Pose: scrambling forward low with the digging gauntlets and three tiny duplicates behind. Expression: oblivious, grinning, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Digging gauntlets. SECOND ITEM, kept plain: tunnel lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small pink wrinkled mole-rat-kin with big front teeth, tiny eyes, digging gauntlets and a sash with a queen's sigil, three tiny duplicates scurrying out behind.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Digging gauntlets. SECOND ITEM, kept plain: tunnel lamp. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: small pink wrinkled mole-rat-kin with big pale front teeth, a wide grin, a purple hooded wrap with cream trim, huge black-and-cyan digging gauntlets, a hex belt buckle with a cyan sigil and a cyan lantern at the hip, three tiny duplicates scurrying around the feet carrying cyan crystals.
 
 SUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
@@ -3422,7 +3422,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Naked Mole-Rat Hive-Colonists with no people, creatures, figures, silhouettes or text. Midground: a tunnel colony with mud chambers, a queen's throne. Foreground: nest piles and glowing lamps, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Naked Mole-Rat Hive-Colonists with no people, creatures, figures, silhouettes or text. Midground: an underground hive city of mud-and-bone chambers, arched tunnels and rope bridges, a spiked queen's throne. Foreground: waterfalls, purple banners with sun sigils, pink crystal clusters and glowing lanterns, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #e0aece for the biggest glowing sources and surfaces, secondary #2d2a4a for medium panels, banners and lights, pop #4cc9f0 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
