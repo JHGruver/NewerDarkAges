@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 68.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 69.
 
 ## Art direction in one screen
 
@@ -2080,27 +2080,27 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | majestic and fluffy, cloud-furred, a long graceful neck, a plume of a tail; medium size; mobility: grounded |
 | Ethnicity + nationality | wool dog-kin (not human) |
 | Identity | female anthropomorphic wool dog character |
-| Wardrobe | majestic pure-white cloud-furred wool-dog-kin with a woven ceremonial veil, a lavender sash, a wool-spindle staff in one paw and tufts of wool drifting from the other |
+| Wardrobe | majestic white-and-lavender cloud-furred wool-dog-kin with curly cloud-like fur and a huge swirled tail, a cream-and-gold veil hood with tassels, a lavender robe with gold sashes and ring buckles, a green-and-black twisted spindle staff holding a ball of cream wool in one paw and drifting wisps of glowing wool smoke from the other open paw |
 | Accessories | Wool-spindle staff; ceremonial veil; woven sash; glowing wool tufts |
-| Pose | standing tall with the spindle staff raised and glowing wool drifting from the open paw |
-| Facial expression | serene, half-lidded |
+| Pose | standing tall with the spindle staff held upright in one paw and the other palm open as glowing wool drifts up |
+| Facial expression | serene, green-eyed, a faint smile |
 | People | Were-Creature |
 | Class | Canine-kin |
 | Subclass | Wool Dog Dream-Weavers |
 | Type | Support |
 | Combat or support | Support |
-| Silhouette hook | standing tall with the spindle staff raised and glowing wool drifting from the open paw; the Wool-spindle staff and the ceremonial veil break the outline so it reads instantly as a black shape |
+| Silhouette hook | standing tall with the spindle staff held upright in one paw and the other palm open as glowing wool drifts up; the Wool-spindle staff and the ceremonial veil break the outline so it reads instantly as a black shape |
 | Shape language | soft rounded rectangles with an open palm and a visible kit |
 | Main color (60%) | #c3c0ed: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #e8c76a: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #06d6a0: the eyes, the Wool-spindle staff and one small magical detail |
 | Natural base tones | Natural fur, skin or shell base tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/were-caninedreamweavers.png` and `art/v2/were-caninedreamweavers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as standing tall with the spindle staff raised and glowing wool drifting from the open paw.
+1. Black-fill test: the silhouette must still read as standing tall with the spindle staff held upright in one paw and the other palm open as glowing wool drifts up.
 2. Few large shapes: soft rounded rectangles with an open palm and a visible kit; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Wool-spindle staff and the pose must be visible at 64 px.
 4. Flat colors: #c3c0ed / #e8c76a / #06d6a0 as separate flat shapes divided by black line; no gradients or glow.
@@ -2120,8 +2120,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Wool Dog Dream-Weavers, female anthropomorphic wool dog character (wool dog-kin (not human)), apparent age late 50s. majestic and fluffy, cloud-furred, a long graceful neck, a plume of a tail, medium size. Pose: standing tall with the spindle staff raised and glowing wool drifting from the open paw. Expression: serene, half-lidded, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wool-spindle staff. SECOND ITEM, kept plain: ceremonial veil. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: majestic pure-white cloud-furred wool-dog-kin with a woven ceremonial veil, a lavender sash, a wool-spindle staff in one paw and tufts of wool drifting from the other.
+CHARACTER: Wool Dog Dream-Weavers, female anthropomorphic wool dog character (wool dog-kin (not human)), apparent age late 50s. majestic and fluffy, cloud-furred, a long graceful neck, a plume of a tail, medium size. Pose: standing tall with the spindle staff held upright in one paw and the other palm open as glowing wool drifts up. Expression: serene, green-eyed, a faint smile, as a minimal face. Design the silhouette first (soft rounded rectangles with an open palm and a visible kit); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Wool-spindle staff. SECOND ITEM, kept plain: ceremonial veil. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: majestic white-and-lavender cloud-furred wool-dog-kin with curly cloud-like fur and a huge swirled tail, a cream-and-gold veil hood with tassels, a lavender robe with gold sashes and ring buckles, a green-and-black twisted spindle staff holding a ball of cream wool in one paw and drifting wisps of glowing wool smoke from the other open paw.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #c3c0ed about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8c76a about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #06d6a0 about 10%, on the eyes, the Wool-spindle staff and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
