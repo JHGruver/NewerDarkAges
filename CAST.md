@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 94.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 95.
 
 ## Art direction in one screen
 
@@ -616,7 +616,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | short and pear-shaped, a soft round belly, a thick neck, small plump hands; medium size; mobility: grounded |
 | Ethnicity + nationality | Black American heritage, American (Louisiana) |
 | Identity | male human |
-| Wardrobe | smooth-voiced human host in a cardigan over a collared shirt, headphones on, one hand holding a vintage microphone, the other holding a cassette, a warm calm expression |
+| Wardrobe | human radio host with short dreadlocks and a trimmed beard, a lime-green oversized blazer with purple trim and a star pin, a cream open-collar shirt and pendant, purple over-ear headphones around the neck, a purple cassette player on a strap with cables, a purple cassette tape held up in one hand, dark trousers and cream-and-purple high-top sneakers, a vintage microphone in front |
 | Accessories | Studio mic; tape deck; phone-bank; warm smile |
 | Pose | perched sideways on a stool with one knee up, leaning into a vintage microphone with one finger raised, a headset around the neck |
 | Facial expression | warm easy smile |
@@ -631,8 +631,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #8338ec: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #2e2200: the eyes, the Studio mic and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-latenightcallers.png` and `art/v2/human-latenightcallers-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -648,16 +648,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners |
 | Colors | wash #d9a521 (about 65%); accents #b5ec69 / #8338ec / #2e2200 (about 20%) |
-| Midground | a cramped radio studio booth with a big mixing desk, an on-air sign, a phone-bank switchboard |
-| Foreground | a coffee pot, shelves of tapes, a glowing glass window |
-| Character-relevant items | a cramped radio studio booth with a big mixing desk, an on-air sign, a phone-bank switchboard, a coffee pot, shelves of tapes, a glowing glass window |
+| Midground | a rooftop broadcast station at night under a moon: a glass-fronted studio with a glowing ON AIR sign, a mixing desk and green monitors, radio towers and dishes with loudspeakers, a reel-to-reel deck |
+| Foreground | a couch with a mug, a desk with a rotary phone and coffee pot, string lights and purple banners |
+| Character-relevant items | a rooftop broadcast station at night under a moon: a glass-fronted studio with a glowing ON AIR sign, a mixing desk and green monitors, radio towers and dishes with loudspeakers, a reel-to-reel deck, a couch with a mug, a desk with a rotary phone and coffee pot, string lights and purple banners |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Late-Night Hosts, male human (Black American heritage, American (Louisiana)), apparent age mid 40s. short and pear-shaped, a soft round belly, a thick neck, small plump hands, medium size. Pose: perched sideways on a stool with one knee up, leaning into a vintage microphone with one finger raised, a headset around the neck. Expression: warm easy smile, as a minimal face. Design the silhouette first (circles and stars around a charm, instrument or talisman); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Studio mic. SECOND ITEM, kept plain: tape deck. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: smooth-voiced human host in a cardigan over a collared shirt, headphones on, one hand holding a vintage microphone, the other holding a cassette, a warm calm expression.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Studio mic. SECOND ITEM, kept plain: tape deck. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: human radio host with short dreadlocks and a trimmed beard, a lime-green oversized blazer with purple trim and a star pin, a cream open-collar shirt and pendant, purple over-ear headphones around the neck, a purple cassette player on a strap with cables, a purple cassette tape held up in one hand.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #b5ec69 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #8338ec about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #2e2200 about 10%, on the eyes, the Studio mic and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -670,7 +670,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Late-Night Hosts with no people, creatures, figures, silhouettes or text. Midground: a cramped radio studio booth with a big mixing desk, an on-air sign, a phone-bank switchboard. Foreground: a coffee pot, shelves of tapes, a glowing glass window, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Late-Night Hosts with no people, creatures, figures, silhouettes or text. Midground: a rooftop broadcast station at night under a moon: a glass-fronted studio with a glowing ON AIR sign, a mixing desk and green monitors, radio towers and dishes with loudspeakers, a reel-to-reel deck. Foreground: a couch with a mug, a desk with a rotary phone and coffee pot, string lights and purple banners, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #b5ec69 for the biggest glowing sources and surfaces, secondary #8338ec for medium panels, banners and lights, pop #2e2200 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
