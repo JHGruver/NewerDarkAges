@@ -2,7 +2,7 @@
 
 Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 95.
+**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 96.
 
 ## Art direction in one screen
 
@@ -690,7 +690,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | very broad inverted-triangle build, a short neck, thick limbs, a nearly square silhouette; large size; mobility: grounded |
 | Ethnicity + nationality | Samoan heritage, New Zealander |
 | Identity | female human |
-| Wardrobe | armored human marshal in a matching mall-security jacket, helmet with a visor and shoulder guards, a big stenciled riot shield on one arm and a baton in the other hand |
+| Wardrobe | stocky human riot marshal in blue-and-pink segmented armor with big angular pauldrons and knee guards, a white visor helmet with ear protection and a long black ponytail, a face stripe, a tactical belt with pouches, heavy black-soled boots, a short black-and-white baton in one hand and a tall black ballistic shield with a white-and-blue crest braced in the other |
 | Accessories | Riot shield; baton; helmet visor; mall-security jacket |
 | Pose | advancing one slow heavy step behind a tilted shield, the baton held back low, the chin tucked behind the shield rim |
 | Facial expression | stern, immovable resolve |
@@ -705,8 +705,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Secondary color (30%) | #ef476f: trim, sash, straps, secondary garment pieces and held gear |
 | Pop color (10%) | #eef6ff: the eyes, the Riot shield and one small magical detail |
 | Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
-| Art status | Not yet generated |
-| Last vet | Not yet generated |
+| Art status | Done: `art/v2/human-riotmarshals.png` and `art/v2/human-riotmarshals-bg.jpg` |
+| Last vet | Final art accepted (made before the vetting pipeline) |
 
 **Samurai Jack check (targets for this character)**
 
@@ -722,16 +722,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners |
 | Colors | wash #d9a521 (about 65%); accents #118ab2 / #ef476f / #eef6ff (about 20%) |
-| Midground | a shuttered mall entrance with a roll-down gate, a row of barricades, a security booth |
-| Foreground | a fountain full of rubble, a mall directory sign |
-| Character-relevant items | a shuttered mall entrance with a roll-down gate, a row of barricades, a security booth, a fountain full of rubble, a mall directory sign |
+| Midground | a barricaded checkpoint gate under a broken moon: a domed arena entrance with a roller shutter, a guard booth with a barrier arm, striped concrete barriers, wrecked cars, watchtowers |
+| Foreground | a radio mast, a globe monument, a glowing street map board, and red tattered banners with a ring sigil |
+| Character-relevant items | a barricaded checkpoint gate under a broken moon: a domed arena entrance with a roller shutter, a guard booth with a barrier arm, striped concrete barriers, wrecked cars, watchtowers, a radio mast, a globe monument, a glowing street map board, and red tattered banners with a ring sigil |
 
 **Character prompt**
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Riot Marshals, female human (Samoan heritage, New Zealander), apparent age late 20s. very broad inverted-triangle build, a short neck, thick limbs, a nearly square silhouette, large size. Pose: advancing one slow heavy step behind a tilted shield, the baton held back low, the chin tucked behind the shield rim. Expression: stern, immovable resolve, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Riot shield. SECOND ITEM, kept plain: baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: armored human marshal in a matching mall-security jacket, helmet with a visor and shoulder guards, a big stenciled riot shield on one arm and a baton in the other hand.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Riot shield. SECOND ITEM, kept plain: baton. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: stocky human riot marshal in blue-and-pink segmented armor with big angular pauldrons and knee guards, a white visor helmet with ear protection and a long black ponytail, a face stripe, a tactical belt with pouches, heavy black-soled boots, a short black-and-white baton in one hand and a tall black ballistic shield with a white-and-blue crest braced in the other.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #118ab2 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ef476f about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #eef6ff about 10%, on the eyes, the Riot shield and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
@@ -744,7 +744,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Riot Marshals with no people, creatures, figures, silhouettes or text. Midground: a shuttered mall entrance with a roll-down gate, a row of barricades, a security booth. Foreground: a fountain full of rubble, a mall directory sign, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Riot Marshals with no people, creatures, figures, silhouettes or text. Midground: a barricaded checkpoint gate under a broken moon: a domed arena entrance with a roller shutter, a guard booth with a barrier arm, striped concrete barriers, wrecked cars, watchtowers. Foreground: a radio mast, a globe monument, a glowing street map board, and red tattered banners with a ring sigil, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #118ab2 for the biggest glowing sources and surfaces, secondary #ef476f for medium panels, banners and lights, pop #eef6ff for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
