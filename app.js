@@ -119,6 +119,7 @@ const NODE_ART = {
   pearleyed: { src: "art/v2/eldritch-pearleyed.png", bg: "art/v2/eldritch-pearleyed-bg.jpg", name: "Pearl-Eyed Oracle" },
   braincase: { src: "art/v2/eldritch-braincase.png", bg: "art/v2/eldritch-braincase-bg.jpg", name: "Braincase Surgeon" },
   signalhive: { src: "art/v2/eldritch-signalhive.png", bg: "art/v2/eldritch-signalhive-bg.jpg", name: "Signal-Hive Engineer" },
+  manymaw: { src: "art/v2/eldritch-manymaw.png", bg: "art/v2/eldritch-manymaw-bg.jpg", name: "Many-Maw Devourer" },
   pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
   joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
   fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },
