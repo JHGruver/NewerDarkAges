@@ -20,7 +20,6 @@ const sndBtn = document.getElementById("sndbtn");
 const paintSound = () => { sndBtn.innerHTML = ic(NDAudio.enabled ? "volume" : "volume-off"); sndBtn.setAttribute("aria-pressed", NDAudio.enabled); sndBtn.title = NDAudio.enabled ? "Sound on (click to mute)" : "Sound off (click to turn on)"; };
 sndBtn.addEventListener("click", () => NDAudio.toggle()); window.addEventListener("nda:sound", paintSound); paintSound();
 document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.png" alt="">`;
-document.getElementById("burger-ic").innerHTML = ic("menu");
 
 /* ---------- colors ---------- */
 window.NDAH = { setScene: (s) => setScene(s), allCharacters: () => allCharacters(), poster: (...x) => poster(...x), cv: (...x) => cv(...x), get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
@@ -460,16 +459,18 @@ function render() {
   else if (route === "art") html = art();
   else if (route === "lore") html = loreView(rest[0]);
   else if (route === "vote") html = voteView();
+  else if (route === "studio") html = studioView(rest[0]);
   else html = storyHome();
   if (render.cleanup) { render.cleanup(); render.cleanup = null; }
   app.innerHTML = html;
   if (route === "lore") loreInit();
   else if (route === "vote") { voteInit(); render.cleanup = () => window.__voteCleanup && window.__voteCleanup(); }
+  else if (route === "studio") render.cleanup = studioInit();
   else if (!["characters", "manual", "roadmap", "art"].includes(route)) render.cleanup = storyInit();
   const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
   document.body.classList.toggle("fit", !!inChars);
   document.body.dataset.page = route === "characters" && !inChars ? "gallery" : (route || "home");
-  document.querySelectorAll("#nav a, .mnav a").forEach((n) => n.classList.toggle("active", n.dataset.route === (route || "home")));
+  document.querySelectorAll("#nav a, .profmenu a[data-route]").forEach((n) => n.classList.toggle("active", n.dataset.route === (route || "home")));
   const tint = route === "characters" ? (rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color : (GROUPS.find((g) => g.id === galleryFilter) || {}).color) : null;
   if (window.NDA3D) NDA3D.tint(tint || null);
   // scene background only for a character that has its own scene
@@ -484,7 +485,8 @@ function render() {
   else if (!render.first) window.scrollTo(0, 0);
   render.first = false;
   NDAudio.setMode(route === "" || route === "home" ? "story" : route === "lore" ? "lore" : "music");
-  closeDrawer();
+  if (window.NDProfile) NDProfile.close();
+  const pb = document.getElementById("profbtn"); if (pb) pb.classList.toggle("here", ["vote", "manual", "roadmap", "art"].includes(route));
 }
 render.first = true;
 
@@ -537,12 +539,6 @@ app.addEventListener("mouseout", (e) => {
   clearTimeout(hoverOff); hoverOff = setTimeout(() => { NDA3D.hover(null); document.body.classList.remove("tile-hover"); }, 140);
 });
 
-/* ---------- hamburger drawer ---------- */
-const drawer = document.getElementById("drawer"), scrim = document.getElementById("scrim"), burger = document.getElementById("burger");
-function openDrawer() { drawer.classList.add("open"); scrim.classList.add("on"); burger.setAttribute("aria-expanded", "true"); drawer.setAttribute("aria-hidden", "false"); }
-function closeDrawer() { drawer.classList.remove("open"); scrim.classList.remove("on"); burger.setAttribute("aria-expanded", "false"); drawer.setAttribute("aria-hidden", "true"); }
-burger.addEventListener("click", () => (drawer.classList.contains("open") ? closeDrawer() : openDrawer()));
-scrim.addEventListener("click", closeDrawer);
 
 /* ---------- gallery mode: hide the UI and show only the art ---------- */
 /* ---------- art-only viewing ---------- */
@@ -587,7 +583,7 @@ document.addEventListener("click", (e) => {
 }, true);
 document.addEventListener("keydown", (e) => {
   if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches(".fig.has-art")) { e.preventDefault(); openView(); return; }
-  if (e.key === "Escape") { closeView(); closeDrawer(); }
+  if (e.key === "Escape") { closeView(); }
   else if (document.body.classList.contains("viewing") && (e.key === "ArrowRight" || e.key === "ArrowLeft")) { e.preventDefault(); viewStep(e.key === "ArrowRight" ? 1 : -1); }
 });
 window.addEventListener("nda:replay", () => render());

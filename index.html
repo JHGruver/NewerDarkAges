@@ -9,62 +9,70 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" type="image/png" href="art/site/logo-mark.png">
 <link rel="apple-touch-icon" href="art/site/logo-mark.png">
-<link rel="stylesheet" href="styles.css?v=1792898017">
+<link rel="stylesheet" href="styles.css?v=1792899696">
 </head>
 <body>
 <div id="bg" aria-hidden="true"></div>
 <div id="grain" aria-hidden="true"></div>
 <header class="topbar">
-  <button class="burger" id="burger" aria-label="Menu: previous versions" aria-expanded="false"><span id="burger-ic"></span></button>
   <a class="brand" href="#/"><span class="bolt" id="brand-ic"></span><span>The Newer Dark Ages</span></a>
   <nav id="nav">
     <a href="#/" data-route="home">World</a>
     <a href="#/characters" data-route="characters">Characters</a>
-    <a href="#/vote" data-route="vote">Vote</a>
     <a href="#/lore" data-route="lore">Lore</a>
-    <a href="#/manual" data-route="manual">Monster Manual</a>
-    <a href="#/roadmap" data-route="roadmap">Roadmap</a>
-    <a href="#/art" data-route="art">Art Direction</a>
+    <a href="#/studio" data-route="studio">Studio</a>
   </nav>
   <button class="sndbtn" id="sndbtn" aria-label="Sound" aria-pressed="true" title="Sound"></button>
   <a class="cta" href="#/characters">Choose your character <span aria-hidden="true">→</span></a>
+  <button class="profbtn" id="profbtn" aria-label="Profile and menu" aria-haspopup="true" aria-expanded="false"></button>
+  <div class="profmenu" id="profmenu" role="menu" aria-label="Profile and menu">
+    <div class="pm-card">
+      <input class="pm-name" maxlength="24" placeholder="Name your guild" aria-label="Guild name">
+      <div class="pm-rank">Level 1</div>
+      <div class="pm-bar"><i></i></div>
+      <div class="pm-xp"></div>
+      <div class="pm-stats"></div>
+      <a class="pm-hq" href="#/studio">Open Studio HQ <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="pm-sec pm-main"><div class="pm-h">Explore</div>
+      <a href="#/" data-route="home">World</a><a href="#/characters" data-route="characters">Characters</a><a href="#/lore" data-route="lore">Lore</a><a href="#/studio" data-route="studio">Studio</a></div>
+    <div class="pm-sec"><div class="pm-h">Project</div>
+      <a href="#/vote" data-route="vote">Vote</a><a href="#/manual" data-route="manual">Monster Manual</a><a href="#/roadmap" data-route="roadmap">Roadmap</a><a href="#/art" data-route="art">Art Direction</a></div>
+    <details class="pm-sec pm-arch"><summary class="pm-h">Previous versions</summary>
+      <a href="v1/index.html#/characters">Version 1 · Gold &amp; Glass</a>
+      <a href="v1/index.html#/manual">Version 1 · Monster Manual</a>
+      <a href="v1/index.html#/">Version 1 · World</a>
+      <a href="playground.html">Playground · Style × Theme matrix</a>
+      <a href="playground.html#cyber">Playground · Neon Scavenger</a>
+      <div class="pm-foot">Current: Version 2 · Neon Scavenger</div></details>
+    <div class="pm-sec pm-set"><button class="pm-btn" id="pm-snd" type="button">Sound</button></div>
+  </div>
 </header>
-<aside class="drawer" id="drawer" aria-hidden="true">
-  <nav class="mnav" aria-label="Site"><a href="#/" data-route="home">World</a><a href="#/characters" data-route="characters">Characters</a><a href="#/vote" data-route="vote">Vote</a><a href="#/lore" data-route="lore">Lore</a><a href="#/manual" data-route="manual">Monster Manual</a><a href="#/roadmap" data-route="roadmap">Roadmap</a><a href="#/art" data-route="art">Art Direction</a></nav>
-  <div class="drawer-head"><div class="eyebrow">Archive</div><h2>Previous versions</h2><p class="muted">Everything we have built so far, kept as it was.</p></div>
-  <ul class="vlist">
-    <li><a href="v1/index.html#/characters"><b>Version 1 · Gold &amp; Glass</b><span>The first build: painted-fantasy world, stained-glass UI, 3D rose window and the full illustrated cast.</span></a></li>
-    <li><a href="v1/index.html#/manual"><b>Version 1 · Monster Manual</b><span>The original NPC entries from the painted-fantasy world.</span></a></li>
-    <li><a href="v1/index.html#/"><b>Version 1 · World</b><span>The Murkmoor lore, regions and story.</span></a></li>
-    <li><a href="playground.html"><b>Playground · Style × Theme matrix</b><span>Nine takes on one character screen: three styles by three themes.</span></a></li>
-    <li><a href="playground.html#cyber"><b>Playground · Neon Scavenger</b><span>The cyberpunk dark-age test that led to this version.</span></a></li>
-  </ul>
-  <div class="drawer-foot muted">Current: Version 2 · Neon Scavenger</div>
-</aside>
 <div class="scrim" id="scrim"></div>
 <main id="app"></main>
 <footer class="foot">The Newer Dark Ages · Version 2 · Lore in <code>data-lore.js</code>, characters in the <code>data-*.js</code> files</footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="scene.js?v=1792898017"></script>
-<script src="audio.js?v=1792898017"></script>
-<script src="icons.js?v=1792898017"></script>
-<script src="data.js?v=1792898017"></script>
-<script src="data-peoples-1.js?v=1792898017"></script>
-<script src="data-peoples-2.js?v=1792898017"></script>
-<script src="data-peoples-3.js?v=1792898017"></script>
-<script src="data-peoples-4.js?v=1792898017"></script>
-<script src="data-types.js?v=1792898017"></script>
-<script src="data-art.js?v=1792898017"></script>
-<script src="data-magic.js?v=1792898017"></script>
-<script src="data-summoners.js?v=1792898017"></script>
-<script src="prompts.js?v=1792898017"></script>
-<script src="data-manual.js?v=1792898017"></script>
-<script src="data-lore-source.js?v=1792898017"></script>
-<script src="data-lore.js?v=1792898017"></script>
-<script src="story.js?v=1792898017"></script>
-<script src="lore.js?v=1792898017"></script>
-<script src="vote.js?v=1792898017"></script>
-<script src="app.js?v=1792898017"></script>
-<script src="fx.js?v=1792898017"></script>
+<script src="scene.js?v=1792899696"></script>
+<script src="audio.js?v=1792899696"></script>
+<script src="icons.js?v=1792899696"></script>
+<script src="data.js?v=1792899696"></script>
+<script src="data-peoples-1.js?v=1792899696"></script>
+<script src="data-peoples-2.js?v=1792899696"></script>
+<script src="data-peoples-3.js?v=1792899696"></script>
+<script src="data-peoples-4.js?v=1792899696"></script>
+<script src="data-types.js?v=1792899696"></script>
+<script src="data-art.js?v=1792899696"></script>
+<script src="data-magic.js?v=1792899696"></script>
+<script src="data-summoners.js?v=1792899696"></script>
+<script src="prompts.js?v=1792899696"></script>
+<script src="data-manual.js?v=1792899696"></script>
+<script src="data-lore-source.js?v=1792899696"></script>
+<script src="data-lore.js?v=1792899696"></script>
+<script src="story.js?v=1792899696"></script>
+<script src="lore.js?v=1792899696"></script>
+<script src="studio.js?v=1792899696"></script>
+<script src="vote.js?v=1792899696"></script>
+<script src="app.js?v=1792899696"></script>
+<script src="fx.js?v=1792899696"></script>
 </body>
 </html>
