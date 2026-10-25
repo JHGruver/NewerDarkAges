@@ -122,6 +122,7 @@ const NODE_ART = {
   manymaw: { src: "art/v2/eldritch-manymaw.png", bg: "art/v2/eldritch-manymaw-bg.jpg", name: "Many-Maw Devourer" },
   mimicflesh: { src: "art/v2/eldritch-mimicflesh.png", bg: "art/v2/eldritch-mimicflesh-bg.jpg", name: "Mimic-Flesh Infiltrator" },
   memorymass: { src: "art/v2/eldritch-memorymass.png", bg: "art/v2/eldritch-memorymass-bg.jpg", name: "Memory-Mass Archivist" },
+  starstone: { src: "art/v2/eldritch-starstone.png", bg: "art/v2/eldritch-starstone-bg.jpg", name: "Starstone Architect" },
   pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
   joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
   fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },
