@@ -57,3 +57,7 @@ window.MVP = {
     "Whether the Squirrel Commanders and Ninja Shoguns stay in the full roster or go to a later season",
   ],
 };
+
+// Art drawn in the V2 "Shard Cel" style, by character id. Add an entry as each new image lands: { src, bg, name }.
+// Until a character is listed here the MVP edition shows its original-style art (tagged "V1 art") or a placeholder.
+window.NODE_ART_V2 = {};

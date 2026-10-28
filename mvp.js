@@ -11,12 +11,12 @@
   let only = "all";
 
   function resolve() {
-    const byId = Object.fromEntries(H().allCharacters().map((c) => [c.l.id, c])), M = window.MVP;
-    return H().GROUPS.map((g) => ({ g, slots: (M.picks[g.id] || []).map((p) => Object.assign({}, p, p.id ? { c: byId[p.id], art: !!H().NODE_ART[p.id] } : { cands: (p.candidates || []).map((i) => byId[i]).filter(Boolean) })) })).filter((x) => x.slots.length);
+    const byId = Object.fromEntries(H().everyCharacter().map((c) => [c.l.id, c])), M = window.MVP;
+    return H().GROUPS.map((g) => ({ g, slots: (M.picks[g.id] || []).map((p) => Object.assign({}, p, p.id ? { c: byId[p.id], art: !!(window.NODE_ART_V2 && NODE_ART_V2[p.id]), v1: !!H().NODE_ART[p.id] && !(window.NODE_ART_V2 && NODE_ART_V2[p.id]) } : { cands: (p.candidates || []).map((i) => byId[i]).filter(Boolean) })) })).filter((x) => x.slots.length);
   }
 
   function card(s, g, k) {
-    const c = s.c, l = c.l, art = H().NODE_ART[l.id], m = (window.CHAR_META || {})[l.id] || {}, st = s.art ? ["ready", "Art ready"] : ["todo", "Art to make"];
+    const c = s.c, l = c.l, art = H().NODE_ART[l.id], m = (window.CHAR_META || {})[l.id] || {}, st = s.art ? ["ready", "V2 art ready"] : s.v1 ? ["v1", "V1 art · redraw"] : ["todo", "Art to make"];
     const media = art ? `<span class="mv-bg" style="background-image:url('${art.bg}')"></span><img class="mv-fig" src="${art.src}" alt="${esc(l.name)}" loading="lazy">` : `<span class="mv-poster">${H().poster(g, l, "big")}</span><span class="mv-concept"><b>Concept</b>${esc(l.look)}</span>`;
     return `<a class="mv-card ${st[0]}" href="#/characters/${c.path.join("/")}" style="--pc:${g.color};--c1:${l.pal[0]};--c2:${l.pal[1]};--c3:${l.pal[2]}">
       <span class="mv-media">${media}<b class="mv-n">${k + 1}</b><em class="mv-st ${st[0]}">${st[1]}</em>${s.isNew ? '<em class="mv-st new">New</em>' : s.redesign ? '<em class="mv-st new">Redesigned</em>' : ""}</span>
@@ -34,11 +34,11 @@
   }
 
   function overview(R) {
-    const slots = R.flatMap((r) => r.slots), real = slots.filter((s) => s.c), ready = real.filter((s) => s.art).length, open = slots.filter((s) => !s.c).length;
+    const slots = R.flatMap((r) => r.slots), real = slots.filter((s) => s.c), ready = real.filter((s) => s.art).length, v1 = real.filter((s) => s.v1).length, none = real.length - ready - v1, open = slots.filter((s) => !s.c).length;
     const types = {}; real.forEach((s) => { const t = TYPE(((window.CHAR_META || {})[s.c.l.id] || {}).type); types[t] = (types[t] || 0) + 1; });
     const stat = (n, l) => `<div class="mv-stat"><b>${n}</b><span>${l}</span></div>`;
-    return `<div class="mv-hero"><div><div class="eyebrow">The launch roster</div><h2>24 characters. 8 peoples. 3 each.</h2><p class="muted">The characters Jacob and Mike chose to launch with, picked from the vote and from what each people needs. Only these are shown on this page.</p></div>
-      <div class="mv-stats">${stat(real.length, "chosen")}${stat(ready, "with finished art")}${stat(real.length - ready, "art to make")}${stat(open, "slots to decide")}</div></div>
+    return `<div class="mv-hero"><div><div class="eyebrow">The launch roster</div><h2>24 characters. 8 peoples. 3 each.</h2><p class="muted">The characters Jacob and Mike chose to launch with. Every one is redrawn in the new art direction, <a href="#/art">Shard Cel</a>. Older art stays visible, tagged, until its replacement lands.</p></div>
+      <div class="mv-stats">${stat(real.length, "chosen")}${stat(ready, "V2 art ready")}${stat(v1, "V1 art to redraw")}${stat(none, "no art yet")}${stat(open, "slots to decide")}</div></div>
       <div class="mv-prog" role="img" aria-label="${ready} of 24 ready">${R.map((r) => `<div class="mv-pg" style="--pc:${r.g.color}"><span>${esc(r.g.name)}</span><span class="mv-pips">${r.slots.map((s) => `<i class="${!s.c ? "open" : s.art ? "on" : ""}" title="${esc(s.c ? s.c.l.name : s.tbd)}"></i>`).join("")}</span></div>`).join("")}</div>
       <div class="mv-mix"><b>Mix of jobs</b>${Object.entries(types).sort((a, b) => b[1] - a[1]).map(([t, n]) => `<span>${esc(t)} <i>${n}</i></span>`).join("")}</div>`;
   }
@@ -50,7 +50,7 @@
       <div class="mv-list">${R.map((r) => { const pl = lore[r.g.id]; return `<section class="mv-people${only !== "all" && only !== r.g.id ? " hide" : ""}" id="mv-${r.g.id}" style="--pc:${r.g.color}"><header><span class="mv-crest">${H().crest(r.g)}</span><div><h3>${esc(r.g.name)}</h3>${pl ? `<p>${esc(pl.place)}. ${esc((pl.text || "").split(/(?<=[.!?])\s/)[0])}</p>` : ""}</div></header>
         <div class="mv-row">${r.slots.map((s, k) => (s.c ? card(s, r.g, k) : tbd(s, r.g, k))).join("")}</div></section>`; }).join("")}</div>
       <div class="mv-foot"><section class="panel"><h3>What changed from the roster</h3><ul>${M.changes.map((c) => `<li><b>${esc(c.t)}.</b> ${esc(c.d)}</li>`).join("")}</ul></section>
-        <section class="panel"><h3>Still open</h3><ul>${M.open.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><p class="muted small">Art to make before launch: ${R.flatMap((r) => r.slots).filter((s) => s.c && !s.art).map((s) => esc(s.c.l.name)).join(", ") || "none"}.</p></section></div></div>`;
+        <section class="panel"><h3>Still open</h3><ul>${M.open.map((o) => `<li>${esc(o)}</li>`).join("")}</ul><p class="muted small">Still needing V2 art: ${R.flatMap((r) => r.slots).filter((s) => s.c && !s.art).length} of ${R.flatMap((r) => r.slots).filter((s) => s.c).length}.</p></section></div></div>`;
   };
 
   window.mvpInit = function () {

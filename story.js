@@ -25,14 +25,15 @@
       </svg>
       <div class="tribe-tags"><span style="--c:#d9a521">${crest(GROUPS.find((g) => g.id === "human"))}Humans</span><span style="--c:#8a8a99">${crest(GROUPS.find((g) => g.id === "vampire"))}Vampires</span><span style="--c:#b4532a">${crest(GROUPS.find((g) => g.id === "were"))}Werewolves</span></div>`;
     if (id === "chairs") {
-      const three = [["human", "interceptors", "Chieftain", "Humans"], ["vampire", "owlwings", "High Priest", "Vampires"], ["were", "bonecrushers", "Alpha Wolf", "Werewolves"]];
+      const mvp = H().EDITION === "mvp";
+      const three = mvp ? [["human", "fuelpriests", "Chieftain", "Humans"], ["vampire", "batcallers", "High Priest", "Vampires"], ["were", "bonecrushers", "Alpha Wolf", "Werewolves"]] : [["human", "interceptors", "Chieftain", "Humans"], ["vampire", "owlwings", "High Priest", "Vampires"], ["were", "bonecrushers", "Alpha Wolf", "Werewolves"]];
       return `<div class="three">${three.filter(([, c]) => NODE_ART[c]).map(([p, c, t, n], i) => `<figure style="--i:${i}"><div class="bgc" style="background-image:url('${NODE_ART[c].bg}')"></div><img src="${NODE_ART[c].src}" alt=""><figcaption><b>${t}</b><span>${n}</span></figcaption></figure>`).join("")}</div>`;
     }
     if (id === "pyramid") return `<div class="beam" aria-hidden="true"></div><div class="trials" aria-hidden="true"><span>Pass</span><i></i><span>Fail</span></div>`;
-    if (id === "block") return `<div class="guards">${["bonebreakers"].map((c) => `<img src="${NODE_ART[c].src}" alt="">`).join("")}</div><div class="stamp" aria-hidden="true">No release</div>`;
+    if (id === "block") return `<div class="guards">${(H().EDITION === "mvp" ? ["contractreapers"] : ["bonebreakers"]).map((c) => `<img src="${NODE_ART[c].src}" alt="">`).join("")}</div><div class="stamp" aria-hidden="true">No release</div>`;
     if (id === "chairs-empty") return `<div class="candles" aria-hidden="true">${candles().map((n, i) => `<div class="candle" style="--t:${(i + 0.5) / 9}"><i class="flame"></i><i class="wax"></i><span>${n}</span></div>`).join("")}</div>`;
     if (id === "others") {
-      const s = [["staticwraiths", "Dead Air"], ["rootlinkwarlocks", "The Overgrowth"], ["etherwing", "The Drowned Undercity"]].filter(([c]) => NODE_ART[c]);
+      const s = (H().EDITION === "mvp" ? [["staticwraiths", "Dead Air"], ["mossplate", "The Overgrowth"], ["etherwing", "The Drowned Undercity"]] : [["staticwraiths", "Dead Air"], ["rootlinkwarlocks", "The Overgrowth"], ["etherwing", "The Drowned Undercity"]]).filter(([c]) => NODE_ART[c]);
       return `<div class="scan">${s.map(([c, n], i) => `<figure style="--i:${i}"><div class="bgc" style="background-image:url('${NODE_ART[c].bg}')"></div><img src="${NODE_ART[c].src}" alt=""><figcaption>${n}</figcaption></figure>`).join("")}</div>`;
     }
     if (id === "heirs") {
@@ -40,7 +41,7 @@
       return `<div class="heirs">${hs.map((c, i) => `<div class="heir" style="--i:${i}"><b>${esc(c.name)}</b><span>${esc(c.age)}</span><em>${esc(c.powers.replace(/"/g, ""))}</em></div>`).join("")}</div>`;
     }
     if (id === "choose") {
-      const fan = ["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing", "signalsavants", "stickywizards", "sporecoven"].filter((c) => NODE_ART[c]);
+      const fan = (H().EDITION === "mvp" ? ["fuelpriests", "pinball", "bonecrushers", "flyingsquirrels", "staticwraiths", "rustwraith", "contractreapers", "mossplate", "etherwing", "stickywizards", "sporecoven"] : ["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing", "signalsavants", "stickywizards", "sporecoven"]).filter((c) => NODE_ART[c]);
       return `<div class="fan" aria-hidden="true">${fan.map((c, i) => `<img style="--i:${i};--n:${fan.length}" src="${NODE_ART[c].src}" alt="">`).join("")}</div>
         <div class="choose-cta"><a class="big-cta" href="#/characters">Pick a character <span>→</span></a>
         <div class="peoples-row">${GROUPS.map((g) => `<a href="#/characters/${g.id}" style="--p:${g.color}" title="${esc(g.name)}">${crest(g)}<span>${esc(g.name)}</span></a>`).join("")}</div>

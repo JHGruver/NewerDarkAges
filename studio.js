@@ -28,7 +28,7 @@
 
   // Season One art: Were-Creature, Ghost and Undead
   const SEASON = ["were", "ghost", "undead"];
-  const seasonCount = () => { try { const a = H().allCharacters().filter((c) => SEASON.includes(c.g.id)); return [a.filter((c) => H().NODE_ART[c.l.id]).length, a.length]; } catch { return [0, 76]; } };
+  const seasonCount = () => { try { const a = H().everyCharacter().filter((c) => SEASON.includes(c.g.id)); return [a.filter((c) => H().NODE_ART[c.l.id]).length, a.length]; } catch { return [0, 76]; } };
   const metricOk = (m) => num(m.m) >= m.v;
   const isDone = (id) => {
     if (S.done[id]) return true;

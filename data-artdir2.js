@@ -1,0 +1,103 @@
+// ART DIRECTION V2: "Shard Cel". The single source for the new art direction. Used by the Art Direction page (MVP edition), the V2 prompt builder
+// (prompts2.js), the V2 spreadsheets and ART-DIRECTION-V2.md. Nothing here names an artist or a show. The look is described by its elements.
+window.ART2 = {
+  name: "Shard Cel",
+  version: "2.0",
+  oneLine: "Flat, simple shapes painted calmly, drawn with spiky ink and stretched hero proportions, dressed in bold heroic costume.",
+  // the three families of ideas the look is blended from, described by what they teach, not who made them
+  lineages: [
+    { id: "A", name: "Flat-shape cinema", does: "Decides how it is painted", gives: ["Big flat color areas with nothing blended", "Very few lines, very simple shapes", "Calm negative space so the character is the loudest thing", "A confident silhouette first, detail second"] },
+    { id: "B", name: "Scratch-ink action comics", does: "Decides how it moves", gives: ["Rubbery, stretched bodies with oversized hands and feet", "Jagged, spiky shapes in hair, cloth and weapons", "Ink lines that swell and taper to a point", "Heavy pure-black fills in the deepest corners", "Extreme perspective: the nearest hand or foot is huge", "Wild, readable faces with sharp teeth"] },
+    { id: "C", name: "Manga-flavored hero fantasy", does: "Decides how it is dressed", gives: ["Tall heroic bodies with broad shoulders and a tapered waist", "Oversized boots, gauntlets, shoulder plates and capes", "Hair and cloth swept by the motion into big shapes", "Ornamental trim made of simple repeated shapes", "Large expressive eyes", "Big confident hero poses"] },
+  ],
+  blendRule: "A decides how it is painted. B decides how it moves. C decides how it is dressed. When two ideas disagree, A wins on color and rendering, B wins on shape and line, C wins on costume and pose.",
+  // the design system: twelve elements. token = the exact sentence that goes into every prompt, in this order, unchanged.
+  elements: [
+    { id: "E1", name: "Shape language", from: "A+B", rule: "Everything is built from sharp wedges, triangles and slabs. Hair, cloth hems, capes, tails and feathers end in long points.", token: "Shape language: sharp angular shards, wedges and triangles. Hair, cloth hems, capes and tails end in long pointed blades. The silhouette reads instantly, even as a tiny thumbnail.", dos: ["One dominant shape per body part", "Repeat the same shard angle across the figure", "Check the silhouette in solid black"], donts: ["Round soft blobs", "Fussy curls", "Silhouettes that need their detail to read"] },
+    { id: "E2", name: "Proportions", from: "B+C", rule: "Small head, broad shoulders, tapered waist, long elastic limbs. Hands and feet are about one and a half times natural size. Bigger bodies get bulkier, not taller.", token: "Stylized heroic proportions: small head, broad shoulders, tapered waist, long elastic limbs, and hands and feet oversized to about one and a half times natural size.", dos: ["Push the hands and feet first", "Keep the head small so the pose has room", "Let the physique line from the character sheet override the default"], donts: ["Realistic anatomy", "Tiny hands", "Chibi big heads"] },
+    { id: "E3", name: "Perspective push", from: "B", rule: "In every pose the nearest hand, weapon or foot is thrust toward the viewer and drawn much larger.", token: "Exaggerated perspective: the nearest hand, weapon or foot is pushed toward the viewer and drawn much larger (foreshortening), with squash and stretch on the body.", dos: ["Pick one oversized limb per character", "Let the body twist behind it"], donts: ["Flat front-on poses", "Two or three foreshortened limbs fighting each other"] },
+    { id: "E4", name: "Ink line", from: "B+C", rule: "Thick black outer contour, medium interior lines, thin detail lines. Every line tapers to a point. The edge is a little rough and very confident.", token: "Ink line: thick black outer contour, medium interior lines, thin detail lines, with tapered pointed line endings and a slightly rough, confident edge. No sketchy hatching or cross-hatching.", dos: ["Heavier line on the underside of forms", "Let lines end in a flick"], donts: ["Hatching", "Uniform wire-thin line", "Double outlines"] },
+    { id: "E5", name: "Flat fill", from: "A", rule: "Every area is one solid color. Nothing is blended, glowing, blurred or textured.", token: "Flat solid color fills only. No gradients, no soft airbrush, no texture, no painterly strokes.", dos: ["Large calm color areas", "Let the empty areas rest"], donts: ["Gradients", "Glow", "Noise or grain"] },
+    { id: "E6", name: "Two-tone shading", from: "A+B", rule: "Each material has its base color and one darker hard-edged shadow shape. The deepest creases get solid pure black.", token: "Shading is two flat tones per material: the base color and one darker hard-edged shadow shape. Solid pure-black spot fills mark the deepest creases (under the chin, inside cloth folds, between the legs).", dos: ["Shadow shapes that echo the shard angle", "Black spots under the chin, arms and cloth folds"], donts: ["Three or more tones per material", "Soft shadow edges", "Gray shadows"] },
+    { id: "E7", name: "Face", from: "B+C", rule: "Large angular eyes, a readable heavy brow, a wedge of a nose, a big mouth. Expression is the character's attitude in one look.", token: "Expressive face: large angular eyes, a heavy readable brow, a wedge nose and an exaggerated mouth. Sharp teeth are allowed.", dos: ["One clear emotion", "Brows carry the mood", "Faceless characters keep the head shape expressive"], donts: ["Neutral blank stares (unless the sheet says blank)", "Realistic noses and lips"] },
+    { id: "E8", name: "Costume detail", from: "A+C", rule: "Exactly three signature costume shapes, bold and chunky. Trim is a simple repeated shape. No tiny detail.", token: "Low detail: exactly three signature costume shapes, drawn bold and chunky. Trim is a simple repeated shape. No tiny details, no engraved texture.", dos: ["Name the three shapes in the outfit line", "Oversize belts, buckles, boots and gauntlets"], donts: ["Pockets, stitching, text, logos", "More than about 70 words of outfit"] },
+    { id: "E9", name: "Materials", from: "A+B", rule: "Each material has a drawing shortcut so the same thing always looks the same.", token: "", table: [["Metal", "One hard white highlight shape and one dark shadow shape"], ["Cloth", "Three sharp fold triangles, hem in points"], ["Fur, feathers, grass", "Chunky shard clusters, never single hairs"], ["Skin", "Flat tone with one shadow shape and black under the chin"], ["Stone, bone, shell", "Blocky planes with one crack line"], ["Glass, glow, flame", "A flat bright shape with a darker outline, never blurred"]] },
+    { id: "E10", name: "Palette", from: "A", rule: "Exactly three accent colors plus black, white and grey. About 60 percent main, 30 percent secondary, 10 percent pop. Outlines are near-black. The people color is reserved for the background.", token: "", dos: ["Use the three hex values from the character sheet exactly", "Keep skin tones from the skin chart"], donts: ["A fourth hue", "The people color on the character", "Pure grey shadows"] },
+    { id: "E11", name: "Pose and camera", from: "B+C", rule: "A strong diagonal line of action. Weight on one leg. Slight low camera so the figure feels big. Full body, uncropped.", token: "", dos: ["S-curve or diagonal spine", "Hair and cloth swept by the motion"], donts: ["Straight vertical standing", "Cropped hands, feet or weapons"] },
+    { id: "E12", name: "Background stage", from: "A+B", rule: "Backgrounds use the same rules: flat shapes in three depth planes, sharp architecture, one flat moon, color bands for the sky. The people color washes about 65 percent. The character's trio shows through as about 20 percent accents.", token: "", dos: ["Black silhouette shapes at the edges", "People-color mid shapes", "Pale haze far shapes in the same color"], donts: ["Stippling, grain or smudge", "Blurred glow", "Characters in the scene"] },
+  ],
+  // physique -> proportion override used in prompts
+  sizes: {
+    tiny: "tiny and cartoonishly squashed: head one quarter of the height, hands and feet very large",
+    small: "small and wiry: head one fifth of the height, big hands and feet, springy limbs",
+    medium: "medium heroic build: head one sixth of the height, long limbs, big hands and feet",
+    large: "large and bulky: blocky torso, small head sunk between huge shoulders, fists and feet twice natural size",
+    huge: "huge and massive: a mountain of shapes, tiny head or no clear head, enormous limbs",
+  },
+  // pose energy per type (the V1 TYPES.pose text stays for the full roster)
+  poses: {
+    tank: "a planted wide low stance, the shield or fist thrust toward the viewer and drawn huge, weight sunk into the legs, a chunky layered silhouette",
+    bruiser: "caught mid-swing with the striking fist or weapon arcing toward the viewer and drawn huge, back leg driving, torso twisted",
+    fighter: "a balanced dynamic stance caught mid-strike, one arm striking toward the viewer, the other guarding, a strong diagonal line of action",
+    assassin: "a low predatory crouch or mid-leap, one blade hand thrust toward the viewer, the body stretched along a long diagonal, cloth trailing in sharp shards",
+    caster: "one hand thrust toward the viewer casting and drawn huge, the other holding the focus back, clothes whipped into sharp points by the energy",
+    blaster: "a braced aggressive firing or throwing stance, the weapon or throwing arm foreshortened toward the viewer, back arched, the muzzle or throw clearly readable",
+    controller: "a wide sweeping arm gesture deploying a trap, chain or barrier toward the viewer, tools hanging off the body, torso twisted",
+    support: "an open generous lunge with one hand reaching toward the viewer offering aid, the kit clearly visible, a warm confident expression",
+    summoner: "arms flung wide or one hand commanding, small summoned allies bursting out around the figure drawn small and clearly separate, a strong S-curve body",
+    enchanter: "raised hands presenting the talisman or instrument toward the viewer in a flourish, ornamental accessories catching the swing",
+  },
+  skin: [["#f4d3b0", "#c9966d"], ["#e0a97a", "#ab7549"], ["#c98a58", "#8f5a33"], ["#9a6540", "#6a3f24"], ["#6b4128", "#432514"], ["#3f2819", "#241208"]],
+  outline: "#0b0b10",
+  white: "#f6f1e4",
+  // the prompt recipe. Same order, same sentences, every time.
+  recipe: [
+    ["1 Name line", "Name, type, role, people and class. One line."],
+    ["2 Identity", "Who they are, from the cast sheet. One sentence."],
+    ["3 Body", "Physique, size, movement, proportion recipe from the size chart."],
+    ["4 Face", "The expression from the cast sheet plus the face element."],
+    ["5 Costume", "The outfit line (70 words at most) plus the one signature exaggeration."],
+    ["6 Pose", "The pose from the cast sheet plus the pose energy for the type."],
+    ["7 Style kit", "Elements E1 to E8, word for word. Never reword."],
+    ["8 Color", "Three hex values and the 60/30/10 rule. The people color is banned from the figure."],
+    ["9 Framing and output", "Full body, 3:4, transparent PNG, mature, no text."],
+    ["10 Not", "The one-line negative list."],
+  ],
+  frame: "FRAMING (strict): FULL BODY, head to toe, slightly low camera. Every part of the figure is visible: the whole head, both hands, both feet or legs, any tail, wings or tentacles and the full length of every weapon. NOTHING is cropped at any edge. The figure fills about 85 percent of the height with a clear margin all around.",
+  wear: "WEARABLE AND HAND-HELD ONLY: show only what the character wears or holds in their hands. No vehicles, mounts, buildings, towers, machines, furniture or scenery. No ground, floor or shadow.",
+  output: "3:4 portrait PNG with genuine alpha transparency: no background, no checkerboard, no floor, no cast shadow, no text. Mature, adult tone. No nudity, no gore, no blood.",
+  not: "Not realistic, not photographic, not 3D rendered, not painterly, not watercolor, no halftone dots, no gradients, no glow, no lens flare, no particles.",
+  test: ["The silhouette reads at thumbnail size", "Every fill is flat, two tones at most, plus black spots", "The outline is thick outside, thin inside, with pointed ends", "The shapes are angular and hair and cloth end in points", "One hand, foot or weapon is oversized toward the viewer", "Exactly three accent colors plus black, white and grey", "Only three signature costume shapes", "Full body, uncropped, on transparency"],
+  lock: "STYLE LOCK (paste when asking for changes): Keep the Shard Cel look exactly: sharp angular shards, stylized heroic proportions with oversized hands and feet, perspective push toward the viewer, thick-to-thin tapered ink line, flat solid fills, two-tone hard shadows with pure-black spot fills, three signature costume shapes only, same three accent colors, full body on transparent background.",
+  bg: {
+    style: "Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in three depth planes: near black silhouette shapes at the edges, mid shapes in the people color, far shapes in a pale haze of the same color. Sharp angular architecture built from wedges and slabs with hard-edged black shadow shapes. The sky is two or three flat color bands with one flat moon disc. Thin flat rim-light shapes on edges and flat glow discs behind lamps. No stippling, no grain, no smudge, no halftone, no gradients, no blur.",
+    keep: "Keep the center-lower area open for the character. Props on the left, right and far plane only.",
+    no: "No characters, creatures, figures or silhouettes of people or animals, no blood, and no text or lettering anywhere.",
+  },
+};
+
+// per-character V2 notes for the MVP roster: the one signature exaggeration (big) that makes the Shard Cel version of this character unmistakable
+window.CHAR_V2 = {
+  fuelpriests: { big: "an oversized wrench-fist raised high, a huge swinging censer on chains, and chunky boots" },
+  pinball: { big: "an enormous gloved trigger hand and the plunger-tipped rifle muzzle pushed toward the viewer, giant sneakers" },
+  pipedpipers: { big: "huge shoulder pads, giant high-top boots and an oversized synth-flute thrust forward" },
+  gargoyle: { big: "boulder-sized stone fists planted toward the viewer and a hunched hump back, the stone cracking into pale skin down one side" },
+  batcallers: { big: "a huge bat-wing cloak fanned wide into points and an oversized silver bell in one hand" },
+  bonecrushers: { big: "colossal clawed fists planted forward and a spiked iron muzzle guard with a huge jaw" },
+  flyingsquirrels: { big: "huge stretched membrane wings, an enormous banded rudder tail and clawed feet thrust toward the viewer" },
+  scarabshifters: { big: "an oversized beetle-plate gauntlet and shoulder, golden wing-cases flared, and a swarm bursting from the cupped hand" },
+  rustwraith: { big: "enormous hanging fists, huge hunched shoulders and the radiator grille chest bulging forward" },
+  staticwraiths: { big: "long cream blade-claws extending far past the hands, crossed toward the viewer, and a cloak torn into glitch-block shards" },
+  seanceoperators: { big: "huge hands, an overlong neck and a long patch-cord whipping toward the viewer with demons climbing it" },
+  contractreapers: { big: "a huge scythe blade sweeping toward the viewer and a flaring robe torn into shards" },
+  embalmeralchemists: { big: "an oversized flask-throwing arm toward the viewer, a round apron body and huge boots" },
+  marrowpuppeteers: { big: "overlong splayed fingers with glowing strings stretching toward the viewer and a splintered tailcoat" },
+  canopybeastmasters: { big: "an enormous feathered cloak, a huge carved horn at the lips and a tall antler crown" },
+  mossplate: { big: "a huge rack-plate shield thrust forward, a massive vine-wrapped root hammer and boulder shoulders" },
+  nightmareshepherds: { big: "a tall hooked crook, enormous ragged wings and a long barbed tail curling toward the viewer" },
+  manymaw: { big: "dozens of oversized fanged jaws and tendrils spiraling toward the viewer on every side" },
+  etherwing: { big: "huge circuit-pattern wings flared wide, a long golden staff and four slender arms" },
+  necromancers: { big: "a tall skull-topped staff raised high and long ink-stained fingers pressed toward the viewer" },
+  stickywizards: { big: "a giant goo sling-staff aimed toward the viewer, an oversized bandolier of goo jars and a huge floppy frog hat" },
+  sporecoven: { big: "a huge leaf-and-mushroom shawl, an oversized vine cane and a hand conjuring spore smoke toward the viewer" },
+};

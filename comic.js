@@ -151,8 +151,8 @@
       <div class="cm-talk"><div class="eyebrow">Comments</div>${(n.comments || []).map((m) => `<p class="cm-cm"><b style="color:${WHO_COLOR[m.by] || "#fff"}">${esc(m.by || "Someone")}</b> ${esc(m.t)}</p>`).join("") || '<p class="muted small">No comments yet.</p>'}
         <div class="cm-addcm"><input id="cm-new" placeholder="Say something about this panel" maxlength="400"><button class="btn" data-act="comment">Post</button></div></div>`;
   }
-  const rosterChars = () => { try { return H().allCharacters().filter((c) => H().NODE_ART[c.l.id]).map((c) => `<option value="${c.l.id}">${esc(c.l.name)}</option>`).join(""); } catch { return ""; } };
-  const rosterBgs = (cur) => { try { return H().allCharacters().filter((c) => H().NODE_ART[c.l.id]).map((c) => `<option value="${H().NODE_ART[c.l.id].bg}"${H().NODE_ART[c.l.id].bg === cur ? " selected" : ""}>${esc(c.l.name)}</option>`).join(""); } catch { return ""; } };
+  const rosterChars = () => { try { return H().everyCharacter().filter((c) => H().NODE_ART[c.l.id]).map((c) => `<option value="${c.l.id}">${esc(c.l.name)}</option>`).join(""); } catch { return ""; } };
+  const rosterBgs = (cur) => { try { return H().everyCharacter().filter((c) => H().NODE_ART[c.l.id]).map((c) => `<option value="${H().NODE_ART[c.l.id].bg}"${H().NODE_ART[c.l.id].bg === cur ? " selected" : ""}>${esc(c.l.name)}</option>`).join(""); } catch { return ""; } };
 
   function cast() {
     const lore = window.LORE;

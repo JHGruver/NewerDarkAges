@@ -90,5 +90,5 @@ Place at least two accents on the foreground props on the right and left, and re
 
 No characters, creatures, figures or silhouettes of people or animals, no bodies, no blood, and no text or lettering anywhere.`;
   };
-  return { char, bg, lint, meta, SJ_TEST, scene: BG_SCENE };
+  return { char, bg, lint, meta, SJ_TEST, scene: BG_SCENE, wash: WASH, checkName: "Samurai Jack check" };
 })();

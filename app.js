@@ -2,7 +2,11 @@
 // Routes: #/  #/characters[/people[/subclass[/character]]]  #/manual[/npc]  #/roadmap  #/art
 const app = document.getElementById("app");
 const { WORLD, STORY, PHASES, ART, MANUAL, PEOPLE_COLORS } = window;
-const GROUPS = GROUP_ORDER.map((id) => GROUP_DEFS[id]);
+const GROUPS_ALL = GROUP_ORDER.map((id) => GROUP_DEFS[id]);
+// EDITION: "mvp" shows only the launch roster (data-mvp.js) in the Shard Cel art direction. "full" is the original site with every character.
+const MVP_IDS = new Set(Object.values((window.MVP && MVP.picks) || {}).flat().map((p) => p.id).filter(Boolean));
+const EDITION = window.NDA_EDITION === "mvp" && MVP_IDS.size ? "mvp" : "full";
+const GROUPS = EDITION === "mvp" ? GROUPS_ALL.map((g) => Object.assign({}, g, { subs: g.subs.map((s) => Object.assign({}, s, { subs: s.subs.filter((l) => MVP_IDS.has(l.id)) })).filter((s) => s.subs.length) })).filter((g) => g.subs.length) : GROUPS_ALL;
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const list = (items, cls = "") => `<ul class="${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
 const SITE_ART = "art/site/";
@@ -22,7 +26,7 @@ sndBtn.addEventListener("click", () => NDAudio.toggle()); window.addEventListene
 document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.png" alt="">`;
 
 /* ---------- colors ---------- */
-window.NDAH = { setScene: (s) => setScene(s), allCharacters: () => allCharacters(), poster: (...x) => poster(...x), cv: (...x) => cv(...x), get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
+window.NDAH = { setScene: (s) => setScene(s), allCharacters: () => allCharacters(), everyCharacter: () => everyCharacter(), get EDITION() { return EDITION; }, poster: (...x) => poster(...x), cv: (...x) => cv(...x), get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
 const pv = (g) => `--p:${g.color};--p2:${g.color2}`;
 const pal = (g, l) => (l && l.pal ? l.pal : [g.color2, "#f2efe6", "#ffffff"]);
 const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};--c2:${b};--c3:${c}`; };
@@ -144,11 +148,16 @@ const NODE_ART = {
   owlwings: { src: "art/v2/vampire-owlwings.png", bg: "art/v2/vampire-owlwings-bg.jpg", name: "Owlwing Watcher" },
 };
 
+// art drawn in the new Shard Cel style wins in the MVP edition; until it exists the older art stays visible with a tag
+const V2ART = (window.NODE_ART_V2) || {};
+if (EDITION === "mvp") Object.assign(NODE_ART, V2ART);
+const isV1Art = (id) => EDITION === "mvp" && !!NODE_ART[id] && !V2ART[id];
 const metaOf = (l) => CHAR_META[l.id] || { type: l.role === "support" ? "support" : "fighter", physique: "", size: "medium", move: "grounded" };
 const minis = (g, l) => {
   const ty = TYPES[metaOf(l).type];
   return `<span class="minis" aria-hidden="true"><b class="mt p" title="${esc(g.name)}">${PEOPLE_LETTER[g.id]}</b><b class="mt t" title="${esc(ty.name)}: ${esc(ty.desc)}">${ty.letter}</b><b class="mt r" title="${l.role === "combat" ? "Combat" : "Support / social"}">${l.role === "combat" ? "C" : "S"}</b></span>`;
 };
+const everyCharacter = () => GROUPS_ALL.flatMap((g) => g.subs.flatMap((s) => s.subs.map((l) => ({ g, s, l, path: [g.id, s.id, l.id] }))));
 const allCharacters = () => GROUPS.flatMap((g) => g.subs.flatMap((s) => s.subs.map((l) => ({ g, s, l, path: [g.id, s.id, l.id] }))));
 
 // the poster: people color as the ground, the character trio as shapes. Used wherever art is missing.
@@ -198,8 +207,8 @@ function home() {
 }
 
 /* ----- character gallery (top level) ----- */
-let galleryFilter = null, roleFilter = null, statusFilter = "complete"; // default view: everyone, finished characters only
-try { galleryFilter = sessionStorage.getItem("nda2-filter") || null; roleFilter = sessionStorage.getItem("nda2-role") || null; statusFilter = sessionStorage.getItem("nda2-status") || "complete"; } catch {}
+let galleryFilter = null, roleFilter = null, statusFilter = EDITION === "mvp" ? "any" : "complete"; // default view: everyone, finished characters only
+try { galleryFilter = sessionStorage.getItem("nda2-filter") || null; roleFilter = sessionStorage.getItem("nda2-role") || null; statusFilter = sessionStorage.getItem("nda2-status") || (EDITION === "mvp" ? "any" : "complete"); } catch {}
 const saveFilters = () => { try { galleryFilter ? sessionStorage.setItem("nda2-filter", galleryFilter) : sessionStorage.removeItem("nda2-filter"); roleFilter ? sessionStorage.setItem("nda2-role", roleFilter) : sessionStorage.removeItem("nda2-role"); sessionStorage.setItem("nda2-status", statusFilter || "complete"); } catch {} };
 let mixOrder = null;
 const mixed = (chars) => {
@@ -211,7 +220,7 @@ function gcard(c, i = 0) {
   const art = NODE_ART[c.l.id];
   return `
     <a class="gc ${art ? "done" : "pending"}" style="${cv(c.g, c.l)};--i:${i}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
-      <span class="gframe">${art ? `<img data-vt="${c.l.id}" src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l, "", c.l.id)}${minis(c.g, c.l)}</span>
+      <span class="gframe">${art ? `<img data-vt="${c.l.id}" src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l, "", c.l.id)}${minis(c.g, c.l)}${isV1Art(c.l.id) ? '<i class="v1tag" title="Drawn in the original art direction. To be redrawn in Shard Cel.">V1 art</i>' : ""}</span>
       <span class="gtrio"><i style="background:${c.g.color}"></i><i style="background:${c.l.pal[0]}"></i><i style="background:${c.l.pal[1]}"></i><i style="background:${c.l.pal[2]}"></i></span>
       <span class="cn">${esc(c.l.name)}</span>
       <span class="cs">${galleryFilter ? esc(c.s.name) : `${esc(SHORT[c.g.id])} · ${esc(c.s.name)}`}</span>
@@ -333,7 +342,7 @@ function detailBlocks(group, trail, names) {
     <div class="blk"><h4>Starting gear</h4><p>${leaf.gear.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("")}</p><h4>What they look like</h4><p>${esc(leaf.look)}</p>${window.ART_SPEC && ART_SPEC[leaf.id] ? `<h4>Scene props (background only)</h4><p class="muted">${esc(ART_SPEC[leaf.id].p)}</p>` : ""}</div>
     <div class="blk"><h4>Four-color palette</h4>${swatchRow(group, leaf)}<p class="muted">The people color is the background; the trio belongs to this character (about 60 / 30 / 10).</p></div>
     <div class="blk prompts"><h4>Art prompts</h4>
-      ${(() => { const f = PROMPTS.lint(group, sub, leaf); return f.length ? `<p class="sjfail">Samurai Jack check: ${f.length} issue${f.length > 1 ? "s" : ""}: ${esc(f.join("; "))}</p>` : `<p class="sjpass">${ic("star")} Samurai Jack check passed</p>`; })()}
+      ${(() => { const f = PROMPTS.lint(group, sub, leaf); return f.length ? `<p class="sjfail">${esc(PROMPTS.checkName || "Samurai Jack check")}: ${f.length} issue${f.length > 1 ? "s" : ""}: ${esc(f.join("; "))}</p>` : `<p class="sjpass">${ic("star")} ${esc(PROMPTS.checkName || "Samurai Jack check")} passed</p>`; })()}
       <details><summary>Character prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-c"])}</textarea><button class="copy" data-copy="${key}-c">Copy</button></details>
       <details><summary>Background prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-b"])}</textarea><button class="copy" data-copy="${key}-b">Copy</button></details>
     </div>`;
@@ -485,7 +494,7 @@ function render() {
   if (route === "characters") html = characters(...rest);
   else if (route === "manual") html = manual(rest[0]);
   else if (route === "roadmap") html = roadmap();
-  else if (route === "art") html = art();
+  else if (route === "art") html = EDITION === "mvp" ? artV2() : art();
   else if (route === "lore") html = loreView(rest[0]);
   else if (route === "vote") html = voteView(rest[0]);
   else if (route === "studio") html = studioView(rest[0]);
@@ -670,3 +679,14 @@ app.addEventListener("wheel", (e) => {
 }, { passive: false });
 
 render();
+
+
+/* ---------- edition switch (MVP edition / full roster) ---------- */
+(function () {
+  const set = (v) => { try { localStorage.setItem("nda-edition", v); } catch {} location.reload(); };
+  const mvp = EDITION === "mvp";
+  const nm = document.getElementById("edname"); if (nm) nm.textContent = mvp ? "MVP edition" : "Full roster";
+  document.body.dataset.edition = EDITION;
+  const m = document.getElementById("ed-mvp"), f = document.getElementById("ed-full"); if (m) m.classList.toggle("on", mvp); if (f) f.classList.toggle("on", !mvp);
+  document.addEventListener("click", (e) => { const t = e.target.closest("[data-edition]"); if (!t) return; e.preventDefault(); const v = t.dataset.edition; set(v === "toggle" ? (mvp ? "full" : "mvp") : v); });
+})();

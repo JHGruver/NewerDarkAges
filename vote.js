@@ -8,7 +8,7 @@
   let S = { voter: "", filter: "all", shuffle: true, order: [], votes: {}, i: 0, started: false };
   const load = () => { try { const d = JSON.parse(localStorage.getItem(KEY)); if (d && d.order) S = Object.assign(S, d); } catch {} };
   const save = () => { try { localStorage.setItem(KEY, JSON.stringify(S)); } catch {} };
-  const all = () => H().allCharacters();
+  const all = () => H().everyCharacter();
   const byId = (id) => all().find((c) => c.l.id === id);
   const shuffle = (a) => { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = (Math.random() * (i + 1)) | 0; [a[i], a[j]] = [a[j], a[i]]; } return a; };
 

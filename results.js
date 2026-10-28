@@ -23,7 +23,7 @@
 
   function rows(D) {
     const { NODE_ART } = H();
-    return H().allCharacters().map((c) => {
+    return H().everyCharacter().map((c) => {
       const v = D.votes[c.l.id] || [], got = v.filter((x) => x != null), mean = got.length ? got.reduce((a, b) => a + b, 0) / got.length : null;
       const m = (window.CHAR_META || {})[c.l.id] || {};
       return { id: c.l.id, name: c.l.name, g: c.g, s: c.s, l: c.l, path: c.path, v, n: got.length, mean, min: got.length ? Math.min(...got) : null, art: !!NODE_ART[c.l.id], type: m.type || (c.l.role === "support" ? "support" : "fighter"), role: c.l.role };
@@ -105,7 +105,7 @@
 
   function comments(D) {
     if (!D.comments.length) return "";
-    const nm = (id) => { const c = H().allCharacters().find((x) => x.l.id === id); return c ? c.l.name : id; };
+    const nm = (id) => { const c = H().everyCharacter().find((x) => x.l.id === id); return c ? c.l.name : id; };
     return `<h2 class="lh">What people wrote</h2><div class="rs-cm">${D.comments.map((c) => `<p class="panel"><b>${esc(nm(c.id))}</b> ${VOTE[c.v] ? vtag(c.v) : ""}<span>${esc(c.t)}</span><small>${esc(c.by)}</small></p>`).join("")}</div>`;
   }
 
