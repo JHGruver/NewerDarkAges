@@ -155,7 +155,7 @@ const HAND_V2 = JSON.parse(JSON.stringify(V2ART)); // entries listed by hand in 
 let V2CACHE = {}; try { V2CACHE = JSON.parse(localStorage.getItem("nda-v2art") || "{}"); } catch {}
 if (EDITION === "mvp") Object.entries(V2CACHE).forEach(([k, v]) => { V2ART[k] = Object.assign({}, v, V2ART[k]); }); // last visit's finds show immediately, so a re-render only happens when something new lands
 const V1ART = {}; Object.keys(NODE_ART).forEach((k) => (V1ART[k] = Object.assign({}, NODE_ART[k])));
-const applyV2 = () => { if (EDITION !== "mvp") return; MVP_IDS.forEach((k) => { const o = V1ART[k] || {}, v = V2ART[k] || {}, src = v.src || o.src; if (!src) { delete NODE_ART[k]; return; } NODE_ART[k] = { src, bg: v.bg || o.bg, name: v.name || o.name || (allCharacters().find((c) => c.l.id === k) || { l: { name: k } }).l.name }; }); };
+const applyV2 = () => { if (EDITION !== "mvp") return; MVP_IDS.forEach((k) => { const o = V1ART[k] || {}, v = V2ART[k] || {}, src = v.src || o.src; if (!src) { delete NODE_ART[k]; return; } NODE_ART[k] = { src, bg: v.bg || o.bg, name: v.name || o.name || k }; }); };
 applyV2();
 const isV1Art = (id) => EDITION === "mvp" && !!NODE_ART[id] && !(V2ART[id] && V2ART[id].src);
 const exists = (u) => new Promise((res) => { const im = new Image(); im.onload = () => res(true); im.onerror = () => res(false); im.src = u + "?c=" + Math.floor(Date.now() / 60000); setTimeout(() => res(false), 5000); });
