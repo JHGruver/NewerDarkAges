@@ -12,14 +12,14 @@
 
   function resolve() {
     const byId = Object.fromEntries(H().everyCharacter().map((c) => [c.l.id, c])), M = window.MVP;
-    return H().GROUPS.map((g) => ({ g, slots: (M.picks[g.id] || []).map((p) => Object.assign({}, p, p.id ? { c: byId[p.id], art: !!(window.NODE_ART_V2 && NODE_ART_V2[p.id]), v1: !!H().NODE_ART[p.id] && !(window.NODE_ART_V2 && NODE_ART_V2[p.id]) } : { cands: (p.candidates || []).map((i) => byId[i]).filter(Boolean) })) })).filter((x) => x.slots.length);
+    return H().GROUPS.map((g) => ({ g, slots: (M.picks[g.id] || []).map((p) => Object.assign({}, p, p.id ? { c: byId[p.id], art: !!(window.NODE_ART_V2 && NODE_ART_V2[p.id] && NODE_ART_V2[p.id].src), bgv2: !!(window.NODE_ART_V2 && NODE_ART_V2[p.id] && NODE_ART_V2[p.id].bg), v1: !!H().NODE_ART[p.id] && !(window.NODE_ART_V2 && NODE_ART_V2[p.id] && NODE_ART_V2[p.id].src) } : { cands: (p.candidates || []).map((i) => byId[i]).filter(Boolean) })) })).filter((x) => x.slots.length);
   }
 
   function card(s, g, k) {
     const c = s.c, l = c.l, art = H().NODE_ART[l.id], m = (window.CHAR_META || {})[l.id] || {}, st = s.art ? ["ready", "V2 art ready"] : s.v1 ? ["v1", "V1 art · redraw"] : ["todo", "Art to make"];
     const media = art ? `<span class="mv-bg" style="background-image:url('${art.bg}')"></span><img class="mv-fig" src="${art.src}" alt="${esc(l.name)}" loading="lazy">` : `<span class="mv-poster">${H().poster(g, l, "big")}</span><span class="mv-concept"><b>Concept</b>${esc(l.look)}</span>`;
     return `<a class="mv-card ${st[0]}" href="#/characters/${c.path.join("/")}" style="--pc:${g.color};--c1:${l.pal[0]};--c2:${l.pal[1]};--c3:${l.pal[2]}">
-      <span class="mv-media">${media}<b class="mv-n">${k + 1}</b><em class="mv-st ${st[0]}">${st[1]}</em>${s.isNew ? '<em class="mv-st new">New</em>' : s.redesign ? '<em class="mv-st new">Redesigned</em>' : ""}</span>
+      <span class="mv-media">${media}<b class="mv-n">${k + 1}</b><em class="mv-st ${st[0]}">${st[1]}</em>${s.bgv2 ? '<em class="mv-st bgok">New background</em>' : ""}${s.isNew ? '<em class="mv-st new">New</em>' : s.redesign ? '<em class="mv-st new">Redesigned</em>' : ""}</span>
       <span class="mv-body"><span class="mv-name">${esc(l.name)}</span><span class="mv-quip">“${esc(l.tagline)}”</span>
         <span class="mv-pills"><i>${esc(TYPE(m.type))}</i><i>${l.role === "combat" ? "Combat" : "Support"}</i>${m.size ? `<i>${esc(m.size)}</i>` : ""}${m.move ? `<i>${esc(m.move)}</i>` : ""}</span>
         <span class="mv-sum">${esc(l.summary)}</span>

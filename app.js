@@ -149,9 +149,28 @@ const NODE_ART = {
 };
 
 // art drawn in the new Shard Cel style wins in the MVP edition; until it exists the older art stays visible with a tag
-const V2ART = (window.NODE_ART_V2) || {};
-if (EDITION === "mvp") Object.assign(NODE_ART, V2ART);
-const isV1Art = (id) => EDITION === "mvp" && !!NODE_ART[id] && !V2ART[id];
+// New art is dropped in art/shard/ as <id>.png (portrait) and <id>-bg.jpg (background). The site finds them on its own (see detectV2Art) or they can be listed in NODE_ART_V2.
+const V2ART = (window.NODE_ART_V2 = window.NODE_ART_V2 || {});
+const HAND_V2 = JSON.parse(JSON.stringify(V2ART)); // entries listed by hand in data-mvp.js
+let V2CACHE = {}; try { V2CACHE = JSON.parse(localStorage.getItem("nda-v2art") || "{}"); } catch {}
+if (EDITION === "mvp") Object.entries(V2CACHE).forEach(([k, v]) => { V2ART[k] = Object.assign({}, v, V2ART[k]); }); // last visit's finds show immediately, so a re-render only happens when something new lands
+const V1ART = {}; Object.keys(NODE_ART).forEach((k) => (V1ART[k] = Object.assign({}, NODE_ART[k])));
+const applyV2 = () => { if (EDITION !== "mvp") return; MVP_IDS.forEach((k) => { const o = V1ART[k] || {}, v = V2ART[k] || {}, src = v.src || o.src; if (!src) { delete NODE_ART[k]; return; } NODE_ART[k] = { src, bg: v.bg || o.bg, name: v.name || o.name || (allCharacters().find((c) => c.l.id === k) || { l: { name: k } }).l.name }; }); };
+applyV2();
+const isV1Art = (id) => EDITION === "mvp" && !!NODE_ART[id] && !(V2ART[id] && V2ART[id].src);
+const exists = (u) => new Promise((res) => { const im = new Image(); im.onload = () => res(true); im.onerror = () => res(false); im.src = u + "?c=" + Math.floor(Date.now() / 60000); setTimeout(() => res(false), 5000); });
+async function detectV2Art() {
+  if (EDITION !== "mvp") return; const found = {};
+  await Promise.all([...MVP_IDS].map(async (id) => {
+    await Promise.all([["src", `art/shard/${id}.png`], ["bg", `art/shard/${id}-bg.jpg`]].map(async ([k, u]) => { if (await exists(u)) (found[id] = found[id] || {})[k] = u; }));
+  }));
+  const before = JSON.stringify(V2CACHE);
+  try { localStorage.setItem("nda-v2art", JSON.stringify(found)); } catch {}
+  Object.keys(V2CACHE).forEach((k) => { if (!found[k] && !(HAND_V2[k])) delete V2ART[k]; });
+  Object.entries(found).forEach(([k, v]) => { V2ART[k] = Object.assign({}, V2ART[k], v); });
+  if (JSON.stringify(found) !== before) { applyV2(); window.dispatchEvent(new Event("nda:v2art")); render(); }
+}
+setTimeout(detectV2Art, 0);
 const metaOf = (l) => CHAR_META[l.id] || { type: l.role === "support" ? "support" : "fighter", physique: "", size: "medium", move: "grounded" };
 const minis = (g, l) => {
   const ty = TYPES[metaOf(l).type];
@@ -495,6 +514,7 @@ function render() {
   else if (route === "manual") html = manual(rest[0]);
   else if (route === "roadmap") html = roadmap();
   else if (route === "art") html = EDITION === "mvp" ? artV2() : art();
+  else if (route === "prompts") html = promptsView();
   else if (route === "lore") html = loreView(rest[0]);
   else if (route === "vote") html = voteView(rest[0]);
   else if (route === "studio") html = studioView(rest[0]);
@@ -508,6 +528,7 @@ function render() {
   else if (route === "studio") render.cleanup = studioInit();
   else if (route === "team") render.cleanup = teamInit();
   else if (route === "comic") render.cleanup = comicInit();
+  else if (route === "prompts") render.cleanup = promptsInit();
   else if (!["characters", "manual", "roadmap", "art"].includes(route)) render.cleanup = storyInit();
   const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
   document.body.classList.toggle("fit", !!inChars);
@@ -528,7 +549,7 @@ function render() {
   render.first = false;
   NDAudio.setMode(route === "" || route === "home" ? "story" : route === "lore" ? "lore" : "music");
   if (window.NDProfile) NDProfile.close();
-  const pb = document.getElementById("profbtn"); if (pb) pb.classList.toggle("here", ["team", "vote", "comic", "manual", "roadmap", "art"].includes(route));
+  const pb = document.getElementById("profbtn"); if (pb) pb.classList.toggle("here", ["team", "vote", "comic", "prompts", "manual", "roadmap", "art"].includes(route));
 }
 render.first = true;
 
@@ -683,10 +704,11 @@ render();
 
 /* ---------- edition switch (MVP edition / full roster) ---------- */
 (function () {
-  const set = (v) => { try { localStorage.setItem("nda-edition", v); } catch {} location.reload(); };
+  const set = (v) => { try { localStorage.setItem("nda-edition-v2", v); } catch {} location.reload(); };
   const mvp = EDITION === "mvp";
-  const nm = document.getElementById("edname"); if (nm) nm.textContent = mvp ? "MVP edition" : "Full roster";
-  document.body.dataset.edition = EDITION;
+  const nm = document.getElementById("pm-edname"); if (nm) nm.textContent = mvp ? "MVP edition" : "Full roster";
+  document.body.dataset.ed = EDITION; // not data-edition: that attribute marks the switch links, and a click handler listens for it
   const m = document.getElementById("ed-mvp"), f = document.getElementById("ed-full"); if (m) m.classList.toggle("on", mvp); if (f) f.classList.toggle("on", !mvp);
-  document.addEventListener("click", (e) => { const t = e.target.closest("[data-edition]"); if (!t) return; e.preventDefault(); const v = t.dataset.edition; set(v === "toggle" ? (mvp ? "full" : "mvp") : v); });
+  // capture phase: the profile menu stops clicks from bubbling, so a normal listener on the document would never hear its links
+  document.addEventListener("click", (e) => { const t = e.target.closest("a[data-edition]"); if (!t) return; e.preventDefault(); e.stopPropagation(); const v = t.dataset.edition; if (v !== EDITION) set(v); else if (window.NDProfile) NDProfile.close(); }, true);
 })();

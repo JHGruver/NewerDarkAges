@@ -58,6 +58,6 @@ window.MVP = {
   ],
 };
 
-// Art drawn in the V2 "Shard Cel" style, by character id. Add an entry as each new image lands: { src, bg, name }.
-// Until a character is listed here the MVP edition shows its original-style art (tagged "V1 art") or a placeholder.
+// Art drawn in the V2 "Shard Cel" style. You normally do not edit this: drop <id>.png and <id>-bg.jpg into art/shard/ and the site finds them (see detectV2Art in app.js).
+// An entry here { src, bg } forces a file by hand. Until a character has new art the MVP edition shows its original-style art (tagged "V1 art") or a placeholder.
 window.NODE_ART_V2 = {};

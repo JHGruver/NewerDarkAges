@@ -50,7 +50,7 @@ banner(ws, [
     ["What is in it", ""],
     ["MVP Roster", "One row per slot with every meta detail: class, type, body, face, costume, signature exaggeration, abilities, lore, colors, notes."],
     ["Prompts", "The art direction V2 (Shard Cel) character and background prompts, ready to paste. Character count and the style check for each."],
-    ["Production Tracker", "Fill in as art is made. Dropdowns for status. The first sheet to open when you are drawing."],
+    ["Production Tracker", "Fill in as art is made. Dropdowns for status, plus the exact file name to save each image as (art/shard/). The site finds the files on its own."],
     ["Open Slots", "The slots still to decide, with candidates and the vote scores for each."],
     ["Vote Scores", "What Jacob and Mike scored every MVP character in the vote."],
     ["Changes", "What changed from the full roster to get here."],
@@ -79,9 +79,9 @@ ws.conditional_formatting.add(f"D2:D{ws.max_row}", CellIsRule(operator="equal", 
 ws.conditional_formatting.add(f"D2:D{ws.max_row}", CellIsRule(operator="notEqual", formula=['"Passed"'], fill=fill("FFC7CE")))
 
 ws = wb.create_sheet("Production Tracker")
-ws.append(["#", "People", "Character", "Character art (V2)", "Background art (V2)", "Matches Shard Cel test?", "Reviewer", "Date", "Notes", "Original-style art exists?"])
-for s in REAL: ws.append([s["n"], PEO[s["people"]]["name"], s["name"], "Not started", "Not started", "", "", "", "", "Yes" if s["v1art"] else "No"])
-style(ws, [4, 14, 30, 18, 18, 22, 14, 12, 50, 18], wrap=(8,), freeze="D2")
+ws.append(["#", "People", "Character", "Character art (V2)", "Background art (V2)", "Matches Shard Cel test?", "Reviewer", "Date", "Notes", "Original-style art exists?", "Save portrait as", "Save background as"])
+for s in REAL: ws.append([s["n"], PEO[s["people"]]["name"], s["name"], "Not started", "Not started", "", "", "", "", "Yes" if s["v1art"] else "No", f"art/shard/{s['id']}.png", f"art/shard/{s['id']}-bg.jpg"])
+style(ws, [4, 14, 30, 18, 18, 22, 14, 12, 50, 18, 34, 38], wrap=(8,), freeze="D2")
 st = DataValidation(type="list", formula1='"Not started,Prompt ready,Generating,Needs redo,Approved,Wired into site"', allow_blank=True); ws.add_data_validation(st); st.add(f"D2:E{ws.max_row}")
 ok = DataValidation(type="list", formula1='"Yes,No,Partly"', allow_blank=True); ws.add_data_validation(ok); ok.add(f"F2:F{ws.max_row}")
 for col in ("D", "E"):

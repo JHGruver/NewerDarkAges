@@ -3,6 +3,12 @@
 (function () {
   const A = "art/site/";
   const H = () => window.NDAH;
+  // MVP edition: the world shows ONLY the launch roster. A figure is the first listed MVP character that has art (the new Shard Cel art wins when it exists);
+  // if none has art yet, it is a placeholder poster, never a character from outside the MVP list.
+  const MVPED = () => H().EDITION === "mvp";
+  const figOf = (ids) => { const { NODE_ART } = H(), every = H().everyCharacter(); const have = ids.find((i) => NODE_ART[i]); const id = have || ids[0]; const c = every.find((x) => x.l.id === id); return { id, art: have ? NODE_ART[have] : null, c }; };
+  const figHtml = (f, cap, i) => (f.art ? `<figure style="--i:${i}"><div class="bgc" style="background-image:url('${f.art.bg}')"></div><img src="${f.art.src}" alt="">${cap}</figure>` : `<figure style="--i:${i}" class="ph"><div class="bgc"></div><span class="phpost">${f.c ? H().poster(f.c.g, f.c.l, "big") : ""}</span>${cap}</figure>`);
+  const MVP_STORY = { chairs: [["human", ["fuelpriests", "pinball", "pipedpipers"], "Chieftain", "Humans"], ["vampire", ["batcallers", "gargoyle"], "High Priest", "Vampires"], ["were", ["bonecrushers", "flyingsquirrels", "scarabshifters"], "Alpha Wolf", "Werewolves"]], block: ["contractreapers", "marrowpuppeteers", "embalmeralchemists"], others: [[["staticwraiths", "rustwraith", "seanceoperators"], "Dead Air"], [["mossplate", "canopybeastmasters"], "The Overgrowth"], [["etherwing", "nightmareshepherds", "manymaw"], "The Drowned Undercity"]], fan: ["fuelpriests", "batcallers", "bonecrushers", "staticwraiths", "contractreapers", "mossplate", "etherwing", "necromancers", "pinball", "flyingsquirrels", "rustwraith", "embalmeralchemists", "nightmareshepherds", "stickywizards", "sporecoven"] };
   const FREQ0 = 88.1, FREQ1 = 107.9;
   const TINT = { signal: null, announcement: "#4aa3c7", war: "#c4561f", dim: "#d9a521", cordon: "#3f7d45", chairs: "#7a4bd1", pyramid: "#d9a521", block: "#6fb06f", "chairs-empty": "#9b1c2c", others: "#8fcfe0", heirs: "#b83a7a", choose: "#6b3fa6" };
   const BG = { announcement: "story-broadcast", war: "story-war", dim: "story-dim", cordon: "world-map", pyramid: "story-pyramid", block: "story-block", "chairs-empty": "story-chairs", heirs: "story-heirs" };
@@ -25,15 +31,16 @@
       </svg>
       <div class="tribe-tags"><span style="--c:#d9a521">${crest(GROUPS.find((g) => g.id === "human"))}Humans</span><span style="--c:#8a8a99">${crest(GROUPS.find((g) => g.id === "vampire"))}Vampires</span><span style="--c:#b4532a">${crest(GROUPS.find((g) => g.id === "were"))}Werewolves</span></div>`;
     if (id === "chairs") {
-      const mvp = H().EDITION === "mvp";
-      const three = mvp ? [["human", "fuelpriests", "Chieftain", "Humans"], ["vampire", "batcallers", "High Priest", "Vampires"], ["were", "bonecrushers", "Alpha Wolf", "Werewolves"]] : [["human", "interceptors", "Chieftain", "Humans"], ["vampire", "owlwings", "High Priest", "Vampires"], ["were", "bonecrushers", "Alpha Wolf", "Werewolves"]];
+      if (MVPED()) return `<div class="three">${MVP_STORY.chairs.map(([p, ids, t, n], i) => figHtml(figOf(ids), `<figcaption><b>${t}</b><span>${n}</span></figcaption>`, i)).join("")}</div>`;
+      const three = [["human", "interceptors", "Chieftain", "Humans"], ["vampire", "owlwings", "High Priest", "Vampires"], ["were", "bonecrushers", "Alpha Wolf", "Werewolves"]];
       return `<div class="three">${three.filter(([, c]) => NODE_ART[c]).map(([p, c, t, n], i) => `<figure style="--i:${i}"><div class="bgc" style="background-image:url('${NODE_ART[c].bg}')"></div><img src="${NODE_ART[c].src}" alt=""><figcaption><b>${t}</b><span>${n}</span></figcaption></figure>`).join("")}</div>`;
     }
     if (id === "pyramid") return `<div class="beam" aria-hidden="true"></div><div class="trials" aria-hidden="true"><span>Pass</span><i></i><span>Fail</span></div>`;
-    if (id === "block") return `<div class="guards">${(H().EDITION === "mvp" ? ["contractreapers"] : ["bonebreakers"]).map((c) => `<img src="${NODE_ART[c].src}" alt="">`).join("")}</div><div class="stamp" aria-hidden="true">No release</div>`;
+    if (id === "block") { const g = MVPED() ? (() => { const f = figOf(MVP_STORY.block); return f.art ? [f.art.src] : []; })() : [NODE_ART["bonebreakers"].src]; return `<div class="guards">${g.map((u) => `<img src="${u}" alt="">`).join("")}</div><div class="stamp" aria-hidden="true">No release</div>`; }
     if (id === "chairs-empty") return `<div class="candles" aria-hidden="true">${candles().map((n, i) => `<div class="candle" style="--t:${(i + 0.5) / 9}"><i class="flame"></i><i class="wax"></i><span>${n}</span></div>`).join("")}</div>`;
     if (id === "others") {
-      const s = (H().EDITION === "mvp" ? [["staticwraiths", "Dead Air"], ["mossplate", "The Overgrowth"], ["etherwing", "The Drowned Undercity"]] : [["staticwraiths", "Dead Air"], ["rootlinkwarlocks", "The Overgrowth"], ["etherwing", "The Drowned Undercity"]]).filter(([c]) => NODE_ART[c]);
+      if (MVPED()) return `<div class="scan">${MVP_STORY.others.map(([ids, n], i) => figHtml(figOf(ids), `<figcaption>${n}</figcaption>`, i)).join("")}</div>`;
+      const s = [["staticwraiths", "Dead Air"], ["rootlinkwarlocks", "The Overgrowth"], ["etherwing", "The Drowned Undercity"]].filter(([c]) => NODE_ART[c]);
       return `<div class="scan">${s.map(([c, n], i) => `<figure style="--i:${i}"><div class="bgc" style="background-image:url('${NODE_ART[c].bg}')"></div><img src="${NODE_ART[c].src}" alt=""><figcaption>${n}</figcaption></figure>`).join("")}</div>`;
     }
     if (id === "heirs") {
@@ -41,7 +48,7 @@
       return `<div class="heirs">${hs.map((c, i) => `<div class="heir" style="--i:${i}"><b>${esc(c.name)}</b><span>${esc(c.age)}</span><em>${esc(c.powers.replace(/"/g, ""))}</em></div>`).join("")}</div>`;
     }
     if (id === "choose") {
-      const fan = (H().EDITION === "mvp" ? ["fuelpriests", "pinball", "bonecrushers", "flyingsquirrels", "staticwraiths", "rustwraith", "contractreapers", "mossplate", "etherwing", "stickywizards", "sporecoven"] : ["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing", "signalsavants", "stickywizards", "sporecoven"]).filter((c) => NODE_ART[c]);
+      const fan = (MVPED() ? MVP_STORY.fan : ["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing", "signalsavants", "stickywizards", "sporecoven"]).filter((c) => NODE_ART[c]);
       return `<div class="fan" aria-hidden="true">${fan.map((c, i) => `<img style="--i:${i};--n:${fan.length}" src="${NODE_ART[c].src}" alt="">`).join("")}</div>
         <div class="choose-cta"><a class="big-cta" href="#/characters">Pick a character <span>→</span></a>
         <div class="peoples-row">${GROUPS.map((g) => `<a href="#/characters/${g.id}" style="--p:${g.color}" title="${esc(g.name)}">${crest(g)}<span>${esc(g.name)}</span></a>`).join("")}</div>
@@ -163,7 +170,7 @@
       const bars = [...bootEl.querySelectorAll(".boot-bars i")], bc = document.getElementById("bootstatic"), bx = bc.getContext("2d"); bc.width = 200; bc.height = 112;
       document.documentElement.classList.add("booting"); window.scrollTo(0, 0);
       const { NODE_ART } = H();
-      const urls = [...new Set([...Object.values(BG).map((b) => `${A}${b}.jpg`), ...["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing"].flatMap((c) => [NODE_ART[c].src, NODE_ART[c].bg]), `${A}logo-wordmark.png`])];
+      const urls = [...new Set([...Object.values(BG).map((b) => `${A}${b}.jpg`), ...(MVPED() ? [...MVP_STORY.chairs.flatMap((x) => x[1]), ...MVP_STORY.block, ...MVP_STORY.others.flatMap((x) => x[0]), ...MVP_STORY.fan] : ["interceptors", "owlwings", "bonecrushers", "staticwraiths", "bonebreakers", "rootlinkwarlocks", "etherwing"]).filter((c) => NODE_ART[c]).flatMap((c) => [NODE_ART[c].src, NODE_ART[c].bg].filter(Boolean)), `${A}logo-wordmark.png`])];
       let loaded = 0; const done = () => { loaded++; };
       urls.forEach((u) => { const im = new Image(); im.onload = im.onerror = done; im.src = u; });
       const t0 = performance.now(), MIN = 2600; let finished = false, lockAt = 0, prog = 0, askAt = 0;
