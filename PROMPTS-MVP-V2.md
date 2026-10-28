@@ -196,7 +196,7 @@ BODY: squat and wide with a hunched hump back, huge hands, short legs, stone-sla
 
 FACE: grim, heavy-browed.
 
-COSTUME: hunched vampire sentinel in a helmeted hood and a heavy wing-cloak, half the body gray carved stone and half pale cracked skin with small bat-wing horns, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt. Signature exaggeration: boulder-sized stone fists planted toward the viewer and a hunched hump back, the stone cracking into pale skin down one side.
+COSTUME: hunched vampire sentinel crouched on one huge stone fist, a blue hood with pointed ears over a pale cracked face with red eyes, giant stone-slab wings edged in crimson folded behind, one shoulder bare pale cracked skin and the rest gray stone, red-banded navy cuffs on stone-knuckled fists, a chain and a red sash at the belt. Signature exaggeration: boulder-sized stone fists planted toward the viewer and a hunched hump back, the stone cracking into pale skin down one side.
 
 POSE: perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted. Pose energy: a planted wide low stance, the shield or fist thrust toward the viewer and drawn huge, weight sunk into the legs, a chunky layered silhouette. Head turned toward the viewer. The pose must say "tank" at a glance.
 
@@ -228,7 +228,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a gutted skyscraper rooftop at night: a chandelier wired to car batteries, a dead neon sign, gothic antenna spires, a distant ruined skyline, rain.
 
-Scene props for Gargoyle Sentries: a gothic ledge of a skyscraper roof with stone gargoyle statues, a stone parapet, rain gutters, a clock tower, a crane arm. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Gargoyle Sentries: a rain-soaked gothic rooftop under a pale moon with stone gargoyle statues on plinths, a gothic balustrade, glowing red lantern posts, a hanging chandelier with blue flames, a clock tower, a crane arm, a gothic spire skyline and a glowing blue banner panel. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 
