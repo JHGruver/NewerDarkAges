@@ -36,8 +36,8 @@
       look: "Lanky showman in a neon jacket playing a synth-flute that is half flute, half keytar, three small street-crew figures dancing out of the music.",
       pal: ["#ff2e93", "#2de2e6", "#1b1035"], physique: "lanky and loose-limbed, huge shoulder pads, a tall teased hairdo", size: "medium", move: "agile",
       who: "a lanky man in his thirties of Mexican heritage with a tall teased hairdo and sunglasses pushed up on his forehead",
-      w: "lanky showman in a pink neon jacket with huge shoulder pads over a cyan shirt, teal parachute pants and high-top boots, a synth-flute that is half flute and half keytar strapped across his chest, sunglasses pushed up in a teased hairdo, three small street-crew figures (a thief, a brawler, a lookout) dancing out of the music",
-      p: "a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor, graffiti walls, a small stage and strings of lights" });
+      w: "lanky showman in a pink neon big-collar coat over a cyan shirt, teal baggy pants and huge pink-and-cream high-tops, goggles on a tall spiky black pompadour, a black-and-cyan keytar-flute with a piano keyboard on a strap, three small hooded crew members circled by glowing music notes",
+      p: "a neon-lit overpass ruin under a yellow moon with stacked speaker cabinets, a row of arcade cabinets, a roller-rink floor with painted rings, a pink arched stage hall, a disco ball, teal banners, flight cases and strings of lights" });
 
   add("vampire", { summary: "Rooftop lords who rule the night with a colony at their back: the bats see, carry and strike for them.", lore: "In the Static Spires, a vampire's most trusted servants have wings." },
     { id: "batcallers", name: "Belfry Batcallers", icon: "bat", tagline: "The belfry answers.",

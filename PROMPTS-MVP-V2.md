@@ -136,7 +136,7 @@ BODY: lanky and loose-limbed, huge shoulder pads, a tall teased hairdo build. Pr
 
 FACE: cool, cocky half-smile.
 
-COSTUME: lanky showman in a pink neon jacket with huge shoulder pads over a cyan shirt, teal parachute pants and high-top boots, a synth-flute that is half flute and half keytar strapped across his chest, sunglasses pushed up in a teased hairdo, three small street-crew figures (a thief, a brawler, a lookout) dancing out of the music. Signature exaggeration: huge shoulder pads, giant high-top boots and an oversized synth-flute thrust forward.
+COSTUME: lanky showman in a pink neon big-collar coat over a cyan shirt, teal baggy pants and huge pink-and-cream high-tops, goggles on a tall spiky black pompadour, a black-and-cyan keytar-flute with a piano keyboard on a strap, three small hooded crew members circled by glowing music notes. Signature exaggeration: huge shoulder pads, giant high-top boots and an oversized synth-flute thrust forward.
 
 POSE: striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music. Pose energy: arms flung wide or one hand commanding, small summoned allies bursting out around the figure drawn small and clearly separate, a strong S-curve body. Head turned toward the viewer. The pose must say "summoner" at a glance.
 
@@ -168,7 +168,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners.
 
-Scene props for Neon Pied Pipers: a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor, graffiti walls, a small stage and strings of lights. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Neon Pied Pipers: a neon-lit overpass ruin under a yellow moon with stacked speaker cabinets, a row of arcade cabinets, a roller-rink floor with painted rings, a pink arched stage hall, a disco ball, teal banners, flight cases and strings of lights. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 
