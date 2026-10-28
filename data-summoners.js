@@ -49,8 +49,8 @@
       look: "Tall pale vampire with arms flung wide as a swarm of bats peels away from the cloak, a small silver bell in one hand.",
       pal: ["#52358d", "#d9d2f0", "#ff4b6e"], physique: "very tall and thin, a swan neck, a huge bat-wing cloak that doubles the width", size: "medium", move: "flying",
       who: "a gaunt woman in her sixties of Hungarian heritage with a high white widow's peak",
-      w: "tall gaunt vampire with a high collar, a long violet bat-wing cloak, a thin black bodice and boots, a small silver bell in one hand, five small bats peeling off the cloak around her",
-      p: "a ruined bell-loft with a huge cracked bell, rope pulls, stone gargoyles, hanging bat roosts and a broken stained-glass window" });
+      w: "tall gaunt vampire with a tall white crown-swept hairdo and pointed ears, a huge violet bat-wing cloak lined in lavender and edged in crimson shards, a black plunging bodice and thigh-high spiked boots, a silver bell in one hand, the other hand raised, five small black bats with crimson wings circling her",
+      p: "a rainy gothic bell-loft under a pale moon with a huge cracked bell on chains, tall violet stained-glass windows, stone gargoyle statues on plinths, red candle clusters and hanging cage lanterns, a gothic balustrade, torn violet banners and a spire skyline" });
 
   add("were", { summary: "Tiny drill-sergeants who command whole armies of squirrels with a whistle and a stern look.", lore: "The Pack runs on messages, and the quickest messengers have bushy tails." },
     { id: "squirrelcommanders", name: "Squirrel Commanders", icon: "squirrel", tagline: "Fall in. Acorns up.",

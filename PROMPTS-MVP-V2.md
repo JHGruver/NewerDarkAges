@@ -256,7 +256,7 @@ BODY: very tall and thin, a swan neck, a huge bat-wing cloak that doubles the wi
 
 FACE: serene, almost smiling.
 
-COSTUME: tall gaunt vampire with a high collar, a long violet bat-wing cloak, a thin black bodice and boots, a small silver bell in one hand, five small bats peeling off the cloak around her. Signature exaggeration: a huge bat-wing cloak fanned wide into points and an oversized silver bell in one hand.
+COSTUME: tall gaunt vampire with a tall white crown-swept hairdo and pointed ears, a huge violet bat-wing cloak lined in lavender and edged in crimson shards, a black plunging bodice and thigh-high spiked boots, a silver bell in one hand, the other hand raised, five small black bats with crimson wings circling her. Signature exaggeration: a huge bat-wing cloak fanned wide into points and an oversized silver bell in one hand.
 
 POSE: arms flung wide on tiptoe as a swarm of bats peels away from the cloak, the bell held out in one hand. Pose energy: arms flung wide or one hand commanding, small summoned allies bursting out around the figure drawn small and clearly separate, a strong S-curve body. Head turned toward the viewer. The pose must say "summoner" at a glance.
 
@@ -288,7 +288,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a gutted skyscraper rooftop at night: a chandelier wired to car batteries, a dead neon sign, gothic antenna spires, a distant ruined skyline, rain.
 
-Scene props for Belfry Batcallers: a ruined bell-loft with a huge cracked bell, rope pulls, stone gargoyles, hanging bat roosts and a broken stained-glass window. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Belfry Batcallers: a rainy gothic bell-loft under a pale moon with a huge cracked bell on chains, tall violet stained-glass windows, stone gargoyle statues on plinths, red candle clusters and hanging cage lanterns, a gothic balustrade, torn violet banners and a spire skyline. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 
