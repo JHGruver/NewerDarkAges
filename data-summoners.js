@@ -113,8 +113,8 @@
       look: "Fierce woman with an antler crown blowing a carved horn, a fox, an owl, a small panther and a monkey gathered around her.",
       pal: ["#6f2a31", "#f2c14e", "#23b04a"], physique: "tall and lean with wide shoulders, long ropy arms, a huge feathered cloak", size: "medium", move: "agile",
       who: "a fierce woman in her late thirties of Brazilian Amazonian heritage with long braided hair",
-      w: "tall woman with an antler crown and braided hair in a green leaf-cloak and straps, a carved horn at her lips, a fox, an owl, a small panther and a monkey gathered at her feet and shoulders",
-      p: "a rope-bridge canopy village with a giant tree trunk, hanging fruit lamps, vine ladders and a wide leafy clearing" });
+      w: "tall woman with an antler crown and long black braids, a huge maroon-and-gold feather cloak with green leaf trim, a claw-tooth belt and striped boots, a big carved horn at her lips, an owl on her shoulder, a monkey on her back, a black panther and a fox at her feet",
+      p: "a rope-bridge canopy village around a giant tree trunk under a pale moon, thatched treehouses with glowing windows, hanging fruit lamps, maroon banners with a tree sigil, waterfalls, clay pots and a wide wooden clearing" });
 
   add("eldritch", { summary: "Mythos flute-priests who pipe for the blind idiot god and call star-winged things to answer.", lore: "In the Drowned Undercity, a tune with no melody keeps something from waking." },
     { id: "azathothpipers", name: "Azathoth Reed-Priests", icon: "music", tagline: "Please do not stop playing.",

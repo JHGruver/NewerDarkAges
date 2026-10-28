@@ -840,7 +840,7 @@ BODY: tall and lean with wide shoulders, long ropy arms, a huge feathered cloak 
 
 FACE: fierce, delighted.
 
-COSTUME: tall woman with an antler crown and braided hair in a green leaf-cloak and straps, a carved horn at her lips, a fox, an owl, a small panther and a monkey gathered at her feet and shoulders. Signature exaggeration: an enormous feathered cloak, a huge carved horn at the lips and a tall antler crown.
+COSTUME: tall woman with an antler crown and long black braids, a huge maroon-and-gold feather cloak with green leaf trim, a claw-tooth belt and striped boots, a big carved horn at her lips, an owl on her shoulder, a monkey on her back, a black panther and a fox at her feet. Signature exaggeration: an enormous feathered cloak, a huge carved horn at the lips and a tall antler crown.
 
 POSE: striding forward blowing the horn, the animals fanned out around her. Pose energy: arms flung wide or one hand commanding, small summoned allies bursting out around the figure drawn small and clearly separate, a strong S-curve body. Head turned toward the viewer. The pose must say "summoner" at a glance.
 
@@ -872,7 +872,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a drowned suburb overtaken by forest: roots through a server room, mossy satellite dishes, ferns on car roofs, low mist.
 
-Scene props for Canopy Beastmasters: a rope-bridge canopy village with a giant tree trunk, hanging fruit lamps, vine ladders and a wide leafy clearing. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Canopy Beastmasters: a rope-bridge canopy village around a giant tree trunk under a pale moon, thatched treehouses with glowing windows, hanging fruit lamps, maroon banners with a tree sigil, waterfalls, clay pots and a wide wooden clearing. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 
