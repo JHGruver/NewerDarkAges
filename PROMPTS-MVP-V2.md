@@ -778,7 +778,7 @@ BODY: stretched and doll-jointed, arms too long, a tailcoat that ends in splinte
 
 FACE: gleeful, hollow-eyed concentration.
 
-COSTUME: tall skeletal conductor in a magenta tailcoat with bone-white cuffs, a bone baton in one hand, glowing bone-white strings running from his fingers to a crow and a wolf at his feet, their ribs shining through. Signature exaggeration: overlong splayed fingers with glowing strings stretching toward the viewer and a splintered tailcoat.
+COSTUME: tall grinning skeletal conductor in a magenta top hat and tailcoat with bone-white cuffs and a chain at the belt, a bone baton raised in one hand, glowing bone-white strings running from his fingers to a crow and a wolf at his feet, their ribs shining through. Signature exaggeration: overlong splayed fingers with glowing strings stretching toward the viewer and a splintered tailcoat.
 
 POSE: hunched forward, both hands splayed with glowing strings running to a crow and a wolf. Pose energy: arms flung wide or one hand commanding, small summoned allies bursting out around the figure drawn small and clearly separate, a strong S-curve body. Head turned toward the viewer. The pose must say "summoner" at a glance.
 

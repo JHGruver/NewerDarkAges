@@ -100,7 +100,7 @@
       look: "Gaunt skeletal conductor in a tailcoat with glowing strings from his fingertips to a live crow and a live wolf, their bones glowing through the fur.",
       pal: ["#f547ef", "#e8e1c8", "#1f2a44"], physique: "stretched and doll-jointed, arms too long, a tailcoat that ends in splinters", size: "medium", move: "grounded",
       who: "a long, skeletal man of ancient age in a conductor's tailcoat, once a street performer in Cairo",
-      w: "tall skeletal conductor in a magenta tailcoat with bone-white cuffs, a bone baton in one hand, glowing bone-white strings running from his fingers to a crow and a wolf at his feet, their ribs shining through",
+      w: "tall grinning skeletal conductor in a magenta top hat and tailcoat with bone-white cuffs and a chain at the belt, a bone baton raised in one hand, glowing bone-white strings running from his fingers to a crow and a wolf at his feet, their ribs shining through",
       p: "an abandoned puppet theater with a torn velvet curtain, a rigging loft, strings hanging from the ceiling, a stage and a pile of broken marionettes" });
 
   add("forest", { summary: "Wardens who ask the forest for help and get a whole cast of animals, each with a job.", lore: "The Overgrowth was never empty. It was waiting to be asked." },
