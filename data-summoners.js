@@ -74,8 +74,8 @@
       look: "Tall were-beetle half-shifted into beetle armor with wing-cases opening on the back, one cupped hand pouring a swarm of small scarabs.",
       pal: ["#0f7d5a", "#e8b923", "#1a1a1a"], physique: "tall and lean, glossy carapace plates grown over the shoulders and forearms, wing-cases folded on the back", size: "medium", move: "flying",
       who: "a tall lean man in his late twenties of Egyptian heritage mid-shift, with beetle mandibles at the jaw",
-      w: "tall lean were-beetle half-shifted, green-black carapace plates on the shoulders and forearms, golden wing-cases half open on the back, small mandibles at the jaw, a gold scarab pendant and wrapped belt, one cupped hand pouring a swarm of small scarabs",
-      p: "a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound, a rusted gate arch, tall dry grass and a dust haze" });
+      w: "tall lean were-beetle half-shifted, a green beetle-horn crown headdress, a gold scarab pendant, huge green-black carapace shoulder plates, a giant gold-clawed gauntlet, golden wing-cases flared on the back, a white-and-green striped kilt and pants with gold trim, clawed beetle boots, a swarm of green-and-gold scarabs pouring from one hand",
+      p: "a sunlit scrapyard dune under a pale moon with a rusted gate arch with a sun sigil, a half-buried bus body, a spiked dome of scrap, giant curved bone tusks, loudspeaker horns on poles, green and gold banners and tall dry grass" });
 
   add("ghost", { summary: "Dead-line operators who answer calls from places that should be silent, and let what answers climb through.", lore: "The old exchanges never hung up, and neither did what lives in the wire." },
     { id: "seanceoperators", name: "Seance Operators", icon: "ghost", tagline: "Please hold. Something is coming through.",

@@ -430,7 +430,7 @@ BODY: tall and lean, glossy carapace plates grown over the shoulders and forearm
 
 FACE: intense, half-changed.
 
-COSTUME: tall lean were-beetle half-shifted, green-black carapace plates on the shoulders and forearms, golden wing-cases half open on the back, small mandibles at the jaw, a gold scarab pendant and wrapped belt, one cupped hand pouring a swarm of small scarabs. Signature exaggeration: an oversized beetle-plate gauntlet and shoulder, golden wing-cases flared, and a swarm bursting from the cupped hand.
+COSTUME: tall lean were-beetle half-shifted, a green beetle-horn crown headdress, a gold scarab pendant, huge green-black carapace shoulder plates, a giant gold-clawed gauntlet, golden wing-cases flared on the back, a white-and-green striped kilt and pants with gold trim, clawed beetle boots, a swarm of green-and-gold scarabs pouring from one hand. Signature exaggeration: an oversized beetle-plate gauntlet and shoulder, golden wing-cases flared, and a swarm bursting from the cupped hand.
 
 POSE: crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates. Pose energy: arms flung wide or one hand commanding, small summoned allies bursting out around the figure drawn small and clearly separate, a strong S-curve body. Head turned toward the viewer. The pose must say "summoner" at a glance.
 
@@ -462,7 +462,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles.
 
-Scene props for Scarab Shifters: a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound, a rusted gate arch, tall dry grass and a dust haze. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Scarab Shifters: a sunlit scrapyard dune under a pale moon with a rusted gate arch with a sun sigil, a half-buried bus body, a spiked dome of scrap, giant curved bone tusks, loudspeaker horns on poles, green and gold banners and tall dry grass. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 
