@@ -487,7 +487,7 @@ function render() {
   else if (route === "roadmap") html = roadmap();
   else if (route === "art") html = art();
   else if (route === "lore") html = loreView(rest[0]);
-  else if (route === "vote") html = voteView();
+  else if (route === "vote") html = voteView(rest[0]);
   else if (route === "studio") html = studioView(rest[0]);
   else if (route === "team") html = teamView(rest[0]);
   else if (route === "comic") html = comicView(rest[0]);
