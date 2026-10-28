@@ -1186,7 +1186,7 @@ BODY: tall and lanky build. Proportion recipe: medium heroic build: head one six
 
 FACE: cheerful, wide-eyed confidence; the frog looks smug under the hat.
 
-COSTUME: lanky bareheaded human wizard in a patched laboratory robe, messy hair, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly. Signature exaggeration: a giant goo sling-staff aimed toward the viewer, an oversized bandolier of goo jars and a huge floppy frog hat.
+COSTUME: lanky bareheaded human wizard in a patched laboratory robe, messy brown hair and a beard, a green-and-gold robe, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly. Signature exaggeration: a giant goo sling-staff aimed toward the viewer, an oversized bandolier of goo jars and a huge floppy frog hat.
 
 POSE: leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand. Pose energy: a braced aggressive firing or throwing stance, the weapon or throwing arm foreshortened toward the viewer, back arched, the muzzle or throw clearly readable. Head turned toward the viewer. The pose must say "blaster" at a glance.
 
@@ -1218,7 +1218,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow.
 
-Scene props for Sticky Wizards: a flooded alchemy basement with bubbling goo vats, dripping pipes, glued-down furniture and shelves of jars. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Sticky Wizards: a flooded alchemy lab under a violet moon with tall glowing green goo vats, dripping pipes, a shelf of colorful jars, glowing pink mushrooms, a leaning radio-tower spire, waterfalls and lanterns. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 

@@ -9483,7 +9483,7 @@
    "mobility": "agile",
    "expression": "cheerful, wide-eyed confidence; the frog looks smug under the hat",
    "pose": "leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand",
-   "wardrobe": "lanky bareheaded human wizard in a patched laboratory robe, messy hair, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly",
+   "wardrobe": "lanky bareheaded human wizard in a patched laboratory robe, messy brown hair and a beard, a green-and-gold robe, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly",
    "accessories": "Sling-staff; goo-jar bandolier; alchemy satchel; a frog companion wearing the wizard hat",
    "shape": "long straight lines and a bold wedge-shaped weapon",
    "silhouette": "leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand; the Sling-staff and the goo-jar bandolier break the outline so it reads instantly as a black shape",
@@ -9497,9 +9497,9 @@
    "peopleColor": "#6b3fa6",
    "peopleColorName": "Violet",
    "scene": "a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow",
-   "midground": "a flooded alchemy basement with bubbling goo vats, dripping pipes",
-   "foreground": "glued-down furniture and shelves of jars",
-   "bgItems": "a flooded alchemy basement with bubbling goo vats, dripping pipes, glued-down furniture and shelves of jars",
+   "midground": "a flooded alchemy lab under a violet moon with tall glowing green goo vats, dripping pipes, a shelf of colorful jars",
+   "foreground": "glowing pink mushrooms, a leaning radio-tower spire, waterfalls and lanterns",
+   "bgItems": "a flooded alchemy lab under a violet moon with tall glowing green goo vats, dripping pipes, a shelf of colorful jars, glowing pink mushrooms, a leaning radio-tower spire, waterfalls and lanterns",
    "art": {
     "src": "art/v2/magic-stickywizards.png",
     "bg": "art/v2/magic-stickywizards-bg.jpg"

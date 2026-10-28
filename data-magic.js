@@ -109,8 +109,8 @@ Object.assign(ART_SPEC, {
   "p": "a duel ring on a rooftop with a bank of tall capacitors, a coil tower arcing lightning and rubber safety mats"
  },
  "stickywizards": {
-  "w": "lanky bareheaded human wizard in a patched laboratory robe, messy hair, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly",
-  "p": "a flooded alchemy basement with bubbling goo vats, dripping pipes, glued-down furniture and shelves of jars"
+  "w": "lanky bareheaded human wizard in a patched laboratory robe, messy brown hair and a beard, a green-and-gold robe, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly",
+  "p": "a flooded alchemy lab under a violet moon with tall glowing green goo vats, dripping pipes, a shelf of colorful jars, glowing pink mushrooms, a leaning radio-tower spire, waterfalls and lanterns"
  },
  "sporecoven": {
   "w": "tall sturdy man with red dreadlocks and a beard, a leaf-and-mushroom shawl, a vine-wrapped cane in one hand, a basket of glowing spore jars at the hip and the other hand conjuring pink spore smoke; at his feet a large pet snail with a spiral shell, a tiny white chef hat, a glowing mushroom and a spatula on its shell",

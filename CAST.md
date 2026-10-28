@@ -10045,7 +10045,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | tall and lanky; medium size; mobility: agile |
 | Ethnicity + nationality | Dutch-Indonesian heritage, Dutch (the wizard); frog (the companion) |
 | Identity | Sticky Wizard (created by Mike Mears): a lanky, hatless male wizard in his thirties with messy hair and a playful, capable manner, and at his feet a small round frog wearing the wizard hat |
-| Wardrobe | lanky bareheaded human wizard in a patched laboratory robe, messy hair, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly |
+| Wardrobe | lanky bareheaded human wizard in a patched laboratory robe, messy brown hair and a beard, a green-and-gold robe, a bandolier of goo jars across the chest, a sling-staff aimed mid-shot and a confident grin; at his feet a small round green frog wearing a floppy oversized pointed wizard hat, looking up proudly |
 | Accessories | Sling-staff; goo-jar bandolier; alchemy satchel; a frog companion wearing the wizard hat |
 | Pose | leaning into a sling-shot of goo, the hatless wizard mid-stride while the frog at his feet holds its hat on with one hand |
 | Facial expression | cheerful, wide-eyed confidence; the frog looks smug under the hat |
@@ -10077,9 +10077,9 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
 | Colors | wash #6b3fa6 (about 65%); accents #0de609 / #ffd23f / #ff6b9d (about 20%) |
-| Midground | a flooded alchemy basement with bubbling goo vats, dripping pipes |
-| Foreground | glued-down furniture and shelves of jars |
-| Character-relevant items | a flooded alchemy basement with bubbling goo vats, dripping pipes, glued-down furniture and shelves of jars |
+| Midground | a flooded alchemy lab under a violet moon with tall glowing green goo vats, dripping pipes, a shelf of colorful jars |
+| Foreground | glowing pink mushrooms, a leaning radio-tower spire, waterfalls and lanterns |
+| Character-relevant items | a flooded alchemy lab under a violet moon with tall glowing green goo vats, dripping pipes, a shelf of colorful jars, glowing pink mushrooms, a leaning radio-tower spire, waterfalls and lanterns |
 
 **Character prompt**
 
