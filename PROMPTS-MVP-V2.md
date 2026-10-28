@@ -1276,7 +1276,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow.
 
-Scene props for Spore Coven: a factory floor furred with glowing mycelium, a long table of growing trays, a hanging rack of mushroom caps and old machine hulks. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Spore Coven: a factory floor furred with glowing mushrooms under a violet moon: long tables of growing trays, hanging mushroom-cap bells and a hanging mushroom basket, big pipes dripping green slime, a leaning tower with lit windows, waterfalls and a glowing circle on the floor. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 

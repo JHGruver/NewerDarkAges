@@ -10140,9 +10140,9 @@ Charcoal and ink painting on toned paper, 16:9 landscape, high-contrast black-an
 |---|---|
 | Background | a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow |
 | Colors | wash #6b3fa6 (about 65%); accents #d0e2a3 / #2f6f4f / #ffb4a2 (about 20%) |
-| Midground | a factory floor furred with glowing mycelium, a long table of growing trays |
-| Foreground | a hanging rack of mushroom caps and old machine hulks |
-| Character-relevant items | a factory floor furred with glowing mycelium, a long table of growing trays, a hanging rack of mushroom caps and old machine hulks |
+| Midground | a factory floor furred with glowing mushrooms under a violet moon: long tables of growing trays, hanging mushroom-cap bells and a hanging mushroom basket, big pipes dripping green slime |
+| Foreground | a leaning tower with lit windows, waterfalls and a glowing circle on the floor |
+| Character-relevant items | a factory floor furred with glowing mushrooms under a violet moon: long tables of growing trays, hanging mushroom-cap bells and a hanging mushroom basket, big pipes dripping green slime, a leaning tower with lit windows, waterfalls and a glowing circle on the floor |
 
 **Character prompt**
 

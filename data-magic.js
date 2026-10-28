@@ -114,7 +114,7 @@ Object.assign(ART_SPEC, {
  },
  "sporecoven": {
   "w": "tall sturdy man with red dreadlocks and a beard, a leaf-and-mushroom shawl, a vine-wrapped cane in one hand, a basket of glowing spore jars at the hip and the other hand conjuring pink spore smoke; at his feet a large pet snail with a spiral shell, a tiny white chef hat, a glowing mushroom and a spatula on its shell",
-  "p": "a factory floor furred with glowing mycelium, a long table of growing trays, a hanging rack of mushroom caps and old machine hulks"
+  "p": "a factory floor furred with glowing mushrooms under a violet moon: long tables of growing trays, hanging mushroom-cap bells and a hanging mushroom basket, big pipes dripping green slime, a leaning tower with lit windows, waterfalls and a glowing circle on the floor"
  },
  "scraphexwitches": {
   "w": "woman in a layered shawl and headscarf, a bent antenna wand in one hand and a battered hex radio on a strap, curse tapes tucked in a bandolier",

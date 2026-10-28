@@ -9562,9 +9562,9 @@
    "peopleColor": "#6b3fa6",
    "peopleColorName": "Violet",
    "scene": "a ruined broadcast-and-ritual precinct: a leaning radio-tower observatory, a mushroom-furred factory floor, a chalk summoning circle on cracked concrete, a broken substation, drifting arcane glow",
-   "midground": "a factory floor furred with glowing mycelium, a long table of growing trays",
-   "foreground": "a hanging rack of mushroom caps and old machine hulks",
-   "bgItems": "a factory floor furred with glowing mycelium, a long table of growing trays, a hanging rack of mushroom caps and old machine hulks",
+   "midground": "a factory floor furred with glowing mushrooms under a violet moon: long tables of growing trays, hanging mushroom-cap bells and a hanging mushroom basket, big pipes dripping green slime",
+   "foreground": "a leaning tower with lit windows, waterfalls and a glowing circle on the floor",
+   "bgItems": "a factory floor furred with glowing mushrooms under a violet moon: long tables of growing trays, hanging mushroom-cap bells and a hanging mushroom basket, big pipes dripping green slime, a leaning tower with lit windows, waterfalls and a glowing circle on the floor",
    "art": {
     "src": "art/v2/magic-sporecoven.png",
     "bg": "art/v2/magic-sporecoven-bg.jpg"
