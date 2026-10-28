@@ -1596,3 +1596,12 @@ body.pi-hasdock .pi { padding-bottom: 110px; }
 @media (max-width: 760px) { .pi-dock > div { grid-template-columns: 1fr; } .pi-who { display: none; } .pi-big { grid-template-columns: 1fr 1fr 1fr; } .pi-bar { top: 56px; } }
 
 .mv-st.bgok { top: auto; bottom: 0; left: 0; right: auto; background: #3fbf7a; color: #04180d; }
+
+/* MVP gallery: 24 tiles always fill complete rows (24 divides by 8, 6, 4, 3 and 2). A single people shows its three in one row. */
+body[data-ed="mvp"] .gmix.mvpgrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 520px) { body[data-ed="mvp"] .gmix.mvpgrid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (min-width: 820px) { body[data-ed="mvp"] .gmix.mvpgrid { grid-template-columns: repeat(6, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { body[data-ed="mvp"] .gmix.mvpgrid { grid-template-columns: repeat(8, minmax(0, 1fr)); } }
+body[data-ed="mvp"] .gmix.mvpgrid[data-n="3"] { grid-template-columns: repeat(3, minmax(0, 1fr)); max-width: 640px; }
+.open-slot .gframe { display: grid; place-items: center; background: repeating-linear-gradient(135deg, rgba(255, 255, 255, .04) 0 8px, transparent 8px 16px); border: 2px dashed var(--p); }
+.osq { font-family: var(--head); font-size: 4.5rem; color: var(--p2); opacity: .55; }

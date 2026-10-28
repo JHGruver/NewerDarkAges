@@ -235,6 +235,11 @@ const mixed = (chars) => {
   return [...chars].sort((x, y) => mixOrder.indexOf(x.l.id) - mixOrder.indexOf(y.l.id));
 };
 
+// MVP edition: the two undecided slots show as tiles so the grid is a full 24 and never leaves an orphan
+const openTiles = () => !(window.MVP && EDITION === "mvp") ? [] : Object.entries(MVP.picks).flatMap(([pid, l]) => l.filter((p) => p.tbd).map((p) => ({ g: GROUPS.find((x) => x.id === pid), p }))).filter((x) => x.g);
+const openTile = ({ g, p }, i) => `<a class="gc pending open-slot" style="${pv(g)};--c1:${g.color2};--c2:#f2efe6;--c3:#fff;--i:${i}" href="#/vote/mvp" title="${esc(p.tbd)}">
+  <span class="gframe"><span class="osq">?</span><i class="v1tag">Open slot</i></span>
+  <span class="gtrio"><i style="background:${g.color}"></i></span><span class="cn">${esc(p.tbd)}</span><span class="cs">${esc(SHORT[g.id])} · to be decided</span></a>`;
 function gcard(c, i = 0) {
   const art = NODE_ART[c.l.id];
   return `
@@ -266,6 +271,7 @@ function gallery() {
   const emptyMsg = `<div class="empty"><img class="empty-art" src="${SITE_ART}empty-state.png" alt="">No characters match these filters. <button class="linkbtn" data-status="any">Show any status</button></div>`;
   let body;
   if (!shown.length) body = emptyMsg;
+  else if (EDITION === "mvp") { const base = galleryFilter ? shown : chars, ops = openTiles().filter((o) => !galleryFilter || o.g.id === galleryFilter); body = `<div class="gmix mvpgrid" data-n="${base.length + ops.length}">${(galleryFilter ? base : mixed(base)).map((c, i) => gcard(c, i)).join("")}${ops.map((o, i) => openTile(o, base.length + i)).join("")}</div>`; }
   else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map((c, i) => gcard(c, i)).join("")}</div>`;
   else body = `
     <section class="gsec" style="${pv(fg)}">
@@ -279,7 +285,7 @@ function gallery() {
     <div class="gal-right">${viewSwitch("vertical")}<div class="gal-note">${galleryFilter ? `Showing ${esc(fg.name)} · <button class="linkbtn" data-filter="">show everyone</button>` : `${all.length} characters · ${combat} combat, ${all.length - combat} support · ${doneCount} completed`}</div></div>
   </div>
   <div class="filters" role="group" aria-label="Filter by people">${filters}</div>
-  ${roles}
+  ${EDITION === "mvp" ? "" : roles}
   ${body}`;
 }
 
