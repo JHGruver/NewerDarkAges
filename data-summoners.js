@@ -1,14 +1,15 @@
 // SUMMONERS / MINIONMANCERS: a new class in every people, each with one character who calls minions to fight for them.
-//   Human: Ninja Shoguns (ninjas)        Vampire: Belfry Batcallers (bats)       Were-Creature: Squirrel Commanders (a squirrel-kin who commands squirrels)
+//   Human: Ninja Shoguns (ninjas) and Neon Pied Pipers (MVP pick: an 80s synth-flute calls a street crew)       Vampire: Belfry Batcallers (bats)       Were-Creature: Squirrel Commanders (a squirrel-kin who commands squirrels)
 //   Ghost: Seance Operators (demons)     Undead: Marrow Puppeteers (reverse necromancy: they steer the skeletons inside living creatures)
-//   Forest Spirit: Canopy Beastmasters   Eldritch: Azathoth Pipers (Lovecraft: flute-priests who call Byakhee)   Magic: Necromancers
+//   Forest Spirit: Canopy Beastmasters   Eldritch: Azathoth Reed-Priests (flute-priests who call Byakhee; renamed so they are not confused with the human Pied Pipers)   Magic: Necromancers
 // Registers the class, CHAR_META and ART_SPEC. The new TYPE ("summoner") lives in data-types.js. All eight are combat.
 (function () {
   const classOf = (id, intro) => M("summoners", "Summoners", "summon", "Never fight alone.", intro.summary, intro.lore, []);
   const add = (people, intro, ch) => {
-    const g = GROUP_DEFS[people], cls = classOf(people, intro);
+    const g = GROUP_DEFS[people];
+    let cls = g.subs.find((x) => x.id === "summoners");
+    if (!cls) { cls = classOf(people, intro); g.subs.push(cls); }
     cls.subs.push(L(ch.id, ch.name, ch.icon, "combat", ch.tagline, ch.summary, ch.lore, ch.strengths, ch.weaknesses, ch.abilities, ch.gear, ch.look, ch.pal));
-    g.subs.push(cls);
     CHAR_META[ch.id] = { type: "summoner", physique: ch.physique, size: ch.size, move: ch.move, who: ch.who };
     ART_SPEC[ch.id] = { w: ch.w, p: ch.p };
   };
@@ -25,6 +26,18 @@
       who: "a stern man in his fifties of Japanese heritage with a thin mustache",
       w: "stern commander in lacquered crimson armor with a huge crested helmet and a dark cape, a large war fan raised in one hand and an open scroll in the other, three small black-clad ninjas leaping out of the scroll",
       p: "a mountain-fort courtyard with lacquered gates, paper lanterns, a rack of ninja weapons, a banner wall and a stone garden" });
+
+  add("human", {}, { id: "pipedpipers", name: "Neon Pied Pipers", icon: "music", tagline: "Follow the beat.",
+      summary: "Street showmen who play an 80s synth-flute and draw a crew out of the crowd: thieves, brawlers and lookouts who follow the tune wherever it goes.",
+      lore: "In the Dim a working cassette is scripture, and the Pipers are its preachers. They rebuilt a keytar and a flute into one salvaged instrument, and when it plays every drifter, pickpocket and bruiser within earshot falls in step. The Senate calls it busking. The crews call it a contract.",
+      strengths: ["Calls a crew of street thieves or fighters on the beat", "Changes the crew's job by changing the tune"], weaknesses: ["The crew breaks if the tune is interrupted", "Weak alone"],
+      abilities: ["Opening Riff: call a crew of street thieves", "Switch the Tune: the crew becomes brawlers or lookouts", "Drop the Beat: the whole crew strikes in time"],
+      gear: "Synth-flute, neon jacket, shoulder strap, sunglasses, three small summoned street crew",
+      look: "Lanky showman in a neon jacket playing a synth-flute that is half flute, half keytar, three small street-crew figures dancing out of the music.",
+      pal: ["#ff2e93", "#2de2e6", "#1b1035"], physique: "lanky and loose-limbed, huge shoulder pads, a tall teased hairdo", size: "medium", move: "agile",
+      who: "a lanky man in his thirties of Mexican heritage with a tall teased hairdo and sunglasses pushed up on his forehead",
+      w: "lanky showman in a pink neon jacket with huge shoulder pads over a cyan shirt, teal parachute pants and high-top boots, a synth-flute that is half flute and half keytar strapped across his chest, sunglasses pushed up in a teased hairdo, three small street-crew figures (a thief, a brawler, a lookout) dancing out of the music",
+      p: "a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor, graffiti walls, a small stage and strings of lights" });
 
   add("vampire", { summary: "Rooftop lords who rule the night with a colony at their back: the bats see, carry and strike for them.", lore: "In the Static Spires, a vampire's most trusted servants have wings." },
     { id: "batcallers", name: "Belfry Batcallers", icon: "bat", tagline: "The belfry answers.",
@@ -51,6 +64,18 @@
       who: "a small, wiry, bossy squirrel-kin commander",
       w: "small wiry squirrel-kin commander with a huge bushy tail arched behind her, an orange acorn-cap helmet, a yellow sash and a brown harness with an acorn seed pouch, a carved acorn whistle at her lips, one paw pointing forward, standing on a stump while five small acorn-helmeted squirrels charge around it",
       p: "an oak glade at the edge of a scrapyard with acorn caches, rope bridges between branches, a stump parade ground and a pile of hollow logs" });
+
+  add("were", {}, { id: "scarabshifters", name: "Scarab Shifters", icon: "gem", tagline: "The shell opens.",
+      summary: "Were-beetle summoners who morph into beetle forms themselves and pour scarab swarms out of their own armor.",
+      lore: "The scarab-kin of the Scrapwild learned to shift a piece at a time: a carapace for the arms, elytra for flight, mandibles for the bite. The swarms are not summoned so much as released, because every Shifter is hollow in places and the scarabs live in the hollows.",
+      strengths: ["Calls scarab swarms that bite and cover allies", "Morphs partial beetle forms for armor or flight"], weaknesses: ["Swarms scatter from fire", "A full morph leaves the Shifter slow"],
+      abilities: ["Scarab Swarm: release a swarm that bites and distracts", "Carapace Morph: grow beetle armor on the arms and shoulders", "Elytra Flight: open the wing-cases and fly for a turn"],
+      gear: "Scarab pendant, wrap-belt, half-grown carapace plates, a swarm of small summoned scarabs",
+      look: "Tall were-beetle half-shifted into beetle armor with wing-cases opening on the back, one cupped hand pouring a swarm of small scarabs.",
+      pal: ["#0f7d5a", "#e8b923", "#1a1a1a"], physique: "tall and lean, glossy carapace plates grown over the shoulders and forearms, wing-cases folded on the back", size: "medium", move: "flying",
+      who: "a tall lean man in his late twenties of Egyptian heritage mid-shift, with beetle mandibles at the jaw",
+      w: "tall lean were-beetle half-shifted, green-black carapace plates on the shoulders and forearms, golden wing-cases half open on the back, small mandibles at the jaw, a gold scarab pendant and wrapped belt, one cupped hand pouring a swarm of small scarabs",
+      p: "a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound, a rusted gate arch, tall dry grass and a dust haze" });
 
   add("ghost", { summary: "Dead-line operators who answer calls from places that should be silent, and let what answers climb through.", lore: "The old exchanges never hung up, and neither did what lives in the wire." },
     { id: "seanceoperators", name: "Seance Operators", icon: "ghost", tagline: "Please hold. Something is coming through.",
@@ -92,9 +117,9 @@
       p: "a rope-bridge canopy village with a giant tree trunk, hanging fruit lamps, vine ladders and a wide leafy clearing" });
 
   add("eldritch", { summary: "Mythos flute-priests who pipe for the blind idiot god and call star-winged things to answer.", lore: "In the Drowned Undercity, a tune with no melody keeps something from waking." },
-    { id: "azathothpipers", name: "Azathoth Pipers", icon: "music", tagline: "Please do not stop playing.",
+    { id: "azathothpipers", name: "Azathoth Reed-Priests", icon: "music", tagline: "Please do not stop playing.",
       summary: "Mythos flute-priests who pipe for the blind idiot god and call Byakhee: star-winged horrors that ride the notes down from the dark.",
-      lore: "In the old stories the pipers dance in the court of Azathoth, playing a tune with no melody so the god never wakes. The Drowned Undercity found one such flute in the flood, and a few who dared to play it.",
+      lore: "In the old stories the reed-priests dance in the court of Azathoth, playing a tune with no melody so the god never wakes. The Drowned Undercity found one such flute in the flood, and a few who dared to play it.",
       strengths: ["Calls strong flying Byakhee", "The music buffs summoned creatures"], weaknesses: ["Must keep playing to keep them", "Madness: each song costs sanity"],
       abilities: ["The Tune: pipe to call a Byakhee", "Mad Chorus: the Byakhee gain speed and damage while the piper plays", "Silence: stop the music and the Byakhee turn on whoever is closest"],
       gear: "Bone flute, tattered yellow robe, star-chart sash, two Byakhee summoned from the dark",

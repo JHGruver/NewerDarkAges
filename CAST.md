@@ -1,8 +1,8 @@
 # The Newer Dark Ages: Cast Bible
 
-Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
+Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 149 characters across 8 peoples. Also available as a spreadsheet: **CAST.xlsx** (same data, one row per character) and **CAST.json**.
 
-**Gender split:** Male 70, Female 60, Nonbinary 17. **Combat/support:** 120/27. **With final art:** 113.
+**Gender split:** Male 72, Female 60, Nonbinary 17. **Combat/support:** 122/27. **With final art:** 113.
 
 ## Art direction in one screen
 
@@ -25,7 +25,7 @@ Generated from the site data and [ART-DIRECTION.md](ART-DIRECTION.md). 147 chara
 *People color: Gold #d9a521. Background setting: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners.*
 
 **Tagline:** No fangs, no fur. Just chrome, nerve and a very loud stereo.  
-**Classes:** Roadwar Convoys (Interceptors, Outriders, Fuel Zealots); Arcade Clans (Joystick Duelists, Pinball Gunners, Token Brokers); Pirate Radio (Static Jammers, Skyline DJs, Late-Night Hosts); Mall Republic (Riot Marshals, Escalator Lancers, Concierge Diplomats); Summoners (Ninja Shoguns)
+**Classes:** Roadwar Convoys (Interceptors, Outriders, Fuel Zealots); Arcade Clans (Joystick Duelists, Pinball Gunners, Token Brokers); Pirate Radio (Static Jammers, Skyline DJs, Late-Night Hosts); Mall Republic (Riot Marshals, Escalator Lancers, Concierge Diplomats); Summoners (Ninja Shoguns, Neon Pied Pipers)
 
 
 ## Human › Roadwar Convoys
@@ -966,6 +966,78 @@ COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes 
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
+### Neon Pied Pipers  `pipedpipers`
+
+*Follow the beat.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | lanky and loose-limbed, huge shoulder pads, a tall teased hairdo; medium size; mobility: agile |
+| Ethnicity + nationality | Mexican heritage, Mexican |
+| Identity | a lanky man in his thirties of Mexican heritage with a tall teased hairdo and sunglasses pushed up on his forehead |
+| Wardrobe | lanky showman in a pink neon jacket with huge shoulder pads over a cyan shirt, teal parachute pants and high-top boots, a synth-flute that is half flute and half keytar strapped across his chest, sunglasses pushed up in a teased hairdo, three small street-crew figures (a thief, a brawler, a lookout) dancing out of the music |
+| Accessories | Synth-flute; neon jacket; shoulder strap; sunglasses; three small summoned street crew |
+| Pose | striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music |
+| Facial expression | cool, cocky half-smile |
+| People | Human |
+| Class | Summoners |
+| Subclass | Neon Pied Pipers |
+| Type | Summoner |
+| Combat or support | Combat |
+| Silhouette hook | striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music; the Synth-flute and the neon jacket break the outline so it reads instantly as a black shape |
+| Shape language | one big commanding gesture silhouette with several small, clearly separate minion shapes around it |
+| Main color (60%) | #ff2e93: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #2de2e6: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #1b1035: the eyes, the Synth-flute and one small magical detail |
+| Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music.
+2. Few large shapes: one big commanding gesture silhouette with several small, clearly separate minion shapes around it; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Synth-flute and the pose must be visible at 64 px.
+4. Flat colors: #ff2e93 / #2de2e6 / #1b1035 as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Synth-flute and neon jacket and the summoner shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners |
+| Colors | wash #d9a521 (about 65%); accents #ff2e93 / #2de2e6 / #1b1035 (about 20%) |
+| Midground | a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor |
+| Foreground | graffiti walls, a small stage and strings of lights |
+| Character-relevant items | a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor, graffiti walls, a small stage and strings of lights |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Neon Pied Pipers, a lanky man in his thirties of Mexican heritage with a tall teased hairdo and sunglasses pushed up on his forehead, apparent age mid 30s. lanky and loose-limbed, huge shoulder pads, a tall teased hairdo, medium size. Pose: striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music. Expression: cool, cocky half-smile, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Synth-flute. SECOND ITEM, kept plain: neon jacket. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lanky showman in a pink neon jacket with huge shoulder pads over a cyan shirt, teal parachute pants and high-top boots, a synth-flute that is half flute and half keytar strapped across his chest, sunglasses pushed up in a teased hairdo, three small street-crew figures (a thief, a brawler.
+
+SUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #ff2e93 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2de2e6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1b1035 about 10%, on the eyes, the Synth-flute and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Human people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Neon Pied Pipers with no people, creatures, figures, silhouettes or text. Midground: a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor. Foreground: graffiti walls, a small stage and strings of lights, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #ff2e93 for the biggest glowing sources and surfaces, secondary #2de2e6 for medium panels, banners and lights, pop #1b1035 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
 
 ---
 
@@ -1483,7 +1555,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ### Gargoyle Sentries  `gargoyle`
 
-*They don't move. Then they do.*
+*Stone by day. Something else by night.*
 
 **Character**
 
@@ -1493,7 +1565,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | squat and wide with a hunched hump back, huge hands, short legs, stone-slab shoulders; large size; mobility: climbing |
 | Ethnicity + nationality | Romanian heritage, Romanian |
 | Identity | male human |
-| Wardrobe | hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt |
+| Wardrobe | hunched vampire sentinel in a helmeted hood and a heavy wing-cloak, half the body gray carved stone and half pale cracked skin with small bat-wing horns, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt |
 | Accessories | Stone knuckles; ledge-anchors; helmeted hood; wing-cloak |
 | Pose | perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted |
 | Facial expression | grim, heavy-browed |
@@ -1534,7 +1606,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
 CHARACTER: Gargoyle Sentries, male human (Romanian heritage, Romanian), apparent age late 30s. squat and wide with a hunched hump back, huge hands, short legs, stone-slab shoulders, large size. Pose: perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted. Expression: grim, heavy-browed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Stone knuckles. SECOND ITEM, kept plain: ledge-anchors. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Stone knuckles. SECOND ITEM, kept plain: ledge-anchors. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hunched vampire sentinel in a helmeted hood and a heavy wing-cloak, half the body gray carved stone and half pale cracked skin with small bat-wing horns, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #8bb9e5 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff4d6d about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023054 about 10%, on the eyes, the Stone knuckles and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).
@@ -1921,7 +1993,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 *People color: Rust #b4532a. Background setting: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles.*
 
 **Tagline:** Two hearts, one war-band.  
-**Classes:** Canine-kin (Bone-Crusher Juggernauts, Bush Dog Torrent Striders, Wool Dog Dream-Weavers); Arctoidea-kin (Raccoon Mask Bandits, Red Panda Bamboo Monks, Short-Faced Bear Gallopers, Swan-Neck Seal Coil-Strikers, Honey Badger Loose-Hides, Sea Otter Anvil-Smashers, Stink Badger Possum-Gassers); Crocodylia-kin (Purussaurus Death-Rollers, Dwarf Caiman Bone-Plate Scouts, Cuban Crocodile Gallop Vanguard, Armadillosuchus Burrow-Juggernauts, Gharial Sonic Duelists, Herugavialis Tidal Marauders); Rodent-kin (Rodent Hot-Spring Healers, Josephoartigasia Tusk-Breakers, African Crested Rat Poison-Wick Wardens, Castoroides Wetland Overlords, Naked Mole-Rat Hive-Colonists, Giant Flying Squirrel Glide-Strikers); Salamander-kin (Axolotl Regrowth Medics, Giant Salamander Maw Wardens, Olm Dark-Cave Seers, Ribbed Newt Bone-Skirmishers, Hellbender Riverskin Guardians); Avian-kin (Raven Murder Vanguard, Owl Night-Eye Snipers, Albatross Gale Sailors); Cephalopod-kin (Cuttlefish Ink Spies, Squid Tentacle Engineers, Octopus Abyssal Scholars); Crustacea-kin (Mantis Shrimp Punch-Claw Duelists, Lobster Claw-Marshals, Pistol Shrimp Snap-Gunners, Yeti Crab Setae Farmers, Boxer Crab Anemone Brawlers, Remipede Cave-Venom Stalkers, Pram Bug Nursery Pilots); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders)
+**Classes:** Canine-kin (Bone-Crusher Juggernauts, Bush Dog Torrent Striders, Wool Dog Dream-Weavers); Arctoidea-kin (Raccoon Mask Bandits, Red Panda Bamboo Monks, Short-Faced Bear Gallopers, Swan-Neck Seal Coil-Strikers, Honey Badger Loose-Hides, Sea Otter Anvil-Smashers, Stink Badger Possum-Gassers); Crocodylia-kin (Purussaurus Death-Rollers, Dwarf Caiman Bone-Plate Scouts, Cuban Crocodile Gallop Vanguard, Armadillosuchus Burrow-Juggernauts, Gharial Sonic Duelists, Herugavialis Tidal Marauders); Rodent-kin (Rodent Hot-Spring Healers, Josephoartigasia Tusk-Breakers, African Crested Rat Poison-Wick Wardens, Castoroides Wetland Overlords, Naked Mole-Rat Hive-Colonists, Giant Flying Squirrel Glide-Strikers); Salamander-kin (Axolotl Regrowth Medics, Giant Salamander Maw Wardens, Olm Dark-Cave Seers, Ribbed Newt Bone-Skirmishers, Hellbender Riverskin Guardians); Avian-kin (Raven Murder Vanguard, Owl Night-Eye Snipers, Albatross Gale Sailors); Cephalopod-kin (Cuttlefish Ink Spies, Squid Tentacle Engineers, Octopus Abyssal Scholars); Crustacea-kin (Mantis Shrimp Punch-Claw Duelists, Lobster Claw-Marshals, Pistol Shrimp Snap-Gunners, Yeti Crab Setae Farmers, Boxer Crab Anemone Brawlers, Remipede Cave-Venom Stalkers, Pram Bug Nursery Pilots); Moth-kin (Lantern Cultists, Dreamdust Weavers, Signal-Tower Wardens); Pangolin-kin (Plate-Wall Bulwarks, Tunnel Diggers, Curl-Ball Rollers); Spider-kin (Loomweavers, Silkroad Messengers, Dewdrop Dancers); Summoners (Squirrel Commanders, Scarab Shifters)
 
 
 ## Were-Creature › Canine-kin
@@ -5511,6 +5583,78 @@ COLOR (most important): a RUST-washed painting. The people color #b4532a washes 
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```
 
+### Scarab Shifters  `scarabshifters`
+
+*The shell opens.*
+
+**Character**
+
+| Field | Value |
+|---|---|
+| Gender | Male |
+| Physique | tall and lean, glossy carapace plates grown over the shoulders and forearms, wing-cases folded on the back; medium size; mobility: flying |
+| Ethnicity + nationality | Egyptian heritage, Egyptian |
+| Identity | a tall lean man in his late twenties of Egyptian heritage mid-shift, with beetle mandibles at the jaw |
+| Wardrobe | tall lean were-beetle half-shifted, green-black carapace plates on the shoulders and forearms, golden wing-cases half open on the back, small mandibles at the jaw, a gold scarab pendant and wrapped belt, one cupped hand pouring a swarm of small scarabs |
+| Accessories | Scarab pendant; wrap-belt; half-grown carapace plates; a swarm of small summoned scarabs |
+| Pose | crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates |
+| Facial expression | intense, half-changed |
+| People | Were-Creature |
+| Class | Summoners |
+| Subclass | Scarab Shifters |
+| Type | Summoner |
+| Combat or support | Combat |
+| Silhouette hook | crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates; the Scarab pendant and the wrap-belt break the outline so it reads instantly as a black shape |
+| Shape language | one big commanding gesture silhouette with several small, clearly separate minion shapes around it |
+| Main color (60%) | #0f7d5a: the largest garment, armor, fur-marking or body areas |
+| Secondary color (30%) | #e8b923: trim, sash, straps, secondary garment pieces and held gear |
+| Pop color (10%) | #1a1a1a: the eyes, the Scarab pendant and one small magical detail |
+| Natural base tones | Natural skin tones are allowed but must be simplified, flat and muted. |
+| Art status | Not yet generated |
+| Last vet | Not yet generated |
+
+**Samurai Jack check (targets for this character)**
+
+1. Black-fill test: the silhouette must still read as crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates.
+2. Few large shapes: one big commanding gesture silhouette with several small, clearly separate minion shapes around it; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
+3. Thumbnail test: the Scarab pendant and the pose must be visible at 64 px.
+4. Flat colors: #0f7d5a / #e8b923 / #1a1a1a as separate flat shapes divided by black line; no gradients or glow.
+5. Distinctive without detail: identifiable by Scarab pendant and wrap-belt and the summoner shape language.
+
+**Background**
+
+| Field | Value |
+|---|---|
+| Background | a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles |
+| Colors | wash #b4532a (about 65%); accents #0f7d5a / #e8b923 / #1a1a1a (about 20%) |
+| Midground | a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound |
+| Foreground | a rusted gate arch, tall dry grass and a dust haze |
+| Character-relevant items | a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound, a rusted gate arch, tall dry grass and a dust haze |
+
+**Character prompt**
+
+```text
+An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
+CHARACTER: Scarab Shifters, a tall lean man in his late twenties of Egyptian heritage mid-shift, with beetle mandibles at the jaw, apparent age late 20s. tall and lean, glossy carapace plates grown over the shoulders and forearms, wing-cases folded on the back, medium size. Pose: crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates. Expression: intense, half-changed, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Scarab pendant. SECOND ITEM, kept plain: wrap-belt. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall lean were-beetle half-shifted, green-black carapace plates on the shoulders and forearms, golden wing-cases half open on the back, small mandibles at the jaw, a gold scarab pendant and wrapped belt, one cupped hand pouring a swarm of small scarabs.
+
+SUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.
+HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
+COLOR (exact hex, flat fills): main #0f7d5a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8b923 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1a1a1a about 10%, on the eyes, the Scarab pendant and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).
+NEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.
+SELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.
+COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.
+```
+
+**Background prompt**
+
+```text
+Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
+SCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Scarab Shifters with no people, creatures, figures, silhouettes or text. Midground: a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound. Foreground: a rusted gate arch, tall dry grass and a dust haze, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+COLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #0f7d5a for the biggest glowing sources and surfaces, secondary #e8b923 for medium panels, banners and lights, pop #1a1a1a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
+COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
+```
+
 
 ---
 
@@ -8362,7 +8506,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 *People color: Abyss #0b7a75. Background setting: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls.*
 
 **Tagline:** Not from here. Not from now. Armed anyway.  
-**Classes:** Deep Ones (Tidecall Priests, Coralbone Sentinels, Pearl-Eyed Oracles); Mi-Go (Braincase Surgeons, Etherwing Navigators, Signal-Hive Engineers); Shoggoths (Many-Maw Devourers, Mimic-Flesh Infiltrators, Memory-Mass Archivists); Elder Things (Starstone Architects, Fossil-Script Historians, Wingfold Wardens); Nightgaunts (Dream-Snatchers, Voidwing Scouts, Nightmare Shepherds); Hounds of Tindalos (Corner-Stalkers, Time-Scent Trackers, Fracture-Jaw Reapers); Summoners (Azathoth Pipers)
+**Classes:** Deep Ones (Tidecall Priests, Coralbone Sentinels, Pearl-Eyed Oracles); Mi-Go (Braincase Surgeons, Etherwing Navigators, Signal-Hive Engineers); Shoggoths (Many-Maw Devourers, Mimic-Flesh Infiltrators, Memory-Mass Archivists); Elder Things (Starstone Architects, Fossil-Script Historians, Wingfold Wardens); Nightgaunts (Dream-Snatchers, Voidwing Scouts, Nightmare Shepherds); Hounds of Tindalos (Corner-Stalkers, Time-Scent Trackers, Fracture-Jaw Reapers); Summoners (Azathoth Reed-Priests)
 
 
 ## Eldritch › Deep Ones
@@ -9663,7 +9807,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ## Eldritch › Summoners
 
-### Azathoth Pipers  `azathothpipers`
+### Azathoth Reed-Priests  `azathothpipers`
 
 *Please do not stop playing.*
 
@@ -9673,7 +9817,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 |---|---|
 | Gender | Nonbinary |
 | Physique | tall, narrow and swaying, spindly legs, an overlong neck bent toward the flute; medium size; mobility: grounded |
-| Ethnicity + nationality | Unknown (flute-priest of the Drowned Undercity) |
+| Ethnicity + nationality | Unknown (reed-priest of the Drowned Undercity) |
 | Identity | a thin, masked figure of unknowable age and gender, a flute-priest of the Drowned Undercity |
 | Wardrobe | thin masked flute-priest in a tattered yellow hooded robe with a star-chart sash, a long bone flute at the mouth, two small bat-winged many-eyed Byakhee circling overhead |
 | Accessories | Bone flute; tattered yellow robe; star-chart sash; two Byakhee summoned from the dark |
@@ -9681,7 +9825,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Facial expression | none, a blank cloth mask |
 | People | Eldritch |
 | Class | Summoners |
-| Subclass | Azathoth Pipers |
+| Subclass | Azathoth Reed-Priests |
 | Type | Summoner |
 | Combat or support | Combat |
 | Silhouette hook | swaying in a twisting stance with the flute at the mouth as two Byakhee spiral overhead; the Bone flute and the tattered yellow robe break the outline so it reads instantly as a black shape |
@@ -9715,7 +9859,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: a blind cosmic idol god Pipers, a thin, masked figure of unknowable age and gender, a flute-priest of the Drowned Undercity, apparent age mid 30s. tall, narrow and swaying, spindly legs, an overlong neck bent toward the flute, medium size. Pose: swaying in a twisting stance with the flute at the mouth as two bat-winged many-eyed star-steeds spiral overhead. Expression: none, a blank cloth mask, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
+CHARACTER: a blind cosmic idol god Reed-Priests, a thin, masked figure of unknowable age and gender, a flute-priest of the Drowned Undercity, apparent age mid 30s. tall, narrow and swaying, spindly legs, an overlong neck bent toward the flute, medium size. Pose: swaying in a twisting stance with the flute at the mouth as two bat-winged many-eyed star-steeds spiral overhead. Expression: none, a blank cloth mask, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.
 SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bone flute. SECOND ITEM, kept plain: tattered yellow robe. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: thin masked flute-priest in a tattered yellow hooded robe with a star-chart sash, a long bone flute at the mouth, two small bat-winged many-eyed bat-winged many-eyed star-steeds circling overhead.
 
 SUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.
@@ -9730,7 +9874,7 @@ COMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, c
 
 ```text
 Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.
-SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for a blind cosmic idol god Pipers with no people, creatures, figures, silhouettes or text. Midground: a drowned cathedral plaza with a cracked star-chart floor, broken columns. Foreground: a pool of black water, a ring of unlit candle stands and a distant dark void, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
+SCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for a blind cosmic idol god Reed-Priests with no people, creatures, figures, silhouettes or text. Midground: a drowned cathedral plaza with a cracked star-chart floor, broken columns. Foreground: a pool of black water, a ring of unlit candle stands and a distant dark void, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.
 COLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #caca72 for the biggest glowing sources and surfaces, secondary #3b1f5e for medium panels, banners and lights, pop #e83d84 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.
 COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.
 ```

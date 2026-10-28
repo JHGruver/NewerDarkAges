@@ -21,10 +21,11 @@
   }
 
   window.voteView = function (t) {
+    if (t === "mvp") return window.voteHead("mvp") + window.mvpView();
     if (t !== "deck") return window.resultsView();
     const { esc, GROUPS, crest } = H();
     const counts = (g) => all().filter((c) => c.g.id === g).length;
-    return `<div class="page-head"><div class="title"><div class="eyebrow">Help shape the roster</div><h1>Character vote</h1></div><div class="rs-go"><a class="btn ghost" href="#/vote">← See the results</a></div></div>
+    return `${window.voteHead("deck")}
     <div id="vote" class="vote">
       <section class="v-start panel" id="v-start">
         <h2>Swipe through the cast</h2>
@@ -55,6 +56,7 @@
   };
 
   window.voteInit = function () {
+    if (document.getElementById("mv")) return window.mvpInit();
     if (!document.getElementById("v-start")) return window.resultsInit();
     const { esc, poster, cv, NODE_ART, GROUPS } = H();
     const $ = (s) => document.querySelector(s);

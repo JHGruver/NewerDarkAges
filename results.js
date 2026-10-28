@@ -65,8 +65,8 @@
 
   function mvp(D, rs) {
     const P = picks(rs), { NODE_ART } = H();
-    return `<h2 class="lh">The MVP: two per people</h2>
-      <p class="muted rs-how">How the picks are made: highest combined score across every voter first, then characters nobody disliked, then characters whose art is finished. The second pick takes a different type than the first when an equal-scoring one exists, so each people shows two different jobs. Add a voter below and this recalculates.</p>
+    return `<h2 class="lh">What the vote suggests: two per people</h2>
+      <p class="muted rs-how">How the picks are made: highest combined score across every voter first, then characters nobody disliked, then characters whose art is finished. The second pick takes a different type than the first when an equal-scoring one exists, so each people shows two different jobs. This is the vote's own answer. The roster Jacob and Mike actually chose is on the <a href="#/vote/mvp">MVP tab</a>. Add a voter below and this recalculates.</p>
       <div class="rs-mvp">${H().GROUPS.map((g) => { const p = P[g.id]; if (!p) return ""; const [a, b] = p.picks;
         const card = (r, other, k) => { const art = NODE_ART[r.id]; return `<a class="rs-pick" href="#/characters/${r.path.join("/")}" style="--pc:${g.color}">
           <span class="rs-art">${art ? `<img src="${art.src}" alt="${esc(r.name)}" loading="lazy">` : H().poster(g, r.l, "")}<i class="rs-rank">${k}</i>${art ? "" : '<em class="rs-noart">Art to make</em>'}</span>
@@ -127,10 +127,16 @@
       <div class="v-actions"><label class="btn ghost rs-file">Add a spreadsheet<input type="file" id="rs-file" accept=".xlsx,.csv"></label>${extra.voters.length ? '<button class="btn ghost" id="rs-clear">Remove added voters</button>' : ""}</div><p class="small" id="rs-msg"></p></section>`;
   }
 
+  // the three tabs shared by the report, the voting deck and the MVP page
+  window.voteHead = function (active) {
+    const T = [["report", "Report", "#/vote"], ["deck", "Voting interface", "#/vote/deck"], ["mvp", "MVP", "#/vote/mvp"]];
+    return `<div class="page-head"><div class="title"><div class="eyebrow">Character vote</div><h1>${active === "mvp" ? "The MVP roster" : active === "deck" ? "Cast your votes" : "Results"}</h1></div></div>
+      <nav class="st-tabs" role="tablist" aria-label="Vote sections">${T.map((t) => `<a role="tab" class="st-tab${t[0] === active ? " on" : ""}" href="${t[2]}" aria-selected="${t[0] === active}"><span>${t[1]}</span></a>`).join("")}</nav>`;
+  };
   window.resultsView = function () {
     loadExtra();
     const D = dataset(), rs = rows(D);
-    return `<div class="page-head"><div class="title"><div class="eyebrow">Character vote</div><h1>Results</h1></div><div class="rs-go"><a class="btn" href="#/vote/deck">Cast your own votes →</a></div></div>
+    return `${window.voteHead("report")}
       <div class="rs" id="rs">${rs.length ? head(D, rs) + mvp(D, rs) + byPeople(D, rs) + matrix(D, rs) + splits(D, rs) + comments(D) + `<div id="rs-table">${table(D, rs)}</div>` + addVoter() : `<p class="muted">No votes loaded yet.</p>` + addVoter()}</div>`;
   };
 

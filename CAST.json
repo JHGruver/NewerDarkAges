@@ -1419,6 +1419,68 @@
   },
   {
    "nda": "014",
+   "age": "mid 30s",
+   "poseFamily": "STRIDE",
+   "id": "pipedpipers",
+   "name": "Neon Pied Pipers",
+   "tagline": "Follow the beat.",
+   "people": "Human",
+   "peopleId": "human",
+   "cls": "Summoners",
+   "subclass": "Neon Pied Pipers",
+   "role": "Combat",
+   "type": "Summoner",
+   "typeKey": "summoner",
+   "gender": "Male",
+   "ethnicity": "Mexican heritage, Mexican",
+   "identity": "a lanky man in his thirties of Mexican heritage with a tall teased hairdo and sunglasses pushed up on his forehead",
+   "physique": "lanky and loose-limbed, huge shoulder pads, a tall teased hairdo",
+   "size": "medium",
+   "mobility": "agile",
+   "expression": "cool, cocky half-smile",
+   "pose": "striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music",
+   "wardrobe": "lanky showman in a pink neon jacket with huge shoulder pads over a cyan shirt, teal parachute pants and high-top boots, a synth-flute that is half flute and half keytar strapped across his chest, sunglasses pushed up in a teased hairdo, three small street-crew figures (a thief, a brawler, a lookout) dancing out of the music",
+   "accessories": "Synth-flute; neon jacket; shoulder strap; sunglasses; three small summoned street crew",
+   "shape": "one big commanding gesture silhouette with several small, clearly separate minion shapes around it",
+   "silhouette": "striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music; the Synth-flute and the neon jacket break the outline so it reads instantly as a black shape",
+   "main": "#ff2e93",
+   "secondary": "#2de2e6",
+   "pop": "#1b1035",
+   "mainUse": "the largest garment, armor, fur-marking or body areas",
+   "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
+   "popUse": "the eyes, the Synth-flute and one small magical detail",
+   "baseTones": "Natural skin tones are allowed but must be simplified, flat and muted.",
+   "peopleColor": "#d9a521",
+   "peopleColorName": "Gold",
+   "scene": "a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners",
+   "midground": "a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor",
+   "foreground": "graffiti walls, a small stage and strings of lights",
+   "bgItems": "a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor, graffiti walls, a small stage and strings of lights",
+   "art": null,
+   "look": "Lanky showman in a neon jacket playing a synth-flute that is half flute, half keytar, three small street-crew figures dancing out of the music.",
+   "summary": "Street showmen who play an 80s synth-flute and draw a crew out of the crowd: thieves, brawlers and lookouts who follow the tune wherever it goes.",
+   "lore": "In the Dim a working cassette is scripture, and the Pipers are its preachers. They rebuilt a keytar and a flute into one salvaged instrument, and when it plays every drifter, pickpocket and bruiser within earshot falls in step. The Senate calls it busking. The crews call it a contract.",
+   "abilities": "Opening Riff: call a crew of street thieves\nSwitch the Tune: the crew becomes brawlers or lookouts\nDrop the Beat: the whole crew strikes in time",
+   "strengths": "Calls a crew of street thieves or fighters on the beat; Changes the crew's job by changing the tune",
+   "weaknesses": "The crew breaks if the tune is interrupted; Weak alone",
+   "companion": "",
+   "lorePlace": "The Dim: The Shogun houses: hereditary war-lords who keep a ninja clan on call. The Senate pretends not to know them and borrows them often.",
+   "nameOnSheet": "Neon Pied Pipers",
+   "fileChar": "art/v2/human-pipedpipers.png",
+   "fileBg": "art/v2/human-pipedpipers-bg.jpg",
+   "jack": [
+    "Black-fill test: the silhouette must still read as striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music.",
+    "Few large shapes: one big commanding gesture silhouette with several small, clearly separate minion shapes around it; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
+    "Thumbnail test: the Synth-flute and the pose must be visible at 64 px.",
+    "Flat colors: #ff2e93 / #2de2e6 / #1b1035 as separate flat shapes divided by black line; no gradients or glow.",
+    "Distinctive without detail: identifiable by Synth-flute and neon jacket and the summoner shape language."
+   ],
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Neon Pied Pipers, a lanky man in his thirties of Mexican heritage with a tall teased hairdo and sunglasses pushed up on his forehead, apparent age mid 30s. lanky and loose-limbed, huge shoulder pads, a tall teased hairdo, medium size. Pose: striding forward mid-riff with the synth-flute held out as three small crew members dance out of the music. Expression: cool, cocky half-smile, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Synth-flute. SECOND ITEM, kept plain: neon jacket. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: lanky showman in a pink neon jacket with huge shoulder pads over a cyan shirt, teal parachute pants and high-top boots, a synth-flute that is half flute and half keytar strapped across his chest, sunglasses pushed up in a teased hairdo, three small street-crew figures (a thief, a brawler.\n\nSUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #ff2e93 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #2de2e6 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1b1035 about 10%, on the eyes, the Synth-flute and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Human people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a barricaded highway-overpass settlement: stacked shipping containers, riveted gates, a tall radio mast, sodium street lamps, rain-slick asphalt, tarp banners. An empty environment for Neon Pied Pipers with no people, creatures, figures, silhouettes or text. Midground: a neon-lit abandoned mall arcade with a pile of boomboxes, a roller-rink floor. Foreground: graffiti walls, a small stage and strings of lights, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a GOLD-washed painting. The people color #d9a521 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #ff2e93 for the biggest glowing sources and surfaces, secondary #2de2e6 for medium panels, banners and lights, pop #1b1035 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "vet": null
+  },
+  {
+   "nda": "015",
    "age": "early 40s",
    "poseFamily": "TWIST",
    "id": "razordandies",
@@ -1480,7 +1542,7 @@
    "vet": null
   },
   {
-   "nda": "015",
+   "nda": "016",
    "age": "early 30s",
    "poseFamily": "SPIN",
    "id": "mirrorball",
@@ -1542,7 +1604,7 @@
    "vet": null
   },
   {
-   "nda": "016",
+   "nda": "017",
    "age": "mid 50s",
    "poseFamily": "STOOP",
    "id": "chaperones",
@@ -1604,7 +1666,7 @@
    "vet": null
   },
   {
-   "nda": "017",
+   "nda": "018",
    "age": "early 20s",
    "poseFamily": "LEAP",
    "id": "strobeblades",
@@ -1666,7 +1728,7 @@
    "vet": null
   },
   {
-   "nda": "018",
+   "nda": "019",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "bassline",
@@ -1728,7 +1790,7 @@
    "vet": null
   },
   {
-   "nda": "019",
+   "nda": "020",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "viphosts",
@@ -1790,7 +1852,7 @@
    "vet": null
   },
   {
-   "nda": "020",
+   "nda": "021",
    "age": "late 30s",
    "poseFamily": "CROUCH",
    "id": "owlwings",
@@ -1855,12 +1917,12 @@
    "vet": null
   },
   {
-   "nda": "021",
+   "nda": "022",
    "age": "late 30s",
    "poseFamily": "CRAWL",
    "id": "gargoyle",
    "name": "Gargoyle Sentries",
-   "tagline": "They don't move. Then they do.",
+   "tagline": "Stone by day. Something else by night.",
    "people": "Vampire",
    "peopleId": "vampire",
    "cls": "Night Watch",
@@ -1876,7 +1938,7 @@
    "mobility": "climbing",
    "expression": "grim, heavy-browed",
    "pose": "perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted",
-   "wardrobe": "hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt",
+   "wardrobe": "hunched vampire sentinel in a helmeted hood and a heavy wing-cloak, half the body gray carved stone and half pale cracked skin with small bat-wing horns, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt",
    "accessories": "Stone knuckles; ledge-anchors; helmeted hood; wing-cloak",
    "shape": "wide blocky rectangles and a big shield shape",
    "silhouette": "perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted; the Stone knuckles and the ledge-anchors break the outline so it reads instantly as a black shape",
@@ -1894,12 +1956,12 @@
    "foreground": "a clock tower, a crane arm",
    "bgItems": "a gothic ledge of a skyscraper roof with stone gargoyle statues, a stone parapet, rain gutters, a clock tower, a crane arm",
    "art": null,
-   "look": "Hunched, stone-skinned sentinel perched on a ledge, wings folded like a cloak, fists the size of boulders.",
-   "summary": "Stone-skinned sentinels who sit motionless on ledges for days. Gargoyle Sentries drop onto a target with hardened skin and crushing fists.",
-   "lore": "Their skin hardens when they stand still. A sleeping Sentry looks exactly like a statue and weighs twice as much.",
-   "abilities": "Stone Skin: gain heavy armor while still\nDrop Strike: heavy damage from above\nStatue Stance: ignore all damage for one turn",
-   "strengths": "Extreme armor when still; Heavy drop attacks",
-   "weaknesses": "Slow to move; Weak while moving",
+   "look": "Hunched sentinel perched on a ledge, wings folded like a cloak, half of the body gray stone cracking open to pale vampire skin, fists the size of boulders.",
+   "summary": "Sentinels who freeze into statues in daylight and wake at night in any shape from almost human to fully monstrous. Gargoyle Sentries hold a ledge as stone, then drop on a target as the night takes them.",
+   "lore": "In the sun a Sentry is a statue that weighs twice as much. At dusk the stone cracks, and what climbs out is a man, or a winged beast, or anything between, depending on how deep the night is.",
+   "abilities": "Stone Skin: gain heavy armor while still\nNight Shift: change between humanoid, winged and monstrous forms\nDrop Strike: heavy damage from above",
+   "strengths": "Near-immune armor in stone form; Grows stronger and more monstrous as the night deepens",
+   "weaknesses": "Helpless-looking and slow in stone form; Daylight locks them back into stone",
    "companion": "",
    "lorePlace": "The Static Spires: Rooftop guards who patrol the borders and enforce the treaty line.",
    "nameOnSheet": "Gargoyle Sentries",
@@ -1912,12 +1974,12 @@
     "Flat colors: #8bb9e5 / #ff4d6d / #023054 as separate flat shapes divided by black line; no gradients or glow.",
     "Distinctive without detail: identifiable by Stone knuckles and ledge-anchors and the tank shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Gargoyle Sentries, male human (Romanian heritage, Romanian), apparent age late 30s. squat and wide with a hunched hump back, huge hands, short legs, stone-slab shoulders, large size. Pose: perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted. Expression: grim, heavy-browed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Stone knuckles. SECOND ITEM, kept plain: ledge-anchors. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hunched stone-skinned vampire sentinel in a helmeted hood and a heavy wing-cloak, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #8bb9e5 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff4d6d about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023054 about 10%, on the eyes, the Stone knuckles and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Vampire people, mature dark-age tone, no nudity, no gore.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Gargoyle Sentries, male human (Romanian heritage, Romanian), apparent age late 30s. squat and wide with a hunched hump back, huge hands, short legs, stone-slab shoulders, large size. Pose: perched on all fours on a ledge edge, the wings folded like a cloak, the head thrust forward, the fists planted. Expression: grim, heavy-browed, as a minimal face. Design the silhouette first (wide blocky rectangles and a big shield shape); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Stone knuckles. SECOND ITEM, kept plain: ledge-anchors. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: hunched vampire sentinel in a helmeted hood and a heavy wing-cloak, half the body gray carved stone and half pale cracked skin with small bat-wing horns, huge stone-knuckled fists planted on the ground, ledge-anchors on the belt.\n\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #8bb9e5 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #ff4d6d about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #023054 about 10%, on the eyes, the Stone knuckles and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #16161c (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Tank, combat, Vampire people, mature dark-age tone, no nudity, no gore.",
    "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a gutted skyscraper rooftop at night: a chandelier wired to car batteries, a dead neon sign, gothic antenna spires, a distant ruined skyline, rain. An empty environment for Gargoyle Sentries with no people, creatures, figures, silhouettes or text. Midground: a gothic ledge of a skyscraper roof with stone gargoyle statues, a stone parapet, rain gutters. Foreground: a clock tower, a crane arm, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a BLACK-washed painting. The people color #16161c washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #8bb9e5 for the biggest glowing sources and surfaces, secondary #ff4d6d for medium panels, banners and lights, pop #023054 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
-   "nda": "022",
+   "nda": "023",
    "age": "early 40s",
    "poseFamily": "SIT",
    "id": "antennawraiths",
@@ -1979,7 +2041,7 @@
    "vet": null
   },
   {
-   "nda": "023",
+   "nda": "024",
    "age": "late 30s",
    "poseFamily": "CROUCH",
    "id": "maskedassassins",
@@ -2041,7 +2103,7 @@
    "vet": null
   },
   {
-   "nda": "024",
+   "nda": "025",
    "age": "late 40s",
    "poseFamily": "STRIDE",
    "id": "thornpoisoners",
@@ -2103,7 +2165,7 @@
    "vet": null
   },
   {
-   "nda": "025",
+   "nda": "026",
    "age": "late 20s",
    "poseFamily": "LUNGE",
    "id": "understudies",
@@ -2165,7 +2227,7 @@
    "vet": null
   },
   {
-   "nda": "026",
+   "nda": "027",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "batcallers",
@@ -2227,7 +2289,7 @@
    "vet": null
   },
   {
-   "nda": "027",
+   "nda": "028",
    "age": "mid 40s",
    "poseFamily": "PLANTED",
    "id": "bonecrushers",
@@ -2292,7 +2354,7 @@
    "vet": null
   },
   {
-   "nda": "028",
+   "nda": "029",
    "age": "early 30s",
    "poseFamily": "LUNGE",
    "id": "torrentstriders",
@@ -2357,7 +2419,7 @@
    "vet": null
   },
   {
-   "nda": "029",
+   "nda": "030",
    "age": "late 50s",
    "poseFamily": "FLOAT",
    "id": "caninedreamweavers",
@@ -2422,7 +2484,7 @@
    "vet": null
   },
   {
-   "nda": "030",
+   "nda": "031",
    "age": "late 20s",
    "poseFamily": "CROUCH",
    "id": "maskbandits",
@@ -2487,7 +2549,7 @@
    "vet": null
   },
   {
-   "nda": "031",
+   "nda": "032",
    "age": "mid 40s",
    "poseFamily": "SIT",
    "id": "redpandamonks",
@@ -2552,7 +2614,7 @@
    "vet": null
   },
   {
-   "nda": "032",
+   "nda": "033",
    "age": "mid 50s",
    "poseFamily": "RUN",
    "id": "shortfacedbear",
@@ -2617,7 +2679,7 @@
    "vet": null
   },
   {
-   "nda": "033",
+   "nda": "034",
    "age": "early 30s",
    "poseFamily": "TWIST",
    "id": "sealcoilstrikers",
@@ -2682,7 +2744,7 @@
    "vet": null
   },
   {
-   "nda": "034",
+   "nda": "035",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "honeybadgers",
@@ -2747,7 +2809,7 @@
    "vet": null
   },
   {
-   "nda": "035",
+   "nda": "036",
    "age": "mid 30s",
    "poseFamily": "LEAN",
    "id": "seaotters",
@@ -2812,7 +2874,7 @@
    "vet": null
   },
   {
-   "nda": "036",
+   "nda": "037",
    "age": "early 30s",
    "poseFamily": "CRAWL",
    "id": "stinkbadgers",
@@ -2877,7 +2939,7 @@
    "vet": null
   },
   {
-   "nda": "037",
+   "nda": "038",
    "age": "early 50s",
    "poseFamily": "LUNGE",
    "id": "purussaurus",
@@ -2942,7 +3004,7 @@
    "vet": null
   },
   {
-   "nda": "038",
+   "nda": "039",
    "age": "early 40s",
    "poseFamily": "KNEEL",
    "id": "caimanscouts",
@@ -3007,7 +3069,7 @@
    "vet": null
   },
   {
-   "nda": "039",
+   "nda": "040",
    "age": "late 20s",
    "poseFamily": "RUN",
    "id": "cubancrocodiles",
@@ -3072,7 +3134,7 @@
    "vet": null
   },
   {
-   "nda": "040",
+   "nda": "041",
    "age": "mid 40s",
    "poseFamily": "LEAP",
    "id": "armadillosuchus",
@@ -3137,7 +3199,7 @@
    "vet": null
   },
   {
-   "nda": "041",
+   "nda": "042",
    "age": "early 40s",
    "poseFamily": "LUNGE",
    "id": "gharialduelists",
@@ -3202,7 +3264,7 @@
    "vet": null
   },
   {
-   "nda": "042",
+   "nda": "043",
    "age": "late 30s",
    "poseFamily": "LEAN",
    "id": "herugavialis",
@@ -3267,7 +3329,7 @@
    "vet": null
   },
   {
-   "nda": "043",
+   "nda": "044",
    "age": "late 30s",
    "poseFamily": "PLANTED",
    "id": "hotspringhealers",
@@ -3332,7 +3394,7 @@
    "vet": null
   },
   {
-   "nda": "044",
+   "nda": "045",
    "age": "mid 50s",
    "poseFamily": "LUNGE",
    "id": "joseptusks",
@@ -3397,7 +3459,7 @@
    "vet": null
   },
   {
-   "nda": "045",
+   "nda": "046",
    "age": "early 40s",
    "poseFamily": "PLANTED",
    "id": "crestedratwardens",
@@ -3462,7 +3524,7 @@
    "vet": null
   },
   {
-   "nda": "046",
+   "nda": "047",
    "age": "mid 50s",
    "poseFamily": "TWIST",
    "id": "castoroides",
@@ -3527,7 +3589,7 @@
    "vet": null
   },
   {
-   "nda": "047",
+   "nda": "048",
    "age": "early 30s",
    "poseFamily": "CRAWL",
    "id": "molematehive",
@@ -3592,7 +3654,7 @@
    "vet": null
   },
   {
-   "nda": "048",
+   "nda": "049",
    "age": "late 20s",
    "poseFamily": "DIVE",
    "id": "flyingsquirrels",
@@ -3657,7 +3719,7 @@
    "vet": null
   },
   {
-   "nda": "049",
+   "nda": "050",
    "age": "late 40s",
    "poseFamily": "KNEEL",
    "id": "regrowthmedics",
@@ -3722,7 +3784,7 @@
    "vet": null
   },
   {
-   "nda": "050",
+   "nda": "051",
    "age": "mid 50s",
    "poseFamily": "PLANTED",
    "id": "mawwardens",
@@ -3787,7 +3849,7 @@
    "vet": null
   },
   {
-   "nda": "051",
+   "nda": "052",
    "age": "early 70s",
    "poseFamily": "SIT",
    "id": "olmseers",
@@ -3852,7 +3914,7 @@
    "vet": null
   },
   {
-   "nda": "052",
+   "nda": "053",
    "age": "late 20s",
    "poseFamily": "CROUCH",
    "id": "boneskirmishers",
@@ -3917,7 +3979,7 @@
    "vet": null
   },
   {
-   "nda": "053",
+   "nda": "054",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "riverskinguardians",
@@ -3982,7 +4044,7 @@
    "vet": null
   },
   {
-   "nda": "054",
+   "nda": "055",
    "age": "early 40s",
    "poseFamily": "DIVE",
    "id": "murdervanguard",
@@ -4047,7 +4109,7 @@
    "vet": null
   },
   {
-   "nda": "055",
+   "nda": "056",
    "age": "early 70s",
    "poseFamily": "BALANCE",
    "id": "nighteyesnipers",
@@ -4112,7 +4174,7 @@
    "vet": null
   },
   {
-   "nda": "056",
+   "nda": "057",
    "age": "mid 50s",
    "poseFamily": "FLOAT",
    "id": "galesailors",
@@ -4177,7 +4239,7 @@
    "vet": null
   },
   {
-   "nda": "057",
+   "nda": "058",
    "age": "early 20s",
    "poseFamily": "SLIDE",
    "id": "inkspies",
@@ -4242,7 +4304,7 @@
    "vet": null
   },
   {
-   "nda": "058",
+   "nda": "059",
    "age": "early 30s",
    "poseFamily": "PLANTED",
    "id": "tentacleengineers",
@@ -4307,7 +4369,7 @@
    "vet": null
   },
   {
-   "nda": "059",
+   "nda": "060",
    "age": "early 20s",
    "poseFamily": "FLOAT",
    "id": "abyssalscholars",
@@ -4372,7 +4434,7 @@
    "vet": null
   },
   {
-   "nda": "060",
+   "nda": "061",
    "age": "early 30s",
    "poseFamily": "STRIDE",
    "id": "punchclawduelists",
@@ -4437,7 +4499,7 @@
    "vet": null
   },
   {
-   "nda": "061",
+   "nda": "062",
    "age": "late 50s",
    "poseFamily": "PLANTED",
    "id": "lobsterclawmarshals",
@@ -4502,7 +4564,7 @@
    "vet": null
   },
   {
-   "nda": "062",
+   "nda": "063",
    "age": "early 20s",
    "poseFamily": "LUNGE",
    "id": "pistolshrimpsnapgunners",
@@ -4567,7 +4629,7 @@
    "vet": null
   },
   {
-   "nda": "063",
+   "nda": "064",
    "age": "mid 40s",
    "poseFamily": "STRIDE",
    "id": "yetisetaefarmers",
@@ -4632,7 +4694,7 @@
    "vet": null
   },
   {
-   "nda": "064",
+   "nda": "065",
    "age": "late 20s",
    "poseFamily": "SPIN",
    "id": "boxercrabanemonebrawlers",
@@ -4697,7 +4759,7 @@
    "vet": null
   },
   {
-   "nda": "065",
+   "nda": "066",
    "age": "mid 30s",
    "poseFamily": "CRAWL",
    "id": "remipedecavestalkers",
@@ -4759,7 +4821,7 @@
    "vet": null
   },
   {
-   "nda": "066",
+   "nda": "067",
    "age": "early 40s",
    "poseFamily": "STOOP",
    "id": "prambugnurserypilots",
@@ -4824,7 +4886,7 @@
    "vet": null
   },
   {
-   "nda": "067",
+   "nda": "068",
    "age": "late 20s",
    "poseFamily": "FLOAT",
    "id": "lanterncultists",
@@ -4889,7 +4951,7 @@
    "vet": null
   },
   {
-   "nda": "068",
+   "nda": "069",
    "age": "mid 60s",
    "poseFamily": "SPIN",
    "id": "dreamdustweavers",
@@ -4954,7 +5016,7 @@
    "vet": null
   },
   {
-   "nda": "069",
+   "nda": "070",
    "age": "late 20s",
    "poseFamily": "HANG",
    "id": "signaltowerwardens",
@@ -5019,7 +5081,7 @@
    "vet": null
   },
   {
-   "nda": "070",
+   "nda": "071",
    "age": "mid 30s",
    "poseFamily": "PLANTED",
    "id": "platewallbulwarks",
@@ -5084,7 +5146,7 @@
    "vet": null
   },
   {
-   "nda": "071",
+   "nda": "072",
    "age": "late 20s",
    "poseFamily": "LEAP",
    "id": "tunneldiggers",
@@ -5149,7 +5211,7 @@
    "vet": null
   },
   {
-   "nda": "072",
+   "nda": "073",
    "age": "mid 40s",
    "poseFamily": "SPIN",
    "id": "curlballrollers",
@@ -5214,7 +5276,7 @@
    "vet": null
   },
   {
-   "nda": "073",
+   "nda": "074",
    "age": "early 30s",
    "poseFamily": "HANG",
    "id": "loomweavers",
@@ -5279,7 +5341,7 @@
    "vet": null
   },
   {
-   "nda": "074",
+   "nda": "075",
    "age": "early 40s",
    "poseFamily": "RUN",
    "id": "silkroad",
@@ -5344,7 +5406,7 @@
    "vet": null
   },
   {
-   "nda": "075",
+   "nda": "076",
    "age": "early 20s",
    "poseFamily": "LEAP",
    "id": "dewdrop",
@@ -5409,7 +5471,7 @@
    "vet": null
   },
   {
-   "nda": "076",
+   "nda": "077",
    "age": "mid 30s",
    "poseFamily": "BALANCE",
    "id": "squirrelcommanders",
@@ -5474,7 +5536,69 @@
    "vet": null
   },
   {
-   "nda": "077",
+   "nda": "078",
+   "age": "late 20s",
+   "poseFamily": "CRAWL",
+   "id": "scarabshifters",
+   "name": "Scarab Shifters",
+   "tagline": "The shell opens.",
+   "people": "Were-Creature",
+   "peopleId": "were",
+   "cls": "Summoners",
+   "subclass": "Scarab Shifters",
+   "role": "Combat",
+   "type": "Summoner",
+   "typeKey": "summoner",
+   "gender": "Male",
+   "ethnicity": "Egyptian heritage, Egyptian",
+   "identity": "a tall lean man in his late twenties of Egyptian heritage mid-shift, with beetle mandibles at the jaw",
+   "physique": "tall and lean, glossy carapace plates grown over the shoulders and forearms, wing-cases folded on the back",
+   "size": "medium",
+   "mobility": "flying",
+   "expression": "intense, half-changed",
+   "pose": "crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates",
+   "wardrobe": "tall lean were-beetle half-shifted, green-black carapace plates on the shoulders and forearms, golden wing-cases half open on the back, small mandibles at the jaw, a gold scarab pendant and wrapped belt, one cupped hand pouring a swarm of small scarabs",
+   "accessories": "Scarab pendant; wrap-belt; half-grown carapace plates; a swarm of small summoned scarabs",
+   "shape": "one big commanding gesture silhouette with several small, clearly separate minion shapes around it",
+   "silhouette": "crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates; the Scarab pendant and the wrap-belt break the outline so it reads instantly as a black shape",
+   "main": "#0f7d5a",
+   "secondary": "#e8b923",
+   "pop": "#1a1a1a",
+   "mainUse": "the largest garment, armor, fur-marking or body areas",
+   "secondaryUse": "trim, sash, straps, secondary garment pieces and held gear",
+   "popUse": "the eyes, the Scarab pendant and one small magical detail",
+   "baseTones": "Natural skin tones are allowed but must be simplified, flat and muted.",
+   "peopleColor": "#b4532a",
+   "peopleColorName": "Rust",
+   "scene": "a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles",
+   "midground": "a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound",
+   "foreground": "a rusted gate arch, tall dry grass and a dust haze",
+   "bgItems": "a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound, a rusted gate arch, tall dry grass and a dust haze",
+   "art": null,
+   "look": "Tall were-beetle half-shifted into beetle armor with wing-cases opening on the back, one cupped hand pouring a swarm of small scarabs.",
+   "summary": "Were-beetle summoners who morph into beetle forms themselves and pour scarab swarms out of their own armor.",
+   "lore": "The scarab-kin of the Scrapwild learned to shift a piece at a time: a carapace for the arms, elytra for flight, mandibles for the bite. The swarms are not summoned so much as released, because every Shifter is hollow in places and the scarabs live in the hollows.",
+   "abilities": "Scarab Swarm: release a swarm that bites and distracts\nCarapace Morph: grow beetle armor on the arms and shoulders\nElytra Flight: open the wing-cases and fly for a turn",
+   "strengths": "Calls scarab swarms that bite and cover allies; Morphs partial beetle forms for armor or flight",
+   "weaknesses": "Swarms scatter from fire; A full morph leaves the Shifter slow",
+   "companion": "",
+   "lorePlace": "The Pylon Coast and the Scrapwild: The Pack's tail-twitching couriers and drill-sergeants: Squirrel Commanders run the acorn network that carries news and orders across the territory faster than any rider.",
+   "nameOnSheet": "Scarab Shifters",
+   "fileChar": "art/v2/were-scarabshifters.png",
+   "fileBg": "art/v2/were-scarabshifters-bg.jpg",
+   "jack": [
+    "Black-fill test: the silhouette must still read as crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates.",
+    "Few large shapes: one big commanding gesture silhouette with several small, clearly separate minion shapes around it; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).",
+    "Thumbnail test: the Scarab pendant and the pose must be visible at 64 px.",
+    "Flat colors: #0f7d5a / #e8b923 / #1a1a1a as separate flat shapes divided by black line; no gradients or glow.",
+    "Distinctive without detail: identifiable by Scarab pendant and wrap-belt and the summoner shape language."
+   ],
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: Scarab Shifters, a tall lean man in his late twenties of Egyptian heritage mid-shift, with beetle mandibles at the jaw, apparent age late 20s. tall and lean, glossy carapace plates grown over the shoulders and forearms, wing-cases folded on the back, medium size. Pose: crouched mid-shift with one hand cupped as scarabs pour out and the other arm armored in beetle plates. Expression: intense, half-changed, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Scarab pendant. SECOND ITEM, kept plain: wrap-belt. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: tall lean were-beetle half-shifted, green-black carapace plates on the shoulders and forearms, golden wing-cases half open on the back, small mandibles at the jaw, a gold scarab pendant and wrapped belt, one cupped hand pouring a swarm of small scarabs.\n\nSUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #0f7d5a about 60%, on the largest garment, armor, fur-marking or body areas; secondary #e8b923 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #1a1a1a about 10%, on the eyes, the Scarab pendant and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #b4532a (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Were-Creature people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles. An empty environment for Scarab Shifters with no people, creatures, figures, silhouettes or text. Midground: a sunlit scrapyard dune with half-buried car bodies, a dung-ball mound. Foreground: a rusted gate arch, tall dry grass and a dust haze, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a RUST-washed painting. The people color #b4532a washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #0f7d5a for the biggest glowing sources and surfaces, secondary #e8b923 for medium panels, banners and lights, pop #1a1a1a for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "vet": null
+  },
+  {
+   "nda": "079",
    "age": "mid 60s",
    "poseFamily": "LUNGE",
    "id": "staticwraiths",
@@ -5539,7 +5663,7 @@
    "vet": null
   },
   {
-   "nda": "078",
+   "nda": "080",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "testpattern",
@@ -5604,7 +5728,7 @@
    "vet": null
   },
   {
-   "nda": "079",
+   "nda": "081",
    "age": "early 20s",
    "poseFamily": "TWIST",
    "id": "emergencybroadcast",
@@ -5669,7 +5793,7 @@
    "vet": null
   },
   {
-   "nda": "080",
+   "nda": "082",
    "age": "mid 30s",
    "poseFamily": "STOOP",
    "id": "rustwraith",
@@ -5734,7 +5858,7 @@
    "vet": null
   },
   {
-   "nda": "081",
+   "nda": "083",
    "age": "early 30s",
    "poseFamily": "STRIDE",
    "id": "cabinetspirits",
@@ -5799,7 +5923,7 @@
    "vet": null
   },
   {
-   "nda": "082",
+   "nda": "084",
    "age": "mid 60s",
    "poseFamily": "LEAN",
    "id": "hardwaresurgeons",
@@ -5864,7 +5988,7 @@
    "vet": null
   },
   {
-   "nda": "083",
+   "nda": "085",
    "age": "late 20s",
    "poseFamily": "LEAP",
    "id": "lastdance",
@@ -5929,7 +6053,7 @@
    "vet": null
   },
   {
-   "nda": "084",
+   "nda": "086",
    "age": "early 30s",
    "poseFamily": "KNEEL",
    "id": "wakewardens",
@@ -5994,7 +6118,7 @@
    "vet": null
   },
   {
-   "nda": "085",
+   "nda": "087",
    "age": "late 30s",
    "poseFamily": "TWIST",
    "id": "redialwraiths",
@@ -6059,7 +6183,7 @@
    "vet": null
   },
   {
-   "nda": "086",
+   "nda": "088",
    "age": "late 40s",
    "poseFamily": "LEAN",
    "id": "highwaybanshees",
@@ -6124,7 +6248,7 @@
    "vet": null
   },
   {
-   "nda": "087",
+   "nda": "089",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "billboardhaunts",
@@ -6189,7 +6313,7 @@
    "vet": null
   },
   {
-   "nda": "088",
+   "nda": "090",
    "age": "early 20s",
    "poseFamily": "SIT",
    "id": "hospicehaunts",
@@ -6254,7 +6378,7 @@
    "vet": null
   },
   {
-   "nda": "089",
+   "nda": "091",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "seanceoperators",
@@ -6316,7 +6440,7 @@
    "vet": null
   },
   {
-   "nda": "090",
+   "nda": "092",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "bonebreakers",
@@ -6381,7 +6505,7 @@
    "vet": null
   },
   {
-   "nda": "091",
+   "nda": "093",
    "age": "late 50s",
    "poseFamily": "CROUCH",
    "id": "rattlecannon",
@@ -6446,7 +6570,7 @@
    "vet": null
   },
   {
-   "nda": "092",
+   "nda": "094",
    "age": "early 70s",
    "poseFamily": "STRIDE",
    "id": "drummajor",
@@ -6511,7 +6635,7 @@
    "vet": null
   },
   {
-   "nda": "093",
+   "nda": "095",
    "age": "late 30s",
    "poseFamily": "TWIST",
    "id": "demolition",
@@ -6576,7 +6700,7 @@
    "vet": null
   },
   {
-   "nda": "094",
+   "nda": "096",
    "age": "late 40s",
    "poseFamily": "SPIN",
    "id": "wreckinglumber",
@@ -6641,7 +6765,7 @@
    "vet": null
   },
   {
-   "nda": "095",
+   "nda": "097",
    "age": "early 40s",
    "poseFamily": "LEAN",
    "id": "shopstewards",
@@ -6706,7 +6830,7 @@
    "vet": null
   },
   {
-   "nda": "096",
+   "nda": "098",
    "age": "mid 60s",
    "poseFamily": "LUNGE",
    "id": "soulnotaries",
@@ -6771,7 +6895,7 @@
    "vet": null
   },
   {
-   "nda": "097",
+   "nda": "099",
    "age": "mid 60s",
    "poseFamily": "TWIST",
    "id": "phylacteryauditors",
@@ -6836,7 +6960,7 @@
    "vet": null
   },
   {
-   "nda": "098",
+   "nda": "100",
    "age": "mid 60s",
    "poseFamily": "SPIN",
    "id": "contractreapers",
@@ -6901,7 +7025,7 @@
    "vet": null
   },
   {
-   "nda": "099",
+   "nda": "101",
    "age": "late 30s",
    "poseFamily": "RUN",
    "id": "sarcophaguslancers",
@@ -6966,7 +7090,7 @@
    "vet": null
   },
   {
-   "nda": "100",
+   "nda": "102",
    "age": "late 50s",
    "poseFamily": "BALANCE",
    "id": "goldmaskduelists",
@@ -7031,7 +7155,7 @@
    "vet": null
   },
   {
-   "nda": "101",
+   "nda": "103",
    "age": "early 30s",
    "poseFamily": "LEAN",
    "id": "embalmeralchemists",
@@ -7096,7 +7220,7 @@
    "vet": null
   },
   {
-   "nda": "102",
+   "nda": "104",
    "age": "early 70s",
    "poseFamily": "STOOP",
    "id": "marrowpuppeteers",
@@ -7158,7 +7282,7 @@
    "vet": null
   },
   {
-   "nda": "103",
+   "nda": "105",
    "age": "late 30s",
    "poseFamily": "RUN",
    "id": "mowerknights",
@@ -7223,7 +7347,7 @@
    "vet": null
   },
   {
-   "nda": "104",
+   "nda": "106",
    "age": "early 20s",
    "poseFamily": "SPIN",
    "id": "sprinklersprites",
@@ -7288,7 +7412,7 @@
    "vet": null
   },
   {
-   "nda": "105",
+   "nda": "107",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "hoamediators",
@@ -7353,7 +7477,7 @@
    "vet": null
   },
   {
-   "nda": "106",
+   "nda": "108",
    "age": "early 20s",
    "poseFamily": "PLANTED",
    "id": "rootlinkwarlocks",
@@ -7418,7 +7542,7 @@
    "vet": null
   },
   {
-   "nda": "107",
+   "nda": "109",
    "age": "early 20s",
    "poseFamily": "LEAN",
    "id": "mossplate",
@@ -7483,7 +7607,7 @@
    "vet": null
   },
   {
-   "nda": "108",
+   "nda": "110",
    "age": "early 40s",
    "poseFamily": "STOOP",
    "id": "seedbank",
@@ -7548,7 +7672,7 @@
    "vet": null
   },
   {
-   "nda": "109",
+   "nda": "111",
    "age": "late 40s",
    "poseFamily": "CROUCH",
    "id": "sumpsappers",
@@ -7613,7 +7737,7 @@
    "vet": null
   },
   {
-   "nda": "110",
+   "nda": "112",
    "age": "early 40s",
    "poseFamily": "LUNGE",
    "id": "boilerbrawlers",
@@ -7675,7 +7799,7 @@
    "vet": null
   },
   {
-   "nda": "111",
+   "nda": "113",
    "age": "late 40s",
    "poseFamily": "PLANTED",
    "id": "tollbrokers",
@@ -7740,7 +7864,7 @@
    "vet": null
   },
   {
-   "nda": "112",
+   "nda": "114",
    "age": "late 50s",
    "poseFamily": "HANG",
    "id": "doorbellambushers",
@@ -7802,7 +7926,7 @@
    "vet": null
   },
   {
-   "nda": "113",
+   "nda": "115",
    "age": "early 50s",
    "poseFamily": "BALANCE",
    "id": "pantrypoisoners",
@@ -7864,7 +7988,7 @@
    "vet": null
   },
   {
-   "nda": "114",
+   "nda": "116",
    "age": "mid 60s",
    "poseFamily": "STRIDE",
    "id": "blockwatch",
@@ -7926,7 +8050,7 @@
    "vet": null
   },
   {
-   "nda": "115",
+   "nda": "117",
    "age": "late 30s",
    "poseFamily": "STRIDE",
    "id": "canopybeastmasters",
@@ -7988,7 +8112,7 @@
    "vet": null
   },
   {
-   "nda": "116",
+   "nda": "118",
    "age": "late 30s",
    "poseFamily": "LEAN",
    "id": "tidecallpriests",
@@ -8053,7 +8177,7 @@
    "vet": null
   },
   {
-   "nda": "117",
+   "nda": "119",
    "age": "late 20s",
    "poseFamily": "STRIDE",
    "id": "coralbone",
@@ -8118,7 +8242,7 @@
    "vet": null
   },
   {
-   "nda": "118",
+   "nda": "120",
    "age": "mid 60s",
    "poseFamily": "FLOAT",
    "id": "pearleyed",
@@ -8183,7 +8307,7 @@
    "vet": null
   },
   {
-   "nda": "119",
+   "nda": "121",
    "age": "mid 40s",
    "poseFamily": "FLOAT",
    "id": "braincase",
@@ -8248,7 +8372,7 @@
    "vet": null
   },
   {
-   "nda": "120",
+   "nda": "122",
    "age": "late 50s",
    "poseFamily": "PLANTED",
    "id": "etherwing",
@@ -8313,7 +8437,7 @@
    "vet": null
   },
   {
-   "nda": "121",
+   "nda": "123",
    "age": "late 30s",
    "poseFamily": "HANG",
    "id": "signalhive",
@@ -8378,7 +8502,7 @@
    "vet": null
   },
   {
-   "nda": "122",
+   "nda": "124",
    "age": "late 30s",
    "poseFamily": "LUNGE",
    "id": "manymaw",
@@ -8443,7 +8567,7 @@
    "vet": null
   },
   {
-   "nda": "123",
+   "nda": "125",
    "age": "early 40s",
    "poseFamily": "STRIDE",
    "id": "mimicflesh",
@@ -8508,7 +8632,7 @@
    "vet": null
   },
   {
-   "nda": "124",
+   "nda": "126",
    "age": "mid 60s",
    "poseFamily": "STOOP",
    "id": "memorymass",
@@ -8573,7 +8697,7 @@
    "vet": null
   },
   {
-   "nda": "125",
+   "nda": "127",
    "age": "mid 30s",
    "poseFamily": "LEAN",
    "id": "starstone",
@@ -8638,7 +8762,7 @@
    "vet": null
   },
   {
-   "nda": "126",
+   "nda": "128",
    "age": "mid 60s",
    "poseFamily": "KNEEL",
    "id": "fossilscript",
@@ -8703,7 +8827,7 @@
    "vet": null
   },
   {
-   "nda": "127",
+   "nda": "129",
    "age": "early 50s",
    "poseFamily": "LEAP",
    "id": "wingfold",
@@ -8768,7 +8892,7 @@
    "vet": null
   },
   {
-   "nda": "128",
+   "nda": "130",
    "age": "early 20s",
    "poseFamily": "STOOP",
    "id": "dreamsnatchers",
@@ -8833,7 +8957,7 @@
    "vet": null
   },
   {
-   "nda": "129",
+   "nda": "131",
    "age": "early 70s",
    "poseFamily": "DIVE",
    "id": "voidwing",
@@ -8898,7 +9022,7 @@
    "vet": null
   },
   {
-   "nda": "130",
+   "nda": "132",
    "age": "late 50s",
    "poseFamily": "LEAN",
    "id": "nightmareshepherds",
@@ -8963,7 +9087,7 @@
    "vet": null
   },
   {
-   "nda": "131",
+   "nda": "133",
    "age": "early 50s",
    "poseFamily": "LEAP",
    "id": "cornerstalkers",
@@ -9025,7 +9149,7 @@
    "vet": null
   },
   {
-   "nda": "132",
+   "nda": "134",
    "age": "early 30s",
    "poseFamily": "CRAWL",
    "id": "timescent",
@@ -9087,7 +9211,7 @@
    "vet": null
   },
   {
-   "nda": "133",
+   "nda": "135",
    "age": "early 30s",
    "poseFamily": "LUNGE",
    "id": "fracturejaw",
@@ -9149,21 +9273,21 @@
    "vet": null
   },
   {
-   "nda": "134",
+   "nda": "136",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "azathothpipers",
-   "name": "Azathoth Pipers",
+   "name": "Azathoth Reed-Priests",
    "tagline": "Please do not stop playing.",
    "people": "Eldritch",
    "peopleId": "eldritch",
    "cls": "Summoners",
-   "subclass": "Azathoth Pipers",
+   "subclass": "Azathoth Reed-Priests",
    "role": "Combat",
    "type": "Summoner",
    "typeKey": "summoner",
    "gender": "Nonbinary",
-   "ethnicity": "Unknown (flute-priest of the Drowned Undercity)",
+   "ethnicity": "Unknown (reed-priest of the Drowned Undercity)",
    "identity": "a thin, masked figure of unknowable age and gender, a flute-priest of the Drowned Undercity",
    "physique": "tall, narrow and swaying, spindly legs, an overlong neck bent toward the flute",
    "size": "medium",
@@ -9190,13 +9314,13 @@
    "art": null,
    "look": "Thin robed figure with a blank cloth mask playing a bone flute, two bat-winged, many-eyed Byakhee circling above in a spiral.",
    "summary": "Mythos flute-priests who pipe for the blind idiot god and call Byakhee: star-winged horrors that ride the notes down from the dark.",
-   "lore": "In the old stories the pipers dance in the court of Azathoth, playing a tune with no melody so the god never wakes. The Drowned Undercity found one such flute in the flood, and a few who dared to play it.",
+   "lore": "In the old stories the reed-priests dance in the court of Azathoth, playing a tune with no melody so the god never wakes. The Drowned Undercity found one such flute in the flood, and a few who dared to play it.",
    "abilities": "The Tune: pipe to call a Byakhee\nMad Chorus: the Byakhee gain speed and damage while the piper plays\nSilence: stop the music and the Byakhee turn on whoever is closest",
    "strengths": "Calls strong flying Byakhee; The music buffs summoned creatures",
    "weaknesses": "Must keep playing to keep them; Madness: each song costs sanity",
    "companion": "",
    "lorePlace": "The Drowned Undercity: Flute-priests of the Drowned Undercity who pipe for the blind idiot god Azathoth and call Byakhee: Mythos star-steeds that ride the notes. Outside the treaty.",
-   "nameOnSheet": "Azathoth Pipers",
+   "nameOnSheet": "Azathoth Reed-Priests",
    "fileChar": "art/v2/eldritch-azathothpipers.png",
    "fileBg": "art/v2/eldritch-azathothpipers-bg.jpg",
    "jack": [
@@ -9206,12 +9330,12 @@
     "Flat colors: #caca72 / #3b1f5e / #e83d84 as separate flat shapes divided by black line; no gradients or glow.",
     "Distinctive without detail: identifiable by Bone flute and tattered yellow robe and the summoner shape language."
    ],
-   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: a blind cosmic idol god Pipers, a thin, masked figure of unknowable age and gender, a flute-priest of the Drowned Undercity, apparent age mid 30s. tall, narrow and swaying, spindly legs, an overlong neck bent toward the flute, medium size. Pose: swaying in a twisting stance with the flute at the mouth as two bat-winged many-eyed star-steeds spiral overhead. Expression: none, a blank cloth mask, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bone flute. SECOND ITEM, kept plain: tattered yellow robe. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: thin masked flute-priest in a tattered yellow hooded robe with a star-chart sash, a long bone flute at the mouth, two small bat-winged many-eyed bat-winged many-eyed star-steeds circling overhead.\n\nSUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #caca72 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3b1f5e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e83d84 about 10%, on the eyes, the Bone flute and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Eldritch people, mature dark-age tone, no nudity, no gore.",
-   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for a blind cosmic idol god Pipers with no people, creatures, figures, silhouettes or text. Midground: a drowned cathedral plaza with a cracked star-chart floor, broken columns. Foreground: a pool of black water, a ring of unlit candle stands and a distant dark void, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #caca72 for the biggest glowing sources and surfaces, secondary #3b1f5e for medium panels, banners and lights, pop #e83d84 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
+   "charPrompt": "An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.\nCHARACTER: a blind cosmic idol god Reed-Priests, a thin, masked figure of unknowable age and gender, a flute-priest of the Drowned Undercity, apparent age mid 30s. tall, narrow and swaying, spindly legs, an overlong neck bent toward the flute, medium size. Pose: swaying in a twisting stance with the flute at the mouth as two bat-winged many-eyed star-steeds spiral overhead. Expression: none, a blank cloth mask, as a minimal face. Design the silhouette first (one big commanding gesture silhouette with several small, clearly separate minion shapes around it); the pose and the hero prop must read as a solid black shape.\nSIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Bone flute. SECOND ITEM, kept plain: tattered yellow robe. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: thin masked flute-priest in a tattered yellow hooded robe with a star-chart sash, a long bone flute at the mouth, two small bat-winged many-eyed bat-winged many-eyed star-steeds circling overhead.\n\nSUMMONED MINIONS: the creatures named in the costume notes are part of this image: draw them small (each about a quarter of the hero's height), as simple flat shapes in the same style, clearly separate from the hero and fully inside the canvas.\nHOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.\nCOLOR (exact hex, flat fills): main #caca72 about 60%, on the largest garment, armor, fur-marking or body areas; secondary #3b1f5e about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #e83d84 about 10%, on the eyes, the Bone flute and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #0b7a75 (background only).\nNEVER: photorealism, 3D or CGI, painterly or watercolor texture, airbrushing, gradients, glow or bloom (a glow is a flat solid shape), fabric texture, tiny decorations, individual hairs, realistic reflections, generic fantasy concept art.\nSELF-CHECK: it must still read when filled solid black, be buildable from a few large shapes, read at thumbnail size, use flat separated colors and stay distinctive without surface detail; if not, remove detail.\nCOMPOSITION: one full-body figure, head to toe, nothing cropped, clear margin, centered, all shapes fully filled and opaque. True transparent background: no floor, shadow, scene, checkerboard, border or text. 3:4 portrait. Summoner, combat, Eldritch people, mature dark-age tone, no nudity, no gore.",
+   "bgPrompt": "Heavily stippled charcoal and ink illustration on toned paper, a high-contrast black-and-white graphic-novel panel: dense dotted halftone and grainy ink texture over every surface, bold black ink linework, hand-drawn painted shapes. NOT photorealistic, NOT a 3D render, NOT smooth digital concept art, no lens flare. 16:9 landscape, 1980s post-apocalyptic neo-retro cyberpunk dark-age mood.\nSCENE: a flooded subway cathedral beneath the ruins: impossible angled architecture, sunken escalators, a dead monolith of glowing glyphs, rising black water, wrong geometry in the walls. An empty environment for a blind cosmic idol god Reed-Priests with no people, creatures, figures, silhouettes or text. Midground: a drowned cathedral plaza with a cracked star-chart floor, broken columns. Foreground: a pool of black water, a ring of unlit candle stands and a distant dark void, plus wet ground reflecting light. Large props the character cannot wear or carry live here, never in a hand.\nCOLOR (most important): a ABYSS-washed painting. The people color #0b7a75 washes about 65% of the image across sky, fog, ground, walls and haze. Accents about 20%, clearly visible: main #caca72 for the biggest glowing sources and surfaces, secondary #3b1f5e for medium panels, banners and lights, pop #e83d84 for small sparks and glints, reflected on the ground. Black and white for ink linework, deep shadows and highlights.\nCOMPOSITION: horizon at one-third height, a moon upper-left, open empty space in the lower center where the character will stand, props pushed to the left and right edges.",
    "vet": null
   },
   {
-   "nda": "135",
+   "nda": "137",
    "age": "mid 40s",
    "poseFamily": "PLANTED",
    "id": "signalsavants",
@@ -9276,7 +9400,7 @@
    "vet": null
   },
   {
-   "nda": "136",
+   "nda": "138",
    "age": "mid 20s",
    "poseFamily": "SPIN",
    "id": "circuitarcanists",
@@ -9338,7 +9462,7 @@
    "vet": null
   },
   {
-   "nda": "137",
+   "nda": "139",
    "age": "mid 30s",
    "poseFamily": "LEAN",
    "id": "stickywizards",
@@ -9403,7 +9527,7 @@
    "vet": null
   },
   {
-   "nda": "138",
+   "nda": "140",
    "age": "mid 40s",
    "poseFamily": "LEAN",
    "id": "sporecoven",
@@ -9468,7 +9592,7 @@
    "vet": null
   },
   {
-   "nda": "139",
+   "nda": "141",
    "age": "mid 30s",
    "poseFamily": "TWIST",
    "id": "scraphexwitches",
@@ -9530,7 +9654,7 @@
    "vet": null
   },
   {
-   "nda": "140",
+   "nda": "142",
    "age": "mid 40s",
    "poseFamily": "SIT",
    "id": "thornbloodcoven",
@@ -9592,7 +9716,7 @@
    "vet": null
   },
   {
-   "nda": "141",
+   "nda": "143",
    "age": "mid 20s",
    "poseFamily": "KNEEL",
    "id": "voidbound",
@@ -9654,7 +9778,7 @@
    "vet": null
   },
   {
-   "nda": "142",
+   "nda": "144",
    "age": "mid 20s",
    "poseFamily": "CROUCH",
    "id": "bloodwireapostates",
@@ -9716,7 +9840,7 @@
    "vet": null
   },
   {
-   "nda": "143",
+   "nda": "145",
    "age": "mid 30s",
    "poseFamily": "STRIDE",
    "id": "mirroroathbreakers",
@@ -9778,7 +9902,7 @@
    "vet": null
   },
   {
-   "nda": "144",
+   "nda": "146",
    "age": "mid 20s",
    "poseFamily": "LEAN",
    "id": "chronofractures",
@@ -9840,7 +9964,7 @@
    "vet": null
   },
   {
-   "nda": "145",
+   "nda": "147",
    "age": "mid 30s",
    "poseFamily": "FLOAT",
    "id": "mindweavers",
@@ -9902,7 +10026,7 @@
    "vet": null
   },
   {
-   "nda": "146",
+   "nda": "148",
    "age": "mid 20s",
    "poseFamily": "RUN",
    "id": "fluxborn",
@@ -9964,7 +10088,7 @@
    "vet": null
   },
   {
-   "nda": "147",
+   "nda": "149",
    "age": "mid 60s",
    "poseFamily": "KNEEL",
    "id": "necromancers",
