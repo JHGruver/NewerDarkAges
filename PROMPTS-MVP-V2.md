@@ -346,7 +346,7 @@ Bold flat-shape 2D illustration, 16:9 landscape. Layered flat color shapes in th
 
 Setting: a scrapyard war-den of rusted buses and tire-wall palisades, campfire barrels, hand-painted war totems, signal horns on tall poles.
 
-Scene props for Bone-Crusher Juggernauts: a scrapyard war-den with stacked shields, a bone-pile trophy wall, tire barricades and a campfire barrel. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
+Scene props for Bone-Crusher Juggernauts: a scrapyard war-den under an orange moon with a wooden watchtower fort, rusted bus bodies, tire stacks, burning barrels, round war shields, a horned skull totem, loudspeaker horns on poles, pink banners and lanterns. These are things the character could never wear or carry, so they live in the environment as set dressing on the left, right and far plane, tied to the setting, with nobody using them.
 
 Keep the center-lower area open for the character. Props on the left, right and far plane only. Horizon at one-third height, a flat moon disc upper-left, ruined shapes receding to the left.
 
