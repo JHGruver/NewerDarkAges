@@ -4,7 +4,7 @@
   const KEY = "nda-comic-v1";
   const C = () => window.COMIC, H = () => window.NDAH;
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const TABS = [["pitch", "Pitch and canon"], ["beats", "Story map"], ["flow", "Story flow"], ["board", "Storyboard"], ["cast", "Cast"], ["share", "Share"]];
+  const TABS = [["read", "Read the book"], ["pitch", "Pitch and canon"], ["beats", "Story map"], ["flow", "Story flow"], ["board", "Storyboard"], ["cast", "Cast"], ["share", "Share"]];
   const PEOPLE = ["Jacob", "Mike", "Ben", "Claude"], WHO_COLOR = { Jacob: "#ff5fb0", Mike: "#6fe9ff", Ben: "#ffd60a", Claude: "#b69cff" };
   const STATUS = { idea: "Idea", draft: "Draft", locked: "Locked" };
   const KIND_COLOR = { human: "#d9a521", vampire: "#9a9ab8", were: "#c4693a", undead: "#6fb06f", ghost: "#8fcfe0", forest: "#5fae6a", eldritch: "#b83a7a", magic: "#7a4bd1" };
@@ -16,7 +16,7 @@
   /* ---------- state ---------- */
   function seedState() {
     const d = clone(C());
-    return { me: "", tab: "pitch", issue: d.issues[0].id, page: d.issues[0].pages[0].id, panel: d.issues[0].pages[0].panels[0].id, gone: {}, answers: {}, cast: d.cast, added: [], issues: d.issues, notes: {}, rev: d.rev };
+    return { me: "", tab: "read", issue: d.issues[0].id, page: d.issues[0].pages[0].id, panel: d.issues[0].pages[0].panels[0].id, gone: {}, answers: {}, cast: d.cast, added: [], issues: d.issues, notes: {}, rev: d.rev };
   }
   function foldSeed() {
     // anything new in the site's seed that this browser has not seen (and has not deleted) is added
@@ -76,7 +76,7 @@
       <div class="st-tabs" role="tablist">${TABS.map((x) => `<button role="tab" class="st-tab${S.tab === x[0] ? " on" : ""}" data-ct="${x[0]}"><span>${x[1]}</span></button>`).join("")}</div>
       <p class="muted small" id="cm-msg">${esc(msg)}</p><div id="cm-body">${body()}</div><div id="cm-play"></div>`;
   };
-  const body = () => ({ pitch, beats, flow, board, cast, share }[S.tab] || pitch)();
+  const body = () => ({ read, pitch, beats, flow, board, cast, share }[S.tab] || read)();
 
   function pitch() {
     const c = C(), lore = window.LORE;
@@ -111,6 +111,45 @@
 
 
   // STORY FLOW: the whole book on one screen. Every issue as a filmstrip of its storyboarded pages, a read-through mode, and the threads that run across issues.
+
+  /* ---------- reader: covers side by side, then page-by-page spreads ---------- */
+  let rd = { issue: null, spread: 0, script: false };
+  // comic spreads: the first page stands alone on the right, then facing pairs, and an odd last page stands alone on the left
+  const spreadsOf = (pages) => { const out = [[null, pages[0]]]; for (let k = 1; k < pages.length; k += 2) out.push([pages[k], pages[k + 1] || null]); return out; };
+  const pageFig = (p, side) => {
+    if (!p) return `<div class="rd-pg blank ${side}"></div>`;
+    const a = artOf(p), k = issue().pages.indexOf(p) + 1;
+    return `<figure class="rd-pg ${side}">${a ? `<img src="${a}" alt="Page ${k}: ${esc(p.beat || "")}">` : `<div class="rd-none">No art for this page yet</div>`}<figcaption>Page ${k}</figcaption></figure>`;
+  };
+  const scriptOf = (p) => p ? `<div class="rd-sc"><h5>Page ${issue().pages.indexOf(p) + 1}: ${esc(p.beat || "")}</h5>${p.panels.map((q, z) => `<p><b>${z + 1}.</b> ${esc(q.action || "")}${q.caption ? ` <i>${esc(q.caption.replace(/\n/g, " "))}</i>` : ""}${q.dialogue ? `<br><span>${esc(q.dialogue).replace(/\n/g, "<br>")}</span>` : ""}</p>`).join("")}</div>` : "";
+  function read() {
+    const c = C();
+    if (!rd.issue || !S.issues.some((i) => i.id === rd.issue)) {
+      return `<div class="rd-shelf"><p class="muted rd-lede">${esc(c.title)}. Five issues, ${S.issues.reduce((n, i) => n + i.pages.length, 0)} pages. Pick a cover to read it page by page.</p>
+        <div class="rd-covers">${S.issues.map((i) => { const b = beatOf(i.id) || {}, f = i.pages.find((p) => p.layout === "splash" && artOf(p)) || i.pages[0], a = f && artOf(f);
+          return `<button class="rd-cover" data-rdopen="${i.id}" aria-label="Read ${esc((b.n || i.id) + ": " + (b.title || ""))}"><span class="rd-art">${a ? `<img src="${a}" alt="" loading="lazy">` : ""}<span class="rd-veil"></span><span class="rd-no">${esc((b.n || i.id).replace("Issue ", ""))}</span><span class="rd-t"><small>${esc(c.title)}</small><b>${esc(b.title || "")}</b><em>${esc(b.when || "")}</em></span></span><span class="rd-hook">${esc(b.hook || "")}</span><span class="rd-n">${i.pages.length} pages</span></button>`; }).join("")}</div></div>`;
+    }
+    const i = issue(), b = beatOf(i.id) || {}, sp = spreadsOf(i.pages), n = Math.max(0, Math.min(rd.spread, sp.length - 1)), cur = sp[n], idx = S.issues.indexOf(i);
+    const label = (p) => (p ? i.pages.indexOf(p) + 1 : null), pg = [label(cur[0]), label(cur[1])].filter(Boolean).join(" and ");
+    return `<div class="rd">
+      <div class="rd-bar"><button class="btn ghost" data-rdshelf>← All covers</button>
+        <span class="rd-title"><b>${esc(b.n || i.id)}: ${esc(b.title || "")}</b><small>Page${pg.includes("and") ? "s" : ""} ${pg} of ${i.pages.length}</small></span>
+        <label class="rd-sw"><input type="checkbox" data-rdscript${rd.script ? " checked" : ""}> Show script</label></div>
+      <div class="rd-stage"><button class="rd-nav prev" data-rdgo="-1" aria-label="Previous pages"${n === 0 && idx === 0 ? " disabled" : ""}>‹</button>
+        <div class="rd-book${cur[0] ? "" : " single"}">${pageFig(cur[0], "l")}${pageFig(cur[1], "r")}</div>
+        <button class="rd-nav next" data-rdgo="1" aria-label="Next pages"${n === sp.length - 1 && idx === S.issues.length - 1 ? " disabled" : ""}>›</button></div>
+      ${rd.script ? `<div class="rd-script">${scriptOf(cur[0])}${scriptOf(cur[1])}</div>` : ""}
+      <div class="rd-thumbs" aria-label="Jump to a page">${sp.map((s2, z) => `<button class="rd-th${z === n ? " on" : ""}" data-rdspread="${z}" aria-label="Pages ${[label(s2[0]), label(s2[1])].filter(Boolean).join(" and ")}">${s2.map((p) => (p ? (artOf(p) ? `<img src="${artOf(p)}" alt="" loading="lazy">` : "<i></i>") : "<i class=\"gap\"></i>")).join("")}</button>`).join("")}</div>
+      <p class="muted small rd-keys">Arrow keys turn the page. The last page of an issue leads into the next one.</p></div>`;
+  }
+  const rdGo = (d) => {
+    const i = issue(), sp = spreadsOf(i.pages), n = rd.spread + d;
+    if (n < 0) { const k = S.issues.indexOf(i); if (k === 0) return; S.issue = S.issues[k - 1].id; rd.issue = S.issue; rd.spread = spreadsOf(S.issues[k - 1].pages).length - 1; }
+    else if (n >= sp.length) { const k = S.issues.indexOf(i); if (k === S.issues.length - 1) return; S.issue = S.issues[k + 1].id; rd.issue = S.issue; rd.spread = 0; }
+    else rd.spread = n;
+    redraw(); window.scrollTo({ top: 0 });
+  };
+
   function flow() {
     const c = C(), lore = window.LORE, mode = S.flowMode === "read" ? "read" : "strip";
     const planned = c.beats.reduce((n, b) => n + b.pages, 0), pgs = S.issues.reduce((n, i) => n + i.pages.length, 0), all = S.issues.flatMap((i) => allPanels(i)), locked = all.filter((x) => x.n.status === "locked").length, draft = all.filter((x) => x.n.status === "draft").length;
@@ -274,6 +313,11 @@
     const root = document.getElementById("app");
     const click = (e) => {
       const t = e.target;
+      const ro = t.closest("[data-rdopen]"); if (ro) { rd.issue = S.issue = ro.dataset.rdopen; rd.spread = 0; redraw(); window.scrollTo({ top: 0 }); return; }
+      if (t.closest("[data-rdshelf]")) { rd.issue = null; redraw(); return; }
+      const rg = t.closest("[data-rdgo]"); if (rg) { rdGo(+rg.dataset.rdgo); return; }
+      const rs = t.closest("[data-rdspread]"); if (rs) { rd.spread = +rs.dataset.rdspread; redraw(); return; }
+      if (t.matches("[data-rdscript]")) { rd.script = t.checked; redraw(); return; }
       const tab = t.closest("[data-ct]"); if (tab) { S.tab = tab.dataset.ct; save(); document.querySelectorAll("[data-ct]").forEach((b) => b.classList.toggle("on", b === tab)); redraw(); return; }
       const oi = t.closest("[data-open-issue]"); if (oi) { S.issue = oi.dataset.openIssue; const i = issue(); S.page = i.pages[0] && i.pages[0].id; S.panel = i.pages[0] && i.pages[0].panels[0] && i.pages[0].panels[0].id; S.tab = "board"; save(); document.querySelectorAll("[data-ct]").forEach((b) => b.classList.toggle("on", b.dataset.ct === "board")); redraw(); return; }
       const fp = t.closest("[data-flowpage]"); if (fp) { const [ii, pp] = fp.dataset.flowpage.split(":"); S.issue = ii; S.page = pp; const q = page(); S.panel = q && q.panels[0] && q.panels[0].id; S.tab = "board"; save(); document.querySelectorAll("[data-ct]").forEach((b) => b.classList.toggle("on", b.dataset.ct === "board")); redraw(); window.scrollTo({ top: 0 }); return; }
@@ -323,7 +367,7 @@
       if (t.dataset.cc) { const x = S.cast.find((c) => c.id === t.dataset.cc); x[t.dataset.f] = t.value; x.u = Date.now(); save(); return; }
     };
     const input = (e) => { const t = e.target; if (t.dataset.nf && t.tagName !== "SELECT") { const n = panel(); n[t.dataset.nf] = t.value; stamp(n); save(); refreshPic(); } else if (t.dataset.cf === "x" || (t.dataset.cf === "n")) { change(e); } else if (t.dataset.cc && t.tagName !== "SELECT") { const x = S.cast.find((c) => c.id === t.dataset.cc); x[t.dataset.f] = t.value; x.u = Date.now(); save(); } else if (t.dataset.pf === "beat") { const p = page(); p.beat = t.value; stamp(p); save(); } };
-    const key = (e) => { if (play && e.key === "Escape") stopPlay(); else if (play && e.key === "ArrowRight") { play.auto = false; play.i = Math.min(play.seq.length - 1, play.i + 1); drawPlay(); } else if (play && e.key === "ArrowLeft") { play.auto = false; play.i = Math.max(0, play.i - 1); drawPlay(); } };
+    const key = (e) => { if (S.tab === "read" && rd.issue && !play && !/INPUT|SELECT|TEXTAREA/.test((e.target || {}).tagName || "")) { if (e.key === "ArrowRight") { rdGo(1); return; } if (e.key === "ArrowLeft") { rdGo(-1); return; } if (e.key === "Escape") { rd.issue = null; redraw(); return; } } if (play && e.key === "Escape") stopPlay(); else if (play && e.key === "ArrowRight") { play.auto = false; play.i = Math.min(play.seq.length - 1, play.i + 1); drawPlay(); } else if (play && e.key === "ArrowLeft") { play.auto = false; play.i = Math.max(0, play.i - 1); drawPlay(); } };
     root.addEventListener("click", click); root.addEventListener("change", change); root.addEventListener("input", input); document.addEventListener("keydown", key);
     return () => { root.removeEventListener("click", click); root.removeEventListener("change", change); root.removeEventListener("input", input); document.removeEventListener("keydown", key); if (play) clearTimeout(play.t); play = null; };
   };
