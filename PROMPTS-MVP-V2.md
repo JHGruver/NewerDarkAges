@@ -76,9 +76,9 @@ BODY: rangy and loose-limbed build. Proportion recipe: medium heroic build: head
 
 FACE: gleeful squint, one eye closed to aim.
 
-COSTUME: rangy young woman with a high dark dreadlock bun and a blue bandana, a hot-pink cape-jacket with blue lightning trim, a star-emblem round bumper shield on one arm, a long pink-and-cream railgun rifle with plunger-tipped barrel and scope aimed in both hands, a plunger-tipped spear slung across the back, studded belt, star knee-guard and laced boots. Signature exaggeration: an enormous gloved trigger hand and the plunger-tipped rifle muzzle pushed toward the viewer, giant sneakers.
+COSTUME: rangy young woman with a high dark dreadlock bun and a blue bandana, a hot-pink cape-jacket with blue lightning trim, a round cream-and-cyan arcade-chip bumper shield raised on one arm, a long pink-and-cream railgun rifle with a hexagonal glowing muzzle and a scope, aimed one-handed, a plunger-tipped spear slung across the back, studded belt, geometric knee-guard and laced boots. Signature exaggeration: an enormous gloved trigger hand and the plunger-tipped rifle muzzle pushed toward the viewer, giant sneakers.
 
-POSE: braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm. Pose energy: a braced aggressive firing or throwing stance, the weapon or throwing arm foreshortened toward the viewer, back arched, the muzzle or throw clearly readable. Head turned toward the viewer. The pose must say "blaster" at a glance.
+POSE: wide lunge on planted boots, the railgun levelled at the viewer for a bank shot, the bumper shield raised on the other arm. Pose energy: a braced aggressive firing or throwing stance, the weapon or throwing arm foreshortened toward the viewer, back arched, the muzzle or throw clearly readable. Head turned toward the viewer. The pose must say "blaster" at a glance.
 
 STYLE KIT (Shard Cel 2.0):
 Shape language: sharp angular shards, wedges and triangles. Hair, cloth hems, capes and tails end in long pointed blades. The silhouette reads instantly, even as a tiny thumbnail.

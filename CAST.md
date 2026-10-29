@@ -329,16 +329,16 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 | Physique | rangy and loose-limbed; medium size; mobility: agile |
 | Ethnicity + nationality | Igbo heritage, Nigerian |
 | Identity | female human |
-| Wardrobe | rangy young woman with a high dark dreadlock bun and a blue bandana, a hot-pink cape-jacket with blue lightning trim, a star-emblem round bumper shield on one arm, a long pink-and-cream railgun rifle with plunger-tipped barrel and scope aimed in both hands, a plunger-tipped spear slung across the back, studded belt, star knee-guard and laced boots |
+| Wardrobe | rangy young woman with a high dark dreadlock bun and a blue bandana, a hot-pink cape-jacket with blue lightning trim, a round cream-and-cyan arcade-chip bumper shield raised on one arm, a long pink-and-cream railgun rifle with a hexagonal glowing muzzle and a scope, aimed one-handed, a plunger-tipped spear slung across the back, studded belt, geometric knee-guard and laced boots |
 | Accessories | Ricochet rifle; bumper shield; plunger-spear; pocket flippers |
-| Pose | braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm |
+| Pose | wide lunge on planted boots, the railgun levelled at the viewer for a bank shot, the bumper shield raised on the other arm |
 | Facial expression | gleeful squint, one eye closed to aim |
 | People | Human |
 | Class | Arcade Clans |
 | Subclass | Pinball Gunners |
 | Type | Blaster |
 | Combat or support | Combat |
-| Silhouette hook | braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm; the Ricochet rifle and the bumper shield break the outline so it reads instantly as a black shape |
+| Silhouette hook | wide lunge on planted boots, the railgun levelled at the viewer for a bank shot, the bumper shield raised on the other arm; the Ricochet rifle and the bumper shield break the outline so it reads instantly as a black shape |
 | Shape language | long straight lines and a bold wedge-shaped weapon |
 | Main color (60%) | #ff5d8f: the largest garment, armor, fur-marking or body areas |
 | Secondary color (30%) | #00bbf9: trim, sash, straps, secondary garment pieces and held gear |
@@ -349,7 +349,7 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 **Samurai Jack check (targets for this character)**
 
-1. Black-fill test: the silhouette must still read as braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm.
+1. Black-fill test: the silhouette must still read as wide lunge on planted boots, the railgun levelled at the viewer for a bank shot, the bumper shield raised on the other arm.
 2. Few large shapes: long straight lines and a bold wedge-shaped weapon; no more than about a dozen major shapes (head, torso, limbs, main garment, signature gear).
 3. Thumbnail test: the Ricochet rifle and the pose must be visible at 64 px.
 4. Flat colors: #ff5d8f / #00bbf9 / #fff7c7 as separate flat shapes divided by black line; no gradients or glow.
@@ -369,8 +369,8 @@ COMPOSITION: horizon at one-third height, a moon upper-left, open empty space in
 
 ```text
 An original character model sheet for a flat-color 2D animated series: extremely simple large flat shapes, one thin uniform black outline, flat solid colors, minimal detail, angular geometric construction, heavy solid black shapes and a few stark white highlights, like a hand-drawn paper cutout. It must look like a clean animation cel, NOT detailed illustration or fantasy concept art.
-CHARACTER: Pinball Gunners, female human (Igbo heritage, Nigerian), apparent age late 30s. rangy and loose-limbed, medium size. Pose: braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm. Expression: gleeful squint, one eye closed to aim, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
-SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ricochet rifle. SECOND ITEM, kept plain: bumper shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: rangy young woman with a high dark dreadlock bun and a blue bandana, a hot-pink cape-jacket with blue lightning trim, a star-emblem round bumper shield on one arm, a long pink-and-cream railgun rifle with plunger-tipped barrel and scope aimed in both hands, a plunger-tipped spear slung across the back, studded belt.
+CHARACTER: Pinball Gunners, female human (Igbo heritage, Nigerian), apparent age late 30s. rangy and loose-limbed, medium size. Pose: wide lunge on planted boots, the railgun levelled at the viewer for a bank shot, the bumper shield raised on the other arm. Expression: gleeful squint, one eye closed to aim, as a minimal face. Design the silhouette first (long straight lines and a bold wedge-shaped weapon); the pose and the hero prop must read as a solid black shape.
+SIMPLIFICATION BUDGET (the most important rule): HERO PROP, the one detailed object: Ricochet rifle. SECOND ITEM, kept plain: bumper shield. COSTUME: only three big masses (main garment, legs, boots) as large flat angular polygons. Source costume notes, to be CUT by about 70% and used only as a loose guide: rangy young woman with a high dark dreadlock bun and a blue bandana, a hot-pink cape-jacket with blue lightning trim, a round cream-and-cyan arcade-chip bumper shield raised on one arm, a long pink-and-cream railgun rifle with a hexagonal glowing muzzle and a scope, aimed one-handed, a plunger-tipped spear slung across the back.
 
 HOW TO DRAW IT: FIGURE: about 12 to 15 big shapes in total; OUTLINE: one thin, uniform-weight black line; SHADING: each material is one flat color plus at most one flat darker shadow shape; no shine or soft shading; FACE: minimal; simple geometric eye shapes under one brow line, one nose line, one mouth line; no eyelashes, eye highlights or skin shading; HAIR and FUR: two to four big solid pointed shapes, never strands, braids, curls or texture; FABRIC: large flat planes with straight or sharply angled edges and at most three big creases; no ragged hems, streamers, patterns, trim bands, tassels, stitching, studs or rows of buckles; METAL and GEAR: plain solid shapes in flat grey, black or an assigned color; no engraving; HANDS and FEET: simple blocky shapes; at most ONE repeated graphic symbol on the whole figure; clear negative space between limbs, prop and body.
 COLOR (exact hex, flat fills): main #ff5d8f about 60%, on the largest garment, armor, fur-marking or body areas; secondary #00bbf9 about 30%, on trim, sash, straps, secondary garment pieces and held gear; pop #fff7c7 about 10%, on the eyes, the Ricochet rifle and one small magical detail. Also allowed: black, white, neutral grey and one flat simplified skin, fur or species tone. No cream, tan, brass, gold or silver unless assigned. Never use #d9a521 (background only).

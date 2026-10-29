@@ -9,7 +9,7 @@ window.CAST = {
   outriders: C("Female", "Mexican-Native heritage, Mexican", "fierce lopsided grin", "mid-lunge in a wide low stance, the barbed chain whip arcing overhead and the crossbow aimed forward"),
   fuelpriests: C("Male", "Armenian heritage, Armenian-American", "solemn, eyes lifted in devotion", "wide stance, one arm raising the heavy wrench to the sky and the other swinging the smoking censer on its chains"),
   joystick: C("Male", "Korean heritage, South Korean", "intense focus, eyes narrowed behind the visor", "mid-combo lunge, the joystick-hilted blade arcing overhead and the button-pad gauntlet thrust forward"),
-  pinball: C("Female", "Igbo heritage, Nigerian", "gleeful squint, one eye closed to aim", "braced low on one knee, the railgun shouldered and angled for a bank shot, the bumper shield raised on the other arm"),
+  pinball: C("Female", "Igbo heritage, Nigerian", "gleeful squint, one eye closed to aim", "wide lunge on planted boots, the railgun levelled at the viewer for a bank shot, the bumper shield raised on the other arm"),
   tokenbrokers: C("Male", "Lebanese heritage, Brazilian", "sly knowing smirk", "standing in a relaxed contrapposto, flipping a coin with one raised hand, the ledger tucked under the other arm"),
   jammers: C("Nonbinary", "Filipino heritage, Filipino", "calm and alert, lips pressed", "sprinting forward bent into the pack's weight, the baton thrust ahead like a lance, the other hand clamping a headphone to one ear"),
   snipercaster: C("Female", "Ethiopian heritage, Ethiopian", "cool, unblinking concentration", "dangling one-handed from a rope with the legs trailing, the other arm holding the long rifle across the body, one eye to the scope"),
