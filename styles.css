@@ -1619,3 +1619,8 @@ body[data-ed="mvp"] .gmix.mvpgrid[data-n="3"] { grid-template-columns: repeat(3,
 .cm-next { margin: 22px 0 40px; } .cm-next li { margin: 5px 0; font-size: .92rem; }
 @media (max-width: 640px) { .cm-ribbon { flex-wrap: wrap; } .cm-rb { flex: 1 1 45% !important; } .cm-rb.now { flex: 1 1 100% !important; } }
 .cm-mpc .cm-say, .cm-mpc .cm-cap, .cm-mpc .cm-fig em, .cm-mpc .cm-shot, .cm-mpc .cm-sfx, .cm-mpc .cm-obj { display: none; } .cm-mpc .cm-cap { display: block; width: 40%; height: 6px; padding: 0; font-size: 0; top: 8%; } .cm-mpc .cm-say { display: block; width: 34%; height: 8px; padding: 0; font-size: 0; border-radius: 6px; }
+
+/* comic storyboard art (grey page images) */
+.cm-pageart { width: min(100%, 560px); margin: 0 auto; border: 3px solid #000; box-shadow: 6px 6px 0 #000; background: #efe9d8; } .cm-pageart img { display: block; width: 100%; height: auto; }
+.cm-artbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 auto 10px; width: min(100%, 560px); }
+.cm-mp.art { display: block; padding: 0; aspect-ratio: 2 / 3; overflow: hidden; } .cm-mp.art img { display: block; width: 100%; height: 100%; object-fit: cover; }

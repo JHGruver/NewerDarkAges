@@ -12,6 +12,7 @@
   const clone = (x) => JSON.parse(JSON.stringify(x));
   let S = null, msg = "", play = null;
 
+  let artView = true;
   /* ---------- state ---------- */
   function seedState() {
     const d = clone(C());
@@ -25,7 +26,7 @@
       if (!ci) { if (!S.gone[si.id]) S.issues.push(clone(si)); return; }
       si.pages.forEach((sp) => {
         let cp = ci.pages.find((p) => p.id === sp.id);
-        if (!cp) { if (!S.gone[sp.id]) ci.pages.push(clone(sp)); return; }
+        if (!cp) { if (!S.gone[sp.id]) ci.pages.splice(Math.min(si.pages.indexOf(sp), ci.pages.length), 0, clone(sp)); return; }
         sp.panels.forEach((sn) => { if (!cp.panels.some((n) => n.id === sn.id) && !S.gone[sn.id]) cp.panels.push(clone(sn)); });
       });
     });
@@ -44,6 +45,7 @@
   const page = () => { const i = issue(); return i.pages.find((p) => p.id === S.page) || i.pages[0]; };
   const panel = () => { const p = page(); return p && (p.panels.find((n) => n.id === S.panel) || p.panels[0]); };
   const stamp = (o) => { o.u = Date.now(); o.by = S.me || o.by || ""; return o; };
+  const artOf = (p) => (window.COMIC_ART && window.COMIC_ART[p.id] ? `art/comic/${p.id}.jpg` : "");
   const layoutOf = (id) => { const l = C().layouts.find((x) => x[0] === id) || C().layouts[0]; return [l[0], l[1], l[2], l[3].replace(/"/g, "'")]; };
   const shotOf = (id) => C().shots.find((s) => s[0] === id) || C().shots[2];
   const allPanels = (i) => i.pages.flatMap((p) => p.panels.map((n) => ({ p, n })));
@@ -118,7 +120,7 @@
       const it = S.issues.find((i) => i.id === b.id) || { id: b.id, pages: [] }, left = Math.max(0, b.pages - it.pages.length), n = it.pages.reduce((s, p) => s + p.panels.length, 0);
       let inner;
       if (mode === "read") inner = it.pages.length ? it.pages.map((p, k) => `<article class="cm-rd"><header><h4>Page ${k + 1}</h4><span>${esc(p.beat || "")}</span><button class="linkbtn" data-flowpage="${it.id}:${p.id}">Edit</button></header>${p.panels.map((q, z) => `<div class="cm-rdp"><b>${z + 1} · ${esc(shotOf(q.shot)[1])}</b><p>${esc(q.action || "(nothing written yet)")}</p>${q.caption ? `<p class="cm-rcap">${esc(q.caption)}</p>` : ""}${q.dialogue ? `<p class="cm-rsay">${esc(q.dialogue).replace(/\n/g, "<br>")}</p>` : ""}${q.sfx ? `<p class="cm-rsfx">${esc(q.sfx)}</p>` : ""}</div>`).join("")}</article>`).join("") : '<p class="muted">No pages storyboarded for this issue yet.</p>';
-      else inner = `<div class="cm-strip">${it.pages.map((p, k) => { const lay = layoutOf(p.layout); return `<button class="cm-mpg" data-flowpage="${it.id}:${p.id}" aria-label="Open page ${k + 1} in the storyboard"><span class="cm-mp" style="grid-template-areas:${lay[3]}">${lay[2].map((a, z) => `<span class="cm-mpc${p.panels[z] ? "" : " empty"}" style="grid-area:${a}">${p.panels[z] ? thumb(p.panels[z]) : ""}</span>`).join("")}</span><b>Page ${k + 1}</b><em>${esc(p.beat || "no beat yet")}</em></button>`; }).join("")}${left ? `<button class="cm-mpg more" data-open-issue="${it.id}"><span class="cm-mp ghost"><i>${left}</i></span><b>${left} more page${left === 1 ? "" : "s"}</b><em>to plan</em></button>` : ""}</div>`;
+      else inner = `<div class="cm-strip">${it.pages.map((p, k) => { const lay = layoutOf(p.layout); return `<button class="cm-mpg" data-flowpage="${it.id}:${p.id}" aria-label="Open page ${k + 1} in the storyboard">${artOf(p) ? `<span class="cm-mp art"><img src="${artOf(p)}" alt="Storyboard art for page ${k + 1}" loading="lazy"></span>` : `<span class="cm-mp" style="grid-template-areas:${lay[3]}">${lay[2].map((a, z) => `<span class="cm-mpc${p.panels[z] ? "" : " empty"}" style="grid-area:${a}">${p.panels[z] ? thumb(p.panels[z]) : ""}</span>`).join("")}</span>`}<b>Page ${k + 1}</b><em>${esc(p.beat || "no beat yet")}</em></button>`; }).join("")}${left ? `<button class="cm-mpg more" data-open-issue="${it.id}"><span class="cm-mp ghost"><i>${left}</i></span><b>${left} more page${left === 1 ? "" : "s"}</b><em>to plan</em></button>` : ""}</div>`;
       return `<section class="panel cm-fi" id="f-${b.id}"><header><div><div class="eyebrow">${esc(b.n)} · ${esc(b.when)}</div><h3>${esc(b.title)}</h3></div><span class="cm-fcount">${it.pages.length} of ${b.pages} pages · ${n} panels</span></header>
         <p class="cm-hook"><b>Ends on:</b> ${esc(b.hook)}</p>${inner}
         <details class="cm-bt"><summary>Story beats for this issue (${b.items.length})</summary><ol>${b.items.map((x) => `<li><b>${esc(x.t)}.</b> ${esc(x.text)}</li>`).join("")}</ol></details></section>`;
@@ -156,7 +158,9 @@
           <div class="cm-pagehead"><h3>Page ${i.pages.indexOf(p) + 1}</h3><input class="cm-beat" data-pf="beat" value="${esc(p.beat)}" placeholder="What happens on this page, in one line" aria-label="Page beat">
             <label>Layout <select data-pf="layout">${c.layouts.map((l) => `<option value="${l[0]}"${l[0] === p.layout ? " selected" : ""}>${l[1]}</option>`).join("")}</select></label>
             <span class="cm-pgbtns"><button class="linkbtn" data-act="page-left">← Move</button><button class="linkbtn" data-act="page-right">Move →</button><button class="linkbtn" data-act="del-page">Delete page</button></span></div>
-          <div class="cm-page" style="grid-template-areas:${lay[3]}">${lay[2].map((a, z) => { const q = p.panels[z]; return q ? `<button class="cm-cell${q.id === (n && n.id) ? " on" : ""}" style="grid-area:${a}" data-panel="${q.id}"><span class="cm-num">${z + 1}</span><span class="cm-st s-${q.status || "idea"}">${STATUS[q.status || "idea"]}</span>${thumb(q)}</button>` : `<button class="cm-cell empty" style="grid-area:${a}" data-act="add-panel"><span>+ Add panel ${z + 1}</span></button>`; }).join("")}</div>
+          ${artOf(p) ? `<div class="cm-artbar"><button class="btn ghost${artView ? " sel" : ""}" data-act="toggle-art">${artView ? "Edit the panels" : "Show the storyboard art"}</button><span class="muted small">Grey storyboard drawn from this page's draft plan. Redraw after big edits.</span></div>` : ""}
+          ${artOf(p) && artView ? `<div class="cm-pageart"><img src="${artOf(p)}" alt="Storyboard art for this page"></div>` : ""}
+          <div class="cm-page"${artOf(p) && artView ? " hidden" : ""} style="grid-template-areas:${lay[3]}">${lay[2].map((a, z) => { const q = p.panels[z]; return q ? `<button class="cm-cell${q.id === (n && n.id) ? " on" : ""}" style="grid-area:${a}" data-panel="${q.id}"><span class="cm-num">${z + 1}</span><span class="cm-st s-${q.status || "idea"}">${STATUS[q.status || "idea"]}</span>${thumb(q)}</button>` : `<button class="cm-cell empty" style="grid-area:${a}" data-act="add-panel"><span>+ Add panel ${z + 1}</span></button>`; }).join("")}</div>
           ${spill.length ? `<div class="cm-spill"><b>Off the page (${spill.length})</b> This layout has ${slots} slot${slots > 1 ? "s" : ""}. Pick a bigger layout or move these to another page.<div>${spill.map((q) => `<button class="cm-cell mini${q.id === (n && n.id) ? " on" : ""}" data-panel="${q.id}">${thumb(q)}</button>`).join("")}</div></div>` : ""}
         </div>
         <aside class="cm-insp panel" id="cm-insp">${inspector(n)}</aside>
@@ -283,6 +287,7 @@
       const dcast = t.closest("[data-delcast]"); if (dcast) { S.gone[dcast.dataset.delcast] = true; S.cast = S.cast.filter((x) => x.id !== dcast.dataset.delcast); save(); redraw(); return; }
       const a = t.closest("[data-act]"); if (!a) return; const act = a.dataset.act, i = issue(), p = page(), n = panel();
       if (act === "play") startPlay();
+      else if (act === "toggle-art") { artView = !artView; redraw(); }
       else if (act === "play-book") { const seq = S.issues.flatMap((i) => allPanels(i).map((x) => x.n)); if (seq.length) { play = { seq, i: 0, auto: true, t: null }; drawPlay(); } }
       else if (act === "pl-close") stopPlay();
       else if (act === "pl-next" && play) { play.auto = false; play.i = Math.min(play.seq.length - 1, play.i + 1); drawPlay(); }
