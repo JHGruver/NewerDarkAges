@@ -4,7 +4,7 @@
   const KEY = "nda-comic-v1";
   const C = () => window.COMIC, H = () => window.NDAH;
   const esc = (s) => String(s == null ? "" : s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-  const TABS = [["pitch", "Pitch and canon"], ["beats", "Story map"], ["board", "Storyboard"], ["cast", "Cast"], ["share", "Share"]];
+  const TABS = [["pitch", "Pitch and canon"], ["beats", "Story map"], ["flow", "Story flow"], ["board", "Storyboard"], ["cast", "Cast"], ["share", "Share"]];
   const PEOPLE = ["Jacob", "Mike", "Ben", "Claude"], WHO_COLOR = { Jacob: "#ff5fb0", Mike: "#6fe9ff", Ben: "#ffd60a", Claude: "#b69cff" };
   const STATUS = { idea: "Idea", draft: "Draft", locked: "Locked" };
   const KIND_COLOR = { human: "#d9a521", vampire: "#9a9ab8", were: "#c4693a", undead: "#6fb06f", ghost: "#8fcfe0", forest: "#5fae6a", eldritch: "#b83a7a", magic: "#7a4bd1" };
@@ -74,7 +74,7 @@
       <div class="st-tabs" role="tablist">${TABS.map((x) => `<button role="tab" class="st-tab${S.tab === x[0] ? " on" : ""}" data-ct="${x[0]}"><span>${x[1]}</span></button>`).join("")}</div>
       <p class="muted small" id="cm-msg">${esc(msg)}</p><div id="cm-body">${body()}</div><div id="cm-play"></div>`;
   };
-  const body = () => ({ pitch, beats, board, cast, share }[S.tab] || pitch)();
+  const body = () => ({ pitch, beats, flow, board, cast, share }[S.tab] || pitch)();
 
   function pitch() {
     const c = C(), lore = window.LORE;
@@ -105,6 +105,42 @@
           <ol class="cm-items">${b.items.map((it) => { const t = lore.timeline.find((x) => x.id === it.lore), th = lore.threads.find((x) => x.id === it.lore); return `<li><b>${esc(it.t)}</b> <span class="src s-${esc((it.src || "A").replace(/[^SXAM]/g, "").slice(-1))}" title="Source">${esc(it.src)}</span><p>${esc(it.text)}</p>${t || th ? `<small class="muted">Lore: ${esc(t ? t.title : th.q)}</small>` : ""}</li>`; }).join("")}</ol>
           <p class="small muted">${b.pages} pages planned · ${pages.length} storyboarded · ${n} panels</p><button class="btn ghost" data-open-issue="${b.id}">Open in storyboard</button></section>`;
       }).join("")}</div>`;
+  }
+
+
+  // STORY FLOW: the whole book on one screen. Every issue as a filmstrip of its storyboarded pages, a read-through mode, and the threads that run across issues.
+  function flow() {
+    const c = C(), lore = window.LORE, mode = S.flowMode === "read" ? "read" : "strip";
+    const planned = c.beats.reduce((n, b) => n + b.pages, 0), pgs = S.issues.reduce((n, i) => n + i.pages.length, 0), all = S.issues.flatMap((i) => allPanels(i)), locked = all.filter((x) => x.n.status === "locked").length, draft = all.filter((x) => x.n.status === "draft").length;
+    const stat = (n, l) => `<div class="cm-fst"><b>${n}</b><span>${l}</span></div>`;
+    const ribbon = c.beats.map((b) => { const it = S.issues.find((i) => i.id === b.id) || { pages: [] }, pct = Math.min(100, Math.round((it.pages.length / b.pages) * 100)); return `<button class="cm-rb" style="flex:${b.pages}" data-flowjump="${b.id}" title="${esc(b.title)}: ${it.pages.length} of ${b.pages} pages storyboarded"><i style="width:${pct}%"></i><span><b>${esc(b.n)}</b>${esc(b.title)}<small>${esc(b.when)}</small></span></button>`; }).join("") + `<span class="cm-rb now"><span><b>NOW</b>The game<small>heirs wake</small></span></span>`;
+    const issues = c.beats.map((b) => {
+      const it = S.issues.find((i) => i.id === b.id) || { id: b.id, pages: [] }, left = Math.max(0, b.pages - it.pages.length), n = it.pages.reduce((s, p) => s + p.panels.length, 0);
+      let inner;
+      if (mode === "read") inner = it.pages.length ? it.pages.map((p, k) => `<article class="cm-rd"><header><h4>Page ${k + 1}</h4><span>${esc(p.beat || "")}</span><button class="linkbtn" data-flowpage="${it.id}:${p.id}">Edit</button></header>${p.panels.map((q, z) => `<div class="cm-rdp"><b>${z + 1} · ${esc(shotOf(q.shot)[1])}</b><p>${esc(q.action || "(nothing written yet)")}</p>${q.caption ? `<p class="cm-rcap">${esc(q.caption)}</p>` : ""}${q.dialogue ? `<p class="cm-rsay">${esc(q.dialogue).replace(/\n/g, "<br>")}</p>` : ""}${q.sfx ? `<p class="cm-rsfx">${esc(q.sfx)}</p>` : ""}</div>`).join("")}</article>`).join("") : '<p class="muted">No pages storyboarded for this issue yet.</p>';
+      else inner = `<div class="cm-strip">${it.pages.map((p, k) => { const lay = layoutOf(p.layout); return `<button class="cm-mpg" data-flowpage="${it.id}:${p.id}" aria-label="Open page ${k + 1} in the storyboard"><span class="cm-mp" style="grid-template-areas:${lay[3]}">${lay[2].map((a, z) => `<span class="cm-mpc${p.panels[z] ? "" : " empty"}" style="grid-area:${a}">${p.panels[z] ? thumb(p.panels[z]) : ""}</span>`).join("")}</span><b>Page ${k + 1}</b><em>${esc(p.beat || "no beat yet")}</em></button>`; }).join("")}${left ? `<button class="cm-mpg more" data-open-issue="${it.id}"><span class="cm-mp ghost"><i>${left}</i></span><b>${left} more page${left === 1 ? "" : "s"}</b><em>to plan</em></button>` : ""}</div>`;
+      return `<section class="panel cm-fi" id="f-${b.id}"><header><div><div class="eyebrow">${esc(b.n)} · ${esc(b.when)}</div><h3>${esc(b.title)}</h3></div><span class="cm-fcount">${it.pages.length} of ${b.pages} pages · ${n} panels</span></header>
+        <p class="cm-hook"><b>Ends on:</b> ${esc(b.hook)}</p>${inner}
+        <details class="cm-bt"><summary>Story beats for this issue (${b.items.length})</summary><ol>${b.items.map((x) => `<li><b>${esc(x.t)}.</b> ${esc(x.text)}</li>`).join("")}</ol></details></section>`;
+    }).join("");
+    // threads that must be planted: which issue plants each one (from the story map's lore links)
+    const plantRows = c.plants.map((p) => `<tr><th>${esc(p.t)}</th>${c.beats.map((b) => { const hit = b.items.filter((x) => x.lore === p.lore); return `<td class="${hit.length ? "yes" : ""}" title="${esc(hit.map((h) => h.t).join("; "))}">${hit.length ? "●" : ""}</td>`; }).join("")}<td class="cm-then">${esc(((lore.threads || []).find((x) => x.id === p.lore) || { q: "" }).q)}</td></tr>`).join("");
+    // who appears where: panel counts by character and issue
+    const names = [...new Set(S.cast.map((x) => x.n))], count = (nm, it) => allPanels(it).filter((a) => (a.n.chars || []).some((ch) => ch.n === nm || nm.endsWith(ch.n) || ch.n.endsWith(nm))).length;
+    const castRows = S.cast.map((x) => `<tr><th><i style="background:${KIND_COLOR[x.k] || "#999"}"></i>${esc(x.n)}</th>${c.beats.map((b) => { const it = S.issues.find((i) => i.id === b.id), k = it ? count(x.n, it) : 0; return `<td class="${k ? "yes" : ""}">${k || ""}</td>`; }).join("")}</tr>`).join("");
+    // honest gaps
+    const unanswered = c.decisions.filter((d) => !S.answers[d.id]).length, thin = c.beats.filter((b) => ((S.issues.find((i) => i.id === b.id) || { pages: [] }).pages.length) < Math.ceil(b.pages / 4)), idea = all.filter((x) => (x.n.status || "idea") === "idea").length, noText = all.filter((x) => !x.n.action).length;
+    const todo = [`${unanswered} of ${c.decisions.length} story decisions are still open (Pitch and canon tab)`, ...thin.map((b) => `${b.n} "${b.title}" has ${(S.issues.find((i) => i.id === b.id) || { pages: [] }).pages.length} of ${b.pages} pages storyboarded`), `${idea} panels are still just ideas and ${locked} are locked`, noText ? `${noText} panels have no action written` : "", `${S.cast.filter((x) => !x.fixed).length} characters were invented for the prequel and need approval`].filter(Boolean);
+    return `<p class="muted">The whole book on one screen, in reading order. Click any page to open it in the storyboard.</p>
+      <div class="cm-fstats">${stat(c.beats.length, "issues")}${stat(pgs + " / " + planned, "pages storyboarded")}${stat(all.length, "panels")}${stat(draft, "drafts")}${stat(locked, "locked")}</div>
+      <div class="cm-ribbon" role="group" aria-label="The five issues">${ribbon}</div>
+      <div class="cm-bar"><div class="v-chips"><button class="rf${mode === "strip" ? " sel" : ""}" data-flowmode="strip">Filmstrip</button><button class="rf${mode === "read" ? " sel" : ""}" data-flowmode="read">Read it through</button></div><button class="btn" data-act="play-book">▶ Play the whole book</button></div>
+      <div class="cm-fl">${issues}</div>
+      <h2 class="lh">Threads that run across the book</h2><p class="muted">A dot means that issue's story beats plant the thread. An empty row is a hole to fill before NOW.</p>
+      <div class="cm-tablewrap"><table class="cm-mx"><thead><tr><th></th>${c.beats.map((b) => `<th>${esc(b.n.replace("Issue ", "#"))}</th>`).join("")}<th>Open question it feeds</th></tr></thead><tbody>${plantRows}</tbody></table></div>
+      <h2 class="lh">Who is on the page</h2><p class="muted">Panels each character appears in, by issue, from the storyboard so far.</p>
+      <div class="cm-tablewrap"><table class="cm-mx cm-who"><thead><tr><th></th>${c.beats.map((b) => `<th>${esc(b.n.replace("Issue ", "#"))}</th>`).join("")}</tr></thead><tbody>${castRows}</tbody></table></div>
+      <section class="panel cm-next"><h3>What is left to finish the book</h3><ul>${todo.map((t) => `<li>${esc(t)}</li>`).join("")}</ul></section>`;
   }
 
   function board() {
@@ -236,6 +272,9 @@
       const t = e.target;
       const tab = t.closest("[data-ct]"); if (tab) { S.tab = tab.dataset.ct; save(); document.querySelectorAll("[data-ct]").forEach((b) => b.classList.toggle("on", b === tab)); redraw(); return; }
       const oi = t.closest("[data-open-issue]"); if (oi) { S.issue = oi.dataset.openIssue; const i = issue(); S.page = i.pages[0] && i.pages[0].id; S.panel = i.pages[0] && i.pages[0].panels[0] && i.pages[0].panels[0].id; S.tab = "board"; save(); document.querySelectorAll("[data-ct]").forEach((b) => b.classList.toggle("on", b.dataset.ct === "board")); redraw(); return; }
+      const fp = t.closest("[data-flowpage]"); if (fp) { const [ii, pp] = fp.dataset.flowpage.split(":"); S.issue = ii; S.page = pp; const q = page(); S.panel = q && q.panels[0] && q.panels[0].id; S.tab = "board"; save(); document.querySelectorAll("[data-ct]").forEach((b) => b.classList.toggle("on", b.dataset.ct === "board")); redraw(); window.scrollTo({ top: 0 }); return; }
+      const fm = t.closest("[data-flowmode]"); if (fm) { S.flowMode = fm.dataset.flowmode; save(); redraw(); return; }
+      const fj = t.closest("[data-flowjump]"); if (fj) { const el = document.getElementById("f-" + fj.dataset.flowjump); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
       const jump = t.closest("[data-jump]"); if (jump) { e.preventDefault(); const el = document.getElementById("b-" + jump.dataset.jump); if (el) el.scrollIntoView({ behavior: "smooth", block: "start" }); return; }
       const ud = t.closest("[data-undec]"); if (ud) { delete S.answers[ud.dataset.undec]; save(); redraw(); return; }
       const pg = t.closest("[data-pgid]"); if (pg) { S.page = pg.dataset.pgid; const p = page(); S.panel = p.panels[0] && p.panels[0].id; save(); redraw(); return; }
@@ -244,6 +283,7 @@
       const dcast = t.closest("[data-delcast]"); if (dcast) { S.gone[dcast.dataset.delcast] = true; S.cast = S.cast.filter((x) => x.id !== dcast.dataset.delcast); save(); redraw(); return; }
       const a = t.closest("[data-act]"); if (!a) return; const act = a.dataset.act, i = issue(), p = page(), n = panel();
       if (act === "play") startPlay();
+      else if (act === "play-book") { const seq = S.issues.flatMap((i) => allPanels(i).map((x) => x.n)); if (seq.length) { play = { seq, i: 0, auto: true, t: null }; drawPlay(); } }
       else if (act === "pl-close") stopPlay();
       else if (act === "pl-next" && play) { play.auto = false; play.i = Math.min(play.seq.length - 1, play.i + 1); drawPlay(); }
       else if (act === "pl-prev" && play) { play.auto = false; play.i = Math.max(0, play.i - 1); drawPlay(); }
