@@ -1,0 +1,778 @@
+// The Newer Dark Ages V2: tiny hash-router SPA.
+// Routes: #/  #/characters[/people[/subclass[/character]]]  #/manual[/npc]  #/roadmap  #/art
+const app = document.getElementById("app");
+if (typeof window.NDA_TEAM === "undefined") window.NDA_TEAM = true; // the open dev copy shows everything; the protected build (gate.js) sets this from the login
+const TEAM = () => !!window.NDA_TEAM;
+const { WORLD, STORY, PHASES, ART, MANUAL, PEOPLE_COLORS } = window;
+const GROUPS_ALL = GROUP_ORDER.map((id) => GROUP_DEFS[id]);
+// EDITION: "mvp" shows only the launch roster (data-mvp.js) in the Shard Cel art direction. "full" is the original site with every character.
+const MVP_IDS = new Set(Object.values((window.MVP && MVP.picks) || {}).flat().map((p) => p.id).filter(Boolean));
+const EDITION = window.NDA_EDITION === "mvp" && MVP_IDS.size ? "mvp" : "full";
+const GROUPS = EDITION === "mvp" ? GROUPS_ALL.map((g) => Object.assign({}, g, { subs: g.subs.map((s) => Object.assign({}, s, { subs: s.subs.filter((l) => MVP_IDS.has(l.id)) })).filter((s) => s.subs.length) })).filter((g) => g.subs.length) : GROUPS_ALL;
+const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const list = (items, cls = "") => `<ul class="${cls}">${items.map((i) => `<li>${esc(i)}</li>`).join("")}</ul>`;
+const SITE_ART = "art/site/";
+// generated crests (peoples), class sigils (Magic) and type icons; fall back to the line icon if an image is missing
+const CRESTS = new Set(["human", "vampire", "were", "ghost", "undead", "forest", "eldritch", "magic"]);
+const SIGILS = new Set(["wizard", "witch", "warlock", "mage"]);
+const crest = (g) => (CRESTS.has(g.id) ? `<img class="crest" src="${SITE_ART}crest-${g.id}.png" alt="" loading="lazy">` : ic(g.icon));
+const subIcon = (g, s) => (g.id === "magic" && SIGILS.has(s.id) ? `<img class="crest sigil" src="${SITE_ART}sigil-${s.id}.png" alt="" loading="lazy">` : ic(s.icon));
+const typeIcon = (t) => `<img class="typeico" src="${SITE_ART}type-${t}.png" alt="" loading="lazy">`;
+const NUMW = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"];
+const SHORT = { human: "Human", vampire: "Vampire", were: "Were", ghost: "Ghost", undead: "Undead", forest: "Forest", eldritch: "Eldritch", magic: "Magic" };
+const LEVEL_DEFAULT = ["Subclass", "Specialization"];
+
+const sndBtn = document.getElementById("sndbtn");
+const paintSound = () => { sndBtn.innerHTML = ic(NDAudio.enabled ? "volume" : "volume-off"); sndBtn.setAttribute("aria-pressed", NDAudio.enabled); sndBtn.title = NDAudio.enabled ? "Sound on (click to mute)" : "Sound off (click to turn on)"; };
+sndBtn.addEventListener("click", () => NDAudio.toggle()); window.addEventListener("nda:sound", paintSound); paintSound();
+document.getElementById("brand-ic").innerHTML = `<img src="${SITE_ART}logo-mark.png" alt="">`;
+
+/* ---------- colors ---------- */
+window.NDAH = { setScene: (s) => setScene(s), allCharacters: () => allCharacters(), everyCharacter: () => everyCharacter(), get EDITION() { return EDITION; }, poster: (...x) => poster(...x), cv: (...x) => cv(...x), get esc() { return esc; }, get crest() { return crest; }, get GROUPS() { return GROUPS; }, get NODE_ART() { return NODE_ART; }, ic: (...x) => ic(...x) };
+const pv = (g) => `--p:${g.color};--p2:${g.color2}`;
+const pal = (g, l) => (l && l.pal ? l.pal : [g.color2, "#f2efe6", "#ffffff"]);
+const cv = (g, l) => { const [a, b, c] = pal(g, l); return `${pv(g)};--c1:${a};--c2:${b};--c3:${c}`; };
+
+/* ---------- art we have so far (everything else is a generated placeholder poster) ---------- */
+const NODE_ART = {
+  prambugnurserypilots: { src: "art/v2/were-prambugnurserypilots.png", bg: "art/v2/were-prambugnurserypilots-bg.jpg", name: "Pram Bug Nursery Pilot" },
+  boxercrabanemonebrawlers: { src: "art/v2/were-boxercrabanemonebrawlers.png", bg: "art/v2/were-boxercrabanemonebrawlers-bg.jpg", name: "Boxer Crab Anemone Brawler" },
+  yetisetaefarmers: { src: "art/v2/were-yetisetaefarmers.png", bg: "art/v2/were-yetisetaefarmers-bg.jpg", name: "Yeti Crab Setae Farmer" },
+  pistolshrimpsnapgunners: { src: "art/v2/were-pistolshrimpsnapgunners.png", bg: "art/v2/were-pistolshrimpsnapgunners-bg.jpg", name: "Pistol Shrimp Snap-Gunner" },
+  lobsterclawmarshals: { src: "art/v2/were-lobsterclawmarshals.png", bg: "art/v2/were-lobsterclawmarshals-bg.jpg", name: "Lobster Claw-Marshal" },
+  flyingsquirrels: { src: "art/v2/were-flyingsquirrels.png", bg: "art/v2/were-flyingsquirrels-bg.jpg", name: "Giant Flying Squirrel Glide-Striker" },
+  molematehive: { src: "art/v2/were-molematehive.png", bg: "art/v2/were-molematehive-bg.jpg", name: "Naked Mole-Rat Hive-Colonist" },
+  castoroides: { src: "art/v2/were-castoroides.png", bg: "art/v2/were-castoroides-bg.jpg", name: "Castoroides Wetland Overlord" },
+  crestedratwardens: { src: "art/v2/were-crestedratwardens.png", bg: "art/v2/were-crestedratwardens-bg.jpg", name: "African Crested Rat Poison-Wick Warden" },
+  joseptusks: { src: "art/v2/were-joseptusks.png", bg: "art/v2/were-joseptusks-bg.jpg", name: "Josephoartigasia Tusk-Breaker" },
+  herugavialis: { src: "art/v2/were-herugavialis.png", bg: "art/v2/were-herugavialis-bg.jpg", name: "Herugavialis Tidal Marauder" },
+  gharialduelists: { src: "art/v2/were-gharialduelists.png", bg: "art/v2/were-gharialduelists-bg.jpg", name: "Gharial Sonic Duelist" },
+  armadillosuchus: { src: "art/v2/were-armadillosuchus.png", bg: "art/v2/were-armadillosuchus-bg.jpg", name: "Armadillosuchus Burrow-Juggernaut" },
+  cubancrocodiles: { src: "art/v2/were-cubancrocodiles.png", bg: "art/v2/were-cubancrocodiles-bg.jpg", name: "Cuban Crocodile Gallop Vanguard" },
+  caimanscouts: { src: "art/v2/were-caimanscouts.png", bg: "art/v2/were-caimanscouts-bg.jpg", name: "Dwarf Caiman Bone-Plate Scout" },
+  purussaurus: { src: "art/v2/were-purussaurus.png", bg: "art/v2/were-purussaurus-bg.jpg", name: "Purussaurus Death-Roller" },
+  stinkbadgers: { src: "art/v2/were-stinkbadgers.png", bg: "art/v2/were-stinkbadgers-bg.jpg", name: "Stink Badger Possum-Gasser" },
+  seaotters: { src: "art/v2/were-seaotters.png", bg: "art/v2/were-seaotters-bg.jpg", name: "Sea Otter Anvil-Smasher" },
+  honeybadgers: { src: "art/v2/were-honeybadgers.png", bg: "art/v2/were-honeybadgers-bg.jpg", name: "Honey Badger Loose-Hide" },
+  sealcoilstrikers: { src: "art/v2/were-sealcoilstrikers.png", bg: "art/v2/were-sealcoilstrikers-bg.jpg", name: "Swan-Neck Seal Coil-Striker" },
+  shortfacedbear: { src: "art/v2/were-shortfacedbear.png", bg: "art/v2/were-shortfacedbear-bg.jpg", name: "Short-Faced Bear Galloper" },
+  redpandamonks: { src: "art/v2/were-redpandamonks.png", bg: "art/v2/were-redpandamonks-bg.jpg", name: "Red Panda Bamboo Monk" },
+  maskbandits: { src: "art/v2/were-maskbandits.png", bg: "art/v2/were-maskbandits-bg.jpg", name: "Raccoon Mask Bandit" },
+  caninedreamweavers: { src: "art/v2/were-caninedreamweavers.png", bg: "art/v2/were-caninedreamweavers-bg.jpg", name: "Wool Dog Dream-Weaver" },
+  torrentstriders: { src: "art/v2/were-torrentstriders.png", bg: "art/v2/were-torrentstriders-bg.jpg", name: "Bush Dog Torrent Strider" },
+  bonecrushers: { src: "art/v2/were-bonecrushers.png", bg: "art/v2/were-bonecrushers-bg.jpg", name: "Bone-Crusher Juggernaut" },
+  riverskinguardians: { src: "art/v2/were-riverskinguardians.png", bg: "art/v2/were-riverskinguardians-bg.jpg", name: "Hellbender Riverskin Guardian" },
+  boneskirmishers: { src: "art/v2/were-boneskirmishers.png", bg: "art/v2/were-boneskirmishers-bg.jpg", name: "Ribbed Newt Bone-Skirmisher" },
+  olmseers: { src: "art/v2/were-olmseers.png", bg: "art/v2/were-olmseers-bg.jpg", name: "Olm Dark-Cave Seer" },
+  mawwardens: { src: "art/v2/were-mawwardens.png", bg: "art/v2/were-mawwardens-bg.jpg", name: "Giant Salamander Maw Warden" },
+  regrowthmedics: { src: "art/v2/were-regrowthmedics.png", bg: "art/v2/were-regrowthmedics-bg.jpg", name: "Axolotl Regrowth Medic" },
+  murdervanguard: { src: "art/v2/were-murdervanguard.png", bg: "art/v2/were-murdervanguard-bg.jpg", name: "Raven Murder Vanguard" },
+  nighteyesnipers: { src: "art/v2/were-nighteyesnipers.png", bg: "art/v2/were-nighteyesnipers-bg.jpg", name: "Owl Night-Eye Sniper" },
+  galesailors: { src: "art/v2/were-galesailors.png", bg: "art/v2/were-galesailors-bg.jpg", name: "Albatross Gale Sailor" },
+  inkspies: { src: "art/v2/were-inkspies.png", bg: "art/v2/were-inkspies-bg.jpg", name: "Cuttlefish Ink Spy" },
+  tentacleengineers: { src: "art/v2/were-tentacleengineers.png", bg: "art/v2/were-tentacleengineers-bg.jpg", name: "Squid Tentacle Engineer" },
+  abyssalscholars: { src: "art/v2/were-abyssalscholars.png", bg: "art/v2/were-abyssalscholars-bg.jpg", name: "Octopus Abyssal Scholar" },
+  punchclawduelists: { src: "art/v2/were-punchclawduelists.png", bg: "art/v2/were-punchclawduelists-bg.jpg", name: "Punch-Claw Duelist" },
+  lanterncultists: { src: "art/v2/were-lanterncultists.png", bg: "art/v2/were-lanterncultists-bg.jpg", name: "Lantern Cultist" },
+  dreamdustweavers: { src: "art/v2/were-dreamdustweavers.png", bg: "art/v2/were-dreamdustweavers-bg.jpg", name: "Dreamdust Weaver" },
+  signaltowerwardens: { src: "art/v2/were-signaltowerwardens.png", bg: "art/v2/were-signaltowerwardens-bg.jpg", name: "Signal-Tower Warden" },
+  platewallbulwarks: { src: "art/v2/were-platewallbulwarks.png", bg: "art/v2/were-platewallbulwarks-bg.jpg", name: "Plate-Wall Bulwark" },
+  tunneldiggers: { src: "art/v2/were-tunneldiggers.png", bg: "art/v2/were-tunneldiggers-bg.jpg", name: "Tunnel Digger" },
+  curlballrollers: { src: "art/v2/were-curlballrollers.png", bg: "art/v2/were-curlballrollers-bg.jpg", name: "Curl-Ball Roller" },
+  loomweavers: { src: "art/v2/were-loomweavers.png", bg: "art/v2/were-loomweavers-bg.jpg", name: "Loomweaver" },
+  silkroad: { src: "art/v2/were-silkroad.png", bg: "art/v2/were-silkroad-bg.jpg", name: "Silkroad Messenger" },
+  squirrelcommanders: { src: "art/v2/were-squirrelcommanders.png", bg: "art/v2/were-squirrelcommanders-bg.jpg", name: "Squirrel Commander" },
+  tollbrokers: { src: "art/v2/forest-tollbrokers.png", bg: "art/v2/forest-tollbrokers-bg.jpg", name: "Toll Broker" },
+  sumpsappers: { src: "art/v2/forest-sumpsappers.png", bg: "art/v2/forest-sumpsappers-bg.jpg", name: "Sump Sapper" },
+  mossplate: { src: "art/v2/forest-mossplate.png", bg: "art/v2/forest-mossplate-bg.jpg", name: "Moss-Plate Warden" },
+  seedbank: { src: "art/v2/forest-seedbank.png", bg: "art/v2/forest-seedbank-bg.jpg", name: "Greenhouse Healer" },
+  hoamediators: { src: "art/v2/forest-hoamediators.png", bg: "art/v2/forest-hoamediators-bg.jpg", name: "HOA Mediator" },
+  sprinklersprites: { src: "art/v2/forest-sprinklersprites.png", bg: "art/v2/forest-sprinklersprites-bg.jpg", name: "Sprinkler Sprite" },
+  mowerknights: { src: "art/v2/forest-mowerknights.png", bg: "art/v2/forest-mowerknights-bg.jpg", name: "Lawnmower Knight" },
+  lastdance: { src: "art/v2/ghost-lastdance.png", bg: "art/v2/ghost-lastdance-bg.jpg", name: "Last-Dance Reveler" },
+  dewdrop: { src: "art/v2/were-dewdrop.png", bg: "art/v2/were-dewdrop-bg.jpg", name: "Dewdrop Dancer" },
+  testpattern: { src: "art/v2/ghost-testpattern.png", bg: "art/v2/ghost-testpattern-bg.jpg", name: "Test-Pattern Seer" },
+  emergencybroadcast: { src: "art/v2/ghost-emergencybroadcast.png", bg: "art/v2/ghost-emergencybroadcast-bg.jpg", name: "Emergency Broadcaster" },
+  rustwraith: { src: "art/v2/ghost-rustwraith.png", bg: "art/v2/ghost-rustwraith-bg.jpg", name: "Rust-Wraith Possessor" },
+  cabinetspirits: { src: "art/v2/ghost-cabinetspirits.png", bg: "art/v2/ghost-cabinetspirits-bg.jpg", name: "Cabinet Spirit" },
+  hardwaresurgeons: { src: "art/v2/ghost-hardwaresurgeons.png", bg: "art/v2/ghost-hardwaresurgeons-bg.jpg", name: "Circuit Seer" },
+  wakewardens: { src: "art/v2/ghost-wakewardens.png", bg: "art/v2/ghost-wakewardens-bg.jpg", name: "Wake-Warden" },
+  redialwraiths: { src: "art/v2/ghost-redialwraiths.png", bg: "art/v2/ghost-redialwraiths-bg.jpg", name: "Redial Wraith" },
+  highwaybanshees: { src: "art/v2/ghost-highwaybanshees.png", bg: "art/v2/ghost-highwaybanshees-bg.jpg", name: "Highway Banshee" },
+  billboardhaunts: { src: "art/v2/ghost-billboardhaunts.png", bg: "art/v2/ghost-billboardhaunts-bg.jpg", name: "Billboard Haunt" },
+  hospicehaunts: { src: "art/v2/ghost-hospicehaunts.png", bg: "art/v2/ghost-hospicehaunts-bg.jpg", name: "Hospice Haunt" },
+  rattlecannon: { src: "art/v2/undead-rattlecannon.png", bg: "art/v2/undead-rattlecannon-bg.jpg", name: "Rattle-Cannon Gunner" },
+  drummajor: { src: "art/v2/undead-drummajor.png", bg: "art/v2/undead-drummajor-bg.jpg", name: "Drum-Major Steward" },
+  demolition: { src: "art/v2/undead-demolition.png", bg: "art/v2/undead-demolition-bg.jpg", name: "Demolition Crew" },
+  wreckinglumber: { src: "art/v2/undead-wreckinglumber.png", bg: "art/v2/undead-wreckinglumber-bg.jpg", name: "Wrecking-Ball Lumberer" },
+  shopstewards: { src: "art/v2/undead-shopstewards.png", bg: "art/v2/undead-shopstewards-bg.jpg", name: "Shop Steward" },
+  soulnotaries: { src: "art/v2/undead-soulnotaries.png", bg: "art/v2/undead-soulnotaries-bg.jpg", name: "Soul Notary" },
+  phylacteryauditors: { src: "art/v2/undead-phylacteryauditors.png", bg: "art/v2/undead-phylacteryauditors-bg.jpg", name: "Phylactery Auditor" },
+  contractreapers: { src: "art/v2/undead-contractreapers.png", bg: "art/v2/undead-contractreapers-bg.jpg", name: "Contract Reaper" },
+  goldmaskduelists: { src: "art/v2/undead-goldmaskduelists.png", bg: "art/v2/undead-goldmaskduelists-bg.jpg", name: "Gold-Mask Duelist" },
+  embalmeralchemists: { src: "art/v2/undead-embalmeralchemists.png", bg: "art/v2/undead-embalmeralchemists-bg.jpg", name: "Embalmer Alchemist" },
+  sarcophaguslancers: { src: "art/v2/undead-sarcophaguslancers.png", bg: "art/v2/undead-sarcophaguslancers-bg.jpg", name: "Sarcophagus Lancer" },
+  tokenbrokers: { src: "art/v2/human-tokenbrokers.png", bg: "art/v2/human-tokenbrokers-bg.jpg", name: "Token Broker" },
+  jammers: { src: "art/v2/human-jammers.png", bg: "art/v2/human-jammers-bg.jpg", name: "Static Jammer" },
+  snipercaster: { src: "art/v2/human-snipercaster.png", bg: "art/v2/human-snipercaster-bg.jpg", name: "Skyline DJ" },
+  latenightcallers: { src: "art/v2/human-latenightcallers.png", bg: "art/v2/human-latenightcallers-bg.jpg", name: "Late-Night Host" },
+  riotmarshals: { src: "art/v2/human-riotmarshals.png", bg: "art/v2/human-riotmarshals-bg.jpg", name: "Riot Marshal" },
+  escalator: { src: "art/v2/human-escalator.png", bg: "art/v2/human-escalator-bg.jpg", name: "Escalator Lancer" },
+  concierge: { src: "art/v2/human-concierge.png", bg: "art/v2/human-concierge-bg.jpg", name: "Concierge Diplomat" },
+  ninjashoguns: { src: "art/v2/human-ninjashoguns.png", bg: "art/v2/human-ninjashoguns-bg.jpg", name: "Ninja Shogun" },
+  tidecallpriests: { src: "art/v2/eldritch-tidecallpriests.png", bg: "art/v2/eldritch-tidecallpriests-bg.jpg", name: "Tidecall Priest" },
+  coralbone: { src: "art/v2/eldritch-coralbone.png", bg: "art/v2/eldritch-coralbone-bg.jpg", name: "Coralbone Sentinel" },
+  pearleyed: { src: "art/v2/eldritch-pearleyed.png", bg: "art/v2/eldritch-pearleyed-bg.jpg", name: "Pearl-Eyed Oracle" },
+  braincase: { src: "art/v2/eldritch-braincase.png", bg: "art/v2/eldritch-braincase-bg.jpg", name: "Braincase Surgeon" },
+  signalhive: { src: "art/v2/eldritch-signalhive.png", bg: "art/v2/eldritch-signalhive-bg.jpg", name: "Signal-Hive Engineer" },
+  manymaw: { src: "art/v2/eldritch-manymaw.png", bg: "art/v2/eldritch-manymaw-bg.jpg", name: "Many-Maw Devourer" },
+  mimicflesh: { src: "art/v2/eldritch-mimicflesh.png", bg: "art/v2/eldritch-mimicflesh-bg.jpg", name: "Mimic-Flesh Infiltrator" },
+  memorymass: { src: "art/v2/eldritch-memorymass.png", bg: "art/v2/eldritch-memorymass-bg.jpg", name: "Memory-Mass Archivist" },
+  starstone: { src: "art/v2/eldritch-starstone.png", bg: "art/v2/eldritch-starstone-bg.jpg", name: "Starstone Architect" },
+  fossilscript: { src: "art/v2/eldritch-fossilscript.png", bg: "art/v2/eldritch-fossilscript-bg.jpg", name: "Fossil-Script Historian" },
+  wingfold: { src: "art/v2/eldritch-wingfold.png", bg: "art/v2/eldritch-wingfold-bg.jpg", name: "Wingfold Warden" },
+  dreamsnatchers: { src: "art/v2/eldritch-dreamsnatchers.png", bg: "art/v2/eldritch-dreamsnatchers-bg.jpg", name: "Dream-Snatcher" },
+  voidwing: { src: "art/v2/eldritch-voidwing.png", bg: "art/v2/eldritch-voidwing-bg.jpg", name: "Voidwing Scout" },
+  nightmareshepherds: { src: "art/v2/eldritch-nightmareshepherds.png", bg: "art/v2/eldritch-nightmareshepherds-bg.jpg", name: "Nightmare Shepherd" },
+  pinball: { src: "art/v2/human-pinball.png", bg: "art/v2/human-pinball-bg.jpg", name: "Pinball Gunner" },
+  joystick: { src: "art/v2/human-joystick.png", bg: "art/v2/human-joystick-bg.jpg", name: "Joystick Duelist" },
+  fuelpriests: { src: "art/v2/human-fuelpriests.png", bg: "art/v2/human-fuelpriests-bg.jpg", name: "Fuel Zealot" },
+  outriders: { src: "art/v2/human-outriders.png", bg: "art/v2/human-outriders-bg.jpg", name: "Outrider" },
+  etherwing: { src: "art/v2/eldritch-etherwing.png", bg: "art/v2/eldritch-etherwing-bg.jpg", name: "Etherwing Navigator" },
+  signalsavants: { src: "art/v2/witch-dialturners.png", bg: "art/v2/witch-dialturners-bg.jpg", name: "Signal Savant" },
+  stickywizards: { src: "art/v2/magic-stickywizards.png", bg: "art/v2/magic-stickywizards-bg.jpg", name: "Sticky Wizard" },
+  hotspringhealers: { src: "art/v2/were-hotspringhealers.png", bg: "art/v2/were-hotspringhealers-bg.jpg", name: "Hot-Spring Healer" },
+  sporecoven: { src: "art/v2/magic-sporecoven.png", bg: "art/v2/magic-sporecoven-bg.jpg", name: "Spore Coven Cultivator" },
+  rootlinkwarlocks: { src: "art/v2/forest-rootlinkwarlocks.png", bg: "art/v2/forest-rootlinkwarlocks-bg.jpg", name: "Rootlink Warlock" },
+  bonebreakers: { src: "art/v2/undead-bonebreakers.png", bg: "art/v2/undead-bonebreakers-bg.jpg", name: "Riot-Line Bonebreaker" },
+  staticwraiths: { src: "art/v2/ghost-staticwraiths.png", bg: "art/v2/ghost-staticwraiths-bg.jpg", name: "Static Wraith" },
+  interceptors: { src: "art/v2/human-interceptors.png", bg: "art/v2/human-interceptors-bg.jpg", name: "Interceptor" },
+  owlwings: { src: "art/v2/vampire-owlwings.png", bg: "art/v2/vampire-owlwings-bg.jpg", name: "Owlwing Watcher" },
+};
+
+// art drawn in the new Shard Cel style wins in the MVP edition; until it exists the older art stays visible with a tag
+// New art is dropped in art/shard/ as <id>.png (portrait) and <id>-bg.jpg (background). The site finds them on its own (see detectV2Art) or they can be listed in NODE_ART_V2.
+const V2ART = (window.NODE_ART_V2 = window.NODE_ART_V2 || {});
+const HAND_V2 = JSON.parse(JSON.stringify(V2ART)); // entries listed by hand in data-mvp.js
+let V2CACHE = {}; try { V2CACHE = JSON.parse(localStorage.getItem("nda-v2art") || "{}"); } catch {}
+if (EDITION === "mvp") Object.entries(V2CACHE).forEach(([k, v]) => { V2ART[k] = Object.assign({}, v, V2ART[k]); }); // last visit's finds show immediately, so a re-render only happens when something new lands
+const V1ART = {}; Object.keys(NODE_ART).forEach((k) => (V1ART[k] = Object.assign({}, NODE_ART[k])));
+const applyV2 = () => { if (EDITION !== "mvp") return; MVP_IDS.forEach((k) => { const o = V1ART[k] || {}, v = V2ART[k] || {}, src = v.src || o.src; if (!src) { delete NODE_ART[k]; return; } NODE_ART[k] = { src, bg: v.bg || o.bg, name: v.name || o.name || k }; }); };
+applyV2();
+const isV1Art = (id) => EDITION === "mvp" && !!NODE_ART[id] && !(V2ART[id] && V2ART[id].src);
+const exists = (u) => new Promise((res) => { const im = new Image(); im.onload = () => res(true); im.onerror = () => res(false); im.src = u + "?c=" + Math.floor(Date.now() / 60000); setTimeout(() => res(false), 5000); });
+async function detectV2Art() {
+  if (EDITION !== "mvp") return; const found = {};
+  await Promise.all([...MVP_IDS].map(async (id) => {
+    await Promise.all([["src", `art/shard/${id}.png`], ["bg", `art/shard/${id}-bg.jpg`]].map(async ([k, u]) => { if (await exists(u)) (found[id] = found[id] || {})[k] = u; }));
+  }));
+  const before = JSON.stringify(V2CACHE);
+  try { localStorage.setItem("nda-v2art", JSON.stringify(found)); } catch {}
+  Object.keys(V2CACHE).forEach((k) => { if (!found[k] && !(HAND_V2[k])) delete V2ART[k]; });
+  Object.entries(found).forEach(([k, v]) => { V2ART[k] = Object.assign({}, V2ART[k], v); });
+  if (JSON.stringify(found) !== before) { applyV2(); window.dispatchEvent(new Event("nda:v2art")); render(); }
+}
+setTimeout(detectV2Art, 0);
+const metaOf = (l) => CHAR_META[l.id] || { type: l.role === "support" ? "support" : "fighter", physique: "", size: "medium", move: "grounded" };
+const minis = (g, l) => {
+  const ty = TYPES[metaOf(l).type];
+  return `<span class="minis" aria-hidden="true"><b class="mt p" title="${esc(g.name)}">${PEOPLE_LETTER[g.id]}</b><b class="mt t" title="${esc(ty.name)}: ${esc(ty.desc)}">${ty.letter}</b><b class="mt r" title="${l.role === "combat" ? "Combat" : "Support / social"}">${l.role === "combat" ? "C" : "S"}</b></span>`;
+};
+const everyCharacter = () => GROUPS_ALL.flatMap((g) => g.subs.flatMap((s) => s.subs.map((l) => ({ g, s, l, path: [g.id, s.id, l.id] }))));
+const allCharacters = () => GROUPS.flatMap((g) => g.subs.flatMap((s) => s.subs.map((l) => ({ g, s, l, path: [g.id, s.id, l.id] }))));
+
+// the poster: people color as the ground, the character trio as shapes. Used wherever art is missing.
+const poster = (g, l, extra = "", vt = "") => `
+  <span class="poster ${extra}" ${vt ? `data-vt="${vt}"` : ""} style="${cv(g, l)}">
+    <i class="pz disc"></i><i class="pz band"></i><i class="pz bolt"></i>
+    <span class="pico">${ic(l.icon)}</span>
+  </span>`;
+
+/* ---------- art prompts (generated for every character) ---------- */
+const charPrompt = (g, s, l) => PROMPTS.char(g, s, l);
+const bgPrompt = (g, s, l) => PROMPTS.bg(g, s, l);
+const promptStore = {};
+
+/* ---------- views ---------- */
+function home() {
+  const total = allCharacters().length;
+  return `
+  <div class="hero hero-min">
+    <div class="eyebrow">${esc(WORLD.mantra)}</div>
+    <h1 class="mono-title"><img class="wordmark" src="${SITE_ART}logo-wordmark.png" alt="${esc(WORLD.title)}"></h1>
+    <p class="lede">${NUMW[GROUPS.length]} peoples fighting over what the Last Broadcast left behind.</p>
+    <a class="btn" href="#/characters">Choose your character →</a>
+  </div>
+
+  <section class="block"><h2>The world</h2>
+    <div class="panel"><p style="margin:0;max-width:78ch">${esc(WORLD.pitch)}</p></div></section>
+
+  <section class="block"><h2>The look</h2>
+    <div class="grid cols-2">${WORLD.tone.map((t) => `<div class="panel">${esc(t)}</div>`).join("")}</div></section>
+
+  <section class="block"><h2>The ${NUMW[GROUPS.length] || GROUPS.length} Peoples <span class="muted sub">· ${total} characters</span></h2>
+    <div class="grid cols-3">${GROUPS.map((g) => `
+      <a class="panel people-card" style="${pv(g)}" href="#/characters/${g.id}">
+        <span class="swatch" style="background:${g.color}"></span>
+        <div class="pico2">${crest(g)}</div>
+        <h3>${esc(g.name)}</h3>
+        <div class="muted">${esc(g.tagline)}</div>
+        <div class="meta">${PEOPLE_COLORS[g.id].name} · ${g.subs.reduce((n, s) => n + s.subs.length, 0)} characters</div>
+      </a>`).join("")}</div></section>
+
+  <section class="block"><h2>The Story So Far</h2>
+    <div class="grid cols-2">${STORY.map((s, i) => `<div class="panel"><h3>${i + 1}. ${esc(s.title)}</h3><div class="muted">${esc(s.text)}</div></div>`).join("")}</div></section>
+
+  <section class="block"><h2>The Land</h2>
+    <div class="grid regions">${WORLD.regions.map((r) => `<div class="panel"><h3>${ic(r.icon)} ${esc(r.name)}</h3><div class="muted">${esc(r.text)}</div></div>`).join("")}</div></section>`;
+}
+
+/* ----- character gallery (top level) ----- */
+let galleryFilter = null, roleFilter = null, statusFilter = EDITION === "mvp" ? "any" : "complete"; // default view: everyone, finished characters only
+try { galleryFilter = sessionStorage.getItem("nda2-filter") || null; roleFilter = sessionStorage.getItem("nda2-role") || null; statusFilter = sessionStorage.getItem("nda2-status") || (EDITION === "mvp" ? "any" : "complete"); } catch {}
+const saveFilters = () => { try { galleryFilter ? sessionStorage.setItem("nda2-filter", galleryFilter) : sessionStorage.removeItem("nda2-filter"); roleFilter ? sessionStorage.setItem("nda2-role", roleFilter) : sessionStorage.removeItem("nda2-role"); sessionStorage.setItem("nda2-status", statusFilter || "complete"); } catch {} };
+let mixOrder = null;
+const mixed = (chars) => {
+  if (!mixOrder) { mixOrder = allCharacters().map((c) => c.l.id); for (let i = mixOrder.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [mixOrder[i], mixOrder[j]] = [mixOrder[j], mixOrder[i]]; } }
+  return [...chars].sort((x, y) => mixOrder.indexOf(x.l.id) - mixOrder.indexOf(y.l.id));
+};
+
+// MVP edition: the two undecided slots show as tiles so the grid is a full 24 and never leaves an orphan
+const openTiles = () => !(window.MVP && EDITION === "mvp") ? [] : Object.entries(MVP.picks).flatMap(([pid, l]) => l.filter((p) => p.tbd).map((p) => ({ g: GROUPS.find((x) => x.id === pid), p }))).filter((x) => x.g);
+const openTile = ({ g, p }, i) => `<a class="gc pending open-slot" style="${pv(g)};--c1:${g.color2};--c2:#f2efe6;--c3:#fff;--i:${i}" href="${TEAM() ? "#/vote/mvp" : "#/characters"}" title="${TEAM() ? esc(p.tbd) : "Coming soon"}">
+  <span class="gframe"><span class="osq">?</span><i class="v1tag">Open slot</i></span>
+  <span class="gtrio"><i style="background:${g.color}"></i></span><span class="cn">${TEAM() ? esc(p.tbd) : "Coming soon"}</span><span class="cs">${esc(SHORT[g.id])} · ${TEAM() ? "to be decided" : "a new arrival"}</span></a>`;
+function gcard(c, i = 0) {
+  const art = NODE_ART[c.l.id];
+  return `
+    <a class="gc ${art ? "done" : "pending"}" style="${cv(c.g, c.l)};--i:${i}" href="#/characters/${c.path.join("/")}" title="${esc(c.l.name)}">
+      <span class="gframe">${art ? `<img data-vt="${c.l.id}" src="${art.src}" alt="${esc(art.name)}" loading="lazy">` : poster(c.g, c.l, "", c.l.id)}${minis(c.g, c.l)}${isV1Art(c.l.id) ? '<i class="v1tag" title="Drawn in the original art direction. To be redrawn in Shard Cel.">V1 art</i>' : ""}</span>
+      <span class="gtrio"><i style="background:${c.g.color}"></i><i style="background:${c.l.pal[0]}"></i><i style="background:${c.l.pal[1]}"></i><i style="background:${c.l.pal[2]}"></i></span>
+      <span class="cn">${esc(c.l.name)}</span>
+      <span class="cs">${galleryFilter ? esc(c.s.name) : `${esc(SHORT[c.g.id])} · ${esc(c.s.name)}`}</span>
+    </a>`;
+}
+
+function gallery() {
+  const all = allCharacters();
+  const isDone = (c) => !!NODE_ART[c.l.id];
+  const chars = all.filter((c) => (!roleFilter || c.l.role === roleFilter) && (!statusFilter || statusFilter === "any" || (statusFilter === "complete" ? isDone(c) : !isDone(c))));
+  const doneCount = all.filter(isDone).length;
+  const fg = GROUPS.find((g) => g.id === galleryFilter);
+  const counts = (g) => all.filter((c) => c.g === g).length;
+  const filters = GROUPS.map((g) => `
+    <button class="filter ${g.id === galleryFilter ? "sel" : ""}" style="${pv(g)}" data-filter="${g.id}" aria-pressed="${g.id === galleryFilter}" title="${esc(g.name)} (${counts(g)})" aria-label="${esc(g.name)}">
+      <i class="chip" style="background:${g.color}"></i><span class="ico">${crest(g)}</span><span class="nm">${esc(g.name)}</span><span class="ct">${counts(g)}</span>
+    </button>`).join("");
+  const roles = `<div class="roles" role="group" aria-label="Filter by role and status">
+      ${[[null, "All"], ["combat", "Combat"], ["support", "Support"]].map(([r, n]) => `<button class="rf ${roleFilter === r ? "sel" : ""}" data-role="${r || ""}">${n}</button>`).join("")}
+      <span class="rsep"></span>
+      ${[["any", "Any status"], ["complete", `Completed · ${doneCount}`], ["pending", `In progress · ${all.length - doneCount}`]].map(([s, n]) => `<button class="rf st ${statusFilter === s ? "sel" : ""}" data-status="${s}">${n}</button>`).join("")}
+    </div>`;
+  const shown = galleryFilter ? chars.filter((c) => c.g.id === galleryFilter) : chars;
+  const emptyMsg = `<div class="empty"><img class="empty-art" src="${SITE_ART}empty-state.png" alt="">No characters match these filters. <button class="linkbtn" data-status="any">Show any status</button></div>`;
+  let body;
+  if (!shown.length) body = emptyMsg;
+  else if (EDITION === "mvp") { const base = galleryFilter ? shown : chars, ops = openTiles().filter((o) => !galleryFilter || o.g.id === galleryFilter); body = `<div class="gmix mvpgrid" data-n="${base.length + ops.length}">${(galleryFilter ? base : mixed(base)).map((c, i) => gcard(c, i)).join("")}${ops.map((o, i) => openTile(o, base.length + i)).join("")}</div>`; }
+  else if (!galleryFilter) body = `<div class="gmix">${mixed(chars).map((c, i) => gcard(c, i)).join("")}</div>`;
+  else body = `
+    <section class="gsec" style="${pv(fg)}">
+      <header class="ghead"><span class="gi">${crest(fg)}</span><div><h2>${esc(fg.name)}</h2><p>${esc(fg.tagline)}</p></div><span class="gcount">${shown.length} character${shown.length === 1 ? "" : "s"}</span></header>
+      <div class="gsubs">${fg.subs.map((s) => { const cs = shown.filter((c) => c.s === s); return cs.length ? `<div class="gsub"><h3><span class="sub-ico">${subIcon(fg, s)}</span>${esc(s.name)}</h3><div class="ggrid" style="--n:${cs.length}">${cs.map((c, i) => gcard(c, i)).join("")}</div></div>` : ""; }).join("")}</div>
+    </section>`;
+  const combat = all.filter((c) => c.l.role === "combat").length;
+  return `
+  <div class="page-head gal-head">
+    <div class="title"><div class="eyebrow">Character select</div><h1>Choose your character</h1></div>
+    <div class="gal-right">${viewSwitch("vertical")}<div class="gal-note">${galleryFilter ? `Showing ${esc(fg.name)} · <button class="linkbtn" data-filter="">show everyone</button>` : `${all.length} characters · ${combat} combat, ${all.length - combat} support · ${doneCount} completed`}</div></div>
+  </div>
+  <div class="filters" role="group" aria-label="Filter by people">${filters}</div>
+  ${EDITION === "mvp" ? "" : roles}
+  ${body}`;
+}
+
+/* ----- view switch: vertical display (gallery) <-> horizontal view (details) ----- */
+let lastDetails = null; try { lastDetails = sessionStorage.getItem("nda3-last") || null; } catch {}
+const viewSwitch = (active) => `<div class="vswitch" role="group" aria-label="Switch display">
+  <button class="${active === "vertical" ? "on" : ""}" data-vmode="vertical" aria-pressed="${active === "vertical"}">${ic("view-vertical")}<span>Vertical display</span></button>
+  <button class="${active === "horizontal" ? "on" : ""}" data-vmode="horizontal" aria-pressed="${active === "horizontal"}">${ic("view-horizontal")}<span>Horizontal view</span></button>
+</div>`;
+
+/* ----- details view ----- */
+function chooserTree(group, trail, names) {
+  const base = `#/characters/${group.id}`;
+  const tabs = GROUPS.map((g) => `
+    <button class="tab ${g.id === group.id ? "sel" : ""}" style="${pv(g)}" data-go="#/characters/${g.id}" title="${esc(g.name)}"><span class="ico">${crest(g)}</span><span class="nm">${SHORT[g.id]}</span></button>`).join("");
+  const [s1, s2] = trail;
+  const rows = group.subs.map((s) => {
+    const open = s1 && s1.id === s.id;
+    const kids = open ? `
+        <div class="tlabel sub">${esc(names[1])} <i>in ${esc(s.name)}</i></div>
+        <ul class="tl l2">${s.subs.map((k) => `
+          <li class="tn leaf"><button class="trow ${s2 && s2.id === k.id ? "sel" : ""}" style="--c1:${k.pal[0]}" data-go="${base}/${s.id}/${k.id}"><span class="ico">${ic(k.icon)}</span><span class="nm">${esc(k.name)}</span><em class="role ${k.role}">${k.role === "support" ? "S" : "C"}</em></button></li>`).join("")}</ul>` : "";
+    return `
+      <li class="tn ${open ? "open" : ""}"><button class="trow ${open ? "sel" : ""}" data-go="${base}/${s.id}" aria-expanded="${open}"><span class="ico">${subIcon(group, s)}</span><span class="nm">${esc(s.name)}</span><span class="chev">${ic(open ? "chevron-down" : "chevron-right")}</span></button>${kids}</li>`;
+  }).join("");
+  return `
+    <div class="tabs">${tabs}</div>
+    <div class="tree" role="navigation" aria-label="${esc(group.name)} choices">
+      <div class="tlabel">${esc(names[0])} <i>${esc(group.name)}</i></div>
+      <ul class="tl l1">${rows}</ul>
+    </div>`;
+}
+
+const profile = (g, l) => {
+  const m = metaOf(l), ty = TYPES[m.type];
+  return `<div class="profile">
+    <div class="ptype"><span class="mt t big">${ty.letter}</span>${typeIcon(m.type)}<div><b>${esc(ty.name)}</b><small>${esc(ty.desc)}</small></div></div>
+    <dl class="attrs">
+      <div><dt>People</dt><dd><span class="mt p">${PEOPLE_LETTER[g.id]}</span>${esc(g.name)}</dd></div>
+      <div><dt>Role</dt><dd><span class="mt r">${l.role === "combat" ? "C" : "S"}</span>${l.role === "combat" ? "Combat" : "Support / social"}</dd></div>
+      <div><dt>Physique</dt><dd>${esc(m.physique)}</dd></div>
+      <div><dt>Size</dt><dd>${esc(SIZES[m.size])}</dd></div>
+      <div><dt>Mobility</dt><dd>${esc(MOVES[m.move])}</dd></div>
+    </dl></div>`;
+};
+const swatchRow = (g, l) => {
+  const items = [["People", g.color], ["Main", l.pal[0]], ["Secondary", l.pal[1]], ["Pop", l.pal[2]]];
+  return `<div class="swatches">${items.map(([n, c]) => `<div class="sw2"><i style="background:${c}"></i><b>${n}</b><code>${c}</code></div>`).join("")}</div>`;
+};
+
+function detailBlocks(group, trail, names) {
+  const node = trail.length ? trail[trail.length - 1] : group;
+  const leaf = trail.length === 2 ? node : null;
+  const crumbs = [group.name, ...trail.map((t) => t.name)];
+  let h = `
+    <div class="blk blk-title">
+      <div class="eyebrow">${crumbs.map(esc).join(" › ")}</div>
+      <h2>${ic(node.icon)} ${esc(node.name)}${leaf ? `<em class="role ${leaf.role}">${leaf.role}</em>` : ""}</h2>
+      <p class="tagline">${esc(node.tagline)}</p>
+    </div>
+    <div class="blk"><h4>Overview</h4><p>${esc(node.summary)}</p></div>
+    <div class="blk"><h4>Background &amp; lore</h4><p>${esc(node.lore)}</p></div>`;
+  if (!trail.length) {
+    h += `<div class="blk"><h4>Playstyle</h4><p>${esc(node.playstyle)}</p></div>
+    <div class="blk"><h4>Tendencies</h4><div class="bars">${Object.entries(node.traits).map(([k, v]) => `<div class="bar"><span>${k}</span><span class="track"><span class="fill" style="width:${v * 20}%"></span></span></div>`).join("")}</div></div>
+    <div class="blk"><h4>People color</h4><div class="swatches"><div class="sw2"><i style="background:${node.color}"></i><b>${PEOPLE_COLORS[node.id].name}</b><code>${node.color}</code></div></div><p class="muted">The background color for every scene of this people.</p></div>`;
+    (node.extras || []).forEach((ex) => {
+      h += `<div class="blk blk-title"><div class="eyebrow">Rules</div><h3>${esc(ex.title)}</h3></div>`;
+      ex.items.forEach((it) => { h += `<div class="blk"><h4>${esc(it.name)}</h4><p>${esc(it.desc)}</p></div>`; });
+    });
+  } else if (leaf) {
+    const key = leaf.id; const sub = trail[0];
+    if (TEAM()) { promptStore[key + "-c"] = charPrompt(group, sub, leaf); promptStore[key + "-b"] = bgPrompt(group, sub, leaf); }
+    h += `
+    <div class="blk"><h4>Class profile</h4>${profile(group, leaf)}</div>
+    <div class="blk"><h4>Strengths</h4>${list(leaf.strengths, "good")}</div>
+    <div class="blk"><h4>Weaknesses</h4>${list(leaf.weaknesses, "bad")}</div>
+    <div class="blk"><h4>Signature abilities</h4>${list(leaf.abilities)}</div>
+    <div class="blk"><h4>Starting gear</h4><p>${leaf.gear.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("")}</p><h4>What they look like</h4><p>${esc(leaf.look)}</p>${TEAM() && window.ART_SPEC && ART_SPEC[leaf.id] ? `<h4>Scene props (background only)</h4><p class="muted">${esc(ART_SPEC[leaf.id].p)}</p>` : ""}</div>
+    <div class="blk"><h4>Four-color palette</h4>${swatchRow(group, leaf)}<p class="muted">The people color is the background; the trio belongs to this character (about 60 / 30 / 10).</p></div>
+    ${TEAM() ? `<div class="blk prompts"><h4>Art prompts</h4>
+      ${(() => { const f = PROMPTS.lint(group, sub, leaf); return f.length ? `<p class="sjfail">${esc(PROMPTS.checkName || "Style check")}: ${f.length} issue${f.length > 1 ? "s" : ""}: ${esc(f.join("; "))}</p>` : `<p class="sjpass">${ic("star")} ${esc(PROMPTS.checkName || "Style check")} passed</p>`; })()}
+      <details><summary>Character prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-c"])}</textarea><button class="copy" data-copy="${key}-c">Copy</button></details>
+      <details><summary>Background prompt</summary><textarea readonly rows="9">${esc(promptStore[key + "-b"])}</textarea><button class="copy" data-copy="${key}-b">Copy</button></details>
+    </div>` : ""}`;
+  } else {
+    h += `<div class="blk"><h4>Go deeper</h4><p>${node.subs.length === 1 ? `1 ${esc(names[1].toLowerCase())} to choose` : `${node.subs.length} ${esc(names[1].toLowerCase())}${/s$/.test(names[1]) ? "es" : "s"} to choose from`}, listed on the left or in the middle.</p></div>`;
+  }
+  return h;
+}
+
+function characters(...path) {
+  const [gid, ...rest] = path;
+  const group = GROUPS.find((g) => g.id === gid);
+  if (!group) return gallery();
+  const trail = []; let cur = group;
+  for (const id of rest) { const next = cur && cur.subs && cur.subs.find((s) => s.id === id); if (!next) break; trail.push(next); cur = next; }
+  const names = group.levelNames || LEVEL_DEFAULT;
+  lastDetails = location.hash; try { sessionStorage.setItem("nda3-last", lastDetails); } catch {}
+  const head = `
+  <div class="page-head">
+    <div class="titlerow">
+      <a class="back-btn" href="#/characters" title="Back to all characters">${ic("arrow-left")}<span>All characters</span></a>
+      <div class="title"><div class="eyebrow">Character details</div><h1>${esc(group.name)}${trail.length ? ` <span class="crumb">› ${esc(trail[trail.length - 1].name)}</span>` : ""}</h1></div>
+    </div>
+    <div class="steps">
+      ${viewSwitch("horizontal")}
+      <span class="step">1 · ${esc(group.name)}</span>
+      <span class="step ${trail.length === 0 ? "on" : ""}">2 · ${esc(names[0])}${trail[0] ? ` = ${esc(trail[0].name)}` : ""}</span>
+      <span class="step ${trail.length === 1 ? "on" : ""}">3 · ${esc(names[1])}${trail[1] ? ` = ${esc(trail[1].name)}` : ""}</span>
+    </div>
+  </div>`;
+  const chooser = chooserTree(group, trail, names);
+  const node = trail.length ? trail[trail.length - 1] : group;
+  const leaf = trail.length === 2 ? node : null;
+  const ids0 = [gid, ...trail.map((t) => t.id)];
+  const leaves = (n, ids) => (n.subs || []).flatMap((s) => (s.subs ? leaves(s, [...ids, s.id]) : [{ ...s, path: [...ids, s.id] }]));
+  const figs = leaf ? [] : leaves(node, ids0);
+  const art = leaf && NODE_ART[leaf.id];
+  const gstyle = leaf ? cv(group, leaf) : pv(group);
+  const miniGrid = figs.length ? `
+      <div class="minigrid ${figs.length > 9 ? "dense" : ""}" style="--cols:${figs.length <= 4 ? 2 : figs.length <= 9 ? 3 : figs.length <= 16 ? 4 : figs.length <= 30 ? 5 : 6}">
+        ${figs.map((f) => { const a = NODE_ART[f.id]; return `<a class="mp ${a ? "done" : "pending"}" style="${cv(group, f)}" data-go="#/characters/${f.path.join("/")}" title="${esc(f.name)}">${a ? `<img src="${a.src}" alt="${esc(f.name)}">` : poster(group, f)}<b>${esc(f.name)}</b></a>`; }).join("")}
+      </div>` : "";
+  const stage = leaf
+    ? `<div class="hero-fig">${art ? `<img data-vt="${leaf.id}" src="${art.src}" alt="${esc(art.name)}">` : poster(group, leaf, "big", leaf.id)}</div>
+       ${art ? `<button class="view-btn" data-view title="View the artwork full screen">${ic("maximize")}<span>View art</span></button>` : ""}
+       <div class="trio-bar"><i style="background:${group.color}"></i><i style="background:${leaf.pal[0]}"></i><i style="background:${leaf.pal[1]}"></i><i style="background:${leaf.pal[2]}"></i></div>`
+    : miniGrid;
+  return `${head}
+  <div class="workspace" style="${gstyle}">
+    <aside class="chooser">${chooser}</aside>
+    <figure class="fig ${leaf ? "single" : "multi"} ${art ? "has-art" : ""}" ${art ? 'data-view tabindex="0" role="button" aria-label="View the artwork full screen"' : ""}>
+      ${stage}
+      <figcaption>${esc(leaf ? (art ? art.name : leaf.name) : node.name)}</figcaption>
+    </figure>
+    <div class="details-wrap">
+      <section class="details" tabindex="0" aria-label="Details">${detailBlocks(group, trail, names)}</section>
+      <div class="scroll-hint">Scroll →</div>
+    </div>
+  </div>`;
+}
+
+/* ----- monster manual ----- */
+function manual(nid) {
+  const npc = MANUAL.npcs.find((n) => n.id === nid);
+  const g = (n) => GROUPS.find((x) => x.id === n.group);
+  const html = `
+  <div class="eyebrow">World building</div><h1 class="pg">Monster Manual</h1>
+  <p class="muted" style="max-width:72ch">${esc(MANUAL.intro)}</p>
+  <div class="mgrid">${MANUAL.npcs.map((n) => {
+    const gr = g(n); const fake = { icon: n.icon, pal: n.pal };
+    return `<a class="mcard ${n.id === nid ? "sel" : ""}" style="${cv(gr, fake)}" href="#/manual/${n.id}"><span class="mposter">${poster(gr, fake)}</span><b>${esc(n.name)}</b><span class="tg">${esc(n.title)}</span><em class="role ${n.role.toLowerCase().includes("antagonist") ? "combat" : "support"}">${esc(n.role)}</em></a>`;
+  }).join("")}</div>`;
+  if (!npc) return html + `<div class="empty">Pick a character to open their entry.</div>`;
+  const gr = g(npc); const fake = { icon: npc.icon, pal: npc.pal };
+  return html + `
+  <article class="detail" id="detail" style="${cv(gr, fake)}">
+    <div class="detail-head">
+      <div class="dh-poster">${poster(gr, fake)}</div>
+      <div><div class="eyebrow">${esc(gr.name)} · ${esc(npc.role)}</div><h2>${esc(npc.name)}</h2><p>${esc(npc.title)}</p></div>
+    </div>
+    <div class="detail-body">
+      <div class="wide quote">“${esc(npc.quote)}”</div>
+      <div class="wide"><h4>Overview</h4><p>${esc(npc.overview)}</p></div>
+      <div><h4>Appearance</h4><p>${esc(npc.appearance)}</p><h4>Personality</h4><p>${esc(npc.personality)}</p></div>
+      <div><h4>Four-color palette</h4>${swatchRow(gr, fake)}<h4 style="margin-top:14px">Field notes</h4><p><span class="pill">${ic("map-pin")} ${esc(npc.location)}</span><span class="pill">${ic("star")} ${esc(npc.level)}</span></p></div>
+      <div class="wide"><h4>Backstory</h4><p>${esc(npc.backstory)}</p></div>
+      <div><h4>Secrets (spoilers)</h4>${list(npc.secrets)}</div>
+      <div><h4>Relationships</h4><p>${esc(npc.relationships)}</p></div>
+      <div><h4>Story hooks &amp; quests</h4>${list(npc.hooks)}</div>
+      <div><h4>Stat block</h4><div class="statblock">${Object.entries(npc.stats).map(([k, v]) => `<div><b>${v}</b><span>${esc(k)}</span></div>`).join("")}</div></div>
+      <div><h4>Signature abilities</h4>${list(npc.abilities)}</div>
+      <div><h4>Loot</h4><p>${npc.loot.split(",").map((x) => `<span class="pill">${esc(x.trim())}</span>`).join("")}</p></div>
+    </div>
+  </article>`;
+}
+
+/* ----- roadmap ----- */
+const STORE = "nda3-roadmap"; // tasks: {id, t, done?}; done seeds the box until the viewer ticks or unticks it
+const taskOn = (checks, p, k) => (checks[`${p.id}:${k.id}`] !== undefined ? checks[`${p.id}:${k.id}`] : !!k.done);
+function loadChecks() { try { return JSON.parse(localStorage.getItem(STORE)) || {}; } catch { return {}; } }
+function saveChecks(c) { try { localStorage.setItem(STORE, JSON.stringify(c)); } catch {} }
+function roadmap() {
+  const checks = loadChecks();
+  return `
+  <div class="eyebrow">Project plan</div><h1 class="pg">Roadmap</h1>
+  <p class="muted">Tick off tasks to track progress (saved in this browser). Edit phases in <code>data.js</code>.</p>
+  ${PHASES.map((p) => {
+    const done = p.tasks.filter((k) => taskOn(checks, p, k)).length; const pct = Math.round((done / p.tasks.length) * 100);
+    return `<div class="panel phase"><div class="phase-head"><h3>${esc(p.name)}</h3><span class="status ${p.status}">${p.status.replace("-", " ")}</span></div>
+      <p class="muted">${esc(p.summary)}</p><div class="progress"><i style="width:${pct}%"></i></div><div class="muted small">${done}/${p.tasks.length} done</div>
+      ${p.tasks.map((k) => `<label class="task ${taskOn(checks, p, k) ? "done" : ""}"><input type="checkbox" data-task="${p.id}:${k.id}" ${taskOn(checks, p, k) ? "checked" : ""}><span>${esc(k.t)}</span></label>`).join("")}</div>`;
+  }).join("")}`;
+}
+
+/* ----- art direction ----- */
+function art() {
+  const all = allCharacters();
+  return `
+  <div class="eyebrow">Style guide</div><h1 class="pg">Art Direction</h1>
+  <p class="muted" style="max-width:72ch">Mantra: <b>${esc(WORLD.mantra)}</b>. Glam-rock noir with gadgets, painted in ink and charcoal, lit by four colors at a time.</p>
+  <a class="panel pg-link" href="playground.html"><div class="eyebrow">Experiment</div><h3>Open the style × theme playground →</h3><div class="muted">The nine-way comparison that led to this direction, plus the Neon Scavenger test. Also reachable from the menu.</div></a>
+  <div class="grid cols-2">${ART.pillars.map((p) => `<div class="panel"><h3>${esc(p.title)}</h3><div>${esc(p.text)}</div></div>`).join("")}</div>
+  <section class="block"><h2>Ground rules</h2><div class="panel">${list(ART.rules)}</div></section>
+  <section class="block"><h2>Style test</h2>
+    <div class="grid cols-2">
+      <div class="panel"><h3>Review every generated character against this</h3>${list(PROMPTS.SJ_TEST.replace(/^[A-Z ]+ TEST \(the image must pass all of these\): /, "").replace(/\.$/, "").split(/ \(\d\) /).map((x) => x.replace(/^\(\d\) /, "").replace(/;\s*$/, "").replace(/;$/, "")).filter(Boolean))}</div>
+      <div class="panel"><h3>Prompt quality check</h3>${(() => { const all = allCharacters(); const bad = all.map((c) => [c, PROMPTS.lint(c.g, c.s, c.l)]).filter(([, f]) => f.length); return bad.length ? `<p><b>${all.length - bad.length} of ${all.length}</b> prompts pass.</p>${list(bad.slice(0, 12).map(([c, f]) => `${c.l.name}: ${f.join("; ")}`))}` : `<p class="sjpass big">${ic("star")} <b>${all.length} of ${all.length}</b> character prompts pass.</p><p class="muted">Each prompt is checked for 14 required elements: the style style, flat shapes, bold angular silhouette, clean outlines, no gradients or soft shading, the thumbnail and flat-regions tests, full-body framing, a three-color palette, transparency, wearable gear only, the type pose and the physique, plus banned words, large props and an outfit-length limit.</p>`; })()}</div>
+    </div></section>
+
+  <section class="block"><h2>Character types</h2>
+    <p class="muted" style="max-width:72ch">Every character has one type. The tile badges read: people letter, type letter, role letter (C combat, S support).</p>
+    <div class="types">${Object.entries(TYPES).map(([k, t]) => `<div class="panel typecard"><span class="mt t big">${t.letter}</span><div><b>${esc(t.name)}</b><small>${esc(t.desc)}</small><em>${allCharacters().filter((c) => metaOf(c.l).type === k).length} characters</em></div></div>`).join("")}</div>
+    <div class="legend-row">${GROUPS.map((g) => `<span class="pill"><span class="mt p">${PEOPLE_LETTER[g.id]}</span>${esc(g.name)}</span>`).join("")}</div></section>
+
+  <section class="block"><h2>People colors</h2>
+    <div class="palette">${GROUPS.map((g) => `<div class="sw"><i style="background:${g.color}"></i>${ic(g.icon)} ${esc(g.name)}<br><b>${PEOPLE_COLORS[g.id].name}</b> <code>${g.color}</code></div>`).join("")}</div></section>
+  <section class="block"><h2>Palette atlas <span class="muted sub">· ${all.length} characters</span></h2>
+    <p class="muted" style="max-width:72ch">Each card shows the people color (background) beside the character's trio. Click any card to open that character and copy its art prompts.</p>
+    <div class="atlas">${all.map((c) => `
+      <a class="at" style="${cv(c.g, c.l)}" href="#/characters/${c.path.join("/")}">
+        <span class="atbar"><i style="background:${c.g.color}"></i><i style="background:${c.l.pal[0]}"></i><i style="background:${c.l.pal[1]}"></i><i style="background:${c.l.pal[2]}"></i></span>
+        <b>${esc(c.l.name)}</b><span class="tg">${esc(c.g.name)} · ${c.l.role}</span></a>`).join("")}</div></section>`;
+}
+
+
+/* ---------- privacy and terms (public) ---------- */
+function legalPage(kind) {
+  const P = {
+    privacy: ["Privacy", [["What we collect", "If you sign up for the list, your email address. Nothing else is required to look around the site."], ["What stays on your device", "Your votes, your guild name and your place in the comic reader are saved in your own browser. We do not receive them unless you choose to send them."], ["Analytics", "We count visits to pages and signups with a privacy-friendly counter: no cookies and no personal profiles. It tells us which pages are visited, not who you are. Visits from browsers that ask not to be tracked are not counted."], ["What we do with your email", "We send news about the comic, the characters and the games. We never sell or share the list. Every email can be answered with a request to be removed, and we will remove you."], ["Children", "The site is not aimed at children under 13 and we do not knowingly collect their details."]]],
+    terms: ["Terms", [["The world and the art", "The Newer Dark Ages, its characters, its lore and its images belong to its creators. You are welcome to share links and screenshots. Please do not sell or republish the art or text without asking."], ["How the art is made", "The artwork is made with AI image tools, directed and approved by the creators. We say so openly."], ["Fan creations", "Fan art and stories are welcome. Credit the project, and keep them non-commercial unless we agree otherwise."], ["No promises", "The site, the comics and the games are works in progress. Things will change, and the site is provided as it is, without warranties."], ["Contact and changes", "We may update these terms as the project grows. Continuing to use the site means you accept the current version."]]],
+  }[kind];
+  return `<div class="page-head"><div class="title"><div class="eyebrow">The fine print, in plain language</div><h1>${P[0]}</h1></div></div>
+    <div class="panel legal">${P[1].map(([h, t]) => `<h3>${esc(h)}</h3><p>${esc(t)}</p>`).join("")}<p class="muted small">Last updated October 2026. <a href="#/${kind === "privacy" ? "terms" : "privacy"}">${kind === "privacy" ? "Terms" : "Privacy"}</a></p></div>`;
+}
+
+/* ---------- router ---------- */
+// everything the end user does not need to see: these routes show the team login in the public build
+const INTERNAL_ROUTES = ["lore", "vote", "studio", "team", "comic", "prompts", "manual", "roadmap", "art"];
+function render() {
+  const [, route = "", ...rest] = (location.hash || "#/").split("/");
+  let html;
+  const locked = INTERNAL_ROUTES.includes(route) && !TEAM();
+  if (locked) html = window.NDGate ? NDGate.view(route) : "";
+  else if (route === "characters") html = characters(...rest);
+  else if (route === "privacy" || route === "terms") html = legalPage(route);
+  else if (route === "manual") html = manual(rest[0]);
+  else if (route === "roadmap") html = roadmap();
+  else if (route === "art") html = EDITION === "mvp" ? artV2() : art();
+  else if (route === "prompts") html = promptsView();
+  else if (route === "lore") html = loreView(rest[0]);
+  else if (route === "vote") html = voteView(rest[0]);
+  else if (route === "studio") html = studioView(rest[0]);
+  else if (route === "team") html = teamView(rest[0]);
+  else if (route === "comic") html = comicView(rest[0]);
+  else html = storyHome();
+  if (render.cleanup) { render.cleanup(); render.cleanup = null; }
+  app.innerHTML = html;
+  if (locked) { /* the login page has nothing to start */ }
+  else if (route === "lore") loreInit();
+  else if (route === "vote") { voteInit(); render.cleanup = () => window.__voteCleanup && window.__voteCleanup(); }
+  else if (route === "studio") render.cleanup = studioInit();
+  else if (route === "team") render.cleanup = teamInit();
+  else if (route === "comic") render.cleanup = comicInit();
+  else if (route === "prompts") render.cleanup = promptsInit();
+  else if (!["characters", "manual", "roadmap", "art", "privacy", "terms"].includes(route)) render.cleanup = storyInit();
+  const inChars = route === "characters" && rest[0] && GROUPS.find((g) => g.id === rest[0]);
+  document.body.classList.toggle("fit", !!inChars);
+  document.body.dataset.page = route === "characters" && !inChars ? "gallery" : (route || "home");
+  document.querySelectorAll("#nav a, .profmenu a[data-route]").forEach((n) => n.classList.toggle("active", n.dataset.route === (route || "home")));
+  const tint = route === "characters" ? (rest[0] ? (GROUPS.find((g) => g.id === rest[0]) || {}).color : (GROUPS.find((g) => g.id === galleryFilter) || {}).color) : null;
+  if (window.NDA3D) NDA3D.tint(tint || null);
+  // scene background only for a character that has its own scene
+  const leafId = route === "characters" && rest.length === 3 ? rest[2] : null;
+  const bgSrc = route === "vote" ? (window.__voteBg || null) : (leafId && NODE_ART[leafId] ? NODE_ART[leafId].bg : null);
+  setScene(bgSrc);
+  document.body.classList.toggle("has-bg", !!bgSrc);
+  const t = document.querySelector(".blk-title h2, .detail-head h2");
+  document.title = (t ? t.textContent.trim() + " · " : "") + "The Newer Dark Ages";
+  const target = document.getElementById("detail");
+  if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+  else if (!render.first) window.scrollTo(0, 0);
+  render.first = false;
+  NDAudio.setMode(route === "" || route === "home" ? "story" : route === "lore" ? "lore" : "music");
+  if (window.NDProfile) NDProfile.close();
+  const pb = document.getElementById("profbtn"); if (pb) pb.classList.toggle("here", ["team", "vote", "comic", "prompts", "manual", "roadmap", "art"].includes(route));
+}
+render.first = true;
+
+/* ---------- scene backgrounds: two stacked layers crossfade ---------- */
+const bgA = document.getElementById("bg"); const bgB = bgA.cloneNode(); bgB.id = "bg2"; bgA.after(bgB);
+let bgActive = null, bgSrcNow = null;
+function setScene(src) {
+  if (src === bgSrcNow) return;
+  bgSrcNow = src;
+  const next = bgActive === bgA ? bgB : bgA;
+  if (src) {
+    next.style.backgroundImage = `url("${src}")`;
+    next.classList.remove("on"); void next.offsetWidth; next.classList.add("on");
+    if (bgActive) bgActive.classList.remove("on");
+    bgActive = next;
+  } else if (bgActive) { bgActive.classList.remove("on"); bgActive = null; }
+}
+
+/* ---------- page transitions (View Transitions API, with graceful fallback) ---------- */
+const reduceMotion = () => matchMedia("(prefers-reduced-motion: reduce)").matches;
+const canVT = () => !!document.startViewTransition && !reduceMotion();
+const leafOf = (h) => { const p = h.split("/"); return p[1] === "characters" && p.length >= 5 ? p[4] : null; };
+let lastHash = location.hash;
+function transition(fn, id) {
+  if (!canVT()) { fn(); return; }
+  const old = id && document.querySelector(`[data-vt="${id}"]`);
+  if (old) old.style.viewTransitionName = "hero";
+  const t = document.startViewTransition(() => { fn(); const nu = id && document.querySelector(`[data-vt="${id}"]`); if (nu) nu.style.viewTransitionName = "hero"; });
+  t.finished.finally(() => document.querySelectorAll("[data-vt]").forEach((e) => (e.style.viewTransitionName = "")));
+}
+
+/* ---------- viewer: swipe on touch screens ---------- */
+let tsx = null;
+document.addEventListener("touchstart", (e) => { if (document.body.classList.contains("viewing") && !e.target.closest("#vn")) tsx = e.touches[0].clientX; else tsx = null; }, { passive: true });
+document.addEventListener("touchend", (e) => {
+  if (tsx === null) return; const dx = e.changedTouches[0].clientX - tsx; tsx = null;
+  if (Math.abs(dx) > 50) { viewStep(dx < 0 ? 1 : -1); e.preventDefault(); }
+}, { passive: false });
+
+/* ---------- gallery hover: 80s icons ride out of the horizon sun along the grid ---------- */
+let hoverOff = 0;
+app.addEventListener("mouseover", (e) => {
+  const t = e.target.closest && e.target.closest(".gc"); if (!t || !window.NDA3D) return;
+  if (e.relatedTarget && t.contains(e.relatedTarget)) return;
+  clearTimeout(hoverOff); NDA3D.hover(getComputedStyle(t).getPropertyValue("--c1").trim() || "#ffffff", (t.getAttribute("href") || "").split("/")[2]); document.body.classList.add("tile-hover");
+});
+app.addEventListener("mouseout", (e) => {
+  const t = e.target.closest && e.target.closest(".gc"); if (!t || !window.NDA3D) return;
+  if (e.relatedTarget && t.contains(e.relatedTarget)) return;
+  clearTimeout(hoverOff); hoverOff = setTimeout(() => { NDA3D.hover(null); document.body.classList.remove("tile-hover"); }, 140);
+});
+
+
+/* ---------- gallery mode: hide the UI and show only the art ---------- */
+/* ---------- art-only viewing ---------- */
+// While viewing, arrows and a small dot strip let you move between every character that has finished art.
+const vn = document.createElement("div"); vn.id = "vn"; document.body.appendChild(vn);
+const viewList = () => allCharacters().filter((c) => NODE_ART[c.l.id]);
+const viewIndex = (list) => list.findIndex((c) => c.l.id === (location.hash.split("/")[4] || ""));
+function buildViewer() {
+  const list = viewList(); const cur = viewIndex(list);
+  const [pg, ps, pl] = location.hash.split("/").slice(2);
+  const me = allCharacters().find((c) => c.g.id === pg && c.s.id === ps && c.l.id === pl);
+  const plaque = me ? `<div class="vn-plaque" style="${cv(me.g, me.l)}"><span class="pq-ico">${crest(me.g)}</span><div class="pq-txt"><b class="pq-name">${esc(me.l.name)}</b><span class="pq-path">${esc(me.g.name)} <i>›</i> ${esc(me.s.name)} <i>›</i> ${esc(me.l.name)}</span></div><span class="pq-pips"><i></i><i></i><i></i></span></div>` : "";
+  if (list.length < 2 || cur < 0) { vn.innerHTML = plaque; return; }
+  vn.innerHTML = plaque + `
+    <button class="vn-arrow prev" data-vstep="-1" aria-label="Previous character">${ic("chevron-left")}</button>
+    <button class="vn-arrow next" data-vstep="1" aria-label="Next character">${ic("chevron-right")}</button>
+    <div class="vn-dock" aria-label="Characters with finished art">
+      <div class="vn-dots">${list.map((c, i) => `<i class="${i === cur ? "on" : ""}"></i>`).join("")}</div>
+      <div class="vn-strip">${list.map((c, i) => `<button class="${i === cur ? "on" : ""}" data-vgo="${c.path.join("/")}" title="${esc(c.l.name)}"><img src="${NODE_ART[c.l.id].src}" alt="${esc(c.l.name)}"><span>${esc(c.l.name)}</span></button>`).join("")}</div>
+    </div>`;
+}
+let keepView = false;
+function viewStep(d) {
+  const list = viewList(); const cur = viewIndex(list);
+  if (list.length < 2 || cur < 0) return;
+  goView(list[(cur + d + list.length) % list.length].path.join("/"));
+}
+function goView(path) { keepView = true; location.hash = `#/characters/${path}`; }
+const closeView = () => { document.body.classList.remove("viewing"); keepView = false; };
+const openView = () => { buildViewer(); document.body.classList.add("viewing"); };
+document.addEventListener("click", (e) => {
+  if (!document.body.classList.contains("viewing")) return;
+  const ctl = e.target.closest("#vn");
+  if (ctl) {
+    e.preventDefault(); e.stopPropagation();
+    const st = e.target.closest("[data-vstep]"), go = e.target.closest("[data-vgo]");
+    if (st) viewStep(+st.dataset.vstep); else if (go) goView(go.dataset.vgo);
+    else if (e.target.closest(".vn-dock")) e.target.closest(".vn-dock").classList.toggle("open");
+    return;
+  }
+  e.preventDefault(); e.stopPropagation(); closeView();
+}, true);
+document.addEventListener("keydown", (e) => {
+  if ((e.key === "Enter" || e.key === " ") && e.target.matches && e.target.matches(".fig.has-art")) { e.preventDefault(); openView(); return; }
+  if (e.key === "Escape") { closeView(); }
+  else if (document.body.classList.contains("viewing") && (e.key === "ArrowRight" || e.key === "ArrowLeft")) { e.preventDefault(); viewStep(e.key === "ArrowRight" ? 1 : -1); }
+});
+window.addEventListener("nda:replay", () => render());
+window.addEventListener("hashchange", () => {
+  const stay = keepView; keepView = false;
+  const prev = lastHash; lastHash = location.hash;
+  const run = () => {
+    if (!stay) document.body.classList.remove("viewing");
+    render();
+    if (stay) { buildViewer(); document.body.classList.add("viewing"); }
+  };
+  if (stay) { run(); return; }
+  const pl = leafOf(prev), nl = leafOf(location.hash);
+  // the character image travels between the gallery tile and the details page
+  const morph = pl === nl ? pl : (!pl || !nl) ? (pl || nl) : null;
+  transition(run, morph);
+});
+
+app.addEventListener("click", (e) => {
+  const f = e.target.closest("[data-filter]");
+  if (f) { const id = f.dataset.filter || null; galleryFilter = id === galleryFilter ? null : id; saveFilters(); transition(render); return; }
+  const lc = e.target.closest("[data-lorecast]");
+  if (lc) { loreState.cast = lc.dataset.lorecast; const y = scrollY; render(); scrollTo(0, y); return; }
+  const vm = e.target.closest("[data-vmode]");
+  if (vm) {
+    const hp = location.hash.split("/");
+    if (vm.dataset.vmode === "vertical") { if (hp[1] === "characters" && hp[2]) { galleryFilter = hp[2]; saveFilters(); } location.hash = "#/characters"; }
+    else { const keep = lastDetails && (!galleryFilter || lastDetails.split("/")[2] === galleryFilter); location.hash = keep ? lastDetails : `#/characters/${galleryFilter || GROUPS[0].id}`; }
+    return;
+  }
+  const r = e.target.closest("[data-role]");
+  if (r) { roleFilter = r.dataset.role || null; saveFilters(); transition(render); return; }
+  const st = e.target.closest("[data-status]");
+  if (st) { statusFilter = st.dataset.status || "any"; saveFilters(); transition(render); return; }
+  const cp = e.target.closest("[data-copy]");
+  if (cp) { const txt = promptStore[cp.dataset.copy]; (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(() => { cp.textContent = "Copied"; setTimeout(() => (cp.textContent = "Copy"), 1400); }).catch(() => { const ta = cp.parentElement.querySelector("textarea"); ta.select(); }); return; }
+  if (e.target.closest("[data-view]")) { openView(); return; }
+  const go = e.target.closest("[data-go]");
+  if (go) location.hash = go.dataset.go;
+});
+app.addEventListener("change", (e) => {
+  const id = e.target.dataset.task; if (!id) return;
+  const c = loadChecks(); c[id] = e.target.checked; saveChecks(c); const y = scrollY; render(); scrollTo(0, y);
+});
+// the sideways details scroll with the mouse wheel
+app.addEventListener("wheel", (e) => {
+  const d = e.target.closest(".details");
+  if (!d || d.scrollWidth <= d.clientWidth || Math.abs(e.deltaY) < Math.abs(e.deltaX)) return;
+  if (e.target.closest("textarea")) return;
+  e.preventDefault(); d.scrollLeft += e.deltaY;
+}, { passive: false });
+
+render();
+
+
+/* ---------- edition switch (MVP edition / full roster) ---------- */
+(function () {
+  const set = (v) => { try { localStorage.setItem("nda-edition-v2", v); } catch {} location.reload(); };
+  const mvp = EDITION === "mvp";
+  const nm = document.getElementById("pm-edname"); if (nm) nm.textContent = mvp ? "MVP edition" : "Full roster";
+  document.body.dataset.access = TEAM() ? "team" : "public";
+  document.body.dataset.ed = EDITION; // not data-edition: that attribute marks the switch links, and a click handler listens for it
+  const m = document.getElementById("ed-mvp"), f = document.getElementById("ed-full"); if (m) m.classList.toggle("on", mvp); if (f) f.classList.toggle("on", !mvp);
+  // capture phase: the profile menu stops clicks from bubbling, so a normal listener on the document would never hear its links
+  document.addEventListener("click", (e) => { const t = e.target.closest("a[data-edition]"); if (!t) return; e.preventDefault(); e.stopPropagation(); const v = t.dataset.edition; if (v !== EDITION) set(v); else if (window.NDProfile) NDProfile.close(); }, true);
+})();
+
+
+/* ---------- audience hooks: the footer links, an email signup and privacy-friendly analytics. Set both in index.html (window.NDA_CONFIG) when the accounts exist. ---------- */
+window.NDAnalytics = (function () {
+  // cfg = { provider: "umami" | "plausible" | "goatcounter", id: "...", src: "(optional script address)", local: true (only to test on localhost) }. This site changes pages with # links, so every route change is reported by hand.
+  // Nothing is sent from the team's own sign-ins, from localhost, or from browsers that ask not to be tracked. No cookies are set by the script.
+  let on = false, last = "";
+  const path = () => "/" + ((location.hash || "#/").replace(/^#\/?/, "") || "");
+  const skip = (cfg) => (window.NDA_TEAM && window.NDGate) || (!cfg.local && /^(localhost|127\.|0\.0\.0\.0)/.test(location.hostname)) || navigator.doNotTrack === "1" || window.doNotTrack === "1";
+  const view = () => {
+    const p = path(); if (!on || p === last) return; last = p;
+    try {
+      if (window.umami) umami.track((o) => Object.assign({}, o, { url: p, title: document.title }));
+      else if (window.goatcounter && goatcounter.count) goatcounter.count({ path: p, title: document.title });
+    } catch {} // plausible's hash script reports route changes itself
+  };
+  const event = (name) => { if (!on) return; try { if (window.umami) umami.track(name); else if (window.plausible) plausible(name); else if (window.goatcounter && goatcounter.count) goatcounter.count({ path: "event/" + name, title: name, event: true }); } catch {} };
+  function init(cfg) {
+    if (!cfg || !cfg.id || on || skip(cfg)) return false;
+    const s = document.createElement("script"); s.defer = true;
+    if (cfg.provider === "umami") { s.src = cfg.src || "https://cloud.umami.is/script.js"; s.dataset.websiteId = cfg.id; s.dataset.autoTrack = "false"; }
+    else if (cfg.provider === "plausible") { s.src = cfg.src || "https://plausible.io/js/script.hash.js"; s.dataset.domain = cfg.id; }
+    else if (cfg.provider === "goatcounter") { s.src = cfg.src || "https://gc.zgo.at/count.js"; s.dataset.goatcounter = `https://${cfg.id}.goatcounter.com/count`; s.dataset.goatcounterSettings = JSON.stringify({ no_onload: true }); }
+    else return false;
+    s.onload = () => { on = true; last = ""; view(); };
+    document.head.appendChild(s); window.addEventListener("hashchange", view); on = cfg.provider === "plausible" ? true : on; return true;
+  }
+  return { init, event };
+})();
+(function () {
+  const cfg = window.NDA_CONFIG || {}, foot = document.querySelector(".foot"); if (!foot) return;
+  foot.insertAdjacentHTML("beforeend", ' · <a href="#/privacy">Privacy</a> · <a href="#/terms">Terms</a>');
+  if (cfg.signupUrl) {
+    foot.insertAdjacentHTML("beforebegin", `<form class="signup" action="${cfg.signupUrl}" method="post" target="_blank"><label for="su-email">Get news about the comic and the games</label><span><input id="su-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required><button class="btn" type="submit">Sign up</button></span></form>`);
+    document.addEventListener("submit", (e) => { if (e.target.closest && e.target.closest(".signup")) NDAnalytics.event("signup"); });
+  }
+  NDAnalytics.init(cfg.analytics);
+})();

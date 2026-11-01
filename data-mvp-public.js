@@ -1,0 +1,3 @@
+// The launch roster (which characters), without the team's notes.
+window.MVP = {"picks":{"human":[{"id":"fuelpriests"},{"id":"pinball"},{"id":"pipedpipers"}],"vampire":[{"id":"gargoyle"},{"id":"batcallers"},{"id":"leechkin"}],"were":[{"id":"bonecrushers"},{"id":"flyingsquirrels"},{"id":"scarabshifters"}],"ghost":[{"id":"rustwraith"},{"id":"staticwraiths"},{"id":"seanceoperators"}],"undead":[{"id":"contractreapers"},{"id":"embalmeralchemists"},{"id":"marrowpuppeteers"}],"forest":[{"id":"canopybeastmasters"},{"id":"mossplate"},{"id":"sweetwings"}],"eldritch":[{"id":"nightmareshepherds"},{"id":"manymaw"},{"id":"etherwing"}],"magic":[{"id":"necromancers"},{"id":"stickywizards"},{"id":"sporecoven"}]}};
+window.NODE_ART_V2 = {};

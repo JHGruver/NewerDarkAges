@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#08080b">
+<title>The Newer Dark Ages</title>
+<meta name="description" content="1986: the world finds out the monsters are real. Meet the humans, vampires, werewolves and the things the war woke up in The Newer Dark Ages.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Newer Dark Ages">
+<meta property="og:title" content="The Newer Dark Ages">
+<meta property="og:description" content="1986: the world finds out the monsters are real. Meet the peoples of a world that looks like the Dark Ages lit by neon.">
+<meta property="og:image" content="https://jhgruver.github.io/NewerDarkAges/art/site/og-share.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://jhgruver.github.io/NewerDarkAges/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Newer Dark Ages">
+<meta name="twitter:description" content="1986: the world finds out the monsters are real. Meet the peoples of a world that looks like the Dark Ages lit by neon.">
+<meta name="twitter:image" content="https://jhgruver.github.io/NewerDarkAges/art/site/og-share.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="art/site/logo-mark.png">
+<link rel="apple-touch-icon" href="art/site/logo-mark.png">
+<link rel="stylesheet" href="styles.css?v=1793548184676">
+</head>
+<body>
+<script>window.NDA_PUBLIC=true;window.NDA_V="1793548184676";window.NDA_USERS={"jacob":1,"mike":1}</script>
+<div id="bg" aria-hidden="true"></div>
+<div id="grain" aria-hidden="true"></div>
+<header class="topbar">
+  <a class="brand" href="#/"><span class="bolt" id="brand-ic"></span><span>The Newer Dark Ages</span></a>
+  <nav id="nav">
+    <a href="#/" data-route="home">World</a>
+    <a href="#/characters" data-route="characters">Characters</a>
+    <a href="#/lore" data-route="lore" data-internal>Lore</a>
+    <a href="#/studio" data-route="studio" data-internal>Studio</a>
+  </nav>
+  <button class="sndbtn" id="sndbtn" aria-label="Sound" aria-pressed="true" title="Sound"></button>
+  <a class="cta" href="#/characters">Choose your character <span aria-hidden="true">→</span></a>
+  <button class="profbtn" id="profbtn" aria-label="Profile and menu" aria-haspopup="true" aria-expanded="false"></button>
+  <div class="profmenu" id="profmenu" role="menu" aria-label="Profile and menu">
+    <div class="pm-card" data-internal>
+      <input class="pm-name" maxlength="24" placeholder="Name your guild" aria-label="Guild name">
+      <div class="pm-rank">Level 1</div>
+      <div class="pm-bar"><i></i></div>
+      <div class="pm-xp"></div>
+      <div class="pm-stats"></div>
+      <a class="pm-hq" href="#/studio">Open Studio HQ <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="pm-sec pm-ed" data-internal><div class="pm-h">Edition · <span id="pm-edname"></span></div>
+      <a href="#" data-edition="mvp" id="ed-mvp">MVP edition <small>24 launch characters · new art direction</small></a>
+      <a href="#" data-edition="full" id="ed-full">Full roster <small>every character · original art direction</small></a></div>
+    <div class="pm-sec pm-main"><div class="pm-h">Explore</div>
+      <a href="#/" data-route="home">World</a><a href="#/characters" data-route="characters">Characters</a><a href="#/lore" data-route="lore" data-internal>Lore</a><a href="#/studio" data-route="studio" data-internal>Studio</a></div>
+    <div class="pm-sec" data-internal><div class="pm-h">Project</div>
+      <a href="#/prompts" data-route="prompts">Prompts</a><a href="#/team" data-route="team">Team</a><a href="#/comic" data-route="comic">Prequel comic</a><a href="#/vote" data-route="vote">Vote</a><a href="#/manual" data-route="manual">Monster Manual</a><a href="#/roadmap" data-route="roadmap">Roadmap</a><a href="#/art" data-route="art">Art Direction</a></div>
+    <details class="pm-sec pm-arch" data-internal><summary class="pm-h">Previous versions</summary>
+      <a href="v1/index.html#/characters">Version 1 · Gold &amp; Glass</a>
+      <a href="v1/index.html#/manual">Version 1 · Monster Manual</a>
+      <a href="v1/index.html#/">Version 1 · World</a>
+      <a href="playground.html">Playground · Style × Theme matrix</a>
+      <a href="playground.html#cyber">Playground · Neon Scavenger</a>
+      <div class="pm-foot">Current: Version 2 · Neon Scavenger</div></details>
+    <div class="pm-sec pm-pub" data-public><a href="#/team">Team sign in</a></div>
+    <div class="pm-sec pm-set"><button class="pm-btn" id="pm-snd" type="button">Sound</button><button class="pm-btn" id="pm-out" type="button" data-gated>Sign out</button></div>
+  </div>
+</header>
+<div class="scrim" id="scrim"></div>
+<main id="app"></main>
+<footer class="foot">The Newer Dark Ages<span data-internal> · Version 2 · Lore in <code>data-lore.js</code>, characters in the <code>data-*.js</code> files</span></footer>
+<script>window.NDA_CONFIG={analytics:null,signupUrl:""}; /* analytics: when Mike has an account, set e.g. {provider:"umami",id:"THE-WEBSITE-ID"} (also "plausible" with your domain, or "goatcounter" with your code). signupUrl: the mailing service form address. */</script>
+<script>try{window.NDA_EDITION=localStorage.getItem("nda-edition-v2")==="full"?"full":"mvp"}catch(e){window.NDA_EDITION="mvp"}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="scene.js?v=1793548184676"></script>
+<script src="audio.js?v=1793548184676"></script>
+<script src="icons.js?v=1793548184676"></script>
+<script src="data.js?v=1793548184676"></script>
+<script src="data-peoples-1.js?v=1793548184676"></script>
+<script src="data-peoples-2.js?v=1793548184676"></script>
+<script src="data-peoples-3.js?v=1793548184676"></script>
+<script src="data-peoples-4.js?v=1793548184676"></script>
+<script src="data-types.js?v=1793548184676"></script>
+<script src="art-stub.js?v=1793548184676"></script>
+<script src="data-magic.js?v=1793548184676"></script>
+<script src="data-summoners.js?v=1793548184676"></script>
+<script src="data-lore-public.js?v=1793548184676"></script>
+<script src="story.js?v=1793548184676"></script>
+<script src="data-mvp-public.js?v=1793548184676"></script>
+<script src="gate.js?v=1793548184676"></script>
+</body>
+</html>
