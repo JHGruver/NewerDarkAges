@@ -525,6 +525,18 @@ function legalPage(kind) {
     <div class="panel legal">${P[1].map(([h, t]) => `<h3>${esc(h)}</h3><p>${esc(t)}</p>`).join("")}<p class="muted small">Last updated October 2026. <a href="#/${kind === "privacy" ? "terms" : "privacy"}">${kind === "privacy" ? "Terms" : "Privacy"}</a></p></div>`;
 }
 
+// One signup form, used in the footer, on the home page and on the vote page. It only exists once index.html has an address (NDA_CONFIG.signupUrl).
+//   signupUrl: the mailing service's form address.  signupField: the name of its email box (default "email").  signupFields: any extra hidden fields it wants, e.g. {embed: 1}.
+window.NDSignup = (function () {
+  const cfg = () => window.NDA_CONFIG || {}, esc = (v) => String(v).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const on = () => !!cfg().signupUrl;
+  const html = (place, line) => {
+    const c = cfg(); if (!c.signupUrl) return "";
+    const hid = Object.entries(c.signupFields || {}).map(([k, v]) => `<input type="hidden" name="${esc(k)}" value="${esc(v)}">`).join("");
+    return `<form class="signup signup-${esc(place)}" data-place="${esc(place)}" action="${esc(c.signupUrl)}" method="post" target="_blank"><label for="su-email-${esc(place)}">${esc(line || "Get news about the comic and the games")}</label><span><input id="su-email-${esc(place)}" type="email" name="${esc(c.signupField || "email")}" placeholder="you@example.com" autocomplete="email" required>${hid}<button class="btn" type="submit">Sign up</button></span><small>One email when there is news. No spam, and you can leave any time.</small></form>`;
+  };
+  return { on, html };
+})();
 /* ---------- router ---------- */
 // everything the end user does not need to see: these routes show the team login in the public build
 const INTERNAL_ROUTES = ["lore", "vote", "studio", "team", "comic", "prompts", "manual", "roadmap", "art"];
@@ -540,7 +552,7 @@ function render() {
   else if (route === "art") html = EDITION === "mvp" ? artV2() : art();
   else if (route === "prompts") html = promptsView();
   else if (route === "lore") html = loreView(rest[0]);
-  else if (route === "vote") html = voteView(rest[0]);
+  else if (route === "vote") html = voteView(rest[0]) + NDSignup.html("vote", "Want to know when the real vote opens? Leave your email.");
   else if (route === "studio") html = studioView(rest[0]);
   else if (route === "team") html = teamView(rest[0]);
   else if (route === "comic") html = comicView(rest[0]);
@@ -770,9 +782,8 @@ window.NDAnalytics = (function () {
 (function () {
   const cfg = window.NDA_CONFIG || {}, foot = document.querySelector(".foot"); if (!foot) return;
   foot.insertAdjacentHTML("beforeend", ' · <a href="#/privacy">Privacy</a> · <a href="#/terms">Terms</a>');
-  if (cfg.signupUrl) {
-    foot.insertAdjacentHTML("beforebegin", `<form class="signup" action="${cfg.signupUrl}" method="post" target="_blank"><label for="su-email">Get news about the comic and the games</label><span><input id="su-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required><button class="btn" type="submit">Sign up</button></span></form>`);
-    document.addEventListener("submit", (e) => { if (e.target.closest && e.target.closest(".signup")) NDAnalytics.event("signup"); });
-  }
+  // the footer form (the footer itself is hidden on the home page and while voting, so those pages carry their own, see storyHome and the vote route)
+  if (NDSignup.on()) foot.insertAdjacentHTML("beforebegin", NDSignup.html("footer"));
+  document.addEventListener("submit", (e) => { const f = e.target.closest && e.target.closest(".signup"); if (f) { NDAnalytics.event("signup"); NDAnalytics.event("signup-" + (f.dataset.place || "page")); } });
   NDAnalytics.init(cfg.analytics);
 })();

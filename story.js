@@ -88,6 +88,7 @@
       </aside>
       <a class="skip" href="#/characters">Skip to characters →</a>
       ${ch}
+      ${window.NDSignup ? NDSignup.html("home", "The signal is coming back. Get one email when there is news.") : ""}
     </div>`;
   };
 

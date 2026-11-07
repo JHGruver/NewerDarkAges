@@ -1730,3 +1730,19 @@ body[data-access="team"] [data-public] { display: none !important; }
 .rdr-say small { display: block; font: 700 1.25cqw/1.2 var(--mono, monospace); letter-spacing: .1em; text-transform: uppercase; color: #6b6450; }
 .rdr-sfx { justify-self: center; font: 900 4.4cqw/1 Impact, "Arial Black", sans-serif; letter-spacing: .06em; text-transform: uppercase; color: #fffdf4; -webkit-text-stroke: .3cqw #14120d; text-shadow: .5cqw .5cqw 0 #14120d; transform: rotate(-4deg); }
 @media (prefers-reduced-motion: reduce) { .rdr-words { transition: none; } }
+
+/* email signup: footer, home page and vote page share one form */
+.signup small { color: var(--soft); font-size: .72rem; }
+.signup-home { position: relative; z-index: 3; padding: 56px 16px 64px; background: #08080b; border-top: 1px solid var(--line); } .signup-home label { font-size: 1.15rem; color: var(--ink); }
+.signup-vote { max-width: 560px; margin: 24px auto 8px; border-top: 1px solid var(--line); }
+body[data-vote="play"] .signup-vote { display: none; }
+
+/* exec suite: the draft documents the founders review in the Studio */
+.st-doc { margin: 10px 0 14px; border: 1px solid var(--line); border-radius: 12px; background: rgba(255,255,255,.04); } .st-doc > summary { cursor: pointer; display: grid; gap: 2px; padding: 12px 16px; list-style: none; } .st-doc > summary::-webkit-details-marker { display: none; } .st-doc > summary small { color: var(--muted); } .st-doc[open] > summary { border-bottom: 1px solid var(--line); }
+.st-docbody { padding: 8px 20px 22px; max-width: 78ch; } .st-docbody h3 { margin: 12px 0 2px; font-size: 1.25rem; } .st-docbody h4 { margin: 14px 0 2px; font: 700 .72rem var(--mono, monospace); letter-spacing: .14em; text-transform: uppercase; color: var(--hot, #f0c24b); } .st-docbody p { margin: 0; line-height: 1.5; font-size: .92rem; } .st-docbody mark { background: rgba(240,194,75,.22); color: inherit; padding: 0 3px; border-radius: 3px; }
+.st-sign { display: flex; gap: 28px; flex-wrap: wrap; margin-top: 26px; } .st-sign span { flex: 1; min-width: 180px; display: grid; gap: 2px; font-size: .85rem; } .st-sign i { display: block; height: 28px; border-bottom: 1px solid var(--ink); } .st-sign small { color: var(--muted); font-size: .68rem; }
+.st-poll .st-docbody { max-width: 96ch; } .st-pl { list-style: none; margin: 12px 0 4px; padding: 0; display: grid; gap: 10px; } .st-pa { display: grid; gap: 6px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: rgba(255,255,255,.03); }
+.st-pt { display: grid; gap: 1px; } .st-pt small { color: var(--muted); } .st-pq { display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center; } .st-pq > span { min-width: 78px; font: 700 .68rem var(--mono, monospace); letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.st-pr { display: inline-flex; gap: 6px; align-items: center; padding: 5px 11px; border: 1px solid var(--line); border-radius: 99px; cursor: pointer; font-size: .85rem; } .st-pr:has(input:checked) { border-color: var(--hot, #f0c24b); background: rgba(240,194,75,.14); } .st-pr input { accent-color: var(--hot, #f0c24b); margin: 0; }
+.st-pn, .st-pf input, .st-pf select { padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: rgba(255,255,255,.06); color: var(--ink); font: inherit; width: 100%; box-sizing: border-box; } .st-pfs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 12px; } .st-pf { display: grid; gap: 4px; font-size: .85rem; } .st-pwho { max-width: 220px; margin: 10px 0; }
+.st-pbtns { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 16px 0 6px; }
