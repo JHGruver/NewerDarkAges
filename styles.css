@@ -1412,7 +1412,7 @@ body[data-vote="play"] .vote { padding-top: 0; padding-bottom: 0; }
 .st-strip { margin: 0 0 16px; }
 .st-cap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; margin: 10px 0 0; font: .7rem var(--mono); color: var(--soft); } .st-cap b { color: var(--ink); } .st-cap.tight { color: #ffd60a; }
 .st-meta { display: flex; flex-wrap: wrap; gap: 4px 6px; align-items: center; margin-top: 5px; } .st-wk, .st-hr { font: .66rem var(--mono); color: var(--soft); } .st-flag { padding: 1px 8px; border-radius: 99px; font: 700 .6rem var(--mono); color: #0b0b0f; background: #ff6b8b; } .st-flag.on { background: var(--cy); }
-.st-ai { display: block; margin-top: 4px; color: var(--soft); font-size: .72rem; }
+.st-agents { display: block; margin-top: 4px; color: var(--soft); font-size: .72rem; }
 .st-q.late label { border-color: rgba(255, 107, 139, .35); } .st-q.now label { border-color: rgba(111, 233, 255, .4); }
 .page-head .btn { margin-left: auto; }
 @media (max-width: 1100px) { .tm-cols { grid-template-columns: repeat(2, minmax(0, 1fr)); } .tm-cols::before, .tm-col::before { display: none; } }
